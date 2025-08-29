@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!--preliminary title taken from source document-->
+            <title type="main" xml:lang="bo-Latn-x-wylie">'brel brtag rab 'byed</title>
+            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
+            </respStmt>
+            <!-- TODO: add any other contributors and their roles here -->
+            <!-- end of responsibility statments specific to this document -->
+            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
+					do not manually change this as it might be overwritten in a later stage -->
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <!-- responsibility statments applying to all documents -->
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies
+                     to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">2_055_01b</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC project
+               “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol). This project
+               has received funding from the European Research Council (ERC) under the European
+               Union's Horizon 2020 research and innovation programme (grant agreement No.
+               101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix point to
+                  the project's APIS instance, a database system to collect information of
+                  entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix point to
+                  the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix point to
+                  a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+                  point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <!-- <langUsage> to be inserted from APIS -->
+      </profileDesc>
+      <revisionDesc status="draft">
+         <!-- TODO enter date and name of person creating this document -->
+         <change when="2023-01-09+01:00">transformed docx to TEI</change>
+         <change when="2023-01-13">PH split doc into two, renamed °a and °b, as contains 2
+            works</change>
+         <change when="2023-01-13">PH start excerpt markup</change>
+         <change when="2023-01-23+10:04">PH excerpt markup</change>
+         <change when="2023-01-24+01:33">PH fix markup</change>
+         <change when="2023-01-24+02:29">PH fix lb pb</change>
+         <change when="2023-01-31+01:50">PH fix tags</change>
+         <change when="2023-02-22+04:05">PH finish tags all persons all works</change>
+         <change when="2023-03-08+08:25">PH review exc</change>
+         <change when="2023-07-21+08:25">PH minor fix</change>
+         <change when="2025-08-01">RG finalised segs</change>
+      </revisionDesc>
+   </teiHeader>
+   <text><body><seg type="excerpt" xml:id="ex5501b2023-01-2321-59-19" status="finalized"> <note type="editorial"> This text follows that of ID: 5901 on the same manuscript, starting on f. 4b2.</note> <rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel pa brtag pa</rs> la don brgyad ste ¦ </seg><seg type="excerpt" xml:id="ex5501b2023-01-2322-00-25" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (4b5)"/>
+                            <rs type="work" ref="db:4947" ana="corpusmd:named_reference"><rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel <choice><orig>‹pa›</orig><reg>pa</reg></choice> brtag pa</rs>'i don <abbr>legs par</abbr> bsdus pa</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcoM ldan ral gri</rs>s bkod pa <abbr>rdzogs</abbr> s+ho |</seg>
+         </body></text></TEI>

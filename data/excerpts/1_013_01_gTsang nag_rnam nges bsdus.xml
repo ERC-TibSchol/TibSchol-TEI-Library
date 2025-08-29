@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+      <fileDesc>
+         <titleStmt>
+				<!--preliminary title taken from source document-->
+            <title type="main" xml:lang="bo-Latn-x-wylie">dBu ma rtsa ba'i 'grel ba</title>
+            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:TD">Tsering Drongshar</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Translation(s) by</resp>
+               <name ref="corpusmd:KK">Kazuo Kano</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <!-- TODO: add any other contributors and their roles here -->
+            <!-- end of responsibility statments specific to this document -->
+            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
+					do not manually change this as it might be overwritten in a later stage -->
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <!-- responsibility statments applying to all documents -->
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">1_013_01</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+			<!-- <langUsage> to be inserted from APIS -->
+		</profileDesc>
+      <revisionDesc status="draft">
+			<!-- TODO enter date and name of person creating this document -->
+         <change when="2023-01-09+01:00">transformed docx to TEI</change>
+         <change when="2023-06-06">TD added Person and work </change>
+         <change when="2023-06-12">RG corrected typos in tags + pb and lb</change>
+         <change when="2023-06-28"> TD tags work and person </change>
+         <change when="2023-06-29"> PH add note</change>
+         <change when="2023-07-20"> PH review; change lb pb (need to finish fixing up the tags</change>
+         <change when="2023-07-21"> PH finish fixing up the pb lb tags</change>
+         <change when="2024-02-06">revert TD's false commit and finalize colophon</change>
+         <change when="2024-09-12">PH fix seg ids</change>
+         <change when="2025-07-08">RG finalised segs in use</change>
+      </revisionDesc>
+   </teiHeader>
+   <text><body><seg type="excerpt" xml:id="ex1301_20072023-06-281" status="finalized">
+       <milestone unit="section" n="Cover page (1a)"/>
+       <pb n="1a"/><lb n="1a1"/>
+            <rs type="work" ref="db:4550" ana="corpusmd:named_reference"><rs type="work" ref="db:3774" ana="corpusmd:named_reference">
+            tshad ma rnam par nges pa</rs>'i Ti ka legs bshad bsdus pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3839"><abbr>slob dpon</abbr> gtsang nag pa</rs>s mdzad pa <abbr>bzhugs s+ho</abbr> ||
+            <lb n="1a2"/>
+         i <choice><reg>dra sa</reg><orig>(dra sa)</orig></choice> <rs type="person" ana="corpusmd:named_reference" ref="db:4551">SHakya b+hikSHu ku ma ra SHrI</rs> pustaM <rs type="work" ref="db:4550" ana="corpusmd:named_reference"><rs type="work" ref="db:3774" ana="corpusmd:named_reference">pra ma Na bi ni <choice><reg>SH+ca</reg><orig>(SH+ca/s+tsa)</orig></choice> ya sya</rs> TI ka</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">A tsarya virya sing ha sya</rs> kA ra: ||<note type="editorial">Skt: idam? śākyabhikṣu-kumāra-śrī pustaṃ pramāṇaviniścayasya ṭīkā ācārya-vīryasiṃhasya kārāḥ. Kumāraśrī (=Tib. gzhon nu dpal) could possibly be 'Gos lo tsA ba bZhon nu dpal.</note><note type="translation">This is the book of the shakya monk Kumarashri (Tib. gZhon nu dpal), a commentary on the Pramāṇaviniścaya, a composition of the master Viryasiṃha (=brTson 'grus seng ge)</note></seg>
+      <seg type="excerpt" xml:id="ex1301_10152023-06-283" status="reviewed"><milestone unit="section" n="A Incipit"/>
+                <milestone unit="section" n="Title"/> 
+           <pb n="1b"/><lb n="1b1"/><rs type="work" ref="db:4550" ana="corpusmd:named_reference"><rs type="work" ref="db:3774" ana="corpusmd:named_reference">tshad ma rnam par nges pa</rs>'i ti ka legs par bshad pa bsdus <choice><reg>pa</reg><orig>pa'</orig></choice></rs> zhes bya ba |
+                   <milestone unit="section" n="Invocation"/> 
+         <rs type="deity">bcom ldan 'das 'jam pa'i dbyangs</rs> la phyag 'tshal lo ||<note type="translation">Commentary on the Pramāṇaviniścaya – a summary of eloquent elucidations. I bow down to the Illustrious Mañjughoṣa.</note></seg>
+      <seg type="excerpt" xml:id="ex013012025-05-2117-53-13" status="reviewed"><milestone unit="section" n="Introductory verses (1b1-1b5"/> 
+        <milestone unit="section" n="v. 1"/> 
+        <lg> <l>gang zhig nyes pa kun bral chos rnams la ||</l><l>ye shes spyan <choice><reg>dang</reg><orig>dang {ldan pa'}</orig></choice>  thugs rje'i gsung dbyangs kyis ||</l><l>legs 'dod skye bo don la mi slu ba'i ||</l><l>'jug yul <rs type="deity">ston pa</rs> <lb n="1b2"/> de la phyag 'tshal lo ||</l></lg>
+        <note type="translation">I bow down to the one who teaches the object of engagement that is non-erroneous with regard to what is meaningful (for) people who wish well.
+Thanks to the eye of wisdom with regard to the phenomena devoid of all faults and the voice of compassion.</note>
+
+  <seg type="excerpt" xml:id="ex1301_1282023-4" status="reviewed">
+<milestone unit="section" n="v. 2"/> 
+       <lg><l>gang ma mthong pas srid par 'khyams gyur pa ||</l> <l>bdag la shes bya'i gnas la gnas nyid bzhin ||</l> <l>lta byed tshad ma'i myig gnyis sbyin mdzad pa'i ||</l>
+            <l>rgyal mtshungs <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma rnams</rs> la phyag 'tshal lo ||</l></lg>
+         <note type="translation">I bow down to the bla mas, who are like Victorious ones,
+Who bestowed the two eyes of valid cognition that make one see
+The nature of objects of cognition as it is
+To me, who was roaming in existence because of not seing.
+</note></seg>
+<milestone unit="section" n="v. 3"/> 
+         <seg type="excerpt" xml:id="ex13012023-07-2008-36-52" status="reviewed"> <lg><l>gang zhig dngos stobs blo yis dngos rnams la ||</l> <l>log lta'i gzhung rnams rab 'jig dngos nyid dang ||</l> <l><lb n="1b3"/> <rs type="deity">ston pa</rs>'i gsung don nges byed rigs pa'i tshul ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:3773"><rs type="work" ana="corpusmd:named_reference" ref="db:3774">rnam nges</rs> mdzad pa</rs> de 'dir rgyal gyur cig ||</l></lg><note type="translation">May the one who composed the Pramāṇaviniścaya be here victorious!
+(The Pramāṇaviniścaya) that destroys the traditions of mistaken views about entities by a mind (that conforms to) the force of reality, which has a method of reasoning that ascertains what is real and the meaning of the words of the teacher.
+</note></seg>
+        <milestone unit="section" n="v. 4"/> 
+        <lg> <l>de lta'i gzhung 'di skye bo blo gros phyogs can gyis ||</l><l>
+        tshig don ma bshad tshig dang don 'ga' bshad pa dang |</l> <l>log par bshad dang skabs don gzhung las 'khyams bshad kyis ||</l> <l>shes 'dod rnams kyi dus dang sgra blo gron gyur byas ||</l></lg><note type="translation">(Regarding) this text that is such, 
+partially intelligent people have not explained the meaning of the words,
+Or have explained some of the words and meaning, or have explained them incorrectly, or have explained the context in deviating from the text.
+Because of this, the time and words and intelligence of those who wish to know have been consumed.
+</note> 
+  <milestone unit="section" n="v. 5"/> 
+            <seg type="excerpt" xml:id="ex1301_10202023-06-285" status="reviewed"><lg><l>de dag rjes <lb n="1b4"/> zhugs dpyad la ltos myed par ||</l> <l>rnam 'jig sdud dang gzhung don gsal byed pas ||</l> <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3773">ston de</rs>'i dgongs pa bde blag nges 'gyur ba'i ||</l> <l><rs type="work" ref="db:4550" ana="corpusmd:named_reference">legs bshad bsdus pa'i ti ka</rs> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3839">bdag </rs>gis bya ||</l></lg><note type="translation"/>I will compose a commentary that is the Summary of eloquent elucidations
+Such that the intention of this teacher can be ascertained easily,
+Without depending on the analysis of those who follow the former,
+By including their destruction and clarifying the meaning of the text.
+</seg>
+      <milestone unit="section" n="v. 6"/> 
+       <lg> <l>rnam bshad don gyi ro dang nus pa mi shes par ||</l> <l>grags pa'i sgra las che ba'i rlung du mngon rgyug pas ||</l> <l>gzhan zer skye bo lung brgya'i rnyog chus ngoms <lb n="1b5"/> pa bdag ||</l> <l>legs bshad bkod ma yan lag brgyad ldan 'di mi 'thung ||</l></lg><note type="translation">Because they follow, running, a wind that is bigger than renown words
+Without knowing the taste and quality (or strength, nus pa) of the meaning of the explanation
+Those who quench their thirst with the polluted water of the hundred instructions of people who (all) say something else
+Do not drink the spring-water of the eloquent elucidations which has eight attributes (of good water).
+</note>
+         <milestone unit="section" n="v. 7"/> 
+         <lg><l>gang dag rjod tshogs snying por mi byed kyi ||</l> <l><rs type="work">gzhung</rs> gis bstan pa'i don gzhung nges 'dod pa ||</l> <l>de dag tshig 'gas don mang rab gsal ba'i ||</l> <l>rigs bshad snying po 'di la ngo mtshar lta ||</l></lg><note type="translation">Those who do not take to heart the collections of discourses,
+But hope to ascertain the meaning taught in the texts (and) the texts,
+Should marvel at this (commentary) that is the essence of logical explanation,
+That clarifies many meanings by means of few words.
+</note>
+</seg>
+<seg type="excerpt" xml:id="ex1301_1282023-4" status="reviewed">
+<milestone unit="section" n="v. 2"/> 
+       <lg><l>gang ma mthong pas srid par 'khyams gyur pa ||</l> <l>bdag la shes bya'i gnas la gnas nyid bzhin ||</l> <l>lta byed tshad ma'i myig gnyis sbyin mdzad pa'i ||</l>
+            <l>rgyal mtshungs <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma rnams</rs> la phyag 'tshal lo ||</l></lg>
+         <note type="translation">I bow down to the bla mas, who are like Victorious ones,
+Who bestowed the two eyes of valid cognition that make one see
+The nature of objects of cognition as it is
+To me, who was roaming in existence because of not seing.
+</note></seg>
+<seg type="excerpt" xml:id="ex13012023-07-2008-36-52" status="reviewed"> <lg><l>gang zhig dngos stobs blo yis dngos rnams la ||</l> <l>log lta'i gzhung rnams rab 'jig dngos nyid dang ||</l> <l><lb n="1b3"/> <rs type="deity">ston pa</rs>'i gsung don nges byed rigs pa'i tshul ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:3773"><rs type="work" ana="corpusmd:named_reference" ref="db:3774">rnam nges</rs> mdzad pa</rs> de 'dir rgyal gyur cig ||</l></lg><note type="translation">May the one who composed the Pramāṇaviniścaya be here victorious!
+(The Pramāṇaviniścaya) that destroys the traditions of mistaken views about entities by a mind (that conforms to) the force of reality, which has a method of reasoning that ascertains what is real and the meaning of the words of the teacher.
+</note></seg>
+        <seg type="excerpt" xml:id="ex1301_10202023-06-285" status="reviewed"><lg><l>de dag rjes <lb n="1b4"/> zhugs dpyad la ltos myed par ||</l> <l>rnam 'jig sdud dang gzhung don gsal byed pas ||</l> <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3773">ston de</rs>'i dgongs pa bde blag nges 'gyur ba'i ||</l> <l><rs type="work" ref="db:4550" ana="corpusmd:named_reference">legs bshad bsdus pa'i ti ka</rs> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3839">bdag </rs>gis bya ||</l></lg><note type="translation"/>I will compose a commentary that is the Summary of eloquent elucidations
+Such that the intention of this teacher can be ascertained easily,
+Without depending on the analysis of those who follow the former,
+By including their destruction and clarifying the meaning of the text.
+</seg>
+      <seg type="excerpt" xml:id="ex1301_10252023-06-286" status="reviewed"><rs type="work" ref="db:3774" ana="corpusmd:unnamed_reference">rnam par nges <choice><reg>pa</reg><orig>pa'</orig></choice></rs> ni lus lta bu'i bstan bcos bar ma ste | gzhung cung zad bsdus pas tshad ma nyid kyi lus tshang par gtan la 'bebs pa'i phyir ro ||</seg> 
+         <seg type="excerpt" xml:id="ex1301_10292023-06-287" status="reviewed">de yang <rs type="work" ref="db:3774" ana="corpusmd:unnamed_reference">gzhung 'di </rs> ni rtsom pa la 'jug pa klad kyi don dang | brtsam par bya ba skabs kyi don dang | mthar phyin pa 'jug gi don gsum gyis nges par bya ba las |</seg><seg type="excerpt" xml:id="ex1301_1282023-06-288" status="reviewed" ana="corpusmd:mtshan_nyid">de la <rs type="person" ref="db:4593" ana="corpusmd:unnamed_reference">snga rabs pa dag </rs>mtshan nyid kyi skyon mtshon bya la ltos te mi srid pa dang ma khyab khyab ches gsum las myed par sems pa de dag ni khyab mnyam pa'i don ldog gzhan pa dang rang ldog rdzas su ma grub pa skyon du bsgrub pas <lb n="11a2"/> gnod par lta'o ||</seg><seg type="excerpt" xml:id="ex87032023-06-2912-23-02" status="finalized" ana="corpusmd:snang_la_ma_nges_pa"><milestone unit="section" n="1.1 so so'i ngo bo"/>
+         <milestone unit="section" n="1 snang la ma nges pa"/> de la snang la ma nges pa'i mtshan nyid ni
+         <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4206">kha cig</rs> <note type="editorial">An annotation in the manuscript of mTshur ston's Tshad ma shes rab sgron ma identifies the proponent as "rtag pa," which we understand to refer to sTag. See Hugon (ed.) 2004: 21, n. 30</note> snang yang nges pa 'dren mi nus pa zhes zer ba ni 'dir blo rnams yul cig la ltos nas <lb n="22b8"/> tha dad par 'jog pa yin no ||</seg>
+      <seg type="excerpt" xml:id="ex13012024-10-215-13-39" status="finalized">
+         <milestone unit="section" n="2.1 mngon sum la log rtogs dgag pa"/>
+         <lb n="24a6"/> dang po ni <rs type="person" ref="db:3786" ana="corpusmd:unnamed_reference">kha cig</rs> tshu rol mthong pa rnams ni yul dang dus dang skye mched ma phye bar gang la zhen pa drangs pa'i don la mi slu bas tshad mar 'gyur ba yin ste | zhen pa ni tshad ma'i byed pa yin pa'i phyir ro || de lta ma yin na 'gro ba na spyad pa'i don thob pa'i mi slu ba nyid mi srid par 'gyur te mthong pa'i dngos po rnams  <lb n="24a7"/> 'jug par gzo' ba na 'gag pa'i phyir ro || de lta yin dang me dang chu'i kha dog 'dzin pa ni tsha ba dang gsher ba'i zhen pa 'dren pa nyid kyis reg pa la tshad ma yin no zhes zer ro || <note type="editorial">This corresponds to the position of <rs type="person" ana="corpusmd:named_reference" ref="db:3786">rNgog lo tsa ba</rs> </note>
+         de ni mi rung ste | don myong pa'i stobs kyis rtogs pa myed pa'i phyir ro || </seg><seg type="excerpt" xml:id="ex1301_1282023-06-06" status="reviewed"><rs type="person" ref="db:5570" ana="corpusmd:unnamed_reference">snga rab pa pa</rs>'i 'dod pa rjes su brjod pa dang | sgrub bya sgrub byed kyi don nyid ngos gzung pa dang | de rang gi gzhung lugs smra ba rnams la sbyar ba'o ||
+         </seg>
+         <seg type="excerpt" xml:id="ex1301_1223023-06-289" status="reviewed">'di la <rs type="person" ref="db:4593" ana="corpusmd:unnamed_reference">chen po dag </rs>ni sgrub pa 'brel pa gnyis la rten pas dbye ba'i tshul ci 'dra ba myed pas sam | mi dmigs pa'i sgrub bya med dgag la dbye' ba myed pa sam | dbye bsdu' byas kyang gsum gyi grangs <pb n="110a"/><lb n="110a1"/> nges la gnod pa myed te mngon sum bzhir phye bas tshad ma'i grangs nges la mi gnod pa bzhin no zhes zer ro ||</seg>
+         <seg type="excerpt" xml:id="ex1301_12292023-06-2810" status="reviewed"><rs type="person" ref="db:3839" ana="corpusmd:unnamed_reference">kho bo cag</rs> rtags mi 'khrul pa'i spyi khyab de nyid la 'brel par brjod pa'i yang phyir ro ||</seg>
+         <seg type="excerpt" xml:id="ex1301_1282023-06-2823" status="reviewed">de la yang khas blangs <lb n="182b3"/> dang rang tshig gis bsal pa gnyis kyi khyad par ni <rs type="person" ref="db:4593" ana="corpusmd:unnamed_reference">snga rabs pa dag</rs> yid ches pa'i gang zag gzhan gyi tshig dang rgol ba rang gi tshig dang 'gal ba la 'jog go ||</seg> 
+         <seg type="excerpt" xml:id="ex1301_1232023-06-282" status="finalized" ana="corpusmd:colophon"><rs type="work" ref="db:4550" ana="corpusmd:named_reference"><rs type="work" ana="corpusmd:named_reference" ref="db:3774">tshad ma rnam par nges pa</rs>'i ti ka legs par bshad pa bsdus <lb n="210a4"/> pa</rs> zhes bya ba || <rs type="person" ref="db:3839" ana="corpusmd:unnamed_reference">rigs par smra ba'i dge slong brtson 'grus seng ge</rs>s sbyar pa'o || rdzogs s+ho || i thi ||</seg>
+      </body></text></TEI>

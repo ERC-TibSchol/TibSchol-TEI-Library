@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+      <fileDesc>
+         <titleStmt>
+				<!--preliminary title taken from source document-->
+            <title type="main" xml:lang="bo-Latn-x-wylie">mngon rtogs rgyan 'grel bshad</title>
+            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:Transkribus">Transkribus</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <!-- TODO: add any other contributors and their roles here -->
+            <!-- end of responsibility statments specific to this document -->
+            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
+					do not manually change this as it might be overwritten in a later stage -->
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <!-- responsibility statments applying to all documents -->
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">1_010_01</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+			<!-- <langUsage> to be inserted from APIS -->
+		</profileDesc>
+      <revisionDesc status="draft">
+			<!-- TODO enter date and name of person creating this document -->
+         <change when="2024-01-29+01:00">transformed docx to TEI</change>
+         <change when="2024-01-29+01:00">PH integrate TEI output</change>
+         <change when="2024-07-31">RG added segs - need reviewing</change>
+         <change when="2024-10-09">PH added tags and segs</change>
+         <change when="2025-05-23">RG finalised segs</change>
+      </revisionDesc>
+   </teiHeader>
+   <text><body><seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-03">
+         yan lag gi rten la shes rab ni <rs type="person" ana="corpusmd:named_reference" ref="db:5611">jo bo 'buM <lb n="2a2"/> pa</rs> ni <rs type="school">dbu ma sgyu ma lta bu</rs> dang | <rs type="school">rab du mi gnas pa</rs> gnyis kyi don shes pa ste |
+         dang po ni snang la bden pa'i chos kyis stong ba yin la | gnyis pa ni snang ba tsaM du yang mi gnas pa yin no ||</seg><seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-04">des na shes rab ni don ma shes pa × don dam pa'i <rs type="school">rab du mi gnas pa</rs> dang | <rs type="school">sgyu ma lta bu</rs> ni 'o zhes 'chad pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:3745">jo bo</rs>'i dgongs pa ma yin no || <note type="gloss">°°°°°° dbu ma nyid °°°°°°</note></seg><seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-55"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">lo tsha ba</rs> ltar na khyod bshad par dam bcas nas bstan chos 'chad na | bstan chos kyi brjod bya mngon par rtogs pa <abbr>thams cad</abbr> nyams su myong nas saM | 'on te bla ma daM pa'i <choice><sic>bdaM</sic><corr>gdams</corr></choice>ngag la brten nas 'chad |</seg> 
+         <seg type="excerpt" xml:id="ex10012025-04-2516-15-59" status="finalized"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">lo tsha ba</rs> ltar na tshig rkang pa gnyis po des rang don dang gzhan don gyi yon tan ston la | dang po ni snga ma dang 'dra'o || 
+            gnyis pa la gzhan don gyi rgyu bsam pa dang | ngo bo sbyor ba'o || </seg>
+            dang po bsaM pa ni tshig rkang dang po ste | 'gro ba la dmyig pa'i byas pa dang sning re'i chags pa'i bsaM pas dus kum tu'i yul seMn kun la chags
+            <seg type="excerpt" xml:id="ex10012025-04-2516-15-593" status="finalized">       'di la <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">lo tsha ba</rs> ni mkhyen pa gsuM dus gsuM dang 'brel pa | rang dang gzhan <abbr>thams cad</abbr> kyi thun mong ba | 'phags pa'i gang zag <abbr>thams cad</abbr> kyi rgyud la skye ba | shes bya rgya mtsho lta bu spyi yin la | sbyor ba bzhi dang chos sku × ni sbyor ba nyaMs su len pa po bdag nyid dang 'brel pa'i rgyu dang 'bras bu'i bye brag min pas | de'i skra'i rtse mo chu'i tshod tsaM
+            <lb n="9b5"/> yin pas de rgya mtsho lta bu der ji ste mi 'du | des na mkhyen pa gsuM la bstod pas brgyad ka la bstod par 'grub po | de'i phyir grangs nyung ba'i skyon med do zhes zer ro || </seg>
+            
+            de ni mi rigs te | de ltar na gsuM gyis lnga bsus ces par 'gyur ba las | gsuM gyis brgyad bsdus par bshad pas seng bzang gi gzhung dang 'gal lo | | do' gzhung du mi 'thun yang dngos po la de ltar 'thad zer na | mi rigs
+            <seg type="excerpt" xml:id="ex10012025-04-2516-15-594" status="finalized"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">lo tsha ba</rs>s <abbr>ye shes</abbr> kyi bdag nyid mkhyen pa gsuM chos sku las
+            <lb n="10b7"/> gzugs kyi sku'i sangs rgyas skyes pas yuM sras su gsungs pa ni mi rigs ste | sa dang po nyid du yon tan gyi che ba dang mtshan dang zhing dag pa dang | sprul pa brgya' 'gyed pa'i sku gsuM po cig ma thob nas | sa gnyis pa la yon tan dag pa dang mtshan dang zhing dag pa lhag pa dang | sprul pa stong 'gyed pa <abbr>la sogs</abbr> pas de nyid sbyong ba yin no | | </seg>
+            de bzhin du s bcu'i bar du'o | | sa bcu rgyun gyi tha ma la bun
+            <seg type="excerpt" xml:id="ex10012025-04-2516-15-595" status="finalized"> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">lo tsha ba</rs> ni tshul ni rang bzhin yin pas | rang bzhin tha dad pa gsuM pa can zhes 'chad de 'og du bshad par bya'o | |</seg>
+            n bu pa ni theg pa gsuM pa can zhe a'chad do ||
+         
+         
+         <seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-292"><rs type="person" ana="corpusmd:named_reference" ref="db:4294">khyung po</rs> dang <rs type="person" ana="corpusmd:named_reference" ref="db:4303">mda'</rs> na re sa bcu pa'i dkyil stod la yod pa yin te | de byang ghub seMs dpa'i mngon rtogs yin pas so || des na sa bcu pa'i stod la rnaM kun | dkyil la rtse mo || smad la mthar gyis pa | tha ma la skad cig ma zer ro ||
+            de dag gis 'di snyaM du spyir rtse mo brtan par byed pa mthar gyis pa yin no zhes bshad pas | de sa bcu rgyun gyi tha ma la byas na mthar gyis pa'i
+         <lb n="40b6"/>bstan byar mi 'thad de | de la rim pa med pa dang | de'i gong na laM gzhan med pa'i phyir ro zhes bsaMs pa yin no || de rnaMs ni mi rigs ste | </seg> rtso mo mthar gyis pas brtan par byed pa ni ma yin phyi | bstan pa ni skad cig ma yin la | de'i don du mthar gyis pa sgoM pa la brtan par bya ba'i phyir sgo zhes gsungs pa yin no || des na 'di sa bcu gyun gyi tha ma la bzhag pa la nyes pa ci yang med la
+         <seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-293">°°°°°° zhes pa la | <rs type="person" ana="corpusmd:named_reference" ref="db:4303">mda'</rs> dang <rs type="person" ana="corpusmd:named_reference" ref="db:4294">khyung po</rs> na re | sa bcu'i yin te | sa dang po thob ma thag la sbyin pa dang ldan pa | de bogs sbung pa khyad par can la mngon par shes pa dang ldan pa <abbr>la sogs</abbr> pa yin <lb n="49a7"/> no || de bzhin du sa bcu pa'i bar du sbyar ro zhes zer ro || de ni seng ge bzang po'i 'dod pa ma yin te | des don gyi go rims su bshad pas de lta na go rims 'khrugs par 'gyur bas so || </seg>
+      des na lnga po ni sa bcu pa'i khyad par myi laM la bya'o skad do || ses pas ces pa gsu ni sto ba dang so nga hi rang a mi o pas rtas kyis spas asa zhes pa ni | 'phags pas khyad par gyi
+      <seg type="excerpt" status="finalized" xml:id="ex10012024-10-0915-20-12">gnyis pa la <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">lo tsha ba</rs> na re dmigs pa dang rnaM pa mi brda'<!--TOCHECK brda'? unclear--> pa 'di dag kyang rjes thob kyis bsdus pa yin par 'thad de | mnyaM par bzhag pa'i tshe ni <abbr>thams cad</abbr> du chos kyi dbyings kyi rnaM
+            <lb n="69a3"/> pa can nyid do || 'on kyang rjes kyis mtshon nas 'di ltar bshad par zad do zhes zer ro || <rs type="person" ana="corpusmd:named_reference" ref="db:4189">lha rje</rs> na re chos kyi °°° dbyings kyi che ba dang | thabs la mkhas pa'i che ba gnyis kyi dbang du byas nas yin te | dang po'i dbang du byas nas nges 'byed <abbr>thams cad</abbr> kyang dmigs pa mi rtag pa <abbr>la sogs</abbr> pa la rnaM pa °°° mngon par zhen pa <abbr>la sogs</abbr> pa bkag pa'i chos nyid kyis dmigs par byed pas yin pas dmigs rnaM la khyad med do ||
+            <lb n="69a4"/> gnyis pa'i dbang du byas nas <abbr>sems can</abbr> mos pa sna tshogs pa rnaMs kyi mos pa dang bstun nas de 'dul ba'i thabs la mkhas pas dmigs rnaM du mar gsungs pa yin no zhes zer ro | </seg>
+            de gnyis ka mthi bzhag la dmogs rnai mi 'dra ba med par 'dod par 'thun mod kyi | de ni mi rigs ste | mtnhan gzhag la dmigs rnaM la hyad med na rtogs pa la khyad med par 'gyur ro || 'dod na re btsun gyis | de nas der ltar gyur pa'i ||
+            <seg type="excerpt" status="finalized" xml:id="ex10012024-10-0915-20-122"><rs type="person" ana="corpusmd:named_reference" ref="db:db:3827">'broM</rs> ltar na bye brag smra ba <lb n="74b5"/> rang ltar na ma chags pa'i dge ba cig su la yang rigs gsuM du 'jog pa bzhin du | nged chos nyid rigs su 'dod pa la yang mtshungs so zhes pa dang | <rs type="person" ana="corpusmd:named_reference" ref="db:4189">lha rje</rs> ltar na gnyis su med pa'i shes pa cig su la dmigs pa'i sgo nas rigs gsuM du seMs tsaM pa khyad rang 'dod pa bzhin du | nged chos nyid rigs su 'dod pa la mtshungs so zhes grub <note type="editorial">Reading uncertain</note> chos kyi lan yin <lb n="74b6"/> skad do | | </seg>
+            
+            gnyis pa bsgrub pa'i dmigs pa ni zhes bya ba lasogs pa'o || 'di yang gsuM gyis shes par bya ste | bstan pa dang | bshad pa dang | dbye ba ste | gcig dang mig dang drug gis rim pa bzhin no | 
+            de'i dbye ba ni dbye sno bzhi' dbye ste | laM dang mi mthun pa dang gnyer po dang 'bras bu'i sgo nas ste | de yang tshig gnyis dang cig dang cig dang gnyis kyis rim pa bzhin no  'di dag kyang grangs nges
+            <seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-294">gnyis pa so sor bshad pa la gnyis las | 
+               dang po sa 'tshaMs ni de ltar zhes bya ba <abbr>la sogs</abbr> pa ste | <rs type="person" ana="corpusmd:named_reference" ref="db:4294">khyung po</rs> na re go rims si la pa <note type="editorial">Reading "si la pa" uncertain.</note> bzhin zhes pa'i don ni go cha ni sbyor laM | °°° ni mthong laM | °°° ni sgoM laM sa bdun pa man chad | nges par °°° pa ni khyad par gyi laM sa brgyad pa <lb n="76a8"/> yan chad do zhes sbyar nas | brgyad stong bar ni gzhan <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3756">thogs med</rs> kyi</note> lugs bshad pa yin pas mi 'gal lo zhes zer ro || 
+               de ni ma yin te |</seg> <seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-295">'di la <rs type="person" ana="corpusmd:named_reference" ref="db:4294">khyung po</rs> na re | rnaM thar sgoM gsuM shes ba ni gnyen po cig yin la | 'dis spang bya gsuM spong ngo || °°° shes <abbr>la sogs</abbr> pa spong ba ni gnyen po gsuM yin la de gsuM gyis spang bya cig spong zhing | lhag ma rnaMs gnyen po re res spang bya re re spong zhes zer ro || 
+               
+            de ltar ni ma yin gyi | <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3792">dags po</rs><note type="editorial">"dags po" could also be Dwags po lha rje (ID:4189), but the latter is mentioned in the same text as "lha rje".</note> dang <rs type="person" ana="corpusmd:named_reference" ref="db:5611">'buM pa</rs> na re</note> gnyen po re res <pb n="85a"/><lb n="85a1"/> spang bya re re rim pa bzin spong ba yin pas °°°i°o°i° ni phung po lnga la ngo bor gyur pa'aM byin gyis rlob pa po'i bdag med pa yin pas | de shes pas bdag du 'dzin pa spong ste | de gnyis rnaM pa 'gal pa yin pa'i phyir ro ||</seg> 
+            
+
+ ngam mar thar pa'i sgo mthar ma bed pa ni gang mtshan ya med pa 'gog pa dang | gang gis mtshan ma myed par byed pa'i tsha yin la | de shes pas son du 'dzin pa song ste | de ni mthan
+            <seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-297">  gnyis pa ni de la zhes bya ba <abbr>la sogs</abbr> pa ste | <rs type="person" ana="corpusmd:named_reference" ref="db:4303">mda'</rs> na re mkhyen pa gong ma gnyis kyi rnaM pa yang rnaM pa <abbr>thams cad</abbr> mkhyen pa'i rnaM bar bsdus nas sgoM pa yin pas de'i rnaM pa sgoM pa rgyas par ston no zhes zer ro ||</seg> 'di la gsuM
+         <seg type="excerpt" status="finalized" xml:id="ex10012024-10-0915-45-21"> <rs type="person" ana="corpusmd:named_reference" ref="db:3745">jo bo</rs> ni de gnyis gzung ba dang 'dzin pa bkag pa yin zhes gsung ste | rnal 'byor ba'i blos dmigs par bya ba ni gzung ba lta bu yin la | <lb n="119a5"/> rnal 'byor bas goMs par byed pa ni 'dzin pa lta bu yin pas | dang po ltos pa gcod par byed pa'i rigs pas shes bya dang shes pa <abbr> thams cad</abbr> ma grub par gtan la phab nas | de ltar goMs par byed pa'i dus su shes bya ma grub par sgoM pa ni gnas pa bkag pa yin la | shes pa ma grub par sgoM pa ni rnal 'byor bkag pa yin no ||</seg> de la shes bya la gzung 'dzin gnyis su bcad nas de gnyis mi dmigs par sgoMg pa la de gnyis su 'ag pa ni ma yin no || rgyas par ni sngar bshad do || de nyid las dang po pas ji ltar nyaMs su len pa'i tshul ni | dran pa nye par bzhag pa la gnas pa dang rnal 'byor bkag nas sgong pa lasogs pa ste lus rnaM gzhag du bshad zin to || rtogs pa'i khyad par gyi sbyor ba gsuM ni dper na rjes su dpag pa'i tshad mas spyi nang gi shes bya stong pa nyid du rtags pa na | bla de nyid la me stong ba'i sgro 'dogs chod pas de yang stang par rtogs shing | de gnyis kyi chos kyi khyad par thaMd la yang sgra 'dogs chod pa'i sgo nas stong par rtogs pa bzhin du | lus dang tshor ba dang seMs dang chos la gnas pa dang rnal 'byor bdag nas snaM pa na | gnas pa ma dmigs pa'i don gyasg zhes gsung pas | gzhi phung po dang khaMs dang skye bched kyi de bzhin nyid zab par rtogs pa'i ldog pa nas de nyid la zab pa'i sbyor ba zhes bya'o || rang bzhin gyis rtog pa med pa'i don gyis zhes gsungs pas | zas pa sgo pa'i la bnyid kyi de bzhin nyid gsteng dpag dka' par rtogs pa'i ldog pa nas gting dpag dka' ba'i sbyor a zhes bya'o || mtha' me dmigs pa'o don gyis zhes gsungs pas de gnyis kyi rnaM pa'i chos tshad med pa'i de bzhin nyid tshad med par rtogs pa'i ldog pa nas de la tshad med pa'i sbyor ba zhes bya'o || ldog pa de gsuM nyid la rim pa bzhin gzhi dang la dang rnaM pa tshaMd mkhyen pa'i gsuM gyi sbyor ba zhes kyang bya'o || de nyed la gnas pa dang rnal byor bkag nas sgo la smraes rab kyi pha rol du phyin pa'i sbyor ba zhes byang bya'o || lus lasogs pa bzhi'i de bzhin nyid snaM pas dran pa sye btar bzhag kang shi tshul zhes rgya rgya' || de bzhin du sa bcu pa chos kyi srin hyi bar du sbyar ro || des na rtogs pa'i khyad par ro thab pa de la gnas pa dang rnal 'byor bkag pa'i | dang po snoM pa'i rnaM pa khun mngon par rogs pa yang de snyid yod do || <seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-296">des na 'di kun rnaM par 'khor zhes lugs las 'byung pa lta bu'o || <rs type="person" ana="corpusmd:named_reference" ref="db:4294">khyung po</rs>s sbyor ba 'di <abbr>thams cad</abbr> sa brgyad par bshad pa dang | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">lo tsha ba</rs>s ldog pa tsaM gyis tha dad par bshad pa ni gzhung dang mi mthun pas mi legs so ||</seg> 'brel par mi gnas pa lasogs pa'i tshig lnga la de ltar rtogs pa zhes pa tshig gsuM gyi thabs pa sbyar ba rnaMs ni mtshan nyid yin la | gzugs lasogs pa zhes pa yang tha ma gnyis kyi 'gor sbyar ste lnga 'i rnabs su sbyor ba dang zhes pa dang 'brel pa'i tshig lngas mtshon bya brjod do || mi srag pa lasogs pa tshig cho lnga'i zhabs su de lta bu lasogs pa'i sgrub pa dang ldan pa zhes pas ni mtshan nyid brjod la | 'og gi tshig bcho lnga'i zhabs su sbyor ba btags pa ni mtshon bya brjod pa yin no || sngon du 'gro ba'i chos la bzhi las | dang po yon tan ni yon tan mthong ba zhes bya ba lasogs pa'o || yon tan bcu bzhi po 'di dag tshogs la kyi sbyor ba la ni phal cher rjes 'thun du 'byung la tha cig dngos su 'byung no || hal cher ni srod nas 'thob la | sa dang por ni khyad par can 'byung ngo || nges 'byed cha bzhi dang sa bcu la sbyor ba ni 'khrul par shes par bya'o || 'brel pa'i dang po bcu bzhi nti 'bras bur gyur pa'i yon tan yin la | phyi ma bcu bzhi ni rgyur gyur pa'i yon tan yin no || de yang sbyor ba bsgoMs pa las 'bras bu de dag gi rgyu nus pa mthu' can du song ba ni rgyu'i yon tan yin la | de las 'bras bu mngon gyur skyes pa ni 'bras bu'i yon tan yin no || de rnaMs rin pa bzhin rgyu 'bras yin pas dang po suM kyi sbyor ba la gus par bsgoMs pa na sangs rgyab kyi sbyor ba de byin gyis blabs pa'i rgyu'i yon tan las | glud kyi mthu chong pa'i 'bras bu'i yon tan 'byung la | de las mar chad byed pa med pas de rgyun du 'byung ba yin no || yang de la sangs rgyas kyis thugs kyis dgongs pa'i rgyu <seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-29"><rs type="person" ana="corpusmd:named_reference" ref="db:4294">khyung po</rs> na re <rs type="person" ana="corpusmd:named_reference" ref="db:3712">seng ge bzang po</rs>s nges 'byed zag med chung ngur bshad pa'i rjes su <lb n="130a5"/> 'brangs nas | de'i rigs thar pa'i cha 'thun yang zag med du yar sman nas 'chad do || de ni mi rigs te |</seg> spyir drod yan chad du dbang po'i ngo bo yin pa la 'di nas dbang po'i ngo bor ma gyur zhes zag med kyi khyab byed bkag pa dang | yang brgyad stong ba las thos pa dang btsa pa'i rang bzhin bstan pa la 'jug pa'i rgyur gyur zhes bshad pas na hag med yin na bsko srung du rigs pa dang | bstan pa la 'jug pa la spang las dang po pa yin pa dang | mang pas dang po las pshegs chen pos phun ring pos rtogs pa'i sbyor ba snonM par bshad pa dang | sbyor ba sgoM pa'i sngon du mtshan nyid shes pa 'gro la de'i yang sngon du 'di 'gro bar bshad pa gsuM gyis gnod pas so || <seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-14"><rs type="person" ana="corpusmd:named_reference" ref="db:3827">'broM</rs> na re thar pa'i cha 'thun zag bcas yin pas de'i rjes su 'brangs nas nges 'byed kyang zag bcas su bshad pa yang <rs type="person" ana="corpusmd:named_reference" ref="db:3712">seng ge bzang po</rs>'i 'dod pa ma yin te skyon 'og du ston no ||</seg> 
+         <seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-2466">'di la <rs type="person" ana="corpusmd:named_reference" ref="db:6944">jo bo a pya</rs> na re seng bzang la lugs gnyis yod pa las | dang po ltar na las dang po pa'i sa nas sa dgu pa'i par du mkhyen pa gsuM bsgoMs nas | sa bcu pa la sbyor ba bzhi sgoM pa yin te | de ni rgyun <pb n="132a"/><lb n="132a1"/> ring por 'jug pas so || zlos pa'i skyon <choice><sic>sping</sic><corr>spang</corr></choice> 'di ni bshad pa sde dang bstun pa yin pas | rnaM pa <abbr>thams cad</abbr> du khyad par gyi laM zhes pa ni sa bcu pa la bya'o || de ni seng bzang gis rloMs nas bshad pa yin no || gnyis pa ltar na mkhyen pa gsuM thos bsaM gyis yul du byas te rnaM kun mngon rdzogs las dang po pa'i sa rang nas sgoM pa <abbr>la sogs</abbr> pa'i rim pa sngar bstan pa de nyid yin no zhes zer ro || </seg><seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-24">'di la <rs type="person" ana="corpusmd:named_reference" ref="db:4303">mda'</rs> na re | yang seng bzang la <lb n="132a2"/> lugs gnyis pas | dang po ltar na chos mchog man chad du mkhyen pa gsuM bsgoMs nas sa dang po nas dbu ba'i bar du rnaM kun sgoM la sa bcu pa la rtse mo sgoM de'i smad la mthar gyis pa <abbr>la sogs</abbr> pa sgoM pa yin no ||</seg><seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-01">'di la <rs type="person" ana="corpusmd:named_reference" ref="db:3827">'broM</rs> ni sangs rgyas kyi mkhyen pa gsuM gyi <abbr>ye shes</abbr> dang rnal 'byor ba bdag nyid kyi shes pa tha mi dad par rloMs nas sgoM pa yin pas de'i bsaM pa dang sbyar nas nges 'byed la zag med chung rung bshad do ||</seg>
+         <seg type="excerpt" status="finalized" xml:id="ex10012024-07-31-15-54">'di la <rs type="person" ana="corpusmd:named_reference" ref="db:3944">zangs kar</rs> na re pha rol du <choice><sic>phyen</sic><corr>phyin</corr></choice> pa drug dang | rjes su dran pa drug ni so so ba <lb n="153b7"/> dngos po med pa'i ngo bo ni bsdus pa'o zhes zer ro ||</seg>
+          rha mkha' ni sbyor ba dang | mthong pa dang | sgoM la tso mo ni songso ba | bar chad med pa'i the so ni bsdus pa'o zhes bchad do || dgags po ni mngon par rtogs pa ni sog so ba | snying po'i don ni bsdus pa'o zhes gsung te | de rnas ya 'brel lo || 'dir 'thul ni so so ba ni mkhyen pa gsuM yin la | bsdus pa ni rnaM kun mon rogs la bya'o || des na rtso ma yang bsdus par 'ong ste de ni mkhyar pa gasM myung la khyad pa med pas so || de skad du yang zlos pa'i skyon spong nas | mkhyen pa gsuM ni rnaM pa so sor nges pa'i yul can yin la | rnaM kun mngon rzogs ni rnaM pa ma lus pa'i yul can yin no zhes bshad pa dang | yang rna thun mngon rdzogs kyi dang por gzhi dang la dang rnaM pa ma lus pa'i yul can yin no zhes gsung ngo || go rims bslags pa ni de ltar bshad pa'i don to || kyes ces pa ni byed tshig yin pas | de ltar yul bcu gsuM yod pas | de ma sbyor ba la slob pa ni mthar gyis pa'i bya bar mdo las bzhed la des mthong la dang sgoM laM na de dag la stob pa ni bslab pa dang | bsgrub par bzhed ces pa yang mtshon pa yin no || de la sbyen pa'i mthar gyis pa ni | bdag nyid sbyir pa la gnas shing gzhan de la 'god pa dang | gzhan sbyin pa gtong ma de dag gi bsngags pa brjod ming mthun pas dga' bar spyod do || sbyin pa des longs spyod kyi phung po thob nas | ser snang med pa'i seMs kyis gang dang gang 'dod pa la de dang de gto zhing sbyen pa de nyid kyis phung po lnga thob par <seg type="excerpt" status="finalized" xml:id="ex10012024-01-2916-35-26">
+         <milestone unit="section" n="Colophon (161a4–161a5)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4514"><rs type="work" ana="corpusmd:named_reference" ref="db:3711"><rs type="work" ana="corpusmd:named_reference" ref="db:3706">shes rab gyi pha rol du phyin pa'i man ngag gi bstan chos mngon par rtogs pa'i rgyan</rs> ces <lb n="161a5"/> bya ba'i 'grel pa</rs>'i tshig dang don gsal bar bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3823">shag kya'i dge slong shes rab brtson 'grus</rs> kyis <rs type="person" ana="corpusmd:unnamed_reference">dge ba'i bshes gnyen dam pa rnams</rs> kyi gsung gi rjes su 'brangs nas sbyar ba'o |||||| dge bar gyur cig ||||||</seg>
+      </body></text></TEI>
