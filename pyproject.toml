@@ -8,6 +8,7 @@ authors = [{ name = "Saranya Balasubramanian", email = "saranya.balasubramanian@
 
 dependencies = [
     "lxml",
+    "pylint>=3.3.8",
     "tqdm",
 ]
 

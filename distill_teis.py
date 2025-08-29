@@ -5,12 +5,10 @@ This script processes TEI XML files to extract excerpts and their metadata
 import argparse
 import glob
 import os
+from copy import deepcopy
 
 from lxml import etree
 from tqdm import tqdm
-
-
-from copy import deepcopy
 
 
 NS = {"tei": "http://www.tei-c.org/ns/1.0"}
