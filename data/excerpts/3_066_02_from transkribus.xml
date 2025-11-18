@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -105,12 +105,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2025" who="PH" status="draft">created document</change>
-                 <change when="2025-04-02">PH tag colophon</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex66022025-04-0215-55-39" status="reviewed">   <milestone n="Colophon (72a3-4)" unit="section"/>
-               <rs type="work" ana="corpusmd:named_reference" ref="db:5145"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug pa</rs> rnam par bshad pa</rs> 'di <lb n="72a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4052">slob dpon dam pa mkhas grub brnyes pa'i skyes bu chen po yang dag pa'i dge ba'i bshes gnyen smon lam kyi mtshan can snar thang pa brgyad par byon pa</rs>'i zhabs kyi rdul spyi bos reg pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4096">btsun pa sangs rgyas yon tan dpal bzang po</rs>s sbyar ba'o || dge'o |</seg>
-            </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon (72a3-72a4)" unit="section"/>
+               <rs type="work" ana="corpusmd:named_reference" ref="db:5145"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug pa</rs> rnam par bshad pa</rs> 'di <lb n="72a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4052">slob dpon dam pa mkhas grub brnyes pa'i skyes bu chen po yang dag pa'i dge ba'i bshes gnyen smon lam kyi mtshan can snar thang pa brgyad par byon pa</rs>'i zhabs kyi rdul spyi bos reg pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4096">btsun pa sangs rgyas yon tan dpal bzang po</rs>s sbyar ba'o || dge'o |</ab>
+    </body>
+  </text>
+</TEI>

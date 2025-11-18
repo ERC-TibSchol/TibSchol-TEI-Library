@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie"/>
@@ -104,12 +104,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-12-19">PH created and input colophon</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex56222024-12-1912-07-40" status="reviewed"> <milestone n="colophon" unit="section"/>
-      <rs type="work" ana="corpusmd:named_reference" ref="db:5018">dgyes pa'i rdo rje rgyan gyi me tog</rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db: 4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:5680">gtsang me tog mdangs can gyi dgon pa</rs>r sbyar ba 'di rdzogs so ||</seg> ||  ||
-
-       </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon (86a2)" unit="section"/>
+      <rs type="work" ana="corpusmd:named_reference" ref="db:5018">dgyes pa'i rdo rje rgyan gyi me tog</rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:5680">gtsang me tog</rs> <lb n="86a2"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5680">mdangs can gyi dgon pa</rs>r sbyar ba 'di rdzogs so || ||  ||</ab>
+    </body>
+  </text>
+</TEI>

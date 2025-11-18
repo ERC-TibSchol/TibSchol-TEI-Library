@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">rtsod rigs bsdus don</title>
@@ -14,11 +14,13 @@
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:BUDA">BUDA OCR W00EGS1017426</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name> <!--addition of sa bcad number PH-->
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:TD">Tserong Drongshar</name>
+               <name ref="corpusmd:TD">Tsering Drongshar</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -104,15 +106,23 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-07-05">JS added segs</change>
-         <change when="2023-10-25">TD tagged Colophon</change>
-         <change when="2024-09-19">PH fix bugs</change>
-         <change when="2024-09-20">PH fix bugs</change>
-         <change when="2025-08-01">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex55022023-10-251" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (6b1–6b2)"/>
-            <rs type="work" ana="corpusmd:named_reference" ref="db:4949">rtsod pa'i rigs pa dam pa'i bsdus don</rs> ni || smra ba rnams <choice><reg>kyi</reg><orig>ky(i)</orig></choice> dam pa bla ma la || thos nas dam pa <lb n="6b2"/> <abbr>sangs rgyas</abbr> thob bya'i phyir || dam pa'i rtsod pa la mkhas <rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral gri</rs>s bkod |</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>
+            <pb n="1a"/><!--527"/-->
+        <lb n="1a1"/> phyi <lb n="1a2"/> ma <lb n="1a3"/> 599 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4949"><rs type="work" ana="corpusmd:named_reference" ref="db:3777">rtsod pa'i <abbr>rigs</abbr> pa</rs>'i bsdus don</rs> <abbr>bzhugs</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Body of the text (1b1–6b2)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4949">rtsod pa'i rigs pa</rs> la don gsum te ||
+         [1] <note type="gloss"> rtsod pa don </note> rab tu byed pa la 'jug pa'i slad kyi <lb n="1b2"/> don dang ¦ [2] rab tu byed pa'i lus kyi don dang ¦ [3] mthar phyin pa'i don to |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:5604">rkang mig</rs> gis tshar bcad kyi gnas nyi shu rtsa gsum smras pa ni 'di lta ste|_‹'di yang › dam bca' la gnod ‹[_]dam bcas pa'i› dam bca' gzhan|_‹[_]'di yang› dam bca' <lb n="4b4"/> dang 'gal dam bcas bsal|_|‹[_]'di la yang › gtan tshigs gzhan dang don gzhan dang |_|‹[_]'brel ba med› don med ‹[_]yi ge'i› don ‹tshogs dang›‹'di la› mi shes don ‹snga phyir› bral ‹[_]de lta na ni›|_|‹[_]yan lag› dus la ma bab ‹dam bca' ba› ‹yang lag›ma tshang ‹gtan tshigs› lhag | ‹*› |
+            </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (6b1–6b2)"/>
+            <lg><l><rs type="work" ana="corpusmd:named_reference" ref="db:4949"><rs type="work" ana="corpusmd:named_reference" ref="db:4949">rtsod pa'i rigs pa dam pa</rs>'i bsdus don</rs> ni ||</l> <l>smra ba rnams <choice><reg>kyi</reg><orig>ky(i)</orig></choice> dam pa bla ma la ||</l> <l>thos nas dam pa <lb n="6b2"/> <abbr>sangs rgyas</abbr> thob bya'i phyir ||</l> <l>dam pa'i rtsod pa la mkhas <rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral gri</rs>s bkod ||</l></lg></ab>
+    </body>
+  </text>
+</TEI>

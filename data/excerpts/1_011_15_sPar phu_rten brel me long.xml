@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">rten 'brel me long</title>
@@ -104,16 +104,16 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-25+01:00">PH copied to Mannanot</change>
-         <change when="2025-07-08">RG finalised seg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex11152024-09-0412-06-12" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (26a7–26b2)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4544">rten cing 'brel par 'byung <abbr>ba'i</abbr> rab tu byed pa | 
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (26a7–26b2)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4544">rten cing 'brel par 'byung <abbr>ba'i</abbr> rab tu byed pa | 
             'khor 'das kyi chos <abbr>thams cad</abbr> blta' ba'i me long</rs> zhes bya ba 'di ni | 
             lung rigs <lb n="26a8"/> kyi gzhung 'grel mang du thos shing legs par sbyangs pas tshul <abbr>bzhin</abbr> du rtogs shing | 
             <rs type="person" ana="corpusmd:named_reference" ref="db:3854">rigs par smra ba'i btsun pa blo gros seng ghe</rs>s | 
             <rs type="person" ana="corpusmd:named_reference" ref="db:6812">dge ba'i bshes gnyen bsod <pb n="16b"/><lb n="26b1"/> nams 'bum</rs> gyi don du | 
-            nye bar sbyar pas 'di re shig yongs su rdzogs s+ho || <note type="gloss"><abbr>zhus so</abbr></note></seg> </body></text></TEI>
+            nye bar sbyar pas 'di re shig yongs su rdzogs s+ho || <note type="gloss"><abbr>zhus so</abbr></note></ab>
+    </body>
+  </text>
+</TEI>

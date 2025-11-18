@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bden gnyis kyi rnam par bshad pa</title>
@@ -106,17 +106,15 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-25+01:00">PH copied to mannanot</change>
-         <change when="2024-09-04+01:00">PH tag and cleanup, add full TEI output from Transkribus at the end</change>
-         <change when="2025-07-08">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex21032024-09-0412-46-26" status="finalized" ana="corpusmd:colophon">
-         
-    <rs type="work" ana="corpusmd:named_reference" ref="db:4627">bden pa gnyis kyi rnam par bshad pa</rs>| <rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon klu sgrub</rs> kyi lugs su <lb n="55a6"/> sbyar ba || × rdzogs s+h+yo ||</seg>
-         <seg type="excerpt" xml:id="ex21032024-09-0412-46-27" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (55a5-55a7)"/><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3913">bdag</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3913">shag kya'i dge slong prad nya badz+ra</rs></note><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3829">dge ba'i bshes pu to ba</rs>'i slob ma <rs type="person" ana="corpusmd:named_reference" ref="db:3913">rnal 'byor pa shes rab rdo rje</rs>s mdzad pa yin no</note> gis <note type="gloss">ti ka</note> de bsdebs <note type="gloss">ba las byung ba'i</note> dge ba gang <note type="gloss">zhig</note> thob <note type="gloss">pa</note> des ||
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4627">bden pa gnyis kyi rnam par bshad pa</rs>| <rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon klu sgrub</rs> kyi lugs su <lb n="55a6"/> sbyar ba || × rdzogs s+h+yo ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (55a5-55a7)"/><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3913">bdag</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3913">shag kya'i dge slong prad nya badz+ra</rs></note><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3829">dge ba'i bshes pu to ba</rs>'i slob ma <rs type="person" ana="corpusmd:named_reference" ref="db:3913">rnal 'byor pa shes rab rdo rje</rs>s mdzad pa yin no</note> gis <note type="gloss">ti ka</note> de bsdebs <note type="gloss">ba las byung ba'i</note> dge ba gang <note type="gloss">zhig</note> thob <note type="gloss">pa</note> des ||
          phyin chad skyes bu <note type="gloss">bdag gzhan gyi don dang tshig don gyi rtogs pa</note> don <note type="gloss">du</note> gnyer <note type="gloss">bar</note> 'dod pa yis ||<lb n="55a7"/> bden pa gnyis ston <note type="gloss">pa'i</note>tshig dang <note type="gloss">des bstan pa'i</note> don rtogs <note type="gloss">par gyur</note> nas ||<note type="gloss">thabs dang shes rab du su 'jug pa ||
-                     </note> dbu ma'i lam gyis nges <note type="gloss">pa ste gdon mi za bar</note> par <note type="gloss">chos kyi</note> sku thob <note type="gloss">par</note> shog <note type="gloss">1</note>|| dge'o ||</seg></body></text></TEI>
+                     </note> dbu ma'i lam gyis nges <note type="gloss">pa ste gdon mi za bar</note> par <note type="gloss">chos kyi</note> sku thob <note type="gloss">par</note> shog <note type="gloss">1</note>|| dge'o ||</ab>
+    </body>
+  </text>
+</TEI>

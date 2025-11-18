@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bsngo ba yon bshad kyi stong thun</title>
@@ -105,15 +105,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-09-06">TD cheched place and person of Colophon</change>
-         <change when="2024-06-25">PH validate doc</change>
-         <change when="2024-09-09">PH minor changes </change>
-           <change when="2024-12-16">PH add Transkribus</change>
-           <change when="2025-07-08">RG finalised seg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex15032023-09-15-115408" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n=" Colophon (2b6) (p. 654:6)"/>
-        <rs type="place" ana="corpusmd:named_reference" ref="db:6173">gsang phu ne'u thog gi gtsug lag khang</rs> du | <rs type="person" ana="corpusmd:named_reference" ref="db:3896">blo gros mtshungs med</rs> kyi sbyar ba'o ||</seg> dge legs 'phel|| dge'o ||</body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n=" Colophon (2b6) (p. 654:6)"/>
+        <rs type="place" ana="corpusmd:named_reference" ref="db:6173">gsang phu ne'u thog gi gtsug lag khang</rs> du | <rs type="person" ana="corpusmd:named_reference" ref="db:3896">blo gros mtshungs med</rs> kyi sbyar ba'o ||</ab>
+    </body>
+  </text>
+</TEI>

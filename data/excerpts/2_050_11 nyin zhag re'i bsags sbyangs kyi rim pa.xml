@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">nyin zhag re'i bsags sbyangs kyi rim pa</title>
@@ -14,11 +14,11 @@
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -60,7 +60,7 @@
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
             </availability>
-            <idno type="TibSchol">$<?oxy_comment_start comment="ask('enter TibSchol Reference Number')"?><?oxy_comment_end?></idno>
+            <idno type="TibSchol">2_050_11</idno>
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
@@ -104,11 +104,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2025-03-28">PH tag colophon</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex50112025-03-2814-13-40" status="reviewed"><milestone unit="section" n="Colophon (2a4-5)"/>
-        sde snod kun gyi bcud bsdus man ngag rnams kyi snying po | <rs type="person" ana="corpusmd:named_reference" ref="db:7318">yi ge pa grags pa seng ge</rs>s bskul ba'i ngor | <rs type="person" ana="corpusmd:named_reference" ref="db:4052">shAkya'i btsun pa smon lam tshul <lb n="2a5"/> khrims</rs> kyis cung zad bris pa'o ||</seg> i thï × dge'o</body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (2a4-2a5)"/>
+        sde snod kun gyi bcud bsdus man ngag rnams kyi snying po | <rs type="person" ana="corpusmd:named_reference" ref="db:7318">yi ge pa grags pa seng ge</rs>s bskul ba'i ngor | <rs type="person" ana="corpusmd:named_reference" ref="db:4052">shAkya'i btsun pa smon lam tshul <lb n="2a5"/> khrims</rs> kyis cung zad bris pa'o || i thï × dge'o</ab>
+    </body>
+  </text>
+</TEI>

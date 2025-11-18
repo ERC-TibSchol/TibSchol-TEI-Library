@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">smon 'jug sems bskyed kyi cho ga|</title>
@@ -104,15 +104,17 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-28">TD checked person and place in Colophon</change>
-         <change when="2024-01-30">PH check and tag</change>
-         <change when="2025-08-01">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex58032024-01-3014-06-11" ana="corpusmd:colophon" status="finalized"><milestone unit="section" n="Colophon (13b5–13b6)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:5042">slob dpon chen po zhi ba lha'i lugs kyi smon 'jug gi sems bskyed kyi cho ga</rs> 'di || <rs type="person" ana="corpusmd:named_reference" ref="db:6311">yang dag pa'i yongs kyi dge ba'i <abbr>bshes gnyen</abbr> 'jam dpal <abbr>rdo rje</abbr> snying po</rs>'i bkas bskul nas | <rs type="person" ana="corpusmd:named_reference" ref="db:4066">thogs med</rs> kyis sbyar ba 'dis | 'gro ba mang po la phan <abbr>thogs</abbr> shing <lb n="13b6"/> 'khor ba'i rgya mtsho skems par gyur cig | shub+haM ||</seg> <seg type="excerpt" xml:id="ex58032023-09-13-103956" status="finalized"><milestone unit="section" n="Colophon (15a1–15a2)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:5042">smon 'jug seMs bskyed kyi rgyud pa'i bla ma rnams la bstod pa</rs> 'di | <rs type="person" ana="corpusmd:named_reference" ref="db:6312">lung rigs 'dzin pa se ston</rs> gyis bskul ba'i don du || <rs type="person" ana="corpusmd:named_reference" ref="db:4066">chos smra ba'i btsun pa thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5692">chos rdzong</rs> du <lb n="15a2"/> bkod pa'i yi ge pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:5043">'jam dbyangs dkar po</rs>'o || shub+haM ||</seg><seg type="excerpt" xml:id="ex58032023-09-13-103957" status="finalized" ana="corpusmd:colophone"><milestone unit="section" n="Text 3 : dbu ba lugs su grags pa'i sems bskyed brgyud pa la phyag 'tshal ba"/><rs type="work" ana="corpusmd:named_reference" ref="db:5042">dbu ba lugs su grags pa'i sems bskyed brgyud pa la phyag 'tshal ba</rs> 'di yang || <rs type="person" ana="corpusmd:named_reference" ref="db:4066">btsun pa thogs med</rs> kyis bkod pa'o ||</seg> 
-            rgyal ba </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (13b5–13b6)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:5042">slob dpon chen po zhi ba lha'i lugs kyi smon 'jug gi sems bskyed kyi cho ga</rs> 'di || <rs type="person" ana="corpusmd:named_reference" ref="db:6311">yang dag pa'i yongs kyi dge ba'i <abbr>bshes gnyen</abbr> 'jam dpal <abbr>rdo rje</abbr> snying po</rs>'i bkas bskul nas | <rs type="person" ana="corpusmd:named_reference" ref="db:4066">thogs med</rs> kyis sbyar ba 'dis | 'gro ba mang po la phan <abbr>thogs</abbr> shing <lb n="13b6"/> 'khor ba'i rgya mtsho skems par gyur cig | shub+haM ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (15a1–15a2)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:5042">smon 'jug seMs bskyed kyi rgyud pa'i bla ma rnams la bstod pa</rs> 'di | <rs type="person" ana="corpusmd:named_reference" ref="db:6312">lung rigs 'dzin pa se ston</rs> gyis bskul ba'i don du || <rs type="person" ana="corpusmd:named_reference" ref="db:4066">chos smra ba'i btsun pa thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5692">chos rdzong</rs> du <lb n="15a2"/> bkod pa'i yi ge pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:5043">'jam dbyangs dkar po</rs>'o || shub+haM ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Text 3 : dbu ba lugs su grags pa'i sems bskyed brgyud pa la phyag 'tshal ba"/><rs type="work" ana="corpusmd:named_reference" ref="db:5042">dbu ba lugs su grags pa'i sems bskyed brgyud pa la phyag 'tshal ba</rs> 'di yang || <rs type="person" ana="corpusmd:named_reference" ref="db:4066">btsun pa thogs med</rs> kyis bkod pa'o ||</ab>
+    </body>
+  </text>
+</TEI>

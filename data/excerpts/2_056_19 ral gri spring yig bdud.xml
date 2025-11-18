@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie"/>
@@ -14,11 +14,11 @@
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:Sakyalibrary">Sakyalibrary</name>
+               <name ref="corpusmd:BUDA"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -60,7 +60,7 @@
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
             </availability>
-            <idno type="TibSchol">2_056_18</idno>
+            <idno type="TibSchol">2_056_19</idno>
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
@@ -104,11 +104,14 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-10-18+02:00">transformed docx to TEI</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex56182024-10-1812-45-11" status="reviewed" ana="corpusmd:colophon"><milestone n="colophon" unit="section"/>
-<rs type="work" ana="corpusmd:named_reference" ref="db:5012">mdo sde kun las btus pa rgyan gyi me tog</rs> ces bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:5680">rtsang me tog mdangs can gyi dgon pa</rs>r bris pa rdzogs so || <note type="gloss">1 zhus pa mang zhus</note> dge'o ||</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4447"><rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsA ba chen po</rs>s mdzad pa'i springs yig bdud rtsi'i thig le</rs> la don gsum ste | </ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon" unit="section"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:5014">theg chen lam 'bras bdud rtsi'i thig le mchog | 'di las legs pa gzhan 'ga' ma mthong bas | bsdus don</rs> <rs type="place" ana="corpusmd:named_reference" ref="db:5688">dpal ldan gser zangs dgon pa</rs> ru || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s legs par bkod pa yin ||</ab>
+    </body>
+  </text>
+</TEI>

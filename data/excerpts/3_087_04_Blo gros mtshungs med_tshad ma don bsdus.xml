@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma don bsdus</title>
@@ -14,11 +14,13 @@
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
+               <name ref="corpusmd:Fukuda">https://tibetan-studies.net/ (accessed 03.02.2019)</name>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
                <name ref="corpusmd:TD">Tsering Drongshar</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -104,13 +106,27 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-04">TD tag work, person and place in colophon</change>
-         <change when="2024-09-12">PH fix problems</change>
-         <change when="2025-08-29">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex87042024-09-1215-44-53" status="finalized"><milestone unit="section" n="(b) Phya pa"/> yang <rs type="person" ana="corpusmd:named_reference" ref="db:3831"><abbr>slob dpon</abbr> cha pa</rs> na re ¦ rdzas yod chos 3 tshang ba de rdzas su yod pa rigs mi 'thun gyi spyi <abbr>dang dngos su</abbr> 'gal ba ¦ <abbr>mtshan gzhi</abbr> la grub pa ni <abbr>mtshan nyid</abbr> yang <abbr>dag gi</abbr> <abbr>mtshan nyid</abbr> du 'dod pa la ¦ </seg><seg type="excerpt" xml:id="ex87042024-09-1215-46-31" status="finalized"><milestone unit="section" n="(c) Chu mig pa"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig <pb n="2b"/><lb n="2b1"/> pa</rs>s <abbr>mtshan nyid</abbr> kyi rigs mi 'thun gyi spyi dang dngos 'gal la byed na ¦ mi rtag pa'i <abbr>mtshan nyid</abbr> du bkod pa'i rgyu bskyed <abbr>mtshan nyid</abbr> du thal te | chos gsum po de tshang pa'i phyir gsung pa mi rigs te ¦ mi rtag pa'i <abbr>mtshan nyid</abbr> du bkod pa'i rgyu bskyed <abbr>chos can</abbr> | <abbr>mtshan nyid</abbr> kyi ldog par thal <abbr>mtshan nyid</abbr> kyi rigs mi 'thun gyi spyi dang dngos 'gal yin pa'i phyir || khyab pa dang rtags <lb n="2b2"/> khas blangs des na bzlog mi <abbr>nus so</abbr> ||</seg><seg type="excerpt" xml:id="ex87042024-09-1215-46-312" status="finalized"><milestone unit="section" n="(b) chu mig pa"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs> kho nyid <abbr>mtshan nyid</abbr> du bkod pa <choice><orig>‹la›</orig><reg>la</reg></choice> ltos te <abbr>mtshan gzhi</abbr> yin par thal te ¦ </seg> <seg type="excerpt" xml:id="ex87042024-09-1215-46-3123" status="finalized"> yang <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs>s bum pa rgyus bskyed du mtshon pa la <lb n="13a2"/> skad 1 ma <abbr>mtshan nyid</abbr> du bkod pa <abbr>mtshan nyid</abbr> skyon med du 'dod pa mi <abbr>'thad de</abbr> ¦ <abbr>mtshon bya</abbr> yang skyon med du 'gyur na rang ldog tha snyad du <abbr>ma grub</abbr> pa yin pa'i <abbr>phyir ro</abbr> || khyab pa khas kyang blangs de gang rung skyon can yin na 3 ga skyon can du 'gyur bas khyab pa'i <abbr>phyir ro</abbr> ||</seg><seg type="excerpt" xml:id="ex87042023-10-04-135" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> zhes bya ba'i bstan <choice><orig>bcas</orig><reg>bcos</reg></choice> 'di ni <lb n="61b4"/> lung dang <choice><orig>°igs</orig><reg>rigs</reg></choice> pa man ngag gyi tshul la dbang 'byor pa | mkhas <choice><orig>pa</orig><reg>pa'i</reg></choice> <abbr>gtsug gi</abbr> rgyan du gyur pa <note type="editorial">On f. 60a7: mkhas pa'i tsug rgyan phyogs kyi glang po </note> | phyogs ma lus par snyan pa rab tu <abbr>grags</abbr> pa can ¦ 'gran zla dang bral ba'i mkhas pa chen po <rs type="person" ana="corpusmd:named_reference" ref="db:4095">dbang phyug dpal</rs> <note type="editorial">There is a Sakya scholar of the 13th c. by this name (P3696)</note> gyi bka' drin pas rab tu byed pa <rs type="work" ana="corpusmd:unnamed_reference" ref="db:5633">sde bdun mdo</rs> dang bcas °°°° <note type="editorial"> Could be pa'i legs but unclear</note> par sbyor bas <choice><orig>rnams</orig><reg>rnam</reg></choice> spyod <lb n="61b5"/> °°°° rtog rig pa'i tshul khong du chud pa ¦ gzhung <abbr>lugs</abbr> la <rs type="person" ana="corpusmd:named_reference" ref="db:4094"><abbr>chen po</abbr> blo gros mtshungs med</rs> la don du gnyer ba'i slob ma blo gsal zhing yid gzhungs pa du mas yang dang yang du bskul zhing <rs type="person" ana="corpusmd:named_reference" ref="db:5957"><rs type="place" ana="corpusmd:named_reference" ref="db:5949">mnga' ris</rs> pa dge'i ba'i bshes | gnyen 'od zer seng ge</rs>s shog gu yang phul nas snar °°°°°°°° <lb n="61b6"/> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5733">dpal sa skya'i gtsug lag khang</rs> du legs par sbyar ba rdzogs s+ho ||</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><lb n="1a4"/>@@ || <rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> zhes bya ba bzhugs pa lags s+h+yo °°°||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1b1)"/>
+         <milestone unit="section" n="Title"/>
+         <pb n="1b"/><lb n="1b1"/> || rgya gar skad tu || <rs type="work" ana="corpusmd:named_reference" ref="db:5294">pra mA Na pin dAr tha</rs> nama || bod skad du || <rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> zhes bya ba |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="(b) Phya pa"/> yang <rs type="person" ana="corpusmd:named_reference" ref="db:3831"><abbr>slob dpon</abbr> cha pa</rs> na re ¦ rdzas yod chos 3 tshang ba de rdzas su yod pa rigs mi 'thun gyi spyi <abbr>dang dngos su</abbr> 'gal ba ¦ <abbr>mtshan gzhi</abbr> la grub pa ni <abbr>mtshan nyid</abbr> yang <abbr>dag gi</abbr> <abbr>mtshan nyid</abbr> du 'dod pa la ¦ </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="(c) Chu mig pa"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig <pb n="2b"/><lb n="2b1"/> pa</rs>s <abbr>mtshan nyid</abbr> kyi rigs mi 'thun gyi spyi dang dngos 'gal la byed na ¦ mi rtag pa'i <abbr>mtshan nyid</abbr> du bkod pa'i rgyu bskyed <abbr>mtshan nyid</abbr> du thal te | chos gsum po de tshang pa'i phyir gsung pa mi rigs te ¦ mi rtag pa'i <abbr>mtshan nyid</abbr> du bkod pa'i rgyu bskyed <abbr>chos can</abbr> | <abbr>mtshan nyid</abbr> kyi ldog par thal <abbr>mtshan nyid</abbr> kyi rigs mi 'thun gyi spyi dang dngos 'gal yin pa'i phyir || khyab pa dang rtags <lb n="2b2"/> khas blangs des na bzlog mi <abbr>nus so</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="(b) chu mig pa"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs> kho nyid <abbr>mtshan nyid</abbr> du bkod pa <choice><orig>‹la›</orig><reg>la</reg></choice> ltos te <abbr>mtshan gzhi</abbr> yin par thal te ¦ </ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs>s bum pa rgyus bskyed du mtshon pa la <lb n="13a2"/> skad 1 ma <abbr>mtshan nyid</abbr> du bkod pa <abbr>mtshan nyid</abbr> skyon med du 'dod pa mi <abbr>'thad de</abbr> ¦ <abbr>mtshon bya</abbr> yang skyon med du 'gyur na rang ldog tha snyad du <abbr>ma grub</abbr> pa yin pa'i <abbr>phyir ro</abbr> || khyab pa khas kyang blangs de gang rung skyon can yin na 3 ga skyon can du 'gyur bas khyab pa'i <abbr>phyir ro</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> las mtshan nyid kyi le'u ste dang po'o||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> zhes bya ba'i bstan <choice><orig>bcas</orig><reg>bcos</reg></choice> 'di ni <lb n="61b4"/> lung dang <choice><orig>°igs</orig><reg>rigs</reg></choice> pa man ngag gyi tshul la dbang 'byor pa | mkhas <choice><orig>pa</orig><reg>pa'i</reg></choice> <abbr>gtsug gi</abbr> rgyan du gyur pa <note type="editorial">On f. 60a7: mkhas pa'i tsug rgyan phyogs kyi glang po </note> | phyogs ma lus par snyan pa rab tu <abbr>grags</abbr> pa can ¦ 'gran zla dang bral ba'i mkhas pa chen po <rs type="person" ana="corpusmd:named_reference" ref="db:4095">dbang phyug dpal</rs> <note type="editorial">There is a Sakya scholar of the 13th c. by this name (P3696)</note> gyi bka' drin pas rab tu byed pa <rs type="work" ana="corpusmd:unnamed_reference" ref="db:5633">sde bdun mdo</rs> dang bcas °°°° <note type="editorial"> Could be pa'i legs but unclear</note> par sbyor bas <choice><orig>rnams</orig><reg>rnam</reg></choice> spyod <lb n="61b5"/> °°°° rtog rig pa'i tshul khong du chud pa ¦ gzhung <abbr>lugs</abbr> la <rs type="person" ana="corpusmd:named_reference" ref="db:4094"><abbr>chen po</abbr> blo gros mtshungs med</rs> la don du gnyer ba'i slob ma blo gsal zhing yid gzhungs pa du mas yang dang yang du bskul zhing <rs type="person" ana="corpusmd:named_reference" ref="db:5957"><rs type="place" ana="corpusmd:named_reference" ref="db:5949">mnga' ris</rs> pa dge'i ba'i bshes | gnyen 'od zer seng ge</rs>s shog gu yang phul nas snar °°°°°°°° <lb n="61b6"/> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5733">dpal sa skya'i gtsug lag khang</rs> du legs par sbyar ba rdzogs s+ho ||</ab>
+    </body>
+  </text>
+</TEI>

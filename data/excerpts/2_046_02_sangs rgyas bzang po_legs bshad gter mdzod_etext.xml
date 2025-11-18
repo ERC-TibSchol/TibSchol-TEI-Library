@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">2_046_02_e_Sangs rgyas bzang po_legs bshad gter mdzod</title>
@@ -104,19 +104,15 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-09-19">TD checked</change>
-         <change when="2024-09-12">PH fix problems</change>
-         <change when="2024-09-20">PH fix problems</change>
-         <change when="2024-12-11">PH add transkribus</change>
-         <change when="2025-05-28">PH edit</change>
-         <change when="2025-07-29">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex046022025-05-2811-35-36" status="finalized"> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">rigs <abbr>pa'i</abbr> dbang phyug chos kyi <abbr>seng ge</abbr></rs>s ¦ ri bong <abbr>can gyi</abbr> don spyi dang ¦ zla <abbr>ba'i</abbr> sgras brjod rung gi <abbr>tshogs</abbr> pa de ¦ ri bong can gyi don spyi zla <abbr>ba'i</abbr> sgras brjod rung gi <abbr>tshogs</abbr> pa 1du <abbr>rtogs</abbr> pa'i <abbr>rjes dpag</abbr> gi snang yul dang ¦ 'jug yul 2 ka yin <abbr>zhes gsung</abbr> ¦  </seg>
-            <seg type="excerpt" xml:id="ex46022023-09-19-102726" status="finalized" ana="corpusmd:colophon"><milestone n="Colophon 46a10-11" unit="section"/>                
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3831">rigs <abbr>pa'i</abbr> dbang phyug chos kyi <abbr>seng ge</abbr></rs>s ¦ ri bong <abbr>can gyi</abbr> don spyi dang ¦ zla <abbr>ba'i</abbr> sgras brjod rung gi <abbr>tshogs</abbr> pa de ¦ ri bong can gyi don spyi zla <abbr>ba'i</abbr> sgras brjod rung gi <abbr>tshogs</abbr> pa 1du <abbr>rtogs</abbr> pa'i <abbr>rjes dpag</abbr> gi snang yul dang ¦ 'jug yul 2 ka yin <abbr>zhes gsung</abbr> ¦  </ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon 46a10-11" unit="section"/>                
            <rs type="work" ana="corpusmd:named_reference" ref="db:4781">rigs pa dang mi rigs pa'i de kho na nyid <abbr>rnam par</abbr> 'byed pa <abbr>legs</abbr> par bshad pa'i gter mdzod ¦ blo gsal gyi yid la dga' ba  gter ba</rs> zhes bya ba 'di ni ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs ri</rs>'i <lb n="46a11"/> khrod kyi <abbr>rigs</abbr> pa smra ba rnaMs kyi gtsug rgyan daM par gyur pa ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5256">rigs pa smra ba'i btsun pa sangs rgyas bzang po</rs>s ¦ sbrang rtsi 'dzin pa'i dkar <abbr>phyogs</abbr> la ¦ mkhas grub <note type="gloss">°°i°i°</note> du ma nye bar rten pa'i dben gnas ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5667">broM pa rgyang gi gtsug lag bkhang<!--sic--> <abbr>chen por</abbr></rs> nye bar sbyar ba'o ||
-         <note type="translation">.... good sayings that distinguish the essence/reality of what is correct and incorrect” was composed in the the great monastery/temple (/assembly hall) of Brom pa rgyang <!--(s)Grom pa rgyang in gTsang?-->, which is a hermitage where many accomplished scholars reside, in the first part of the month of “the bee” (?), by the venerable logician Sangs rgyas bzang po, who is the excellent crown jewel of the logicians of the range of the snowy mountains.</note></seg>
-         </body></text></TEI>
+         <note type="translation">.... good sayings that distinguish the essence/reality of what is correct and incorrect” was composed in the the great monastery/temple (/assembly hall) of Brom pa rgyang <!--(s)Grom pa rgyang in gTsang?-->, which is a hermitage where many accomplished scholars reside, in the first part of the month of “the bee” (?), by the venerable logician Sangs rgyas bzang po, who is the excellent crown jewel of the logicians of the range of the snowy mountains.</note></ab>
+    </body>
+  </text>
+</TEI>

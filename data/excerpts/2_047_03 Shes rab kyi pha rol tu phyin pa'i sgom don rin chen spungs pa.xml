@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyin pa'i sgom don rin chen spungs pa</title>
@@ -105,17 +105,22 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-22">TD checked scribe</change>
-         <change when="2023-10-11">TD tag person and place in Colophon</change>
-         <change when="2024-09-19">PH fix bugs</change>
-         <change when="2024-09-24">PH small changes</change>
-         <change when="2025-08-01">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex47032023-10-111" status="finalized"><milestone unit="section" n="Title page (1a1-4) (p. 209)"/><lb n="1a4"/>
-        <rs type="work" ana="corpusmd:named_reference" ref="db:4795">sher phyin sgom don</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3977"><abbr>nam mkha'</abbr> grags</rs> kyis mdzad pa</seg><seg type="excerpt" status="finalized" xml:id="ex47032023-09-121" ana="corpusmd:colophon">
-            <milestone unit="section" n="Colophon (5a5-5b2) (p. 217-218)"/>
-             <rs type="work" ana="corpusmd:named_reference" ref="db:4795">shes rab kyi pha rol tu phyin pa'i bsgom don rin chen spungs pa</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3977">shAkya'i dge slong nam mkha' grags</rs> kyis sbyar ba'o || || <pb n="5a"/><lb n="5b1"/> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dam pas bsngags pa'i gnas dpal snar thang gi dben gnas</rs> su <rs type="person" ana="corpusmd:named_reference" ref="db:3977">bla ma dge ba'i bshes gnyen snar thang pa bdun par byon pa</rs>'i phyag dpe las <rs type="person" ana="corpusmd:named_reference" ref="db:5788">btsun pa grags pa rgyal mtshan</rs><anchor xml:id="a1"/> <lb n="5b2"/> gyis <hi rendition="#Time">'brug gi lo ma rgyu'i zla ba'i yar tshes bcu<anchor xml:id="a2"/></hi> la bris so || <abbr>bdag gzhan</abbr> <abbr>thams cad</abbr> smin cing grol bar byin gyis brlab tu gsol || bkra shis | </seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>
+       <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> la <lb n="1a3"/> 528
+         <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4795">sher phyin sgom don</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3977"><abbr>nam mkha'</abbr> grags</rs> kyis mdzad pa</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (5a5)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4795">shes rab kyi pha rol tu phyin pa'i bsgom don rin chen spungs pa</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3977">shAkya'i dge slong nam mkha' grags</rs> kyis sbyar ba'o || || </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Scribe colophon (5b1-5b2)"/>
+             <pb n="5b"/><lb n="5b1"/> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dam pas bsngags pa'i gnas dpal snar thang gi dben gnas</rs> su <rs type="person" ana="corpusmd:named_reference" ref="db:3977">bla ma dge ba'i bshes gnyen snar thang pa bdun par byon pa</rs>'i phyag dpe las <rs type="person" ana="corpusmd:named_reference" ref="db:5788">btsun pa grags pa rgyal mtshan</rs> <lb n="5b2"/> gyis 'brug gi lo ma rgyu'i zla ba'i yar tshes bcu<note type="editorial">Date of writing: In the year of the dragon, on the tenth day of the ? moon</note> la bris so || 
+             <abbr>bdag gzhan</abbr> <abbr>thams cad</abbr> smin cing grol bar byin gyis brlab tu gsol || bkra shis |
+             <note type="gloss">2 zhus</note>
+             </ab>
+    </body>
+  </text>
+</TEI>

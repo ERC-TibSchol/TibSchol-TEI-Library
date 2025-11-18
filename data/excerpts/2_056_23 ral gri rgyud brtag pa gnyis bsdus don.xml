@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie"/>
@@ -105,11 +105,15 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-11-05+01:00">transformed docx to TEI</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex56232024-12-1912-18-09" status="reviewed">   <milestone n="Closing verses" unit="section"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:5020">dgyes pa'i rdo rje pin dar tha</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang thos bcom ldan ral gri</rs> yis || <rs type="place" ana="corpusmd:named_reference" ref="db:5680">me tog mdangs can dgon pa</rs>r sbyar || dge des kun mkhyen myur thob shog |</seg><seg type="excerpt" xml:id="ex56232024-12-1912-18-092" status="reviewed"> <milestone n="Colophon" unit="section"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:5020">zab pa'i rgyud dgyes pa'i rdo rje'i don yang dag par bsdus pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa bcom ldan <lb n="12a4"/> ral gri</rs>s sbyar ba rdzogs so || <note type="gloss">2 zhus</note> dge'o ||</seg> </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="Closing verses (12a3-12a4)" unit="section"/>
+         <lg><l><rs type="work" ana="corpusmd:named_reference" ref="db:5020">dgyes pa'i rdo rje pin dar tha</rs> ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang thos bcom ldan</rs> <lb n="12a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral gri</rs> yis ||</l> <l><rs type="place" ana="corpusmd:named_reference" ref="db:5680">me tog mdangs can dgon pa</rs>r sbyar ||</l> <l>dge des kun mkhyen myur thob shog |</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon (12a4-12a5)" unit="section"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:5020">zab pa'i rgyud dgyes pa'i rdo rje'i don yang dag par bsdus pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa bcom ldan <lb n="12a5"/> ral gri</rs>s sbyar ba rdzogs so || <note type="gloss">2 zhus</note> dge'o ||</ab>
+    </body>
+  </text>
+</TEI>

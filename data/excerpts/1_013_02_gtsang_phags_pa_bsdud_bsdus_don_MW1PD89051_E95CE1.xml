@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -105,14 +105,16 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-09-13" who="corpusmd:PH" status="draft">created document</change>
-         <change when="2024-09-13" who="corpusmd:PH" status="draft">transfo, moved to mannanot, edit</change>
-         <change when="2024-10-24" who="corpusmd:PH" status="draft">PH edit</change>
-         <change when="2025-07-08">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex13022024-10-2410-25-04" status="finalized"><milestone n="Cover page" unit="section"/>
-         <pb n="1a"/><lb n="1a1"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4553"><rs type="work" ana="corpusmd:named_reference" ref="db:3693">'phags pa bsdud pa</rs>'i bsdus don bzhugs</rs> s+ho ||</seg><seg type="excerpt" xml:id="ex13022024-10-2410-25-042" status="finalized"><rs type="work" ana="corpusmd:named_reference" ref="db:3693">shes rab kyi pha rol du phyin pa bsdud pa tshigs su bcad pa</rs> la spyi don 3 ste | <note type="gloss">de nas</note> mdo 'byung <lb n="1b2"/> pa'i rgyu phun sum 'tshogs pa dang | gsungs pa mdo'i rang bzhin phun sum 'tshogs pa dang | <note type="gloss">ming ni</note> rang bzhin can gyi mtshan phun sum 'tshogs pa'o ||</seg>
-         mdo'i rang bzhin la <seg type="excerpt" xml:id="ex13022024-09-1315-49-37" status="finalized" ana="corpusmd:colophon"><milestone n="Colophon" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4553"><rs type="work" ana="corpusmd:named_reference" ref="db:3693">shes rab kyi pha rol du phyin pa mdo rkyang du <lb n="8a5"/> bshad pa</rs>'i don yang dag par bsdus pa</rs>'o || <rs type="person" ana="corpusmd:named_reference" ref="db:3839">shag kya'i dge slong brtson 'grus seng ge</rs>s sbyar ba'o || <note type="gloss">khyus <abbr>btugs so</abbr> ||</note> rdzogs s+ho || <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:5880">thugs rje rgyal</rs> gyis bris <rs type="person" ana="corpusmd:named_reference" ref="db:5930">lha rje chos rin</rs> thugs</note> dgyes par zhu'o || ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="Cover page" unit="section"/>
+         <pb n="1a"/><lb n="1a1"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4553"><rs type="work" ana="corpusmd:named_reference" ref="db:3693">'phags pa bsdud pa</rs>'i bsdus don bzhugs</rs> s+ho ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:3693">shes rab kyi pha rol du phyin pa bsdud pa tshigs su bcad pa</rs> la spyi don 3 ste | <note type="gloss">de nas</note> mdo 'byung <lb n="1b2"/> pa'i rgyu phun sum 'tshogs pa dang | gsungs pa mdo'i rang bzhin phun sum 'tshogs pa dang | <note type="gloss">ming ni</note> rang bzhin can gyi mtshan phun sum 'tshogs pa'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4553"><rs type="work" ana="corpusmd:named_reference" ref="db:3693">shes rab kyi pha rol du phyin pa mdo rkyang du <lb n="8a5"/> bshad pa</rs>'i don yang dag par bsdus pa</rs>'o || <rs type="person" ana="corpusmd:named_reference" ref="db:3839">shag kya'i dge slong brtson 'grus seng ge</rs>s sbyar ba'o || <note type="gloss">khyus <abbr>btugs so</abbr> ||</note> rdzogs s+ho || <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:5880">thugs rje rgyal</rs> gyis bris <rs type="person" ana="corpusmd:named_reference" ref="db:5930">lha rje chos rin</rs> thugs</note> dgyes par zhu'o || ||</ab>
+    </body>
+  </text>
+</TEI>

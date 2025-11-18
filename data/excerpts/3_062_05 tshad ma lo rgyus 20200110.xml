@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">3_062_05_e_bCom ldan ral gri_tshad ma byung tshul</title>
@@ -104,13 +104,13 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-09-24+02:00">transformed docx to TEI</change>
-         <change when="2024-09-24+02:00">PH edit</change>
-          <change when="2025-04-22+02:00">PH edit</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex62052024-09-2416-39-21" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:5113"><abbr>gtan tshigs</abbr> rig pa tshad ma'i bstan <lb n="3b9"/> bcos kyi byung tshul</rs> |
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5113"><abbr>gtan tshigs</abbr> rig pa tshad ma'i bstan <lb n="3b9"/> bcos kyi byung tshul</rs> |
           <rs type="person" ana="corpusmd:named_reference" ref="db:4006"><abbr>thams cad</abbr> mkhyen pa bcom ldan rigs pa'i ral gri</rs>s legs par bkod pa ¦ rdzogs s+h+yo || ||
-          kho bo <rs type="person" ana="corpusmd:named_reference" ref="db:5798">byang ston gsar ma</rs>s shin du dag par bris pa lags s+h+yo || ||</seg></body></text></TEI>
+          kho bo <rs type="person" ana="corpusmd:named_reference" ref="db:5798">byang ston gsar ma</rs>s shin du dag par bris pa lags s+h+yo || ||</ab>
+    </body>
+  </text>
+</TEI>

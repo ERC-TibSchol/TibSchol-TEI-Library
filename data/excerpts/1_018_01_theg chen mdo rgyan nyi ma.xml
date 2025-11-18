@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">theg bsdus kyi rnam bshad</title>
@@ -104,10 +104,11 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-09-10+01:00">Created and PH input colophon</change>
-         <change when="2025-07-08">RG finalised seg</change>         
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex18012024-09-1009-01-21" ana="corpusmd:colophon" status="finalized"><milestone unit="section" n="colophon"/><rs type="work" ana="corpusmd:named_reference" ref="db:4590"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po <abbr>mdo sde'i</abbr> rgyan</rs> gyi legs bshad bstan pa'i nyi ma</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3900">lung dang rig pa smra ba'i <abbr>dge slong</abbr> 'jam rin</rs> gyis chos gra chen <lb n="160a4"/> po <rs type="place" ana="corpusmd:named_reference" ref="db:5652">bde ba can</rs> du sbyar ba 'di yongs su <abbr>rdzogs s+ho</abbr> ||</seg>  dge'o || </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="colophon"/><rs type="work" ana="corpusmd:named_reference" ref="db:4590"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po <abbr>mdo sde'i</abbr> rgyan</rs> gyi legs bshad bstan pa'i nyi ma</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3900">lung dang rig pa smra ba'i <abbr>dge slong</abbr> 'jam rin</rs> gyis chos gra chen <lb n="160a4"/> po <rs type="place" ana="corpusmd:named_reference" ref="db:5652">bde ba can</rs> du sbyar ba 'di yongs su <abbr>rdzogs s+ho</abbr> ||</ab>
+    </body>
+  </text>
+</TEI>

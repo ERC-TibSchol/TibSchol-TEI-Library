@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">blo sbyong don bdun rtsa</title>
@@ -105,23 +105,22 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-06-27"> TD tag work and person</change>
-         <change when="2023-06-27">RG updated pb and lb tags</change>
-         <change when="2023-07-18">PH reviewed</change>
-         <change when="2023-09-05">TD checked place</change>
-         <change when="2024-09-13">PH fix bugs</change>
-         <change when="2025-03-25">PH final 1 seg</change>
-         <change when="2025-06-013">RG finalised remaining segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex115-2023-06-2712-54" status="finalized">
-            <lg>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ref="db:4528" ana="corpusmd:named_reference">blo sbyong don bdun ma'i rtsa ba</rs> ni |</ab>
+      <gap reason="omitted"/>
+      <ab><lg>
          <l>bdag 'dzin 'dul ba'i gdams ngag zhus ||</l>
          <l>da ni shi yang mi 'gyong ngo ||</l>
          </lg>
-        zhes <rs type="person" ana="corpusmd:named_reference" ref="db:3874">rnal 'byor dbang phyug 'chad kha ba</rs>s gsungs so ||</seg>||@|<seg type="excerpt" xml:id="ex1152023-06-271-25" status="finalized"><rs type="work" ana="corpusmd:named_reference" ref="db:5635">smon lam thams cad kyi don bsdus pa</rs> 'di |<rs type="person" ref="db:5636" ana="corpusmd:named_reference">shar tsong kha pa</rs>s mdzad pa'o ||</seg><seg type="excerpt" xml:id="ex11052023-09-15-111356" status="finalized" ana="corpusmd:colophon"> 
-         <milestone unit="section" n="Carver's colophon (1b6–1b7)"/>
-         <rs type="person" ref="db:4593" ana="corpusmd:unnamed_reference">brkos mkhan mkhas pa <rs type="place" ana="corpusmd:named_reference" ref="db:5638">chu shul</rs> gyi || gnas pa dpal 'phel</rs> zhes <lb n="1b7"/> bya bas || dad pa'i sems kyis kun blangs te || spar du brkos nas phul pa yi || dge bas 'gro ba ma lus pa || byang chub sems gnyis stobs rgyas nas || kun mkhyen rgyal ba'i sku thob ste || 'gro kun srid mtsho las sgrol shog ||</seg></body></text></TEI>
+        zhes <rs type="person" ana="corpusmd:named_reference" ref="db:3874">rnal 'byor dbang phyug 'chad kha ba</rs>s gsungs so ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5635">smon lam thams cad kyi don bsdus pa</rs> 'di |<rs type="person" ref="db:5636" ana="corpusmd:named_reference">shar tsong kha pa</rs>s mdzad pa'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Carver's colophon (1b6–1b7)"/>
+         <rs type="person" ref="db:4593" ana="corpusmd:unnamed_reference">brkos mkhan mkhas pa <rs type="place" ana="corpusmd:named_reference" ref="db:5638">chu shul</rs> gyi || gnas pa dpal 'phel</rs> zhes <lb n="1b7"/> bya bas || dad pa'i sems kyis kun blangs te || spar du brkos nas phul pa yi || dge bas 'gro ba ma lus pa || byang chub sems gnyis stobs rgyas nas || kun mkhyen rgyal ba'i sku thob ste || 'gro kun srid mtsho las sgrol shog ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bde gshegs kun gyi snying po bzhugs so || </title>
@@ -106,13 +106,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-28">TD checked scribe</change>
-         <change when="2024-09-19">PH fix bugs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex61102023-09-131" status="finalized" ana="corpusmd:colophon">  <milestone unit="section" n="Colophon (1b2-1b3)"/>
-        <rs type="person" ana="corpusmd:named_reference" ref="db:4052"><abbr>slob dpon</abbr> pad <lb n="1b3"/> mA</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:5097">tshe bsgrub</rs> rdzogs s+ho || <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s bris dge'o ||</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (1b2-1b3)"/>
+        <rs type="person" ana="corpusmd:named_reference" ref="db:4052"><abbr>slob dpon</abbr> pad <lb n="1b3"/> mA</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:5097">tshe bsgrub</rs> rdzogs s+ho || <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s bris dge'o ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i bstan bcos kyi nges don gsal byed pa rin po che'i sgron me</title>
@@ -105,28 +105,37 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-        <change when="2023-06-14+01:00">JS added segs</change> 
-        <change when="2023-07-24+01:00">PH review and add rs to Indian names and anon</change> 
-        <change when="2023-08-29+01:00">PH tag scribe</change> 
-                <change when="2023-09-06">TD checked place</change>
-         <change when="2023-09-06">PH validate doc</change>
-         <change when="2025-05-15">PH segs and lb</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex17012023-07-2411-54-04" status="reviewed">
-            <milestone unit="section" n="Cover page (1.1-1.3)"/>
-            <pb n="1"/><lg><l><lb n="1.1"/>°°°°</l><l><lb n="1.2"/><choice><reg>mahāyānottaratantraśāstra</reg><orig>***mahayana ḍa ?*na‹nama***</orig></choice>  <note type="editorial">Title in lantsha script</note> </l><l><lb n="1.3"/>@@| <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma'i bstan bcos</rs> kyi nges don gsal bar byed pa rin po che'i sgron me</rs> bzhugs s+hO |</l></lg></seg>
-         <seg type="excerpt" xml:id="ex17012023-07-2411-54-05" status="reviewed">   <milestone unit="section" n="Incipit (2.1-2.5) "/>
-         <pb n="2"/><lb n="2.1"/> OM swasti sidhaM × <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa <abbr>chen po</abbr> rgyud <abbr>bla ma'i</abbr> bstan bcos</rs> kyi nges pa'i don gsal bar byed pa <abbr>rin po che'i</abbr> sgron me</rs> <lb n="2.22"/> zhes bya ba |</seg>
-        'phags pa mi phaM la phyag 'tshal_lo | 
-      <seg type="excerpt" xml:id="ex17012023-07-2411-54-06" status="reviewed" ana="corpusmd:colophon"> <milestone unit="section" n="Colophon (681.3-681.6)"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1.1-1.3)"/>
+            <pb n="1"/><lg><l><lb n="1.1"/>°°°°</l><l><lb n="1.2"/><choice><reg>mahāyānottaratantraśāstra</reg><orig>***mahayana ḍa ?*na‹nama***</orig></choice>  <note type="editorial">Title in lantsha script</note> </l><l><lb n="1.3"/>@@| <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma'i bstan bcos</rs> kyi nges don gsal bar byed pa rin po che'i sgron me</rs> bzhugs s+hO |</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (2.1-2.5) "/>
+         <pb n="2"/><lb n="2.1"/> OM swasti sidhaM × <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa <abbr>chen po</abbr> rgyud <abbr>bla ma'i</abbr> bstan bcos</rs> kyi nges pa'i don gsal bar byed pa <abbr>rin po che'i</abbr> sgron me</rs> <lb n="2.22"/> zhes bya ba |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference"><rs type="person" ana="corpusmd:named_reference">slob dpon</rs> gyi bla ma</rs>'i zhal snga nas kyang |_sems nyid gcig pu kun gyi sa bon te|_|gang la srid dang mya ngan 'das 'phro ba|_|'dod pa'i 'bras bu ster bar byed pa yi|_|yid bzhin nor 'dra'i sems la phyag 'tshal lo|_|zhes pa dang 'gal lo|_|</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3831">rigs pa'i dbang phyug phya pa</rs>'i zhal nas|_'jig rten las 'das pa'i chos kyi sa bon yin pa'i phyir zhes pa ni thar pa cha mthun gyi dge ba'i bag chags 'jig rten las 'das pa'i dge ba'i chos skye ba'i rgyu yin pas so|_|</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference">slob dpon</rs> gyi <rs type="work">springs yig</rs> las|_mthun par gyur pa'i yul du gnas pa dang |_|skyes bu dam pa la ni brten pa dang |_|bdag gis legs smon sngon yang bsod nams bgyis|_|'khor lo chen po bzhi ni khyod la mnga'|_|zhes gsungs pa'o|_|<!--Nagarjuna Suhrlekha--></ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference">slob dpon 'jam dpal grags pa</rs><!--Mañjuśrīkīrti --> ni ngo bo nyid la sogs pa sngar gyi bzhi po dang bya ba thams cad thugs su chud cing sems can gyi don mdzad pa'i bya ba grub pa'i ye shes la ye shes kyi sku zhes bya ste lngar bzhed do|_|</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference">slob dpon kun dga' snying po la sogs pa 'ga' zhig</rs><!--Anandagarbha--> ni dang po bcu byang chub sems dpa'i yin la tha ma gnyis sangs rgyas nyid kyi yin par bzhed do|_|</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference">slob dpon shAkya bshes gnyen</rs><!--Shakyamitra--> ni dka' ba spyod pa'i tshe rnam par smin pa'i sku de nyid du bzhag nas sprul pa'i skus 'og min du song ste der sangs rgyas nas slar yang sngar gyi sku la bzhugs te|_byang chub kyi snying por gshegs pa la sogs pa mdzad pas dang po bdun byang chub sems dpa'i yin la phyi ma lnga sangs rgyas kyi yin par 'dod de|_theg pa chen po ba phal cher gyis thams cad sangs rgyas kyi yin par bzhed do|_|</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (681.3-681.6)"/>
          <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg <lb n="681.4"/> pa <abbr>chen po</abbr> rgyud <abbr>bla ma'i</abbr> bstan bcos</rs> kyi nges pa'i don gsal byed pa <abbr>rin po che'i</abbr> sgron me</rs> zhes bya ba <rs type="place" ref="db:6650" ana="corpusmd:named_reference">yul dbus</rs> kyi <lb n="681.5"/> <note type="editorial">Modern addition by Khenpo Appey in instance (ID:7377): g.yo ru gra'i cha stod grong zhes par sku 'khrungs</note> char byung pa × <rs type="person" ana="corpusmd:named_reference" ref="db:3896">rigs par smra ba <abbr>blo gros</abbr> mtshungs med</rs> kyis × skyes bu mkhas pa'i <abbr>tshogs</abbr> kyis brten pa'i bsti <lb n="681.6"/> gnas <rs type="place" ana="corpusmd:named_reference" ref="db:6173">dpal gsang phu ne'u thog gi chos gra <abbr>chen po</abbr></rs>r sbyar ba'o ||
-         </seg>
-      <seg type="excerpt" xml:id="ex17012025-05-1515-16-03" status="reviewed"><milestone unit="section" n="Post-colophon annotations"/> <!--Note in smaller cursive script on p. 681-->
-         sar+ba ma+ga laM | <abbr>bkra shis</abbr> par sho | dge'o ||</seg>
-         <seg type="excerpt" xml:id="ex17012023-09-15-120548" status="finalized">
-               <milestone n="Post-colophon note" unit="section"/>
-               <pb n="682"/><lb n="682.1"/>'bris pa po <rs type="person" ana="corpusmd:named_reference" ref="db:5898">'jam dpal rgyal mtshan</rs> nas | len cig zhus pa'i dag |</seg>
-         </body></text></TEI>
+         </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon annotations"/> <!--Note in smaller cursive script on p. 681-->
+         sar+ba ma+ga laM | <abbr>bkra shis</abbr> par sho | dge'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Post-colophon note" unit="section"/>
+               <pb n="682"/><lb n="682.1"/>'bris pa po <rs type="person" ana="corpusmd:named_reference" ref="db:5898">'jam dpal rgyal mtshan</rs> nas | len cig zhus pa'i dag |</ab>
+    </body>
+  </text>
+</TEI>

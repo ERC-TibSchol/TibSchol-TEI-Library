@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bstod pa</title>
@@ -106,18 +106,13 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-05-24+01:00">completed header</change>
-         <change when="2023-05-31+01:00">JS tagging seg</change>
-         <change when="2023-07-24+01:00">PH review some seg</change>
-         <change when="2023-10-20">TD tagged Colophon</change>
-         <change when="2024-09-11">PH fix mistakes in file</change>
-         <change when="2025-03-14">PH edit</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex10032023-07-2412-45-03" status="reviewed">rgya gar skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:4518">g+hu ru sta ba</rs> | bod skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:4518">bla ma la bstod pa</rs> |</seg> <seg type="excerpt" xml:id="ex10032023-07-2412-45-04" status="reviewed"><l>thugs sbyangs stobs kyis smra ba'i seng ger grags ||</l>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4518">g+hu ru sta ba</rs> | bod skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:4518">bla ma la bstod pa</rs> |</ab>
+      <gap reason="omitted"/>
+      <ab><l>thugs sbyangs stobs kyis smra ba'i seng ger grags ||</l>
          <l>nyi zla bzhin du ma rig nyon mongs sel ||</l>
          <l>bsdu' bzhis bdag sogs 'gon med smin grol mdzad ||</l>
          <l>zung 'jug mtshan don ldan pa khyed la 'dud ||</l>
@@ -128,11 +123,12 @@
          <l>'phrin las rnaMs kyis tshim byed shog ||</l>
          
          <l>bla ma bde' bar gshegs pa'i gsung zab cing rgya che ba thugs<anchor xml:id="a1"/> su chud nas gzhan la ston pas 'khor ba'i mun nag du 'khyaMs pa'i long khrid pa ||</l>
-         <l>         <anchor xml:id="a2"/>         dbu' ma chen pos gdul bya mngon mtho' nges legs la 'god pas thar pa dang <abbr>thams cad</abbr> mkhyen pa'i skyed byed ||</l><anchor xml:id="a3"/></seg>
-         <seg type="excerpt" xml:id="ex10032023-07-2412-45-052" status="reviewed" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (158a5–158a6)"/>
-        <rs type="work" ana="corpusmd:named_reference" ref="db:4518"><rs type="person" ana="corpusmd:named_reference" ref="db:3863">shag kya'i dge' slong gzhon <lb n="158a6"/> nu byang chub</rs> la bstod pa</rs> || rdzogs s+hyo ||</seg>
-        <seg type="excerpt" xml:id="ex10032024-09-1111-36-00" status="reviewed">
-         <milestone unit="section" n="Addition (158a7–158a8)"/>
+         <l>         <anchor xml:id="a2"/>         dbu' ma chen pos gdul bya mngon mtho' nges legs la 'god pas thar pa dang <abbr>thams cad</abbr> mkhyen pa'i skyed byed ||</l><anchor xml:id="a3"/></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (158a5–158a6)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:4518"><rs type="person" ana="corpusmd:named_reference" ref="db:3863">shag kya'i dge' slong gzhon <lb n="158a6"/> nu byang chub</rs> la bstod pa</rs> || rdzogs s+hy+o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Addition (158a7–158a8)"/>
          <lb n="158a7"/> @|| 
          <l>lnga brgya pa rnams kyi <abbr>thams cad</abbr> mkhyen pa rtog ge ba rnams kyi spyi gtsug gi rgyan | </l>
          <l><rs type="deity">bde' bar gshegs pa</rs>'i bka' rab 'byams<anchor xml:id="a4"/> dri ma med pa'i gsal byed |</l> 
@@ -142,5 +138,7 @@
          <l>dad pas rta la brtson 'grus <lb n="158a8"/> kyi lcag gis bskyod pa'i chos brgyad spangs pa'i chos kyi sbyin pa gnang ba'i dus su |</l>
          <l>gus pa dang dad pas gzhi bzung brtson 'grus dang shes rab kyis khyad par can gyi don la phyogs pa'i |</l>
          <l><rs type="person" ana="corpusmd:named_reference" ref="db:3863">shag kya'i dge slong gzhon nu byang chub</rs> kyis legs par mnyan pas |</l>
-         <l>tshig dang don gyi rtogs pa phyin ci ma log pa mnyam pa med pa thob pa'i dge ba des skye bo kun yum la mos pa dang <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bdag</rs> nyid kyi rtogs pa brtan par 'byung par shog ||</l></seg>
-         </body></text></TEI>
+         <l>tshig dang don gyi rtogs pa phyin ci ma log pa mnyam pa med pa thob pa'i dge ba des skye bo kun yum la mos pa dang <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bdag</rs> nyid kyi rtogs pa brtan par 'byung par shog ||</l></ab>
+    </body>
+  </text>
+</TEI>

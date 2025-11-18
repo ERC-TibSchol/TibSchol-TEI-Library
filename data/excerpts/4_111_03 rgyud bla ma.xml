@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">lha chos nyams len gyi man ngag thig le chen po'i dbyings su byang chub kyi sems spel ba</title>
@@ -104,12 +104,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2025-02-24+01:00">create empty, PH input colophon</change>
-         <change when="2025-05-30">RG finalised seg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex111032025-02-2416-26-57" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpudmd:named_reference" ref="db:5457">skal ldan gdul bya'i gling gsal stong <abbr>thig ge</abbr>'i rgya mtsho rang 'brel med du gnas pa gsal bar byed pa'i tshig grag stong <note type="gloss">zur</note> 'jug nyi zla'i thig le</rs> zhes bya ba | <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dpal ldan snar thang bstan pa rin po che'i nam mkha</rs>r bkod pa'o ||
-        <lb n="267a3"/> 'dis skal <choice><reg>pa</reg><orig>‹pa›</orig></choice> can du ma'i don byed par gyur cig || || oM oM mag+hala ku ru oM oM ||</seg> 
-        </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpudmd:named_reference" ref="db:5457">skal ldan gdul bya'i gling gsal stong <abbr>thig ge</abbr>'i rgya mtsho rang 'brel med du gnas pa gsal bar byed pa'i tshig grag stong <note type="gloss">zur</note> 'jug nyi zla'i thig le</rs> zhes bya ba | <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dpal ldan snar thang bstan pa rin po che'i nam mkha</rs>r bkod pa'o ||
+        <lb n="267a3"/> 'dis skal <choice><reg>pa</reg><orig>‹pa›</orig></choice> can du ma'i don byed par gyur cig || || oM oM mag+hala ku ru oM oM ||</ab>
+    </body>
+  </text>
+</TEI>

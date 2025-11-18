@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">seng ge sgra'i man ngag</title>
@@ -104,12 +104,13 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-        <change when="2024-09-30">PH create</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex55112024-09-3016-41-55" status="reviewed" ana="corpusmd:colophon">
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon"/>
         <rs type="work" ana="corpusmd:named_reference" ref="db:4967">rnam par snang mdzad mngon par byang chub pa'i sku 3 gyi dkyil <lb n="1b7"/> 'khor</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s bkod pa'o || 
-        <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">de nyid</rs> kyi phyag dpe' la<!--read: las--> <rs type="person" ana="corpusmd:named_reference" ref="db:4065">ze'u grags shes</rs> bris || dge'o ||</seg>
-                 </body></text></TEI>
+        <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">de nyid</rs> kyi phyag dpe' la<!--read: las--> <rs type="person" ana="corpusmd:named_reference" ref="db:4065">ze'u grags shes</rs> bris || dge'o ||</ab>
+    </body>
+  </text>
+</TEI>

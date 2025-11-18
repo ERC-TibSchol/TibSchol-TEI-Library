@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">dbu ma rtsa ba'i bshad pa 'thad pa rnam par nges pa</title>
@@ -14,11 +14,11 @@
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:SBi">Serena Biondo</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -104,13 +104,11 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-09-06">TD checked place and person of colophon</change>
-         <change when="2024-09-09">PH checks</change>
-         <change when="2025-07-08">RG finalised seg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex1972023-09-06_1041" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n=" Colophon (58a4-5) (p. 527:4-5)"/><rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon 'phags pa klu sgrub</rs> kyis <lb n="58a5"/> mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4607"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i bshad pa 'thad pa rnam par nges pa</rs> zhes bya ba ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4608">lung dang rigs par smra ba'i dge slong shes rab 'buM</rs> gyis rnam grangs kyi bshad pa rnaMs re shig bzhag ste | <rs type="person" ana="corpusmd:named_reference" ref="db:3725">slob dpon zla ba</rs>'i gzhung bzhin du || <rs type="place" ana="corpusmd:named_reference" ref="db:5572">dpal brag ram gyi gtsug lag khang</rs> du sbyar ba 'di re shig rdzogs s+ho || ||</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n=" Colophon (58a4-58a5)"/><rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon 'phags pa klu sgrub</rs> kyis <lb n="58a5"/> mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4607"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i bshad pa 'thad pa rnam par nges pa</rs> zhes bya ba ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4608">lung dang rigs par smra ba'i dge slong shes rab 'buM</rs> gyis rnam grangs kyi bshad pa rnaMs re shig bzhag ste | <rs type="person" ana="corpusmd:named_reference" ref="db:3725">slob dpon zla ba</rs>'i gzhung bzhin du || <rs type="place" ana="corpusmd:named_reference" ref="db:5572">dpal brag ram gyi gtsug lag khang</rs> du sbyar ba 'di re shig rdzogs s+ho || ||</ab>
+    </body>
+  </text>
+</TEI>

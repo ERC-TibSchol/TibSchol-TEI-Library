@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie"> rtog ge rigs pa'i rgyan gyi snying po </title>
@@ -14,11 +14,13 @@
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:Transkribus">Transkribus</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -105,13 +107,20 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-28">TD checked scribe</change>
-          <change when="2024-12-17">PH add transkribus (at the end)</change>
-          <change when="2025-08-29">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="exX0032023-09-13-15" status="finalized" ana="corpusmd:colophon"> <milestone unit="section" n="Colophon (97a5)"/>
-        <rs type="work" ana="corpusmd:named_reference" ref="db:5509">rtog ge rigs pa'i brgyan gyi snying po</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:5510">shag kya'i dge' slong d+ha rma rad na</rs> zhes bya <lb n="97a6"/> bas sbyar ba || rdzogs s+h+yo ||</seg><seg type="excerpt" xml:id="exX0032023-09-13-152" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Post-colophon note"/><rs type="work" ana="corpusmd:named_reference" ref="db:5509">rtog ge rigs pa'i snying po</rs> 'di || <rs type="person" ana="corpusmd:named_reference" ref="db:5866">kho bo zhang</rs> gis gzabs nas bris || bshes gnyen se'i thugs mdzod ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsha ba</rs></note> na re snang la ma nges pa dang bcad pa'i shes pa ma rtogs par 'du ba sngar bzhin yin la |  yid dpyod the tshom du 'du ba yin la the tsom log rtogs su 'du bas ma rtogs log rtogs <lb n="11b2"/> 2 su 'dus pa yin no zhes zer ba ni 
+         ma yin te |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4294">kha 1</rs> na re <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4294">khyung po grags se</rs></note> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3780">chos mchog</rs></note> mngon sum sngar nges nas rtog bral ma 'khrul ba rjes su brjod de mtshan nyid ma nges par mtshon bya nges pa yang yod de ku‹n› tu rgyu'i gtsug phud ma nges kyang de'i ming gnes pa bzhin no | zher zer ba ni
+         ma yin te |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (97a5-6)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:5509">rtog ge rigs pa'i brgyan gyi snying po</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:5510">shag kya'i dge' slong d+ha rma rad na</rs> zhes bya <lb n="97a6"/> bas sbyar ba || rdzogs s+h+yo ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon note"/><rs type="work" ana="corpusmd:named_reference" ref="db:5509">rtog ge rigs pa'i snying po</rs> 'di || <rs type="person" ana="corpusmd:named_reference" ref="db:5866">kho bo zhang</rs> gis gzabs nas bris || bshes gnyen se'i thugs mdzod ||</ab>
+    </body>
+  </text>
+</TEI>

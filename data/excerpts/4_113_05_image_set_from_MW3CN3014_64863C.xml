@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -13,11 +13,13 @@
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:Tr">Transkribus</name>
+               <name ref="corpusmd:Transkribus">Transkribus</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
                <name ref="corpusmd:MI">Michael Ium</name>
+                <name ref="corpusmd:RG">Rachael Griffiths</name>
+                 <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -104,19 +106,16 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-10-04" who="corpusmd:PH" status="draft">PH transformed from transkribus and moved to mannanot</change>
-                 <change when="2024-11-01" who="corpusmd:RG">RG added segs - need reviewing</change>
- <change when="2025-02-11" who="corpusmd:MI">MI had a look</change>
- <change when="2025-02-11" who="corpusmd:MI">MI had another look</change>
- <change when="2025-04-29" who="corpusmd:RG">RG finalized used segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex113522024-11-01-11-49" status="finalized">
-               <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo ts+tsha ba dge slong blo ldan <abbr>shes rab</abbr></rs> kyis bod skad du <abbr>legs</abbr> par tshig don gtan la phab pa'o ||</seg>
-
-               <seg type="excerpt" xml:id="ex113052024-10-1516-25-22" status="finalized" ana="corpusmd:colophon"> 
-               <milestone n="colophon" unit="section"/>
-              <rs type="work" ana="corpusmd:named_reference" ref="db:5482"><rs type="work" ana="corpusmd:named_reference" ref="db:3711"><rs type="work" ana="corpusmd:named_reference" ref="db:3706">shes rab kyi <abbr>pha rol</abbr> du phyin <abbr>pa'i</abbr> man <abbr>ngag gi</abbr> <abbr>bstan bcos</abbr> mngon par <abbr>rtogs</abbr> pa'i rgyan</rs> ces bya ba'i 'grel pa</rs>'i bshad pa slob ma la phan pa</rs> zhes bya ba 'di ¦ nang rig <abbr>pa'i</abbr> <abbr>bstan bcos</abbr> sde snod 3 la mkhas shing | sgra dang <lb n="86a5"/> tshad ma dang snyan dngags dang sdebs sbyor <abbr>lasog</abbr> pa tha snyad kyi gtsug rnaMs phal cher shes pas gsung rab kyi tshig don la mi 'jig pa'i spobs pa can ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5964">shar dags po'i lo ts+tsha ba sar+bha j+nya mi tra</rs>s | sa mo glang gi lo gro zhun zla ba'i dkar phyogs kyi tshes bcu la <rs type="place" ana="corpusmd:named_reference" ref="db:5765">chos gra chen po dpal gyi rtses thang</rs> <lb n="86a6"/> du rdzog par bris pa'o || || maMga la b+ha wa tu || ||</seg>
-            </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593"><abbr>kha cig</abbr></rs> 'di snyaM du mngo+ongs <abbr>rgyan no</abbr> |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo ts+tsha ba dge slong blo ldan <abbr>shes rab</abbr></rs> kyis bod skad du <abbr>legs</abbr> par tshig don gtan la phab pa'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="colophon" unit="section"/>
+              <rs type="work" ana="corpusmd:named_reference" ref="db:5482"><rs type="work" ana="corpusmd:named_reference" ref="db:3711"><rs type="work" ana="corpusmd:named_reference" ref="db:3706">shes rab kyi <abbr>pha rol</abbr> du phyin <abbr>pa'i</abbr> man <abbr>ngag gi</abbr> <abbr>bstan bcos</abbr> mngon par <abbr>rtogs</abbr> pa'i rgyan</rs> ces bya ba'i 'grel pa</rs>'i bshad pa slob ma la phan pa</rs> zhes bya ba 'di ¦ nang rig <abbr>pa'i</abbr> <abbr>bstan bcos</abbr> sde snod 3 la mkhas shing | sgra dang <lb n="86a5"/> tshad ma dang snyan dngags dang sdebs sbyor <abbr>lasog</abbr> pa tha snyad kyi gtsug rnaMs phal cher shes pas gsung rab kyi tshig don la mi 'jig pa'i spobs pa can ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5964">shar dags po'i lo ts+tsha ba sar+bha j+nya mi tra</rs>s | sa mo glang gi lo gro zhun zla ba'i dkar phyogs kyi tshes bcu la <rs type="place" ana="corpusmd:named_reference" ref="db:5765">chos gra chen po dpal gyi rtses thang</rs> <lb n="86a6"/> du rdzog par bris pa'o || || maMga la b+ha wa tu || ||</ab>
+    </body>
+  </text>
+</TEI>

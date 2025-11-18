@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">mdo sde rgyan lus rnam bzhag</title>
@@ -105,13 +105,11 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2024-10-01">PH moved to mannanot</change>
-         <change when="2024-10-09">tag colophon</change>
-         <change when="2024-12-17">PH add Transkribus</change>
-         <change when="2025-06-13">RG finalised seg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex7072024-10-0912-02-41" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (16b5)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4497"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo' <choice><orig>s°</orig><reg>    sde</reg></choice> rgyan</rs> gyi lus rnam gzhag</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge slong chos kyi seng ge</rs>s sbyar ba || rdzogs s+ho ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (16b5)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4497"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo' <choice><orig>s°</orig><reg>    sde</reg></choice> rgyan</rs> gyi lus rnam gzhag</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge slong chos kyi seng ge</rs>s sbyar ba || rdzogs s+ho ||</ab>
+    </body>
+  </text>
+</TEI>

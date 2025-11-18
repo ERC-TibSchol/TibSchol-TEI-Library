@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">2_045_03_e_?_rnam 'grel le'u gsum rnam bshad</title>
@@ -105,18 +105,17 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2025-06-12+01:00">PH edits</change>
-         <change when="2025-06-13">RG finalised seg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex045032025-05-2014-56-26" status="reviewed"><pb n="75a"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><pb n="75a"/>
    
            <lb n="75a1"/> phyi
            <lb n="75a2"/> zha
-           <lb n="75a3"/> 21</seg><seg type="excerpt" xml:id="ex045032025-05-2015-12-06" status="finalized"><rs type="work" ana="corpusmd:named_reference" ref="db:5564"><abbr>rigs</abbr> gter</rs> las kyang brjod bya brjod byed <abbr>re re</abbr> la 2 2 dang brda' sbyor tshul dang don go tshul sngar ltar <abbr>bshad do</abbr> ¦ 
+           <lb n="75a3"/> 21</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5564"><abbr>rigs</abbr> gter</rs> las kyang brjod bya brjod byed <abbr>re re</abbr> la 2 2 dang brda' sbyor tshul dang don go tshul sngar ltar <abbr>bshad do</abbr> ¦ 
             de las ¦
          <quote source="db:5564" n="IV.1"><lg>
             <l xml:space="preserve">dbye bas 2 2 rnaM pa 4</l>
@@ -126,7 +125,7 @@
          <lg>
             <l xml:space="preserve">brda yi dus na sres nas <lb n="80b9"/> sbyar ||</l>
             <l xml:space="preserve"><abbr>tha snyad</abbr> dus na'ang de ltar go</l>
-         </lg></quote> zhes 'byung <abbr>ba'i phyir ro</abbr> ||</seg>
-           
-           zhen pa'i brjod bya dang des zlas drangs pa'i dngos kyi brjod bya mi 'gal te 
-            kyis gzhal ban sdong grjogs pi sgru'i bjod bya 2 ga yir | dog rang 'dzin pi rtog pi zhul dang rdul 2 ga yid | zhen pi mjos bya ra na gyas zhien pa rw yi sogspa rtog pas khrul du byas nas sgras brjod pas khyon pi brjod bya'i sgkra 'byad pir rtog pa</body></text></TEI>
+         </lg></quote> zhes 'byung <abbr>ba'i phyir ro</abbr> ||</ab>
+    </body>
+  </text>
+</TEI>

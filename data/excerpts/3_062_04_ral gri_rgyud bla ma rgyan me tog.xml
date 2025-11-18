@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie"/>
@@ -104,32 +104,29 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-10-18+02:00">transformed docx to TEI</change>
-          <change when="2025-05-20+02:00">PH edits</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex062042025-05-2010-51-132" status="reviewed"><milestone n="Cover page" unit="section"/>
-         <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> la <lb n="1a3"/> 386 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5111"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">rgyud bla ma</rs>'i Ti ka rgyan gyi me tog</rs> ||</seg>
-
-         <seg type="excerpt" xml:id="ex062042025-05-2010-51-13" status="reviewed">
-         <milestone n="Incipit" unit="section"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="Cover page" unit="section"/>
+         <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> la <lb n="1a3"/> 386 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5111"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">rgyud bla ma</rs>'i Ti ka rgyan gyi me tog</rs> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Incipit" unit="section"/>
          <pb n="1b"/><lb n="1b1"/> rgya gar skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:5111">ma hA yA na ud ta ra tan tra shA s+tra a laM kA ra puSH pa</rs> nA ma | bod skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:5111">theg pa chen po <rs type="work" ana="corpusmd:named_reference" ref="db:3749">rgyud bla ma</rs>'i bstan bcos kyi rgyan gyi me tog</rs> ces bya ba | 
  <milestone n="Invocation" unit="section"/>
          'phags pa'i tshogs thams cad la phyag 'tshal lo || 
           <milestone n="Introductory verses" unit="section"/>
-         <lb n="1b2"/> <lg><l>skye gcig mngon par <choice><reg>byang chub</reg><orig>‹byang chub›</orig></choice> 'tshang rgya ba ||</l> <l>dga' ldan bzhugs pa de la phyag 'tshal nas ||</l> <l>thub pa'i dbang po'i theg chen gsung rab kyi ||</l> <l>mthar thug nges pa'i don 'di <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">bdag</rs> gis bshad ||</l></lg> </seg>
-         
-         <seg type="excerpt" xml:id="ex62042025-05-2010-57-04" status="reviewed" ana="corpusmd:colophon"><milestone n="Conclusive verses" unit="section"/>
-        <lg><l>theg chen mthar thug 'khor 'das de nyid don ||</l> <l>rab ston 'phags pa'i gsung rab legs bshad pas ||</l> <l>dga' ldan skyes nas byams mgon mnyes byas te ||</l> <l>byang chub lung bstan myur du thob <pb n="15b"/><lb n="15b1"/> par shog ||</l></lg>
-      
-        <seg type="excerpt" xml:id="ex62042024-10-1812-11-29" status="reviewed" ana="corpusmd:colophon"> <milestone n="Colophon" unit="section"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:5111"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs> rgyan gyi me tog</rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s sbyar ba rdzogs so || mang+ga laM ||</seg></seg>
-        
-        
-<seg type="excerpt" xml:id="ex62042024-10-1812-11-29" status="reviewed" ana="corpusmd:colophon"> <milestone n="Colophon" unit="section"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:5111"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs> rgyan gyi me tog</rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s sbyar ba rdzogs so || mang+ga laM ||</seg><seg type="excerpt" xml:id="ex62042025-05-2010-32-26" status="reviewed"><lb n="15b2"/> @| <rs type="work" ana="corpusmd:named_reference" ref="db:5581">lang gshegs</rs> las yid kyi lus gsum ste | ting nge 'dzin la zhugs pa dang | chos kyi ngo bo nyid khong du chud pa dang | ris su lhan cig skyes pa'i 'du byed kyi yid kyi lus so || gnyis pa ni sa brgyad pa snang med du gnas gyur te ting nge <lb n="15b3"/> 'dzin dang mtshan dang dbang dang mngon shes kyi me tog rgyas pa yid kyi mgyogs pa dang mtshungs pa sgyu ma la sogs pa 'dra ba 'byung bzhi dang 'byung gyur dang 'dra ba sangs rgyas kyi zhing thams cad du 'gro nus ces so ||
+         <lb n="1b2"/> <lg><l>skye gcig mngon par <choice><reg>byang chub</reg><orig>‹byang chub›</orig></choice> 'tshang rgya ba ||</l> <l>dga' ldan bzhugs pa de la phyag 'tshal nas ||</l> <l>thub pa'i dbang po'i theg chen gsung rab kyi ||</l> <l>mthar thug nges pa'i don 'di <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">bdag</rs> gis bshad ||</l></lg> </ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Conclusive verses" unit="section"/>
+        <lg><l>theg chen mthar thug 'khor 'das de nyid don ||</l> <l>rab ston 'phags pa'i gsung rab legs bshad pas ||</l> <l>dga' ldan skyes nas byams mgon mnyes byas te ||</l> <l>byang chub lung bstan myur du thob <pb n="15b"/><lb n="15b1"/> par shog ||</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon (15b1)" unit="section"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:5111"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs> rgyan gyi me tog</rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s sbyar ba rdzogs so || mang+ga laM ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n="15b2"/> @| <rs type="work" ana="corpusmd:named_reference" ref="db:5581">lang gshegs</rs> las yid kyi lus gsum ste | ting nge 'dzin la zhugs pa dang | chos kyi ngo bo nyid khong du chud pa dang | ris su lhan cig skyes pa'i 'du byed kyi yid kyi lus so || gnyis pa ni sa brgyad pa snang med du gnas gyur te ting nge <lb n="15b3"/> 'dzin dang mtshan dang dbang dang mngon shes kyi me tog rgyas pa yid kyi mgyogs pa dang mtshungs pa sgyu ma la sogs pa 'dra ba 'byung bzhi dang 'byung gyur dang 'dra ba sangs rgyas kyi zhing thams cad du 'gro nus ces so ||
 <milestone n="Annotation" unit="section"/>
-gcig zhus ||</seg>
-</body></text></TEI>
+gcig zhus ||</ab>
+    </body>
+  </text>
+</TEI>

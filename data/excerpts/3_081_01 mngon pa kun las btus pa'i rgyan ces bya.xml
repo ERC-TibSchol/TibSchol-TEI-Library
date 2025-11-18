@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">mngon pa kun las btus pa'i rgyan ces
@@ -107,17 +107,14 @@
       <profileDesc>
          <!-- <langUsage> to be inserted from APIS -->
       </profileDesc>
-      <revisionDesc status="draft">
-         <!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-28">TD checked owner, scribe and place</change>
-         <change when="2023-09-28">TD added work and person in colophon</change>
-         <change when="2024-09-13">PH fix problems</change>
-         <change when="2024-10-05">PC inserted the Transkribus text</change>
-         <change when="2025-04-29">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex81012023-09-131" status="finalized" ana="corpusmd:colophon"> <milestone unit="section" n="Colophon (208a5-208a6)"/>
-        <rs type="work" ana="corpusmd:named_reference" ref="db:5268">chos mngon pa kun <choice><reg>las</reg><orig>la</orig></choice> btus pa'i rgyan</rs> ces bya ba × <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po</rs> dang <rs type="person" ana="corpusmd:named_reference" ref="db:4593">bla ma</rs>'i gsung gi lhag ma dang ¦ x <lb n="208a6"/><rs type="person" ana="corpusmd:named_reference" ref="db:4593">blo gsal 'ga</rs>s bskul pa dang ¦ rang gzhan gyi don du <hi rendition="#Time">shing pho rta'i lo</hi> la ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5865">btsun <note type="gloss">pa</note> 'khon ston</rs> gyis ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:4352">dpal e'i gtsug lag khang</rs> du sbyar ba rdzogs s+hyo ||       <!--This “Ornament of the Abhidharmasamuccaya” was composed by the Venerable 'Khon ston in the monastery of Shri-E, in 1174/1234/1294/1354/1414/1474/1534, for himself and others, having been asked by some Clear-minded person, ***the rest of the teaching of the instructor and the bla ma.--></seg>
-         <seg type="excerpt" xml:id="ex81012023-09-13-143" status="finalized" ana="corpusmd:colophon"> <rs type="place" ana="corpusmd:named_reference" ref="db:4352">dpal e'i chos gra chen po</rs>r <rs type="person" ana="corpusmd:named_reference" ref="db:5269">blo dman dbul po byang chub mgon</rs> gyis bris || bris pa'i dge bas <abbr>sangs rgyas</abbr> thob par shog || dge'o ||      <!-- It was written in the great seminary of Shri-E by the Feeble-minded Poor Byang chub mgon. Thanks to the merit of writing, may one obtain Buddhahood!--></seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (208a5-208a6)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:5268">chos mngon pa kun <choice><reg>las</reg><orig>la</orig></choice> btus pa'i rgyan</rs> ces bya ba × <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po</rs> dang <rs type="person" ana="corpusmd:named_reference" ref="db:4593">bla ma</rs>'i gsung gi lhag ma dang ¦ x <lb n="208a6"/><rs type="person" ana="corpusmd:named_reference" ref="db:4593">blo gsal 'ga</rs>s bskul pa dang ¦ rang gzhan gyi don du <hi rendition="#Time">shing pho rta'i lo</hi> la ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5865">btsun <note type="gloss">pa</note> 'khon ston</rs> gyis ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:4352">dpal e'i gtsug lag khang</rs> du sbyar ba rdzogs s+hyo ||       <!--This “Ornament of the Abhidharmasamuccaya” was composed by the Venerable 'Khon ston in the monastery of Shri-E, in 1174/1234/1294/1354/1414/1474/1534, for himself and others, having been asked by some Clear-minded person, ***the rest of the teaching of the instructor and the bla ma.--></ab>
+      <gap reason="omitted"/>
+      <ab><rs type="place" ana="corpusmd:named_reference" ref="db:4352">dpal e'i chos gra chen po</rs>r <rs type="person" ana="corpusmd:named_reference" ref="db:5269">blo dman dbul po byang chub mgon</rs> gyis bris || bris pa'i dge bas <abbr>sangs rgyas</abbr> thob par shog || dge'o ||      <!-- It was written in the great seminary of Shri-E by the Feeble-minded Poor Byang chub mgon. Thanks to the merit of writing, may one obtain Buddhahood!--></ab>
+    </body>
+  </text>
+</TEI>

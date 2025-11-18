@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie"/>
@@ -104,15 +104,13 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-10-25+02:00">transformed docx to TEI</change>
-         <change when="2024-11-20">PH edit</change>
-         <change when="2025-08-01">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex53032024-10-2515-58-57" status="finalized" ana="corpusmd:colophon"> <milestone n="Colophon" unit="section"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon" unit="section"/>
                chos mngon shes bya kun mkhyen ni || thob par 'dod nas <rs type="work" ana="corpusmd:named_reference" ref="db:5913"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon</rs> <lb n="5a3"/> gyi || 
-               bsdus don</rs> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dpal ldan thang chen</rs> du || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s bkod pa yin | sa mA ptaḥ</seg>
-            
-        </body></text></TEI>
+               bsdus don</rs> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dpal ldan thang chen</rs> du || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s bkod pa yin | sa mA ptaḥ</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">dBu ma rtsa ba shes rab kyi ’grel ba </title>
@@ -104,14 +104,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-07-05">JS added segs</change>
-         <change when="2024-09-11">PH corrections</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex65012025-04-2211-29-06" status="reviewed">
-         <milestone n="Colophon" unit="section"/>
-         shes rab kyi pha rol tu phyin pa'i tshul phyin ci ma log par gsal bar byed pa | <rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon bdag nyid chen po 'phags pa klu sgrub</rs> kyis mdzad pa <rs type="work" ana="corpusmd:named_reference" ref="db:5137"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i <lb n="155a4"/> bstan 'chos kyi 'grel pa 'thad pa'i rgyan</rs> ces bya ba | bde bar gshegs pa'i bstan pa lnga brgya bdun pa la <rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs ri'i khrod</rs> du byung ba | rang dang gzhan gyi grub pa'i mtha' rgya mtsho'i pha rol tu son pa | lung dang rigs pas phyug cing zab pa dang rgya che ba'i don la ma rmongs pa <rs type="person" ana="corpusmd:named_reference" ref="db:3842">shAkya'i dge slong dbu ma smra ba byang <lb n="155a5"/> chub brtson 'grus</rs> kyis legs par sbyar ba rdzogs so ||</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon (155a3-155a5)" unit="section"/>
+         shes rab kyi pha rol tu phyin pa'i tshul phyin ci ma log par gsal bar byed pa | <rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon bdag nyid chen po 'phags pa klu sgrub</rs> kyis mdzad pa <rs type="work" ana="corpusmd:named_reference" ref="db:5137"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba'i <lb n="155a4"/> bstan 'chos</rs> kyi 'grel pa 'thad pa'i rgyan</rs> ces bya ba | <rs type="deity">bde bar gshegs pa</rs>'i bstan pa lnga brgya bdun pa la <rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs ri'i khrod</rs> du byung ba | rang dang gzhan gyi grub pa'i mtha' rgya mtsho'i pha rol tu son pa | lung dang rigs pas phyug cing zab pa dang rgya che ba'i don la ma rmongs pa <rs type="person" ana="corpusmd:named_reference" ref="db:3842">shAkya'i dge slong dbu ma smra ba byang <lb n="155a5"/> chub brtson 'grus</rs> kyis legs par sbyar ba rdzogs so ||</ab>
+    </body>
+  </text>
+</TEI>

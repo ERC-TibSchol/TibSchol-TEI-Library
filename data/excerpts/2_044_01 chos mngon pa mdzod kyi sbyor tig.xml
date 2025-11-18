@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">chos mngon pa mdzod kyi sbyor tig</title>
@@ -107,32 +107,30 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-22">TD checked scribe</change>
-         <change when="2023-09-19">TD checked place</change>
-         <change when="2024-09-10">PH check, add segs, compile with Transkribus output</change>
-         <change when="2024-11-14">PH edit</change>
-         <change when="2025-07-29">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" status="finalized" xml:id="ex44012024-1114"><rs type="person" ana="corpusmd:named_reference" ref="db:4028">blo brtan</rs> nas bzung <rs type="person" ana="corpusmd:named_reference" ref="db:3977">nam mkha</rs>'i mtshan can dang || 
-            blo gros shes bya kun la dpag <lb n="1b4"/> med rgyas || <!--TOCHECK bzang po needs APIS ref-->
-            <rs type="person" ana="corpusmd:named_reference" ref="db:">bzang po</rs>'i mtshan can <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4016">kho'o</rs>'i yongs 'dzin dang || 
-            brgyud pa'i bla ma rnams la phyag 'tshal nas ||
-            <rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon mdzod</rs> la sbyor Tig cung zad tsam || <!--TOCHECK bdag needs APIS ref; is this rin chen bzang po (2) (5770?)-->
-            <rs type="person" ana="corpusmd:unnamed_reference" ref="db:">bdag</rs> gi 'di dag brtsam par <lb n="1b5"/> mi nus na'ang || 
-            <rs type="person" ana="corpusmd:named_reference" ref="db:4007">mchims ston bla ma</rs>'i bzhed pa ji bzhin dang || 
-            gsung las byon cing TI kar ma thebs rnams || 
-            legs par bshad kyi blo gros ldan pa dag | 
-            rnam dpyod byed cing ngo gdong bshad 'di ltos te 
-            <lb n="1b6"/> sbyor ba dang | rtsod spong dang |
-            lung 'dren rnaMs mangs na <abbr>yi ge</abbr> mangs pas 'jigs pas ¦ 
-            cung zad bsdus te bshad par bya'o || </seg>
-
-            gang yignas pag 'tshal zhes pa'i bsral | sluMn dbyignyen chen | sargyas bcom
-            <seg type="excerpt" status="finalized" xml:id="ex44012023-09-12" ana="coprusmd:colophon"><milestone unit="section" n="Colophon (38a3-6) (p. 81)"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>
+         <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> dza <lb n="1a3"/> 30 <lb n="1a4"/>
+            <rs type="work" ana="corpusmd:named_reference" ref="db:4760"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod</rs> kyi sbyor tik</rs> bzhugs s+ho || dge'o ||<note type="editorial">In dbu can</note></ab>
+      <gap reason="omitted"/>
+      <ab><lg><l><rs type="person" ana="corpusmd:named_reference" ref="db:4028">blo brtan</rs> nas bzung <rs type="person" ana="corpusmd:named_reference" ref="db:3977">nam mkha</rs>'i mtshan can dang ||</l> 
+            <l>blo gros shes bya kun la dpag <lb n="1b4"/> med rgyas ||</l> 
+            <l><rs type="person" ana="corpusmd:named_reference" ref="db:4007">bzang po</rs>'i mtshan can <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4016">kho'o</rs>'i yongs 'dzin dang ||</l> 
+            <l>brgyud pa'i bla ma rnams la phyag 'tshal nas ||</l>
+            <l><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon mdzod</rs> la sbyor Tig cung zad tsam ||</l> 
+            <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4016">bdag</rs> gi 'di dag brtsam par <lb n="1b5"/> mi nus na'ang || </l>
+            <l><rs type="person" ana="corpusmd:named_reference" ref="db:4007">mchims ston bla ma</rs>'i bzhed pa ji bzhin dang || </l>
+            <l>gsung las byon cing TI kar ma thebs rnams ||</l> 
+            <l>legs par bshad kyi blo gros ldan pa dag ||</l> 
+            <l>rnam dpyod byed cing ngo gdong bshad 'di ltos ¦</l> </lg>
+            <lb n="1b6"/> sbyor ba dang ¦ rtsod spong dang ¦ lung 'dren rnaMs mangs na <abbr>yi ge</abbr> mangs pas 'jigs pas ¦ cung zad bsdus te bshad par bya'o || </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (38a3-6)"/>
             <rs type="person" ana="corpusmd:named_reference" ref="db:4593">grub pa brnyes pa</rs> dang <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhas btsun</rs> stong phrag du ma byon cing bzhugs pa'i gnas mchog <rs type="place" ana="corpusmd:named_reference" ref="db:4411">chos <lb n="38a4"/> grwa chen po dpal snar thang gi gtsug lag khang</rs> gi 'khris na yod pa'i <rs type="place" ana="corpusmd:named_reference" ref="db:5663">mthong smon dgu gling</rs> gi bzhi thog du | <rs type="person" ana="corpusmd:named_reference" ref="db:4007">mchims sku mched</rs> <anchor xml:id="a3"/>kyi zhabs kyi pad mo la spyi bos gtugs pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4016">shAkya'i btsun pa bsod nams <lb n="38a5"/> ye shes</rs> kyis legs par sbyar pa'o || ||
             <milestone unit="section" n="Post-colophon verse"/>'dis kyang sangs rgyas kyi bstan pa dang | 'gro ba mang po la phan par gyur cig | || 
-            <milestone unit="section" n="scribe colophon"/> <lb n="38a6"/> <abbr>yi ge</abbr> pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:5770">rin chen bzang po</rs>'o || dge'o || bkra shis par gyur cig | ||</seg></body></text></TEI>
+            <milestone unit="section" n="Scribe colophon"/> <lb n="38a6"/> <abbr>yi ge</abbr> pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:5770">rin chen bzang po</rs>'o || dge'o || bkra shis par gyur cig | ||</ab>
+    </body>
+  </text>
+</TEI>

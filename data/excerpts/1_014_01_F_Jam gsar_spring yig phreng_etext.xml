@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">spring yig phreng</title>
@@ -105,11 +105,11 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-25+01:00">Copied to mannanot</change>
-         <change when="2025-07-08">RG finalised seg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex14032024-10-0416-35-30" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (4b3)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4573">spring yig <lb n="4b3"/> baiDUrya'i phreng ba</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3884">lung rigs smra ba 'jam gsar</rs> gyis <rs type="place" ana="corpusmd:named_reference" ref="db:6956">mdol chung</rs> dang | <rs type="place" ana="corpusmd:named_reference" ref="db:6049">rkyang 'dur</rs> gyis mgo byas pa'i chos gzhi yon bdag dang | gra pa bu slob rnams la spring ba rdzogs so ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (4b3)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4573">spring yig <lb n="4b3"/> baiDUrya'i phreng ba</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3884">lung rigs smra ba 'jam gsar</rs> gyis <rs type="place" ana="corpusmd:named_reference" ref="db:6956">mdol chung</rs> dang | <rs type="place" ana="corpusmd:named_reference" ref="db:6049">rkyang 'dur</rs> gyis mgo byas pa'i chos gzhi yon bdag dang | gra pa bu slob rnams la spring ba rdzogs so ||</ab>
+    </body>
+  </text>
+</TEI>

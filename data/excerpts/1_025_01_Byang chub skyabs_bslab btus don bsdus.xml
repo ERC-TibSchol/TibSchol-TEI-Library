@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bslab btus pa'i don bsdus pa</title>
@@ -105,20 +105,18 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-03-10+01:00">PH start tag</change>
-         <change when="2023-07-18+01:00">PH finalized</change>
-         <change when="2023-07-21+01:00">PH minor fix</change>
-         <change when="2024-11-04">PC insert text</change>
-         <change when="2025-07-08">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex25012023-03-1013-39-37" status="finalized"> <milestone unit="section" n="Title page (1a1-2)"/>
-       <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> dza <lb n="1a3"/> 18 <lb n="1a4"/> oM AH HuM  || <rs type="work" ana="corpusmd:named_reference" ref="db:4647"><rs type="work" ana="corpusmd:named_reference" ref="db:3742">bslabs btus</rs> <choice><sic>kyis</sic><corr>kyi</corr></choice> sa bcad</rs> bzhugs pa'i dbu phyogs legs pa'o ||</seg>
-        <seg type="excerpt" xml:id="ex25012023-03-1013-50-41" status="finalized">  <milestone unit="section" n="Body of the text (1b1)"/>
-         <pb n="1b"/><lb n="1b1"/> oM swA stI || <rs type="work" ana="corpusmd:named_reference" ref="db:4647"><rs type="work" ana="corpusmd:named_reference" ref="db:3742">bslabs pa kun las btus pa</rs>'i don bsdus pa</rs> ni rnaM pa <abbr>gsum</abbr> ste | rtsol pa dang 'brel pa'i don dang | skabs kyi don dang ¦ mthar phyin pa'i bya ba'o ||</seg><seg type="excerpt" xml:id="ex25012023-03-1014-10-49" status="finalized" ana="corpusmd:colophon">
-            <milestone unit="section" n="Colophon (21b4)"/>
-        <rs type="work" ana="corpusmd:named_reference" ref="db:4647"><rs type="work" ana="corpusmd:named_reference" ref="db:3742">byang chub seMs pa'i bslabs pa <choice><orig>kun {na}</orig><reg>kun</reg></choice> las btus pa</rs>'i don bsdus pa</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3864">shag kya'i dge slongs byang chub skyabs</rs> kyis sbyar ba'o ||</seg> 
-        || </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Title page (1a1-2)"/>
+       <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> dza <lb n="1a3"/> 18 <lb n="1a4"/> oM AH HuM  || <rs type="work" ana="corpusmd:named_reference" ref="db:4647"><rs type="work" ana="corpusmd:named_reference" ref="db:3742">bslabs btus</rs> <choice><sic>kyis</sic><corr>kyi</corr></choice> sa bcad</rs> bzhugs pa'i dbu phyogs legs pa'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Body of the text (1b1)"/>
+         <pb n="1b"/><lb n="1b1"/> oM swA stI || <rs type="work" ana="corpusmd:named_reference" ref="db:3742">bslabs pa kun las btus pa</rs>'i don bsdus pa ni rnaM pa <abbr>gsum</abbr> ste | rtsol pa dang 'brel pa'i don dang | skabs kyi don dang ¦ mthar phyin pa'i bya ba'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (21b4)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:4647"><rs type="work" ana="corpusmd:named_reference" ref="db:3742">byang chub seMs pa'i bslabs pa <choice><orig>kun {na}</orig><reg>kun</reg></choice> las btus pa</rs>'i don bsdus pa</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3864">shag kya'i dge slongs byang chub skyabs</rs> kyis sbyar ba'o ||</ab>
+    </body>
+  </text>
+</TEI>

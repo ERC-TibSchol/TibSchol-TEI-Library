@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">gzhi lam 'bras gsum gyi rnam gzhag</title>
@@ -14,11 +14,14 @@
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+			     <name ref="corpusmd:SBi">Serena Biondo</name>
+               <name ref="corpusmd:Transkribus">Transkribus</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
                <name ref="corpusmd:TD">Tsering Drongshar</name>
+			    <name ref="corpusmd:PH">Pascale Hugon</name>
+				 <name ref="corpusmd:RG">Rachael Griffiths</name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -104,16 +107,18 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-22">TD checked scribe</change>
-         <change when="2023-09-19">TD checked place</change>
-         <change when="2024-09-19">PH fix bugs</change>
-		 <change when="2025-08-01">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex50022023-10-131" status="finalized"><milestone unit="section" n="Cover page (1a1-3) p. 31"/><pb n="1a"/><lb n="1a1"/><rs type="work" ana="corpusmd:named_reference" ref="db:4835">gzhi laM 'bras gsuM gyi <abbr>rnam gzhag</abbr> </rs>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/><pb n="1a"/><lb n="1a1"/><rs type="work" ana="corpusmd:named_reference" ref="db:4835">gzhi laM 'bras gsuM gyi <abbr>rnam gzhag</abbr> </rs>
          <lb n="1a2"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4052">smon laM tshul khrims</rs> gyis 
-		 <lb n="1a3"/> mdzad pa bzhugs</seg><seg type="excerpt" status="finalized" xml:id="ex50022023-09-125" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (69a8-69b1) pp. 145-146"/>
-		 <rs type="work" ana="corpusmd:named_reference" ref="db:4835">shes rab kyi pha rol <lb n="69a9"/> tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan gyi 'grel pa legs par bshad pa skyes bu'i don <choice><reg>grub</reg><orig>(grub)</orig></choice></rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4052">mang du thos pa shakya'i dge slong <choice><reg>smon</reg><orig>(smon)</orig></choice> lam tshul khrims</rs> kyis | bla ma dam pa mang pos byin gyis brlabs shing | <rs type="place" ana="corpusmd:named_reference" ref="db:4411">mkhas btsun gyi 'du sa phan bde'i 'byung gnas dpal snar thang gi gtsug lag khang</rs> du <pb n="69b"/><lb n="69b1"/> (ba 'di) yongs su rdzogs s+ho || × rten 'brel (bzang) po <abbr>yin no</abbr> | × <rs type="person" ana="corpusmd:named_reference" ref="4836">glan ston <note type="editorial">There are three Glan ston-s in BDRC all are Rnying ma scholars connected with Anuyoga teachings. Glan ston rdo rje 'od (P2JM92) has an interesting 20th century bio. This says that he studied ‘mtshan nyid' textual tradition with Gtsang nag pa (and other teachers. Funnily enough this Glan ston had a son to whom he gave the name Brtson 'grus seng ge). It also says that although he was invited to go to Gsang phu he didn't go. Gtsang nag pa lived in the 12th century (BDRC: birth in 12th century), his teacher's dates Phya pa are 1109-1169, Smon lam tshul khrims dates are 1219-1299. In order for this Glan ston to have written down this text (notice that the annotations post colophon are in the same hand of the rest of the manuscript except for the title page), Gtsang nag pa must have been born in the late 1950s and have died in 1940s. If Glan ston studied with Gtsang nag pa at the end of the latter's life he might have written down Skyo ston work (which would also mean that the text was written before Skyo ston became the 8th abbot of Snar thang as his tenure lasted from 1285 to his death  in the year 1299). Skyo ston began teaching in 1245.</note></rs> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4836">bdag</rs> gis bris |</seg></body></text></TEI>
+		 <lb n="1a3"/> mdzad pa bzhugs</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (69a8-69b1)"/>
+		 <rs type="work" ana="corpusmd:named_reference" ref="db:4835"><rs type="work" ana="corpusmd:named_reference" ref="db:3711"><rs type="work" ana="corpusmd:named_reference" ref="db:3706">shes rab kyi pha rol <lb n="69a9"/> tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan</rs> gyi 'grel pa</rs> legs par bshad pa skyes bu'i don <choice><reg>grub</reg><orig>(grub)</orig></choice></rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4052">mang du thos pa shakya'i dge slong <choice><reg>smon</reg><orig>(smon)</orig></choice> lam tshul khrims</rs> kyis | bla ma dam pa mang pos byin gyis brlabs shing | <rs type="place" ana="corpusmd:named_reference" ref="db:4411">mkhas btsun gyi 'du sa phan bde'i 'byung gnas dpal snar thang gi gtsug lag khang</rs> du <pb n="69b"/><lb n="69b1"/> <choice><reg>pa 'di</reg><orig>(ba 'di)</orig></choice><note type="editorial">Possibly a syllable missing at the end of fol. 69a or beginning of fol. 69b</note> yongs su rdzogs s+ho || ×
+		 × rten 'brel <choice><reg>bzang</reg><orig>(bzang)</orig></choice> po <abbr>yin no</abbr> | × <rs type="person" ana="corpusmd:named_reference" ref="4836">glan ston bdag</rs> gis bris |
+		 </ab>
+    </body>
+  </text>
+</TEI>

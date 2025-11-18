@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">Tshad ma rnam par nges pa’i ‘grel ba</title>
@@ -104,12 +104,11 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-25+01:00">PH copied to Mannanot</change>
-         <change when="2024-08-28+01:00">PH </change>
-         <change when="2025-07-04">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex80220240828_1" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="[Colophon (197a3)]"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4501"><rs type="work" ana="corpusmd:named_reference" ref="db3774">tshad ma rnam par nges pa</rs>'i 'grel bshad yi ge dang rigs pa'i gnad la 'jug pa'i shes rab kyi 'od zer</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="id:3831">rigs par smra ba'i dge' slong chos kyi seng ge</rs>s sbyar ba || rdzogs s+hyo ||</seg> ||||||||</body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (197a3)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4501"><rs type="work" ana="corpusmd:named_reference" ref="db3774">tshad ma rnam par nges pa</rs>'i 'grel bshad yi ge dang rigs pa'i gnad la 'jug pa'i shes rab kyi 'od zer</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="id:3831">rigs par smra ba'i dge' slong chos kyi seng ge</rs>s sbyar ba || rdzogs s+h+yo ||</ab>
+    </body>
+  </text>
+</TEI>

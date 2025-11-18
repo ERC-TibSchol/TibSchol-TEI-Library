@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">rgyal ba'i yuM sdud pa'i don gsal ba'i ti
@@ -107,19 +107,18 @@
       <profileDesc>
          <!-- <langUsage> to be inserted from APIS -->
       </profileDesc>
-      <revisionDesc status="draft">
-         <!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-22">TD checked scribe</change>
-         <change when="2023-10-11">TD tag person and place</change>
-         <change when="2024-09-13">PH fix bugs</change>
-         <change when="2024-11-04">PC insert the text</change>
-         <change when="2025-07-08">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" status="finalized" xml:id="ex23022023-09-112" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (28a11-12)"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><lb n="[1a2]"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5847"><rs type="work" ana="corpusmd:named_reference" ref="db:3693">mdo bsdud pa</rs>'i ti ka</rs> bzhugs</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (28a11-12)"/>
      <lg> <l>  <rs type="work" ana="corpusmd:named_reference" ref="db:5847"><rs type="work" ana="corpusmd:named_reference" ref="db:3693">rgyal ba'i yuM sdud pa</rs>'i don gsal ba'i ti ka</rs> zhes bya ba |</l> 
       <l>chos 'di la <lb n="28b12"/> nan tan du byas pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:5849">dmyal sde jo sras</rs> kyis |</l>
       <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">rab rga slob ma</rs>'i don du nye bar sbyar ba |</l> 
       <l>de'i rjes su 'jug pa <rs type="person" ana="corpusmd:named_reference" ref="db:5779">chab <choice><reg>shul</reg><orig>°°</orig></choice> gyi rgyal</rs><note type="editorial">Reading uncertain</note> × kyis bris pa ||</l> 
-            <l>rgyal po °° <note type="editorial">Possibly 3</note> bkyis byis <note type="editorial">Reading uncertain</note> | pa yin non × rdzogs s+h+yo ||</l></lg>||||</seg></body></text></TEI>
+            <l>rgyal po °° <note type="editorial">Possibly 3</note> bkyis byis <note type="editorial">Reading uncertain</note> | pa yin non × rdzogs s+h+yo ||</l></lg>||||</ab>
+    </body>
+  </text>
+</TEI>

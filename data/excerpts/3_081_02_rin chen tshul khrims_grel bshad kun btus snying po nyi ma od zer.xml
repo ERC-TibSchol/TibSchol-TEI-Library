@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">kun btus snying po</title>
@@ -106,15 +106,16 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-09-28">TD added work, person and place in colophon</change>
-         <change when="2024-06-25">PH validate doc</change>
-         <change when="2024-09-12">PH check segs edit '</change>
-		 <change when="2025-08-08">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex81022023-09-28-159" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (100a2--100a3)"/>
-           <rs type="work" ana="corpusmd:named_reference" ref="db:5271">'grel bshad kun las btus pa'i snying po nyi ma'i 'od zer gyi snang ba</rs> zhes bya ba 'di ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5954">shAkya'i btsun pa gzhung brgya smra ba rin chen tshul <lb n="100a3"/> khrims</rs> kyis ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:6173">mkhas grub du ma'i 'byung gnas ne'u thog gi chos <choice><orig>sgra</orig><reg>grwa</reg></choice> chen po</rs>r sbyar ba'o ||</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1b1-)"/>
+         <milestone unit="section" n="Title"/>
+         <pb n="1b"/><lb n="1b1"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5271">'grel bshad kun las btus pa'i snying po nyi ma'i 'od zer gyi snang ba</rs> zhes bya ba ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (100a2-100a3)"/>
+           <rs type="work" ana="corpusmd:named_reference" ref="db:5271">'grel bshad kun las btus pa'i snying po nyi ma'i 'od zer gyi snang ba</rs> zhes bya ba 'di ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5954">shAkya'i btsun pa gzhung brgya smra ba rin chen tshul <lb n="100a3"/> khrims</rs> kyis ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:6173">mkhas grub du ma'i 'byung gnas ne'u thog gi chos <choice><orig>sgra</orig><reg>grwa</reg></choice> chen po</rs>r sbyar ba'o ||</ab>
+    </body>
+  </text>
+</TEI>

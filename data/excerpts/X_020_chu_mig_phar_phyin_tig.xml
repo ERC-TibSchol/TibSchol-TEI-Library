@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -104,14 +104,26 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-09-18" who="corpusmd:PH" status="draft">PH transformed from transkribus output, moved to Mannanot, edit</change>
-                 <change when="2024-09-20" who="corpusmd:PH">PH fix bug</change>
-                 <change when="2025-04-24">PH fix id</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="exX202024-09-1811-03-222" status="reviewed" ana="corpusmd:colophon">  <lg><l><lb n="1a1"/>Pa</l> <!--volume-->
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab>
+        <lg><l><pb n="1a"/><lb n="1a1"/> Pa <note type="editorial">Volume</note></l>
                <l><lb n="1a2"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5870">phar phyin chu tik</rs> bzhugs | <rs type="person" ana="corpusmd:named_reference" ref="db:6036">thang bla brang pa</rs>'i dpe' ||</l>
-               <l><lb n="1a3"/><rs type="work" ana="corpusmd:named_reference" ref="db:5870">Tik chen lung don rnaM gzigs</rs> zhes pa <rs type="person" ana="corpusmd:named_reference" ref="db:4018">gtsang chu mig pa <abbr>seng ge</abbr> dpal</rs> gyis mdzad pa <abbr>bzhugs so</abbr> ||<!--by a different hand--></l></lg></seg>
-            </body></text></TEI>
+               <l><lb n="1a3"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5870">Tik chen lung don rnaM gzigs</rs> zhes pa <rs type="person" ana="corpusmd:named_reference" ref="db:4018">gtsang chu mig pa <abbr>seng ge</abbr> dpal</rs> gyis mdzad pa <abbr>bzhugs so</abbr> ||<note type="editorial">This third line is by a different hand.</note></l></lg>
+      </ab>
+      <gap reason="omitted"/>
+      <ab><lb n="N008"/>logs par 'thong nas <rs type="work" ana="corpusmd:named_reference" ref="db:5870">lung don rnam gzigs</rs> 'di || 
+               mi 'pham 'gon dang klu la dbang bsgyur dang || 
+               phyogs las rgyal dang rnams 'grel mdzad pa ste || 
+               kun gyi gzhung lugs 'dzin pa <rs type="person" ana="corpusmd:named_reference" ref="db.4018">chu mig pa</rs>s ||
+               <rs type="place" ana="corpusmd:unnamed_reference" ref="db:6173">chen po'i pho brang dge pa'i gnas</rs> su sbyar || </ab>
+      <gap reason="omitted"/>
+      <ab><lb n="208a3"/>las byung pa'i shes rab kyis || 
+               legs par bstan la phabs pa'i don zab pa pa dang rgya che ba bston par byed pa 'di || 
+               lung dang rigs pa'i don la dbang phyug du rgyur pa || | 
+               <rs type="person" ana="corpusmd:named_reference" ref="db.4018">shakya'i dge slong rtsang chu mig pa sang ge <note type="gloss">dpal</note> bzang po</rs> <note type="gloss">gyis</note> <rs type="place" ana="corpusmd:named_reference" ref="db:6173">gsang phu ne'u thog gi gtsug khang</rs> du legs par sbyar pa'o ||</ab>
+    </body>
+  </text>
+</TEI>

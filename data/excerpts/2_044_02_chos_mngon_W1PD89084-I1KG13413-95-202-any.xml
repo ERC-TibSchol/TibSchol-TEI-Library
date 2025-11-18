@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -105,23 +105,25 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-10-07" who="corpusmd:PH" status="draft">transfo Transkribus, moved to Mannanot</change>
-         <change when="2024-11-20">PH edit</change>
-         <change when="2025-07-29">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex44022024-11-2014-54-51" status="finalized"> nga rgyal la mA na ba zhes ring par yod pa lo tsha bas ma phyed par sgra nor ba ste | don la nga rgyal yin no zhes <rs type="person" ana="corpusmd:named_reference" ref="db:4261">mkhas pa chen po mchims brtson <lb n="8a5"/> 'grus seng ge</rs> gsung ngo ||</seg>
-                de ltar na sems byung bzhi bcu rtsa drug po dang | gzhi phan tshogs la 'byung ba'i mi dga' ba dang gal byed pa dang | sems zhum pa nyid dang
-               <seg type="excerpt" xml:id="ex44022024-11-2014-51-17" status="finalized" ana="corpusmd:colophon"><milestone n="colophon" unit="section"/>
-               de ltar <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bdag</rs> gis <rs type="work" ana="corpusmd:named_reference" ref="db:4763"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon rin chen mdzod</rs> || 
-               gsal ba'i rgyan</rs> zhes bya ba 'di bshad de | | 
-             <rs type="person" ana="corpusmd:named_reference" ref="db:6978"> dam chos <lb n="58b4"/> snang ldan 'jam dpal grags pa</rs> yis | | yang yang <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bdag</rs> la bskul ba'i slad du'o | | 
-               gal te <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bdag</rs> gis 'dir bshad gang yin la | nongs par gyur pa cung zad <lb n="108b5"/> mchis na de | | 
-               gang la blo gros spangs pa'i spyan mnga' ba | | 
-               mkhas rnams dag gis bzod pa mdzad pa'i rigs | | 
-               'di brtsams dge ba kun da'i phyed ba <lb n="108b6"/> ltar | | 
-               rnam par dkar ba'i bsod nam <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bdag</rs> gis ni | | 
-               legs par skrun pa'i dge ba ci mchis pa || 
-               mtshungs med rgyal ba'i go 'phang thob phyir bsngo | |</seg> </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:4261">mkhas pa chen po mchims brtson <lb n="8a5"/> 'grus seng ge</rs> gsung ngo ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon (58b4-58b6)" unit="section"/>
+               <lg><l>de ltar <rs type="person" ana="corpusmd:unnamed_reference" ref="db:6979">bdag</rs> gis <rs type="work" ana="corpusmd:named_reference" ref="db:4763"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon rin chen mdzod</rs></rs> || </l>
+               <l><rs type="work" ana="corpusmd:named_reference" ref="db:4763">gsal ba'i rgyan</rs> zhes bya ba 'di bshad de || </l>
+             <l><rs type="person" ana="corpusmd:named_reference" ref="db:6978"> dam chos <lb n="58b4"/> snang ldan 'jam dpal grags pa</rs> yis ||</l> <l>yang yang <rs type="person" ana="corpusmd:unnamed_reference" ref="db:6979">bdag</rs> la bskul ba'i slad du'o ||</l> </lg>
+
+               <lg><l>gal te <rs type="person" ana="corpusmd:unnamed_reference" ref="db:6979">bdag</rs> gis 'dir bshad gang yin la |</l> <l>nongs par gyur pa cung zad <lb n="58b5"/> mchis na de ||</l> 
+               <l>gang la blo gros spangs pa'i spyan mnga' ba ||</l>
+               <l>mkhas rnams dag gis bzod pa mdzad pa'i rigs ||</l> </lg>
+
+               <lg><l>'di brtsams dge ba kun da'i phyed ba <lb n="58b6"/> ltar ||</l>
+               <l>rnam par dkar ba'i bsod nam <rs type="person" ana="corpusmd:unnamed_reference" ref="db:6979">bdag</rs> gis ni ||</l> 
+               <l>legs par skrun pa'i dge ba ci mchis pa ||</l> 
+               <l>mtshungs med rgyal ba'i go 'phang thob phyir bsngo ||</l></lg></ab>
+    </body>
+  </text>
+</TEI>

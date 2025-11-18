@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">2_055_03_e_Ral gri_rtsod rigs rgyan me tog</title>
@@ -105,17 +105,16 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2025-01-30">PH edit</change>
-         <change when="2025-08-05">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex55032025-01-3016-32-09" status="finalized">
-         <l><choice><orig>phyi</orig><reg>phyis</reg></choice> <rs type="place" ana="corpusmd:named_reference" ref="db:7347">shar phyogs dzA ga ta la</rs> yi <note type="editorial">Lho pa kun mkhyen calls him: shar phyogs bha ranta'i paṇḍita.</note> ||</l> 
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><l><choice><orig>phyi</orig><reg>phyis</reg></choice> <rs type="place" ana="corpusmd:named_reference" ref="db:7347">shar phyogs dzA ga ta la</rs> yi <note type="editorial">Lho pa kun mkhyen calls him: shar phyogs bha ranta'i paṇḍita.</note> ||</l> 
          <l><rs type="person" ana="corpusmd:named_reference" ref="db:6032">paN chen dA na shi la</rs> byon gyur <pb n="72b1"/><lb n="72b1"/> te ||</l>
          <l><rs type="person" ana="corpusmd:named_reference" ref="db:7102">rigs smra'i dge slong shAkya brtson 'grus</rs> la ||</l>
-         <l><rs type="person" ana="corpusmd:named_reference" ref="db:5552">bram ze shang kar nan ta</rs>'i <choice><orig>'brel</orig><reg>'grel</reg></choice> bzhin bshad ||</l></seg>
-
-         <seg type="excerpt" xml:id="ex55032025-01-3016-32-10" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (73a2)"/><lb n="73a2"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4951"><rs type="work" ana="corpusmd:named_reference" ref="db:3777"><rs type="person" ana="corpusmd:named_reference" ref="db:3773">dpal chos kyi grags pa</rs>s mdzad pa'i rtsod pa'i rigs pa</rs> rgyan gyi me tog</rs> ces bya ba phyi nang gnyis kyi grub mtha' rgya mtsho lta bu la shin tu sbyangs pa'i blo <lb n="73a3"/> gros can <rs type="person" ana="corpusmd:named_reference" ref="db:4006">shAkya'i dge slong bcom ldan ral gri</rs>s sbyar ba rdzogs s+ho || dge'o |</seg></body></text></TEI>
+         <l><rs type="person" ana="corpusmd:named_reference" ref="db:5552">bram ze shang kar nan ta</rs>'i <choice><orig>'brel</orig><reg>'grel</reg></choice> bzhin bshad ||</l></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (73a2)"/><lb n="73a2"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4951"><rs type="work" ana="corpusmd:named_reference" ref="db:3777"><rs type="person" ana="corpusmd:named_reference" ref="db:3773">dpal chos kyi grags pa</rs>s mdzad pa'i rtsod pa'i rigs pa</rs> rgyan gyi me tog</rs> ces bya ba phyi nang gnyis kyi grub mtha' rgya mtsho lta bu la shin tu sbyangs pa'i blo <lb n="73a3"/> gros can <rs type="person" ana="corpusmd:named_reference" ref="db:4006">shAkya'i dge slong bcom ldan ral gri</rs>s sbyar ba rdzogs s+ho || dge'o |</ab>
+    </body>
+  </text>
+</TEI>

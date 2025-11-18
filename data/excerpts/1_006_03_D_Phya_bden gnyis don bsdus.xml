@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bden gnyis don bsdus</title>
@@ -105,17 +105,13 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-05-06"> TD added Person and work</change>
-         <change when="2023-07-06">RG added pb/lb for excerpts and corrected spelling mistake in tag</change>
-         <change when="2023-06-07">RG updated pb and lb</change>
-         <change when="2023-07-18">PH finalized pb lb, reviewed excerpts</change>
-         <change when="2023-07-21">PH minor fix</change>
-         <change when="2025-06-13">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex603_11102023-05-062" status="finalized"><milestone unit="section" n="Body of the text (34a1–37a4)"/><rs type="person" ref="db:3730" ana="corpusmd:named_reference">slob dpon ye shes snying po</rs>s mdzad pa'i <rs type="work" ref="db:3729" ana="corpusmd:named_reference">dbu ma bden pa gnyis rnam par 'byed pa</rs> la don lnga ste |</seg>
-         <seg type="excerpt" xml:id="ex603_11332023-05-06" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (37a4)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4480"><rs type="work" ana="corpusmd:named_reference" ref="db:3729">dbu ma bden pa</rs> gnyis kyi don bsdus pa</rs> <rs type="person" ref="db:3831" ana="corpusmd:named_reference">rigs par smra ba'i dge slong chos kyi seng ge</rs>s sbyar pa || || rdzogs s+hO || ||</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Body of the text (34a1–37a4)"/><rs type="person" ref="db:3730" ana="corpusmd:named_reference">slob dpon ye shes snying po</rs>s mdzad pa'i <rs type="work" ref="db:3729" ana="corpusmd:named_reference">dbu ma bden pa gnyis rnam par 'byed pa</rs> la don lnga ste |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (37a4)"/><lb n="37a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4480"><rs type="work" ana="corpusmd:named_reference" ref="db:3729">dbu ma bden pa gnyis</rs> kyi don bsdus pa</rs> <rs type="person" ref="db:3831" ana="corpusmd:named_reference">rigs par smra ba'i dge slong chos kyi seng ge</rs>s sbyar pa || || rdzogs s+hO || || <lb n="37a5"/> || || || ||</ab>
+    </body>
+  </text>
+</TEI>

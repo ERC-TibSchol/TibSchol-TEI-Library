@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie"/>
@@ -14,7 +14,7 @@
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:Sakyalibrary">Sakyalibrary</name><!--http://www.sakyalibrary.com/library/collections (works of Chomden Rigpe Raltri-->
+               <name ref="corpusmd:Sakyalibrary">Sakyalibrary RRAL003</name><!--http://www.sakyalibrary.com/library/collections (works of Chomden Rigpe Raltri)-->
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
@@ -104,18 +104,21 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-10-18+02:00">transformed docx to TEI</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="exX282024-10-1811-51-06" status="reviewed" ana="corpusmd:colophon"> <l>'di na mkhas pa'i rnam gzhag ma mthong bar ||</l> 
-         <l>shes bya'i gnas la mkhas par gang smra ba ||</l> 
-         <l>des kyang bdag gi blo gros legs sbyangs pa'i ||</l> 
-         <l>mkhas pa'i gzhung brgya'i ming yang thos re skan || </l>
-         <l>shAkya'i bstan la shin tu mkhas rnams dang  || </l>
-         <l>rtsod ldan mkhas par rlom par 'dod pa rnams ||</l> 
-         <l>bstan pa rgyan gyis dag par bya ba'i phyir ||</l>
-         <l><rs type="person" ana="corpusmd:named_reference" ref="db:4006">dpal ldan rigs pa'i ral gri</rs>s bkod pa yin || </l></seg>
-         <seg type="excerpt" xml:id="exX282024-10-1811-51-05" status="reviewed" ana="corpusmd:colophon"><milestone n="colophon" unit="section"/>
-            <rs type="work" ana="corpusmd:named_reference" ref="db:6044">bstan pa rgyan gyi me tog</rs> ces bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i btsun pa ral gri</rs>s bkod pa rdzogs so ||</seg>  ||</body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="Closing verses" unit="section"/><l>'di na mkhas pa'i rnam gzhag ma mthong bar ||</l> 
+ <l>shes bya'i gnas la mkhas par gang smra ba ||</l> 
+ <l>des kyang bdag gi blo gros legs sbyangs pa'i ||</l> 
+ <l>mkhas pa'i gzhung brgya'i ming yang thos re skan || </l>
+ <l>shAkya'i bstan la shin tu mkhas rnams dang || </l>
+ <l>rtsod ldan mkhas par rlom par 'dod pa rnams ||</l> 
+ <l>bstan pa rgyan gyis dag par bya ba'i phyir ||</l>
+ <l><rs type="person" ana="corpusmd:named_reference" ref="db:4006">dpal ldan rigs pa'i ral gri</rs>s bkod pa yin || </l></ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon" unit="section"/>
+ <rs type="work" ana="corpusmd:named_reference" ref="db:6044">bstan pa rgyan gyi me tog</rs> ces bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i btsun pa ral gri</rs>s bkod pa rdzogs so ||</ab>
+    </body>
+  </text>
+</TEI>

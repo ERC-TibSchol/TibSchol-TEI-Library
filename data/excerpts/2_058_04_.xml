@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -103,18 +103,21 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-12-05" who="corpusmd:PH" status="draft">created document</change>
-         <change when="2025-08-05">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex58042024-12-0515-50-412" status="finalized" ana="corpusmd:colophon">ces pa <rs type="work" ana="corpusmd:named_reference" ref="db:5045">blo sbyong brgyud pa'i gsol 'debs</rs> 'di | <rs type="person" ana="corpusmd:named_reference" ref="db:4066">chos smra ba'i btsun pa thogs pa med</rs> kyis sbyar ba'o ||</seg>
-<seg type="excerpt" xml:id="ex58042024-12-0515-50-413" status="finalized"><milestone n="Closing verses" unit="section"/>
-         <rs type="person" ana="corpusmd:named_reference" ref="db:7022"><abbr>grags</abbr> pa'i mtshan can <note type="gloss">mkhan chen bsod naMs</note> chos rje</rs>'i bka' drin las |
-         <abbr>legs</abbr> par rnyed pa'i snyan rgyud <abbr>rin chen</abbr> gter ||
-         dad ldan <lb n="15a6"/> slob mas bskul nas phye ba'i mthus || 
-         'gro kun <abbr>byang chub</abbr> <abbr>thugs</abbr> 2 'byongs par shog ||</seg><seg type="excerpt" xml:id="ex58042024-12-0515-50-41" status="finalized" ana="corpusmd:colophon"><milestone n="colophon" unit="section"/> blo sbyong don bdun ma'i snyan brgyud tshig rnams | <abbr>yi ge</abbr> nyung du'i sgo nas dkrol ba 'di ||
-         <rs type="person" ana="corpusmd:named_reference" ref="db:7021">theg pa <abbr>mchog gi</abbr> rnor pa <abbr>grags</abbr> pa rgyal mtshan</rs> gyis yang dag yang du bskul nas <rs type="person" ana="corpusmd:named_reference" ref="db:4066">btsun <lb n="15a7"/> pa thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5692">chos <abbr>rdzongs</abbr></rs> <abbr>su</abbr> sbyar ba'o || shub+haM ||</seg>
-
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5045">blo sbyong brgyud pa'i gsol 'debs</rs> 'di | <rs type="person" ana="corpusmd:named_reference" ref="db:4066">chos smra ba'i btsun pa thogs pa med</rs> kyis sbyar ba'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Closing verses" unit="section"/>
+         <lg><l><rs type="person" ana="corpusmd:named_reference" ref="db:7022"><abbr>grags</abbr> pa'i mtshan can <note type="gloss">mkhan chen bsod naMs ra sa brag phug pa'i bsgoM chen po</note><note type="editorial">Reading "ra sa brag phug" tentative.</note> chos rje</rs>'i bka' drin las |</l>
+         <l><abbr>legs</abbr> par rnyed pa'i snyan rgyud <abbr>rin chen</abbr> gter ||</l>
+        <l> dad ldan <lb n="15a6"/> slob mas bskul nas phye ba'i mthus ||</l> 
+         <l>'gro kun <abbr>byang chub</abbr> <abbr>thugs</abbr> 2 'byongs par shog ||</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="colophon" unit="section"/> 
+       blo sbyong don bdun ma'i snyan brgyud tshig rnams | <abbr>yi ge</abbr> nyung du'i sgo nas dkrol ba 'di ||
+         <rs type="person" ana="corpusmd:named_reference" ref="db:7021">theg pa <abbr>mchog gi</abbr> <abbr>rnal 'byor</abbr> pa <abbr>grags</abbr> pa rgyal mtshan</rs> gyis yang dag yang du bskul nas <rs type="person" ana="corpusmd:named_reference" ref="db:4066">btsun <lb n="15a7"/> pa thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5692">chos <abbr>rdzongs</abbr></rs> <abbr>su</abbr> sbyar ba'o || shub+haM ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">rgyud bla ma don gsal</title>
@@ -111,24 +111,15 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-06-27">TD start tag work and person </change>
-         <change when="2023-06-27">RG corrected pb and lb tags</change>
-         <change when="2023-07-18">PH reviewed segments</change>
-         <change when="2023-07-21">PH minor fix</change>
-         <change when="2024-09-11">PH fix seg ids</change>
-         <change when="2024-12-17">PH add transkribus</change>
-         <change when="2025-05-13">PH add translations and lg</change>
-         <change when="2025-07-08">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex705-1129-2023-06-271" status="finalized"> 
-         <milestone unit="section" n="Cover page (1a)"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>
          <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> <choice><reg>tsha</reg><orig>(tsha)?</orig></choice> <lb n="1a3"/> 60 <lb n="1a4"/> 
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4492"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma'i <abbr>bstan bcos</abbr></rs> kyi tshig dang don gyi cha rgya cher bsnyad pa phra ba'i don gsal ba</rs> zhes bya ba | <note type="translation">Clarifier of subtle meaning – Extensive commentary on the words and meanings of the Mahāyānottaratantraśāstra</note></seg>
-      <seg type="excerpt" xml:id="ex07052025-05-1316-41-09" status="reviewed"> <milestone unit="section" n="Incipit (1b1)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4492"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma'i <abbr>bstan bcos</abbr></rs> kyi tshig dang don gyi cha rgya cher bsnyad pa phra ba'i don gsal ba</rs> zhes bya ba | <note type="translation">Clarifier of subtle meaning – Extensive commentary on the words and meanings of the Mahāyānottaratantraśāstra</note></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1b1)"/>
          <milestone unit="section" n="Invocation (1b1)"/>
          <pb n="1b"/><lb n="1b1"/> || <rs type="deity">bcom ldan 'das ma pham pa</rs> la phyag tshal lo || <note type="translation">I bow down to the Fortunate one, the Invincible one (i.e., Maitreya).</note>
          <milestone unit="section" n="Introductory verses (1b1–1b3)"/>
@@ -138,11 +129,7 @@
          <l>legs rtogs sgrib myed blo mnga' rgya che 'od zer stong 'bar ba ||</l>
          <l>zhi ba'i 'khor lo dam pas tshogs rnams rmin mdzad <lb n="1b2"/> de la gus pas 'dud ||</l></lg>
          <note type="translation">I respectfully bow down to the one (i.e. Maitreya) who abides in the saṃsāra with his stainless own-nature, who, depending both on the extensive and profond teachings of the protector (i.e. the Buddha) and on the uncontaminated path, who hence has the unobstructed wisdom of realization, who shines forth with thousands of extensive rays, and who brings to maturation groups (of beings) by means of the excellent wheel of pacification.</note>
-        <seg type="excerpt" xml:id="ex7052023-07-1814-08-32" status="reviewed"> <milestone unit="section" n="v. 2"/>
-        <lg> <l>brtse chen blo gros ldan ba lta ngan sgra gcan las grol zhing || </l>
-         <l>chos kyi snang pa mchog gis blo ngan rab rib rnams bsal te ||</l>
-         <l>sa stengs 'di na nyi bzhin grags pa lham me snang gyur pa ||</l><l><rs type="person" ana="corpusmd:named_reference" ref="db:3805">zla myed <choice><corr>rigs par smra ba</corr><sic>rigs pas smra ba</sic></choice> chos gyi bla ma</rs> dpal <choice><reg>la</reg><orig>‹la›</orig></choice> 'dud ||</l></lg>
-      <note type="translation">I bow down to the auspicious (Zhang tshe spong) Chos kyi bla ma, the matchless logician who, having great compassion and intelligence, is freed from the eclipse maker (Rāhu) of wrong views, and who eliminates eye-diseases (timira) of the bad-minded people by means of excellent light of teaching, and briliantly shining forth on the earth with a sun-like glory.</note></seg>
+        <seg type="excerpt" xml:id="ex7052023-07-1814-08-32" status="reviewed"> </seg>
                
          <milestone unit="section" n="v. 3"/>
     <lg>     <l>ma pham rgyal sras dam pa'i zhal gyi bum pa bzang po nas ||</l>
@@ -151,18 +138,21 @@
          <l>'gro ba'i mi shes nad gsol 'jig rten 'di na rigs gnas rgyal ||||</l></lg>
          <note type="translation">May this stainless nectar — he excellent teaching of definitive meaning of the excellent vehicle, which has arisen from the auspicious vessel of the excellent Son of the victorious one, the Invicible (Ajita, Maitreya) — not be saturated with stains of the vomit of evil of the bad-minded ones, who have a conceited mind, and may it cure the disease of ignorance of the beings, 
          And may it prevail in this world (as) the foundation that is spiritual disposition (gotra).</note>
-      </seg>
-<seg type="excerpt" xml:id="ex7052023-07-1814-08-32" status="reviewed"> <milestone unit="section" n="v. 2"/>
+      </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="v. 2"/>
         <lg> <l>brtse chen blo gros ldan ba lta ngan sgra gcan las grol zhing || </l>
          <l>chos kyi snang pa mchog gis blo ngan rab rib rnams bsal te ||</l>
          <l>sa stengs 'di na nyi bzhin grags pa lham me snang gyur pa ||</l><l><rs type="person" ana="corpusmd:named_reference" ref="db:3805">zla myed <choice><corr>rigs par smra ba</corr><sic>rigs pas smra ba</sic></choice> chos gyi bla ma</rs> dpal <choice><reg>la</reg><orig>‹la›</orig></choice> 'dud ||</l></lg>
-      <note type="translation">I bow down to the auspicious (Zhang tshe spong) Chos kyi bla ma, the matchless logician who, having great compassion and intelligence, is freed from the eclipse maker (Rāhu) of wrong views, and who eliminates eye-diseases (timira) of the bad-minded people by means of excellent light of teaching, and briliantly shining forth on the earth with a sun-like glory.</note></seg>
-               
-         <seg type="excerpt" xml:id="ex007052025-05-2010-09-14" status="finalized"><milestone unit="section" n="Body of the text (1b3– ?[missing folio 92])"/>
+      <note type="translation">I bow down to the auspicious (Zhang tshe spong) Chos kyi bla ma, the matchless logician who, having great compassion and intelligence, is freed from the eclipse maker (Rāhu) of wrong views, and who eliminates eye-diseases (timira) of the bad-minded people by means of excellent light of teaching, and briliantly shining forth on the earth with a sun-like glory.</note></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Body of the text (1b3– ?[missing folio 92])"/>
         de la <rs type="person" ana="corpusmd:named_reference" ref="db:3747">bcom ldan 'das ma pham pa</rs>s <rs type="work" ana="corpusmd:unnamed_reference" ref="db:3746"><rs type="work" ana="corpusmd:unnamed_reference" ref="db:3706">rgyan rnaMs pa 2</rs></rs> dang <rs type="work" ana="corpusmd:unnamed_reference" ref="db:3748"><rs type="work" ana="corpusmd:unnamed_reference" ref="db:5634">rnam 'byed rnam pa gnyis</rs></rs> kyis skyob pa'i thabs la rten te rims kyis bkri ba'i laM las gdul <lb n="1b4"/> bya rnaMs legs par rab tu btul ste skal ba dang ldan bar gyur ba na dus phyis 'os su gyur pa'i gdul bya la mchog gi don <rs type="school">theg pa chen po</rs>'i gsang pa dngos kyi don la blo gros gzhan gyis gnod pa med cing zhugs nas spang par bya ba ma yin pa  phyir mi ldog pa'i chos <choice><reg>kyi</reg><orig>‹kyi›</orig></choice> 'khor lo'i don rnam par <choice><reg>'byed pa</reg><orig>'byed pa{}</orig></choice> <rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa <choice><reg>chen</reg><orig>‹chen›</orig></choice> po rgyud bla ma</rs>'i stan bcos 'di <lb n="1b5"/> <choice><corr/><sic>'di</sic></choice> sbyar bar mdzad do | 
-         'di la don bzhi ste | spyi'i don lus rnaM par gzhag pa dang | 'bras bu <choice><reg>dkon mchog</reg><orig>dkon ‹mchog›</orig></choice> gi don dang | de sgrub par byed pa'i rigs dang | bstan chos  yongs su rdzogs pa'i bya ba'o ||</seg>
-      <seg type="excerpt" xml:id="ex07052025-05-1316-51-52" status="reviewed">
-         <milestone unit="section" n="Conclusive verses (?–93b7)"/>
+         'di la don bzhi ste | spyi'i don lus rnaM par gzhag pa dang | 'bras bu <choice><reg>dkon mchog</reg><orig>dkon ‹mchog›</orig></choice> gi don dang | de sgrub par byed pa'i rigs dang | bstan chos  yongs su rdzogs pa'i bya ba'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n="56a3"/> dad pa'am | ngo bo tha dad pa'am | ngo bo gcig la ldog pa tha dad pa yin zhe na | gcig pa bkag pa'i tha dad pa ma yin te | <abbr>thams cad</abbr> dngos po yin pa'i phyir ro | dngos po tha dad pa'i nges pa'ang myed de bag la nyal la sogs pa 'ga' zhig dngos po gcig par 'gyur ba'i go skabs yod pas so | dngos po 1 pa'i yang nges pa myed de rgyud bzhir phye ba'i rgyud tha dad pa rnaMs ngo bo tha dad par yang 'gyur ba'i <lb n="56a4"/> phri ro| des na dngos po gcig gam tha dad kyang bla ste mtshan nyid tha dad pa dgu yod pas sgrib pa dgu'o |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Conclusive verses (?–93b7)"/>
                    <pb n="92a"/><pb n="92b"/><!--Folio 92ab missing-->
         
         <lg><l><pb n="93a"/><lb n="93a1"/> dul ba'i tshig rnaMs dad ldan skye bo'i <choice><corr>rnar</corr><sic>snar</sic></choice> snyan cing ||</l>
@@ -172,14 +162,9 @@
             Who would think that it is beneficial for others to explain correctly words that generate pain in the heart when seen by bad people.</note>
          
          <seg type="excerpt" xml:id="ex705-1104-2023-06-272" status="reviewed">
-            <lg><l>yun ring brtson pas dkar po'i sa bon mthur ldan zhing ||</l> <l>skye dang skye <choice><reg>bar</reg><orig>ba‹r›</orig></choice> rab sbyang blo gros gsal gyur pa ||</l> <l><rs type="person" ref="db:3805" ana="corpusmd:named_reference">blo ldan khyu mchog chos rje chos kyi bla ma</rs>'i <lb n="93a2"/> gsung ||</l> <l>theg mchog don gsal byed pa dran phyir mngon bar bstus ||</l></lg>
-         <note type="translation">I have summarized, in order to remember the teaching of the Lord of Dharma Chos kyi bla ma, the wise excellent bull, that clarifies the meaning of the excellent vehicle, 
-            Whose mind became clear through clarification in repeated births 
-            And who has the power of the wholesome seed thanks to his long-term efforts.</note></seg>
+            </seg>
   
-         <seg type="excerpt" xml:id="ex705-1104-2023-06-29" status="reviewed"><lg><l>bsod naMs 'di yis skye bo dam pa de dang de ||</l> <l>bdud kyi tshogs bcom rkang gnyis gtso' bor gyur pa dang ||</l> <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3831">bdag</rs> kyang de dag rjes su byang chub mchog thob nas ||</l> <l>'gro rnams zhi ba'i lam la rab du 'god gyur cig ||</l></lg><note type="translation">Trough these merits, may each and every excellent man become the best of the biped (i.e., a Buddha) who conquers the armies of demons, and
-May I, too, obtain the excellent awakening after them, and
-May then beings be established in the path of pacification.</note></seg>
+         <seg type="excerpt" xml:id="ex705-1104-2023-06-29" status="reviewed"/>
          
         <lg> <l>gang dang gang dag mngon sangs rgyas pa'i <lb n="93a3"/> zhing mchog der ||</l>
          <l>blo dman rtogs pas dbul zhing <choice><corr>rnyed</corr><sic>snyed</sic></choice> la gdu ba dang ||</l>
@@ -191,25 +176,27 @@ Who engage hatefuly towards the doctrine and the exellent persons,
 Who are of inferior mind, poor in understanding and attached to obtaining (things).</note>
          
             <seg type="excerpt" xml:id="ex705-1104-2023-06-273" status="finalized">
-           <lg>    <l>gzhan <choice><reg/><orig>{°}</orig></choice>ma pham chos rgyal dri myed pa sa <choice><reg>stengs</reg><orig>steng‹s›</orig></choice> 'dir ||</l> <l>byang chub shing dbang drung du mngon sangs rgyas pa na <choice><reg>||</reg><orig>‹¦›</orig></choice></l><l><rs type="person" ref="db:3831" ana="corpusmd:named_reference">chos kyi seng ge</rs> blo gsal grags pa'i nyi 'od kyis ||</l> <l><lb n="93a4"/> theg pa mchog la rmongs pa'i rab rib sel gyur cig ||</l></lg>
-         <note type="translation">When the Unconquered by others (i.e. Maitreya as a future buddha), the King of Doctrine, the Stainless one, will have correctly awaken under the bodhi-tree king (in Bodhgayā), on the earth,
-May the eye-disease (timira) of ignorance with regard to the excellent vehicle be dispelled by the glorious sun-rays of the clear-minded one, the Lion of the doctrine (Chos kyi seng ge).</note></seg>
-            </seg>
-      <seg type="excerpt" xml:id="ex705-1104-2023-06-272" status="reviewed">
-            <lg><l>yun ring brtson pas dkar po'i sa bon mthur ldan zhing ||</l> <l>skye dang skye <choice><reg>bar</reg><orig>ba‹r›</orig></choice> rab sbyang blo gros gsal gyur pa ||</l> <l><rs type="person" ref="db:3805" ana="corpusmd:named_reference">blo ldan khyu mchog chos rje chos kyi bla ma</rs>'i <lb n="93a2"/> gsung ||</l> <l>theg mchog don gsal byed pa dran phyir mngon bar bstus ||</l></lg>
+           </seg>
+            </ab>
+      <gap reason="omitted"/>
+      <ab><lg><l>yun ring brtson pas dkar po'i sa bon mthur ldan zhing ||</l> <l>skye dang skye <choice><reg>bar</reg><orig>ba‹r›</orig></choice> rab sbyang blo gros gsal gyur pa ||</l> <l><rs type="person" ref="db:3805" ana="corpusmd:named_reference">blo ldan khyu mchog chos rje chos kyi bla ma</rs>'i <lb n="93a2"/> gsung ||</l> <l>theg mchog don gsal byed pa dran phyir mngon bar bstus ||</l></lg>
          <note type="translation">I have summarized, in order to remember the teaching of the Lord of Dharma Chos kyi bla ma, the wise excellent bull, that clarifies the meaning of the excellent vehicle, 
             Whose mind became clear through clarification in repeated births 
-            And who has the power of the wholesome seed thanks to his long-term efforts.</note></seg>
-  
-         <seg type="excerpt" xml:id="ex705-1104-2023-06-29" status="reviewed"><lg><l>bsod naMs 'di yis skye bo dam pa de dang de ||</l> <l>bdud kyi tshogs bcom rkang gnyis gtso' bor gyur pa dang ||</l> <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3831">bdag</rs> kyang de dag rjes su byang chub mchog thob nas ||</l> <l>'gro rnams zhi ba'i lam la rab du 'god gyur cig ||</l></lg><note type="translation">Trough these merits, may each and every excellent man become the best of the biped (i.e., a Buddha) who conquers the armies of demons, and
+            And who has the power of the wholesome seed thanks to his long-term efforts.</note></ab>
+      <gap reason="omitted"/>
+      <ab>
+        <lg><l>bsod naMs 'di yis skye bo dam pa de dang de ||</l> <l>bdud kyi tshogs bcom rkang gnyis gtso' bor gyur pa dang ||</l> <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3831">bdag</rs> kyang de dag rjes su byang chub mchog thob nas ||</l> <l>'gro rnams zhi ba'i lam la rab du 'god gyur cig ||</l></lg>
+        <note type="translation">Trough these merits, may each and every excellent man become the best of the biped (i.e., a Buddha) who conquers the armies of demons, and
 May I, too, obtain the excellent awakening after them, and
-May then beings be established in the path of pacification.</note></seg>
-         
-        <seg type="excerpt" xml:id="ex705-1104-2023-06-273" status="finalized">
-           <lg>    <l>gzhan <choice><reg/><orig>{°}</orig></choice>ma pham chos rgyal dri myed pa sa <choice><reg>stengs</reg><orig>steng‹s›</orig></choice> 'dir ||</l> <l>byang chub shing dbang drung du mngon sangs rgyas pa na <choice><reg>||</reg><orig>‹¦›</orig></choice></l><l><rs type="person" ref="db:3831" ana="corpusmd:named_reference">chos kyi seng ge</rs> blo gsal grags pa'i nyi 'od kyis ||</l> <l><lb n="93a4"/> theg pa mchog la rmongs pa'i rab rib sel gyur cig ||</l></lg>
+May then beings be established in the path of pacification.</note>
+      </ab>
+      <gap reason="omitted"/>
+      <ab><lg>    <l>gzhan <choice><reg/><orig>{°}</orig></choice>ma pham chos rgyal dri myed pa sa <choice><reg>stengs</reg><orig>steng‹s›</orig></choice> 'dir ||</l> <l>byang chub shing dbang drung du mngon sangs rgyas pa na <choice><reg>||</reg><orig>‹¦›</orig></choice></l><l><rs type="person" ref="db:3831" ana="corpusmd:named_reference">chos kyi seng ge</rs> blo gsal grags pa'i nyi 'od kyis ||</l> <l><lb n="93a4"/> theg pa mchog la rmongs pa'i rab rib sel gyur cig ||</l></lg>
          <note type="translation">When the Unconquered by others (i.e. Maitreya as a future buddha), the King of Doctrine, the Stainless one, will have correctly awaken under the bodhi-tree king (in Bodhgayā), on the earth,
-May the eye-disease (timira) of ignorance with regard to the excellent vehicle be dispelled by the glorious sun-rays of the clear-minded one, the Lion of the doctrine (Chos kyi seng ge).</note></seg>
-            <seg type="excerpt" xml:id="ex705-1104-2023-06-28" status="finalized" ana="corpusmd:colophon">
-            <milestone unit="section" n="Colophon (93a4)"/>
-             <rs type="work" ana="corpusmd:named_reference" ref="db:4492"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma'i bstan bcos</rs> kyi tshig dang don gyi cha rgya cher bsnyad pa phra ba'i don gsal ba</rs> zhes bya ba | <rs type="person" ref="db:3805" ana="corpusmd:named_reference">shag kya'i dge slong chos kyi bla ma</rs>'i zhabs kyi rdul spyi bos nod pa <rs type="person" ref="db:3831" ana="corpusmd:named_reference">dge slong chos kyi seng ge</rs>s nye bar sbyar pa rdzogs s+hO |||| ||<note type="translation">The “Clarifier of subtle meaning,” an extensive commentary on the words and meanings of the Mahāyānottaratantraśāstra compiled by the monk Chos kyi seng ge, who touched with his head the dust of feet of the Śākya monk Chos kyi bla ma, is completed.</note></seg> 
-         </body></text></TEI>
+May the eye-disease (timira) of ignorance with regard to the excellent vehicle be dispelled by the glorious sun-rays of the clear-minded one, the Lion of the doctrine (Chos kyi seng ge).</note></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (93a4)"/>
+             <rs type="work" ana="corpusmd:named_reference" ref="db:4492"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma'i bstan bcos</rs> kyi tshig dang don gyi cha rgya cher bsnyad pa phra ba'i don gsal ba</rs> zhes bya ba | <rs type="person" ref="db:3805" ana="corpusmd:named_reference">shag kya'i dge slong chos kyi bla ma</rs>'i zhabs kyi rdul spyi bos nod pa <rs type="person" ref="db:3831" ana="corpusmd:named_reference">dge slong chos kyi seng ge</rs>s nye bar sbyar pa rdzogs s+hO |||| ||<note type="translation">The “Clarifier of subtle meaning,” an extensive commentary on the words and meanings of the Mahāyānottaratantraśāstra compiled by the monk Chos kyi seng ge, who touched with his head the dust of feet of the Śākya monk Chos kyi bla ma, is completed.</note></ab>
+    </body>
+  </text>
+</TEI>

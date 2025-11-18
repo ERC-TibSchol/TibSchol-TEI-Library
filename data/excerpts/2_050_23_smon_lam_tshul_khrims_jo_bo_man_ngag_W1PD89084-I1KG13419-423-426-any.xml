@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -103,13 +103,14 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2025-05-20" status="draft">PH marked up</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex050232025-05-2016-20-32" status="reviewed"><lb n="1a1"/>༅ || na mo g+hu ru | <rs type="person" ana="corpusmd:named_reference" ref="db:3745">mkhas pa chen po dpal mar me mdzad <abbr>ye shes</abbr></rs> kyis sde snod kyi chos <abbr>thams cad</abbr> kyi don bsdus ste bsgoM pa ni dbu ma'i man ngag 'di yin te | thog mar 'khor das <lb n="1a2"/> kyi chos kun rdzob du bden pas stong pa'i rten 'brel rgyu 'bras mi slu ba sgyu ma lta bu dang | don spros bral naM mkha'i dkyil ltar stong pa nyid du thos bsaM gyis thag chod par byas la | bsgoM ba'i
-				<lb n="1a3"/> dus su sbyor dngos rjes 3 gyis <abbr>nyams su</abbr> blang ste |</seg>
-            dang po ni gtan bde ba la ni de tshan gyi spyod laM gyis 'dug la | lta dang bla ma la gsol ba gdab | lus seMs brgal phab la ||
-				<seg type="excerpt" xml:id="ex50232025-05-2016-16-22" status="reviewed">  <rs type="work" ana="corpusmd:named_reference" ref="db:4891"><rs type="person" ana="corpusmd:named_reference" ref="db:3745">jo bo</rs>'i gdam ngag thun mong ma yin pa</rs> rdzogs s+ho ||</seg>
-			</body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><lb n="1a1"/>༅ || na mo g+hu ru | <rs type="person" ana="corpusmd:named_reference" ref="db:3745">mkhas pa chen po dpal mar me mdzad <abbr>ye shes</abbr></rs> kyis sde snod kyi chos <abbr>thams cad</abbr> kyi don bsdus ste bsgoM pa ni dbu ma'i man ngag 'di yin te | thog mar 'khor das <lb n="1a2"/> kyi chos kun rdzob du bden pas stong pa'i rten 'brel rgyu 'bras mi slu ba sgyu ma lta bu dang | don spros bral naM mkha'i dkyil ltar stong pa nyid du thos bsaM gyis thag chod par byas la | bsgoM ba'i
+				<lb n="1a3"/> dus su sbyor dngos rjes 3 gyis <abbr>nyams su</abbr> blang ste |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4891"><rs type="person" ana="corpusmd:named_reference" ref="db:3745">jo bo</rs>'i gdam ngag thun mong ma yin pa</rs> rdzogs s+ho ||</ab>
+    </body>
+  </text>
+</TEI>

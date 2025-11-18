@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">shes snying bshad don bsdus</title>
@@ -105,26 +105,22 @@
       <profileDesc>
          <!-- <langUsage> to be inserted from APIS -->
       </profileDesc>
-      <revisionDesc status="draft">
-         <!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-02-14+10:16">PH started</change>
-         <change when="2023-02-14+02:06">PH fix finish tags</change>
-         <change when="2023-02-24+12:01">PH review excerpts. Milestones Person and Work
-            done.</change>
-         <change when="2023-02-24+12:01">PH typo correction.</change>
-         <change when="2023-03-07+01:35">PH ref correction.</change>
-         <change when="2023-03-21+01:35">PH minor fix</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg xml:id="ex1072023-02-1410-45-44" type="excerpt" status="finalized">
-            <rs type="work" ana="corpusmd:named_reference" ref="db:5872"><rs type="work" ana="corpusmd:named_reference" ref="db:3713"><rs type="work" ana="corpusmd:named_reference" ref="db:3694">bcom ldan 'das ma shes rab kyi pha rol tu phyin pa'i snying po</rs> rgya cher bshad pa</rs> <choice><sic>'di</sic><corr>'i</corr></choice> don bsdus pa</rs> ni rnam pa bzhi ste | ngag dang po'i don dang | mdo'i lus rnam par gzhag ba dang | yan lag rnam par dbye ba dang | yongs su rdzogs pa'i bya ba'o || </seg>
-        <seg xml:id="ex1072023-02-1410-46-47" type="excerpt" status="finalized" ana="corpusmd:dgos_brel">
-            dgos 'brel du <choice><reg>bkod</reg><orig>b(k)od</orig></choice> pa'i dgos pa ni | nges pa'i sgo nas 'jug pa dang | don du 'gyur ba'i the tshom gis 'jug pa dang | gzhan gi log par rtogs pa spang ba gsum bzhag nas | gzhung mdzes par bya ba yin no || zhes skabs gzhan <choice><orig>‹du›</orig><reg>du</reg></choice> gtan la phab pa bzhin du shes par bya'o ||</seg>
-        <seg xml:id="ex1072023-02-1410-26-37" type="excerpt" status="finalized"><!-- "slob dpon gzhan" might be Indian or Tibetan-->
-            'on kyang <quote source="db:3694">'di skad bdag gis thos pa</quote> zhes bya bas gtsor brjod pa'i don ni phyin ci ma log pa <lb n="2a7"/> dang dngos nyid du yin ba dang | rtogs pa ma yin <choice><orig> ‹par›</orig><reg>par</reg></choice> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">slob dpon gzhan</rs> gis bshad pa bzhin blta ste | 'dir ni cung zad nor par bshad pa yin no || </seg>
-        <seg xml:id="ex1072023-02-2412-02-43" type="excerpt" status="reviewed"><!--kha cig could be Indian or Tibetan-->
-            <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha <choice><orig>ci‹g›</orig><reg>cig</reg> </choice> </rs> las las kyi bdud dang lngar gsungs ba der ni nyon mongs pa dang las gnyi gas phung po <choice><reg>lhag</reg><orig>lha‹g›</orig></choice> ma dang bcas pa'i mya ngan las 'das pa'i <choice><reg>bar</reg><orig>‹ba›r</orig></choice> du gcod pa'i <lb n="2b2"/> phyir ro || </seg>
-         <seg xml:id="ex1072023-02-1410-31-27" type="excerpt" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (4b7)"/>    
-            <rs type="work" ana="corpusmd:named_reference" ref="db:5872"><rs type="work" ana="corpusmd:named_reference" ref="db:3713"><rs type="work" ana="corpusmd:named_reference" ref="db:3694">shes rab snying po</rs>'i rgya cher 'grel</rs> gi bshad pa</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsa ba slob dpon blo ldan shes rab</rs> kyis mdzad pa rdzogs s+ho ||||</seg>
-        </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5872"><rs type="work" ana="corpusmd:named_reference" ref="db:3713"><rs type="work" ana="corpusmd:named_reference" ref="db:3694">bcom ldan 'das ma shes rab kyi pha rol tu phyin pa'i snying po</rs> rgya cher bshad pa</rs> <choice><sic>'di</sic><corr>'i</corr></choice> don bsdus pa</rs> ni rnam pa bzhi ste | ngag dang po'i don dang | mdo'i lus rnam par gzhag ba dang | yan lag rnam par dbye ba dang | yongs su rdzogs pa'i bya ba'o || </ab>
+      <gap reason="omitted"/>
+      <ab><choice><reg>bkod</reg><orig>b(k)od</orig></choice> pa'i dgos pa ni | nges pa'i sgo nas 'jug pa dang | don du 'gyur ba'i the tshom gis 'jug pa dang | gzhan gi log par rtogs pa spang ba gsum bzhag nas | gzhung mdzes par bya ba yin no || zhes skabs gzhan <choice><orig>‹du›</orig><reg>du</reg></choice> gtan la phab pa bzhin du shes par bya'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><!-- "slob dpon gzhan" might be Indian or Tibetan-->
+            'on kyang <quote source="db:3694">'di skad bdag gis thos pa</quote> zhes bya bas gtsor brjod pa'i don ni phyin ci ma log pa <lb n="2a7"/> dang dngos nyid du yin ba dang | rtogs pa ma yin <choice><orig> ‹par›</orig><reg>par</reg></choice> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">slob dpon gzhan</rs> gis bshad pa bzhin blta ste | 'dir ni cung zad nor par bshad pa yin no || </ab>
+      <gap reason="omitted"/>
+      <ab><!--kha cig could be Indian or Tibetan-->
+            <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha <choice><orig>ci‹g›</orig><reg>cig</reg> </choice> </rs> las las kyi bdud dang lngar gsungs ba der ni nyon mongs pa dang las gnyi gas phung po <choice><reg>lhag</reg><orig>lha‹g›</orig></choice> ma dang bcas pa'i mya ngan las 'das pa'i <choice><reg>bar</reg><orig>‹ba›r</orig></choice> du gcod pa'i <lb n="2b2"/> phyir ro || </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (4b7)"/>    
+            <rs type="work" ana="corpusmd:named_reference" ref="db:5872"><rs type="work" ana="corpusmd:named_reference" ref="db:3713"><rs type="work" ana="corpusmd:named_reference" ref="db:3694">shes rab snying po</rs>'i rgya cher 'grel</rs> gi bshad pa</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsa ba slob dpon blo ldan shes rab</rs> kyis mdzad pa rdzogs s+ho ||||</ab>
+    </body>
+  </text>
+</TEI>

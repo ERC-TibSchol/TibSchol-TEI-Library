@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bsdus don</title>
@@ -104,13 +104,15 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2024-11-13">PH edit</change>
-         <change when="2025-08-01">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex49032024-11-137-03-09" status="finalized"><milestone unit="section" n="Body of the text (1b1–)"/>
-         <rs type="person" ana="corpusmd:named_reference" ref="db:3758">slob dpon chen po <abbr>dbyig gnyen</abbr></rs> <lb n="1b2"/> gyis mzdad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod kyi tshig le 'ur byas pa</rs> la bsdus pa'i don gsum ste ¦ rtsom 'brel yan <lb n="1b3"/> lag gi don dang ¦ gzhung don m(ngon) pa'i yul dang ¦ bstan bcos yongs su rdzogs pa mjug gi bya ba'o ||</seg><seg type="excerpt" xml:id="ex49032024-11-137-03-092" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Conclusive verse | Colophon (32b1-32b3)"/>mkhas pa'i bsdus don gzhugn la rab 'jug phyir || <lb n="32b2"/> blo dman bdag 'dras bslad par mi 'os kyang || shin du mang na sgra don mi gnas pas || cung zad bsdus nas <rs type="person" ana="corpusmd:named_reference" ref="db:3977">nam mkha' <abbr>grags</abbr></rs> kyis sbyar ||
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4829"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod</rs> <lb n="32b3"/> kyi don yang dag par bsdus pa</rs> <abbr>rdzogs</abbr> so ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Body of the text (1b1–)"/>
+         <rs type="person" ana="corpusmd:named_reference" ref="db:3758">slob dpon chen po <abbr>dbyig gnyen</abbr></rs> <lb n="1b2"/> gyis mzdad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod kyi tshig le 'ur byas pa</rs> la bsdus pa'i don gsum ste ¦ rtsom 'brel yan <lb n="1b3"/> lag gi don dang ¦ gzhung don m(ngon) pa'i yul dang ¦ bstan bcos yongs su rdzogs pa mjug gi bya ba'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Conclusive verse | Colophon (32b1-32b3)"/>mkhas pa'i bsdus don gzhugn la rab 'jug phyir || <lb n="32b2"/> blo dman bdag 'dras bslad par mi 'os kyang || shin du mang na sgra don mi gnas pas || cung zad bsdus nas <rs type="person" ana="corpusmd:named_reference" ref="db:3977">nam mkha' <abbr>grags</abbr></rs> kyis sbyar ||
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4829"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod</rs> <lb n="32b3"/> kyi don yang dag par bsdus pa</rs> <abbr>rdzogs</abbr> so ||</ab>
+    </body>
+  </text>
+</TEI>

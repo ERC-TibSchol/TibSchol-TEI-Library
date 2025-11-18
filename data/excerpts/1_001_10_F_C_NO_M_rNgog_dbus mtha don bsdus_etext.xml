@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">dbus mtha' don bsdus</title>
@@ -102,20 +102,17 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-          <change when="2023-01-27">transformed docx to LY</change>
-          <change when="2023-02-06"> LY tagged persons and works</change>
-         <change when="2023-02-07">RG reviewed TEI Header and corrected 'respStmt' and added status to excerpts</change>
-         <change when="2023-02-28">PH fixed a-chungs, lb, pb</change>
-         <change when="2023-04-26">LY tagged</change>
-         <change when="2023-05-03">LY tagged</change>
-         <change when="2023-05-26">RG corrected excerpt tags</change>
-         <change when="2023-06-07">RG updates pb and lb tag</change>
-         <change when="2023-07-21">PH complete segs</change>
-         <change when="2024-01-24">PH finalize segs, no Tib persons left</change>
-         <change when="2025-06-13">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex1102023-26-04-149" status="finalized"><milestone unit="section" n="Cover page (1a)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4439"><rs type="work" ana="corpusmd:named_reference" ref="db:5585"><choice><corr>dbus</corr><sic>dbu</sic></choice> mtha</rs>'i don bsdu</rs> <abbr>bzhugs s+ho</abbr> ||</seg><seg type="excerpt" xml:id="ex1102023-02-06-15-50-11" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (13a7)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4439"><rs type="work" ana="corpusmd:named_reference" ref="db:5585">dbus dang mtha' <abbr>rnam par</abbr> 'byed <abbr>pa</abbr></rs><abbr>'i</abbr> don bsdus pa</rs> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">dge slong blo ldan</rs> kyis sbyar ba'o ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4439"><rs type="work" ana="corpusmd:named_reference" ref="db:5585"><choice><corr>dbus</corr><sic>dbu</sic></choice> mtha</rs>'i don bsdu</rs> <abbr>bzhugs s+ho</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3756">slob dpon thogs med</rs> yin la de dag kyang mchod par 'os <abbr>pa'i</abbr> <abbr>yon tan</abbr> dang <abbr>ldan par</abbr> go bas rtsa ba dang bshad pa la yid ches par <abbr>'gyur ro</abbr> || </ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:6262">slob dpon blo gros brtan pa</rs>s kyang bshad pa ni mtha' gnyis sel ba'i dbang <lb n="3a8"/>du byas nas bshad pa dang | lam gnyis sgrub pa'i dbang du byas pa'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (13a7)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4439"><rs type="work" ana="corpusmd:named_reference" ref="db:5585">dbus dang mtha' <abbr>rnam par</abbr> 'byed <abbr>pa</abbr></rs><abbr>'i</abbr> don bsdus pa</rs> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">dge slong blo ldan</rs> kyis sbyar ba'o ||</ab>
+    </body>
+  </text>
+</TEI>

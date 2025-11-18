@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">mkhan po chen po snar thang pa’i gsan yig</title>
@@ -104,13 +104,16 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-21">TD checked owner</change>
-         <change when="2023-10-25">PH corrections</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex61012023-09-09-11.44" status="reviewed" ana="corpusmd:colophon">  <milestone unit="section" n="Post-colophon annotation (ku_14b2 p. 34)"/>
-         <rs type="person" ana="corpusmd:named_reference" ref="db:4140">shAkya'i btsun pa rtsed pa bsod nams blo gros</rs> kyi dpe'o ||</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (ku_14a7-14b2 – pp. 33:7-34 :2 – pdf 39-40)] "/>
+                  
+            <rs type="person" ana="corpusmd:unnamed_reference">bla ma rnams</rs> kyi bka' drin las <pb n="[14a8]"/> cung zad thos pa dang thob pa rnams| dran par bya zhing bskul ba'i bsam pa rdzogs par bya ba'i phyir yi ger bris pa'o | |<rs type="person" ana="corpusmd:named_reference" ref="db:4052">shAkya'i btsun pa smon lam <lb n="14b1"/> tshul khrims</rs> kyis [kyi] thob yig go |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon annotation (ku_14b2 p. 34)"/>
+         <rs type="person" ana="corpusmd:named_reference" ref="db:4140">shAkya'i btsun pa rtsed pa bsod nams blo gros</rs> kyi dpe'o ||</ab>
+    </body>
+  </text>
+</TEI>

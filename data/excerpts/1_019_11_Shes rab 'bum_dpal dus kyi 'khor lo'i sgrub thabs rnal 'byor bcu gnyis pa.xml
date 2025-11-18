@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">dpal dus kyi 'khor lo'i sgrub thabs rnal 'byor bcu gnyis pa</title>
@@ -104,16 +104,16 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-17">TD checked owner</change>
-         <change when="2023-09-06">TD checked place</change>
-         <change when="2024-09-10">PH check segs</change>
-         <change when="2025-07-08">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex19112024-09-1013-25-17" status="finalized"><milestone unit="section" n="Closing verses"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4616">dpal ldan dus 'khor <lb n="15b3"/> bde stong gnyis med kyi || bsgrub thabs mdor bsdus rnal 'byor bcu gnyis pa</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:6830">shakya'i dge slong chos grub dpal</rs> dang ni | grogs <lb n="15b4"/> mchog dga' yis <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4608">bdag</rs> la legs bskul phyir || snyigs ma'i dus na <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">rgyal ba gnyis pa</rs>'i tshul || <rs type="person" ana="corpusmd:named_reference" ref="db:3905">kun spangs chos rje</rs>'i gsung bzhin <lb n="15b5"/> rang bzo'i || dri ma med pa <rs type="person" ana="corpusmd:named_reference" ref="db:4608">shes rab</rs> ming can gyis || legs par bris la nyes nongs bzod par gsol ||</seg><seg type="excerpt" xml:id="ex19112023-09-15-125911" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (15b2-16a3) (p. 684:2-685:3)"/>
-         <lb n="15b7"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4616">dpal dus kyi 'khor lo'i sgrub thabs rnal 'byor bcu gnyis pa</rs> zhes bya ba 'di ni | dpal rdo rje <pb n="16a"/><lb n="16a1"/> 'dzin pa gnyis pa dpal ldan <rs type="person" ana="corpusmd:named_reference" ref="db:3905">bla ma dam pa kun spangs pa chen po</rs> <note type="gloss">thugs rje rtson khrus</note>'i zhabs kyi rdul dri ma med pa spyi bos len pa | <rs type="person" ana="corpusmd:named_reference" ref="db:4608">shakya'i dge slong shes <lb n="16a2"/> rab 'bum bdag</rs> gis bla ma dam pa nyid kyi phyag len bzhin | bla ma dam pa'i gsung dang gdams pa la brten nas <rs type="place" ana="corpusmd:named_reference" ref="db:5654">dpal <note type="gloss">byo°°</note> nags rgyal gyi dben gnas dkar leb</rs> du sbyar <lb n="16a3"/> ba 'di yongs su rdzogs s+ho || || dge'o ||</seg>
-         <seg type="excerpt" xml:id="ex19112023-09-15-125912" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (15b2-16a3) (p. 684:2-685:3)"/><rs type="person" ana="corpusmd:named_reference" ref="db:5626">shakya'i btsun pa nyi ma rgyal mtshan</rs> gyi dpe'o | dag go | </seg>
-</body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Closing verses"/> <l><rs type="work" ana="corpusmd:named_reference" ref="db:4616">dpal ldan dus 'khor <lb n="15b3"/> bde stong gnyis med kyi</rs> ||</l> <l><rs type="work" ana="corpusmd:named_reference" ref="db:4616">bsgrub thabs mdor bsdus rnal 'byor bcu gnyis pa</rs> ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:6830">shakya'i dge slong chos grub dpal</rs> dang ni |</l> <l>grogs <lb n="15b4"/> mchog dga' yis <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4608">bdag</rs> la legs bskul phyir ||</l> <l>snyigs ma'i dus na <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">rgyal ba gnyis pa</rs>'i tshul ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:3905">kun spangs chos rje</rs>'i gsung bzhin <lb n="15b5"/> rang bzo'i ||</l> <l>dri ma med pa <rs type="person" ana="corpusmd:named_reference" ref="db:4608">shes rab</rs> ming can gyis ||</l> <l>legs par bris la nyes nongs bzod par gsol ||</l></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (15b2-16a3)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:4616">dpal dus kyi 'khor lo'i sgrub thabs rnal 'byor bcu gnyis pa</rs> zhes bya ba 'di ni | dpal rdo rje <pb n="16a"/><lb n="16a1"/> 'dzin pa gnyis pa dpal ldan <rs type="person" ana="corpusmd:named_reference" ref="db:3905">bla ma dam pa kun spangs pa chen po</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3905">thugs rje rtson khrus</rs></note>'i zhabs kyi rdul dri ma med pa spyi bos len pa | <rs type="person" ana="corpusmd:named_reference" ref="db:4608">shakya'i dge slong shes <lb n="16a2"/> rab 'bum bdag</rs> gis bla ma dam pa nyid kyi phyag len bzhin | bla ma dam pa'i gsung dang gdams pa la brten nas <rs type="place" ana="corpusmd:named_reference" ref="db:5654">dpal <note type="gloss">byo°°</note> nags rgyal gyi dben gnas dkar leb</rs> du sbyar <lb n="16a3"/> ba 'di yongs su rdzogs s+ho || || dge'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon annotations: ownership (15b2-16a3)"/><rs type="person" ana="corpusmd:named_reference" ref="db:5626">shakya'i btsun pa nyi ma rgyal mtshan</rs> gyi dpe'o | dag go | </ab>
+    </body>
+  </text>
+</TEI>

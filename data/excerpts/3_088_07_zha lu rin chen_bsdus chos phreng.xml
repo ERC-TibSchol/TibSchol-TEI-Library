@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bsdus chos nor bu'i phreng ba</title>
@@ -104,13 +104,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-10-18">PH created doc</change>
-           <change when="2025-05-26">PH add colophon</change>
-           <change when="2025-08-08">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex88072025-05-2614-58-29" status="finalized" ana="corpusmd:colophon"> <milestone unit="section" n="Colophon (10b5-6)"/>
-            bsdus <lb n="10b6"/> <rs type="work" ana="corpusmd:named_reference" ref="d:5306">chos nor bu'i phreng ba</rs> ces bya ba 'di ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5959">dge ba'i <abbr>bshes gnyen</abbr> daM pa <abbr>dpal ldan</abbr> chos 'byor</rs> gyis bskul ba'i ngor <choice><reg>rin chen bsod nams 'phel</reg><orig>°ie °o° °M °e°</orig></choice> gyis ¦ sa pho spre'u'i lo ¦ nag pa'i zla ba'i gnaM gang la ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5719">'de re lung gi brag phug</rs> du sbyar ba rdzogs s+ho | <lb n="10b7"/> 'dis kyang gzhan la phan <abbr>thogs</abbr> par gyur cig |</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (10b5-6)"/>
+            bsdus <lb n="10b6"/> <rs type="work" ana="corpusmd:named_reference" ref="d:5306">chos nor bu'i phreng ba</rs> ces bya ba 'di ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5959">dge ba'i <abbr>bshes gnyen</abbr> daM pa <abbr>dpal ldan</abbr> chos 'byor</rs> gyis bskul ba'i ngor <choice><reg>rin chen bsod nams 'phel</reg><orig>°ie °o° °M °e°</orig></choice> gyis ¦ sa pho spre'u'i lo ¦ nag pa'i zla ba'i gnaM gang la ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5719">'de re lung gi brag phug</rs> du sbyar ba rdzogs s+ho | <lb n="10b7"/> 'dis kyang gzhan la phan <abbr>thogs</abbr> par gyur cig |</ab>
+    </body>
+  </text>
+</TEI>

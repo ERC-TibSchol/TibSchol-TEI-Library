@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">dBu ma’i de kho na nyid</title>
@@ -104,18 +104,21 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-          <change when="2023-06-13+03:26">PH start tags kho bo, and rgya till 1448</change>
-          <change when="2024-05-16+03:26">PH seg in colophon</change>
-          <change when="2024-07-10+03:26">PH try to validate file</change>
-          <change when="2025-07-29">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex3101_2024-05-16_3" status="finalized"><milestone unit="section" n="Cover page (1a)"/><rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4686">dbu ma'i de kho na nyid gtan la dbab pa</rs> bzhugs</seg>
-         <seg type="excerpt" xml:id="ex3101_2024-05-16_2" status="finalized">de ltar rnam bsams 'bad pas gzhung 'di sbyar || 
-         des ni 'jig rten log lta'i rgyun phyogs rnams || 
-         yang dag lta ldan dge bcu legs spyad nas ||
-        bla med <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs></note> byang chub grags pa thob par shog ||</seg>
-      <seg type="excerpt" xml:id="ex3101_2024-05-16" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:4686">dbu ma de kho na nyid rnam par spyod pa</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs>s <note type="gloss">mdzad pa</note> rdzogs s+ho ||</seg> </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/><rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4686">dbu ma'i de kho na nyid gtan la dbab pa</rs> bzhugs</ab>
+      <gap reason="omitted"/>
+      <ab><note type="gloss"/>don daM pa’i bden pa ***************** bden pa mi ’thad ce na<note type="gloss"/><note type="gloss"/>‘di ***********bya***** <rs type="person" ana="corpusmd:named_reference">gangs pa</rs>’i*****la<note type="gloss"/></ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference">slob dpon zla ba’i grags pa</rs> dang | <rs type="person" ana="corpusmd:named_reference">ti pang ka ra</rs>s bshad pa dang |</ab>
+      <gap reason="omitted"/>
+      <ab><note type="gloss">gzhan yang ye shes med na rgyu log pas med daM gnyen po spangs nas med gnyi ga yang mi ’thad ye shes kyi (r)gyu ’khrul pa ma yin pa’i phyir dang | gnyen po mi srid pa’i phyir ro | (zh)es phyis gsung ngo ||</note>yang na dpyad bzod la gnod pas na ’khrul pas na tha snyad byas so zhes <rs type="person" ana="corpusmd:unnamed_reference">slob dpon gzhan dag</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference">gangs pa</rs></note> ’chad do || </ab>
+      <gap reason="omitted"/>
+      <ab><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs></note> byang chub grags pa thob par shog ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4686">dbu ma de kho na nyid rnam par spyod pa</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs>s <note type="gloss">mdzad pa</note> rdzogs s+ho ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,19 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:KC">Kyeongjin Choi</name>
             </principal>
             <funder>
                <name ref="https://ror.org/0472cxd90">European Research Council</name>
+               <name ref="https://kaken.nii.ac.jp">研究活動スタート支援 (Grant-in-Aid for Research Activity Start-up )</name>
             </funder>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:Transkribus">Transkribus 1512067</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
@@ -80,6 +82,7 @@
 					This project has received funding from the European Research Council (ERC) under
 					the European Union's Horizon 2020 research and innovation programme (grant
 					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+               <p>It also benefitted from the work carried out in the project "チベット仏教カダム派の思想研究に向けた基礎資料の構築 (Construction of Basic Materials for the Study of the Thoughts of the Kadam School of Tibetan Buddhism) funded by the Grant-in-Aid Research Activity Start-up (No. 19K22998). See https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K22998/</p>
          </projectDesc>
          <variantEncoding method="double-end-point" location="external"/>
          <listPrefixDef>
@@ -105,11 +108,11 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-10-24" who="corpusmd:PH" status="draft">created documen, editt</change>
-                 <change when="2025-07-08">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex13042024-10-2411-43-47" status="finalized" ana="corpusmd:colophon"><milestone n="Colophon" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4557"><rs type="work" ana="corpusmd:named_reference" ref="db:3721">byang chub seMs pa'i rnal 'byor spyod pa bzhi' <lb n="6b5"/> (brgya) pa</rs>'i dka' ba'i gnas bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">dbu ma smra ba'i dge' slong brtson 'grus seng nge</rs>s sbyar ba || Ithi ||</seg>
-</body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon (6b4-6b5)" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4557"><rs type="work" ana="corpusmd:named_reference" ref="db:3721">byang chub seMs pa'i rnal 'byor spyod pa bzhi' <lb n="6b5"/> <choice><reg>brgya</reg><orig>°</orig></choice> pa</rs>'i dka' ba'i gnas bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">dbu ma smra ba'i dge' slong brtson 'grus seng nge</rs>s sbyar ba || Ithi ||</ab>
+    </body>
+  </text>
+</TEI>

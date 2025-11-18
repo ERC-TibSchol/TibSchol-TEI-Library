@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">seng ge sgra'i man ngag</title>
@@ -104,11 +104,16 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-        <change when="2024-09-30">PH create</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex55102024-09-3016-41-55" status="reviewed" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:4964">rje btsun seng nge sgra'i man ngag zab mo</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bla ma dam pa rim par brgyud pa bcoM ldan ral gri</rs>s bkod pa rdzogs s+h+yo ||</seg>
-         <seg type="excerpt" xml:id="ex55102024-09-3016-41-552" status="reviewed" ana="corpusmd:colophon"><rs type="person" ana="corpusmd:named_reference" ref="db:4065">btsun pa zi'u<!--read: ze'u--></rs>s phyag dpe' la bris pa'o ||<note type="editorial">Comparing with the colophon of the instance of the <rs type="work" ana="corpusmd:named_reference" ref="db:4967">rNam snang  bsgom thabs</rs>, we take "btsun pa ze'u" to be the scribe, presumably here also <rs type="person" ana="corpusmd:named_reference" ref="db:4065">Ze'u grags shes</rs>, and read "phyag dpe' la" as "phyag dpe' las", presumably indicating the source as being the author's own exemplar.</note> dag go ||</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (1b4)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:4964">rje btsun seng nge sgra'i man ngag zab mo</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bla ma dam pa rim par brgyud pa bcoM ldan ral gri</rs>s bkod pa rdzogs s+h+yo ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon"/><note type="editorial">In smaller script than the main text and the colophon.</note><rs type="person" ana="corpusmd:named_reference" ref="db:4065">btsun pa zi'u<note type="editorial">For: ze'u</note></rs>s phyag dpe' la bris pa'o 
+         <note type="editorial">Comparing with the colophon of the instance of the <rs type="work" ana="corpusmd:named_reference" ref="db:4967">rNam snang  bsgom thabs</rs>, we take "btsun pa ze'u" to be the scribe, presumably here also <rs type="person" ana="corpusmd:named_reference" ref="db:4065">Ze'u grags shes</rs>, and read "phyag dpe' la" as "phyag dpe' las", presumably indicating the source as being the author's own exemplar.</note> || 
+         dag go ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">rnam nges 'grel</title>
@@ -106,18 +106,16 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-17">TD checked Owner</change>
-         <change when="2023-08-22">TD chenked person in Colophon</change>
-         <change when="2024-09-12">PH fix problems</change>
-          <change when="2024-12-16">PH add transkribus</change>
-          <change when="2025-08-01">RG finalised seg in used</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex46052024-09-1216-47-23" status="finalized"><rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo ts+tsha ba chen po</rs> ni rtags kyi 'brel pa'i rtsa ba °° gshis la rten pa dang khas blangs la rten pa °° dngos stobs don sgrub du gyur pa dang tha snyad du bsgrub pa <pb n="22a"/><lb n="22a1"/> 2 phyi ma <abbr>grags</abbr> rtags yin la khas blangs la rten pa ni yid ches su bzhed do </seg>་<seg type="excerpt" xml:id="ex46052023-09-12-091" status="finalized"><milestone unit="section" n="Post-colophon (64a6) - Owner"/> <lb n="64a7"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4789">dge ba'i bshes gnyen tshad ma rab bsal</rs> gyi phyag dpe' |
-          <note type="translation">This is the book of the Spiritual friend Tshad ma rab bsal</note></seg>
-         
-          <seg type="excerpt" status="finalized" xml:id="ex46052023-09-12-092">bris pa'i mchog gyur <rs type="person" ana="corpusmd:named_reference" ref="db:4788">dkon mchog nor bu</rs>s bris pa dge'o ||<note type="translation">Written by the best scribe, dKon mchog nor bu. May it be virtuous!</note></seg>
-      </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo ts+tsha ba chen po</rs> ni rtags kyi 'brel pa'i rtsa ba °°<note type="editorial">Abbreviation "shyoesi" unclear</note> gshis la rten pa dang khas blangs la rten pa dang po <note type="editorial">Reading "dang po" tentative</note> dngos stobs don sgrub du gyur pa dang tha snyad du bsgrub pa <pb n="22a"/><lb n="22a1"/> 2 phyi ma <abbr>grags</abbr> rtags yin la khas blangs la rten pa ni yid ches su bzhed do </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon (64a6) - Owner"/> <lb n="64a7"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4789">dge ba'i bshes gnyen tshad ma rab bsal</rs> gyi phyag dpe' |
+          <note type="translation">This is the book of the Spiritual friend Tshad ma rab bsal</note></ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:4788">dkon mchog nor bu</rs>s bris pa dge'o ||<note type="translation">Written by the best scribe, dKon mchog nor bu. May it be virtuous!</note></ab>
+    </body>
+  </text>
+</TEI>

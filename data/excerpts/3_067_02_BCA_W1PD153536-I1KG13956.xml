@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -104,16 +104,17 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-09-16" who="corpusmd:PH">transf scenario from transkribus and moved to mannanot, edit</change>
-		 <change when="2025-08-05">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex67022024-09-1610-30-07" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="colophon"/><lb edRef="inst:4711" n="122a4"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon in instance (ID:4711)"/><lb edRef="inst:4711" n="122a4"/>
 				
-				'di ni <lb edRef="inst:4711" n="122a5"/> bsam gyis mi khyab pa'i <abbr>blo gros</abbr> kyis sde snod du ma'i don thugs su chud cing yon tan du ma'i dpal 'byor gyis 'gro ba mang po'i 'dren pa chen por gyur pa | yongs kyi <rs type="person" ana="corpusmd:named_reference" ref="db:4593">dge ba'i bshes gnyen mkhan po nam <lb edRef="inst:4711" n="122a6"/> mkha' <abbr>ye shes</abbr></rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po zhang chos rgyal rin chen</rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po byams pa'i dpal</rs> <abbr>la sogs</abbr> pa slob ma dge ba'i bshes gnyen mang pos gsol ba btab pa'i ngor | <rs type="person" ana="corpusmd:named_reference" ref="db:4068">shAkya'i dge slong skad gnyis <lb edRef="inst:4711" n="122a7"/> smra ba <abbr>blo gros</abbr> dpal bzang po</rs>s gtso bo che par <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhas pa chen po shes rab 'byung gnas <abbr>blo gros</abbr></rs> gyi 'grel pa dang <abbr>bstun nas</abbr> gsal bar bgyis pa'i yi ge pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:5802">dge slong ston pa brtson 'grus seng ge</rs>'o ||</seg>
-				<seg type="excerpt" xml:id="ex67022024-09-1610-30-072" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="colophon"/><lb edRef="inst:5152" n="73a4"/>
+				'di ni <lb edRef="inst:4711" n="122a5"/> bsam gyis mi khyab pa'i <abbr>blo gros</abbr> kyis sde snod du ma'i don thugs su chud cing yon tan du ma'i dpal 'byor gyis 'gro ba mang po'i 'dren pa chen por gyur pa | yongs kyi <rs type="person" ana="corpusmd:named_reference" ref="db:4593">dge ba'i bshes gnyen mkhan po nam <lb edRef="inst:4711" n="122a6"/> mkha' <abbr>ye shes</abbr></rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po zhang chos rgyal rin chen</rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po byams pa'i dpal</rs> <abbr>la sogs</abbr> pa slob ma dge ba'i bshes gnyen mang pos gsol ba btab pa'i ngor | <rs type="person" ana="corpusmd:named_reference" ref="db:4068">shAkya'i dge slong skad gnyis <lb edRef="inst:4711" n="122a7"/> smra ba <abbr>blo gros</abbr> dpal bzang po</rs>s gtso bo che par <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhas pa chen po shes rab 'byung gnas <abbr>blo gros</abbr></rs> gyi 'grel pa dang <abbr>bstun nas</abbr> gsal bar bgyis pa'i yi ge pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:5802">dge slong ston pa brtson 'grus seng ge</rs>'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon in instance (ID:5152)"/><lb edRef="inst:5152" n="73a4"/>
 				
-				'di ni bsam gyis mi khyab pa'i blo gros kyis sde snod du ma'i don thugs su chud cing yon tan du ma'i dpal 'byor gyis 'gro ba mang po'i 'dren pa chen por gyur pa | yongs kyi <rs type="person" ana="corpusmd:named_reference" ref="db:4593">dge ba'i <lb edRef="inst:5152" n="73a5"/> bshes gnyen mkhan po nam mkha' ye shes</rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po zhang chos rgyal rin chen</rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po byams pa'i dpal</rs> <abbr>la sogs</abbr> slob ma dge ba'i bshes gnyen mang pos gsol ba btab pa'i ngor | <rs type="person" ana="corpusmd:named_reference" ref="db:4068">shAkya'i dge slong skad gnyis smra ba blo gros dpal bzang po</rs>s gtso che bar <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhas pa chen po shes rab 'byung gnas <lb edRef="inst:5152" n="73a6"/> <choice><orig>{bl}o</orig><reg>blo</reg></choice> gros</rs> gyi <choice><reg>'grel</reg><orig>'gre{l}</orig></choice> pa dang bstun nas gsal bar bgyis pa'i <abbr>yi ge</abbr> pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:5802">dge slong ston pa brtson 'grus seng ge</rs>'o ||</seg>
-				</body></text></TEI>
+				'di ni bsam gyis mi khyab pa'i blo gros kyis sde snod du ma'i don thugs su chud cing yon tan du ma'i dpal 'byor gyis 'gro ba mang po'i 'dren pa chen por gyur pa | yongs kyi <rs type="person" ana="corpusmd:named_reference" ref="db:4593">dge ba'i <lb edRef="inst:5152" n="73a5"/> bshes gnyen mkhan po nam mkha' ye shes</rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po zhang chos rgyal rin chen</rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po byams pa'i dpal</rs> <abbr>la sogs</abbr> slob ma dge ba'i bshes gnyen mang pos gsol ba btab pa'i ngor | <rs type="person" ana="corpusmd:named_reference" ref="db:4068">shAkya'i dge slong skad gnyis smra ba blo gros dpal bzang po</rs>s gtso che bar <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhas pa chen po shes rab 'byung gnas <lb edRef="inst:5152" n="73a6"/> <choice><orig>{bl}o</orig><reg>blo</reg></choice> gros</rs> gyi <choice><reg>'grel</reg><orig>'gre{l}</orig></choice> pa dang bstun nas gsal bar bgyis pa'i <abbr>yi ge</abbr> pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:5802">dge slong ston pa brtson 'grus seng ge</rs>'o ||</ab>
+    </body>
+  </text>
+</TEI>
