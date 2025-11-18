@@ -8,9 +8,14 @@ import os
 from copy import deepcopy
 
 from lxml import etree
+import pandas as pd
 from tqdm import tqdm
 
+from lookup import get_instance_data
+
 NS = {"tei": "http://www.tei-c.org/ns/1.0"}
+
+ERRORS = []
 
 
 def process_tei_body(src_body):
@@ -61,6 +66,7 @@ def process_tei_file(input_file):
             "{http://www.tei-c.org/ns/1.0}TEI", nsmap={None: NS["tei"]}
         )
         src_header = tree.find("tei:teiHeader", namespaces=NS)
+
         root.append(process_tei_header(src_header))
         src_body = tree.find("tei:text/tei:body", namespaces=NS)
         root.append(process_tei_body(src_body))
@@ -71,8 +77,7 @@ def process_tei_file(input_file):
                 )
             )
     except Exception as e:
-        print("Failed to load ", input_file)
-        print(e)
+        ERRORS.append({"file": os.path.basename(input_file), "problem": str(e)})
         return
 
 
@@ -80,12 +85,42 @@ def process_tei_header(src_header):
     header = etree.Element(f"{{{NS['tei']}}}teiHeader")
     # Copy all contents except revisionDesc
     # Deepcopy to avoid modifying original
-    for child in src_header:
-        if isinstance(child.tag, str) and not child.tag.endswith("revisionDesc"):
-            header.append(deepcopy(child))
+    fileDesc = src_header.find("tei:fileDesc", namespaces=NS)
+    title = fileDesc.find("tei:titleStmt", namespaces=NS)
+    encodingDesc = src_header.find("tei:encodingDesc", namespaces=NS)
+    profileDesc = src_header.find("tei:profileDesc", namespaces=NS)
 
-    idnos = [el.text for el in src_header.xpath(".//tei:idno", namespaces=NS)]
-    print(idnos)
+    idnos = [
+        el.text
+        for el in src_header.xpath(".//tei:idno", namespaces=NS)
+        if el.attrib.get("type") == "TibSchol"
+    ]
+    bad_idnos = []
+    instance_data = {}
+    for idno in idnos:
+        try:
+            instance_data = get_instance_data(idno)
+            break
+        except ValueError as ve:
+            print(ve)
+            bad_idnos.append(idno)
+            continue
+
+    if not instance_data:
+        raise ValueError("No valid instance data found.")
+
+    title.find("tei:title", namespaces=NS).text = instance_data.get("work_name")
+    author = title.find("tei:author", namespaces=NS)
+    author.text = instance_data.get("author_name")
+    author.set("ref", f"apis:{instance_data.get('author_id')}")
+    header.append(deepcopy(fileDesc))
+    header.append(deepcopy(encodingDesc))
+    header.append(deepcopy(profileDesc))
+    print(instance_data)
+    if bad_idnos:
+        raise ValueError(f"Bad idnos found: {bad_idnos}")
+    if not idnos:
+        raise ValueError("No idno with type=TibSchol found.")
     return header
 
 
@@ -115,3 +150,6 @@ if __name__ == "__main__":
     print(len(tei_repo), "files found")
     for file in tqdm(tei_repo):
         process_tei_file(file)
+
+    if ERRORS:
+        pd.DataFrame(ERRORS).sort_values("file").to_markdown("errors.md", index=False)
