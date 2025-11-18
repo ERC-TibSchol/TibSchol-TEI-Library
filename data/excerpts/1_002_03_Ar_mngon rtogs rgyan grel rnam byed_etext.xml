@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
  <titleStmt>
 				<!--preliminary title taken from source document-->
- <title type="main" xml:lang="bo-Latn-x-wylie">mngon rtogs rgyan 'grel rnam 'byed</title>
- <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
- <principal>
- <name ref="corpusmd:PH">Pascale Hugon</name>
- </principal>
- <funder>
- <name ref="https://ror.org/0472cxd90">European Research Council</name>
- </funder>
+ <title type="main" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol du phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan ces bya ba'i 'grel pa rnaM par 'byed pa</title>
+ <author ref="apis:3816">ar byang chub ye shes<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
  <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
  <respStmt>
  <resp>Transcribed by</resp>
@@ -69,8 +63,28 @@
  </publicationStmt>
  <sourceDesc>
  <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
- </sourceDesc>
- </fileDesc>
+ <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">65 x 15</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+No folio number on the first folio; numbering starting with 34 on the second folio (text continuing from the first folio)&#13;
+Two folios are numbered 39 (so dgu ; so dgu 'og ma). &#13;
+Two folios are numbered 168 (brgya re brgyad ; brgya{d} re brgyad 'og).&#13;
+Numbering in letters on the recto of the folios. 200 is represented by + with a second horizontal stroke, visible from 205 to 209.&#13;
+Last digit written with a numeral on fols. 111–114, 121–124, 131–133 and 141.&#13;
+Orthography:&#13;
+- Bindu for m&#13;
+- Palatalization of m&#13;
+- Abbreviations (e.g., for sems can, thams cad, rdo rje, ye shes, etc.)&#13;
+- Alternative prefix letter 'a for m (e.g., 'gos for mgos, sa 'tshams for sa mtshams)&#13;
+- Supplementary 'a rjes 'jug (e.g., mthu')&#13;
+- Character ba frequently written as pa&#13;
+Numerous interlinear notes (some of which corrections) and marginal glosses.&#13;
+The words from the base text were probably written in color. Only the vowels appear on the image published in the [ZZVAXS4X].</additional></physDesc></sourceDesc>
+ <respStmt><principal>
+ <name ref="corpusmd:PH">Pascale Hugon</name>
+ </principal>
+ </respStmt><respStmt><funder>
+ <name ref="https://ror.org/0472cxd90">European Research Council</name>
+ </funder>
+ </respStmt></fileDesc>
  <encodingDesc>
  <tagsDecl partial="true">
  <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

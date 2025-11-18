@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">dbus mtha' don bsdus</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">dbus mtha'i don bsdus</title>
+            <author ref="apis:3786">rngog blo ldan shes rab<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -63,8 +57,22 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Lines per folio: 9; 7 on fol. 13a.&#13;
+Numbering of folios in numerals on fols. 2–4 and in letters on fols. 5–12 (preceded by an illegible character on 5 and 5, maybe a numeral?) on the recto of the folios.&#13;
+Orthography:&#13;
+-  Extensive use of abbreviations (e.g., for thun mong, shes rab, 'jig rten, bdag nyid, phun sum tshogs etc.) (number increasing as the text goes)&#13;
+- Numerals used for numbers and for phonetic value (e.g., 4+n for bzhin)&#13;
+- ṇa for med&#13;
+- Additional b- prefixes (e.g., bsgrub, bston)&#13;
+- Alternative prefix b- for g- (e.g., rnam par bzhag pa)&#13;
+A few interlinear corrections and some glosses (e.g., fol. 4b9), in two different hands.</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

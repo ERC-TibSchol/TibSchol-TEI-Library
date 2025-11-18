@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">rnam nges dka' gnas</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i dka' gnas rnam par bshad pa</title>
+            <author ref="apis:3786">rngog blo ldan shes rab<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -65,8 +59,34 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">67 x 9</dimensions></support></supportDesc></objectDesc><additional n="Item description">Size according to the Theg chen gling catalogue ([HMSTSJ7Q]: 269, no. 711: ka 422).&#13;
+The mention “1(132)” is visible on the left of the cover page.&#13;
+A number of interlinear and marginal notes (corrections and glosses), often faded and/or illegible on the image. In the bottom left corner of the last folio (132b), illegible note written in the sense of the margin (** lnga? ***) (maybe indicating the number of missing folios?)&#13;
+Numbering in letters on the recto of the folios; after 100, 100 is represented by +. No number on f. 1&#13;
+Folio numbers 85 and 86 occur on a single page. Folio number 107 occurs twice, being divided in an "upper" (gong ma) and "lower" ('og ma) page. &#13;
+Lines per folio: 8; 7 on f. 103a; 5 on f. 107bis-a; 3 on f. 107bis-b&#13;
+Orthography: &#13;
+Bindu for m (e.g., rnaMs)&#13;
+- Palatalization of m (e.g., myed) (but absent at the end of the manuscript; the change appears to take place at f. 106a)&#13;
+- Alternative prefix: r- for d- (e.g., rka for dka), sometimes ’a- for m- (e.g., ’thun for mthun)&#13;
+- Particle pa/ba takes the form pa after final –l and occasionally  after final –ng, and the form ba occasionally after final –n (e.g., yin ba) &#13;
+- Particle tu/du takes the form tu after final –n (e.g., don tu) and du after final –b and final -g&#13;
+- Final particle po after final –b (e.g., grub po)&#13;
+- Additional prefix b- (e.g., bskyed par, bsnyon pa)&#13;
+-  Superabundant ’a rjes ’jug (e.g., brtse’, dpe’)&#13;
+- Variant orthography (bstan chos for bstan chos; the tsom for the tshom; kun las bstus pa for kun las btus pa; bdag chag for bdag cag; la stsogs for la sogs)&#13;
+- Occasional reverse i (e.g. 3b5)&#13;
+- On the last folio (132b), numerous end letters written as subscript; bindu over the tsheg for m in a negation (ma, mi); abbreviations (e.g. for rjes su, phyir ro)&#13;
+The lemmas from PVin as well as citations of verses and indication of the end of a subsection, seem to have been written in colored ink, maybe by a different hand (but this is not the case at the end of the text).&#13;
+The folio 107bis seems to be from a different hand and was probably inserted later. There might have been a change of scribe at fol. 106 (palatalization of m is absent from this point onward)&#13;
+There are significant changes on the last folio (132b) and the last two lines of that folio are written in smaller script, maybe by a different hand.</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

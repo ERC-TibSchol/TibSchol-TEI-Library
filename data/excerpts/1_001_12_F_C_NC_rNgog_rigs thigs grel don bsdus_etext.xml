@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">rigs thigs 'grel don bsdus</title><!--TODO Title? in bka' gdams gsung 'bum name: tshad ma rnam nges kyi bdus don but now name in the text.-->
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">rigs thigs 'grel pa'i don bsdus</title><!--TODO Title? in bka' gdams gsung 'bum name: tshad ma rnam nges kyi bdus don but now name in the text.-->
+            <author ref="apis:3786">rngog blo ldan shes rab<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -66,8 +60,35 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">64.5 x 9.8</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+Lines per folio: 8; 5 on fol. 21a.&#13;
+Numbering of folios in letters on the recto.&#13;
+Folio number on cover page: gcig.&#13;
+Folio number on last folio: nyes gcig bzhugs so.&#13;
+Some interlinear notes, long insertion/gloss on fol. 1b7.&#13;
+Orthography: &#13;
+- Palatalization of m (e.g., myi, myed)&#13;
+- Particle pa/ba takes the form ba after final –n and pa after final –ng and final -l&#13;
+- Particle kyi/gyi/gi takes the form kyi after final –n and final -l&#13;
+- Particle tu/du takes the form du after final –b and final -g&#13;
+- Bindu for final -m&#13;
+- Reverse i (e.g. at the end of 1b7)&#13;
+- lastsogs pa, la rtsogs pa and lasogs pa for la sogs pa&#13;
+- the tsom for the tshom&#13;
+- bstan chos for bstan bcos&#13;
+- log par rtogs pa for log par rtog pa&#13;
+- Superabundant ’a rjes ’jug (e.g., mtho’ ris, dpe’)&#13;
+- Additional b- prefix (e.g., bsgrub byed)&#13;
+- A few abbreviations (e.g., for thabs su, sems can and with final particles)&#13;
+- Alternative prefix ’a- for m- (e.g., ’jug bsdu for mjug bsdu)&#13;
+- Use of numerals for numbers</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

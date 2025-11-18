@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">Phya pa_mdo sde rgyan bshad</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">mdo sde rgyan gyi bshad pa</title>
+            <author ref="apis:3831">phywa pa chos kyi seng ge<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -69,8 +63,29 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">66 x 10</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+Most numbers in the left margin are not legible, but it would appear that the cover page corresponds to fol. 25, or that folios are missing between fol. 1 and fol. 26.&#13;
+Number on the last folio: 121.&#13;
+Missing folios: 98, 109-112.&#13;
+Two folios are added between fol. 66 and fol. 67 (re drug 'og ma; re bdun gong ma).&#13;
+[8H6M69W4], No. 15904, reports 99 folios.&#13;
+Lines per folio: 8.&#13;
+Orthography:&#13;
+Use of bindu for m&#13;
+- Na for med&#13;
+- Abbreviations (e.g., for yon tan, la sogs pa, mtshan nyid)&#13;
+- Numeral used for phonetic value (e.g., for bzhin)&#13;
+Occasional use of Sanskrit words, e.g. "hetu" for "gtan tshigs" in a verse citation.&#13;
+Interlinear and marginal glosses.&#13;
+Proofread.&#13;
+Some words in large characters appear in the margins (ratna, baidurya).</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">1_003_05_e_Gro_brgyad stong 'grel chen rnam bshad</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">brgyad stong 'grel chen gyi bshad pa</title>
+            <author ref="apis:3806">gro lung pa blo gros 'byung gnas<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -67,8 +61,23 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">60 x 9</dimensions></support></supportDesc></objectDesc><additional n="Item description">Xylograph (shing dpar).&#13;
+Numbers 84 and 85 appear on the same folio.&#13;
+Folio numbering in letters in the left margin on the recto (on the verso on f. 1), mostly in dbu can. A few numbers are written in dbu med (e.g., 34 on fol. 34b and 35 on fol. 35a). Arabic numbers in the left margin up to 32 and on fol. 40 and some later folios, in the right margin on other folios (12 on f. 12b, 2* on f. 29b, 32 on f. 34b, 3* on f. 34a, 35 on f. 35b, 4 on 41b, 4 on 43b, 4 on 45b, 4 on 46b, 4 on 47b, 50 on f. 50b, 51 on 51b, 52 on 52a, 5* on f. 53a, 54 on f. 54a, 5* on 55b, 57 on 57b), as well and Tibetan cursive numerals are probably a recent addition.&#13;
+Folio number on last folio: gya bzhi gya lnga gc(ig go)&#13;
+Lines per folio: 7; 3 on f. 84 and 85b.&#13;
+Orthography:&#13;
+- particle pa/ba takes the form ba after final –n&#13;
+- orthographic variants (e.g., the tsom for the tsom)&#13;
+Rare interlinear additions (e.g., fol. 8a7, fol. 12a1, fol. 12b1).&#13;
+Occasional burring (e.g., fol. 20b, fol. 62b) and fading (e.g., fol. 26b).</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

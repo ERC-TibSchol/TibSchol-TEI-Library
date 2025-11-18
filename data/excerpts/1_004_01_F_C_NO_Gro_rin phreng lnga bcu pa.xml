@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">1_004_01_e_Gro_rin phreng lnga bcu pa</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">rin po che phreng ba lnga bcu pa</title>
+            <author ref="apis:3806">gro lung pa blo gros 'byung gnas<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -65,8 +59,19 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">61.5 x 10</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.&#13;
+Orthography:&#13;
+- Palatalization of m (e.g., myin) (not systematic)&#13;
+- Alternance of prefix: ’a- for m- (e.g. 'thun for mthun)&#13;
+- Particle tu/du takes the form tu after final n (e.g., kun tu, shin tu)&#13;
+- Particle gyis/kyis takes the form kyis after final n (e.g., kun kyis)</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

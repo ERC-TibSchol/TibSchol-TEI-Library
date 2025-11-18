@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">bde mchog nor bu</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">dpal 'khor lo bde mchog lU i pa'i bstod pa yid bzhin nor bu</title>
+            <author ref="apis:3784">rin chen bzang po (1)<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -65,8 +59,19 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">48 x 8</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.&#13;
+Orthography:&#13;
+- Abundant use of abbreviations (e.g., ye shes, phyag ’tshal lo, gzugs, final –gs, etc.)&#13;
+- Bindu for m&#13;
+- Numerals used for numbers and for phonetic value (e.g., 4+n for bzhin)&#13;
+Interlinear insertions in smaller script on f. 1b6, f. 2a2 and f. 2a3 (titles for groups of verses) and a few corrections.</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

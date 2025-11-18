@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">bslab pa kun btus kyi rnam bshad</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa' yi bslabs pa kun las btus pa'i 'grel bshad</title>
+            <author ref="apis:3864">'jad pa byang chub skyabs<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -67,8 +61,30 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">55 x 8</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.&#13;
+196 folios are extant.&#13;
+No folio with No. 90, but there does not seem to be a text gap between fol. 89 and fol. 91.&#13;
+Two folios are numbered 125 between fol. 124 and fol. 126.&#13;
+No folio with No. 128, but there does not seem to be a text gap between fol. 127 and fol. 129.&#13;
+Between fol. 151 and 154, one folio numbered 152-53.&#13;
+No folio with No. 170, but there does not seem to be a text gap between fol. 169 and fol. 171.&#13;
+No folio with No. 180, but there does not seem to be a text gap between fol. 179 and fol. 181.&#13;
+Fol. 187 is numbered "187-8."&#13;
+The folio between fol. 187 and fol. 190 is numbered 188-89.&#13;
+No folio with No. 190, but there does not seem to be a text gap between fol. 188-89 and fol. 191.&#13;
+After fol. 197, two sets of folio numbers. The second continues with 198, 199, etc. up to 202. The first with 198-99, 199', 201 'og ma, 202 gong ma, 226. It is yet to be ascertained whether there are gaps in the text between the folios. &#13;
+The text starts on fol. 1a (no cover page)&#13;
+Use of abbreviations.&#13;
+Some longer glosses have been written within the main text, indicating that they were copied together with the main text.&#13;
+Glosses identify scholars whose views are referred to in the main text.&#13;
+The glosses are only found in some sections.</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

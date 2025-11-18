@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">Tshad ma'i spyi skad bsdus pa</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma'i spyi skad cung zad bsdus pa</title>
+            <author ref="apis:5833">gnyag<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -65,8 +59,22 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">35 x 10</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.&#13;
+Lines per folio: 9.&#13;
+No tsheg before shad, and occasionally absent between syllables (e.g., yinte for yin te, tshangbang for tshang bang)&#13;
+Use of da-drags (e.g., phyird, thald, bsald)&#13;
+Alternance of prefixes (e.g., 'thun/mthun, bgod/'god)&#13;
+Abbreviations (ṇa for med)&#13;
+Some Sanskrit words used instead of their Tibetan equivalent (e.g., lo ga instead of 'jig rten, he du instead of gtan tshigs)&#13;
+&#13;
+Cover page: ex44032023-07-2514-44-07</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

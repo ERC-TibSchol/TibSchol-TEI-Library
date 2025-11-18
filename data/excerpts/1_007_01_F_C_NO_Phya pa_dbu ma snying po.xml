@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">dbu ma snying po</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">dbu ma de kho na nyid kyi snying po</title>
+            <author ref="apis:3831">phywa pa chos kyi seng ge<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -66,8 +60,23 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+First folio missing (replaced in [Z5AUD7GQ] by a dbu can typeset transcription based on (ID:6818)).&#13;
+Folios 29a and 33a, although extant, are replaced in [Z5AUD7GQ] by a typeset transcription, but are visible in another set of images of the same manuscript on BUDA (http://purl.bdrc.io/resource/WA23505).&#13;
+Lines per folio: 7; 4 on fol. 57a (plus a line of five double shad and a post-colophon note)&#13;
+Orthography:&#13;
+- Use of bindu for m&#13;
+- Palatalization of m (e.g., myi, myed)&#13;
+- Particle pa/ba takes the form pa after final –ng&#13;
+- A few abbreviations (e.g., ye shes, thams cad)&#13;
+Rare marginal and interlinear annotation (corrections)</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

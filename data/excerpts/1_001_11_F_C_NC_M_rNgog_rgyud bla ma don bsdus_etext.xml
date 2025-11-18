@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">rgyud bla don bsdus</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i bstan bcos kyi don bsdus pa</title>
+            <author ref="apis:3786">rngog blo ldan shes rab<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -76,8 +70,27 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dbu med.&#13;
+Lines per folio: 7; 4 on fol. 40a.&#13;
+The cover page has a handwritten note referring to three dGe lugs pa works, and has no relevance to the contents of the manuscript (See [BAQ9MH4T]: 244).&#13;
+Orthography:&#13;
+- Frequent palatalization of m (but not systematic)&#13;
+- bstan chos for bstan bcos&#13;
+- sdug sngal for sdug bsngal&#13;
+- phun sum 'tshogs for phun sum tshogs (sometimes corrected by the deletion of a-chung)&#13;
+- las sogs for la sogs&#13;
+- Particle pa/ba takes the form ba after final –n, and pa after final –l and final -ng&#13;
+- Enclitic particles occur sometimes as separate syllables ('khor lo 'o, kho na 'o, ’khor lo ’i)&#13;
+- Alternance of prefix b- and g- (e.g., both rnam par gzhag, rnam par bzhag are found)&#13;
+- Additional prefix b- (e.g., bsgrub)&#13;
+Occasional interlinear additions (corrections). Long insertion on fol. 11a.</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

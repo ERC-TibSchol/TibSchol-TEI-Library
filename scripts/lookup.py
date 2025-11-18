@@ -71,6 +71,8 @@ def get_instance_data(idno):
             data["source_instance"] = rel["obj"]["label"]
 
     data.update(get_author_data(data["work_id"]))
+    data["dimension"] = result["dimension"]
+    data["item_description"] = result["item_description"]
     # data.update(result.iloc[0].to_dict())
     # title from works
 

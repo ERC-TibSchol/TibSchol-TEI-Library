@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
      <titleStmt>
 				<!--preliminary title taken from source document-->
-      <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i 'grel pa</title>
-      <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-      <principal>
-        <name ref="corpusmd:PH">Pascale Hugon</name>
-      </principal>
-      <funder>
-        <name ref="https://ror.org/0472cxd90">European Research Council</name>
-      </funder>
+      <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i ti ka chen po legs bshad bstan pa'i 'od zer</title>
+      <author ref="apis:4018">chu mig pa seng ge dpal<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
       <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
       <respStmt>
         <resp>Transcribed by</resp>
@@ -66,8 +60,16 @@
      </publicationStmt>
      <sourceDesc>
       <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-     </sourceDesc>
-   </fileDesc>
+     <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">69 x 9</dimensions></support></supportDesc></objectDesc><additional n="Item description">Last folio number: 152. &#13;
+Missing folios: 12 and 13.&#13;
+Last folio broken in two halves, which were stitched together.</additional></physDesc></sourceDesc>
+   <respStmt><principal>
+        <name ref="corpusmd:PH">Pascale Hugon</name>
+      </principal>
+      </respStmt><respStmt><funder>
+        <name ref="https://ror.org/0472cxd90">European Research Council</name>
+      </funder>
+      </respStmt></fileDesc>
    <encodingDesc>
      <tagsDecl partial="true">
       <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

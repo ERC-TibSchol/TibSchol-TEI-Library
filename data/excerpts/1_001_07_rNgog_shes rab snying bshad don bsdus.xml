@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">shes snying bshad don bsdus</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">shes rab snying po'i rgya cher 'grel gi bshad pa</title>
+            <author ref="apis:3786">rngog blo ldan shes rab<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -66,8 +60,24 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Lines per folio: 7; 8 on fol. 4a.&#13;
+Orthography:&#13;
+- Palatalization of m (e.g., dmyigs, myed, mying)&#13;
+pa/ba takes the form ba after final –n (e.g., bstan ba) and often after –s (e.g., thos ba)&#13;
+- Frequent alternance of pa and ba (which are, further, not always clearly distinguishable)&#13;
+- tu/du takes the form du after final –g (e.g., mchog du)&#13;
+- kyi/gyi/gi takes the form gyi after final –b (e.g., shes rab gyi)&#13;
+- la stsogs pa and la.sogs pa (for la sogs pa) (not systematic)&#13;
+- log par rtogs pa (for log par rtog pa)&#13;
+- dam 'cha for dam bca’&#13;
+- Occasional use of the bindu for m</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

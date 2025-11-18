@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">Phya pa_dbu ma rgyan 'grel bshad</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">dbu ma rgyan gyi 'grel pa rgya cher bshad pa</title>
+            <author ref="apis:3831">phywa pa chos kyi seng ge<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -66,8 +60,25 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">66.5 x 9.8</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+Lines per folio: 8; 2 on ol. 43b (plus a line with six double shad)&#13;
+Folio numbering in letters on the recto from fol. 2a.&#13;
+Volume letter: Kha (the manuscript was part of a 3-fold bundle containing also (ID:5875) and presumably (ID:7280))&#13;
+Orthography:&#13;
+- Palatalization of m (e.g., myi, myed)&#13;
+- Particle pa/ba takes the form pa after final –ng and ba after final –n&#13;
+- Particle tu/du takes the form du after final -b (e.g., rab du)&#13;
+- Superabundant 'a rjes 'jug (e.g., dge', rgya mtsho')&#13;
+- Variant spelling (e.g., phun sum 'tshogs, the tsom, log rtogs)&#13;
+Incipit (from "bla ma dam pa") originally written in colored ink (apart from the vowels and shad) appears faded on the black and white reproduction. Lemmata highlighted with color.&#13;
+Some interlinear and marginal notes.</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
