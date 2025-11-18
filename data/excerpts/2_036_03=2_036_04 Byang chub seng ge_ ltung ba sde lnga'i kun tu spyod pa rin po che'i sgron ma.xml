@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">ltung ba sde lnga'i kun tu spyod pa rin po
@@ -107,20 +107,16 @@
       <profileDesc>
          <!-- <langUsage> to be inserted from APIS -->
       </profileDesc>
-      <revisionDesc status="draft">
-         <!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2024-10-01">PH mannanot</change>
-         <change when="2024-10-02">PC inserted text from Transkribus</change>
-         <change when="2024-10-11">PH tas</change>
-         <change when="2025-03-28">RG review segs</change>
-         <change when="2025-03-31">PH check tocheck</change>
-         <change when="2025-07-25">RG updated seg re: lem</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex36032024-10-1115-04-42" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:4722">bslab pa'i <app><lem wit="inst:4723">gzhi</lem><rdg wit="inst:4723">gzhi</rdg><rdg wit="inst:4721">‹gzhi›</rdg></app> rin po <app><lem wit="inst:4721">che'i</lem><rdg wit="inst:4721">che'i</rdg><rdg wit="inst:4723">che</rdg></app> phreng bar bsdebs pa ltung ba sde lnga'i kun tu <app><lem wit="inst:4721">spyod</lem><rdg wit="inst:4721">spyod</rdg><rdg wit="inst:4723">spyad</rdg></app> pa | <pb edRef="inst:4723" n="58b"/><lb edRef="inst:4723" n="58b1"/> rin po che'i sgron ma</rs> zhes bya ba | 
-         <rs type="person" ana="corpusmd:named_reference" ref="db:3933"><app><lem wit="inst:4723">dge slong</lem><rdg wit="inst:4721">dge' slong</rdg><rdg wit="inst:4723">dge slong</rdg></app> byang chub seng ge</rs>s bkod pa <note type="editorial"> The vowels on the syllables "seng ges bkod" are not visible in instance (ID:3721)</note> | rdzogs s+h+yo ||</seg>  ¦¦ || 
-   <seg type="excerpt" xml:id="ex36032024-10-1115-04-422" status="finalized" ana="corpusmd:colophon"> <note type="editorial">Annotation only found in instance (ID:4721)</note>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4722">bslab pa'i <app><lem wit="inst:4723">gzhi</lem><rdg wit="inst:4723">gzhi</rdg><rdg wit="inst:4721">‹gzhi›</rdg></app> rin po <app><lem wit="inst:4721">che'i</lem><rdg wit="inst:4721">che'i</rdg><rdg wit="inst:4723">che</rdg></app> phreng bar bsdebs pa ltung ba sde lnga'i kun tu <app><lem wit="inst:4721">spyod</lem><rdg wit="inst:4721">spyod</rdg><rdg wit="inst:4723">spyad</rdg></app> pa | <pb edRef="inst:4723" n="58b"/><lb edRef="inst:4723" n="58b1"/> rin po che'i sgron ma</rs> zhes bya ba | 
+         <rs type="person" ana="corpusmd:named_reference" ref="db:3933"><app><lem wit="inst:4723">dge slong</lem><rdg wit="inst:4721">dge' slong</rdg><rdg wit="inst:4723">dge slong</rdg></app> byang chub seng ge</rs>s bkod pa <note type="editorial"> The vowels on the syllables "seng ges bkod" are not visible in instance (ID:3721)</note> | rdzogs s+h+yo ||</ab>
+      <gap reason="omitted"/>
+      <ab><note type="editorial">Annotation only found in instance (ID:4721)</note>
          <milestone unit="section" n="Post-colophon annotations (63a2-3)"/>
-         dpe 'di <rs type="person" ana="corpusmd:named_reference" ref="db:6954">shakya'i dge slong <abbr>rin chen</abbr> °° bsod nams</rs><note type="editorial">The reading "rin chen" is uncertain, and the following syllable, before "bsod nams" could not be identified</note> gi yin |</seg>
-         </body></text></TEI>
+         dpe 'di <rs type="person" ana="corpusmd:named_reference" ref="db:6954">shakya'i dge slong <abbr>rin chen</abbr> °° bsod nams</rs><note type="editorial">The reading "rin chen" is uncertain, and the following syllable, before "bsod nams" could not be identified</note> gi yin |</ab>
+    </body>
+  </text>
+</TEI>

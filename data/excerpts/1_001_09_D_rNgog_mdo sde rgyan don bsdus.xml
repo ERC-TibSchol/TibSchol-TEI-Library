@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">mdo sde rgyan don bsdus</title>
@@ -105,23 +105,20 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-02-14+02:06">PH tagged persons works exc</change>
-         <change when="2023-02-22+12:53">PH finish tag Persons and Works (except todo)</change>
-         <change when="2023-02-24+02:59">PH finish tag Persons and Works (except todo)</change>
-         <change when="2023-07-17+02:59">PH finalized</change>
-         <change when="2023-07-17+02:59">PH minor fix</change>
-         <change when="2024-01-17">PH check segs</change>
-         <change when="2024-01-23">PH fix lb</change>
-         <change when="2025-07-04">Rg finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg xml:id="ex1092023-02-1414-36-11" type="excerpt" status="reviewed"><milestone unit="section" n="Body of the text (1a1–24b10)"/>
-            <rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo sde rgyan</rs> gyi don <lb n="1a2"/> mtha' dag gsuM du gnas te | skabs <choice><orig>sgrub{°}</orig><reg>sgrub</reg></choice> pa dang | spro ba bskyed pa dang | chos brjod pa'o ||
-        </seg>
-         <seg xml:id="ex1092023-02-1414-28-48" type="excerpt" status="reviewed"> phan mdzad kun gyi bgrod pa cig pa'i laM || <rs type="deity" ana="corpusmd:named_reference">ma phaM</rs> rgyal sras daM pa legs bzhag de || blo chen <choice><sic>brtan</sic><corr>bstan</corr></choice> pa'ï sgron ma <rs type="person" ana="corpusmd:named_reference" ref="db:3758">dbyig <choice><orig>‹g›nyen</orig><reg>gnyen</reg></choice></rs> gis || blo <choice><orig>myi{°}g</orig><reg>myig</reg></choice> ldan pa rnaMs la gsal bar <choice><sic>mdzod</sic><corr>mdzad</corr></choice> ||</seg><seg xml:id="ex1092023-02-1414-20-02" type="excerpt" status="reviewed"> de las bsod <choice><sic>rnaMs</sic><corr>nams</corr></choice><choice><orig>(thob)</orig><reg>thob</reg></choice> des sa steng 'dir || 'gro ba'i <lb n="24b11"/> <choice><sic>bugs</sic><corr>dbugs</corr></choice> 'byin byaMs chen gshags pa na || mnyes byas chos sgor mngon du <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">bdag</rs> bzhugs nas || chos kyi snang bas 'gro ba'i mun sel shog || || </seg>
-         <seg xml:id="ex1092023-02-1414-17-43" type="excerpt" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (24b11)"/>
-            <rs type="work" ana="corpusmd:named_reference" ref="db:4437"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">mdo sde rgyan</rs> gyi don bsdus</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsha ba blo ldan shes rab</rs> kyis sbyar ba'o ||</seg> || ||
-        </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Body of the text (1a1–24b10)"/>
+            <rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo sde rgyan</rs> gyi don <lb n="1a2"/> mtha' dag gsuM du gnas te | skabs <choice><orig>sgrub°</orig><reg>sgrub</reg></choice> pa dang | spro ba bskyed pa dang | chos brjod pa'o ||
+        </ab>
+      <gap reason="omitted"/>
+      <ab><rs type="deity" ana="corpusmd:named_reference">ma phaM</rs> rgyal sras daM pa legs bzhag de || blo chen <choice><sic>brtan</sic><corr>bstan</corr></choice> pa'ï sgron ma <rs type="person" ana="corpusmd:named_reference" ref="db:3758">dbyig <choice><orig>‹g›nyen</orig><reg>gnyen</reg></choice></rs> gis || blo <choice><orig>myi{°}g</orig><reg>myig</reg></choice> ldan pa rnaMs la gsal bar <choice><sic>mdzod</sic><corr>mdzad</corr></choice> ||</ab>
+      <gap reason="omitted"/>
+      <ab><choice><sic>rnaMs</sic><corr>nams</corr></choice><choice><orig>(thob)</orig><reg>thob</reg></choice> des sa steng 'dir || 'gro ba'i <lb n="24b11"/> <choice><sic>bugs</sic><corr>dbugs</corr></choice> 'byin byaMs chen gshags pa na || mnyes byas chos sgor mngon du <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">bdag</rs> bzhugs nas || chos kyi snang bas 'gro ba'i mun sel shog || || </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (24b11)"/>
+            <rs type="work" ana="corpusmd:named_reference" ref="db:4437"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">mdo sde rgyan</rs> gyi don bsdus</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsha ba blo ldan shes rab</rs> kyis sbyar ba'o ||</ab>
+    </body>
+  </text>
+</TEI>

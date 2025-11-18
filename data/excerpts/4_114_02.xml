@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -17,7 +17,8 @@
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+                <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -103,13 +104,13 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-11-22" who="corpusmd:PH" status="draft">created document, manuall input, edit</change>
-         <change when="2025-08-08">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex114022024-11-2212-13-20" status="finalized"> chos 31 <note type="editorial">Located at top of the folio.</note> dam pa'i chos la zhus dag bya ba'i tshul <rs type="person" ana="corpusmd:named_reference" ref="db:4097">dpang lo</rs>'i gsung las byung ba <abbr>bzhugs so</abbr> || <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6856">rgyal sras <abbr>'jigs</abbr> med</rs> kyi dpe'o ||</note></seg>
-                       
-                        <seg type="excerpt" xml:id="ex114022024-11-2212-06-00" status="finalized" ana="corpusmd:colophon">mchan yig 'bebs tshul | zhus dag gi byed tshul | mchan yig 'dri tshul rnams <rs type="person" ana="corpusmd:named_reference" ref="db:4097">dpang lo</rs>'i gsung bzhin bkod || shu b+haM || ra dza <note type="editorial">"ra dza" is written in dbu can.</note> <note type="gloss">1 zhus</note> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6856">rgyal sras <abbr>'jigs</abbr> med</rs> kyi dpe'o |</note></seg>
-           </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><note type="editorial">Located at top of the folio.</note> dam pa'i chos la zhus dag bya ba'i tshul <rs type="person" ana="corpusmd:named_reference" ref="db:4097">dpang lo</rs>'i gsung las byung ba <abbr>bzhugs so</abbr> || <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6856">rgyal sras <abbr>'jigs</abbr> med</rs> kyi dpe'o ||</note></ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:4097">dpang lo</rs>'i gsung bzhin bkod || shu b+haM || ra dza <note type="editorial">"ra dza" is written in dbu can.</note> <note type="gloss">1 zhus</note> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6856">rgyal sras <abbr>'jigs</abbr> med</rs> kyi dpe'o |</note></ab>
+    </body>
+  </text>
+</TEI>

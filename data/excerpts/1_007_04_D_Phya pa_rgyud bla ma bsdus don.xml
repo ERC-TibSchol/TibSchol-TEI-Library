@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">rgyud bla ma bsdus don</title>
@@ -110,22 +110,14 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-03-04">tCompleted TEI header JS</change>
-          <change when="2023-04-19">JS Added work and person tags - need to add excerpts next</change> 
-          <change when="2023-04-26">JS Added excerpts</change>
-          <change when="2023-05-03">PH fix lb pb and a-chungs</change> 
-          <change when="2023-05-03">RG update xlm:id-s</change>
-          <change when="2023-07-24">PH finalized excerpts</change> 
-          <change when="2023-10-20">TD checked Colophon</change>
-         <change when="2024-08-28">PH fix bugs</change>
-          <change when="2025-05-20">PH finalized segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex70426-04-202313.33" status="finalized">
-         <rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs> la don bzhi ste |
-          <lg><l>[1] spyi'i don lus rnam par gzhag pa dang |</l> <l>[2] 'bras bu dkon mchog gi don dang |</l> <l>[3] de sgrub par byed pa'i rigs kyi don dang |</l> <l>[4] bstan bcos yongs su rdzogs pa'i bya ba'o ||</l></lg></seg><seg type="excerpt" xml:id="ex70426-04-202313.40" status="finalized" ana="corpusmd:colophon">
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4490"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs>'i bsdus pa'i don</rs> <rs type="person" ref="db:3831" ana="corpusmd:named_reference">dge slong chos kyi seng ge</rs>s nye bar sbyar ba'o || || rdzogs s+h+yo || || || || <note type="translation">Topical oultine of the Mahāyānottaratantra (Ratnagotravibhāga), composed by the monk Chos kyi seng ge. It is completed.</note></seg>
-      </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs> la don bzhi ste |
+          <lg><l>[1] spyi'i don lus rnam par gzhag pa dang |</l> <l>[2] 'bras bu dkon mchog gi don dang |</l> <l>[3] de sgrub par byed pa'i rigs kyi don dang |</l> <l>[4] bstan bcos yongs su rdzogs pa'i bya ba'o ||</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4490"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs>'i bsdus pa'i don</rs> <rs type="person" ref="db:3831" ana="corpusmd:named_reference">dge slong chos kyi seng ge</rs>s nye bar sbyar ba'o || || rdzogs s+h+yo || || || || <note type="translation">Topical oultine of the Mahāyānottaratantra (Ratnagotravibhāga), composed by the monk Chos kyi seng ge. It is completed.</note></ab>
+    </body>
+  </text>
+</TEI>

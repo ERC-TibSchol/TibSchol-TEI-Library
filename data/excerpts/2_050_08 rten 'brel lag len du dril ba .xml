@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">rten 'brel lag len du dril ba  </title>
@@ -60,7 +60,7 @@
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
             </availability>
-            <idno type="TibSchol">2_050_08<?oxy_comment_end?></idno>
+            <idno type="TibSchol">2_050_08</idno>
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
@@ -104,16 +104,13 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-22">TD checked scribe</change>
-         <change when="2023-09-11">PH fix colophon</change>
-         <change when="2023-09-20">TD checked place</change>
-         <change when="2023-09-20">PH fix bugs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex50082023-09-131" status="reviewed" ana="corpusmd:colophon">
-         <milestone unit="section" n="Post-colophon annotations (21b8)"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon annotations (21b8)"/>
         <rs type="person" ana="corpusmd:named_reference" ref="db:4052">bla ma snar thang pa brgyad par byon pa</rs> des <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa chos kyi rgyal mtshan</rs> la <abbr>gnang ngo</abbr> || 
-         <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pa bsngags pa'i snar thang gi dben gnas</rs> <abbr>su</abbr> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s phyag dpe las bris shing zhus <abbr>dag go</abbr> || ||</seg></body></text></TEI>
+         <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pa bsngags pa'i snar thang gi dben gnas</rs> <abbr>su</abbr> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s phyag dpe las bris shing zhus <abbr>dag go</abbr> || ||</ab>
+    </body>
+  </text>
+</TEI>

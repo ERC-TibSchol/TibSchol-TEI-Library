@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bde mchog nor bu</title>
@@ -104,16 +104,16 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-                           <change when="2024-09-18">PH create doc</change>
-                           <change when="2025-15-08">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex8602_202409182" status="finalized" ana="corpusmd:colophon">
-            <milestone unit="section" n="Colophon "/>
-        <lb n="95a7"/> <rs type="work" ana="corpusmd:unnamed_reference" ref="db:5283"><choice><reg>rnaM</reg><orig>°M</orig></choice> bshad</rs> 'di ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">tshig nyung dus gzhung gi don rgyas par <abbr>rtogs</abbr> par 'dod pa</rs> <abbr>dag gis</abbr> yang dang yang du bskul nas ¦ <choice><reg>sdom</reg><orig>d°oM</orig></choice> brtson daM pa mkhas pa'i <abbr>mchog grub</abbr> pa mnyes <abbr>pa'i</abbr> skyes bu <abbr>chen po</abbr> || snyan po dra gsung <abbr>phyogs</abbr> bcur <choice><orig><note type="gloss">'</note>phro</orig><reg>'phros</reg></choice> pa ¦ rnam par dag cing lhun gyis grub pa'i <abbr>'phrin las</abbr> kyis <choice><reg>bskal</reg><orig>°skal</orig></choice> pa dang ldan pa <choice><reg>rnams</reg><orig>rnaMms</orig></choice> kyi <abbr>rnam par</abbr> 'dren pa | <choice><orig>mtshangs</orig><reg>mtshungs</reg></choice> pa med pa ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4052">yang dag <abbr>pa'i</abbr> dge ba'i <abbr>bshes gnyen</abbr> <abbr>smon lam</abbr></rs> gyi mtshan <lb n="95a8"/> daM pa'i zhabs rdul spyi bos yang dag par len pa ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:6029">shAkya'i dge slong <abbr>sangs rgyas</abbr> ston dpal bzang po</rs>s <choice><reg>sbyar</reg><orig>°byar</orig></choice> ba || <abbr>rdzogs so</abbr> || </seg>
-        <seg type="excerpt" xml:id="ex8602_202409183" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon "/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon "/>
+        <lb n="95a7"/> <rs type="work" ana="corpusmd:unnamed_reference" ref="db:5283"><choice><reg>rnaM</reg><orig>°M</orig></choice> bshad</rs> 'di ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">tshig nyung dus gzhung gi don rgyas par <abbr>rtogs</abbr> par 'dod pa</rs> <abbr>dag gis</abbr> yang dang yang du bskul nas ¦ <choice><reg>sdom</reg><orig>d°oM</orig></choice> brtson daM pa mkhas pa'i <abbr>mchog grub</abbr> pa mnyes <abbr>pa'i</abbr> skyes bu <abbr>chen po</abbr> || snyan po dra gsung <abbr>phyogs</abbr> bcur <choice><orig><note type="gloss">'</note>phro</orig><reg>'phros</reg></choice> pa ¦ rnam par dag cing lhun gyis grub pa'i <abbr>'phrin las</abbr> kyis <choice><reg>bskal</reg><orig>°skal</orig></choice> pa dang ldan pa <choice><reg>rnams</reg><orig>rnaMms</orig></choice> kyi <abbr>rnam par</abbr> 'dren pa | <choice><orig>mtshangs</orig><reg>mtshungs</reg></choice> pa med pa ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4052">yang dag <abbr>pa'i</abbr> dge ba'i <abbr>bshes gnyen</abbr> <abbr>smon lam</abbr></rs> gyi mtshan <lb n="95a8"/> daM pa'i zhabs rdul spyi bos yang dag par len pa ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:6029">shAkya'i dge slong <abbr>sangs rgyas</abbr> ston dpal bzang po</rs>s <choice><reg>sbyar</reg><orig>°byar</orig></choice> ba || <abbr>rdzogs so</abbr> || </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon "/>
         sde snod mgnon pa mi'i sde bdun dang ¦ <abbr>bye brag</abbr> bshad mdzod nying khu lta bu yin | mngon mdzod gzhung don bde blag <abbr>rtogs</abbr> bya'i phyir | rnaM bshad nying khu pa'i 'od 'dra 'di | rang dang gzhan la phan phyir <rs type="person" ana="corpusmd:unnamed_reference" ref="db:6029"><abbr>bdag</abbr></rs> <abbr>gis</abbr> bzhengs | <abbr>dge gshegs</abbr> daM chos 'di dang mi 'bral zhing | 'gro ba °° <lb n="95a9"/> °° | mthug <abbr>rnam mkhyen</abbr> pa la 'god par shog |
-        <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">mkhan chen <abbr>pa</abbr></rs><abbr>'i</abbr> phyag dpe 'di |  <rs type="person" ana="corpusmd:named_reference" ref="db:5284">dbyang dpal</rs> gyi legs par bris pa 'di dge zhing <abbr>bkra shis</abbr> par 'gyur gcig || shub+haM || || ||</seg>
-    </body></text></TEI>
+        <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">mkhan chen <abbr>pa</abbr></rs><abbr>'i</abbr> phyag dpe 'di |  <rs type="person" ana="corpusmd:named_reference" ref="db:5284">dbyang dpal</rs> gyi legs par bris pa 'di dge zhing <abbr>bkra shis</abbr> par 'gyur gcig || shub+haM || || ||</ab>
+    </body>
+  </text>
+</TEI>

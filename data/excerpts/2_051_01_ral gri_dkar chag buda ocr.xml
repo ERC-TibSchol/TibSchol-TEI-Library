@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+         <titleStmt>
+				<!--preliminary title taken from source document-->
+            <title type="main" xml:lang="bo-Latn-x-wylie"/>
+            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:BUDA">BUDA OCR (UTIE0OPID194E73E_I00EGS1017428_bo-x-ewts,sa-x-iast,zh-latn-pinyin vol 1)</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <!-- TODO: add any other contributors and their roles here -->
+            <!-- end of responsibility statments specific to this document -->
+            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
+					do not manually change this as it might be overwritten in a later stage -->
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <!-- responsibility statments applying to all documents -->
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">2_051_03</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+			<!-- <langUsage> to be inserted from APIS -->
+		</profileDesc>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:7126">shan ti ba'i dbu ma rgyan gyi ti ka</rs> dang | 
+spyod 'jug gi ti ka sa bcad dang bcas pa dang | sdom pa nyi shu pa'i 'bru 'joms dang sa ma ti ka dang | dbu ma lugs thams cad ston pa dbu ma rgyan gyi me tog dang |
+ha su ma ti'i dbu ma'i man ngag dang*/_</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:7129">phyi rol don grub</rs> dang <rs type="work" ana="corpusmd:named_reference" ref="db:7132"><rs type="work" ana="corpusmd:named_reference" ref="db:7133">gzhan sel gnyis kyi ti ka</rs></rs> dang |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4940"><rs type="work" ana="corpusmd:named_reference" ref="db:3770">mdo kun las btus pa</rs>'i ti ka</rs> <rs type="work" ana="corpusmd:named_reference" ref="db:7114">sa bcad</rs> 2 |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:3774">rnam nges</rs> la'ang <rs type="work" ana="corpusmd:named_reference" ref="db:4942"><rs type="work" ana="corpusmd:named_reference" ref="db:7117">de ltar</rs></rs> gnyis | </ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:3772">rnam 'grel</rs> dang <rs type="work" ana="corpusmd:named_reference" ref="db:5589">rigs thigs</rs> dang <rs type="work" ana="corpusmd:named_reference" ref="db:5831">gtan tshigs thigs</rs> pa dang <rs type="work" ana="corpusmd:named_reference" ref="db:7068">rgyud gzhan grub pa</rs> bzhi la <rs type="work" ana="corpusmd:named_reference" ref="db:6623"><rs type="work" ana="corpusmd:named_reference" ref="db:7118"><rs type="work" ana="corpusmd:named_reference" ref="db:7119"><rs type="work" ana="corpusmd:named_reference" ref="db:7120">ti ka</rs></rs></rs></rs> re re |
+</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:3777">rtsod rigs</rs> la <rs type="work" ana="corpusmd:named_reference" ref="db:7110">'bru 'joms</rs> dang <rs type="work" ana="corpusmd:named_reference" ref="db:4949">sa bcad</rs> dang <rs type="work" ana="corpusmd:named_reference" ref="db:4951">ti ka</rs> gsum | </ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:3775">'brel brtag</rs> la <rs type="work" ana="corpusmd:named_reference" ref="db:5900">'bru 'joms</rs> dang <rs type="work" ana="corpusmd:named_reference" ref="db:4947">sa bcad</rs> dang <rs type="work" ana="corpusmd:named_reference" ref="db:5515">ti ka</rs> gsum |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5594">chos mchog chen po</rs>'i <rs type="work" ana="corpusmd:named_reference" ref="db:4951">ti ka</rs> 
+</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4944">bsdus pa che</rs> <rs type="work" ana="corpusmd:named_reference" ref="db:5526">chung</rs> gnyis |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:7123">tshe snga phyi grub pa</rs> dang <rs type="work" ana="corpusmd:named_reference" ref="db:7124">thams cad mkhyen pa grub pa</rs> gnyis so ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:7112">shAkya'i bstan la rang gis bstan bcos ji tsam brtsams pa'i tshul</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">shAkya'i dge slong bcom ldan ral gri</rs>s sbyar ba rdzogs so ||</ab>
+    </body>
+  </text>
+</TEI>

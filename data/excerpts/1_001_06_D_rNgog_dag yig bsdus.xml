@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">dag yig bsdus</title>
@@ -105,20 +105,34 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-        <change when="2023-04-26">TD adding work tags</change>
-        <change when="2023-05-24">RG corrected tags and updated pb and lb</change>
-        <change when="2023-06-07">RG updated pb and lb</change>
-        <change when="2023-07-17">PH finalized pb lb, reviewed excerpts</change>
-        <change when="2023-07-17">PH minor fix</change>
-        <change when="2024-01-17">PH review after reverting</change>
-        <change when="2024-04-12">PH add tag</change>
-        <change when="2024-07-10">PH minor fix</change>
-        <change when="2025-06-13">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex1062023-05-241645" status="finalized"><milestone unit="section" n="Cover page (1a)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4433">dag yig nye mkho bsdus <choice><corr>pa</corr><sic>pe</sic></choice><note type="editorial">A vowel <mentioned>e</mentioned> was mistakenly added to <mentioned>pa</mentioned>, no deletion is visible.</note></rs> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">shAkya'i dge slong blo ldan shes rab</rs> kyis mdzad pa <abbr>bzhugs so</abbr> ||</seg><seg type="excerpt" xml:id="ex1062023-05-241649" status="finalized"><milestone unit="section" n="Incipit (1b1–1b2)"/><pb n="1b"/><lb n="1b1"/> na mo <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">gu ru</rs> | <rs type="work" ana="corpusmd:named_reference" ref="db:4433">dag yig nyer mkho bsdus pa</rs> <abbr>bzhugs</abbr> zhes bya ba |</seg><seg type="excerpt" xml:id="ex1062023-05-241653" status="finalized">don 'di brjod pa la tshig 'di <lb n="1b2"/>dang 'di 'jug go zhes bde blag tu rtog par bya ba'i phyir <rs type="work" ana="corpusmd:unnamed_reference" ref="db:4433">bstan bcos 'di</rs> rtsom mo <choice><reg>|</reg><orig/></choice></seg>
-         <seg type="excerpt" xml:id="ex1062023-05-241654" status="finalized"><milestone unit="section" n="Programmatory verse (1b2–1b3)"/> de la <rs type="work" ana="corpusmd:unnamed_reference" ref="db:4433">bstan bcos 'di</rs>'i sdom tshig ni | spyir bstan grangs nges tshig phrad dang | 'phul dang brten pa'i spang blang dang | dmigs gsal <lb n="1b3"/> so sor dbye ba ste || rnam pa lnga yis bsdus pa yin || zhes bya'o ||</seg><seg type="excerpt" xml:id="ex1062023-05-241655" status="finalized"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> sa mthar shes zhes zer | mi 'thad par mthong <rs type="person" ref="db:3786" ana="corpusmd:unnamed_reference"><choice><sic>kho ba</sic><corr>kho bo</corr></choice></rs>s 'dor |</seg>
-         <seg type="excerpt" xml:id="ex1062023-05-241656" status="finalized">ga da ba cig sa mthar shig | rkyang pa'i rjes su 'ang yin te dper | shog cig sod cig rgyob cig ces | gyis shig <lb n="4a4"/> ces ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> smra |</seg><seg type="excerpt" xml:id="ex1062023-05-24.16.57" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (9a4–9a5)"/><rs type="work" ana="corpusmd:named_reference" ref="4433">dag yig nye mkho bsdus pa</rs> <pb n="9a"/><lb n="9a5"/> zhes bya ba | <rs type="person" ref="db:3786" ana="corpusmd:named_reference">shAkya'i dge slong blo ldan shes rab</rs> kyis phyogs gcig tu sdebs pa'o ||</seg> || sarba mang+ga laM || </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/><pb n="1a"/><lb n="1a1"/><unclear>368</unclear> <lb n="1a2"/> || 
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4433">dag yig nye mkho bsdus <choice><corr>pa</corr><sic>pe</sic></choice><note type="editorial">A vowel <mentioned>e</mentioned> was mistakenly added to <mentioned>pa</mentioned>, no deletion is visible.</note></rs> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">shAkya'i dge slong blo ldan shes rab</rs> kyis mdzad pa <abbr>bzhugs so</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1b1–1b2)"/>
+         <pb n="1b"/><lb n="1b1"/> na mo <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">gu ru</rs> | <rs type="work" ana="corpusmd:named_reference" ref="db:4433">dag yig nyer mkho bsdus pa</rs> <abbr>bzhugs</abbr> zhes bya ba |
+         <rs type="deity">'jam pa'i dbyangs</rs> la phyag 'tshal lo ||</ab>
+      <gap reason="omitted"/>
+      <ab><choice><reg>ge</reg><orig>ga</orig></choice> 'di'i ming 'di zhes bya zhing | 
+         don 'di brjod pa la tshig 'di <lb n="1b2"/> dang 'di 'jug go zhes bde blag tu rtog par bya ba'i phyir <rs type="work" ana="corpusmd:unnamed_reference" ref="db:4433">bstan bcos 'di</rs> rtsom mo</ab>
+      <gap reason="omitted"/>
+      <ab>
+        <milestone unit="section" n="Body of the text (1b2–9a2)"/>
+      </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Programmatory verse (1b2–1b3)"/> 
+         de la 
+         <lg><l><rs type="work" ana="corpusmd:unnamed_reference" ref="db:4433">bstan bcos 'di</rs>'i sdom tshig ni |</l> <l>spyir bstan grangs nges tshig phrad dang |</l> <l>'phul dang brten pa'i spang blang dang |</l> <l>dmigs gsal <lb n="1b3"/> so sor dbye ba ste ||</l> <l>rnam pa lnga yis bsdus pa yin ||</l> </lg>
+         zhes bya'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> sa mthar shes zhes zer | mi 'thad par mthong <rs type="person" ref="db:3786" ana="corpusmd:unnamed_reference"><choice><sic>kho ba</sic><corr>kho bo</corr></choice></rs>s 'dor |</ab>
+      <gap reason="omitted"/>
+      <ab><lb n="4a4"/> ces ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> smra |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (9a4–9a5)"/><rs type="work" ana="corpusmd:named_reference" ref="4433">dag yig nye mkho bsdus pa</rs> <pb n="9a"/><lb n="9a5"/> zhes bya ba | <rs type="person" ref="db:3786" ana="corpusmd:named_reference">shAkya'i dge slong blo ldan shes rab</rs> kyis phyogs gcig tu sdebs pa'o ||</ab>
+    </body>
+  </text>
+</TEI>

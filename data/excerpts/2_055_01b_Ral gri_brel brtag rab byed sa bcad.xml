@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">'brel brtag rab 'byed</title>
@@ -105,22 +105,14 @@
       <profileDesc>
          <!-- <langUsage> to be inserted from APIS -->
       </profileDesc>
-      <revisionDesc status="draft">
-         <!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-01-13">PH split doc into two, renamed °a and °b, as contains 2
-            works</change>
-         <change when="2023-01-13">PH start excerpt markup</change>
-         <change when="2023-01-23+10:04">PH excerpt markup</change>
-         <change when="2023-01-24+01:33">PH fix markup</change>
-         <change when="2023-01-24+02:29">PH fix lb pb</change>
-         <change when="2023-01-31+01:50">PH fix tags</change>
-         <change when="2023-02-22+04:05">PH finish tags all persons all works</change>
-         <change when="2023-03-08+08:25">PH review exc</change>
-         <change when="2023-07-21+08:25">PH minor fix</change>
-         <change when="2025-08-01">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex5501b2023-01-2321-59-19" status="finalized"> <note type="editorial"> This text follows that of ID: 5901 on the same manuscript, starting on f. 4b2.</note> <rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel pa brtag pa</rs> la don brgyad ste ¦ </seg><seg type="excerpt" xml:id="ex5501b2023-01-2322-00-25" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (4b5)"/>
-                            <rs type="work" ref="db:4947" ana="corpusmd:named_reference"><rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel <choice><orig>‹pa›</orig><reg>pa</reg></choice> brtag pa</rs>'i don <abbr>legs par</abbr> bsdus pa</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcoM ldan ral gri</rs>s bkod pa <abbr>rdzogs</abbr> s+ho |</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><note type="editorial"> This text follows that of ID: 5901 on the same manuscript, starting on f. 4b2.</note> <rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel pa brtag pa</rs> la don brgyad ste ¦ </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (4b5)"/>
+                            <rs type="work" ref="db:4947" ana="corpusmd:named_reference"><rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel <choice><orig>‹pa›</orig><reg>pa</reg></choice> brtag pa</rs>'i don <abbr>legs par</abbr> bsdus pa</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcoM ldan ral gri</rs>s bkod pa <abbr>rdzogs</abbr> s+ho |</ab>
+    </body>
+  </text>
+</TEI>

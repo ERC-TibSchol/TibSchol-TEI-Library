@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bde can smon lam</title>
@@ -19,6 +19,8 @@
             <respStmt>
                <resp>TEI Markup by</resp>
                <name ref="corpusmd:TD">Tsering Drongshar</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -104,21 +106,14 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-04-24">TD Added work and person tags </change>
-         <change when="2023-05-24">RG checked and corrected tags</change>
-         <change when="2023-06-07">RG updated lb and lb tags</change>
-         <change when="2023-07-10">PH updated lb and lb tags</change>
-         <change when="2023-07-10">RG deleted additional lb tag</change>
-         <change when="2023-07-17">PH reviewed excerpts</change>
-         <change when="2023-07-21">PH minor fix</change>
-         <change when="2023-09-05">TD checke place</change>
-         <change when="2025-03-25">RG updated and finalized segs </change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex1052023-04-241305" status="finalized">
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4431">bde ba can gyi smon lam</rs> bzhugs s+ho ||</seg>
-         <seg type="excerpt" xml:id="ex1052023-04-241330" status="finalized" ana="corpusmd:colophon">
-         <lb n="2b8"/><rs type="person" ref="db:3784" ana="corpusmd:named_reference">lo ts+tsha ba <abbr>rin chen</abbr> bzang po</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:6216">thon mthing gi gtsug lag khang</rs> du sbyar ba dge'o ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4431">bde ba can gyi smon lam</rs> bzhugs s+ho ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (2b8)"/>
+         <lb n="2b8"/> <rs type="person" ref="db:3784" ana="corpusmd:named_reference">lo ts+tsha ba <abbr>rin chen</abbr> bzang po</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:6216">thon mthing gi gtsug lag khang</rs> du sbyar ba dge'o ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">1_003_05_e_Gro_brgyad stong 'grel chen rnam bshad</title>
@@ -106,36 +106,31 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-25+01:00">PH copied to Mannanot</change>
-         <change when="2023-11-24">TD tagged Colophon and corrected number in Colophon</change>
-         <change when="2024-09-19">PH fix bugs</change>
-         <change when="2025-01-10">PH edit</change>
-         <change when="2025-07-04">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex3052025-01-1013-29-14" status="finalized">
-         <milestone unit="section" n="Cover page (1a)"/>  <pb n="1a"/><lb n="1a1"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3806">dpal gro lung ba chen po</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4464">'grel chen gyi rnam bshad</rs> <abbr>bzhugs s+ho</abbr> ||</seg>
-         <seg type="excerpt" xml:id="ex3052025-01-1013-159" status="finalized">
-        || <!--[YSWTB5Y2]: 477-->
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>  <pb n="1a"/><lb n="1a1"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3806">dpal gro lung ba chen po</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4464">'grel chen gyi rnam bshad</rs> <abbr>bzhugs s+ho</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><!--[YSWTB5Y2]: 477-->
         <lb n="1a2"/> oM swatiḥ 
         <lg><l>srid pa gsum gyi brgyan du mdzes de'i ||</l> 
         <l>yid 'r'ong ston kun ldan dbu 'di ||</l>
          <l><rs type="person" ana="corpusmd:named_reference" ref="db:7036">bkra shis <abbr>dpal ldan</abbr> blo zer</rs> las 'khrungs || </l>
-         <l>chos kyi spyan mnga' rnams kyi gzigs dang ||</l></lg></seg><seg type="excerpt" xml:id="ex30520250110201" status="finalized" ana="corpusmd:colophon">
-         <milestone unit="section" n="Conclusive verses (84a3–84a6)"/><lb n="84a6"/>
+         <l>chos kyi spyan mnga' rnams kyi gzigs dang ||</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Conclusive verses (84a3–84a6)"/><lb n="84a6"/>
          <milestone unit="section" n="7"/>
         <lg> <l>skye ba kun du bdag gi blo gros ni ||</l>
          <l>dpag med yon tan tshogs kyi 'byung gnas kyi ||</l>
          <l><lb n="84a7"/> legs gsungs 'di' cung zad ngal byas pas || </l>
-         <l>'gro kun srid mtsho che las myur sgrol shog || ||</l></lg></seg>
-<seg type="excerpt" xml:id="ex3052023-11-241" status="finalized" ana="corpusmd:colophon">
-       <milestone unit="section" n="Colophon (84a7–84b1)"/>don gyi gnas rnams ni phal cher <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">slob dpon bdag nyid chen po</rs>s <note type="editorial">Probably rNgog Blo ldan shes rab (db:3786)</note> sbyar ba | 'di nyid kyi don bsdus ba dang | 'grel ba rung ba'i bshad sbyar gyi rjes su 'brangs te rtogs par bya'o || 
+         <l>'gro kun srid mtsho che las myur sgrol shog || ||</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (84a7–84b1)"/>don gyi gnas rnams ni phal cher <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">slob dpon bdag nyid chen po</rs>s <note type="editorial">Probably rNgog Blo ldan shes rab (db:3786)</note> sbyar ba | 'di nyid kyi don bsdus ba dang | 'grel ba rung ba'i bshad sbyar gyi rjes su 'brangs te rtogs par bya'o || 
        'dir ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3806">kho bo</rs>s skyes bu dam pa de'i gsung gi bdud rtsi'i zer ma la gces spras byas te <pb n="84b"/><lb n="84b1"/> tshig gi cha ji tsam rnyed pa de brjed byang du bkod pa yin no ||
-       <rs type="work" ana="corpusmd:named_reference" ref="db:4464">'phags pa brgyad stong pa'i 'grel pa</rs>'i don cung zad | <rs type="person" ana="corpusmd:named_reference" ref="db:3806">dge slong blo gros 'byung gnas</rs> kyi brjed byang du bkod pa yin no || ||</seg><seg type="excerpt" xml:id="ex3052023-11-2489" status="finalized">
-        <milestone unit="section" n="Post-colophon verses (84b1–84b3)"/>
+       <rs type="work" ana="corpusmd:named_reference" ref="db:4464">'phags pa brgyad stong pa'i 'grel pa</rs>'i don cung zad | <rs type="person" ana="corpusmd:named_reference" ref="db:3806">dge slong blo gros 'byung gnas</rs> kyi brjed byang du bkod pa yin no || ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon verses (84b1–84b3)"/>
          swa ti ḥ
          <milestone unit="section" n="1"/>
       <lg> <l>rgyal <choice><orig>yus</orig><reg>yum</reg></choice> sbus pa dum kun mchog gyur kyang || </l>
@@ -147,14 +142,14 @@
         <lg> <l>des kyang mi gang la rjes 'jug gdul bya la || </l>
          <l>rgya bod 'dran <anchor xml:id="a7"/> zla bral ba'i <rs type="person" ana="corpusmd:named_reference" ref="db:3806">gro lung ba</rs>s ||</l> 
          <l><rs type="work" ana="corpusmd:named_reference" ref="db:4464"><rs type="work" ana="corpusmd:named_reference" ref="db:3709">rgyan gyi snang ba</rs>'i rnam bshad </rs> phul byung mdzad ||</l>
-         <l>'di la ma rten 'grel chen phyogs mthong med ||</l></lg> </seg>
-         
-          <seg type="excerpt" xml:id="ex30520250110213" status="finalized">
-         <milestone unit="section" n="Post-colophon verses (84b1–84b3)"/>
+         <l>'di la ma rten 'grel chen phyogs mthong med ||</l></lg> </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon verses (84b1–84b3)"/>
          <milestone unit="section" n="3"/>
          <lg><l>don 'di mthong nas <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">mkha' spyod dbang po nga</rs>s ||</l> 
         <l> bka' brgya phrag mang po dang du blangs ||</l> 
          <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dad ldan rngor bsam bza' mi rnams</rs> dang ni ||</l> 
-         <l><lb n="84b3"/> <rs type="person" ana="corpusmd:named_reference" ref="db:7036"><choice><orig> </orig><reg>dpal</reg></choice> <anchor xml:id="a8"/> ldan <choice><orig>bkris shis</orig><reg>bkra shis</reg></choice> mgon </rs>gyis sbyin bdag byas ||</l></lg> </seg>
-         
-         </body></text></TEI>
+         <l><lb n="84b3"/> <rs type="person" ana="corpusmd:named_reference" ref="db:7036"><choice><orig> </orig><reg>dpal</reg></choice> <anchor xml:id="a8"/> ldan <choice><orig>bkris shis</orig><reg>bkra shis</reg></choice> mgon </rs>gyis sbyin bdag byas ||</l></lg> </ab>
+    </body>
+  </text>
+</TEI>

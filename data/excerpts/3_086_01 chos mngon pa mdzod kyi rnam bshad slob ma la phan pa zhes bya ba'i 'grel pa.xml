@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">chos mngon pa mdzod kyi rnam bshad slob ma la phan pa zhes bya ba'i 'grel pa</title>
@@ -106,18 +106,21 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-09-29">TD add work, person and place in colophon</change>
-         <change when="2024-09-11">PH fix mistakes in file</change>
-         <change when="2024-09-13">PH edit</change>
-         <change when="2025-15-08">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex8601_2023-10-044" status="finalized" ana="corpusmd:colophon">
-         <milestone unit="section" n="Colophon (121b1-4) (p. 245)"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><lb n="1a3"/> ||<rs type="work" ana="corpusmd:named_reference" ref="db:5281">chos mngon pa mdzod gyi <abbr>rnaM par</abbr> bshad pa slob ma la phan pa zhes bya ba'i 'grel pa</rs> <abbr>bzhugs s+ho</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n="1b1"/>||||<!--input missing--> <rs type="work" ana="corpusmd:named_reference" ref="db:5281">chos mngon pa mdzod kyi rnaM par bshad pa slob ma la phan pa</rs> zhes bya ba | phyogs bcu'i rgyal pa ras dang bcas pa la phyag 'tshal lo || ji snyed shegs pa thag mngon mkhyen|| gdul bya'i don la|ma bsnyel <!--input missing--> <abbr>thugs rje</abbr> can|| srid pa'i mtshor </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (121b1-4) (p. 245)"/>
         <rs type="work" ana="corpusmd:named_reference" ref="db:5281"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa'i mdzod</rs> kyi <abbr>rnaM par</abbr> bshad pa slob ma la phan pa</rs> zhes bya ba 'di | mdo'i  dang <choice><reg>rgyud</reg><orig>rgyu</orig></choice> sde mtha' dag la <lb n="121b2"/> dbang 'byor pas daM pa'i chos 'chad pa dang rtsod pa dang rtsoM pa'i tshul la spobs pa dge' btsan ¦ mi <abbr>'phrogs</abbr> pa'i mkhyen rab dang <abbr>thugs rje</abbr> rmad du byung ba mnga' ba <rs type="person" ana="corpusmd:named_reference" ref="db:4131"><abbr>ye shes</abbr> <abbr>rdo rje</abbr> dpal bzang po</rs> zhes bya ba'i bka' drin las lung dang rigs pa'i de kho na nyid khong du chud pa mang du thos pa <rs type="person" ana="corpusmd:named_reference" ref="db:4130">shakya'i <abbr>dge slong</abbr> <lb n="121b3"/> <abbr>blo gros</abbr> grags pa</rs> zhes bgyi bas ||
         <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dge' ba'i <abbr>bshes gnyen</abbr> mang po</rs>s nan <abbr>chen pos</abbr> <note type="editorial">This could also be an abbreviation of "chen po nas" </note> yang dang yang du bskul ba'i ngor du ||
         <hi rendition="#Time">shing pho spre'u 'i chu stod gyi zla ba'i tshe 1<anchor xml:id="a3"/></hi> la || <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhas pa'i skye bo</rs> du ma'i bsti gnas dam pa <rs type="place" ana="corpusmd:named_reference" ref="db:5950">ra ti dga' ldan gyi chos grags  chen po</rs>r<anchor xml:id="a4"/> nye bar sbyar ba 'di re shig <lb n="121b4"/> rdzogs s+ho || 
-        'dis 'khor ba <abbr>sdug bsngal</abbr> gyi rgya mtsho chen po myur du skeMs par gyur 1 || dge'o || ||</seg></body></text></TEI>
+        'dis 'khor ba <abbr>sdug bsngal</abbr> gyi rgya mtsho chen po myur du skeMs par gyur 1 || dge'o || ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n="121b5"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5281">chos mngon pa mdzod gyi rnaM bshad <abbr>slob ma</abbr> la phan pa</rs> las gnas dgya ||</ab>
+    </body>
+  </text>
+</TEI>

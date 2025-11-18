@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">rNam nges 'grel bshad chen po rgyan gyi me tog</title>
@@ -104,12 +104,13 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2024-09-12">PH moved to mannanot and edit</change>
-         <change when="2025-04-23">PH add place</change>
-         <change when="2025-08-01">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex54012024-09-1216-56-432" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:4942"><rs type="work" ana="corpusmd:named_reference" ref="db:3774">tshad ma rnam par nges pa</rs>'i 'grel bshad rgyan gyi me tog</rs> ces bya ba <rs type="place" ana="corpusmd:named_reference" ref="db:7347">shar phyogs dzA ga ta la</rs>'i <rs type="person" ana="corpusmd:named_reference" ref="db:6032">paN Di ta chen po dA na shi la</rs>'i man ngag brgyud pa la brten te dben par gnas shing sangs rgyas kyi bstan <lb edRef="inst:4941" n="158a6"/> pa 'byed pa la brtson pa zab pa dang rgya che ba gang yin pa de la mos pa thob pa shakya'i bstan pa la mang du thos pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4006">btsun pa rigs pa'i ral gri</rs>s sbyar ba 'di legs par rdzogs s+ho || ||</seg><seg type="excerpt" xml:id="ex54012024-09-1216-56-43" status="finalized" ana="corpusmd:colophon"><lb edRef="inst:5108" n="152a9"/> <rs type="person" ana="corpusmd:named_reference" ref="db:5797">shakya'i btsun pa dbang bkras</rs> kyis bris pa e ma to ||<note type="editorial">Note in (ID:5108) only.</note></seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4942"><rs type="work" ana="corpusmd:named_reference" ref="db:3774">tshad ma rnam par nges pa</rs>'i 'grel bshad rgyan gyi me tog</rs> ces bya ba <rs type="place" ana="corpusmd:named_reference" ref="db:7347">shar phyogs dzA ga ta la</rs>'i <rs type="person" ana="corpusmd:named_reference" ref="db:6032">paN Di ta chen po dA na shi la</rs>'i man ngag brgyud pa la brten te dben par gnas shing sangs rgyas kyi bstan <lb edRef="inst:4941" n="158a6"/> pa 'byed pa la brtson pa zab pa dang rgya che ba gang yin pa de la mos pa thob pa shakya'i bstan pa la mang du thos pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4006">btsun pa rigs pa'i ral gri</rs>s sbyar ba 'di legs par rdzogs s+ho || ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb edRef="inst:5108" n="152a9"/> <rs type="person" ana="corpusmd:named_reference" ref="db:5797">shakya'i btsun pa dbang bkras</rs> kyis bris pa e ma to ||</ab>
+    </body>
+  </text>
+</TEI>

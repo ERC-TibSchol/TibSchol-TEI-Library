@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">mngon rtogs bshad</title>
@@ -104,28 +104,26 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-04-24">TD Added work and person tags</change>
-         <change when="2023-05-24">RG checked and corrected tags</change>
-         <change when="2023-06-07">RG updated lb tags</change>
-         <change when="2023-07-14">PH changed a-chungs, finalized lb, reviewed segments</change>
-         <change when="2023-07-21">PH minor fix</change>
-         <change when="2024-07-10">PH minor fix</change>
-         <change when="2025-03-25">RG finalized two segs</change>
-         <change when="2025-03-25">RG finalized remaining segs</change>
-         <change when="2025-03-31">PH check and add lg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex1032023-04-241203" status="finalized"><rs type="work" ana="corpusmd:named_reference" ref="db:4427"><rs type="work" ana="corpusmd:named_reference" ref="db:3697">dpal mngon par <abbr>rtogs</abbr> pa</rs>'i dka' ba'i gnas bshad pa</rs> <rs type="person" ref="db:3784" ana="corpusmd:named_reference">lo tsA ba <abbr>rin chen</abbr> bzang po</rs>s mdzad pa <abbr>bzhugs s+ho</abbr> ||</seg><seg type="excerpt" xml:id="ex1032023-04-24.12.10" status="finalized"> 
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4427"><rs type="work" ana="corpusmd:named_reference" ref="db:3697">dpal mngon par <abbr>rtogs</abbr> pa</rs>'i dka' ba'i gnas bshad pa</rs> <rs type="person" ref="db:3784" ana="corpusmd:named_reference">lo tsA ba <abbr>rin chen</abbr> bzang po</rs>s mdzad pa <abbr>bzhugs s+ho</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab>
         <lg><l><rs type="deity">sgrol ma</rs>'i zhabs kyi rdul la reg pa yi ||</l>         
         <l> <rs type="person" ref="db:3745" ana="corpusmd:named_reference">mar me mdzad </rs>ces bya ba'i bla ma la ||</l> 
          <l>gus pas <abbr>phyag 'tshal</abbr> <rs type="person" ref="db:3745" ana="corpusmd:unnamed_reference">de </rs>yis bshad pa <lb n="1b3"/> yi ||</l>
-        <l> <abbr>gdams ngag</abbr> 'di ni <rs type="person" ref="db:3784" ana="corpusmd:unnamed_reference">bdag</rs> gis bri bar bya ||</l></lg></seg>
-     <seg type="excerpt" xml:id="ex1032023-05-241450" status="finalized">
-         <milestone unit="section" n="Conclusive verse (13b2–3)"/>         
+        <l> <abbr>gdams ngag</abbr> 'di ni <rs type="person" ref="db:3784" ana="corpusmd:unnamed_reference">bdag</rs> gis bri bar bya ||</l></lg>
+      </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Conclusive verse (13b2–3)"/>         
          <lg><l><rs type="person" ref="db:3784" ana="corpusmd:unnamed_reference">bdag</rs> ni blo dman brjed par 'gyur ba yi ||</l>
-        <l> dogs pa'i 'jigs pas <rs type="person" ref="db:3745" ana="corpusmd:unnamed_reference">bla ma</rs>'i gdams <lb n="13b3"/> ngag bris ||</l> <l>'on kyang bris pa'i bsod <choice><reg>nams</reg><orig>naMs</orig></choice> 'ga' yod na ||</l> <l>'gro ba yang dag lam la gnas par shog ||</l></lg></seg><seg type="excerpt" xml:id="ex1032023-04-241245" status="finalized" ana="corpusmd:colophon"> <milestone unit="section" n="Colophon (13b3–4)"/>
+        <l> dogs pa'i 'jigs pas <rs type="person" ref="db:3745" ana="corpusmd:unnamed_reference">bla ma</rs>'i gdams <lb n="13b3"/> ngag bris ||</l> <l>'on kyang bris pa'i bsod <choice><reg>nams</reg><orig>naMs</orig></choice> 'ga' yod na ||</l> <l>'gro ba yang dag lam la gnas par shog ||</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (13b3–4)"/>
           <rs type="work" ana="corpusmd:named_reference" ref="db:4427"><rs type="work" ana="corpusmd:named_reference" ref="db:3697">dpal mngon par rtogs pa</rs>'i bshad pa </rs><rs type="person" ref="db:3745" ana="corpusmd:named_reference">bla ma dpal mar me mdzad <abbr>ye shes</abbr></rs> kyi zhal mnga' nas <abbr>gsungs</abbr> <lb n="13b4"/> pa <rs type="person" ref="db:3784" ana="corpusmd:named_reference">lo tsA ba chen po dge slong <abbr>rin chen</abbr> bzang po</rs>s ma bsnan ma chad par bris pa <abbr>rdzogs s+ho</abbr> ||
-      </seg></body></text></TEI>
+      </ab>
+    </body>
+  </text>
+</TEI>

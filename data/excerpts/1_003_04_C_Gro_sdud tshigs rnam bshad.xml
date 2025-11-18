@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">1_003_04_e_ Gro_sdud tshigs bcad rnam bshad</title>
@@ -106,19 +106,19 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-25+01:00">PH copied to Mannanot</change>
-         <change when="2023-11-24">TD tagged Colophon</change>
-         <change when="2025-01-10">PH edit</change>
-         <change when="2025-07-04">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex3042025-01-1012-48-50" status="finalized"><milestone unit="section" n="[Statement of intention (1b4–2a1)]"/> <rs type="work" ana="corpusmd:named_reference" ref="db:3693">yon tan rin po che sdud pa tshigs su bcad pa</rs>'i don rnams gtsor rgyal ba'i yul gsum gyi mdo <pb n="2a"/><lb n="2a1"/> nyid las mdor bsdus te bshad par bya'o ||</seg><seg type="excerpt" xml:id="ex3042025-01-102" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="[Conclusive verses (118a6–118b2)]"/><milestone unit="section" n="[2]"/> <lg><l>de las bsod nams thob des blo gros mchog ldan pa'i ||</l>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Statement of intention (1b4–2a1)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:3693">yon tan rin po che sdud pa tshigs su bcad pa</rs>'i don rnams gtsor rgyal ba'i yul gsum gyi mdo <pb n="2a"/><lb n="2a1"/> nyid las mdor bsdus te bshad par bya'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Conclusive verses (118a6–118b2)"/><milestone unit="section" n="[2]"/> <lg><l>de las bsod nams thob des blo gros mchog ldan pa'i ||</l>
          <l>bshes gnyen dam <lb n="118b2"/> pa'i mgon gyis rgyun du rjes bzung ste ||</l>
          <l>'gro ba kun kyi ma rig 'thibs po dpyis 'byin pa'i ||</l>
-         <l>chos kyi nyi chen dge legs 'byung gnas myur thob shog ||</l></lg></seg>
-         <seg type="excerpt" xml:id="ex3042023-11-241" status="finalized" ana="corpusmd:colophon"> 
-         <milestone unit="section" n="[Colophon (118b2–118b3)]"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4462">'phags pa yon tan rin po che sdud pa tshigs su bcad pa <lb n="118b3"/> rnam par bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3806">shAkya'i dge slong blo gros 'byung gnas</rs> kyi brjed byang tsam du bkod pa rdzogs so || ||</seg></body></text></TEI>
+         <l>chos kyi nyi chen dge legs 'byung gnas myur thob shog ||</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (118b2–118b3)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4462">'phags pa yon tan rin po che sdud pa tshigs su bcad pa <lb n="118b3"/> rnam par bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3806">shAkya'i dge slong blo gros 'byung gnas</rs> kyi brjed byang tsam du bkod pa rdzogs so || ||</ab>
+    </body>
+  </text>
+</TEI>

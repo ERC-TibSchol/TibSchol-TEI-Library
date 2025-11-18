@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">dge slong gi kun tu spyod pa</title>
@@ -105,13 +105,11 @@
       <profileDesc>
          <!-- <langUsage> to be inserted from APIS -->
       </profileDesc>
-      <revisionDesc status="draft">
-         <!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2024-10-01">PH mannanot</change>
-         <change when="2024-10-07">PH marked up colophon</change>
-         <change when="2024-10-07">PC inserted Transkribus text</change>
-         <change when="2025-07-29">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex36052024-10-0710-23-05" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon"/><rs type="person" ana="corpusmd:named_reference" ref="db:3933">shag kya'i dge slong byang chub seng ge</rs>s <rs type="work" ana="corpusmd:named_reference" ref="db:4726">dge slong gyi kun tu spyod pa'i cho ga bsdus pa</rs> || rdzogs s+ho ||</seg> @@@ || ||thams cad mkhyen pa la phyag 'tshal lo|| gang gi gsung gi 'od zer gyis|| </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon"/><rs type="person" ana="corpusmd:named_reference" ref="db:3933">shag kya'i dge slong byang chub seng ge</rs>s <rs type="work" ana="corpusmd:named_reference" ref="db:4726">dge slong gyi kun tu spyod pa'i cho ga bsdus pa</rs> || rdzogs s+ho ||</ab>
+    </body>
+  </text>
+</TEI>

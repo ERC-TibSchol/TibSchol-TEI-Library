@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">1_001_07_e_rNgog Lo_shes snying bshad don bsdus</title>
@@ -104,13 +104,11 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-25+01:00">Copied to mannanot</change>
-         <change when="2024-02-26+01:00">PH marked up colophon</change>
-         <change when="2024-10-25">PH edit</change>
-         <change when="2025-07-08">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex13072024-02-2616-05-01" status="finalized" ana="corpusmd:colophon"> byang chub tu sems bskyed pa'i spyi don mang du thos pa'i <lb n="13a3"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">dge slong brtson 'grus seng ge</rs>s bkod pa'o || dge'o || ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><lb n="13a3"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">dge slong brtson 'grus seng ge</rs>s bkod pa'o || dge'o || ||</ab>
+    </body>
+  </text>
+</TEI>

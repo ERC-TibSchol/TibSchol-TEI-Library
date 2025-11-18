@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i spyod pa la 'jug pa'i 'grel pa</title>
@@ -105,14 +105,14 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-03+01:00">PH put into mannanot, start tag</change>
-         <change when="2023-08-17">TD checked owner</change>
-         <change when="2024-09-16">mix with transkribus output, fix readings</change>
-         <change when="2025-07-29">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex35022023-08-0308-59-37" status="finalized"><milestone unit="section" n="Title page (ko 1a1) (p. 133:1)"/><lb n="1a2"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3880">gro ston bdud rtsi grags</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3880"><rs type="place" ana="corpusmd:named_reference" ref="db:4411">snar thang</rs> mkhan po</rs></note> mdzad pa'i <lb n="1a3"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4712"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">spyod <abbr>'jug</abbr></rs> <abbr>gi</abbr> 'grel pa</rs>'o || <note type="gloss">snyiMs yas pa <note type="editorial">yas is unclear</note></note> <rs type="person" ana="corpusmd:named_reference" ref="db:5891">bdag suNya</rs>'i dpe'o || <note type="editorial">The title is written in the middle of a flower drawn on the front page.</note></seg> <seg type="excerpt" xml:id="ex35022023-08-0308-50-15" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (74a5-8) (p. 175:5-8)"/>
-            de ltar na <rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug pa</rs> ni spyi don 3 gyis bstan cing bshad par bya ba legs par bshad pa <abbr>yin no</abbr> || mkhas pa'i rjes su las pas rab <lb n="74a6"/> zhugs te || rang gi nus pa cung zad gsal byas la || don dang <abbr>tshig gi</abbr> skyon du gang gyur pa || <abbr>thams cad</abbr> bla ma mkhas rnams bzod par gsol || || ldan rnams kyis de nyid gsol 'debs dang || zhum pa rnams kyi spro ba skyed byed dang || rigs ldan rgyas pa'i sa bon gdab pa'i phyir || <abbr>slob dpon</abbr> de'i <lb n="74a7"/> gzhung lugs de <abbr>bshad do</abbr> || de las dge ba bskrun pa de || skul dang grogs byed dad pa dang || blo ldan gang zag rnam 2 la || byin dge lus can kun la bsngo || <rs type="work" ana="corpusmd:named_reference" ref="db:4712"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub seMs dpa'i spyod pa 'jug pa</rs>'i <abbr>tshig gi</abbr> don zhib du rnam par 'byed pa dga' ba rgya mtsho</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3880">shag kya'i dge slong <lb n="74a8"/> a rmi ta kir ti</rs>s bkrol zin to || dge par gyur cig <note type="editorial">The final line "dge par..." is written without tsheg or space between the syllables</note> |</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Title page (ko 1a1) (p. 133:1)"/><lb n="1a2"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3880">gro ston bdud rtsi grags</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3880"><rs type="place" ana="corpusmd:named_reference" ref="db:4411">snar thang</rs> mkhan po</rs></note> mdzad pa'i <lb n="1a3"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4712"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">spyod <abbr>'jug</abbr></rs> <abbr>gi</abbr> 'grel pa</rs>'o || <note type="gloss">snyiMs yas pa <note type="editorial">yas is unclear</note></note> <rs type="person" ana="corpusmd:named_reference" ref="db:5891">bdag suNya</rs>'i dpe'o || <note type="editorial">The title is written in the middle of a flower drawn on the front page.</note></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (74a5-8) (p. 175:5-8)"/>
+            de ltar na <rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug pa</rs> ni spyi don 3 gyis bstan cing bshad par bya ba legs par bshad pa <abbr>yin no</abbr> || mkhas pa'i rjes su las pas rab <lb n="74a6"/> zhugs te || rang gi nus pa cung zad gsal byas la || don dang <abbr>tshig gi</abbr> skyon du gang gyur pa || <abbr>thams cad</abbr> bla ma mkhas rnams bzod par gsol || || ldan rnams kyis de nyid gsol 'debs dang || zhum pa rnams kyi spro ba skyed byed dang || rigs ldan rgyas pa'i sa bon gdab pa'i phyir || <abbr>slob dpon</abbr> de'i <lb n="74a7"/> gzhung lugs de <abbr>bshad do</abbr> || de las dge ba bskrun pa de || skul dang grogs byed dad pa dang || blo ldan gang zag rnam 2 la || byin dge lus can kun la bsngo || <rs type="work" ana="corpusmd:named_reference" ref="db:4712"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub seMs dpa'i spyod pa 'jug pa</rs>'i <abbr>tshig gi</abbr> don zhib du rnam par 'byed pa dga' ba rgya mtsho</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3880">shag kya'i dge slong <lb n="74a8"/> a rmi ta kir ti</rs>s bkrol zin to || dge par gyur cig <note type="editorial">The final line "dge par..." is written without tsheg or space between the syllables</note> |</ab>
+    </body>
+  </text>
+</TEI>

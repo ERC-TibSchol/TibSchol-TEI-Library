@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">sde bdun rgyan me tog</title>
@@ -14,7 +14,7 @@
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:Fukuda">https://tibetan-studies.net/ (Accessed 1.1.2018)</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
@@ -105,16 +105,22 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-17">TD checked owner</change>
-         <change when="2023-09-25">TD checked place</change>
-         <change when="2023-09-27">PH corrections</change>
-         <change when="2024-09-11">PH corrections</change>
-         <change when="2025-08-01">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex54022023-09-0814-59-42" ana="corpusmd:colophon" status="finalized"><milestone unit="section" n="Colophon (98a5-6)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4944">tshad ma'i bstan bcos sde 7 rgyan gyi me tog</rs> ces bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa shag kya'i dge slong <abbr>bcom ldan</abbr> ral gri</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:5680"><rs type="place" ana="corpusmd:named_reference" ref="db:5915">rtsang</rs> <lb n="98a6"/> ru <abbr>lhag gi</abbr> snying po dpal me tog mdangs ldan gyi dgon pa</rs>r sbyar ba legs par rdzogs s+ho || ||</seg>
-         <seg type="excerpt" xml:id="ex54022023-09-091111" status="finalized"><milestone unit="section" n="Manuscript ownership"/><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral gri</rs>'i dpe ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Title"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4944">sde bdun rgyan kyi me tog</rs> bzhug go | <rs type="person" ana="corpusmd:named_reference" ref="db:4006"><abbr>bcom ldan</abbr> ral gris</rs> m</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1b1)"/>
+         <milestone unit="section" n="Title"/>
+          <pb n="1b1"/><lb n="1b1"/> || rgya gar skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:4944">shA s+t+ra pra mA na se na sa pa ta a lang ka ra puSH pa</rs> na ma || 
+         bod skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:4944">tshad <lb n="1b2"/> ma'i bstan bcos sde bdun rgyan gyi me tog</rs> ces bya ba ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (98a5-6)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4944">tshad ma'i bstan bcos sde <choice><corr>bdun</corr><orig>bya</orig></choice> rgyan gyi me tog</rs> ces bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa shag kya'i dge slong <abbr>bcom ldan</abbr> ral gri</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:5680"><rs type="place" ana="corpusmd:named_reference" ref="db:5915">rtsang</rs> <lb n="98a6"/> ru <abbr>lhag gi</abbr> snying po dpal me tog mdangs ldan gyi dgon pa</rs>r sbyar ba legs par rdzogs s+ho || ||
+         bkra <abbr>shis_so</abbr> || dge'o || legs s+ho ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon annotation: Manuscript ownership"/><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral gri</rs>'i dpe ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">spyod 'jug rnam bshad rin chen snang ba</title>
@@ -104,18 +104,11 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-07-25+01:00">PH copy from word in emptied TEI</change>
-         <change when="2023-09-07+01:00">PH tag</change>
-         <change when="2023-09-08+01:00">PH exc review</change>
-         <change when="2024-10-24">PH edit</change>
-         <change when="2025-06-13">RG finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex13032023-09-0715-44-14" status="finalized">
-de ltar sangs rgyas bstan pa'i don chen sgran ||
-chos 'jig <lb n="5a2"/> ces ltar snang ba mang po yis ||
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><lb n="5a2"/> ces ltar snang ba mang po yis ||
 zhing 'dir ring por mi thogs <choice><reg>zhub</reg><orig>'dub/zhub (?)</orig></choice> 'gyur bas ||
 skyes bu spyad ldan rnaMs kyi <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3839">brtson 'grus</rs> <lb n="5a3"/> gyis ||
 <note type="gloss">ga</note> gzhung 'di chos kyi snying po la spyod kyang ||
@@ -125,8 +118,11 @@ rang gi rnaM thar gtam du bsnyad pa yin ||
 bstan pa'i gzhi dang rgyas dbye' bsgrub pa la | <lb n="5a5"/>
 yang dag yang dag ma yin rnam dbye' dang ||
 <note type="gloss">cha</note> rang gyi kun spyod gtam pa rnaM lnga 'di ||
-shag kya'i bstan la rnaM <lb n="5a6"/> dag byi dor yin ||</seg><seg type="excerpt" xml:id="ex13032023-07-2512-47-06" status="finalized" ana="corpusmd:colophon"> 
-      <milestone unit="section" n="Colophon (5a5-5a6)"/>
+shag kya'i bstan la rnaM <lb n="5a6"/> dag byi dor yin ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (5a5-5a6)"/>
      <rs type="work" ana="corpusmd:named_reference" ref="db:4555">bston pa'i bstan pa la byi dor bya ba'i tshigs su gcad pa lnga bcu pa</rs> || 
-         <lb n="5a7"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">shag kya'i dge slong <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">gtsang nag pa</rs></note> brtson 'grus seng ge</rs>s sbyar ba || || Ïti ||</seg>
-        </body></text></TEI>
+         <lb n="5a7"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">shag kya'i dge slong <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">gtsang nag pa</rs></note> brtson 'grus seng ge</rs>s sbyar ba || || Ïti ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">thal phreng mdor bsdus</title>
@@ -106,18 +106,18 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2025-08-01">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex46012024-12-0916-14-30" status="finalized" ana="corpusmd:colophon">
-         <milestone unit="section" n="Closing verse (9a1–9a2)"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Closing verse (9a1–9a2)"/>
        <l> <rs type="work" ana="corpusmd:named_reference" ref="db:4779">mdor bsdus thal 'gyur phreng ba</rs> 'di ||</l>
       <l>   <rs type="person" ana="corpusmd:named_reference" ref="db:5985">blo gsal bsod nams <choice><reg>rgya</reg><orig>(rgya)</orig></choice> mtsho khyed</rs> ||</l>
-         <l>spro ba <choice><reg>bskyed phreng</reg><orig>bskyad phrang</orig></choice> phul ba lags || </l>
-         <l><choice><reg>dge</reg><orig>dag</orig></choice> bas <lb n="9a2"/> kun mkhyen thob gyur cig |</l></seg>
-
-      <seg type="excerpt" xml:id="ex46012024-12-0916-14-301" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (10a4)"/>
-         'di rnams <rs type="person" ana="corpusmd:named_reference" ref="db:4005">snar thang pa mkhas pa bsam gtan bzang po</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:6010">tshad ma rnam nges kyi Ti kA</rs> nas bshus pa'o ||</seg></body></text></TEI>
+         <l>spro ba <choice><reg>bskyed phreng</reg><orig>bskyad phrang</orig></choice><note type="editorial">Vowel "e" not visible on the reproduction.</note> phul ba lags || </l>
+         <l><choice><reg>dge</reg><orig>dag</orig></choice><note type="editorial">Vowel "e" not visible on the reproduction.</note> bas <lb n="9a2"/> kun mkhyen thob gyur cig ||</l></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (10a4)"/>
+         'di rnams <rs type="person" ana="corpusmd:named_reference" ref="db:4005">snar thang pa mkhas pa bsam gtan bzang po</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:6010">tshad ma rnam nges kyi Ti kA</rs> nas bshus pa'o ||</ab>
+    </body>
+  </text>
+</TEI>

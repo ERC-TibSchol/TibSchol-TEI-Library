@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">mdo sde rgyan gyi khrid</title>
@@ -105,17 +105,20 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-07-09+05:00">JS added segs</change>
-         <change when="2023-08-28">TD checked scribe</change>
-         <change when="2023-09-11">PH fix colophon</change>
-         <change when="2024-12-16">PH add Transkribus</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex50152023-09-1108-24-56" status="reviewed"><rs type="work" ana="corpusmd:named_reference" ref="db:4872"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">mdo sde rgyan</rs> gi khrid</rs> <abbr>bzhugs so</abbr> ||</seg> 
-         <seg type="excerpt" xml:id="ex50152023-09-1108-27-56" status="reviewed"><rs type="work" ana="corpusmd:named_reference" ref="db:4872"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo' sde'i rgyan</rs> rin po che dang 'dra ba'i man ngag</rs> 3 ste | dbang po rab la mtshan dang | 'bring la lus dang | tha ma la yan lag rgyas pa'o ||</seg>
-         <seg type="excerpt" xml:id="ex50152023-09-1108-00-55" ana="corpusmd:colophon" status="reviewed"><lb n="3b6"/><rs type="person" ana="corpusmd:named_reference" ref="db:4052">bla ma snar thang pa brgyad par byon pa</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4052">smon laM tshul khriMs</rs></note> des <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa<note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs></note> chos kyi rgyal mtshan</rs> la gnang ste yi ger bris shing dag par <abbr>byas so</abbr>||</seg> 
-      <seg type="excerpt" xml:id="ex50152023-09-1108-00-56" ana="corpusmd:colophon" status="reviewed"><rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pas bsngags pa snar thang gyi dben gnas</rs> <abbr>su</abbr><rs type="person" ana="corpusmd:named_reference" ref="db:4006">chos kyi rgyal mtshan</rs> gyis <rs type="person" ana="corpusmd:named_reference" ref="db:4052">bla ma</rs>'i phyag <lb n="3b7"/>dpe <choice><corr>las</corr><sic>la</sic></choice> bris pa'o || zhus <abbr>dag go</abbr>|| </seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4872"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">mdo sde rgyan</rs> gi khrid</rs> <abbr>bzhugs so</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4872"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo' sde'i rgyan</rs> rin po che dang 'dra ba'i man ngag</rs> 3 ste | dbang po rab la mtshan dang | 'bring la lus dang | tha ma la yan lag rgyas pa'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n="3b3"/>yongs su grub pa ni phun suM tshogs pa thob pa rin chen sgrol phye ba lta bu <rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog</rs> <abbr>zer ro</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (3b6)"/><lb n="3b6"/><rs type="person" ana="corpusmd:named_reference" ref="db:4052">bla ma snar thang pa brgyad par byon pa</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4052">smon laM tshul khriMs</rs></note> des <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa<note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs></note> chos kyi rgyal mtshan</rs> la gnang ste yi ger bris shing dag par <abbr>byas so</abbr>||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon annotations (3b6-3b7), in smaller script"/>
+      <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pas bsngags pa snar thang gyi dben gnas</rs> <abbr>su</abbr> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">chos kyi rgyal mtshan</rs> gyis <rs type="person" ana="corpusmd:named_reference" ref="db:4052">bla ma</rs>'i phyag <lb n="3b7"/> dpe <choice><corr>las</corr><sic>la</sic></choice> bris pa'o || zhus <abbr>dag go</abbr> || </ab>
+    </body>
+  </text>
+</TEI>

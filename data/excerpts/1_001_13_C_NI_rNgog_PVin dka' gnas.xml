@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">rnam nges dka' gnas</title>
@@ -104,17 +104,17 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-07-21+01:00">PH start tag</change>
-         <change when="2023-10-18+13:23">TD tagged Colophon</change>
-         <change when="2024-01-24+13:23">PH check segs</change>
-         <change when="2024-08-28+13:23">PH add tags and segs</change>
-         <change when="2024-09-03">PH fix problems</change>
-         <change when="2024-09-19">PH fix problems</change>
-         <change when="2025-07-22">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex1132023-07-2114-50-15" status="finalized"><milestone unit="section" n="Cover page (1a)"/><rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo chen</rs> gyi mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4445"><rs type="work" ana="corpusmd:named_reference" ref="db:3774">rnaM nges</rs> kyi Ti ka</rs> <abbr>bzhugs so</abbr> ||</seg>
-        <seg type="excerpt" xml:id="ex11320240828_1" status="finalized">don kyi de nyid dpyad pa ni | <rs type="person" ana="corpusmd:named_reference" ref="db:5557">slob dpon shes rab 'byung nas sbas pa</rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:5629">zhi ba bzang po</rs> la rtsogs pa na re | sngon po la rtsogs pa'i rnam pa ni | <choice><orig>shas</orig><sic>shes</sic></choice> pa las gzhan ma yin te | rang rig pa'i shes pas rig par bya ba'i phyir ro || <lb n="48b2"/> de la phyogs chos ni nyams su myong pas nges so || khyab pa yang rig par bya ba 'gal ba la ni | rig par byed pa yang 'gal bas khyab ste | des na khyab par byed pa 'gal ba yin no || 'di ltar sngon po rang gi rang bzhin rig pa nyid kyis rig na <lb n="48b3"/> de rang gi rang bzhin yin no || byed pa gzhan gyis rig na rig pa yang gzhan kho na'o || des na rig par bya pa tha dad pa la rig par byed pa tha dad pas khyab pas khyab po nges so zhe na ||</seg> </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/><rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo chen</rs> gyi mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4445"><rs type="work" ana="corpusmd:named_reference" ref="db:3774">rnaM nges</rs> kyi Ti ka</rs> <abbr>bzhugs so</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:5557">slob dpon shes rab 'byung nas sbas pa</rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:5629">zhi ba bzang po</rs> la rtsogs pa na re | sngon po la rtsogs pa'i rnam pa ni | <choice><orig>shas</orig><sic>shes</sic></choice> pa las gzhan ma yin te | rang rig pa'i shes pas rig par bya ba'i phyir ro || <lb n="48b2"/> de la phyogs chos ni nyams su myong pas nges so || khyab pa yang rig par bya ba 'gal ba la ni | rig par byed pa yang 'gal bas khyab ste | des na khyab par byed pa 'gal ba yin no || 'di ltar sngon po rang gi rang bzhin rig pa nyid kyis rig na <lb n="48b3"/> de rang gi rang bzhin yin no || byed pa gzhan gyis rig na rig pa yang gzhan kho na'o || des na rig par bya pa tha dad pa la rig par byed pa tha dad pas khyab pas khyab po nges so zhe na ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n=""/><rs type="work" ana="corpusmd:named_reference" ref="db:4445">tshad ma rnam par nges pa'i dka' ba'i gnas rnam par bshad pa</rs> ||| <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsa ba shag kya'i dge slong blo ldan shes rab</rs> kyis sbyar ba'o ||  ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n=""/><rs type="person" ana="corpusmd:named_reference" ref="db:6035">shag kya'i dge slong 'dar rin chen 'bar</rs> gyis sbyin par bya ba'i chos so ||| ||||||</ab>
+    </body>
+  </text>
+</TEI>

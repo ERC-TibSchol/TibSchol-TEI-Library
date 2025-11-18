@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -103,13 +103,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-10-01" who="corpusmd:PH" status="draft">created document</change>
-				 <change when="2024-10-14" who="corpusmd:PH">PH tag</change>
-				 <change when="2025-08-01">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex60012024-10-1408-13-01" status="finalized" ana="corpusmd:colophon"><milestone n="colophon" unit="section"/>
-				  <rs type="work" ana="corpusmd:named_reference" ref="db:5077"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo sde'i rgyan</rs> gyi 'grel pa rin po che'i phreng ba</rs> zhes bya ba <lb n="204a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4066">chos smra ba thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:4352">dpal e'i gtsug lag khang</rs> du sbyar ba rdzogs s+ho || phyogs <abbr>thams cad</abbr> du 'gro ba'i don byed par gyur cig || <rs type="person" ana="corpusmd:named_reference" ref="db:5795">bud d+ha rad na</rs>s dag cing <choice><reg>blta</reg><orig>‹b›lta</orig></choice> ba bde ba'i yig ris kyis gus pa'i yid kyi bris so dge'o ¦</seg>
-		</body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="colophon" unit="section"/>
+				  <rs type="work" ana="corpusmd:named_reference" ref="db:5077"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo sde'i rgyan</rs> gyi 'grel pa rin po che'i phreng ba</rs> zhes bya ba <lb n="204a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4066">chos smra ba thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:4352">dpal e'i gtsug lag khang</rs> du sbyar ba rdzogs s+ho || phyogs <abbr>thams cad</abbr> du 'gro ba'i don byed par gyur cig || <rs type="person" ana="corpusmd:named_reference" ref="db:5795">bud d+ha rad na</rs>s dag cing <choice><reg>blta</reg><orig>‹b›lta</orig></choice> ba bde ba'i yig ris kyis gus pa'i yid kyi bris so dge'o ¦</ab>
+    </body>
+  </text>
+</TEI>

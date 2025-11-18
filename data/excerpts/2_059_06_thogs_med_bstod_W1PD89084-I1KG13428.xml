@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
             <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
@@ -103,13 +103,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<change when="2024-10-14" who="corpusmd:PH" status="draft">created document</change>
-         <change when="2025-08-05">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex59062024-12-1912-58-48" status="finalized" ana="corpusmd:colophon">'di ni | yul
-				<lb n="8a6"/> mchog tu gyur pa la dad pa dang gus pa lhur len pa'i | <rs type="person" ana="corpusmd:named_reference">dge ba'i bshes gnyen mi nyag blo ldan dpal</rs> zhes bya ba || <note type="gloss"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">chos kyi rje dpal ldan bla ma dam pa</rs> la bstod pa gsol 'debs dang dang bcas pa 1 gyis zhes bskul ba'i rjes su <rs type="person" ana="corpusmd:named_reference" ref="db:5066"><abbr>slob dpon</abbr> dpal ldan <abbr>ye shes</abbr></rs> kyis kyang bskul ba'i ngor ||</note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">chos kyi rje dpal ldan bla ma dam pa</rs> de nyid kyi bka' 'bangs su gyur pa | ma Ni ba <rs type="person" ana="corpusmd:named_reference" ref="db:4066">thogs med</rs> kyis | <rs type="place" ana="corpusmd:named_reference" ref="db:5692">dngul chu'i chos rdzong</rs> du 
-            <lb n="8a7"/> bkod pa'i <abbr>yi ge</abbr> pa'ang <rs type="person" ana="corpusmd:named_reference" ref="db:5066">slob dpon dpal ldan <abbr>ye shes</abbr></rs> kyis <abbr>bgyis so</abbr> || | shub+haM || | </seg>
-			
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><lb n="8a6"/> mchog tu gyur pa la dad pa dang gus pa lhur len pa'i | <rs type="person" ana="corpusmd:named_reference">dge ba'i bshes gnyen mi nyag blo ldan dpal</rs> zhes bya ba || <note type="gloss"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">chos kyi rje dpal ldan bla ma dam pa</rs> la bstod pa gsol 'debs dang dang bcas pa 1 gyis zhes bskul ba'i rjes su <rs type="person" ana="corpusmd:named_reference" ref="db:5066"><abbr>slob dpon</abbr> dpal ldan <abbr>ye shes</abbr></rs> kyis kyang bskul ba'i ngor ||</note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">chos kyi rje dpal ldan bla ma dam pa</rs> de nyid kyi bka' 'bangs su gyur pa | ma Ni ba <rs type="person" ana="corpusmd:named_reference" ref="db:4066">thogs med</rs> kyis | <rs type="place" ana="corpusmd:named_reference" ref="db:5692">dngul chu'i chos rdzong</rs> du 
+            <lb n="8a7"/> bkod pa'i <abbr>yi ge</abbr> pa'ang <rs type="person" ana="corpusmd:named_reference" ref="db:5066">slob dpon dpal ldan <abbr>ye shes</abbr></rs> kyis <abbr>bgyis so</abbr> || | shub+haM || | </ab>
+    </body>
+  </text>
+</TEI>

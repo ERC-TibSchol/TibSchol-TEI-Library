@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">'da' ka ye shes kyi 'chi kha ma'i man ngag</title>
@@ -105,14 +105,15 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-22">TD checked scribe</change>
-         <change when="2023-09-08">PH fixed colophon</change>
-         <change when="2023-09-19">TD checked place</change>
-         <change when="2024-07-12">PH fix bugs</change>
-         <change when="2025-08-05">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex50062024-07-1216-01-36" status="finalized"><milestone unit="section" n="Annotations top page (1a)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4848">'da' ka <abbr>ye shes</abbr> kyi 'chi kha ma'i man ngag</rs> <abbr>bzhugs so</abbr> || × <l>phyi</l> <l>la</l> <l>550</l></seg><seg type="excerpt" xml:id="ex50062023-09-12-09" ana="corpusmd:colophon" status="finalized"><milestone unit="section" n="Colophon (2b4)"/><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4052">bla ma snar thang pa</rs>'i phyag dpe las <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa ze'u</rs>s bris shing zhus te dag par <abbr>byas so</abbr> ||</seg><seg type="excerpt" xml:id="ex50062023-09-19-13" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Post-colophon annotations (2b4)"/> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pas bsngags pa'i gnas snar thang</rs> du bris pa'o ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Annotations top page (1a)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4848">'da' ka <abbr>ye shes</abbr> kyi 'chi kha ma'i man ngag</rs> <abbr>bzhugs so</abbr> || × <l>phyi</l> <l>la</l> <l>550</l></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (2b4)"/><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4052">bla ma snar thang pa</rs>'i phyag dpe las <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa ze'u</rs>s bris shing zhus te dag par <abbr>byas so</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon annotation (2b4)"/> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pas bsngags pa'i gnas snar thang</rs> du bris pa'o ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">spyod 'jug rnam bshad rin chen snang ba</title>
@@ -104,15 +104,14 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-09-15">TD checked place</change>
-         <change when="2024-06-25">PH validate doc</change>
-         <change when="2025-07-08">Finalised segs</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex15022024-09-0915-48-35" status="finalized"><milestone unit="section" n="Title page (1a1-3)"/><pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> tsa <lb n="1a3"/> 73 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4582"><abbr>byang chub sems dpa'i</abbr> spyod pa la 'jug pa'i de kho na nyid gsal bar byed pa rin po che'i snang ba</rs> zhes bya ba <abbr>bzhugs s+hO</abbr>|| 
-         <lb n="1a5"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3896"><rs type="place" ref="db:6173">gsang phu</rs> ba blo gros mtshungs med</rs> kyis mdzad | <note type="editorial">Line 1a5 written in dbu med, rest of work in dbu can.</note> </seg><seg type="excerpt" xml:id="ex15022023-09-15-114936" status="finalized" ana="corpusmd:colophon">
-            <milestone unit="section" n=" Colophon (185a5-7)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4582"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems pa'i spyod pa la 'jug pa</rs>'i de kho na nyid gsal bar byed pa <lb n="56a6"/> rin po che'i snang ba</rs> zhes bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:3896"><rs type="place">yul dbus</rs> kyi char byung ba rigs par smra ba blo gros mtshungs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:6173">dpal gsang phu ne'u thog gi chos gra</rs>r sbyar ba'o ||</seg>
-            || bkra shis zhal gro [dro] lhag phya* med pa|| legs pa gcig byon long lags s+ho|| dge'o </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Title page (1a1-3)"/><pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> tsa <lb n="1a3"/> 73 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4582"><abbr>byang chub sems dpa'i</abbr> spyod pa la 'jug pa'i de kho na nyid gsal bar byed pa rin po che'i snang ba</rs> zhes bya ba <abbr>bzhugs s+hO</abbr>|| 
+         <lb n="1a5"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3896"><rs type="place" ref="db:6173">gsang phu</rs> ba blo gros mtshungs med</rs> kyis mdzad | <note type="editorial">Line 1a5 written in dbu med, rest of work in dbu can.</note> </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n=" Colophon (185a5-7)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4582"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems pa'i spyod pa la 'jug pa</rs>'i de kho na nyid gsal bar byed pa <lb n="56a6"/> rin po che'i snang ba</rs> zhes bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:3896"><rs type="place">yul dbus</rs> kyi char byung ba rigs par smra ba blo gros mtshungs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:6173">dpal gsang phu ne'u thog gi chos gra</rs>r sbyar ba'o ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+         <titleStmt>
+				<!--preliminary title taken from source document-->
+            <title type="main" xml:lang="bo-Latn-x-wylie">Slob dpon gyi lugs kyis bden pa gnyis 'chad pa</title>
+            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name><!--TODO the transcription is incomplete at this stage, but all passages including named persons are included-->
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <!-- TODO: add any other contributors and their roles here -->
+            <!-- end of responsibility statments specific to this document -->
+            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
+					do not manually change this as it might be overwritten in a later stage -->
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <!-- responsibility statments applying to all documents -->
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">3_064_01</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+			<!-- <langUsage> to be inserted from APIS -->
+		</profileDesc>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon klu grub</rs> kyi dongs pa 'grel pa la mi mthun pa du ma yod pa yin te | <rs type="person" ana="corpusmd:named_reference" ref="db:5539">slob dpon legs ldan 'byed</rs> lasogs pas slob dpon gyi thugs dngos pa rgyud du bkrel la || <rs type="person" ana="corpusmd:named_reference" ref="db:3725">slob dpon zla ba grags pa</rs> lasogs pas thal du bkrel <lb n="1.3"/>lo || <rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon klu grub</rs> kyis 'thal 'gyur du <rs type="person" ana="corpusmd:named_reference" ref="db:3725">zla ba grags pa</rs> la bkral la | <rs type="person" ana="corpusmd:named_reference" ref="db:3725">zla grags</rs> kyi thugs dgongs <rs type="person" ana="corpusmd:unnamed_reference" ref="db:6340">dge bshes lo tsa ba</rs>s <!--Nag tsho according to Apple--> bkrel bas <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3720"><!--Nagarjuna according to Apple-->slob dpon</rs> gyi lugs kyis bden pa gnyis la don rnams pa drug ste |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3745">jo bo</rs>s kyang | <quote source="db:5916" n="v. 7ab"><lg><l>ma mthong bar nyid de mthong par ||</l> <l>shin rta zab pa'i mdo las gsungs</l></lg></quote><note type="editorial">sDe dge: ma mthong ba nyid de mthong bar || shin tu zab pa'i mdo las gsungs ||</note> zhes bshad do ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dge bshes</rs> kyi zhal nas tshigs su bcad pa 'dis don dam pa'i ngo bo bstan pa yin gsung |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:4593">slob dpon</rs> gyi zhal nas bden pa gnyis ga'i ngo bo ston pa gsung |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">slob dpon</rs> gyi zhal nas dbang po gsal ba ste rab rib lasogs pas dbang po nyams par ma byas shing yul ji lta ba bzhin du 'dzin pa dang | de yang 'jig rten rnams kyis bden par byed pa de yang dag pa'i kun rdzob kyi mtshan nyid <lb n="4.10"/>du shes par bya ste || de skad du yang <rs type="work" ana="corpusmd:named_reference">'jug pa</rs> las |<quote source="db:" n="6.25">gnod pa myed pa'i dbang po drug rnams kyis ||
+               bzung pa gang zhig 'jig rten gyis rtogs ste ||
+               'jig rten nyid las bden </quote>
+zhes bshad pas de'i steng du 'jig rten bas bden par byed pa de yang dag kun rdzob kyi mtshan nyid yin no gsung ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dge bshes</rs> kyi chos can mthun snang myed pa'i rigs pa gdu gdu ba ni chos can bya ba shes par 'dod pas khyad par du byas pa yin ba la rgol ba dngos por smra ba lasogs pa chos can snang ba rten 'brel 'di sgyu ma lta bu dang rang bzhin myed par shes par 'dod pa yod kyang | dbu ma bas snang ba rten 'brel 'di brdzun pa sgyu ma lta bu dang <lb n="8.9"/> rang bzhin myed par rtogs zin pas shes 'dod myed pas chos can mthun snang myed do ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">rang rgyud pa</rs> na re chos can snang ba rten 'brel 'di tshad mas grub kyang don dam du thal ba'i nyes pa myed ste | tha snyad pa'i tshad mas grub kyang chos can kyang snang ba rten 'brel 'di cig dang du <lb n="9.2"/> bral lasogs pa rigs pa'i shes pa'i yul du ma grub pa'i phyir ro zer na |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog</rs> gi zhal nas thun mong spyi'i mtshan <lb n="9.8"/> nyid myed pa yin gsung | <abbr><rs type="person" ana="corpusmd:named_reference" ref="db:3809">slang ba</rs>'i</abbr> zhal nas thun mong spyi'i mtshan nyid ni | tshul ci rigs su khas blangs pa yin gsung |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">sngon gyi bshad pa po rnams</rs> kyi zhal nas khyab pa dngos po la gnas shing phyogs chos khas blangs su 'dug pa de yin no zer ba la |
+               <rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog</rs> gi zhal nas sgrub pa'i thal 'gyur bya ba bzlog pa rang rgyud dang 'brel ba yin <lb n="9.9"/> pa la | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">sngon gyi bshad pa po rnams</rs> kyi de bzlog pa dang ma 'brel bas <?oxy_comment_start comment="[bold face in source document]"?>bsgrub pa'i thabs 'gyur<?oxy_comment_end?> gyi mtshan nyid ni khyab pa dngos po la gnas pa phyogs chos khas blangs su 'dug pa skabs su bab pa'i dam bca la tshad ma'i bsal ba byung ba la bzhed do ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3809">slang pa ba</rs>'i zhal nas <?oxy_comment_start comment="[bold face in source document]"?>sgrub pa'i thal 'gyur <?oxy_comment_end?>gyi mtshan nyid ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">sngon gyi bshad pa mkhan po rnams</rs> kyi des chog pa yin te | bsgrub pa'i thal <lb n="9.10"/><?oxy_comment_start comment="[bold face in source document]"?> gyur <?oxy_comment_end?>du 'dug pa tsam gyis bzlog pa rang rgyud 'phen pa'i nges pa myed ste | bzlog pa dang 'brel bya ba de bzlog pa 'phen pa'i nus pa yod byas pa yin myi|gyi nus pa yod pa tsam gyis bzlog pa 'phen pa'i * myed pa ste | dper na sa bon skya bo la my gu skyed ming nus pa yod kyang nus pa yod pa tsam gyis ci'i kyang mas kyang my gu skyed pa'i nges pa myed pa bzhin no gsung |
+               gnyis pa sun 'byin pa'i thal <pb n="10"/><lb n="10.1"/> 'gyur gyi mtshan nyid ni khyab pa dngos la gnas rung mi gnas rung phyogs khas blangs su 'dug pa yin no zer ro ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3868">pa tshab</rs> kyi zhal nas bsgrub pa'i thabs thal 'gyur gyi mtshan nyid ni gtan tshigs kyi tshul gsum rgol bas zhe bas 'dod pa yin la | sun 'byin pa'i thal 'gyur gyi mtshan nyid thal 'gyur de'i gtan tshigs khas blangs sam khas blangs kyi mthar thug pa yin no gsung ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dge bshes</rs> kyi zhal nas yul can shes pa la yang dag log pa ni yod pa kun rdzob myed gsung ba la | de'i rgyu mshan ni 'di yin no bya ba ni mi gsung skad do ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">slob dpon</rs> gyi zhal nas shes bya yul la yod na yul can shes pa la yang kun rdzob yod pa <lb n="11.7"/> yin te rgyu mtshan la khyad par myed pa'i phyir dang | gzhan yang | <quote source="db:" n="6.28a">gti mug rang bzhin sgrib phyir kun rdzob ste</quote> zhes pa lasogs pa shes pa'i steng du kun rdzob kyi sgra'i don bshad pa byas nas | yul can shes pa'i steng na yang dag dang log pa yod la kun rdzob myed zer ba ni 'thad pa ma yin no gsung ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dge bshes pa</rs>'i rang dga' ma yin te <rs type="work">'jug pa</rs> las |
+               <quote source="db:" n="6.28">gti mug rang bzhin srib phyir kun rdzob ste | <lb n="12.2"/> des gang bcos ma bden pa (for bar) snang de ni |kun rdzob bden zhes thub pas de gsung te |
+               bcos mar gyur pa'i dngos ni kun rdzob tsam du'o</quote> zhes bshad do ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">slob dpon</rs> gyi zhal nas nyon mongs pa can gyi ma rig pas 'khrul pa byas pa'i yul dang yul can thams cad yang dag pa'i kun rdzob kyi mtshan nyid yin la | nyon mongs pa can gyi ma rig pa las gzhan nyon mongs pa can ma <lb n="12.3"/> yin pa'i ma rig pa de rab rib dang dmyigs ser lasogs pas 'khrul pa byas pa'i yul dang yul can thams cad ni | log pa'i kun rdzob kyi mtshan nyid yin te zhes spyi thod du bstan kyang chog gsung ngo ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3745">jo bo</rs>'i zhal nas kyang | <quote source="db:" n="SDA 4cd"><!--Satyadvayāvatāra, v. 4cd (Ejima 1983, p. 362): / cir yang ma grub chos nyid de / / gnyis dang gsum sog ga la ’gyur / / 4 / /.-->ci yang ma grub chos nyid la | gnyis dang gsum rtsogs ga la yod</quote> zhes bshad pa yin no ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dge bshes lo tsa ba</rs><!--possibly the "dge bshes pa" referred to by rgya dmar ba rather than Nag tsho ID:6340-->'i zhal nas mtshan gzhi dang mtshan <lb n="12.9"/> nyid dngos po la yod pa bzhin du mtshon bya ba lang bya ba de yang bda'i rgyu mtshan mi 'dra ba myed pa dgag pa bya ba de rngos po la yod pa bzhed la |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3780">slob dpon chos mchog</rs> dang <rs type="person" ana="corpusmd:named_reference" ref="db:3809">slang pha ba</rs>s <note type="editorial">"Slang pha ba" identiied as "Khyung rin chen grags" by Apple</note> mtshan gzhi dang mtshan nyid rngos po la yod kyi mtshon bya ni rngos po la myed ste brtags par bzhed pa yin no ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> na re khyed thal 'gyur ba la yongs cos sgrub pa'i dam bca myed pas de sgrub par byed pas gtan tshigs lasogs pa tshad mas grub pa mi dgos pa bden khongs su gzhug gi | rnam dpyad dgag pa'i dam bca yod dam myed | yod na de sgrub par byed pa'i gtan tshgis brjod dgos la | de ni de 'gal ba rjod pa'i thal 'gyur lasogs <lb n="13.8"/> pa brjod pa dgos pa ci yod zhe na zer ro ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3745">jo bo</rs>s gsungs pa bzhin du ye shes phyed chad bya ba yin te shes bya cir yang ma grub pa la ye shes kyis ci <lb n="16.8"/> yang mi rtog pa ji lta ba mkhyen pa'i ye shes ni yod la | ji snyed pa mkhyen pa'i ye shes snang ba dang bcas pa ni myed pa yin no bya ba gsung |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference">bden pa gnyis kyi rnam par bzhag pa</rs> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">slob dpon</rs> gyi gsung tshod bris pa || rdzogs s+ho ||||</ab>
+    </body>
+  </text>
+</TEI>

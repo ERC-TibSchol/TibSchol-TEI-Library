@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">dge tshul rnam bshad</title>
@@ -105,17 +105,24 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-17">TD owner checked</change>
-         <change when="2024-09-13">PH validate doc</change>
-         <change when="2024-09-17">PH fix bugs</change>
-         <change when="2024-12-17">PH add Transkribus</change>
-         <change when="2024-07-04">RG finalised seg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex9042024-09-1712-48-21" status="reviewed">
-            <milestone unit="section" n="212.3 bsgyur (2a4–2a5)"/>
-         bsgyur ba ni shan sbyar ba las <choice><orig>‹'›thob</orig><reg>'thob</reg></choice> ste | <foreign xml:lang="sa-Latn-x-wylie">a rya</foreign> na 'phags pa'o || <foreign xml:lang="sa-Latn-x-wylie">sa rba</foreign> na <abbr>thams cad</abbr> do || <!--TOCHECK there's a line missing here that is unclear --> <foreign xml:lang="sa-Latn-x-wylie">shra ma Ne ra</foreign> na dge tshul <lb n="2a5"/> lo || <foreign xml:lang="sa-Latn-x-wylie">ka ri ka</foreign> na tshig le'ur byas pa'o ||<anchor xml:id="a2"/></seg>
-      </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Body of the text (1a1–33b3)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:3764"><abbr>thams cad</abbr> yod par smra ba'i dge tshul rnaMs gyi bslab pa'i rim  <lb n="1a2"/> pa ston pa'i rab tu phyed pa</rs> 'di la don gnyis kyis nges par bya ste | bstan chos kyi 'brel rnaM par gzhag pa dang | skabs su bab pa'i don to ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="212.3 bsgyur ba (2a4–2a5)"/>
+         bsgyur ba ni shan sbyar ba las <choice><orig>‹'›thob</orig><reg>'thob</reg></choice> ste | 
+         <l><foreign xml:lang="sa-Latn-x-wylie">a rya</foreign> na 'phags pa'o ||</l> <foreign xml:lang="sa-Latn-x-wylie">sa rba</foreign> na <abbr>thams cad</abbr> do || 
+         <l><foreign xml:lang="sa-Latn-x-wylie">a sti bA da</foreign> na yod par smra ba'o ||</l>
+         <foreign xml:lang="sa-Latn-x-wylie">shra ma Ne ra</foreign> na dge tshul <lb n="2a5"/> lo || 
+         <l><foreign xml:lang="sa-Latn-x-wylie">ka ri ka</foreign> na tshig le'ur byas pa'o ||</l><note type="editorial">The text being commented upon is identified here as having the Sanskrit title Ārya-sarva-astivāda-śrāmaṇera-kārikā, in Tibetan: 'Phags pa thams cad yod par smra ba'i dge tshul gyi tshig le'ur byas pa</note></ab>
+      <gap reason="omitted"/>
+      <ab/>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (33b5–33b6)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4511"><abbr>thams cad</abbr> yod par smra ba'i dge tshul rnaMs kyi <lb n="33b6"/> bslab pa'i rim pa ston pa'i rnaM par bshad pa</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:3818">shag kya'i dge slong brtson 'grus 'bar</rs> gyi zhabs kyi pad ma'i rdul la spyi bos btugs pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:3831"><choice><reg>dge</reg><orig>dg(e)</orig></choice> slong chos kyi seng ge</rs>s sbyar ba || || rdzogs s+ho ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">Theg pa chen po mdo sde rgyan gyi dka' gnad bshad pa</title>
@@ -105,14 +105,12 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-25+01:00">PH copied to mannanot</change>
-         <change when="2024-10-18+01:00">PH edit</change>
-         <change when="2024-11-04">PH included Transkribus output</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex22042024-10-1809-29-13" status="reviewed" ana="corpusmd:colophon"> 
-         <milestone unit="section" n="Colophon (97a5)"/>
-            <rs type="work" ana="corpusmd:named_reference" ref="db:4635"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po'i mdo' sde'i rgyan</rs> gyi dka' ba'i <lb n="97a6"/> gnas bshad ba</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3916">shag kya'i dge' slong bsod nams rgyal mtshan<anchor xml:id="a2"/></rs><note type="editorial">According to the KDSB dkar chag this is lHa ston Zhig po bSod nams rgyal mtshan (ID:6352), the 20th abbot of gSang phu (he is the 13th abbot of gSang phu gling sTod according to Onoda 1989: 211). The BDRC however connects this text with Bla ma Dam pa bSod nams rgyal mtshan P1226 (1327-1344) (ID:3916).</note> gyis sbyar ba | rdzogs s+ho ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (97a5)"/>
+            <rs type="work" ana="corpusmd:named_reference" ref="db:4635"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po'i mdo' sde'i rgyan</rs> gyi dka' ba'i <lb n="97a6"/> gnas bshad ba</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3916">shag kya'i dge' slong bsod nams rgyal mtshan<anchor xml:id="a2"/></rs><note type="editorial">According to the KDSB dkar chag this is lHa ston Zhig po bSod nams rgyal mtshan (ID:6352), the 20th abbot of gSang phu (he is the 13th abbot of gSang phu gling sTod according to Onoda 1989: 211). The BDRC however connects this text with Bla ma Dam pa bSod nams rgyal mtshan P1226 (1327-1344) (ID:3916).</note> gyis sbyar ba | rdzogs s+ho ||</ab>
+    </body>
+  </text>
+</TEI>

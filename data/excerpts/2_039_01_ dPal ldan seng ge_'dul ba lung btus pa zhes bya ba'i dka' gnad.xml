@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">'dul ba lung btus pa zhes bya ba'i dka' gnad</title>
@@ -104,14 +104,14 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-09-18">TD checked place</change>
-         <change when="2024-09-09">PH check</change>
-         <change when="2025-08-01">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex39012024-09-0915-27-122" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (30a4-8) (pp. 69:4-8)"/><lb n="30a7"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5844">dam pa'i chos 'dul ba lung kun las btus pa rin po che snang pa</rs> zhes bya ba ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4010">mang du thos pa'i btsun pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4010">ba ri pa</rs></note> dpal ldan seng ge</rs>s ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5661">bar ri'i dgon pa</rs>r bris pa'o ||</seg> 
-         
-         || || </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (30a4-8) (pp. 69:4-8)"/>
+         <lb n="30a4"/>… chos rje'i <lb n="30a5"/> chos 'dul chu skyes dga' tshal gang|| 'jug ldog shes bya'i 'dab brgya rgyas pa la|| gnas brtan seng ge sbrang bus sbrang rtsi btus|| blo ldan slob ma ro brgyas dges par mdzod|| 'dir nongs de kun <lb n="30a6"/> kun mkhyen de la bshags|| legs pa gang bskrun des 'dir 'gro ba kun|| legs pa'i laM zhugs legs mchog drang srong che|| skyabs med skyob pa'i rdzogs sangs myur thob shog|| || </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (30a4-8) (pp. 69:4-8)"/><lb n="30a7"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5844">dam pa'i chos 'dul ba lung kun las btus pa rin po che snang pa</rs> zhes bya ba ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4010">mang du thos pa'i btsun pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4010">ba ri pa</rs></note> dpal ldan seng ge</rs>s ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5661">bar ri'i dgon pa</rs>r bris pa'o ||</ab>
+    </body>
+  </text>
+</TEI>

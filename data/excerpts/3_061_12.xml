@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bstan pa rgyas pa rgyan gyi nyi 'od</title>
@@ -105,24 +105,26 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-21">TD checked owner</change>
-         <change when="2023-09-26">TD checked scribe and place in Colophon</change>
-         <change when="2024-09-17">PH fix bugs</change>
-         <change when="2025-08-05">RG finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex61122023-09-1312" status="finalized"><milestone unit="section" n="Incipit (1a1-5)"/><lb n="1a1"/> || dpe' le'u 'di' yi nang na || 
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1a1-5)"/><lb n="1a1"/> || dpe' le'u 'di' yi nang na || 
             <lb n="1a2"/> || <rs type="work" ana="corpusmd:named_reference" ref="db:4895">bstan pa rgyas pa rgyan gyi nyi 'od</rs> || 
             <lb n="1a3"/> || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">rigs pa'i ral <choice><orig>khri</orig><reg>gri</reg></choice></rs>'i bka' hee ||
             <lb n="1a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:5098">dge'dun bzang po</rs>'i dpe dge'o ||
-            <lb n="1a5"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4070"><abbr>blo gros</abbr> seng ge</rs> zhes pa <choice><reg>grags</reg><orig>gags</orig></choice> pa'o ||</seg>
-      <seg type="excerpt" xml:id="ex61122023-09-131" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (77b4-78a8) pp.265-266"/><lb n="77b4"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4895">bstan pa rgyas pa rgyan gyi nyi 'od</rs> <lb n="77b5"/> 'di || mthong bas skal ldan dga' ba bskyed pa dang || dam pa rnams kyi sku <lb n="77b6"/> drin dran bya'i phyir || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s legs par bkod pa yin || <lb n="77b7"/> 
+            <lb n="1a5"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4070"><abbr>blo gros</abbr> seng ge</rs> zhes pa <choice><reg>grags</reg><orig>gags</orig></choice> pa'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (77b4-78a8)"/>
+         <lg><l><rs type="work" ana="corpusmd:named_reference" ref="db:4895">bstan pa rgyas pa rgyan gyi nyi 'od</rs> <lb n="77b5"/> 'di ||</l> <l>mthong bas skal ldan dga' ba bskyed pa dang ||</l> <l>dam pa rnams kyi sku <lb n="77b6"/> drin dran bya'i phyir ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s legs par bkod pa yin ||</l></lg> 
+         <lb n="77b7"/> 
          <rs type="work" ana="corpusmd:named_reference" ref="db:4895">bstan pa <choice><orig>rgyas pa rgyas pa</orig><reg>rgyas pa</reg></choice> rgyan gyi nyi 'od</rs> ces bya ba × <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong 
-         <lb n="77b8"/> <abbr>bcom ldan</abbr> ral gri</rs>s sbyar ba × rdzogs so || </seg>
-         <seg type="excerpt" xml:id="ex61122023-09-13-102" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (77b4-78a8) pp.265-266"/>
-         ding sang thub bstan <pb n="78a"/><lb n="78a1"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs ri'i khrod</rs> 'dir dar || dar pa'i chos grangs mdo' rgyud bstan <lb n="78a2"/> bcos rnams || rnam dag ji bzhin mkhyen pa'i bla chen mchog | <lb n="78a3"/> mchog gyur <rs type="person" ana="corpusmd:named_reference" ref="db:4006">dpa' ldan ral gri</rs>'i bka' la 'dud || zhus+ho || dge'o || <lb n="78a4"/> sa mtha'i dge slong <rs type="person" ana="corpusmd:named_reference" ref="db:5098">dge 'dun bzang po</rs> ngas <note type="editorial">The BDRC reads "dpang", but looking at how the letters are generally written in that page the first letter looks more like a “nga” and the second more like a “sa” the third could be a tsheg. After the first “dge'o” all the sentence are 9 syllables long.</note> || thub bstan sgor zhugs sgo <lb n="78a5"/> gsum chos dang bstun || bla ma'i gsung bzhin gsung rabs mang du <lb n="78a6"/> mnyan || de don nyams blang dog chen grub par bsngo || laM lta ma || <lb n="78a7"/> || dpe 'di <rs type="person" ana="corpusmd:named_reference" ref="db:5842"><abbr>slob dpon</abbr> zhang</rs> gis <rs type="place" ana="corpusmd:named_reference" ref="db:5541">nyang stod</rs> nas gdan drangs nas <rs type="person" ana="corpusmd:named_reference" ref="db:4070"><abbr>blo gros</abbr> seng ge</rs>s <lb n="78a8"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5697">brag dkar</rs> du shing phag ma <abbr>bris so</abbr> <note type="editorial">"shing" is unclear.</note> || 1 <abbr>zhus so</abbr> || dag go | dge'o |</seg>
-      </body></text></TEI>
+         <lb n="77b8"/> <abbr>bcom ldan</abbr> ral gri</rs>s sbyar ba × rdzogs so || </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon verse (77b4-78a8)"/>
+         <lg><l>ding sang thub bstan <pb n="78a"/><lb n="78a1"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs ri'i khrod</rs> 'dir dar ||</l> <l>dar pa'i chos grangs mdo' rgyud bstan <lb n="78a2"/> bcos rnams ||</l> <l>rnam dag ji bzhin mkhyen pa'i bla chen mchog |</l> <l><lb n="78a3"/> mchog gyur <rs type="person" ana="corpusmd:named_reference" ref="db:4006">dpa' ldan ral gri</rs>'i bka' la 'dud ||</l></lg> <abbr>zhus s+ho</abbr> || dge'o || 
+         <lg><l><lb n="78a4"/> sa mtha'i dge slong <rs type="person" ana="corpusmd:named_reference" ref="db:5098">dge 'dun bzang po</rs> ngas <note type="editorial">The BDRC reads "dpang", but looking at how the letters are generally written in that page the first letter looks more like a “nga” and the second more like a “sa” the third could be a tsheg. After the first “dge'o” all the sentence are 9 syllables long.</note> ||</l> <l>thub bstan sgor zhugs sgo <lb n="78a5"/> gsum chos dang bstun ||</l> <l>bla ma'i gsung bzhin gsung rabs mang du <lb n="78a6"/> mnyan ||</l> <l>de don nyams blang dog chen grub par bsngo ||</l> </lg>
+         laM lta ma || <lb n="78a7"/> || dpe 'di <rs type="person" ana="corpusmd:named_reference" ref="db:5842"><abbr>slob dpon</abbr> zhang</rs> gis <rs type="place" ana="corpusmd:named_reference" ref="db:5541">nyang stod</rs> nas gdan drangs nas <rs type="person" ana="corpusmd:named_reference" ref="db:4070"><abbr>blo gros</abbr> seng ge</rs>s <lb n="78a8"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5697">brag dkar</rs> du shing phag ma <abbr>bris so</abbr> <note type="editorial">"shing" is unclear.</note> || 1 <abbr>zhus so</abbr> || dag go | dge'o |</ab>
+    </body>
+  </text>
+</TEI>

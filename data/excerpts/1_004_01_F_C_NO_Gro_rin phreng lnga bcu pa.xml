@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">1_004_01_e_Gro_rin phreng lnga bcu pa</title>
@@ -104,12 +104,11 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-25+01:00">PH copied to Mannanot</change>
-         <change when="2023-11">TD tagged Colophon</change>
-         <change when="2025-07-04">RG finalised seg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex4012023-11-24-110036" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="[Colophon (2b3–2b4)]"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3806">shag kya'i dge slong blo gros 'byung gnas</rs> kyis | yid 'thun pa'i bshes pa la spring pa <rs type="work" ana="corpusmd:named_reference" ref="db:4466">rin po <lb n="2b4"/> che'i phreng ba lnga bcu pa</rs> zhes bya ba rdzogs s+hyo || || dge'o | bkra shis par gyur cig | dge'o ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (2b3–2b4)"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3806">shag kya'i dge slong blo gros 'byung gnas</rs> kyis | yid 'thun pa'i bshes pa la spring pa <rs type="work" ana="corpusmd:named_reference" ref="db:4466">rin po <lb n="2b4"/> che'i phreng ba lnga bcu pa</rs> zhes bya ba rdzogs s+hyo || || dge'o | bkra shis par gyur cig | dge'o ||</ab>
+    </body>
+  </text>
+</TEI>

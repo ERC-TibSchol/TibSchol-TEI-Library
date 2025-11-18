@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">theg chen dbu ma'i gdams pa</title>
@@ -105,14 +105,15 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-22">TD checked scribe</change>
-         <change when="2023-09-20">TD checked place</change>
-         <change when="2023-09-16">PH fix bugs</change>
-         <change when="2024-12-11">PH add transkribus</change>
-         <change when="2025-08-01">Finalised segs in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex50072023-10-13-092545" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (3b3-4)"/>|| I thI || <rs type="person" ana="corpusmd:named_reference" ref="db:4593">slob dpon chen po</rs>'i phyag dpe <choice><orig>la</orig><reg>las</reg></choice> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa chos rgyal</rs> <lb n="3b4"/> gyis bris shing zhus pa'o ||</seg><seg type="excerpt" status="finalized" xml:id="ex50072023-09-12-094632" ana="corpusmd:colophon"><milestone unit="section" n="Post-colophon annotations (3b4)"/>zhus <abbr>dag go</abbr> || <rs type="place" ana="corpusmd:named_reference" ref="db:4411">snar thang</rs> du <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s <abbr>bris so</abbr> ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4851">theg chen dbu ma'i gdaMs pa</rs> <abbr>bzhugs so</abbr> || × phyi¶ la ¶ 550</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (3b3-4)"/>|| I thI || <rs type="person" ana="corpusmd:named_reference" ref="db:4593">slob dpon chen po</rs>'i phyag dpe <choice><orig>la</orig><reg>las</reg></choice> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa chos rgyal</rs> <lb n="3b4"/> gyis bris shing zhus pa'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon annotations (3b4)"/>zhus <abbr>dag go</abbr> || <rs type="place" ana="corpusmd:named_reference" ref="db:4411">snar thang</rs> du <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s <abbr>bris so</abbr> ||</ab>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
             <!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">'grel pa 'od ldan gyi tshig don gsal
@@ -107,13 +107,12 @@
       <profileDesc>
          <!-- <langUsage> to be inserted from APIS -->
       </profileDesc>
-      <revisionDesc status="draft">
-         <!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2024-10-01">PH moved to mannanot</change>
-         <change when="2024-10-01">P added transkribus</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex36022025-03-3112-23-082" ana="corpusmd:colophon" status="finalized"> <milestone unit="section" n="Colophon (65a3-4)"/>
-           <rs type="work" ana="corpusmd:named_reference" ref="db:4720"><rs type="work" ana="corpusmd:named_reference" ref="db:3766">'grel pa 'od dang ldan ba</rs>'i tshig dang don ma lus pa blo'i me long la gsal bar byed pa ||</rs> <choice><reg/><orig>dam</orig></choice><note type="editorial">"dam" was probably written by mistake, and not deleted</note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">nye ba 'khor lta bu'i bla ma rnams</rs> kyi zhabs kyi rdul spyi bos nod pa || <rs type="person" ana="corpusmd:named_reference" ref="db:3967">shag kya'i dge slong brtson 'grus dbang phyug</rs> gis bkod pa'o ||  || rdzogs s+h+yo ||  ||</seg>
-         </body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (65a3-4)"/>
+           <rs type="work" ana="corpusmd:named_reference" ref="db:4720"><rs type="work" ana="corpusmd:named_reference" ref="db:3766">'grel pa 'od dang ldan ba</rs>'i tshig dang don ma lus pa blo'i me long la gsal bar byed pa ||</rs> <choice><reg/><orig>dam</orig></choice><note type="editorial">"dam" was probably written by mistake, and not deleted</note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">nye ba 'khor lta bu'i bla ma rnams</rs> kyi zhabs kyi rdul spyi bos nod pa || <rs type="person" ana="corpusmd:named_reference" ref="db:3967">shag kya'i dge slong brtson 'grus dbang phyug</rs> gis bkod pa'o ||  || rdzogs s+h+yo ||  ||</ab>
+    </body>
+  </text>
+</TEI>

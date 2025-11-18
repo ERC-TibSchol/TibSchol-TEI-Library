@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">spyod 'jug don bsdus</title>
@@ -18,7 +18,7 @@
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <!-- TODO: add any other contributors and their roles here -->
             <!-- end of responsibility statments specific to this document -->
@@ -105,13 +105,14 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2024-10-01">PH moved to mannanot</change>
-         <change when="2024-12-17">PH add transkribus</change>
-         <change when="2025-06-13">RG finalised seg</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex7022024-12-1718-47-32" ana="corpusmd:colophon" status="finalized"><milestone unit="section" n="Colophon (7a4–7a5)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4488"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug <lb n="7a5"/> pa</rs>'i don bsdus pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge slong chos kyi seng ge</rs>s nye bar sbyar pa rdzogs s+hyo ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug pa</rs> la don lnga ste |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (7a4–7a5)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4488"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug <lb n="7a5"/> pa</rs>'i don bsdus pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge slong chos kyi seng ge</rs>s nye bar sbyar pa rdzogs s+hyo ||</ab>
+    </body>
+  </text>
+</TEI>

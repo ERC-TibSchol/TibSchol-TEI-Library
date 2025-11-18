@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie"/>
@@ -105,11 +105,11 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2024-11-05+01:00">transformed docx to TEI</change>
-         <change when="2024-11-21">PH edit</change>
-         <change when="2025-08-08">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex83012024-11-2110-40-15" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:5277"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa'i mdzod</rs> kyi 'grel pa mngon pa'i rgyan</rs> ces bya ba | rgyal ba'i bstan pa lnga brgya pa phrag bdun pa'i mthar nye ba na ¦ shes bya rnaM par <lb n="610a5"/> 'byed pa'i blo gros mtshungs pa med pas ¦ thub pa'i bstan pa'i rgyal mtshan 'dzin cing | <abbr>thugs rje</abbr> dang 'phrin las kyi dpal 'byor bzang pos skye dgu rnaMs <lb n="610a6"/> smin cing grol bar mdzad pa <rs type="person" ana="corpusmd:named_reference" ref="db:4593">bla ma daM pa chos kyi rgyal po <abbr>rin po che</abbr></rs> dang ¦ <!--TOCHECK RG: This was left blank so added as anonymous for now--> shes bya'i nam mkha' la mkhyen pa'i <abbr>dkyil 'khor</abbr> rab tu rgyas shing ¦ snyan <abbr>grags</abbr> kyi <lb n="610a7"/> <abbr>'od zer</abbr> gyis <abbr>phyogs</abbr> ma lus pa <abbr>khyab par</abbr> gyur pas ¦ sdoM brtson mkhas pa rnaMs kyi <abbr>gtsug gi</abbr> nor bur gyur cing ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5559"><choice><reg>gangs</reg><orig>gang</orig></choice> can</rs> gyi rgyud kyi gnas brtan chen <lb n="610a8"/> po <rs type="person" ana="corpusmd:named_reference" ref="db:3977"><choice><reg>mchims</reg><orig>'chims</orig></choice> <abbr>thams cad</abbr> mkhyen pa</rs> <note type="editorial">The identification of "mchims thams cad mkhyen pa" as "mchims nam mkha' grags" is tentative.</note> la <abbr>sogs</abbr> pa'i zhabs kyi rdul rnyog pa med pa'i spyi bos len pa ¦ mang du thos pa <rs type="person" ana="corpusmd:named_reference" ref="db:4090">shAkya'i <abbr>dge slong</abbr> 'jam pa'i dbyangs</rs> kyis | <pb n="610b"/><lb n="610b1"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5733">dpal <abbr>sa skya'i</abbr> chos grwa chen po</rs>r dbu rtses nas <note type="editorial">Reading of "dbu rtse nas" uncertain.</note> ¦ sa'i <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593"><abbr>dbang phyug gi</abbr> rgyal po chen po</rs>'i pho brang <rs type="place" ana="corpusmd:named_reference" ref="db:5955">cong to'i mkhar</rs> du <abbr>legs</abbr> par grub par byas pa'o || </seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5277"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa'i mdzod</rs> kyi 'grel pa mngon pa'i rgyan</rs> ces bya ba | rgyal ba'i bstan pa lnga brgya pa phrag bdun pa'i mthar nye ba na ¦ shes bya rnaM par <lb n="610a5"/> 'byed pa'i blo gros mtshungs pa med pas ¦ thub pa'i bstan pa'i rgyal mtshan 'dzin cing | <abbr>thugs rje</abbr> dang 'phrin las kyi dpal 'byor bzang pos skye dgu rnaMs <lb n="610a6"/> smin cing grol bar mdzad pa <rs type="person" ana="corpusmd:named_reference" ref="db:4593">bla ma daM pa chos kyi rgyal po <abbr>rin po che</abbr></rs> dang ¦ <!--TOCHECK RG: This was left blank so added as anonymous for now--> shes bya'i nam mkha' la mkhyen pa'i <abbr>dkyil 'khor</abbr> rab tu rgyas shing ¦ snyan <abbr>grags</abbr> kyi <lb n="610a7"/> <abbr>'od zer</abbr> gyis <abbr>phyogs</abbr> ma lus pa <abbr>khyab par</abbr> gyur pas ¦ sdoM brtson mkhas pa rnaMs kyi <abbr>gtsug gi</abbr> nor bur gyur cing ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5559"><choice><reg>gangs</reg><orig>gang</orig></choice> can</rs> gyi rgyud kyi gnas brtan chen <lb n="610a8"/> po <rs type="person" ana="corpusmd:named_reference" ref="db:3977"><choice><reg>mchims</reg><orig>'chims</orig></choice> <abbr>thams cad</abbr> mkhyen pa</rs> <note type="editorial">The identification of "mchims thams cad mkhyen pa" as "mchims nam mkha' grags" is tentative.</note> la <abbr>sogs</abbr> pa'i zhabs kyi rdul rnyog pa med pa'i spyi bos len pa ¦ mang du thos pa <rs type="person" ana="corpusmd:named_reference" ref="db:4090">shAkya'i <abbr>dge slong</abbr> 'jam pa'i dbyangs</rs> kyis | <pb n="610b"/><lb n="610b1"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5733">dpal <abbr>sa skya'i</abbr> chos grwa chen po</rs>r dbu rtses nas <note type="editorial">Reading of "dbu rtse nas" uncertain.</note> ¦ sa'i <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593"><abbr>dbang phyug gi</abbr> rgyal po chen po</rs>'i pho brang <rs type="place" ana="corpusmd:named_reference" ref="db:5955">cong to'i mkhar</rs> du <abbr>legs</abbr> par grub par byas pa'o || </ab>
+    </body>
+  </text>
+</TEI>

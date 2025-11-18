@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">Byang chub sems dpa'i spyod pa la 'jug pa'i rgyan</title>
@@ -105,15 +105,20 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-08-21">TD checked owner</change>
-         <change when="2023-09-26">TD added person and place in Colophon</change>
-         <change when="2023-10-25">PH corrections</change>
-         <change when="2023-11-06">PH corrections</change>
-         <change when="2024-09-16">PH checks</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex66042023-09-091209" status="reviewed"><rs type="person" ana="corpusmd:named_reference" ref="db:5835"><abbr>chos skyong</abbr> dpal ldan</rs> gyi dpe'o
-      </seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><lb n="81a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4221">kyi ston 'jam pa'i dbyangs</rs> kyis bshad ||
+         dge ba 'di yis 'gro kun sems bskyed de ||
+            byang chub spyod pa'i tshul la legs zhugs pas ||
+            tshogs gnyis rgyu chen rgya mtsho'i mthar son nas || sku gsum nor bu'i dpal la spyod par shog ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5149"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug pa</rs>'i rgyan</rs> zhes bya ba 'di ni |<rs type="person" ana="corpusmd:named_reference" ref="db:3977"> byang chub <lb n="81a5"/> sems dpa' chen po 'phyims nam mkha' grags</rs> <?oxy_comment_start comment="P1060"?><?oxy_comment_end?> yab sras kyi byin bslab ° zhugs pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4221">skyi ston 'jam pa'i dbyangs grags pa rgyal mtshan</rs> gyis 'grel pa<rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhan po </rs>lnga dang <rs type="person" ana="corpusmd:named_reference" ref="db:4593">gtsang pa</rs> lasogs pa'i legs bshad rnams blangs | nyes bshad rnams dor nas | <rs type="place" ana="corpusmd:named_reference" ref="db:5733">dpal ldan <abbr>sa skya</abbr>'i gtsug lag chen po</rs>r sbyar ba'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Addition 1 (81a5): Ownership"/>
+              <rs type="person" ana="corpusmd:named_reference" ref="db:5835"><abbr>chos skyong</abbr> dpal ldan</rs> gyi dpe'o
+      </ab>
+    </body>
+  </text>
+</TEI>

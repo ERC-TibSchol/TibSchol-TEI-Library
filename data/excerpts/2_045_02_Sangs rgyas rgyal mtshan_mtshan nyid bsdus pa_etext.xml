@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma'i mtshan nyid bsdus pa</title>
@@ -106,15 +106,19 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-09-19">TD checked place</change>
-         <change when="2024-09-10">PH modifs and tags</change>
-         <change when="2024-09-11">PH compile with Transkribus output</change>
-         <change when="2025-08-01">RG finalised segs in use</change>
-               </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex45022024-09-1110-23-42" status="finalized">yul de la ¦ rang la nges kyi tshad ma'i <abbr>mtshan nyid</abbr> ¦ yul de la tshad ma yin par rang stobs kyi nges shes de ma thag tu 'dren pa'i tshad ma ¦ <abbr>mtshan gzhi ni</abbr> ¦ <quote source="db:5564" n="RT VIII.64ab">don rig 2 dang rang rig dang ¦ <abbr>rjes su</abbr> dpag pa rang las nges</quote> zhes pa dang ¦ <quote source="db:5564" n="RT VIII.65ab">don byed pa dang goMs pa can | <abbr>rjes su</abbr> dpag pas nges par byed |</quote> zhes <rs type="work" ana="corpusmd:named_reference" ref="db:5564">rigs <lb n="3a6"/> gter</rs> las bshad pa dang ¦ <abbr>rnal 'byor</abbr> <abbr>mngon sum</abbr> yang <abbr>yin no</abbr> ||</seg><seg type="excerpt" xml:id="ex45022024-09-1110-23-422" status="finalized">yul de la <choice><orig>gan la</orig><reg>gzhan las</reg></choice> nges kyi tshad ma'i <abbr>mtshan nyid</abbr> ¦ yul de la tshad ma yin cing yul de la tshad ma yin par rang stobs kyi <abbr>nges shes</abbr> de ma thag tu 'dren pa ma yin pa ¦ <abbr>mtshan gzhi ni</abbr> ¦ <rs type="work" ana="corpusmd:named_reference" ref="db:5564">rigs gter</rs> las ¦ <quote source="5564" n="RT VIII.64cd">dang po ba dang yid ma gtad || 'khrul rgyu can rnaMs gzhan la nges |</quote> zhes so :</seg><seg type="excerpt" xml:id="ex45022023-09-19" status="finalized" ana="corpusmd:colophon">
-         <milestone unit="section" n="Colophon (9a5--9a6)"/>
-         las dang po pa la nye bar mkho ba <rs type="work" ana="corpusmd:named_reference" ref="db:4773">tshad ma'i <abbr>mtshan nyid</abbr> bsdus pa rigs pa'i sgo 'byed pa</rs> zhes bya ba 'di ni <rs type="person" ana="corpusmd:named_reference" ref="db:5911">mdar btsun pa <abbr>rin chen</abbr> bzang po</rs>s yang dang yang du bskul ba'i ngor dang ¦ gzhan yang shes ldan 'ga' res bskul <abbr>ba'i phyir </abbr> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5910">shakya'i <lb n="9a6"/> btsun pa <choice><orig>°°°°°°</orig><reg>sangs rgyas rgyal mtshan</reg></choice></rs> <choice><reg>gis</reg><orig>°°</orig></choice> go bde <abbr>ba'i phyir</abbr> du lung dang <abbr>rigs</abbr> <abbr>pa'i</abbr> sgo nas dgag gzhag dang skyon gyi gcod tshul phra mo rnaMs re shig bzhag nas ding sang gi <abbr>rtog ge</abbr> pa <abbr>thams cad</abbr> kyi brda cha‹d› dang mthun par <rs type="place" ana="corpusmd:named_reference" ref="db:5697">dben gnas brag dkar</rs> du sbyar ba rdzogs s+ho ||</seg></body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="tshad ma la dbye ba" unit="section"/>
+         <lb n="3a5"/> yang tshad ma la dbye na ¦ rang la<note type="gloss">Consistently for "rang las"</note> nges kyi tshad ma dang ¦ <abbr>gzhan</abbr> las nges kyi tshad ma 2 ¦
+         yul de la ¦ rang la nges kyi tshad ma'i <abbr>mtshan nyid</abbr> ¦ yul de la tshad ma yin par rang stobs kyi nges shes de ma thag tu 'dren pa'i tshad ma ¦ <abbr>mtshan gzhi ni</abbr> ¦ <quote source="db:5564" n="RT VIII.64ab"><lg><l>don rig 2 dang rang rig dang ¦</l> <l><abbr>rjes su</abbr> dpag pa rang las nges</l></lg></quote> zhes pa dang ¦ <quote source="db:5564" n="RT VIII.65ab"><lg><l>don byed pa dang goMs pa can |</l> <l><abbr>rjes su</abbr> dpag pas nges par byed |</l></lg></quote> zhes <rs type="work" ana="corpusmd:named_reference" ref="db:5564">rigs <lb n="3a6"/> gter</rs> las bshad pa dang ¦ <abbr>rnal 'byor</abbr> <abbr>mngon sum</abbr> yang <abbr>yin no</abbr> || ||
+      </ab>
+      <gap reason="omitted"/>
+      <ab><abbr>gzhan</abbr> nges kyi tshad ma'i <abbr>mtshan nyid</abbr> ¦ yul de la tshad ma yin cing yul de la tshad ma yin par rang stobs kyi <abbr>nges shes</abbr> de ma thag tu 'dren pa ma yin pa ¦ <abbr>mtshan gzhi ni</abbr> ¦ <rs type="work" ana="corpusmd:named_reference" ref="db:5564">rigs gter</rs> las ¦ <quote source="db:5564" n="RT VIII.64cd"><lg><l>dang po ba dang yid ma gtad ||</l> <l>'khrul rgyu can rnaMs gzhan la nges |</l></lg></quote> zhes so ¦</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (9a5--9a6)"/>
+         las dang po pa la nye bar mkho ba <rs type="work" ana="corpusmd:named_reference" ref="db:4773">tshad ma'i <abbr>mtshan nyid</abbr> bsdus pa rigs pa'i sgo 'byed pa</rs> zhes bya ba 'di ni <rs type="person" ana="corpusmd:named_reference" ref="db:5911">mdar btsun pa <abbr>rin chen</abbr> bzang po</rs>s yang dang yang du bskul ba'i ngor dang ¦ gzhan yang shes ldan 'ga' res bskul <abbr>ba'i phyir </abbr> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5910">shakya'i <lb n="9a6"/> btsun pa <choice><orig>°°°°°°</orig><reg>sangs rgyas rgyal mtshan</reg></choice></rs> <choice><reg>gis</reg><orig>°°</orig></choice> go bde <abbr>ba'i phyir</abbr> du lung dang <abbr>rigs</abbr> <abbr>pa'i</abbr> sgo nas dgag gzhag dang skyon gyi gcod tshul phra mo rnaMs re shig bzhag nas ding sang gi <abbr>rtog ge</abbr> pa <abbr>thams cad</abbr> kyi brda cha‹d› dang mthun par <rs type="place" ana="corpusmd:named_reference" ref="db:5697">dben gnas brag dkar</rs> du sbyar ba rdzogs s+ho ||</ab>
+    </body>
+  </text>
+</TEI>

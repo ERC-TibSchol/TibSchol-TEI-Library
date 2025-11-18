@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">bde mchog nor bu</title>
@@ -104,24 +104,17 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-01-20+02:12">PH started - finished tagging; TODO remain</change>
-         <change when="2023-01-23+03:26">PH add entity IDs</change>
-         <change when="2023-01-24+01:11">PH fix ref in tags</change>
-         <change when="2023-01-24+01:37">PH fix pb ln</change>
-         <change when="2023-01-31+10:11">PH add excerpt status</change>
-         <change when="2023-02-14+13:58">PH test Oxygen</change>
-         <change when="2023-02-24+11:19">PH reviewed excerpts. Milestone Person and Work done</change>
-         <change when="2023-07-14+11:19">PH finish review</change>
-         <change when="2023-07-21+11:19">PH minor fix</change>
-         <change when="2024-07-09+11:19">PH fix typo</change>
-         <change when="2024-08-19+11:19">PH fix space and ref</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex1012023-01-2014-17-31" status="finalized">
-           || <rs type="work" ref="db:4422" ana="corpusmd:named_reference">dpal 'khor lo bde mchog lU i pa'i bstod pa yid bzhin nor bu</rs> <abbr>bzhugs s+ho</abbr> ||</seg>
-         <seg type="excerpt" xml:id="ex1012023-01-2014-22-39" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (2a5)"/>
-            <rs type="person" ana="corpusmd:named_reference" ref="db:3784">lots+tsha ba <abbr>rin chen</abbr> bzang po</rs>s <rs type="work" ref="db:4422" ana="corpusmd:named_reference">bstod pa</rs> <abbr>rdzogs</abbr> s+ho ||</seg>
-            || dge'o ||</body></text></TEI>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>
+         <pb n="1a"/><lb n="1a1"/>        
+          || <rs type="work" ref="db:4422" ana="corpusmd:named_reference">dpal 'khor lo bde mchog lU i pa'i bstod pa yid bzhin nor bu</rs> <abbr>bzhugs s+ho</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (2a5)"/>
+            <rs type="person" ana="corpusmd:named_reference" ref="db:3784">lots+tsha ba <abbr>rin chen</abbr> bzang po</rs>s <rs type="work" ref="db:4422" ana="corpusmd:named_reference">bstod pa</rs> <abbr>rdzogs</abbr> s+ho ||
+            || dge'o ||</ab>
+    </body>
+  </text>
+</TEI>

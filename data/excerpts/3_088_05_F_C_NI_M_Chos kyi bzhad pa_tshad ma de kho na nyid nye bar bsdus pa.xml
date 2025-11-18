@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
-      <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">tshad nye bsdus</title>
@@ -110,45 +110,82 @@
       <profileDesc>
 			<!-- <langUsage> to be inserted from APIS -->
 		</profileDesc>
-      <revisionDesc status="draft">
-			<!-- TODO enter date and name of person creating this document -->
-         <change when="2023-01-09+01:00">transformed docx to TEI</change>
-         <change when="2023-10-04">TD tag work, person and place in colophon</change>
-         <change when="2024-09-19">PH fix bugs</change>
-         <change when="2025-05-26">PH edit</change>
-         <change when="2025-06-13">RG finalised segs in use</change>
-         <change when="2025-07-22">RG finalised seg in use</change>
-      </revisionDesc>
-   </teiHeader>
-   <text><body><seg type="excerpt" xml:id="ex088052025-05-2615-53-57" status="finalized"><milestone unit="section" n="2331.4 log shes"/>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>
+         <lb n="1a1"/> phyi <lb n="1a2"/> zha <lb n="1a3"/> 31 <lb n="1a4"/><rs type="work" ana="corpusmd:named_reference" ref="5302">tshad ma ****</rs> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Title (1b1)"/>
+         <lb n="1b1"/> || <rs type="work" ana="corpusmd:named_reference" ref="db:5302">tshad ma'i de kho na nyid bsdus pa nye bar bsdus pa</rs> zhes bya ba |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Invocation (1b1)"/>
+            <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma dam pa</rs> rnams la <choice><reg>phyag</reg><orig>(phy)ag</orig></choice> 'tshal lo ||
+          <milestone unit="section" n="Introductory verses (1b1-1b3)"/>
+         <lg><l>gang zhig 'o ma'i mtsho' nang pad zla'i dbus gnas rdo rje'i dkyil krung bzhugs ||</l>
+         <l>zhal gcig zla ba <lb n="1b2"/> ltar dkar phun 'tsh[o]gs rgyan ldan mchog sbyin ud dpal bsnams ||</l>
+         <l>glang chen me tog dkar mdzes dbus gnas <rs type="deity">dus gsum sangs rgyas</rs> kyis bstod cing ||</l>
+         <l>'gro ba'i mun sel <rs type="deity">gzhon nu blo gros</rs> bsam mi khyab la bstod bya (read: byas?) ste ||</l>
+         <l>rtog ge yang <lb n="1b3"/> dag shes pas (em. -&gt; pa'i) gsungs pa'i tshul dang che ba brjod pa dang ||</l>
+         <l>de dang ldan la 'jug tshul <rs type="work" ana="corpusmd:named_reference" ref="db:5301">ye shes rdo rje rin chen</rs> brtsam par bya ||</l></lg>
+<note type="translation">Having honored gZhon nu blo gros, the inconceivable, who eliminates the darkness of the world,
+Who is honored by the Buddhas of the three times residing in the middle of beautiful white elefant-flowers
+Who is sitting in the position of the cross-legged vajra (vajraparyaṅka ) on a seat in the center of the moon-disk above the lotus in the ocean of milk
+Who has one face, white like the moon, adorned by perfect ornaments, holding the lotus (in the left hand,), and making the boon-granting mudra (with the right hand)
+I will compose the “Precious vajra (of) wisdom” a way of entering into (i) the way logic,  i.e. correct cognition, is taught and (ii) statement of greatness, and (iii) into that which has it (this greatness).
+</note></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="2331.4 log shes"/>
          <milestone unit="section" n="2331.41 mtshan nyid"/>
-         log shes kyi spyi'i <abbr>mtshan nyid</abbr> ni don dang mi mthun par 'dzin pa la <rs type="person" ana="corpusmd:named_reference" ref="db:3831">phya pa</rs> bzhed pa <note type="editorial">The ascription of this view to Phya pa seems mistaken. A similar view is ascribed to  (ID:3864) in work (ID:5507), and it is mentioned anonymously in work (ID:4771)</note> mi 'thad de | dngos po'i don dang mi mthun par 'dzin pa yin na | <lb n="9a4"/> dngos <abbr>med</abbr> 'jal ba'i tshad ma <note type="gloss">log shes su thal bas</note> la khyab ches la | shes bya'i don dang mi mthun par 'dzin pa yin na zla 2 la de <abbr>med</abbr> pas de log shes ma yin par thal lo ||</seg><seg type="excerpt" xml:id="ex088052025-05-2615-53-11" status="finalized">yang rang yul <choice><reg>med pa la yod par</reg><orig>‹med pa la yod par›</orig></choice> sgro 'dogs pa zhes <rs type="person" ana="corpusmd:named_reference" ref="db:3839">tsang nag pa</rs> 'dod pa <note type="editorial">This definition fits mTshur ston's (ID:44315) definition in sGron ma (ID:5292), but not exactly that of gTsang nag pa in bsDus pa (ID:4550). </note> mi 'thad de | de lta na shes bya dang mi mthun par 'dzin pa <note type="gloss">log shes kyi mtshan nyid </note> yin pa cis dgag |</seg>
-      <seg type="excerpt" xml:id="ex088052025-05-2616-07-01" status="finalized"><milestone unit="section" n="2331.5 the tshom"/>
-         <milestone unit="section" n="2331.51 mtshan nyid"/> the tshom kyi <abbr>mtshan nyid</abbr> ni <note type="gloss">mtha' 1 du ma nges par <choice><orig>zhan</orig><reg>zhen</reg></choice> pa'o |</note> mtha' gzhan du 'dzin pa'i dogs pa dang bcas pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">rtsang</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs> gsung</note> ste |</seg>
-         <seg type="excerpt" xml:id="ex088052025-05-2616-12-23" status="finalized"><milestone unit="section" n="1.i rigs kyi spyi dang bye brag"/>dang po ni | khyab <note type="gloss">bya ba</note><note type="editorial">phya?</note> che chung ma yin te stong nyid spyi buM pa bye brag du 'gyur la | 'dod na stong nyid mngon sum tshad mas nges par 'gyur ro || khyab <lb n="12a8"/> byed <note type="gloss">yang la la <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs></note> ni spyi | khyab bya ni bye brag ma yin te | mi rtag pa dang yod pa spyi bye brag du thal bas 'dod na mi rtag pa'i don yang mngon sum tshad mas grub par 'gyur ro || ldog pa 1 rkyang dang 2 'tshogs kyang ma yin te | dbyug pa dang dbyug pa can yang der thal ba 'dod na de 2 bdag 1 par 'gyur ro || <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">rtsang nag pa</rs></note> rigs mi mthun las log pa'i ldog pa 1 <pb n="12b"/><lb n="12b1"/> rkyang dang | ldog pa 1 rkyang de nyid kyis ldog pa 2 pa zin pa zhes pa | 
+         log shes kyi spyi'i <abbr>mtshan nyid</abbr> ni don dang mi mthun par 'dzin pa la <rs type="person" ana="corpusmd:named_reference" ref="db:3831">phya pa</rs> bzhed pa <note type="editorial">The ascription of this view to Phya pa seems mistaken. A similar view is ascribed to  (ID:3864) in work (ID:5507), and it is mentioned anonymously in work (ID:4771)</note> mi 'thad de | dngos po'i don dang mi mthun par 'dzin pa yin na | <lb n="9a4"/> dngos <abbr>med</abbr> 'jal ba'i tshad ma <note type="gloss">log shes su thal bas</note> la khyab ches la | shes bya'i don dang mi mthun par 'dzin pa yin na zla 2 la de <abbr>med</abbr> pas de log shes ma yin par thal lo ||</ab>
+      <gap reason="omitted"/>
+      <ab><choice><reg>med pa la yod par</reg><orig>‹med pa la yod par›</orig></choice> sgro 'dogs pa zhes <rs type="person" ana="corpusmd:named_reference" ref="db:3839">tsang nag pa</rs> 'dod pa <note type="editorial">This definition fits mTshur ston's (ID:44315) definition in sGron ma (ID:5292), but not exactly that of gTsang nag pa in bsDus pa (ID:4550). </note> mi 'thad de | de lta na shes bya dang mi mthun par 'dzin pa <note type="gloss">log shes kyi mtshan nyid </note> yin pa cis dgag |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="2331.5 the tshom"/>
+         <milestone unit="section" n="2331.51 mtshan nyid"/> the tshom kyi <abbr>mtshan nyid</abbr> ni <note type="gloss">mtha' 1 du ma nges par <choice><orig>zhan</orig><reg>zhen</reg></choice> pa'o |</note> mtha' gzhan du 'dzin pa'i dogs pa dang bcas pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">rtsang</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs> gsung</note> ste |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="1.i rigs kyi spyi dang bye brag"/>dang po ni | khyab <note type="gloss">bya ba</note><note type="editorial">phya?</note> che chung ma yin te stong nyid spyi buM pa bye brag du 'gyur la | 'dod na stong nyid mngon sum tshad mas nges par 'gyur ro || khyab <lb n="12a8"/> byed <note type="gloss">yang la la <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs></note> ni spyi | khyab bya ni bye brag ma yin te | mi rtag pa dang yod pa spyi bye brag du thal bas 'dod na mi rtag pa'i don yang mngon sum tshad mas grub par 'gyur ro || ldog pa 1 rkyang dang 2 'tshogs kyang ma yin te | dbyug pa dang dbyug pa can yang der thal ba 'dod na de 2 bdag 1 par 'gyur ro || <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">rtsang nag pa</rs></note> rigs mi mthun las log pa'i ldog pa 1 <pb n="12b"/><lb n="12b1"/> rkyang dang | ldog pa 1 rkyang de nyid kyis ldog pa 2 pa zin pa zhes pa | 
         yang spu ris gzung dka' bas | bye brag <choice><reg>de</reg><orig>‹de›</orig></choice> la ltos pa'i zhes gzhir bzhag ste | des na dbyug pa can la de <abbr>med</abbr> de skyes bu dbyug pa can de skyes bu nang mtshan las log pa'i bye brag yin gyi | dbyug pa nang mtshan las ma log pas dbyug pa'i bye brag ma yin no gsung |
-<rs type="person" ana="corpusmd:unnamed_reference" ref="db:4099">kho bo</rs> <lb n="12b2"/> ni | nang mtshan du ma phye bar ril por brjod pa 'am bsaMs pa ni spyi la | phye ba ni bye brag du 'thad do bsaM mo ||</seg>
-<seg type="excerpt" xml:id="ex088052025-05-2616-04-27" status="finalized">yang 'das ma 'ongs kyi rnam pa snang stobs kyis de rang gi rang mtshan byung pa dang ma byung pa'i sgro 'dogs chod pa yin zer ba <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">gtsang nag</rs></note> mi 'thad de | rnam pa zhes bya ba rang mtshan gyi rnam pa<choice><reg>'i</reg><orig>‹'i›</orig></choice> sgra don nam <abbr>med</abbr> pa'i don gsal ba snang pa yin | dang po ltar na  <lb n="15a5"/> 'gags pa dang ma skyes pa'i rang mtshan snang par 'gal | 2 pa dang 3 pa ltar na | sangs rgyas 'khrul shes can du thal lo ||</seg><seg type="excerpt" xml:id="ex088052025-05-2616-02-05" status="finalized"> <lb n="15a6"/> des na sangs rgyas la yul dus kyis chod pa <abbr>med</abbr> de rnal 'byor ba'i rtogs pa bsaM gyis mi khyab pa'i phyir te | de ltar yang <rs type="work" ana="corpusmd:named_reference" ref="db:3772">rnaM 'grel</rs> las |
+<rs type="person" ana="corpusmd:unnamed_reference" ref="db:4099">kho bo</rs> <lb n="12b2"/> ni | nang mtshan du ma phye bar ril por brjod pa 'am bsaMs pa ni spyi la | phye ba ni bye brag du 'thad do bsaM mo ||</ab>
+      <gap reason="omitted"/>
+      <ab><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">gtsang nag</rs></note> mi 'thad de | rnam pa zhes bya ba rang mtshan gyi rnam pa<choice><reg>'i</reg><orig>‹'i›</orig></choice> sgra don nam <abbr>med</abbr> pa'i don gsal ba snang pa yin | dang po ltar na  <lb n="15a5"/> 'gags pa dang ma skyes pa'i rang mtshan snang par 'gal | 2 pa dang 3 pa ltar na | sangs rgyas 'khrul shes can du thal lo ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n="15a6"/> des na sangs rgyas la yul dus kyis chod pa <abbr>med</abbr> de rnal 'byor ba'i rtogs pa bsaM gyis mi khyab pa'i phyir te | de ltar yang <rs type="work" ana="corpusmd:named_reference" ref="db:3772">rnaM 'grel</rs> las |
        <quote><lg>
             <l>gzung dang 'dzin pa'i shes pa ni ||</l>
 <l>               ma dag skye bo las yin te ||</l>
             <l><abbr>rnal 'byor</abbr> rtogs pa bsam mi khyab ||</l> 
             <l>phra srabs <abbr>la sogs</abbr> ngo bo'i phyir |</l>
          </lg></quote>
-         zhes <rs type="person" ana="corpusmd:unnamed_reference">bla ma mkhas pa</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">gtsang</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs></note> gsung |</seg>
-      <seg type="excerpt" xml:id="ex088052025-05-2615-57-58" status="finalized"> <milestone unit="section" n="221.31 yang dag rtags kyi mtshan nyid tshul gsum bye brag tu bshad pa"/>
+         zhes <rs type="person" ana="corpusmd:unnamed_reference">bla ma mkhas pa</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">gtsang</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs><note type="editorial"/>Alternatively: gTsang pa 'bre sgur (ID:3872)</note> gsung |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="221.31 yang dag rtags kyi mtshan nyid tshul gsum bye brag tu bshad pa"/>
          dang po <lb n="15b8"/> la 2 te |<abbr>mtshan nyid</abbr> ngos bzung pa dang | de <abbr>mtshan nyid</abbr> du 'gyur tshul lo ||
          <milestone unit="section" n="221.311 mtshan nyid ngos bzung pa"/>
-         dang po la | phyogs chos ni grub bsal <abbr>med</abbr> pa'i gzhi la rtags dbyer <abbr>med</abbr> kyi ldog pa tha dad du rten par tshad mas nges pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3831">phya</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs></note> zer ba ni ma yin te | stong nyid la sgrub chos ma dor bas ma yin dgag du sgrub pa na grub bsal <abbr>med</abbr> pa'i stong nyid la brtags te dbyer <abbr>med</abbr> kyi ldog pa tha dad du yod pas phyogs <pb n="16a"/><lb n="16a1"/> chos yod par thal ba'i phyir ro ||</seg>
-
-
-         <seg type="excerpt" xml:id="ex88052023-10-044" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:5302">tshad ma sde bdun kyi de kho na nyid bsdus pa</rs> | zhes bya ba | <rs type="deity">bde bar gshegs pa</rs>'i bstan pa lnga brgya' bdun pa la <lb n="21a2"/> bab pa'i tshe | me mo glang gi lo la | <rs type="place" ana="corpusmd:named_reference" ref="db:5718">gte' ra bkra shis dbu mang gi dgon pa</rs>r | brtul zhugs kyi khur 'dzin cing | <choice><orig>rde</orig><sic>sde</sic></choice> snod rab 'byams la mang du thos pa'i shag kya'i dge slong | bla ma mkhas pa chen po <rs type="person" ana="corpusmd:named_reference" ref="db:4098">rdo rje dbang grags</rs><note type="gloss">dus rab bco lnga pa'i mi</note><note type="editorial">This note is by a different hand - likely modern - situates rDo rje dbang grags in the 15th century</note> kyis sbyar pa las |
+         dang po la | phyogs chos ni grub bsal <abbr>med</abbr> pa'i gzhi la rtags dbyer <abbr>med</abbr> kyi ldog pa tha dad du rten par tshad mas nges pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3831">phya</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs></note> zer ba ni ma yin te | stong nyid la sgrub chos ma dor bas ma yin dgag du sgrub pa na grub bsal <abbr>med</abbr> pa'i stong nyid la brtags te dbyer <abbr>med</abbr> kyi ldog pa tha dad du yod pas phyogs <pb n="16a"/><lb n="16a1"/> chos yod par thal ba'i phyir ro ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Conclusive verses (20b8–21a1)"/>
+               <lg>  <l> <rs type="work" ana="corpusmd:named_reference" ref="db:3770">mdo</rs> dang <rs type="work" ana="corpusmd:named_reference" ref="db:3772">rnam 'grel</rs> las sogs rigs gzhung du ma dang || </l>
+           <l> myong pa'i stobs dang rtags stobs las 'ongs rigs pa rnams ||</l> <l><lb n="21a1"/> rtogs ngan dug chu'i dri mas ma sbags don gyi snying po blangs ||</l> <l>gzu' bo'i blo yis don dang don min rnam bshad byas || </l></lg>
+           <note type="translation"> I have obtained the essence of meaning – the reasoning coming from the force of experience and evidence and (from?) the many logical works such as PS and PV - unstained by the poison-water of bad conceptions.
+(I) have explained what is the meaning and what is not the meaning with a honest mind
+</note>
+           <lg><l>bsod nams 'di yis 'gro ba ma lus pa ||</l>  <l>kun mkhyen rgyal po myur du thob par shog ||</l></lg> <note type="translation">Owing to these merits, may all beings quickly obtain (the status) of king of omniscients!</note></ab>
+      <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5302">tshad ma sde bdun kyi de kho na nyid bsdus pa</rs> | zhes bya ba | <rs type="deity">bde bar gshegs pa</rs>'i bstan pa lnga brgya' bdun pa la <lb n="21a2"/> bab pa'i tshe | me mo glang gi lo la | <rs type="place" ana="corpusmd:named_reference" ref="db:5718">gte' ra bkra shis dbu mang gi dgon pa</rs>r | brtul zhugs kyi khur 'dzin cing | <choice><orig>rde</orig><sic>sde</sic></choice> snod rab 'byams la mang du thos pa'i shag kya'i dge slong | bla ma mkhas pa chen po <rs type="person" ana="corpusmd:named_reference" ref="db:4098">rdo rje dbang grags</rs><note type="gloss">dus rab bco lnga pa'i mi</note><note type="editorial">This note is by a different hand - likely modern - situates rDo rje dbang grags in the 15th century</note> kyis sbyar pa las |
                <rs type="person" ana="corpusmd:named_reference" ref="db:4099">shag kya'i dge bsnyen chos kyi bzhad pa</rs>s <rs type="person" ana="corpusmd:unnamed_reference">bla ma</rs> rngos las mang du thos te | lo shas tsam <lb n="21a3"/> lon pa'i tshe | <rs type="place" ana="corpusmd:named_reference" ref="db:6060">g.yag rde</rs>'i <rs type="person" ana="corpusmd:named_reference" ref="db:4293">dge bshes thod pa bsod nams seng ge</rs>s gsol ba btab nas | cung zad bsdus pa la dga' ba rnams kyi don du sbyar ba'i | <rs type="work" ana="corpusmd:named_reference" ref="db:5302">tshad ma'i de kho na nyid bsdus ba'i nye bar bsdus pa</rs> | <rs type="work" ana="corpusmd:named_reference" ref="db:5302">ye shes <note type="gloss">shes bya ji lta ba dang ji snyed pa rtogs pas</note> ¦ rdo rje <note type="gloss">gzhan rgol ba <abbr>thams cad</abbr> tshar gcod pas</note> ¦ rin po che <note type="gloss">sangs rgyas pa'i grub mtha' dgos pa kun 'byung pas</note> </rs>¦ zhes bya ba ||
                <note type="gloss">2 zhus dag go</note> rdzogs s+ho |||| °°Ti ! || 
+               
                <note type="translation">
                   The summary of the essence of the sevenfold collection of epistemology was composed by rDo rje dbang grags, the great learned Lama, the buddhism monk well-learned in the vast (three) baskets, holding the burden of vows, in the monastery of gTe’ ra bkra shis dbu mang, in the year of the fire-female-ox, in the 7th 500-year cycle of the teaching of the Sugata.
-                  The abbridged summary of the Summary of the Essence of Epistemology – the precious vajra (of) wisdom is completed.
-                  It was composed for the sake of those who rejoice in what is somewhat summarized, by the upasaka Chos kyi bzhad pa, after  a few years had passed since thad listend profusely direcly from the Lama, having been requested by Thod pa bSod nams seng ge, the spiritual teacher of g.Yag rde.
-
-</note>
-           </seg></body></text></TEI>
+                  The abbridged summary of the Summary of the Essence of Epistemology – the precious vajra (of) wisdom (ye shes rdo rje rin po che) is completed.
+                  It was composed for the sake of those who rejoice in what is somewhat summarized, by the upasaka Chos kyi bzhad pa, after  a few years had passed since thad listend profusely direcly from the Lama, having been requested by Thod pa bSod nams seng ge, the spiritual teacher of g.Yag rde.</note>
+           </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon addition (in smaller script)"/>
+         <lb n="21a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:7213">shag kya'i dge bsnyen chos kyi blo gros</rs> kyis <rs type="person" ana="corpusmd:named_reference" ref="db:4593">bla ma mkhas pa</rs>'i bka' las yang dag pa blangs pa'i chos so || I ||
+            rang re'i* slob bu ma gtogs pa rnams la bka' rgya mdzad do||  (sama ya)||'das par (b)ya(s pa) ma yin no ||</ab>
+    </body>
+  </text>
+</TEI>
