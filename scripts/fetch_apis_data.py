@@ -10,7 +10,7 @@ API_USER = os.getenv("TIBSCHOL_API_USERNAME", "")
 API_PASS = os.getenv("TIBSCHOL_API_PASSWORD", "")
 API_BASE_URL = "https://tibschol.acdh-ch-dev.oeaw.ac.at/apis/api/"
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format="%(asctime)s - %(levelname)s - %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
 )
@@ -36,6 +36,7 @@ def fetch_list_data(endpoint):
     """Fetch paginated list data from the given API endpoint."""
     all_data = []
     while True:
+        logging.debug("Fetching page from %s", endpoint)
         data = fetch_data(endpoint)
         if data is None or "results" not in data or not data["results"]:
             break
@@ -48,8 +49,14 @@ def fetch_list_data(endpoint):
 
 # Get Instances with relations
 if __name__ == "__main__":
-    list_data = fetch_list_data("apis_ontology.instance/")
-    print(f"Fetched {len(list_data)} instances.")
-    pd.DataFrame(list_data).to_csv(
-        f"data/tibschol_instances_with_relations.csv", index=False
-    )
+    # instances = fetch_list_data("apis_ontology.instance/")
+    # print(f"Fetched {len(instances)} instances.")
+    # pd.DataFrame(instances).to_csv(
+    #     f"data/instances.csv", index=False
+    # )
+    # works = fetch_list_data("apis_ontology.work/")
+    # print(f"Fetched {len(works)} works.")
+    # pd.DataFrame(works).to_csv(f"data/works.csv", index=False)
+    persons = fetch_list_data("apis_ontology.person/")
+    print(f"Fetched {len(persons)} persons.")
+    pd.DataFrame(persons).to_csv(f"data/persons.csv", index=False)
