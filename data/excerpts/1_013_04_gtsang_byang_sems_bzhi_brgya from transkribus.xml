@@ -2,16 +2,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-               <name ref="corpusmd:KC">Kyeongjin Choi</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-               <name ref="https://kaken.nii.ac.jp">研究活動スタート支援 (Grant-in-Aid for Research Activity Start-up )</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i rnal 'byor spyod pa bzhi' brgya pa'i dka' ba'i gnad bshad pa<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
+            <author ref="apis:3839">gtsang nag pa brtson 'grus seng ge<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -68,8 +60,29 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">(From research project [M3J8XFVK])&#13;
+Script: 'bru tsha.&#13;
+Folio numbering mostly not visible or legible. In the left margin of fol. 5: pan tsa (=Skt. pañca) in addition to lnga. In the left margin of fol. 2: du spo (?) above gnyis (only "i" being visible).&#13;
+The text starts on the recto of the first folio (no cover page).&#13;
+Lines per folio: 14; 16 on fol. 6b.&#13;
+Orthography:&#13;
+- Numerals used for numbers &#13;
+- Frequent abbreviations (e.g., for thams cad, nyon mongs, etc.)&#13;
+- Frequent additional suffix –’a (e.g., dpe’)&#13;
+- Alternative prefixes (e.g., rngos or sngos for dngos)&#13;
+- Bindu for m&#13;
+- Always a tsheg before shad (or double shad)&#13;
+Heavily annotated in the margins and between the lines.&#13;
+The bottom part of the last line on fol. 4a, 5a, and 6a has been cut off in the reproduction.</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:KC">Kyeongjin Choi</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+               <name ref="https://kaken.nii.ac.jp">研究活動スタート支援 (Grant-in-Aid for Research Activity Start-up )</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

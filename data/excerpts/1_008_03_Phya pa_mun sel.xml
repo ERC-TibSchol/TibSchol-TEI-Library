@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">Mun sel</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma yid kyi mun sel</title>
+            <author ref="apis:3831">phywa pa chos kyi seng ge<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -65,8 +59,35 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">64 x 10.2</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+Lines per folio: 9; 8 on fol. 28b; 10 on fol. 57b; 4 on fol. 96a.&#13;
+Numbering in letters on the recto of the folios, from 2 to 96. &#13;
+Folio number on last folio: go drug bzhugs s+ho.&#13;
+An additional folio numbered "nyer brgyad gong ma" (upper 28) occurs between fol. 27 and fol. 28. &#13;
+Images of folios 87a and 86b are misplaced in the [Z5AUD7GQ]. They appear in the following order: 86a (p. 606), 87b (p. 607), 87a (p. 608), 86b (p. 609), 88a (p. 610).&#13;
+Orthography:&#13;
+- Palatalization of ma by ya btags (frequent on the first folio, rare afterwards)&#13;
+- Superabundant 'a rjes 'jug (ex. gzhi', dbyeʾ)&#13;
+- Flexible use of prefixes for verbal forms and their derivatives: sgrub bya/bsgrub bya, sgrub pa/bsgrub pa, gzung bya/bzung bya, gzung don/bzung don, gzung yul/bzung yul, gcad pa'i yul can/bcad paʾi yul can&#13;
+- The la don takes the form du after final –b (ex. kun rdzob du, rab du dbye ba) and final –g (ex. cig du)&#13;
+-  The particle pa/ba takes the form pa after final –ng (ex. mthong pa, snang pa) and final – l (ex. sel pa, but one sometimes finds ʾkhrul ba in alternance with 'khrul pa)&#13;
+- Different spelling used alternatively for some words (ex. cig or gcig, the tsom or the tshom)&#13;
+- Spelling differing from classical Tibetan, used consistently: log rtogs (for log rtog), rkang thil (for rkang mthil)&#13;
+- la sogs pa consistently spelled lasogs pa&#13;
+- Enclitics ('ang, 'am, 'i, 'o) frequently appear as a separate syllable&#13;
+- Consistent use of the tsheg before a shad.&#13;
+- Use of the bindu instead of final ma (especially in insertions)&#13;
+- Character ṇa for med (rare)&#13;
+- Use of the reverse i (gigu log) (rare, ex. 3b8: 'di'ï, 6b2 ngo bo cïg, 6b2 po'ï)&#13;
+- Use of numerals for numbers (ex. 2 for gnyis) or for their phonetic value (ex. skad 1 for skad cig)&#13;
+Insertions below the line or in the top/bottom margins (mostly corrections; some additional glosses)</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

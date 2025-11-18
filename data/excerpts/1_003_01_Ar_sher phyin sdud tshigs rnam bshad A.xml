@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">sher phyin sdud bshad</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">shes rab pha rol phyin pa sdud pa tshigs su bcad pa'i rnam par bshad pa</title>
+            <author ref="apis:3816">ar byang chub ye shes<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -65,8 +59,23 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">66 x 10</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+Orthography:&#13;
+- Bindu for m&#13;
+- Palatalization of m found only in interlinear notes&#13;
+- Numerals used for numbers&#13;
+- Abbreviations (e.g., for sems can, ye shes, thams cad…)&#13;
+- Superabundant 'a rjes 'jug (e.g., brtse', bzhi')&#13;
+- Particle pa/ba takes the form pa after final ng&#13;
+- bstan chos for bstan bcos&#13;
+Numerous interlinear annotations (some of which corrections) and marginal annotations. Long addition and commentary on the post-colophon verses in small script at the bottom of the last folio. Other additions in thick ink at the bottom of 63a and of 63b, some in very large characters, some in characters of the same size as the text, written clumsily by a beginner - these seem unrelated to the text.</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

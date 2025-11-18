@@ -107,16 +107,45 @@ def process_tei_header(src_header):
             continue
 
     if not instance_data:
-        raise ValueError("No valid instance data found.")
+        raise ValueError(f"No valid instance data found - {idnos}")
 
     title.find("tei:title", namespaces=NS).text = instance_data.get("work_name")
     author = title.find("tei:author", namespaces=NS)
     author.text = instance_data.get("author_name")
     author.set("ref", f"apis:{instance_data.get('author_id')}")
+    principal = title.find("tei:principal", namespaces=NS)
+    funder = title.find("tei:funder", namespaces=NS)
+    if principal is not None:
+        title.remove(principal)
+    if funder is not None:
+        title.remove(funder)
+
+    # Create new <respStmt> for principal
+    resp_stmt_principal = etree.Element(f"{{{NS['tei']}}}respStmt")
+    resp_stmt_principal.append(principal)
+
+    # Create new <respStmt> for funder
+    resp_stmt_funder = etree.Element(f"{{{NS['tei']}}}respStmt")
+    resp_stmt_funder.append(funder)
+
+    sourceDesc = fileDesc.find("tei:sourceDesc", namespaces=NS)
+    physDesc = etree.SubElement(sourceDesc, f"{{{NS['tei']}}}physDesc")
+    objectDesc = etree.SubElement(physDesc, f"{{{NS['tei']}}}objectDesc")
+    supportDesc = etree.SubElement(objectDesc, f"{{{NS['tei']}}}supportDesc")
+    support = etree.SubElement(supportDesc, f"{{{NS['tei']}}}support")
+    additional = etree.SubElement(physDesc, f"{{{NS['tei']}}}additional")
+    additional.set("n", "Item description")
+    additional.text = instance_data.get("item_description", "unknown")
+
+    dimensions = etree.SubElement(support, f"{{{NS['tei']}}}dimensions")
+    dimensions.set("unit", "cm")
+    dimensions.set("scope", "width x height")
+    dimensions.text = instance_data.get("dimension", "unknown")
+    fileDesc.append(resp_stmt_principal)
+    fileDesc.append(resp_stmt_funder)
     header.append(deepcopy(fileDesc))
     header.append(deepcopy(encodingDesc))
     header.append(deepcopy(profileDesc))
-    print(instance_data)
     if bad_idnos:
         raise ValueError(f"Bad idnos found: {bad_idnos}")
     if not idnos:

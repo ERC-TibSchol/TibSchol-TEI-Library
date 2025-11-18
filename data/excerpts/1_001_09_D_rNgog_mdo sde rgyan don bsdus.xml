@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">mdo sde rgyan don bsdus</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">mdo sde rgyan gyi don bsdus</title>
+            <author ref="apis:3786">rngog blo ldan shes rab<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -66,8 +60,30 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">62.5 x 10.5</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+Number on the last folio: 24. No folio with the number 22, but no text appears to be missing between 21b and 23a.&#13;
+Lines per folio: 10; 11 on fol. 24b.&#13;
+Orthography:&#13;
+- Bindu for m&#13;
+- Palatalization of m (e.g., myi, myes)&#13;
+- Particle pa/ba takes the form ba after final –n (with some exceptions)&#13;
+- Particle ba sometimes used for pa (e.g., khyad bar, sgrub ba)&#13;
+- Frequent reverse i (e.g., 23b3)&#13;
+- lastsogs and la.sogs for la sogs&#13;
+- Frequently sdug sngal (in most cases corrected to sdug ‹b›sngal) for sdug bsngal&#13;
+- Frequent alternative prefix b- for g- (e.g., bzhan for gzhan)&#13;
+- Enclitic particles (e.g., 'am) written as a separate syllable&#13;
+- Additional b- prefix (e.g., bsgrub pa)&#13;
+- Alternative prefix r- instead of d- (e.g., rgos for dgos, rgu for dgu) and 'a- instead of m- (e.g., 'gon po)&#13;
+- A few abbreviations (e.g. yongs su, tshigs su, grub bo)&#13;
+There are many scribal mistakes, such as skipped words, as well as dropped prefixes, some of which may reflect older orthography that a subsequent reader corrected, although not systematically. Interlinear annotations (corrections and glosses). A longer insertion on fol. 21b5.</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>

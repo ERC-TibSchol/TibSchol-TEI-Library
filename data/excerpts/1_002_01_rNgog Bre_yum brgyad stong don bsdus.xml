@@ -3,14 +3,8 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">'Bre_yum brgyad stong don bsdus</title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
+            <title type="main" xml:lang="bo-Latn-x-wylie">yum brgyad stong pa'i don bsdus</title>
+            <author ref="apis:3807">'bre shes rab 'bar<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
             <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
             <respStmt>
                <resp>Transcribed by</resp>
@@ -66,8 +60,28 @@
          </publicationStmt>
          <sourceDesc>
             <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">64 x 9</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+Fol. 1 missing. Two folios between fol. 5 and 7, numbered "drug gong ma" and "drug."&#13;
+Folio number on last folio: nye gnyis bzhugs so&#13;
+Orthography:&#13;
+- Palatalization of m (e.g., dmyigs), but not systematic&#13;
+- Bindu for m&#13;
+- Numerals used for numbers&#13;
+- Additional 'a rjes 'jug (e.g., dpe', dgu')&#13;
+- the tsom for the tshom&#13;
+- chu.ngu (or chung_ngu?) for chung ngu&#13;
+- b frequently not closed on the top (looking like p) where b is expected (e.g., byang chub)&#13;
+- Space used with the value of shad&#13;
+- A few abbreviations (e.g., for thams cad, sems can)&#13;
+- In the interlinear notes, Na for myed&#13;
+Interlinear notes referring to the Tibetan translation of the base text and some glosses in cursive script (notably, indicating the absence of a corresponding commentary). A number of insertions (corrections). On fol. 15a, a few insertions in dbu can, e.g., fols. 13b, 15a.</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
