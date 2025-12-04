@@ -1,4 +1,4 @@
-# Digital library of textual fragments
+# TibSchol digital library of textual fragments
 
 This repository contains the digital library of textual fragments in TEI format created in the framework of the project *The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).* Cf. [https://www.oeaw.ac.at/ikga/tibschol](https://www.oeaw.ac.at/projects/tibschol/home) for more information.
 
