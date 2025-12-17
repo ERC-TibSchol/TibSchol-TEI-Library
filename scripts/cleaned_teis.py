@@ -28,7 +28,11 @@ def process_tei_body(src_body):
             # check that child.tag is a string
             if not isinstance(child.tag, str):
                 continue
-            if child.tag.endswith("seg") and child.get("type") == "excerpt":
+            if (
+                child.tag.endswith("seg")
+                and child.get("type") == "excerpt"
+                and child.get("status") in ("finalized", "reviewed", "edited")
+            ):
                 yield child
             # Recurse into children
             yield from recursive_find_segs(child)
