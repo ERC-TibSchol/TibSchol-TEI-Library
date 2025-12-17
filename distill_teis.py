@@ -27,7 +27,7 @@ def process_tei_files(tei_repo):
 
         # All refs still available if needed
         seg_elements = tree.xpath(
-            '//tei:seg[@type="excerpt" and (@status="finalized" or @status="reviewed")]',
+            '//tei:seg[@type="excerpt" and (@status="finalized" or @status="reviewed" or @status="edited")]',
             namespaces=NS,
         )
         if not seg_elements:
