@@ -2,23 +2,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
    <titleStmt>
-				<!--preliminary title taken from source document-->
-   <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam nges kyi TIk+ka blo gsal mgul rgyan</title>
-   <author ref="apis:4017">byang chub sems dpa' dz+nya na shrI<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-   <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam nges kyi TIk+ka blo gsal mgul rgyan</title>
+   <author ref="apis:4017">byang chub sems dpa' dz+nya na shrI</author>
    <respStmt>
     <resp>Transcribed by</resp>
     <name ref="corpusmd:PH">Pascale Hugon</name>
-    <name ref="corpusmd:YF">Yoichi Fukuda</name><!--TODO Q what do we do with people who are not in the project?-->
-   </respStmt>
+    <name ref="corpusmd:YF">Yoichi Fukuda</name></respStmt>
    <respStmt>
     <resp>TEI Markup by</resp>
     <name ref="corpusmd:PH">Pascale Hugon</name>
    </respStmt>
-   <!-- TODO: add any other contributors and their roles here -->
-   <!-- end of responsibility statments specific to this document -->
-   <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
    <respStmt>
     <resp>Data Modelling</resp>
     <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -43,14 +36,13 @@
     <resp>Technical Supervision</resp>
     <name ref="corpusmd:DS">Daniel Schopper</name>
    </respStmt>
-   <!-- responsibility statments applying to all documents -->
    </titleStmt>
    <editionStmt>
    <edition>Digital Edition in Wylie with TEI Markup</edition>
    </editionStmt>
    <publicationStmt>
    <publisher>Austrian Academy of Sciences</publisher>
-   <availability status="restricted">
+   <availability status="public">
     <licence target="https://creativecommons.org/licenses/by/4.0/">
      <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
     </licence>
@@ -59,7 +51,7 @@
    <date>2023</date>
    </publicationStmt>
    <sourceDesc>
-   <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+   <p/>
    <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">First folio missing. &#13;
 Folio number on the last folio: 102.</additional></physDesc></sourceDesc>
   <respStmt><principal>
@@ -104,8 +96,7 @@ Folio number on the last folio: 102.</additional></physDesc></sourceDesc>
    </listPrefixDef>
   </encodingDesc>
   <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
   </teiHeader>
   <text>
     <body>
@@ -132,8 +123,6 @@ Folio number on the last folio: 102.</additional></physDesc></sourceDesc>
 buM <abbr>pa'i</abbr> kha dog de khyod kyi gzung don du <abbr>med par thal</abbr> ¦ buM <abbr>pa'i</abbr> kha dog de khyod la rang <lb n="7b2"/> 'dra'i rnaM pa <abbr>dngos su</abbr> gtod byed min <abbr>pa'i phyir</abbr> ¦ <abbr>der thal</abbr> ¦ buM <abbr>pa'i</abbr> kha dog de khyod kyi dngos kyi spyod yul min <abbr>pa'i phyir</abbr> ¦ 
 dbang po'i <abbr>sogs</abbr> phyi ma <abbr>gnyis</abbr> dang <abbr>gcig</abbr> ¦ buM <abbr>pa'i</abbr> kha dog khyod kyi gzung don yin te ¦ des khyod rgyud nas bskyed pa'i phyir zhe na ¦
  'das pa yang <abbr>sogs</abbr> sngar dang <abbr>gcig</abbr> ¦| nyin par buM <abbr>gzugs</abbr> mthong mtshan mo buM <abbr>pa'i</abbr> reg bya la reg tshe 'di buM pa dmar po'o snyaM <abbr>pa'i</abbr> 'di rtog <abbr>chos can</abbr> ¦ <lb n="7b3"/> buM <abbr>pa'i</abbr> kha dog <abbr>pa'i</abbr> dbang po'i <abbr>mngon sum</abbr> <abbr>min par thal</abbr> ¦ buM <abbr>pa'i</abbr> kha dog de khyod kyi gzung don du <abbr>med</abbr> <abbr>pa'i phyir</abbr> ¦ <abbr>der thal</abbr> ¦ buM <abbr>pa'i</abbr> kha dog de khyod kyi <choice><orig>{°°°}dngos</orig><reg>dngos</reg></choice> kyi spyod yul min <abbr>pa'i phyir</abbr> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5551">dz+nya</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3780"><abbr>chos mchog</abbr> </rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tswa ba</rs>'o |</ab>
-      <gap reason="omitted"/>
-      <ab><!--meaning unclear; seems to be a reference to "becoming a translator and a Buddha" and not to a specific translator--><rs type="work" ana="corpusmd:named_reference" ref="db:3770">kun btus </rs>su | mnyan bya'i sgra smos pa chos can | dgos pa yod de | sgra spyi rdzas gzhan gnyan bya min par dam bcas pa'i don la nyan shes dbang po'i mngon sum <lb n="76b9"/>gyis mi gnod par bstan pa'i phyir | lo [\[]tsa [;]tsA [\]]ba dang bcom par thal lo || </ab>
       <gap reason="omitted"/>
       <ab><rs type="person" ana="corpusmd:named_reference" ref="db:5554">lha</rs><abbr> <rs type="person" ana="corpusmd:named_reference" ref="db:3780">chos mchog </rs> gi</abbr> dgongs pa <rs type="person" ana="corpusmd:named_reference" ref="db:4593">snga rabs pa</rs>s <choice><sic>blangs</sic><corr>khas blangs</corr></choice> pa dang <abbr>mi mthun</abbr> yang <rs type="work" ana="corpusmd:unnamed_reference" ref="db:7338"><!--could be a ref to Dharmottara's commentary-->'grel pa</rs> nyid la zhib tu spyad<!--for dpyad--> pas <abbr>nges so</abbr> ||</ab>
       <gap reason="omitted"/>

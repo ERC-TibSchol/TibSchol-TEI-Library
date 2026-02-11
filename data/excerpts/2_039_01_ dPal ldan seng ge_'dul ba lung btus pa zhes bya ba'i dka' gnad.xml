@@ -2,10 +2,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">dam pa'i chos 'dul ba lung kun las btus pa rin po che snang pa</title>
-            <author ref="apis:4010">ba ri pa dpal ldan seng ge<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">dam pa'i chos 'dul ba lung kun las btus pa rin po che snang pa</title>
+            <author ref="apis:4010">ba ri pa dpal ldan seng ge</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:SB">Serena Biondo</name>
@@ -14,10 +12,6 @@
                <resp>TEI Markup by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -42,14 +36,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -58,7 +51,7 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">46 x 9</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -102,14 +95,10 @@
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
     <body>
-      <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (30a4-8) (pp. 69:4-8)"/>
-         <lb n="30a4"/>… chos rje'i <lb n="30a5"/> chos 'dul chu skyes dga' tshal gang|| 'jug ldog shes bya'i 'dab brgya rgyas pa la|| gnas brtan seng ge sbrang bus sbrang rtsi btus|| blo ldan slob ma ro brgyas dges par mdzod|| 'dir nongs de kun <lb n="30a6"/> kun mkhyen de la bshags|| legs pa gang bskrun des 'dir 'gro ba kun|| legs pa'i laM zhugs legs mchog drang srong che|| skyabs med skyob pa'i rdzogs sangs myur thob shog|| || </ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (30a4-8) (pp. 69:4-8)"/><lb n="30a7"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5844">dam pa'i chos 'dul ba lung kun las btus pa rin po che snang pa</rs> zhes bya ba ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4010">mang du thos pa'i btsun pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4010">ba ri pa</rs></note> dpal ldan seng ge</rs>s ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5661">bar ri'i dgon pa</rs>r bris pa'o ||</ab>
     </body>

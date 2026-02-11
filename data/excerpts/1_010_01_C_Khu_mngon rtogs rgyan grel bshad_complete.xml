@@ -2,10 +2,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">shes rab gyi pha rol du phyin pa'i man ngag gi bstan chos mngon par rtogs pa’i rgyan ces bya ba'i 'grel pa'i tshig dang don gsal bar bshad pa</title>
-            <author ref="apis:3823">khu shes rab brtson 'grus<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">shes rab gyi pha rol du phyin pa'i man ngag gi bstan chos mngon par rtogs pa’i rgyan ces bya ba'i 'grel pa'i tshig dang don gsal bar bshad pa</title>
+            <author ref="apis:3823">khu shes rab brtson 'grus</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -15,10 +13,6 @@
                <resp>TEI Markup by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -43,14 +37,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -59,7 +52,7 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">64 x 9</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.&#13;
 Number on the last folio: 161.&#13;
 Fol. 1 missing.&#13;
@@ -110,13 +103,10 @@ Numerous annotations between the lines and in the margins, some in larger charac
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
     <body>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:unnamed_reference">dge ba'i bshes gnyen</rs> ni | <hi rendition="#TibetanView">yul gang la dgos pa gang gi don du | tshul ji ltar phyag 'tshal ba ste | chos gsuM gyis khyad par du byas nas phyag 'tshal ba ston pa ste | tshig gcig dang | phye dang gsuM dang | phyed kyis rim pa bzhin ston pa yin no</hi> zhes bzhed do ||</ab>
       <gap reason="omitted"/>
       <ab><rs type="person" ana="corpusmd:named_reference" ref="db:5611">jo bo 'buM <lb n="2a2"/> pa</rs> ni <rs type="school">dbu ma sgyu ma lta bu</rs> dang | <rs type="school">rab du mi gnas pa</rs> gnyis kyi don shes pa ste |
          dang po ni snang la bden pa'i chos kyis stong ba yin la | gnyis pa ni snang ba tsaM du yang mi gnas pa yin no ||</ab>

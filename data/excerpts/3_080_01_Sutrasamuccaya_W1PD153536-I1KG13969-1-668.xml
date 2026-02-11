@@ -2,21 +2,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="bo-Latn-x-wylie">chos mngon kun las btus pa'i tikka<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
-            <author ref="apis:7170">Anonymous (14)<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <title type="main" xml:lang="bo-Latn-x-wylie">chos mngon kun las btus pa'i tikka</title>
+            <author ref="apis:7170">Anonymous (14)</author>
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:"/>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
+               <name ref="corpusmd:"/>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -41,14 +36,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -57,7 +51,7 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">66 x 9.5</dimensions></support></supportDesc></objectDesc><additional n="Item description"></additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -101,29 +95,9 @@
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
-    <body>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3756">thogs myed</rs> la bshad | 
-				des <rs type="person" ana="corpusmd:named_reference" ref="db:3758">dbyig <lb n="N009"/>gnyen</rs> la bshad | 
-				des <rs type="person" ana="corpusmd:named_reference" ref="db:6262">blo brtan</rs> la bshad || 
-				<rs type="person" ana="corpusmd:named_reference" ref="db:6975">pan pyi ta gang pa spel</rs> la bshad | 
-				des <rs type="person" ana="corpusmd:named_reference" ref="db:6667">kha che 'ji na mi tra</rs> la bshad | 
-				des <rs type="person" ana="corpusmd:named_reference" ref="db:4222">ska ba dpal rtsegs</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:4226">cog ro lu'i rgyal mtshan</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:4227">sna nam ye shes</rs> ste gsum la bshad | 
-				de gsum gyis <rs type="person" ana="corpusmd:named_reference" ref="db:4229">sbas rgyal ba'i ye shes</rs> la bshad | 
-				des <rs type="person" ana="corpusmd:named_reference" ref="db:4230">gru rgyal ba'i ye shes</rs> la bshad | 
-				des <rs type="person" ana="corpusmd:named_reference" ref="db:4231">gru mchog gyi ye shes</rs> la bshad | 
-				des <rs type="person" ana="corpusmd:named_reference" ref="db:4232">se btsun gzhon nu</rs> la bshad | 
-				des <rs type="person" ana="corpusmd:named_reference" ref="db:4234">'gar mi yon tan
-			         <pb n="11a"/>
-                     <lb n="11a1"/> g.yung drung</rs> la bshad | 
-				des <rs type="person" ana="corpusmd:named_reference" ref="db:4235">khu ston brtson 'grus g.yung drung</rs> la bshad | 
-				des <rs type="person" ana="corpusmd:named_reference" ref="db:4237">ra</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4238">rgya </rs>la bshad |
-				de dag gis <rs type="person" ana="corpusmd:named_reference" ref="db:4291">brang</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4241">ko</rs> la bshad de |
-				de ltar mngon pa'i sems tsam gyi bdam ngag rgyud ma chad pa yin no || |</ab>
-    </body>
+    <body/>
   </text>
 </TEI>

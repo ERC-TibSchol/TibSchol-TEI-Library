@@ -49,14 +49,14 @@ def fetch_list_data(endpoint):
 
 # Get Instances with relations
 if __name__ == "__main__":
-    # instances = fetch_list_data("apis_ontology.instance/")
-    # print(f"Fetched {len(instances)} instances.")
-    # pd.DataFrame(instances).to_csv(
-    #     f"data/instances.csv", index=False
-    # )
-    # works = fetch_list_data("apis_ontology.work/")
-    # print(f"Fetched {len(works)} works.")
-    # pd.DataFrame(works).to_csv(f"data/works.csv", index=False)
-    persons = fetch_list_data("apis_ontology.person/")
-    print(f"Fetched {len(persons)} persons.")
-    pd.DataFrame(persons).to_csv(f"data/persons.csv", index=False)
+    instances = fetch_list_data("apis_ontology.instance/")
+    print(f"Fetched {len(instances)} instances.")
+    pd.DataFrame(instances).to_csv(
+         f"data/instances.csv", index=False
+     )
+    works = fetch_list_data("apis_ontology.work/")
+    print(f"Fetched {len(works)} works.")
+    pd.DataFrame(works).to_csv(f"data/works.csv", index=False)
+    # persons = fetch_list_data("apis_ontology.person/")
+    # print(f"Fetched {len(persons)} persons.")
+    # pd.DataFrame(persons).to_csv(f"data/persons.csv", index=False)

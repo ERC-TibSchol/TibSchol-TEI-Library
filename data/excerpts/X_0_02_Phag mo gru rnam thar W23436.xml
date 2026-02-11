@@ -2,10 +2,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">dkar brgyud gser 'phreng rnam thar 'brug ra lung gdan rabs yan</title>
-            <author ref="apis:7496">rgyal thang pa bden chen rdo rje<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">dkar brgyud gser 'phreng rnam thar 'brug ra lung gdan rabs yan</title>
+            <author ref="apis:7496">rgyal thang pa bden chen rdo rje</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:MI">Michael Ium</name>
@@ -16,10 +14,6 @@
                <name ref="corpusmd:MI">Michael Ium</name>
                 <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -44,14 +38,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -61,7 +54,7 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description"></additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -105,25 +98,9 @@
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
-    <body>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ref="db:3856" ana="corpusmd:named_reference">'gro ba'i bla ma phag mo <pb n="2b"/><lb n="2b1"/>gru pa </rs> nyid || dbus phyogs <rs type="person" ana="corpusmd:named_reference" ref="db:3834">stod lungs rgya</rs>'i grwa sar byon || snyen rdzogs mdzad nas mtshan nyid bshad chos slabs || mkhas mchog yongs su grogs la phyag 'tshal bstod ||</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3856">'gro ba'i bla ma phag mo gru pa</rs> nyid kyis ¦ nyid <lb n="8b7"/> la dbus kyi sa cha na yar gdan phebs ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3834">stod lungs rgya</rs>'i grwa sa bya bar byon | tshogs der phebs mi thog ja 'bul ba dang bcas pa mdzad do || 
- de'i gnangs la zhugs la yongs su rdzogs par bya ba'i phyir | snyen rdzogs mdzad par dgongs te <!--p. 403--><pb n="9a"/><lb n="9a1"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3915">dge ba'i bshes gnyen bya yul ba</rs> la mkhan po zhus | <rs type="person" ana="corpusmd:named_reference" ref="db:3834">stod lungs rgya</rs> yis slob dpon mdzad ¦</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3834">dge bshes rgya'i </rs> grwa sa der bzhugs | <rs type="person" ana="corpusmd:named_reference" ref="db:3834">dge bshes bya</rs><!--"bya" is here likely a mistake for "rgya" (phonological equiv.)--> rang gi drung du chos kyi dngos gzhi zhus ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3837">dge bshes g.yor po ba </rs> la zhar chos kyi slob dpon mdzad nas <lb n="9a3"/> tshad ma dang mngon pa lhag par slabs ¦ 
-  <rs type="person" ana="corpusmd:named_reference" ref="db:3915">dge bshes bya yul ba </rs> la 'dul ba slabs ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3844">dge bshes myang rin po che </rs> la byaMs chos la sogs pa kun slabs ¦ </ab>
-      <gap reason="omitted"/>
-      <ab><lb n="9a4"/> <rs type="place" ana="corpusmd:named_reference" ref="db:6650">dbus</rs> <rs type="place" ana="corpusmd:named_reference" ref="db:5915">rtsang</rs> du grwa skor mang po mdzad pas ¦ skyes bu de dag gi sus dang zin pa med cing | <rs type="place" ana="corpusmd:named_reference" ref="db:6650">dbus</rs> <rs type="place" ana="corpusmd:named_reference" ref="db:5915">rtsang</rs> 2 su mkhas pa'i grags pa chen po yang byung ngo |  
-  tshad ma'i chos kun <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge bshes bya pa </rs> rang gtso che bar gsan no | 
-  de nas <rs type="person" ana="corpusmd:named_reference" ref="db:7185">bla ma dmar </rs><lb n="9a5"/> gyi drung du gsang sngags kyi chos rtso? gsan no | 
-  dbus kyi phyogs der mdo sngags kyi chos la yang shin du mkhas par grags so | 
-  de ltar mtshan nyid slob pa'i dus su yang ¦ mi rtag pa rgyud la 'khrungs zhing | 'khor ba'i chos la skyo <lb n="9a6"/> shas che bar 'jig rten chos brgyad kun grol [READING SGROL] du shig shig 'gro ba byung zhing ¦ nges 'byung tshed pa yang thugs rgyud la 'khrungs pa byung ngo | thugs rgyud la 'khrungs dang ¦ res 1 mtshan nyid kyi chos la 'chad nyan mdzad de skyes <lb n="9a7"/> bu mkhas pa'i grags pa yang thob ¦ mtshan nyid kyi chos rnams la yig 'jogs Ti ka yang mang du mdzad do | mkhas mchog yong su grags la phyag 'tshal bstod | ces pa'i don to |</ab>
-    </body>
+    <body/>
   </text>
 </TEI>

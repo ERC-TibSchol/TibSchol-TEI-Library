@@ -2,10 +2,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i sbyor 'phreng yid bzhin nor bu</title>
-            <author ref="apis:4024">grags pa rgya mtsho bde legs 'byung gnas<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i sbyor 'phreng yid bzhin nor bu</title>
+            <author ref="apis:4024">grags pa rgya mtsho bde legs 'byung gnas</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -15,10 +13,6 @@
                <name ref="corpusmd:PH">Pascale Hugon</name>
                <name ref="corpusmd:TD">Tsering Drongshar</name>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -43,14 +37,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -60,7 +53,7 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">55 x 8.2</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.&#13;
 Folio number on the last folio: 89.&#13;
 Folio 45 missing.&#13;
@@ -107,8 +100,7 @@ Lines per folio: 7; 8 on 6a, 25, 42b, 46b-62a, 63a-88b; 9 on 32 and 89a.</additi
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
     <body>
@@ -151,31 +143,6 @@ Lines per folio: 7; 8 on 6a, 25, 42b, 46b-62a, 63a-88b; 9 on 32 and 89a.</additi
             <l xml:space="preserve"><abbr>rjes su</abbr> dpag pas nges par byed</l>
          </lg></quote>
         <abbr>ces so</abbr> ¦</ab>
-      <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Closing verses"/>
-        <l><rs type="work" ana="corpusmd:named_reference" ref="db:4785">tshad ma rnam par nges pa'i sbyor 'phreng yid bzhin nor bu</rs> 'di || </l>
-         <l>bdag dang (<abbr>rtags la ?</abbr>) (skal) 'tshungs don du bsaMs pa'i bsod nams des ||</l>
-         <l>smon 'jug <lb n="89a5"/> <abbr>byang chub</abbr> seMs kyis &lt;seMn&gt; (sems can) kun don du ||</l>
-         <l>'gro ba'i ded dpon rdzo<abbr>gs</abbr> <abbr>pa'i</abbr> <abbr>sang rgyas</abbr> myur 'grub shog ||</l>
-         <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4024">bdag</rs> kyang deng nas skye dang skye ba <abbr>thams cad</abbr> du ||</l>
-         <l>rnam dag rgyud pa gang yin de'i gzhung bzung nas ||</l>
-         <l>bla ma rnams kyi thugs dgongs <abbr>yongs su</abbr> rdzo<abbr>gs</abbr> pa dang ||</l>
-         <l>thub pa'i bstan la bya ba yun rings byed gyur <lb n="89a6"/> cig ||</l>
-         <l>lhag bsam dag pa'i rdzings babs nas ||</l>
-         <l><rs type="work" ref="db:4785" ana="corpusmd:named_reference">sbyor ba nor bu'i 'phreng ba</rs> 'di' ||</l>
-         <l>sgros snying brgya mtsho'i gling nas slangs (&gt;blangs) ||</l>
-         <l>de don gnyer rnaMs thugs dgyes mdzod ||</l>
-         <l>bsgros snying chen mo na yod pa'i don ji ltar na bzhin rang por (-&gt; dang por) bzhag pa la ; </l>
-         <l>zur du go bde bzung bla ba ni| <abbr>can ni</abbr> | 
-         bla ma'i <lb n="89a7"/> <rs type="work" ref="db:4785" ana="corpusmd:named_reference">sbyor ba yid bzhin nor bu'i 'phreng ba</rs> 'di ||</l>
-         <l><rs type="person" ana="corpusmd:named_reference" ref="db:3893">'jaM dbyangs 'od zer mgon po</rs> nas bzung ste ||</l>
-         <l><rs type="person" ana="corpusmd:unnamed_reference">bla ma rnaMs</rs> kyi thugs dgongs rdzo<abbr>gs</abbr> pa dang ||</l>
-         <l>blo gros mun sel sgros snying 'di nyid kyi||</l>
-         <l>lhag bsaM dag pas zhabs rtog la dmi<abbr>gs</abbr> te||</l>
-         <l>ston pa'i bstan la mi phyed dad thob pas||</l>
-         <l>rgyal ba <mentioned>rgya_mtsho</mentioned>'i thugs <lb n="89a8"/> rje las 'khrungs shing ||</l>
-         <l>shes bya <mentioned>rgya_mtsho</mentioned>'i tsho<abbr>gs</abbr> la dbang 'byor pas ||</l>
-         <l>skye dgu <mentioned>rgya mtsho</mentioned>'i 'dren pa mchog gyur pa ||</l></ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (89a8)"/>
             <l>rgyal ba'i myu gu <rs type="person" ana="corpusmd:named_reference" ref="db:4024">grags pa <abbr>rgya mtsho</abbr></rs>'am || </l>

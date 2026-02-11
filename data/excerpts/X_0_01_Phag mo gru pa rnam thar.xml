@@ -2,10 +2,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">phag mo gru pa'i rnam thar gzi brjid 'bar ba'i sgron ma</title>
-            <author ref="apis:7137">dpal chen chos kyi ye shes<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">phag mo gru pa'i rnam thar gzi brjid 'bar ba'i sgron ma</title>
+            <author ref="apis:7137">dpal chen chos kyi ye shes</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:AS">Alexander Schiller</name>
@@ -18,10 +16,6 @@
                <resp>Translation(s)</resp>
                <name ref="corpusmd:MI">Michael Ium</name>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -46,14 +40,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -63,7 +56,7 @@
                      <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description"></additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -107,23 +100,9 @@
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
-    <body>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ref="db:3834" ana="corpusmd:named_reference">stod lung rgya dmar</rs> gyi sar rta sga <lb n="4a5"/> phog sa byas nas | <rs type="person" ref="db:7167" ana="corpusmd:named_reference">dbas chen po</rs> ka ca che ba dang khyad med du spyad nas dpe cha la sogs pa thams cad khyad med du byas || dbu tshad rang brgyud nyan pa'i <rs type="person" ref="db:3837" ana="corpusmd:named_reference">zhar chos pa dge bshes g.yor nyan</rs> la zhus ||</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ref="db:3831" ana="corpusmd:named_reference">dge<lb n="4a6"/>bshes cha pa</rs> la sdig pa bsags pa'i sgrib pa lo brgyad bar du ma byang gsung| 
-            <!--[At that time, [rDo rje rgyal po] said he was impure/didn’t train [? in dbu/tshad?] for eight years due to the pollution of accumulating negative actions directed towards dGe bshes Cha pa.]--> </ab>
-      <gap reason="omitted"/>
-      <ab><rs type="place" ana="corpusmd:named_reference" ref="db:6492">skyi smad zul phu</rs>r byon nas ||<rs type="person" ana="corpusmd:named_reference" ref="db:3818">dge bshes bya 'dul</rs> la mkhan po zhus || <rs type="person" ana="corpusmd:named_reference" ref="db:3834">stod rgya</rs>s slob dpon mdzad || <rs type="person" ana="corpusmd:named_reference" ref="db:3816">ar</rs> la gsang ston zhus nas bsnyen rdzogs <pb n="4b"/><lb n="4b1"/> mdzad |</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3818">bya 'dul ba</rs> la mdo rtsa la sogs pa'i 'dul ba mang du gsan | <rs type="person" ana="corpusmd:named_reference" ref="db:3844">dge bshes nyang bran</rs> la byams chos la sogs pa'i spyod phyogs gsan ||</ab>
-      <gap reason="omitted"/>
-      <ab><lb n="4b2"/> thob | 
-               de'i skabs su <rs type="person" ana="corpusmd:named_reference" ref="db:4107">bka' gdams pa'i dge bshes ya gad pa</rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:7179">don steng pa</rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:3856">bya yul ba</rs> la sogs pa la <rs type="work">smon 'jug gi sems skyed</rs> zhus | <rs type="work">bstan rim gyi khrid</rs> zhus| </ab>
-    </body>
+    <body/>
   </text>
 </TEI>

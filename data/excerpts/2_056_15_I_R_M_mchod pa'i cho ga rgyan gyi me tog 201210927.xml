@@ -2,22 +2,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">mchod pa'i cho ga rgyan gyi me tog</title>
-            <author ref="apis:4006">rigs pa'i ral gri<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">mchod pa'i cho ga rgyan gyi me tog</title>
+            <author ref="apis:4006">rigs pa'i ral gri</author>
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:"/>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
+               <name ref="corpusmd:"/>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -42,14 +36,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -58,7 +51,7 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">43 x 6.5</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -102,15 +95,9 @@
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
-    <body>
-      <gap reason="omitted"/>
-      <ab><milestone unit="section" n="[Colophon (7a1–7a4)]"/>
-        ༄༅| |<rs type="work" ana="corpusmd:named_reference" ref="db:5005">phyogs bcu dus gsum gyi 'phags pa'i gang <lb n="7a2"/> zag thams cad mchod pa'i cho ga rgyan gyi me tog</rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:5948"><rs type="place" ana="corpusmd:named_reference" ref="db:5949">stod mnga' ris</rs> kyi 'dul ba 'dzin pa dge slongs mgon ldan 'od</rs> ces bya bas bskul nas <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge <lb n="7a3"/> slong bcom ldan ral gri</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dpal ldan snar thang gi dgon pa</rs>r bkod pa rdzogs so || 
-        'dis sems can tshad med pa'i don byed cing 'phags pa'i gang zag thams cad mnyes par byed par gyur <lb n="7a4"/> cig | dge'o |</ab>
-    </body>
+    <body/>
   </text>
 </TEI>

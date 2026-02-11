@@ -2,22 +2,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">legs spyad nyi ma'i 'od zer mtshon cha'i rgyal po</title>
-            <author ref="apis:4314">bu ston seng ge 'od (1)<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">legs spyad nyi ma'i 'od zer mtshon cha'i rgyal po</title>
+            <author ref="apis:4314">bu ston seng ge 'od (1)</author>
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:"/>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
                <name ref="corpusmd:TD">Tsering Drongshar</name>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -42,14 +36,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -59,7 +52,7 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description"></additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -103,8 +96,7 @@
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
     <body>
@@ -128,11 +120,6 @@
       <gap reason="omitted"/>
       <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs> na re dngos kyi dmigs pa byang chub dang ched du bya ba'i dmigs pa gzhan don de ni shes par bya'o || 
                        gong ltar na mdo bzhin du'o || mdo las ji skad bshad na bsdus dang rgyas pa'i sgo nas brjod ces zer | </ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:4025"><abbr>slob dpon</abbr>drug po</rs><!--gtsang drug pa rdo rje 'od zer?--> na re | 'du byed ni 'bad rtsol <lb n="47a3"/>yin pas 'du byed med pa'i sgra mi 'jug go ||
-        'di ni dbang po rdul yang sngon goms pa'i stobs kyis 'bad rtsol nas chung pa la byo' gsung ngo || 
-         gnas tsaM dus mi 'pho ba la <rs type="person" ana="corpusmd:named_reference" ref="db:4025"><abbr>slob dpon</abbr> drug po</rs><!--gtsang drug pa rdo rje 'od zer?--> na re | sngar gyi de ltar song na bsam gtan sel ma gsum yel du bsgom pa de 'bras bu che man chad
-        <lb n="47a4"/> skye bar 'gyur bsam gtan se la ma sgom pa'i phyir ro ||</ab>
       <gap reason="omitted"/>
       <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs> <abbr>la sogs</abbr> pa rnams na re dmigs pa dang po ma gtogs <lb n="28a7"/> pas chos 'ba' zhig brjod pas | dmigs pa bcu gcig skyon can gzhan skyon med do zer ro || 
         gnal pa de las bzlog nas nyer gsum po la can zhes pas gzhung la chad par 'dod do || lugs gsum dgag cing 'thad don brjod || <rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs> na re sgra mi rtag ces sam <pb n="28b"/><lb n="28b1"/> sgra'i mi rtag ces pa ni chos brjod dang khyad par gzhan spong gi sgra yin te | chos can sgras khyad par du byas nas chos mi rtag pa brjod pa'i phyir ro || 
@@ -169,14 +156,10 @@
 
         <lb n="54b1"/> par thal te | 'dod na <rs type="work" ana="corpusmd:named_reference" ref="db:5633">myang 'das kyi mdo</rs> dang 'gal lo || <rs type="person" ana="corpusmd:named_reference" ref="db:3720">klu grub</rs> kyi <rs type="work" ana="corpusmd:named_reference" ref="db:3715">rtsa bshe</rs> las | <quote><lg><l>'khor ba dang ni mya ngan 'das ||</l> <l>gnyis ni yod pa ma yin te ||</l> <l>'khor ba yongs su shes pa la ||</l> <l>mya ngan 'das shes rab tu brjod ||</l></lg> </quote> ces so || rtogs pa la thobs pa zhes <rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog lo</rs> gsung lo || </ab>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs><!--"kha" is not visible--> na re 'di la mchod pa cig bya'o ||</ab>
-      <gap reason="omitted"/>
       <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3805">gnyal pa</rs> na re srid zhi mnyam nyid kyi sbyor ba rnaM kun kho na'i bye brag tu 'dod cing | srid zhi mnyam nyid kyi sbyor ba tsam cig <lb n="61a7"/> sa bcu rgyun tha na yod par 'dod pa mi 'thad de | 'o na rnam sbyor yang sa bcu rgyun tha na yod par thal | srid zhi'i de de na yod pa'i phyir ro || </ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (68b4-68b7)"/>
       <rs type="work" ana="corpusmd:named_reference" ref="db:5314">legs spyad nyi ma'i 'od zer mtshon cha'i rgyal po</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:4314">shAkya'i dge slong <choice><reg>dbus bu ston</reg><orig>d°°°(ston)</orig></choice> <anchor xml:id="a1"/> <choice><reg>seng ge'i</reg><orig>°°°°°°</orig></choice> 'od<anchor xml:id="a2"/></rs> kyis <lb n="68b5"/> bkod pa'o || dge legs kyi dpag bsam phyogs bcu <abbr>thams cad</abbr> du rgyas par gyur cig | </ab>
-      <gap reason="omitted"/>
-      <ab><note type="gloss">zhus dag go</note> || <note type="gloss">phyi mo thi? lha|lhu bzhin bris so</note> || |bkrashispardugyurcig |</ab>
     </body>
   </text>
 </TEI>

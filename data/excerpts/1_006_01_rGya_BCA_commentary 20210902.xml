@@ -2,10 +2,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i spyod pa la 'jug pa'i tshig don gsal bar bshad pa</title>
-            <author ref="apis:3834">rgya dmar ba byang chub grags<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i spyod pa la 'jug pa'i tshig don gsal bar bshad pa</title>
+            <author ref="apis:3834">rgya dmar ba byang chub grags</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -21,10 +19,6 @@
                <name ref="corpusmd:KK">Kazuo Kano</name>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -49,14 +43,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -66,7 +59,7 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">64 x 10</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
 Fol. 4 missing.&#13;
 Orthography:&#13;
@@ -120,8 +113,7 @@ Numerous interlinear and marginal glosses and corrections by erasing and inserti
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
     <body>
@@ -138,10 +130,6 @@ Numerous interlinear and marginal glosses and corrections by erasing and inserti
          <l>lung bzhin legs bshad rtogs pa dran phyir bri ||</l></lg>
          <note type="translation">Having bowed down respectfully to the Sugata together with his Sons, who possesses the body of the doctrine, and to all who are worth worshiping, I will write a correct explanation of the words and meaning of the “Entrance Gate into the Practice of the Sons of the Victorious One” in conformity with Scriptures, in order to remember (my) understanding.</note>
          </ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:6137">'grel pa 'khan</rs> <note type="gloss"><rs type="person" ref="db:6137" ana="corpusmd:named_reference">shes rab blo gros</rs></note> na re | spangs pa chos <lb n="2b5"/> gsum dang ldan pa de gang zag brgyad las khyad par du byas pa ste | so so'i skye bo dang | bsam brtan dang po nas srid rtse'i bar kyi   phyi rol pa'i 'dod chags dang bral ba dang | 'phags pa rgyun du zhugs pa dang | lan cig phyir 'ong pa dang | bya chub sems pa dang | phyir mi 'ong pa dang | dgra' bcom pa dang | rang rgyal ba rnams las so |</ab>
-      <gap reason="omitted"/>
-      <ab><note type="gloss">gzhung 'og ma ma sbyar kyang logs su thob byed pas skyon .... tha dad de bsaM pa phun suM tshogs pa ni thar pa'i  .... gyi dge rtsa bsod naMs bya pa 'dod pa'i  blo yin la ... dang 'bras bu dkon mchog dang bden pa la ...  pa yin no zhes slob dpon .....</note> gzhung 'og ma nas ni phan yon ston par | 'grel par 'chad pa ltar nyid legs par sems ste | mod sde <note type="gloss">du ma</note> nas kyang dal 'byor snyid dka' ba ni chos mang po la 'chad pa'i phyir ro | </ab>
       <gap reason="omitted"/>
       <ab><choice><sic>'thed</sic><corr>'thad</corr></choice> pa las smon pa phan yon dang ldan pa'i 'dad pa sems can rnams kyi glad nad tsam zhes gsungs ste | <note type="gloss"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:6966">mo'u 'khan</rs> na re</note> sman pa lta bu' bla sngan la ma bltos par sems can gyi glad nad gsal lo zhes bsams na 'ang bsod nams dpag med pa dang ldan na zhes 'grel pas 'chad mod kyi |</ab>
       <gap reason="omitted"/>
@@ -185,10 +173,6 @@ Numerous interlinear and marginal glosses and corrections by erasing and inserti
    lung dang rigs pa med pa'i phyir dang | so sor thar pa'i pham pa'i yan lag tshang par mtshungs pa'i phyir tsam par 'gyur bas mnyam du dbul dgos pa kho na'o ||</ab>
       <gap reason="omitted"/>
       <ab><note type="gloss">bzhi pa gzhan lugs dgag pa ni</note> | <note type="gloss"><rs type="person" ref="db:3805" ana="corpusmd:named_reference">zhang tshes</rs> na re</note> so sor thar pa'i sdom pa'i ngo bo bzhan la gnod ba bzhi' dang bcas pa las ldog pa <lb n="23b6"/> tsam snyen gnas yan chad <note type="gloss">gcig</note> rten du yang dgos shing | theg pa gang dang yang mi 'gal ba de ni thun mong pa spyi yin la | so so 'i khyad par <note type="gloss">byang seMs kyi so sor thar pa</note> ni rgyun chags pa dang | gzhan rjes su bsrung pa dang | slar gso' bar rung pa <note type="gloss">yin pa</note> dang | de dag las ldog <note type="gloss">nyan thos kyi so sor thar pa yin</note> pa'i sgo nas tha dad pa'i phyir ro ||</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference">slob dpon shan ti ba</rs>s 'don no skad do | | 'di la byang chub sems dpa'
-               <lb n="33b3"/> khyim pa la rtsa ba ba hi' char dang rab du byung pa la mi tshegs par spyod pa ma rtogs pa thams cad gnang ngo zhes <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> zer ba ni mi 'thad de | dge' slong lasogs pa 'i rtsa ba bzhi' thams cad du gnas pa'i skabs med par bcas pa'i phyir | bcas pa'i pham pa bzhi' char la 'gyur bas sdom pa nyams su 'gyur ba'i phyir | sdom pa phul la 'jug par bya'o || des na bram
-               <lb n="33b4"/>ze'i khye' bu skar ma lo khe' stong du tshangs par spyod pa spyad nas | gzhan kho na'i don du tshangs spyod gtuang yang tshangs pa'i 'jig rten du skyes pa dang | | de yon gyi tshong pa g.yon can bsad kyang ngan 'gror ma skyes pa lasogs pa thabs la mkhas pa'i mod lasogs pa nas gsungs so || </ab>
       <gap reason="omitted"/>
       <ab><milestone n="Colophon" unit="section"/>
          <rs type="work" ana="corpusmd:named_reference" ref="db:4478"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems pa'i spyod pa la 'jug pa</rs>'i tshig dang don gsal par bshad pa</rs> ×× <rs type="person" ana="corpusmd:named_reference" ref="db:3834">shag skya'i <choice><corr>dge</corr><sic>ged → ‹d›ged</sic></choice><note type="editorial">The faulty reading "ged" was corrected to "dge" in the manuscript by the addition of a "d"-prefix, but the final "d" was note deleted</note> slong byang chub grags</rs> kyis sbyar pa ||×|| × rdzogs so ||

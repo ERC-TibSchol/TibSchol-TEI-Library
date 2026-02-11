@@ -2,10 +2,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-            <!--preliminary title taken from source document-->
             <title type="main" xml:lang="bo-Latn-x-wylie">mngon rtogs rgyan 'grel ba</title>
-            <author ref="apis:3918">shes rab mtha' can<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <author ref="apis:3918">shes rab mtha' can</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:SB">Serena Biondo</name>
@@ -15,10 +13,6 @@
                <name ref="corpusmd:TD">Tsering Drongshar</name>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -43,14 +37,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies
                      to this document.</p>
@@ -60,7 +53,7 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">70 x 10.5</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -104,13 +97,10 @@
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-         <!-- <langUsage> to be inserted from APIS -->
-      </profileDesc>
+         </profileDesc>
       </teiHeader>
   <text>
     <body>
-      <gap reason="omitted"/>
-      <ab><lb n="188b4"/> <rs type="work"> ma rig bdun sel bde legs pa yon tan gzhi </rs>|| <note type="gloss">bya</note>s**** bgrod ba chig [=gcig] pa'i lam || zab yangs thub pas gsungs pa'i spyod pa'i cha|| || <lb n="188b5"/> dgos 'dod kun gyi dpal? 'gyur <rs type="person" ana="">'gon [=mgon] po</rs>s phye || de'i rjes 'brangs <rs type="work">rnam nges gzhung 'grel pa</rs> mdzad || de dag la brten <rs type="person" ana="corpusmd:named_reference" ref="db:3712">seng ge bzang po</rs> yis || mdo'i thun mong rgyan gyur gsal mdzad don || mig gis sgra ltar 'phags pa'i bla'i yul ||blo sman<rs type="person" ana="corpusmd:unnamed_reference" ref="db:3918">bdag</rs> gis rtogs par nus min pas ||<rs type="person" ana="">grol sde 'gos? kyi 'grel </rs>dang <rs type="work">ti ka</rs>|| |<rs type="work">'buM phrag gnyis kyi 'grel rgyan</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3807">shes rab 'bar</rs> ||<rs type="person" ana="">ye shes tshul <lb n="188b6"/> khrims bkra shis brtson 'grus</rs><!--maybe BDR PORK1459 pa tshab dga' ba gdong pa gnas brtan ye shes tshul khrims--> dang || <rs type="person" ana="">seng ge rnam gnyis grags rdo rje</rs> dang ||<rs type="person" ana="">brtson 'grus mtha['] can</rs> rnams kyi <rs type="work">man ngag</rs> dang || gzhung don rigs pas yun du spyad pa las || log rtog brgya phrag bsal nas leg[s] bshad rnaMs| |</ab>
       <gap reason="omitted"/>
       <ab><rs type="place" ana="corpusmd:named_reference" ref="db:5657">gtsang dge'i 'byung
                   gnas pa tshab <choice><orig>sgon</orig><reg>dgon</reg></choice> pa</rs> ru || <rs type="person" ana="corpusmd:named_reference" ref="db:3918">shes rab <choice><reg>mtha'</reg><orig>mtha</orig></choice> can dge sbyong bdag</rs> gis bsdus || de zer ma 'brel stong phrag rmig rjes chu || <lb n="188b7"/> khyad par gsum ldan legs rgya mtsho bzhin || zhe sdang phrag dog khengs pa kun spongs la || tshul bzhin seMs pa'i yid kyis dpyad par gyis || ma rtogs rang dga' <choice><reg>ba'i</reg><orig>'i</orig></choice> 'dod pas nyes bshad rnaMs | yang dag thugs su chud rnaMs bzod pa mdzod || de stem la 'byung dge ba gang thob des || <note type="editorial">Reading of 'thob' uncertain</note> <rs type="person" ana="corpusmd:named_reference" ref="db:3918">bdag sogs</rs> 'gro

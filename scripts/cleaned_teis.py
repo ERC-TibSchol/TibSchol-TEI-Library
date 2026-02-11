@@ -164,6 +164,10 @@ def process_tei_header(src_header):
     # Append cleaned deep copies so no comments or PIs remain in header
     cleaned_fileDesc = deepcopy(fileDesc)
     _remove_comments_and_pis(cleaned_fileDesc)
+    # Ensure availability is set to public in the cleaned fileDesc
+    avail = cleaned_fileDesc.find('.//tei:availability', namespaces=NS)
+    if avail is not None:
+        avail.set('status', 'public')
     cleaned_encodingDesc = deepcopy(encodingDesc) if encodingDesc is not None else None
     if cleaned_encodingDesc is not None:
         _remove_comments_and_pis(cleaned_encodingDesc)

@@ -2,10 +2,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
  <titleStmt>
-				<!--preliminary title taken from source document-->
- <title type="main" xml:lang="bo-Latn-x-wylie">sangs rgyas kyi bstan pa la rims kyis 'jug pa'i tshul</title>
- <author ref="apis:3806">gro lung pa blo gros 'byung gnas<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
- <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">sangs rgyas kyi bstan pa la rims kyis 'jug pa'i tshul</title>
+ <author ref="apis:3806">gro lung pa blo gros 'byung gnas</author>
  <respStmt>
  <resp>Transcribed by</resp>
  <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -14,10 +12,6 @@
  <resp>TEI Markup by</resp>
  <name ref="corpusmd:TD">Tsering Drongshar</name>
  </respStmt>
- <!-- TODO: add any other contributors and their roles here -->
- <!-- end of responsibility statments specific to this document -->
- <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
  <respStmt>
  <resp>Data Modelling</resp>
  <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -42,14 +36,13 @@
  <resp>Technical Supervision</resp>
  <name ref="corpusmd:DS">Daniel Schopper</name>
  </respStmt>
- <!-- responsibility statments applying to all documents -->
  </titleStmt>
  <editionStmt>
  <edition>Digital Edition in Wylie with TEI Markup</edition>
  </editionStmt>
  <publicationStmt>
  <publisher>Austrian Academy of Sciences</publisher>
- <availability status="restricted">
+ <availability status="public">
  <licence target="https://creativecommons.org/licenses/by/4.0/">
  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
  </licence>
@@ -58,7 +51,7 @@
  <date>2023</date>
  </publicationStmt>
  <sourceDesc>
- <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+ <p/>
  <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dbu can. Appears to be a block print.&#13;
 Note "3(40)" on the left of the cover page.</additional></physDesc></sourceDesc>
  <respStmt><principal>
@@ -103,8 +96,7 @@ Note "3(40)" on the left of the cover page.</additional></physDesc></sourceDesc>
  </listPrefixDef>
  </encodingDesc>
  <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
  </teiHeader>
   <text>
     <body>
@@ -168,10 +160,6 @@ Note "3(40)" on the left of the cover page.</additional></physDesc></sourceDesc>
  <lg> <l xml:space="preserve">snying rje dang bral stong pa nyid zhugs gang ||</l> <l>des ni lam mchog rnyed pa ma yin no ||</l> <l>'on te snying rje 'ba' zhig bsgoms na yang ||</l><l> <lb n="35b6"/> 'khor ba 'di las thar pa thob mi 'gyur ||</l> <l>gang yang gnyis po sbyor bar nus pa des ||</l> <l>'khor bar mi gnas mya ngan 'das mi gnas ||</l></lg>
  </quote>
  zhes pa'o ||</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4474">thub pa'i bstan la rims kyis 'jug pa'i tshul</rs> || <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma</rs>'i gsungs dang lung la bstan nas bris || de las byung ba'i dge ba gang thob des || 'gro rnams log pa'i lam du mi 'gro zhing || yang dag laM zhugs sku <lb n="40a4"/> gsum thob par shog ||</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3806">bdag</rs> kyang <rs type="deity">thub pa</rs>'i bstan pa rgyas byed cing || yang dag lam zhugs sku gsum thob nas kyang || lhun grub rgyun chad med pa'i 'phrin las kyis || nam mkha' mnyam pa'i 'gro ba sgrol bar shog ||</ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (40a4–40a6)"/>
  <rs type="work" ana="corpusmd:named_reference" ref="db:4474">sangs rgyas kyi bstan pa la rims kyis 'jug pa'i tshul</rs> <lb n="40a5"/> lam <rs type="work" ana="corpusmd:named_reference" ref="db:4474">blo sbyong</rs> 'am <rs type="work" ana="corpusmd:named_reference" ref="db:4474">lam rim</rs> zhes bya ba ni <rs type="person" ana="corpusmd:named_reference" ref="db:3806">gro lung pa blo gros 'byung gnas</rs> <choice><corr>kyis</corr><sic>kyi</sic></choice> <rs type="place" ana="corpusmd:named_reference" ref="db:4332">gsang phu</rs>r sbyar ba'o ||</ab>

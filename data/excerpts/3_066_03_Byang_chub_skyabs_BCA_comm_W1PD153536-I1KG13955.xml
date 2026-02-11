@@ -2,21 +2,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i spyod pa la 'jug pa'i rnam par bshad pa<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
-            <author ref="apis:3864">'jad pa byang chub skyabs<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i spyod pa la 'jug pa'i rnam par bshad pa</title>
+            <author ref="apis:3864">'jad pa byang chub skyabs</author>
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:"/>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
+               <name ref="corpusmd:"/>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -41,14 +36,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -58,8 +52,10 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description"></additional></physDesc></sourceDesc>
+            <p/>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+Annotations.&#13;
+The text starts on fol. 1a (no cover page).</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </principal>
@@ -102,10 +98,22 @@
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
-    <body/>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Closing verses (85a5–85a6)"/>
+               <lg><l><rs type="person" ana="corpusmd:named_reference" ref="db:3831">rig pa 'i dbang phyug chos kyi seng ge</rs>'i ||</l>
+               <l>snyan cing mdzes pa'i gsung <lb n="85a6"/> dpyad pa la brten nas ||</l>
+               <l>rgyal sras spyod pa dbu ma'i lam 'jug pa ||</l>
+                <l>byang chub sems mchog yid bzhin nor bu'i sgrom ||</l>
+                <l>byings pa'i rgyud pa ma lus sel byed pa ||</l>
+               <l>rnam par phye nas blo ldan skye bo la ||</l>
+                <l>ldug par <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3864">bdag</rs> gis phyogs su rgyas byed shog ||||</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (85a7)"/>
+           <lb n="85a7"/>|| <rs type="work" ana="corpusmd:named_reference" ref="db:5147"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug pa</rs>'i rnam par bshad pa</rs> | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4583">bla ma rnams</rs> kyi gsung la brten nas | <rs type="person" ana="corpusmd:named_reference" ref="db:3864">shag kya'i dge slong <choice><reg>byang chub</reg><orig>(byang chub)</orig></choice> skyabs</rs> kyis sbyar ba || <note type="gloss">gzhung gi don</note> rdzogs s+ho || ||</ab>
+    </body>
   </text>
 </TEI>

@@ -2,27 +2,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
-            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            <funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <title type="main" xml:lang="bo-Latn-x-wylie">mngon rtogs rgyan 'grel pa</title>
+            <author ref="apis:6022">chos kyi grags pa</author>
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name person responsible for the transcription"?></name>
+               <name ref="corpusmd:Tr">Transkribus</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"><?oxy-placeholder content="Enter name of person responsible for the TEI markup"?></name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -47,27 +36,33 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
             </availability>
             <idno type="Transkribus">1548256</idno>
             <idno type="external">TibSchol 3_071_03</idno>
-            <idno type="TibSchol">${ask('enter TibSchol Reference Number')}</idno>
+            <idno type="TibSchol">3_071_03</idno>
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
-         </sourceDesc>
-      </fileDesc>
+            <p/>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">68 x 10.5</dimensions></support></supportDesc></objectDesc><additional n="Item description">Missing folios: 1 and 2.&#13;
+Last line on fol. 142 does not seem to belong to the text; verso faded, maybe continuation of the line on the recto (?).</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
@@ -103,41 +98,9 @@
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
-    <body>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="">buM pa</rs> na re de ltar seng bzang? <lb n="3a2"/>khyos rgyas 'bring gsum po kun kyi rgyan du 'gyur ba'o 'grel pa gcig rtsom zer na de mkhyed kyis ji ltar du shes zhe na de ni mkhas pa zha'i? gdam ngag la ten nas shes zhes 'brel de lta du byed la |</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="3786">rngog</rs> ni seng? bzang khyod kyis kun kyi rgyan du 'gyur ba'i 'grel pa gcig rtsom zhes daM ta bcas nas 'grel pa rtsom pa des rtsa ba mngon rtogs gyi don mngon suM du gyur ba'i sgo nas rtsom mam ||</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="3807">'bre</rs> na re khongs su rtogs zhes zer ba 'di ltar byas na nyan thos 'phags pas tshig yin pa srid dam zer ba la |</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="3816">ar</rs> na de ngo bo nyid med pa ltogs pa'i blongs dbu mang gnas pa'i blo yin pa srid daM zer ro ||</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="">'byung she</rs> na re 'di khyes brgyud ma yin te *gap* bo de la rgyal med pa yin pas byes bskus mi srid de zer ro <rs type="person" ana="corpusmd:unnamed_reference" ref="">slob dpon</rs> na re phyogs 1 nas de ltar yin pa srid kyang rtso ba'i rgyu'i skabs 'dir 'grel pa rtsoms pa'i rgyu cig don gyi rdogs ma lus pa yod zhes zhal kyis bzhes <lb n="6a5"/>pas na kyes rgyung du spog pa ti ka thaMd las byas byes ba rgyu du byaso gsung ngo ||</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="">ku la rta</rs>na re don yin te mchod pa brjod ces bshad par dam bca' ba zhes pa ni shes rab zhes pa lasogs pa'o ||</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="">slob dpon sa</rs> dang <rs type="person" ana="corpusmd:named_reference" ref="">kyi ston</rs> gnyis ni nyan thos lhag ched du 'jug shes pa de gcad pa bya ba'i nyer sred pa? kyi shes pa tsam yin pa'i phyir zhes sred bcas dgos po gzungs la  | </ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="">khu</rs> na re mchod par brjod pa'i shugs la bshad par daM ba bstan pa dang |</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="">zhang pad</rs> na re mkhyen gsuM tha dad laM yang tha dad du thal | </ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="">sregs</rs> na re brgyad pa rang nas rtse mo khyad par can yin te dgu rnam kun khyad par can min paso zer ba la slob dpon na re brgyad pa de dus thung ngu zhig ni ma yin pas de legs cha 'bres ldog pa mying bzung na brgyad pa'i rnam kun rgyu yin la rgul yan chad kyi rtse mo 'brus yin la blo rtse nyad pa'i nang la |</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="">khu ston brtson 'grus</rs> na re ner ma nor mtshon pa yin zer pa <rs type="person" ana="corpusmd:named_reference" ref="3786">rnog</rs> legs pa'i shes rab na re sbyor lam yod pa'i chos dang mtshon pa yon no zer te des? nus pa <lb n="39b4"/>las gro bas phras? gsung ngo || <rs type="person" ana="corpusmd:named_reference" ref="">sna chung ston pa</rs> na re 'gros mtshon pa yin te rab ka mtho lta bu yin lo de'i go ba ni 'bras bus sher phyin gyi rtogs pa de sbyor bas skyed pa yin pas de la slo rtse yin gsung ngo || </ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="">slob dpon zhang</rs> ni lo tsa bas rtags gyi mtshid gyi phyogs nas byas pa yin la 'bres rtags kyi ngo bo'i phyogs nas byas pa <lb n="40b7"/>yin te lo tsha ba ltar legs la |</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="3834">rgya dmar</rs> na re 'bras'i de thos pas mngon sum gyi rigs yin na rigs zhes ba spyi yin pas na spyi gsal ba'i mthar ma thug pa mi srid pas rnal 'byor gyi mngon sum du 'gyur la |</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="">jo bo mad</rs> na re seng bzang gi lcoms te bshad pa ni chos mchog man cad du mkhyen pa gsuM ci rigs par bsgoms nas |</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="">nam ka</rs> na b+hu tasi mkhyen pa gsum gyi ye shes dang rnal 'byor pa rang gi shes pa gnyis tha mi dad pa rloms nas sgoM pa yin pas de'i bsaM pa dang sbyor nas nges 'byed la zag med chu rung bshad pa yin lo ||</ab>
-    </body>
+    <body/>
   </text>
 </TEI>

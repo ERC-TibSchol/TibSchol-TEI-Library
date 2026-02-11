@@ -2,10 +2,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<!--preliminary title taken from source document-->
-            <title type="main" xml:lang="bo-Latn-x-wylie">theg chen dbu ma'i gdams pa</title>
-            <author ref="apis:4052">skyo ston smon lam tshul khrims<?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
-            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+				<title type="main" xml:lang="bo-Latn-x-wylie">dbu ma'i man ngag</title>
+            <author ref="apis:4052">skyo ston smon lam tshul khrims</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:SB">Serena Biondo</name>
@@ -15,10 +13,6 @@
                <name ref="corpusmd:TD">Tsering Dronshar</name>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
-            <!-- TODO: add any other contributors and their roles here -->
-            <!-- end of responsibility statments specific to this document -->
-            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
-					do not manually change this as it might be overwritten in a later stage -->
             <respStmt>
                <resp>Data Modelling</resp>
                <name ref="corpusmd:RG">Rachael Griffiths</name>
@@ -43,14 +37,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            <!-- responsibility statments applying to all documents -->
-         </titleStmt>
+            </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="restricted">
+            <availability status="public">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -59,10 +52,11 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+            <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">35 x 6</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
 Volume number in left margin: ke.&#13;
-Proofread (zhus dag go).</additional></physDesc></sourceDesc>
+Proofread (zhus dag go).&#13;
+Some corrections and explanatory glosses.</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </principal>
@@ -105,15 +99,12 @@ Proofread (zhus dag go).</additional></physDesc></sourceDesc>
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			<!-- <langUsage> to be inserted from APIS -->
-		</profileDesc>
+			</profileDesc>
       </teiHeader>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4851">theg chen dbu ma'i gdaMs pa</rs> <abbr>bzhugs so</abbr> || × phyi¶ la ¶ 550</ab>
-      <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (3b3-4)"/>|| I thI || <rs type="person" ana="corpusmd:named_reference" ref="db:4593">slob dpon chen po</rs>'i phyag dpe <choice><orig>la</orig><reg>las</reg></choice> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa chos rgyal</rs> <lb n="3b4"/> gyis bris shing zhus pa'o ||</ab>
+      <ab><milestone unit="section" n="Colophon (3b3-3b4)"/>|| I thI || <rs type="person" ana="corpusmd:named_reference" ref="db:4593">slob dpon chen po</rs>'i phyag dpe <choice><orig>la</orig><reg>las</reg></choice> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa chos rgyal</rs> <lb n="3b4"/> gyis bris shing zhus pa'o ||</ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Post-colophon annotations (3b4)"/>zhus <abbr>dag go</abbr> || <rs type="place" ana="corpusmd:named_reference" ref="db:4411">snar thang</rs> du <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s <abbr>bris so</abbr> ||</ab>
     </body>
