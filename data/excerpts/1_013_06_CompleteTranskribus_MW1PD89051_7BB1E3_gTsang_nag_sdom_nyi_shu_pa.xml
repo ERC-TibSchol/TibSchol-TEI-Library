@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+         <titleStmt>
+				<title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i sdom pa nyi shu ba'i 'grel ba</title>
+            <author ref="apis:3839">gtsang nag pa brtson 'grus seng ge</author>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:Transkribus">Transkribus</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+           
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="public">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">1_013_06</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.&#13;
+Folio numbered with letters (only ga, cha and ja are visible).&#13;
+Lines per folio; 11; 10 on fol. 6b; 8 on fol. 7a.&#13;
+Orthography: &#13;
+- Abbreviations (e.g., for slob dpon, thams cad, final –gs, etc.)&#13;
+- Bindu for m&#13;
+- Numerals used for numbers and for phonetic value (e.g., 4+n for bzhin)&#13;
+- Frequent broken shad ( ¦ ), sometimes used in place of tsheg.&#13;
+- Alternative prefixes (e.g., rngos for dngos)&#13;
+- la rtsogs pa for la sogs pa&#13;
+- ṇa (reversed form of na) for med&#13;
+- Tibetan numerals used for numbers (e.g. 2 po for gnyis po)&#13;
+- gzhan written with "n" below the leg of "zh".&#13;
+Several annotations (corrections as well as glosses).&#13;
+A da-drag is used in an annotation on fol. 4b8 ('phrind).</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:KC">Kyeongjin Choi</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+                <name ref="https://kaken.nii.ac.jp">研究活動スタート支援 (Grant-in-Aid for Research Activity Start-up )</name>
+            </funder>
+            </respStmt></fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+               <p>It also benefitted from the work carried out in the project "チベット仏教カダム派の思想研究に向けた基礎資料の構築 (Construction of Basic Materials for the Study of the Thoughts of the Kadam School of Tibetan Buddhism) funded by the Grant-in-Aid Research Activity Start-up (No. 19K22998). See https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K22998/</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+			</profileDesc>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="1. bstan bcos bshad pa la 'jug pa"/>
+       de la spyir bstan bcos bshad pa la 'jug pas gang zhig gang gis ji ltar bshad pa'i las dang byed po bya ba 3 ngos gzung bar bya ba las ¦
+      <milestone unit="section" n="11. bshad bya las du bya ba"/>
+         'dir bshad bya las du bya ba ni <rs type="person" ana="corpusmd:named_reference" ref="db:3760"><abbr>slob dpon</abbr> tsandrago mi</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:3759">byang chub seMs dpa'i sdom pa nyi shu ba</rs> zhes bya'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><mentioned>rgyu bsam pa yang <lb n="2a7"/> sdom pa de <choice><reg/><orig>{dag}</orig></choice> rgyu gang gis skye ba dang 'jug par 'gyur zhe na | </mentioned>
+         <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs> byang chub sems dpa'i sdoM pa'i rten du so sor thar ba dgos pa yin te ¦ phan 'dogs pa la gnod pa spong bas khyab pa'i phyir dang ¦ <abbr>so sor</abbr> thar pa rigs bdun gyi <choice><reg>||</reg><orig>‹||›</orig></choice> <quote><lg><l>rtag du sdoM pa ldan pa la ||</l> <l>skal ba yod kyi gzhan du min ||</l></lg></quote> zhes gsungs pa'i <abbr>phyir ro</abbr> zhes <abbr>zer ro</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><note type="gloss">par bya</note> zhe na ¦            
+         de la phyogs dang po <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog</rs> la sogs pa mtshan nyid pa rnaMs 'dod pa</note> ni ma yin te ¦ spyi'i gzhung las nyaMs bdun nges pa lngas mi thob ces 'byung pa las 'dir khyad par bshad pa med la ¦ <rs type="work"><note type="gloss">smad bla'i</note> mdo</rs> <lb n="2b8"/> las <quote>rigs kyi nu 'am rigs kyi bu mos lo 1 gam zla ba 3 du byang chub seMs dpa'i bslab pa bzung ste</quote> zhes gsungs pa de yang rim kyis de ltar slob par gsungs kyi ¦ de sdom pa nyid du bshad pa <abbr>med</abbr> pas bar ma nyid du rung ba'i <abbr>phyir ro</abbr> || 
+         des na sdom pa nyid ni yan lag yul dus nges pa las mi skye bas tshul khrims 3 bar gyi bya ba <abbr>thams cad</abbr> yul <abbr>thams cad</abbr> du byang chub snying por ma phyin gyi bar du blang par bya ba nyid do || </ab>
+      <gap reason="omitted"/>
+      <ab><lb n="2b9"/> la nyes pa 3 spang par bya ba las | 
+         <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs> byang chub sems dpa' las dang po pas yongs su rdzogs pa'i khur <abbr>thams cad</abbr> du mi theg pas 1 bar bskur bar mi rigs so zhes rjod pa'i skyon ni <abbr>med</abbr> de ¦ <abbr>thams cad</abbr> kyi bya ba la bsam pas khyab par byas nas ¦ sbyor bas bsgrub par nus pa la rim gyis slob pa'i <abbr>phyir ro</abbr> || de lta na yang dmigs pa mtha' yas ba 3 gyi bya ba bsgrub par mi nus pas blangs kyang mi thob po zhes <lb n="2b10"/> kyang bsam par mi bya ste ¦ bya ba la ris su ma bcad par kun la ci nus kyi bya bar zhugs pa'i phyir nyan thos kyi sdom pa yang seMs can <abbr>thams cad</abbr> la thob pa <abbr>bzhin no</abbr> || ¦</ab>
+      <gap reason="omitted"/>
+      <ab><mentioned>'dir thob kyang tshe 'phos pa na brjed nas rtsa ltung 'byung bas don ma yin par 'gyur zhe na ¦</mentioned>
+         'di la <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs> na re brjed pa'i tshe bsrung seMs <abbr>med</abbr> pas bsod naMs kyang mi 'byung la ¦ rang nyid sdom ldan du shes pa med pas ltung ba yang mi 'byung ste <rs type="work">'dul <lb n="2b11"/> ba</rs> las ¦ <quote>sdom brtson sdom brtson nyid du 'du shes na || rngos gzhi 'o ¦ min na ltung ba chung dang ldan</quote> zhes 'byung ba'i phyir zhes <abbr>zer ro</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="2. 'di nyid la 'khrul pa spang ba" unit="section"/>   
+         2 pa 'di nyid la 'khrul <lb n="4b8"/> pa spang ba ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs><note type="gloss">rgya mtsho <unclear>'phrind</unclear></note> 'dir dngos su <note type="gloss">° bkrag °°s pa</note> phyi po byad la chags pa dang ¦ gzhan la mi ster ba dang ¦ 'tshog pa dang ¦ chos min ston pa tsam yang ltung bar brjod pa nyid kyis khur ba dang ¦ dbyug pa'i rigs pas nang sems can la <choice><reg>chags</reg><orig>chag‹s›</orig></choice> pa dang ¦ gzhan gyi °u ba dang ¦ <abbr>bag gzhan</abbr> gsod pa dang ¦ mi chos bla ma'i brdzun smra ba nyid kyang bzhi yang rtsa ba'i ltung bar mtshon pas byang chub sems dpa'i rtsa ba'i ltung ba <choice><reg>ni</reg><orig>‹ni›</orig></choice> bu gnyis <abbr>yin no</abbr> <choice><reg>zhes</reg><orig>zhe‹s›</orig></choice> <abbr>zer ro</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3816">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3816">byang chub bzang po</rs></note><note type="editorial">Tentative identification as Ar Byang chub ye shes</note> na re der bshad pa rnaMs ni <pb n="5a"/><lb n="5a1"/> nyes pa <abbr>°i</abbr><note type="editorial">Maybe for "20"?</note> pa las der bstan pa yin <choice><reg>gyi</reg><orig>{te} kyi</orig></choice> rtsa ba'i ltung ba nyid ma yin no zhes <abbr>zer ro</abbr> ||
+         de ni ma yin te rtsa ba'i ltung ba zhes mdo dang bstan bcos las rjod cing ¦ dngos la gnod pa myed pa'i <abbr>phyir ro</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">gzhan dag</rs> <note type="gloss"><rs ana="corpusmd:named_reference" ref="db:3876">a rgya chos ye</rs></note><note type="editorial">Reading uncertain; tentative identification as Nyang bran Chos kyi ye shes. Could also be read A (for Ar byang chub ye shes), Phya (for Phya pa), and Chos ye (for Nyang bran Chos kyi ye shes). However, Phya pa's views is dealt with in the following paragraph."</note> ¦ de dag 'di nyid kyi dbye bar 'chad de ¦ de yang ma yin te ¦ 'dir rjod pa'i sbyor ba zung bzhi'i <note type="gloss">gsal ba'i</note> dbye bar mi snang ba dang ¦ bdag snyod la s+rtsogs pa dbye gzhi der dbye bar ston pa mi <lb n="5a2"/> 'thad pa dang ¦ dbye gzhi'i gzhung las <quote>de la <choice><reg>rtsogs</reg><orig>rtsog‹s›</orig></choice> pa</quote> zhes dang ¦ dbye ba'i gzhung las <quote>'di dag kyang</quote> zhes pa lta bu'i mtshams sbyor med pa'i phyir dang ¦ bsam pa dug 3 las gyur pas 'du bar rjod na so sor thar pa'i pham pa la sogs oa0u nyes spyod <abbr>thams cad</abbr> der 'gyur ba'i phyir ro || </ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3831">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3831">phya pa</rs></note> 'di dang pha ba 2 ka yin pas rtsa ltung yongs su rdzogs pa ni nyi shu rtsa 3 yin no <choice><reg>zhes</reg><orig>zhe‹s›</orig></choice> zer ba yang ¦ 
+         mi rigs te ¦ de lta na <lb n="5a3"/> gzhung de dag phan tshun kha skong du 'chad par rigs kyi gzhung so so la grangs nges par 'chad par mi rigs te ¦ gdul bya la 'dzol btsugs nas rtsa ba'i ltung bar skyur ba'i phyir ro || </ab>
+      <gap reason="omitted"/>
+      <ab><abbr>yin no</abbr> <choice><reg>zhes</reg><orig>zhe‹s›</orig></choice> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dam pa kha 1</rs> <note type="gloss">khag sor ba</note> <abbr>gsung ngo</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="V.2" unit="section"/>
+            <lg><l>dge ba 'di yis tsha rabs kun tu <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3839">bdag</rs> ||</l> <l>byang chub sems dang mthu yis dpa' rnams kyi ||</l> <l>zab yangs ngo mtshar rmad kyi spyod pa la ||</l> <l>mi 'jigs <rs type="person" ana="corpusmd:named_reference" ref="db:3839">brtson 'grus seng ge</rs>'i stobs ldan shog || ||</l></lg> <note type="translation">Thanks to the virtue [of composing] this [commentary], in all [my future] lives, may I have fearlessness, diligence, and the lion’s strength {Alternatively: may I have the strength of a fearless diligent lion}, towards profound, extensive, wonderful, and marvelous practice of heroes, by means of the mind and the power of Bodhi.</note></ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon (7a7-7a8)" unit="section"/>
+            <rs type="work" ana="corpusmd:named_reference" ref="db:4561"><rs type="work" ana="corpusmd:named_reference" ref="db:3759">byang chub sems dpa'i sdom pa nyi slu ba</rs>'i bshad pa tshig don gsal ba</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3839">mang du thos pa'i dge <lb n="7a8"/> slong brtson 'grus seng ge</rs>s sbyar ba || dge'o || ||</ab>
+    </body>
+  </text>
+</TEI>

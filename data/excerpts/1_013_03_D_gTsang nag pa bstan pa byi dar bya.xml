@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+         <titleStmt>
+				<title type="main" xml:lang="bo-Latn-x-wylie">ston pa'i bstan pa la byi dor bya ba'i tshigs su bcad pa lnga bcu pa</title>
+            <author ref="apis:3839">gtsang nag pa brtson 'grus seng ge</author>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Translation(s)</resp>
+               <name ref="corpusmd:KC">Kyeongjin Choi</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="public">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">1_013_03</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Scirpt: 'bru tsha.&#13;
+Lines per folio: 9; 10 on fol. 4a; 7 on fol. 5a.&#13;
+Orthography:&#13;
+- Numerals used for numbers &#13;
+- Frequent abbreviations (e.g., for thams cad, bcom ldan 'das, etc.)&#13;
+- Bindu for m&#13;
+- Always a tsheg before shad (or double shad)</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:KC">Kyeongjin Choi</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+               <name ref="https://kaken.nii.ac.jp">研究活動スタート支援 (Grant-in-Aid for Research Activity Start-up )</name>
+            </funder>
+            </respStmt></fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+               <p>It also benefitted from the work carried out in the project "チベット仏教カダム派の思想研究に向けた基礎資料の構築 (Construction of Basic Materials for the Study of the Thoughts of the Kadam School of Tibetan Buddhism) funded by the Grant-in-Aid Research Activity Start-up (No. 19K22998). See https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K22998/</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+			</profileDesc>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab>
+        <lg><l>de ltar sangs rgyas bstan pa'i don chen sgran ||</l>
+<l>chos 'jig <lb n="5a2"/> ces ltar snang ba mang po yis ||</l>
+<l>zhing 'dir ring por mi thogs <choice><reg>zhub</reg><orig>'dub/zhub (?)</orig></choice> 'gyur bas ||</l>
+<l>skyes bu spyad ldan rnaMs kyi <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3839">brtson 'grus</rs> <lb n="5a3"/> gyis ||</l>
+<l><note type="gloss">ga</note> gzhung 'di chos kyi snying po la spyod kyang ||</l>
+<l>'jig rten kun gyis cir mi shes pa'i ||</l>
+<l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3839">dge slong seng ge</rs>s <lb n="5a4"/> snyigs ma'i mi rnams la ||</l>
+<l>rang gi rnaM thar gtam du bsnyad pa yin ||</l>
+<l>bstan pa'i gzhi dang rgyas dbye' bsgrub pa la |</l> 
+<l><lb n="5a5"/> yang dag yang dag ma yin rnam dbye' dang ||</l>
+<l><note type="gloss">cha</note> rang gyi kun spyod gtam pa rnaM lnga 'di ||</l>
+<l>shag kya'i bstan la rnaM <lb n="5a6"/> dag byi dor yin ||</l></lg>
+      </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (5a6-5a7)"/>
+     <rs type="work" ana="corpusmd:named_reference" ref="db:4555">bston pa'i bstan pa la byi dor bya ba'i tshigs su gcad pa lnga bcu pa</rs> || 
+         <lb n="5a7"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">shag kya'i dge slong <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">gtsang nag pa</rs></note> brtson 'grus seng ge</rs>s sbyar ba || || Ïti ||<note type="translation">The Fifty Verses Cleansing the Teacher's Teaching, composed by the Shakya monk brTson 'grus seng ge.</note></ab>
+    </body>
+  </text>
+</TEI>

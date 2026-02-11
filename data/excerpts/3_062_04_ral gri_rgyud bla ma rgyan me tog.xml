@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+         <titleStmt>
+				<title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i bstan bcos kyi rgyan gyi me tog</title>
+            <author ref="apis:4006">rigs pa'i ral gri</author>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:Sakyalibrary">Sakyalibrary</name></respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="public">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">3_062_04</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Handwritten dbu can manuscript.&#13;
+Double numbering of the folios, from 1 to 15 and from 195 to 209&#13;
+Proofread once (gcig zhus).&#13;
+&#13;
+Cover page: ex062042025-05-2010-51-132&#13;
+&#13;
+A two-line citation from the Laṅkāvatārasūtra (ID:5581) is added after the colophon (ex62042025-05-2010-32-26).</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+			</profileDesc>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone n="Cover page" unit="section"/>
+         <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> la <lb n="1a3"/> 386 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5111"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">rgyud bla ma</rs>'i Ti ka rgyan gyi me tog</rs> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Incipit" unit="section"/>
+         <pb n="1b"/><lb n="1b1"/> rgya gar skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:5111">ma hA yA na ud ta ra tan tra shA s+tra a laM kA ra puSH pa</rs> nA ma | bod skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:5111">theg pa chen po <rs type="work" ana="corpusmd:named_reference" ref="db:3749">rgyud bla ma</rs>'i bstan bcos kyi rgyan gyi me tog</rs> ces bya ba | 
+ <milestone n="Invocation" unit="section"/>
+         'phags pa'i tshogs thams cad la phyag 'tshal lo || 
+          <milestone n="Introductory verses" unit="section"/>
+         <lb n="1b2"/> <lg><l>skye gcig mngon par <choice><reg>byang chub</reg><orig>‹byang chub›</orig></choice> 'tshang rgya ba ||</l> <l>dga' ldan bzhugs pa de la phyag 'tshal nas ||</l> <l>thub pa'i dbang po'i theg chen gsung rab kyi ||</l> <l>mthar thug nges pa'i don 'di <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">bdag</rs> gis bshad ||</l></lg> </ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Conclusive verses" unit="section"/>
+        <lg><l>theg chen mthar thug 'khor 'das de nyid don ||</l> <l>rab ston 'phags pa'i gsung rab legs bshad pas ||</l> <l>dga' ldan skyes nas byams mgon mnyes byas te ||</l> <l>byang chub lung bstan myur du thob <pb n="15b"/><lb n="15b1"/> par shog ||</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Colophon (15b1)" unit="section"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:5111"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs> rgyan gyi me tog</rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s sbyar ba rdzogs so || mang+ga laM ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n="15b2"/> @| <rs type="work" ana="corpusmd:named_reference" ref="db:5581">lang gshegs</rs> las yid kyi lus gsum ste | ting nge 'dzin la zhugs pa dang | chos kyi ngo bo nyid khong du chud pa dang | ris su lhan cig skyes pa'i 'du byed kyi yid kyi lus so || gnyis pa ni sa brgyad pa snang med du gnas gyur te ting nge <lb n="15b3"/> 'dzin dang mtshan dang dbang dang mngon shes kyi me tog rgyas pa yid kyi mgyogs pa dang mtshungs pa sgyu ma la sogs pa 'dra ba 'byung bzhi dang 'byung gyur dang 'dra ba sangs rgyas kyi zhing thams cad du 'gro nus ces so ||
+<milestone n="Annotation" unit="section"/>
+gcig zhus ||</ab>
+    </body>
+  </text>
+</TEI>

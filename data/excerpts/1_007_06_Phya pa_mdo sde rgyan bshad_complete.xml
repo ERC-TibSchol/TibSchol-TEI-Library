@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc>
+         <titleStmt>
+				<title type="main" xml:lang="bo-Latn-x-wylie">mdo sde rgyan gyi bshad pa</title>
+            <author ref="apis:3831">phywa pa chos kyi seng ge</author>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:PH">Kazuo Kano</name>
+               <name ref="corpusmd:Transkribus">Transkribus</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:TD">Tsering Drongshar</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="public">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">1_007_06</idno>
+            <idno type="Transkribus">1500711</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">66 x 10</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+Most numbers in the left margin are not legible, but it would appear that the cover page corresponds to fol. 25, or that folios are missing between fol. 1 and fol. 26.&#13;
+Number on the last folio: 121.&#13;
+Missing folios: 98, 109-112.&#13;
+Two folios are added between fol. 66 and fol. 67 (re drug 'og ma; re bdun gong ma).&#13;
+[8H6M69W4], No. 15904, reports 99 folios.&#13;
+Lines per folio: 8.&#13;
+Orthography:&#13;
+Use of bindu for m&#13;
+- Na for med&#13;
+- Abbreviations (e.g., for yon tan, la sogs pa, mtshan nyid)&#13;
+- Numeral used for phonetic value (e.g., for bzhin)&#13;
+Occasional use of Sanskrit words, e.g. "hetu" for "gtan tshigs" in a verse citation.&#13;
+Interlinear and marginal glosses.&#13;
+Proofread.&#13;
+Some words in large characters appear in the margins (ratna, baidurya).</additional></physDesc></sourceDesc>
+      <respStmt><principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            </respStmt><respStmt><funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            </respStmt></fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+			</profileDesc>
+      </teiHeader>
+  <text>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4494"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg chen mdo sde rgyan</rs> gyi legs bshad yang rgyan nyi 'od gsal ba</rs> ces so ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog</rs> na re shu lo ka 'di sgra'i gnas brgyad la drang ste bshad pa'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog</rs> na re 'di seMs kyi chos nyid la <abbr> yon tan</abbr> skyed nus yod <lb n="31b2"/> tsam 1 la byed dgos kyi chos can la byas nas sangs rgyas kyi yon tan rnaMs <abbr>sems can</abbr> gyi dus na yod par byas na grangs can la bkod pa'i skyon 'ong ces gsungs pa la | gzhan dan de mi 'ong ste 'di ma skyes pa skyed rgyu la 'bras bu gnas par 'dod pa la 'ong pa yin gyi 'di ma rtogs pa rtogs pa'i rgyu yin pas so zhes zer ro || </ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ref="db:3786" ana="corpusmd:named_reference">rngog</rs> na re khaMs sna tshogs par cis shes zhes pa la bsu ra'i mdos shes so || 
+         <rs type="person" ana="corpusmd:named_reference" ref="db:4141">btsan</rs> na re khaMs sna tshogs dmigs pa'i phyir rigs yod bsgrub du mi btub ste || cis khaMs bya ba dang rigs bya
+         <lb n="47a8"/> pa ming gi rnam grangs yin pas 'dra ba 1 gis 'dra ba sgrub du mi 'dod de | dper na bum pa chos can | byas pa yin te | bgyis pa'i phyir ro || zhes pa <abbr>bzhin</abbr> no || </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Colophon (121a5)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4494"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">mdo sde rgyan</rs> gyi bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">shag kya'i dge slong d+ha r+ma seng ge</rs>s legs par sbyar ba rdzogs s+h+yo ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="[2]"/><rs type="work" ana="corpusmd:named_reference" ref="db:4494"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po'i mdo sde'i rgyan</rs> gyi rnaM par bshad pa</rs> 'di la <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma</rs> 
+         <note type="gloss"><rs type="work" ana="corpusmd:unnamed_reference" ref="db:5571">'grel</rs> ; <rs type="work" ana="corpusmd:unnamed_reference">tik</rs> ; <rs type="person" ana="corpusmd:named_reference">dznya shri</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3798">pa ra he da</rs> ; <rs type="person" ana="corpusmd:named_reference" ref="db:3800">sa rdza</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4593">°° btsan</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4593">tsang nag</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3816">ar </rs> ¦ drug<note type="editorial">Reading "drug" uncertain</note> </note>'i gsung ma lus pa zin bris byas pas bag tsaM nyog du gsal kyang gting 'theMs che bas dang <choice><reg>du</reg><orig>(du)</orig></choice> slang par rigs s+hO ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="[3] (In the let margin: scribe and folio numbering)"/> <rs type="person" ana="corpusmd:named_reference" ref="bd:4495">ston pa rang 'byung</rs> gis bris pa ¶ <rs type="person" ana="corpusmd:named_reference" ref="db:6039">long</rs> gis rtsi byas 'di'i don rtogs nas dga' ldan <choice><reg>bskye bar cig</reg><orig>°°°</orig></choice> ||</ab>
+    </body>
+  </text>
+</TEI>
