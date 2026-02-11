@@ -147,9 +147,35 @@ def process_tei_header(src_header):
     dimensions.text = instance_data.get("dimension", "unknown")
     fileDesc.append(resp_stmt_principal)
     fileDesc.append(resp_stmt_funder)
-    header.append(deepcopy(fileDesc))
-    header.append(deepcopy(encodingDesc))
-    header.append(deepcopy(profileDesc))
+
+    # Helper to remove comments and processing instructions from an element tree
+    def _remove_comments_and_pis(elem):
+        # remove XML comment nodes
+        for c in elem.xpath('.//comment()'):
+            parent = c.getparent()
+            if parent is not None:
+                parent.remove(c)
+        # remove processing instructions
+        for pi in elem.xpath('.//processing-instruction()'):
+            parent = pi.getparent()
+            if parent is not None:
+                parent.remove(pi)
+
+    # Append cleaned deep copies so no comments or PIs remain in header
+    cleaned_fileDesc = deepcopy(fileDesc)
+    _remove_comments_and_pis(cleaned_fileDesc)
+    cleaned_encodingDesc = deepcopy(encodingDesc) if encodingDesc is not None else None
+    if cleaned_encodingDesc is not None:
+        _remove_comments_and_pis(cleaned_encodingDesc)
+    cleaned_profileDesc = deepcopy(profileDesc) if profileDesc is not None else None
+    if cleaned_profileDesc is not None:
+        _remove_comments_and_pis(cleaned_profileDesc)
+
+    header.append(cleaned_fileDesc)
+    if cleaned_encodingDesc is not None:
+        header.append(cleaned_encodingDesc)
+    if cleaned_profileDesc is not None:
+        header.append(cleaned_profileDesc)
     if bad_idnos:
         raise ValueError(f"Bad idnos found: {bad_idnos}")
     if not idnos:
