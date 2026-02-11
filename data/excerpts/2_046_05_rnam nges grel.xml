@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam nges kyi 'grel pa</title>
+            <title xml:lang="bo">ཚད་མ་རྣམ་ངེས་ཀྱི་འགྲེལ་པ</title>
+            <author ref="person:7169">Anonymous</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:TD">Tsering Drongshar</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">2_046_05</idno>
+            <idno type="Transkribus">1470313</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst4786">
+               <msIdentifier>
+                  <idno type="APIS">4786</idno>
+                  <idno type="TibSchol">2_046_05</idno>
+                  <idno type="signature">zha 15</idno>
+                  <idno type="drepung">16358</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD89084_1EB20C</idno>
+                  <msName>tshad ma rnam nges kyi 'grel pa</msName>
+                  <msName xml:lang="bo">ཚད་མ་རྣམ་ངེས་ཀྱི་འགྲེལ་པ</msName>
+                  <msName type="alt" xml:lang="bo">tshad ma rnam nges le'u gsum pa'i 'grel ba (catalogue)</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:4787">tshad ma rnam nges kyi 'grel pa</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dpe tshugs.<lb/>Number on the last folio: 64.<lb/>Missing folios: 1, 11, 12, 16, 25, 49.<lb/>Abundant use of abbreviations.</p>
+                           <dimensions unit="cm">
+                              <width>61</width>
+                              <height>9</height>
+                           </dimensions>
+                        </support>
+                        <extent>58(/64)</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <persName ref="person:4788" role="scribe">dkon mchog nor bu</persName>
+                  </origin>
+                  <provenance>'bras spungs gnas bcu lha khang<persName ref="person:4789" role="owner">tshad ma rab bsal</persName>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                     <note type="comment">The last digit of the signature number (which is written on the top left corner of fol. 2a) is unclear. &lt;&lt;bKaʼ gdams gsung ʼbum phyogs sgrig thengs gnyis paʼi dkar chag [Z5WBK2VV]&gt;&gt;: 68 reports "phyi zha 12," but there is no corresponding item with this signature in the [8H6M69W4]. &#13;
+The instance could corresponds, rather, to No. 16358 in the &lt;&lt;'Bras spungs dkar chag [8H6M69W4]&gt;&gt; with signature "phyi zha 15" and the reported title "tshad ma rnam nges le'u gsum pa'i 'grel pa zhig," which corresponds to the colophon of the third chapter in this text (fol. 64a5).&#13;
+[8H6M69W4] reports 64 folios (which corresponds to the number on the last folio).</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/UJDXNMGD">bKa' gdams gsung 'bum 2</ref>, <biblScope unit="vol">46</biblScope>, <biblScope unit="pp">405-520</biblScope>, <biblScope unit="text">5</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="inst" matchPattern="^(\d+)$" replacementPattern="#inst$1">
+               <p>Local identifier of a inst record from the APIS export; resolves to the element with xml:id 'inst' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3773"><persName type="main" xml:lang="bo-Latn-x-wylie">dharmakīrti</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">chos kyi grags pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">chos grags</persName><birth notBefore="0550-01-01">after 550</birth><death notAfter="0660-12-31">before 660</death><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6120</idno><idno type="APIS">3773</idno><note type="comment">The dates 600-660 were proposed in [C7GN3X2Q].&#13;
+The mid-sixth century for his birth date was proposed in [KQVXHPVH].</note></person><person xml:id="person3786"><persName type="main" xml:lang="bo-Latn-x-wylie">rngog blo ldan shes rab</persName><persName xml:lang="bo">རྔོག་བློ་ལྡན་ཤེས་རབ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog lo tsA ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo chen</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge slong blo ldan shes rab</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog lo rtsa ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog dge slong blo ldan shes rab</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">blo ldan bzang po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo tsha ba chen po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo ts+tsha ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo tsha ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo tsa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">blo ldan</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">ma hA</persName><birth notBefore="1059-01-01" notAfter="1059-12-31">1059</birth><death notBefore="1109-01-01" notAfter="1109-12-31">1109</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P2551</idno><idno type="APIS">3786</idno><note type="comment">See [BAQ9MH4T]: 193 for the main events of his life.&#13;
+&#13;
+Three manuscript editions of his writings and translations were deposited respectively in rNgog Blo ldan shes rab's tomb, in the monastery of gSang phu (probably in the main assembly hall), and in Drin las kyi sde (ID:4357) ([7FZ3B926]: 107).</note></person><person xml:id="person4788"><persName type="main" xml:lang="bo-Latn-x-wylie">dkon mchog nor bu</persName><persName xml:lang="bo">དཀོན་མཆོག་ནོར་བུ</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">4788</idno></person><person xml:id="person4789"><persName type="main" xml:lang="bo-Latn-x-wylie">tshad ma rab bsal</persName><persName xml:lang="bo">ཚད་མ་རབ་བསལ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge ba'i bshes gnyen tshad ma rab bsal</persName><birth notBefore="1100-01-01">after 1100</birth><death notBefore="1180-01-01">after 1180</death><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">4789</idno></person><person xml:id="person7169"><persName type="main" xml:lang="bo-Latn-x-wylie">Anonymous</persName><persName xml:lang="bo">ཨཱནོཉམོཨུས</persName><birth notBefore="1080-01-01">after 1080</birth><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">7169</idno></person></listPerson><listBibl><bibl xml:id="work3774"><title type="main" xml:lang="bo-Latn-x-wylie">pramāṇaviniścaya</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma rnam nges</title><date type="composition" notBefore="0560-01-01" notAfter="0660-12-31">after 560 before 660</date><author ref="person:3773">dharmakīrti</author><note type="isExtant">True</note><idno type="APIS">3774</idno></bibl><bibl xml:id="work4787"><title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam nges kyi 'grel pa</title><title xml:lang="bo">ཚད་མ་རྣམ་ངེས་ཀྱི་འགྲེལ་པ</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma rnam nges kyi 'grel ba</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma rnam nges le'u gsum pa'i 'grel pa zhig</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma rnam nges le'u gsum pa'i 'grel ba</title><textLang mainLang="bo"/><author ref="person:7169">Anonymous</author><note type="isExtant">True</note><note type="comment">The chapter colophon indicates that this work is a commentary on the Pramāṇaviniścaya (ID:3774), which covers the third chapter (on inference for others).&#13;
+Frequent use of consequences. Few references to other views, by Dharmottara and some anonymous proponents.</note><relatedItem type="commentaryOn" target="work:3774"/><idno type="APIS">4787</idno></bibl></listBibl><listRelation><relation xml:id="rel752" name="author-of" active="#person7169" passive="#work4787" type="positive"/><relation xml:id="rel5091" name="quotes-with-name" active="#person7169" passive="#person3786" type="positive"><desc>Evidence: <ptr target="#ex46052024-09-1216-47-23"/></desc></relation></listRelation></standOff><text>
+      <body>
+                
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+       
+         
+         
+         
+            
+            
+
+
+
+            
+            
+            
+            
+  
+
+  
+            
+            
+            
+                     
+            
+            
+   
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         
+         
+
+            
+            
+            
+
+
+         
+              
+           
+
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve">
+        
+        
+         <gap reason="omitted"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <ab>
+               <gap reason="omitted"/><pb n="21b"/><lb edRef="inst:4786" n="21b9"/><seg type="excerpt" xml:id="ex46052024-09-1216-47-23" status="finalized" part="M" next="ex046052025-11-1011-09-10"><rs type="person" ana="corpusmd:named_reference" ref="person:3786">lo ts+tsha ba chen po</rs> ni rtags kyi 'brel pa'i rtsa ba °°<note type="editorial">Abbreviation "shyoesi" unclear</note> gshis la rten pa dang khas blangs la rten pa dang po <note type="editorial">Reading "dang po" tentative</note> dngos stobs don sgrub du gyur pa dang tha snyad du bsgrub pa <pb n="22a"/><lb edRef="inst:4786" n="22a1"/> 2 phyi ma <expan>grags</expan> rtags yin la khas blangs la rten pa ni yid ches su bzhed do </seg>
+                
+      <seg type="shared" xml:id="ex046052025-11-1011-09-10" status="reviewed">          gzhung gi tshig 'chad pa la gnyis thun mong gi mtshan nyid dang po'i lugs rnam par bzhag pa'i dang po ni bdag gaM <expan>gzhan nas</expan> yin te bar ma rang tshig smra ba'i rgol ba bdag dang gzhan bstan bcos <lb edRef="inst:4786" n="22a2"/> mkhan <expan>chen nas</expan> tshad mar khas len pas te yid ches su bzung bya yin te khyod bstan bya'i don gyi dngos po ji lta ba bzhin du mthong ba'i sgo nas ngag 'jug par 'dod  pa yin pa'i phyir de'i tshig nas yin no bar la de 2 kyis smras pa'i tshig chos can rang tshad mar khas len pa pos bstan bya'i don gyi 'bras bur 'dod te bstan <lb edRef="inst:4786" n="22a3"/> </seg><gap reason="omitted"/></ab> 
+         <gap reason="omitted"/>
+         
+         
+         
+         
+
+
+            
+         
+       <ab xml:space="preserve"> 
+                  
+         <seg type="excerpt" xml:id="ex46052023-09-12-091" status="finalized"><milestone unit="section" n="Post-colophon (64a6) - Owner"/> <lb edRef="inst:4786" n="64a7"/> <rs type="person" ana="corpusmd:named_reference" ref="person:4789">dge ba'i bshes gnyen tshad ma rab bsal<note type="editorial">"bsal" written for "gsal"</note></rs> gyi phyag dpe' |
+          <note type="translation">This is the book of the Spiritual friend Tshad ma rab bsal (sic)</note></seg>
+         
+          
+         <seg type="excerpt" status="finalized" xml:id="ex46052023-09-12-092">bris pa'i mchog gyur <rs type="person" ana="corpusmd:named_reference" ref="person:4788">dkon mchog nor bu</rs>s bris pa dge'o ||
+            <note type="translation">Written by the best scribe, dKon mchog nor bu. May it be virtuous!</note>
+         </seg>
+      </ab>
+                <gap reason="omitted"/>
+         </ab>
+
+         
+      </body>
+      
+   </text>
+</TEI>

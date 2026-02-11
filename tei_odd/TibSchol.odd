@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TibSchol TEI Customization</title>
+            <author>
+               <name xml:id="DS" ref="http://viaf.org/viaf/249676043" full="yes" instant="false">Daniel Schopper</name>
+            </author>
+            <principal>
+               <name xml:id="PH" ref="https://orcid.org/0000-0002-6100-3884" full="yes" instant="false">Pascale Hugon</name>
+            </principal>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name xml:id="RG" full="yes" instant="false">Rachel Griffiths</name>
+            </respStmt>
+            <funder/>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.1.0">Version 1.1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <!--  Prelimiary publication stmt – this needs to be revisted as soon as the data is made public. -->
+            <publisher>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date instant="false">2022</date>
+            <availability default="false">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/" notBefore="2016-08-02">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License applies to this text.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p>Initially derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 1 files in /home/dschopper/data/TibSchol_TEIs/102_derived_TEI</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc default="false">
+            <p>This document was created and is made available in the framework of the ERC
+               project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+               This project has received funding from the European Research Council (ERC) under
+               the European Union's Horizon 2020 research and innovation programme (grant
+               agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2022-03-09" who="#DS" status="draft">initial setup through ODD by example; preliminary work on the TEI Header</change>
+         <change when="2022-10-03" who="#DS" status="published">finished implementing tags according to the <ref target="https://oeawacat.sharepoint.com/:w:/r/sites/ACDH-CH_p_TibSchol/_layouts/15/Doc.aspx?sourcedoc=%7BEC5FC6F2-9C07-4A5C-82D0-BC92F7547280%7D&amp;file=TagList%20TibSchol%20RG.docx&amp;action=default&amp;mobileredirect=true&amp;wdOrigin=TEAMS-ELECTRON.teams.files&amp;wdExp=TEAMS-CONTROL&amp;wdhostclicktime=1640177269866&amp;cid=a2aed6d4-0318-4a3d-97de-593a630796ce">Tag List Spec Document</ref>.</change>
+         <change when="2022-10-07" who="#DS" status="published">further restricting schema; starting work on Part 1, prose documentation.</change>
+         <change when="2022-12-09" who="#DS" status="published">adding references to vocabularies in TEI Corpus Header (010_manannot/corpus.xml)</change>
+         <change when="2024-01-22" who="#DS" status="published"/>
+         <change when="2024-01-22" who="#DS" status="published">PH added type to ab and to note tags</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Part 1: Documentation</head>
+            <div>
+               <head>General Overview</head>
+               <p>The TibSchol project explores scholarly networks in the formative phase (11th–13th
+                  c.) of the Tibetan Buddhist scholastic tradition. It does so by encoding the
+                  referential features of a large corpus of Tibetian works and extracting information
+                  from them. To this end, the project is populating a <ref target="https://tibschol.acdh-dev.oeaw.ac.at/">prosopographical database</ref>
+                  (an instance of the software <ref target="https://www.oeaw.ac.at/acdh/tools/apis-app">APIS - Austrian
+                     Prosopographical Information System</ref>) next to editing and encoding the
+                  source texts themselves in TEI/XML (called <term>e-texts</term>). To this effect, the texts originally available as manuscript facsimile - or portions of those texts  -are first transcribed (manually or automatically). Both systems
+                  have their respective role for collecting information, but at the same time
+                  overlap and interact in several ways:</p>
+               <list>
+                  <item>APIS contains the master information about named entities relevant to the
+                     project and their relations - with a strong focus on personal relations. </item>
+                  <item>APIS thereby holds information on the textual sources being encoded: Both on
+                     the level of the abstract <term>text</term> (similar to the notion of
+                        <term>Work</term> in <ref target="https://cidoc-crm.org/frbroo/">FRBR(oo)</ref> or <ref target="https://id.loc.gov/ontologies/bibframe-2-1-0.html#c_Work">BIBFRAME</ref>) and its <term>instances</term>, i.e. its concrete
+                     realization, transmitted via some text carrier (equivalent to BIBFRAME's <ref target="https://id.loc.gov/ontologies/bibframe-2-1-0.html#c_Instance">Instance</ref> class or a combination of <ref target="https://www.cidoc-crm.org/f4-manifestation-singleton">F4
+                        Manifestation Singleton</ref> and its "content", being an <ref target="https://www.cidoc-crm.org/f2-expression">F2 Expression</ref>). </item>
+                  <item>The TEI documents produced by the project not only
+                     document the content of textual excerpts, supplemented, when required, by a critical apparatus, in particular when the editorial reading differs from the original reading and in the case of multiple <term>instances</term>.</item>
+                  <item>The TEI documents provide suppor to the high-level assertions in the prosopographical database, i.e. the to the relations between entities. The prosopographic
+                     database therefor holds abstract representations not only on the <term>works</term> and
+                        <term>instances</term> but also of <term>excerpts</term> of texts which
+                     correspond to annotated segments inside of TEI documents.</item>
+               </list>
+            </div>
+            <div>
+               <head>Excerpts and Topics</head>
+               <p>The e-texts provide textual evidence for relations (in particular for relations
+                  between persons) as well as for the views held by scholars on given topics a list
+                  of which is recorded in the project's prosopographical database). In terms of TEI
+                  encoding, both views, relations and excerpts are marked up using the generic
+                     <gi scheme="TEI">seg</gi> element and differentiated by the <att scheme="TEI">type</att> attribute.</p>
+               <p><term>Relations</term>
+               </p>
+               <p><term>Excerpts</term> are a special case between the three: </p>
+            </div>
+            <div>
+               <head>Commentary and text-critical apparatus</head>
+               <p>The text-critical apparatus and commentary is encoded outside of the running text in the <gi scheme="TEI">back</gi> of the TEI document. <hi rend="bold">Apparatus entries</hi> encode textual differences of the text in several versions and are made up of an <gi scheme="TEI">app</gi> element containing one or more <gi scheme="TEI">rdg</gi> elements - each of which stands for a reading found in a dedicated instance of the work.</p>
+               <p>A commentary is a simple <gi scheme="TEI">note</gi> element in the document's back matter (<tag scheme="TEI">div type="commentary"</tag>). This must be attached to a point in the running text by referencing an <gi scheme="TEI">anchor</gi> element via its <att scheme="TEI">xml:id</att> in the <att scheme="TEI">target</att> attribute on the note element. If needed, the note can also be attached to a range of text by adding the attribute <att scheme="TEI">spanTo</att> which points the end of the referenced text.</p>
+               <p>Similarly, the boundaries of an apparatus entry's reference text (= lemma) in the main text is indicated by two <gi scheme="TEI">anchor</gi> elements, both of which bear an <att scheme="TEI">xml:id</att> attribute. On the <gi scheme="TEI">app</gi> element, the attributes <att scheme="TEI">from</att> and <att scheme="TEI">to</att> point to start resp. end markers.</p>
+            </div>
+         </div>
+         <div>
+            <head>Part 2: Format specification</head>
+            <schemaSpec ident="tibScholTexts" start="TEI" mode="add" status="draft" defaultExceptions="http://www.tei-c.org/ns/1.0 teix:egXML">
+               <moduleRef key="tei"/>
+               
+               
+               
+               <classRef key="att.witnessed" minOccurs="1" maxOccurs="1"/>
+               <classRef key="model.rdgLike" minOccurs="1" maxOccurs="1"/>
+               <classRef key="model.rdgPart" minOccurs="1" maxOccurs="1"/>
+               <moduleRef key="textcrit" include="app lem listWit rdg variantEncoding witDetail witness"/>
+               
+               <elementSpec ident="app" mode="change">
+                  <attList>
+                     <!-- CHECKME is @type on <app> needed ? -->
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                     <!--<attDef ident="from" mode="change" usage="req"/>
+                     <attDef ident="to" mode="change" usage="req"/>-->
+                     <attDef ident="loc" mode="delete" usage="opt"/>
+                     <attDef ident="n" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               <!-- Removing listWit from model.listLike since we don't want it to show up in side of <body> DS 2022-10-07 -->
+               <elementSpec ident="listWit" mode="change">
+                  <classes mode="change">
+                     <memberOf key="model.listLike" mode="delete"/>
+                     <memberOf key="model.sourceDescPart" mode="add"/>
+                  </classes>
+               </elementSpec>
+               
+               <classSpec type="atts" ident="att.pointing" mode="change">
+                  <attList>
+                     <attDef ident="targetLang" mode="delete" usage="opt"/>
+                     <attDef ident="evaluate" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               
+               <classSpec type="atts" ident="att.pointing.group" mode="delete"/>
+                  
+               <classSpec ident="att.textCritical" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                     <attDef ident="cause" mode="delete" usage="opt"/>
+                     <attDef ident="varSeq" mode="delete" usage="opt"/>
+                     <attDef ident="require" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               
+               <classSpec type="atts" ident="att.spanning" mode="delete"/>
+               
+               <!--Checking module msdescription-->
+               <classRef key="model.physDescPart" minOccurs="1" maxOccurs="1"/>
+               <moduleRef key="msdescription" include="additional collection msDesc msIdentifier repository surrogates"/>
+               
+               
+               
+               <elementSpec ident="repository" mode="change">
+                  <attList>
+                     <attDef ident="ref" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="collection" mode="change">
+                  <attList>
+                     <attDef ident="ref" mode="delete" usage="opt"/>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+           
+               <!--Checking module namesdates-->
+               <classRef key="model.persNamePart" minOccurs="1" maxOccurs="1"/>
+               <moduleRef key="namesdates" include="country"/>
+               <elementSpec ident="country" mode="change">
+                  <attList>
+                     
+
+                     <attDef ident="ref" mode="delete" usage="opt"/>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                     <attDef ident="when" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module dictionaries-->
+               <classRef key="att.lexicographic" minOccurs="1" maxOccurs="1"/>
+               <classRef key="model.entryLike" minOccurs="1" maxOccurs="1"/>
+               <classRef key="model.formPart" minOccurs="1" maxOccurs="1"/>
+               <classRef key="model.gramPart" minOccurs="1" maxOccurs="1"/>
+               <classRef key="model.lexicalRefinement" minOccurs="1" maxOccurs="1"/>
+               <classRef key="model.morphLike" minOccurs="1" maxOccurs="1"/>
+               <classRef key="model.ptrLike.form" minOccurs="1" maxOccurs="1"/>
+               <classSpec ident="att.lexicographic" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="expand" mode="delete" usage="opt"/>
+                     <attDef ident="split" mode="delete" usage="opt"/>
+                     <attDef ident="value" mode="delete" usage="opt"/>
+                     <attDef ident="location" mode="delete" usage="opt"/>
+                     <attDef ident="mergedIn" mode="delete" usage="opt"/>
+                     <attDef ident="opt" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               
+               <!--Checking module tagdocs-->
+               <classRef key="att.combinable" minOccurs="1" maxOccurs="1"/>
+               <classRef key="att.identified" minOccurs="1" maxOccurs="1"/>
+               <classRef key="model.contentPart" minOccurs="1" maxOccurs="1"/>
+               <classSpec ident="att.combinable" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="mode" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.identified" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="ident" mode="delete" usage="opt"/>
+                     <attDef ident="predeclare" mode="delete" usage="opt"/>
+                     <attDef ident="module" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.ascribed.directed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="toWhom" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.canonical" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="key" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.dimensions" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="unit" mode="delete" usage="opt"/>
+                     <attDef ident="quantity" mode="delete" usage="opt"/>
+                     <attDef ident="extent" mode="delete" usage="opt"/>
+                     <attDef ident="precision" mode="delete" usage="opt"/>
+                     <attDef ident="scope" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               
+               <classSpec ident="att.damaged" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="agent" mode="delete" usage="opt"/>
+                     <attDef ident="degree" mode="delete" usage="opt"/>
+                     <attDef ident="group" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               
+               <classSpec ident="att.datable.iso" type="atts" mode="delete"/>
+               <classSpec ident="att.datable.custom" type="atts" mode="delete"/>
+               <classSpec ident="att.datable" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="period" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               
+               <classSpec type="atts" ident="att.calendarSystem" mode="delete"/>
+               
+               <classSpec ident="att.divLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="org" mode="delete" usage="opt"/>
+                     <attDef ident="sample" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               
+             
+             
+               <classSpec ident="att.interpLike" type="atts" mode="delete"/>
+                  
+                  
+               
+               <classSpec ident="att.naming" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="role" mode="delete" usage="opt"/>
+                     <attDef ident="nymRef" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.typed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="subtype" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.pointing.group" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="domains" mode="delete" usage="opt"/>
+                     <attDef ident="targFunc" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.segLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="function" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.timed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="start" mode="delete" usage="opt"/>
+                     <attDef ident="end" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.transcriptional" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="status" mode="delete" usage="opt"/>
+                     <attDef ident="cause" mode="delete" usage="opt"/>
+                     <attDef ident="seq" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               
+               <classSpec ident="att.personal" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="full" mode="delete" usage="opt"/>
+                     <attDef ident="sort" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               
+               <!--Checking module core-->
+               <!-- adding hi element = text in bold face in word documents DS 2022-10-03 -->
+               <moduleRef key="core" include="abbr expan author bibl choice corr date foreign gap head hi l lb lg measure mentioned milestone name note orig p pb publisher quote reg resp respStmt rs sic title unclear"/>
+               
+               <classSpec ident="att.global.rendition" type="atts" mode="delete"/>
+               
+               <classRef key="att.global.responsibility" include="resp" minOccurs="1" maxOccurs="1"/>
+   
+               <!-- Generally, we want to get rid of renditional markup, however for the time being we want to retain hi elements when editors have explicitely added some markup -->
+               <elementSpec ident="hi" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="add" usage="req">
+                        <valList type="closed" mode="add">
+                           <valItem ident="editorial" mode="add">
+                              <desc xml:lang="en">any text segment important to the person marking up the text</desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+   
+               <elementSpec ident="milestone" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                     <attDef ident="ed" mode="delete" usage="opt"/>
+                     <attDef ident="unit" mode="replace" usage="req">
+                        <valList type="closed" mode="add">
+                           <valItem ident="section" mode="add">
+                              <desc xml:lang="en">the beginning of a new section of the document</desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                     <attDef ident="n" mode="change" usage="req">
+                        <datatype minOccurs="1" maxOccurs="1">
+                           <dataRef key="teidata.text"/>
+                        </datatype>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+             
+               <elementSpec ident="corr" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+      
+               <elementSpec ident="name" mode="change">
+                  <attList>
+                     <!-- TODO For <name> elements in the teiHeader We should enforce that @ref starts with a corpusmd: prefix. -->
+                     <attDef ident="ref" mode="change" usage="req"/>
+                     <attDef ident="when" mode="delete" usage="opt"/>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               
+               <elementSpec ident="rs" mode="change">
+                  <constraintSpec ident="rs-sch" scheme="schematron" mode="add">
+                     <desc>enforce attribute values on rs elements</desc>
+                     <constraint>
+                        <sch:rule context="tei:rs[@type = 'work' or @type='person']">
+                           <sch:assert test="exists(@ana)">missing attribute ana on work or person refernce</sch:assert>
+                        </sch:rule>
+                        <sch:rule context="tei:rs[starts-with(@ref,'db:')]">
+                           <sch:assert test="doc-available(replace(@ref,'db:','https://tibschol.acdh-dev.oeaw.ac.at/apis/api/entities/tempentityclass/'))">missing attribute ana on work or person refernce</sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <attList>
+                     <!-- DONE ana=#named|#unnamed should only occur on person and work rs – as of discussion with RG on 2022-11-23 -->
+                     <attDef ident="ana" mode="add" usage="opt">
+                        <?mkValList mode="add" type="closed" source="../010_manannot/corpus.xml#entity_reference_vocab"?><valList mode="add" type="closed">
+               
+               <valItem ident="corpusmd:named_reference"><desc>the entity is refered to by its proper name</desc></valItem>
+               <valItem ident="corpusmd:unnamed_reference"><desc>the entity is refered indirectly / implicitly</desc></valItem>
+            </valList>
+                        
+                                
+                     </attDef>
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="add" type="closed">
+                           <!-- DS 2023-01-26 Re-introducing deity after meeting w/ Pascale and Rachel -->
+                           <valItem ident="deity" mode="add"><desc xml:lang="en">a deity</desc></valItem>
+                           <valItem ident="person" mode="add"><desc xml:lang="en">a person</desc></valItem>
+                           <valItem ident="work" mode="add"><desc xml:lang="en">a work</desc></valItem>
+                           <valItem ident="school" mode="add"><desc xml:lang="en">a school</desc></valItem>
+                           <valItem ident="place" mode="add"><desc xml:lang="en">a place</desc></valItem>
+                        </valList>
+                     </attDef>
+                     <!-- TODO DS: make sure that @ref points to an existing APIS resource -->
+                     <!-- TODO: if we want to port the APIS type back, we'll have to introduce @subtype on <rs> DS 2022-10-03 -->
+                     <!-- CHECKME Since we don't know how many names can be identified at all, @ref is currently not required DS 2022-10-03 -->
+                     <!--<attDef ident="ref" mode="change" usage="req"/>-->
+                  </attList>
+               </elementSpec>
+               
+               <!-- Since @source is only needed on <quote> and <rdg>, we delete the whole class and locally define @source on <quote> DS 2022-10-07 -->
+<!--               <classSpec type="atts" ident="att.global.source" module="tei" mode="delete"/>-->
+               <elementSpec ident="quote" mode="change" module="core">
+                  <desc>holds a lemma from a different work which is in <att scheme="TEI">source</att></desc>
+                  <attList>
+                     <attDef ident="source" mode="change" usage="req"/>
+                     <!-- TODO make sure that @source points to a APIS resource of type "work" -->
+                     <!-- DS 2023-02-07 @n contains short citations of the quote's locus, so we want to enforce its presence -->
+                     <attDef ident="n" mode="change" usage="req"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="rdg" mode="change" module="textcrit">
+                  <attList>
+                     <attDef ident="wit" mode="change" usage="opt"/>
+                     <attDef ident="source" mode="change" usage="opt"/>
+                     <!-- TODO make sure that @source points to a zotero entry -->
+                  </attList>
+               </elementSpec>
+               
+               <!-- we don't know yet of how granular the bibliographic / codicological metadata in APIS will be, so for 
+               the moment I'm commenting @unit out DS 2022-10-07 -->
+               <elementSpec ident="measure" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                     <!--<attDef ident="unit" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="folios"/>
+                        </valList>
+                     </attDef>-->
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="date" mode="change">
+                  <attList>
+                     <attDef ident="ref" mode="delete" usage="opt"/>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               
+               <elementSpec ident="note" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change" usage="opt">
+                        <valList mode="add" type="closed">
+                           <valItem ident="gloss" mode="add"/>
+                           <valItem ident="editorial" mode="add"/>
+                           <valItem ident="commentary" mode="add"/>
+                           <valItem ident="translation" mode="add"/>       
+                           <valItem ident="#InterlinChar" mode="add"><desc xml:lang="en">TEMPORARY TYPE, will be removed</desc></valItem>
+                           <valItem ident="#Signenumerique" mode="add"><desc xml:lang="en">TEMPORARY TYPE, will be removed</desc></valItem>
+                           <valItem ident="#Noterappeltitre" mode="add"><desc xml:lang="en">TEMPORARY TYPE, will be removed</desc></valItem>
+                           <valItem ident="#Signlettre" mode="add"><desc xml:lang="en">TEMPORARY TYPE, will be removed</desc></valItem>
+                           <valItem ident="#Noteajout" mode="add"><desc xml:lang="en">TEMPORARY TYPE, will be removed</desc></valItem>
+                           <valItem ident="#StyleInterlinBleuCar" mode="add"><desc xml:lang="en">TEMPORARY TYPE, will be removed</desc></valItem>
+                           <valItem ident="#Caractresdenotedefin" mode="add"><desc xml:lang="en">TEMPORARY TYPE, will be removed</desc></valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="pb" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                     <attDef ident="n" mode="change" usage="req"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="foreign" mode="change">
+                  <attList>
+                     <attDef ident="xml:lang" mode="change" usage="opt">
+                        <valList type="closed" mode="add">
+                           <valItem ident="sa-Latn-x-wylie" mode="add"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+                  
+               <elementSpec ident="lb" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                     <attDef ident="n" mode="change" usage="req"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="author" mode="change">
+                  <attList>
+                     <attDef ident="when" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="respStmt" mode="change">
+                  <attList>
+                     <attDef ident="ref" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="resp" mode="change">
+                  <attList>
+                     <attDef ident="ref" mode="delete" usage="opt"/>
+                     <attDef ident="when" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="title" mode="change">
+                  <attList>
+                     <attDef ident="level" mode="delete" usage="opt"/>
+                      <attDef ident="type" mode="replace" usage="req">
+                        <valList type="closed" mode="add">
+                           <valItem ident="main" mode="add">
+                              <desc>the main title of a text</desc>
+                           </valItem>
+                           <valItem ident="sub" mode="add">
+                              <desc>the subtitle of a text</desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                     <attDef ident="ref" mode="delete" usage="opt"/>
+                     <attDef ident="when" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="publisher" mode="change">
+                  <attList>
+                     <attDef ident="ref" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               
+               <elementSpec ident="bibl" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               
+               <!--Checking module header-->
+               <classRef key="att.patternReplacement" minOccurs="1" maxOccurs="1"/>
+               
+               
+               
+               <moduleRef key="header" include="availability change edition editionStmt encodingDesc extent fileDesc funder idno language langUsage licence listPrefixDef notesStmt prefixDef principal profileDesc projectDesc publicationStmt revisionDesc sourceDesc rendition tagsDecl teiHeader titleStmt"/>
+               
+               <classSpec type="atts" ident="att.declarable" mode="delete"/>
+               <classSpec type="atts" ident="att.written" mode="delete"/>
+               
+               <elementSpec ident="teiHeader" mode="change">
+                  <content autoPrefix="true">
+                     <sequence minOccurs="1" maxOccurs="1">
+                        <elementRef key="fileDesc" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="encodingDesc" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="profileDesc" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="revisionDesc" minOccurs="1" maxOccurs="1"/>
+                     </sequence>
+                  </content>
+               </elementSpec>
+               
+               
+               <elementSpec ident="fileDesc" mode="change">
+                  <content autoPrefix="true">
+                     <sequence minOccurs="1" maxOccurs="1">
+                        <sequence minOccurs="1" maxOccurs="1">
+                           <elementRef key="titleStmt" minOccurs="1" maxOccurs="1"/>
+                           <elementRef key="editionStmt" minOccurs="1" maxOccurs="1"/>
+                           <!-- CHECKME What should be the content of <extent> on the <fileDesc> level? Not folios (since these are instance specific? s-->
+                           <!-- removing <extent> for the moment until this is clarified -->
+                           <elementRef key="extent" minOccurs="0" maxOccurs="0"/>
+                           <elementRef key="publicationStmt" minOccurs="1" maxOccurs="1"/>
+<!--                           <elementRef key="seriesStmt" minOccurs="0" maxOccurs="unbounded"/>-->
+                           <!--<elementRef key="notesStmt" minOccurs="0"/>-->
+                        </sequence>
+                        <elementRef key="sourceDesc" minOccurs="1" maxOccurs="1"/>
+                     </sequence>
+                  </content>
+               </elementSpec>
+              
+               <elementSpec ident="publicationStmt" mode="change">
+                  <constraintSpec ident="TibscholID" scheme="schematron" mode="add">
+                     <constraint>
+                        <sch:assert test="exists(tei:idno[@type = 'TibSchol'][. != ''])">an idno element with @type="TibSchol" must be present in the publicationStmt containing the Work's  TibSchol Reference Number</sch:assert>
+                        <!-- TODO validate Identifier -->
+                     </constraint>
+                  </constraintSpec>
+               </elementSpec>
+              
+              
+               <!-- CHECKME: do we really want to have a stand-off apparatus? DS 2022-10-10  -->
+               <elementSpec ident="div" mode="change">
+                  <constraintSpec ident="notes" scheme="schematron" mode="add">
+                     <constraint>
+                        <sch:rule context="tei:div[@type = 'comments']">
+                           <sch:report test="*[not(self::tei:note[@type = 'comment'] and self::tei:app)]">the apparatus may only contain notes of type comment or app elements</sch:report>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <attList>
+                     <attDef ident="type" mode="change" usage="opt">
+                        <valList type="semi" mode="add">
+                           <valItem ident="colophon" mode="add">
+                              <desc xml:lang="en">colophon</desc>
+                           </valItem>
+                           <valItem ident="apparatus" mode="add">
+                              <desc xml:lang="en">apparatus</desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+              
+               <elementSpec ident="titleStmt" mode="change">
+                  <content autoPrefix="true">
+                     <sequence minOccurs="1" maxOccurs="1">
+                        <elementRef key="title" minOccurs="1" maxOccurs="unbounded"/>
+                        <elementRef key="author" minOccurs="0" maxOccurs="1"/>
+                        <elementRef key="principal" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="funder" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="respStmt" minOccurs="1" maxOccurs="unbounded"/>
+                     </sequence>
+                  </content>
+                  <constraintSpec ident="allRespsCovered" scheme="schematron" mode="add">
+                     <constraint>
+                        <!-- CHECKME What other resp types are important and need to be covered ? -->
+                        <!-- TODO as soon as the list is complete, transform it into a semi-closed valList on resp -->
+                        <sch:assert test="exists(tei:respStmt[tei:resp = 'Transcribed by'])">a respStmt element with resp "Transcribed by" must be present in the title statment.</sch:assert>
+                        <sch:assert test="exists(tei:respStmt[tei:resp = 'TEI Markup by'])">a respStmt element with resp "TEI Markup by" must be present in the title statment.</sch:assert>
+                        <sch:assert test="exists(tei:respStmt[tei:resp = 'Data Modelling'])">a respStmt element with resp "Data Modelling" must be present in the title statment.</sch:assert>
+                        <sch:assert test="exists(tei:respStmt[tei:resp = 'APIS named entitites database implementation'])">a respStmt element with resp "APIS named entitites database implementation" must be present in the title statment.</sch:assert>
+                        <sch:assert test="exists(tei:respStmt[tei:resp = 'XML editor customization'])">a respStmt element with resp "XML editor customization" must be present in the title statment.</sch:assert>
+                        <sch:assert test="exists(tei:respStmt[tei:resp = 'ODD Implementation'])">a respStmt element with resp "ODD Implementation" must be present in the title statment.</sch:assert>
+                        <sch:assert test="exists(tei:respStmt[tei:resp = 'Technical Supervision'])">a respStmt element with resp "Technical Supervision" must be present in the title statment.</sch:assert>
+                     </constraint>
+                  </constraintSpec>
+               </elementSpec>
+               
+               <elementSpec ident="revisionDesc" mode="change">
+                  <attList>
+                     <attDef ident="status" mode="replace" usage="req">
+                        <valList type="closed" mode="add">
+                           <valItem ident="draft" mode="add"><desc>draft: the text is being transcribed and / or annotated</desc></valItem>
+                           <valItem ident="controlled" mode="add"><desc>controlled: transcription and annotation is finished and has been controlled</desc></valItem>
+                           <valItem ident="candidate" mode="add"><desc>candidate: transcription and annotation is ready for publication</desc></valItem>
+                           <valItem ident="published" mode="add"><desc>published: the text is published</desc></valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               
+               <!--<elementSpec ident="body" module="textstructure" mode="change">
+                  <content>
+                     <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
+                     <alternate>
+                        <elementRef key="ab"/>
+                        <elementRef key="note"/>
+                        <elementRef key="pb"/>
+                        <elementRef key="lb"/>
+                     </alternate>
+                  </content>
+               </elementSpec>
+               -->
+               
+               <elementSpec ident="msDesc" mode="change">
+                  <!-- we want to make sure that msDesc only occurs within sourceDesc, so we remove it from model.biblLike and restrict it to be a member of model.sourceDescPart DS 2022-10-07-->
+                  <classes mode="change">
+                     <memberOf key="model.sourceDescPart" mode="add"/>
+                     <memberOf key="model.biblLike" mode="delete"/>
+                  </classes>
+                  <attList>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                     <!-- We want to make sure that msDesc is linked to the "instance" entity class in APIS 2022-10-10 -->
+                     <attDef ident="sameAs" mode="change" usage="req"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="idno" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change" usage="opt">
+                        <valList mode="add" type="closed">
+                           <valItem ident="BDRC" mode="add">
+                              <desc xml:lang="en">BDRC Identifier</desc>
+                           </valItem>
+                           <valItem ident="TibSchol" mode="add">
+                              <desc xml:lang="en">TibSchol Reference Number</desc>
+                           </valItem>
+                           <valItem ident="Transkribus" mode="add">
+                              <desc xml:lang="en">Transkribus Document ID</desc>
+                           </valItem>
+                           <valItem ident="Zotero" mode="add">
+                              <desc xml:lang="en">Zotero ID</desc>
+                           </valItem>
+                           <valItem ident="external" mode="add">
+                              <desc xml:lang="en">any other external identifier</desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                     <attDef ident="when" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="availability" mode="change">
+                  <content autoPrefix="true">
+                     <classRef key="model.availabilityPart" minOccurs="1" maxOccurs="1"/>
+                  </content>
+                  <attList>
+                     <attDef ident="status" mode="change" usage="req">
+                        <valList type="closed" mode="add">
+                           <valItem ident="restricted" mode="add"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="licence" module="header" mode="change">
+                  <attList>
+                     <attDef ident="target" mode="change" usage="opt">
+                        <defaultVal mode="add">https://creativecommons.org/licenses/by-sa/4.0/</defaultVal>
+                        <valList type="closed" mode="add">
+                           <valItem ident="https://creativecommons.org/licenses/by-sa/4.0/" mode="add">
+                              <desc xml:lang="en">CC BY-SA 4.0</desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+     
+               
+               <elementSpec ident="language" mode="change">
+                  <attList>
+                     <attDef ident="usage" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="change" mode="change">
+                  <attList>
+                     <attDef ident="target" mode="delete" usage="opt"/>
+                     
+
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               
+               
+               <!-- CHECKME adding anchor in order to be able to keep commentary in the 
+                    back matter - needs to be discussed w/ PH and RG -->
+               <moduleRef key="linking" include="ab seg anchor"/>
+               
+               <!-- we include transcr for @facs -->
+               <moduleRef key="transcr"/>
+               
+               <classSpec ident="att.global.linking" type="atts" mode="change" module="linking">
+                  <attList>
+                     <attDef ident="synch" mode="delete" usage="opt"/>
+                     <attDef ident="prev" mode="delete" usage="opt"/>
+                   <!--  <attDef ident="next" mode="delete" usage="opt"/> now allowed as attribute in seg-->
+                     <attDef ident="copyOf" mode="delete" usage="opt"/>
+                     <attDef ident="exclude" mode="delete" usage="opt"/>
+                     <attDef ident="corresp" mode="delete" usage="opt"/>
+                     <attDef ident="select" mode="delete" usage="opt"/>
+                  </attList>
+               </classSpec>
+               
+               
+               <classRef key="att.anchoring" include="target" minOccurs="1" maxOccurs="1"/>
+               <!-- commentary is kept next to the apps inside of div type apparatus
+                    commentary notes reference at least an anchor element in the text using @target
+                    if needed, a span of text can be referenced by adding an @targetEnd attribute pointing
+                    to an anchor element indicating the end of the referenced passage  
+               -->
+               
+               <elementSpec ident="ab" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change" usage="opt">
+                        <valList type="closed" mode="add">
+                           <valItem ident="colophon" mode="add"/>
+                           <valItem ident="post_colophon" mode="add"/>
+                           <valItem ident="incipit" mode="add"/>
+                           <valItem ident="cover_page" mode="add"/>
+                           <valItem ident="text_body" mode="add"/>
+                           <valItem ident="variant" mode="add"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="seg" mode="change">
+                  <attList>
+                     <attDef ident="xml:id" mode="change" usage="opt"/>
+                     <attDef ident="next" mode="change" usage="opt"/>
+                     <attDef ident="ana" mode="add" usage="opt">
+                        <?mkValList mode="add" type="closed" source="../010_manannot/corpus.xml#topics_vocab"?><valList mode="add" type="closed">
+               
+               <valItem ident="corpusmd:yul"><desc>yul</desc></valItem><valItem ident="corpusmd:zhen_yul"><desc>zhen yul</desc></valItem><valItem ident="corpusmd:snang_yul"><desc>snang yul</desc></valItem><valItem ident="corpusmd:jug_yul"><desc>jug yul</desc></valItem><valItem ident="corpusmd:gzung_yul"><desc>gzung yul</desc></valItem><valItem ident="corpusmd:mu_bzhi"><desc>mu bzhi</desc></valItem>
+               
+               <valItem ident="corpusmd:tha_dad_bsam_pa"><desc>tha dad bsam pa</desc></valItem>
+               
+               <valItem ident="corpusmd:yul_can"><desc>yul can</desc></valItem>
+               <valItem ident="corpusmd:rjod_byed"><desc>rjod byed</desc></valItem>
+               
+               <valItem ident="corpusmd:tshad_ma"><desc>tshad ma</desc></valItem><valItem ident="corpusmd:rjes_dpag"><desc>rjes dpag</desc></valItem><valItem ident="corpusmd:mngon_sum"><desc>mngon sum</desc></valItem>
+               
+               <valItem ident="corpusmd:bden_gnyis"><desc>bden gnyis</desc></valItem><valItem ident="corpusmd:kun_rdzob"><desc>kun rdzob</desc></valItem><valItem ident="corpusmd:don_dam"><desc>don dam</desc></valItem>
+               
+               <valItem ident="corpusmd:ngo_bo_gsum"><desc>ngo bo gsum</desc></valItem>
+               
+               <valItem ident="corpusmd:tshad_min"><desc>tshad min</desc></valItem><valItem ident="corpusmd:the_tshom"><desc>the tshom</desc></valItem><valItem ident="corpusmd:log_shes"><desc>log shes</desc></valItem><valItem ident="corpusmd:bcad_pai_yul_can-dpyad_shes"><desc>bcad pa'i yul can/dpyad shes</desc></valItem><valItem ident="corpusmd:ma_rtogs_pa"><desc>ma rtogs pa</desc></valItem><valItem ident="corpusmd:yid_dpyod"><desc>yid dpyod</desc></valItem><valItem ident="corpusmd:snang_la_ma_nges_pa"><desc>snang la ma nges pa</desc></valItem>
+               <valItem ident="corpusmd:blo_rigs"><desc>blo rigs</desc></valItem>
+               
+               <valItem ident="corpusmd:gal_ba"><desc>gal ba</desc></valItem>
+               <valItem ident="corpusmd:brel_ba"><desc>brel ba</desc></valItem>
+               
+               <valItem ident="corpusmd:rdzas"><desc>rdzas</desc></valItem>
+               <valItem ident="corpusmd:ldog_pa"><desc>ldog pa</desc></valItem>
+               
+               <valItem ident="corpusmd:gzhan_sel"><desc>gzhan sel</desc></valItem>
+               
+               <valItem ident="corpusmd:rtog_pa"><desc>rtog pa</desc></valItem>
+               <valItem ident="corpusmd:mi_dmigs_pa"><desc>mi dmigs pa</desc></valItem>
+
+               <valItem ident="corpusmd:spyi"><desc>spyi</desc></valItem>
+               <valItem ident="corpusmd:bye_brag"><desc>bye brag</desc></valItem>
+               <valItem ident="corpusmd:dgag_pa"><desc>dgag pa</desc></valItem>
+               <valItem ident="corpusmd:sgrub_pa"><desc>sgrub pa</desc></valItem>
+               <valItem ident="corpusmd:mtshan_nyid"><desc>mtshan nyid</desc></valItem>
+               <valItem ident="corpusmd:bsal_ba"><desc>bsal ba</desc></valItem>
+               <valItem ident="corpusmd:thal_gyur"><desc>thal 'gyur</desc></valItem><valItem ident="corpusmd:thal_gyur_yang_dag-rnal_ma"><desc>thal 'gyur yang dag/rnal ma</desc></valItem><valItem ident="corpusmd:thal_gyur_ltar_snang"><desc>thal 'gyur ltar snang</desc></valItem>
+               
+               <valItem ident="corpusmd:rtags_yang_dag"><desc>rtags yang dag</desc></valItem>
+               <valItem ident="corpusmd:gzhan_don_rjes_dpag"><desc>gzhan don rjes dpag</desc></valItem>
+               <valItem ident="corpusmd:sgrub_ngag"><desc>sgrub ngag</desc></valItem>
+               <valItem ident="corpusmd:ma_dmigs_pai_rtags"><desc>ma dmigs pa'i rtags</desc></valItem>
+               <valItem ident="corpusmd:rgol_ba"><desc>rgol ba</desc></valItem>
+               <valItem ident="corpusmd:phyir_rgol"><desc>phyir rgol</desc></valItem>
+               <valItem ident="corpusmd:dpang_po"><desc>dpang po</desc></valItem>
+               <valItem ident="corpusmd:dgos_brel"><desc>dgos 'brel</desc></valItem>
+               <valItem ident="corpusmd:rang_rgyud_pa"><desc>rang rgyud pa</desc></valItem>
+               <valItem ident="corpusmd:thal_gyur_ba"><desc>thal 'gyur ba</desc></valItem>
+               <valItem ident="corpusmd:tshad_maI_yul"><desc>tshad ma'i yul</desc></valItem>
+               <valItem ident="corpusmd:colophon"><desc>colophon</desc></valItem>
+               <valItem ident="corpusmd:post_colophon"><desc>post colophon</desc></valItem>
+               
+               <valItem ident="corpusmd:whole_text"><desc>whole text</desc></valItem>
+               
+            </valList>
+                        
+                        
+                     </attDef>
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="add" type="closed">
+                           <valItem ident="excerpt" mode="add">
+                              <desc xml:lang="en">an excerpt of a text which is the source of one or more prosopographic relations</desc>
+                           </valItem>
+                           <valItem ident="shared" mode="add">
+                              <desc xml:lang="en">A portion of the e-text that can be share in the public file. It can include excerpts.</desc>
+                           </valItem>
+                           <!-- DS 2022-12-16 We don't have dedicated seg elements for topics, 
+                                so the reference to the topic taxonomy will be put in @ana on <seg type="excerpt">  -->
+                           <!--<valItem ident="topicDiscussion">
+                              <desc xml:lang="en">a segment in the text which discusses some topic. The topic being discussed should be indicated in <att>corresp</att>.</desc>
+                           </valItem>-->
+                           <!-- view will no longer be annotated -->
+                           <!--<valItem ident="view">
+                              <desc xml:lang="en">a segment which describes the scholarly view of a Tibetan (who is tagged as <tag>rs type="person" role="originator"</tag>) </desc>
+                           </valItem>-->
+                        </valList>
+                     </attDef>
+                     <attDef ident="status" mode="add" usage="req">
+                        <valList type="closed" mode="add">
+                           <valItem ident="unreviewed" mode="add"><desc xml:lang="en">This excerpt has been newly added and still needs to be reviewed.</desc></valItem>
+                           <valItem ident="reviewed" mode="add"><desc xml:lang="en">This excerpt has been checked against the manuscript reading (and will be picked up by the APIS importer).</desc></valItem>
+                           <valItem ident="finalized" mode="add"><desc xml:lang="en">This excerpt has been finalized.</desc></valItem>
+                           <valItem ident="edited" mode="add"><desc xml:lang="en">This excerpt has been reviewed, finalized, and its contents have been critically edited.</desc></valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+                  
+               
+               <!--Checking module textstructure-->
+               <!-- removing front since there seems no use for that  -->
+               <moduleRef key="textstructure" include="TEI text body div back"/>
+               
+               <elementSpec ident="text" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete" usage="opt"/>
+                  </attList>
+               </elementSpec>
+
+               <!-- DS/TibSchol 2026-11-20: controlled vocabulary for <relation> (mapping in docs/tei-mapping/mapping.md).
+                    @name takes the relation type as stored in the APIS database. Inverse labels from the data model
+                    (e.g. "biographed by" for "biographer of") are not separate values; store the active form only.
+                    TODO: confirm this list against the RelationType table in the APIS database. -->
+               <elementSpec ident="relation" mode="change">
+                  <attList>
+                     <attDef ident="name" mode="change" usage="req">
+                        <valList mode="replace" type="closed">
+                           <valItem ident="biographer-of"><desc xml:lang="en">person biographer of person (inverse: biographed by)</desc></valItem>
+                           <valItem ident="lineage-predecessor-of"><desc xml:lang="en">person lineage predecessor of person (inverse: lineage successor of)</desc></valItem>
+                           <valItem ident="ordinator-of"><desc xml:lang="en">person ordinator of person (inverse: ordained by)</desc></valItem>
+                           <valItem ident="other-relation-to"><desc xml:lang="en">other relation between two entities</desc></valItem>
+                           <valItem ident="parent-of"><desc xml:lang="en">person parent of person (inverse: child of)</desc></valItem>
+                           <valItem ident="quotes-with-name"><desc xml:lang="en">entity quotes entity with name (inverse: is quoted with name by)</desc></valItem>
+                           <valItem ident="quotes-without-name"><desc xml:lang="en">entity quotes entity without name (inverse: is quoted without name by)</desc></valItem>
+                           <valItem ident="requests"><desc xml:lang="en">person requests work or instance (inverse: requested by)</desc></valItem>
+                           <valItem ident="sibling-of"><desc xml:lang="en">person sibling of person (symmetric)</desc></valItem>
+                           <valItem ident="student-of"><desc xml:lang="en">person student of person (inverse: teacher of)</desc></valItem>
+                           <valItem ident="uncle-of"><desc xml:lang="en">person uncle (maternal or paternal) of person (inverse: nephew of)</desc></valItem>
+                           <valItem ident="active-at"><desc xml:lang="en">person active at place (inverse: place of activity of)</desc></valItem>
+                           <valItem ident="addressee-of"><desc xml:lang="en">person addressee of work (inverse: addressed to)</desc></valItem>
+                           <valItem ident="author-of"><desc xml:lang="en">person author of work (inverse: composed by)</desc></valItem>
+                           <valItem ident="biographed-in"><desc xml:lang="en">person biographed in work (inverse: biography of)</desc></valItem>
+                           <valItem ident="prompter-of"><desc xml:lang="en">person prompter of work (inverse: prompted by)</desc></valItem>
+                           <valItem ident="studies"><desc xml:lang="en">person studies work (inverse: studied by)</desc></valItem>
+                           <valItem ident="teaches"><desc xml:lang="en">person teaches work (inverse: taught by)</desc></valItem>
+                           <valItem ident="translator-of"><desc xml:lang="en">person translator of work (inverse: translated by)</desc></valItem>
+                           <valItem ident="annotator-of"><desc xml:lang="en">person annotator of instance (inverse: annotated by)</desc></valItem>
+                           <valItem ident="has-other-relation-with"><desc xml:lang="en">other relation with a work or instance</desc></valItem>
+                           <valItem ident="owner-of"><desc xml:lang="en">person owner of instance (inverse: owned by)</desc></valItem>
+                           <valItem ident="scribe-of"><desc xml:lang="en">person scribe of instance (inverse: copied / written down by)</desc></valItem>
+                           <valItem ident="sponsor-of"><desc xml:lang="en">person sponsor of instance (inverse: sponsored by)</desc></valItem>
+                           <valItem ident="records-the-teaching-of"><desc xml:lang="en">work records the teaching of person (inverse: has their teaching recorded in)</desc></valItem>
+                           <valItem ident="composed-at"><desc xml:lang="en">work composed at place (inverse: place of composition for)</desc></valItem>
+                           <valItem ident="taught-at"><desc xml:lang="en">work taught at place (inverse: place of teaching of)</desc></valItem>
+                           <valItem ident="written-at"><desc xml:lang="en">instance written at place (inverse: place of scribing for)</desc></valItem>
+                           <valItem ident="commentary-on"><desc xml:lang="en">work commentary on work (inverse: has as a commentary)</desc></valItem>
+                           <valItem ident="contains-citations-of"><desc xml:lang="en">work contains citations of work (inverse: is cited in)</desc></valItem>
+                           <valItem ident="has-as-an-instance"><desc xml:lang="en">work has instance (inverse: instance of)</desc></valItem>
+                           <valItem ident="has-source"><desc xml:lang="en">instance has source work (inverse: is source for)</desc></valItem>
+                           <valItem ident="located-within"><desc xml:lang="en">place located within place (inverse: contains). Not present in the current export; confirm the stored name</desc></valItem>
+                        </valList>
+                     </attDef>
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="replace" type="closed">
+                           <valItem ident="positive"><desc xml:lang="en">confidence: positive (confirmed by evidence)</desc></valItem>
+                           <valItem ident="uncertain"><desc xml:lang="en">confidence: uncertain</desc></valItem>
+                           <valItem ident="negative"><desc xml:lang="en">confidence: negative (the relation does not hold); not for public output</desc></valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+            </schemaSpec>
+         </div>
+      </body>
+   </text>
+</TEI>

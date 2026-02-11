@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">chos mngon pa kun las btus pa'i de kho na nyid 'byung ba</title>
+            <title xml:lang="bo">ཆོས་མངོན་པ་ཀུན་ལས་བཏུས་པའི་དེ་ཁོ་ན་ཉིད་འབྱུང་བ</title>
+            <author ref="person:4015">thar pa lo tsA ba nyi ma rgyal mtshan</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="Transkribus">1582085</idno>
+            <idno type="external">TibSchol 2_043_01</idno>
+            <idno type="TibSchol">2_043_01</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst4757">
+               <msIdentifier>
+                  <idno type="APIS">4757</idno>
+                  <idno type="TibSchol">2_043_01</idno>
+                  <idno type="signature">dza 47</idno>
+                  <idno type="drepung">16117</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD89084_7586F7</idno>
+                  <msName>chos mngon pa kun las btus pa'i de kho na nyid 'byung ba</msName>
+                  <msName xml:lang="bo">ཆོས་མངོན་པ་ཀུན་ལས་བཏུས་པའི་དེ་ཁོ་ན་ཉིད་འབྱུང་བ</msName>
+                  <msName type="alt" xml:lang="bo">a b+hi d+har+mma sa muts+tsa ya tat+wa saM b+ha ba</msName>
+                  <msName type="alt" xml:lang="bo">mngon pa kun las btus pa'i de kho na nyid 'byung ba (catalogue)</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:4758">chos mngon pa kun las btus pa'i de kho na nyid 'byung ba</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions unit="cm">
+                              <width>34</width>
+                              <height>8</height>
+                           </dimensions>
+                        </support>
+                        <extent>274</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>'bras spungs gnas bcu lha khang</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/UJDXNMGD">bKa' gdams gsung 'bum 2</ref>, <biblScope unit="vol">43</biblScope>, <biblScope unit="pp">11-555</biblScope>, <biblScope unit="text">1</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3756"><persName type="main" xml:lang="bo-Latn-x-wylie">asaṅga</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon thogs med</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">thogs myed</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6117</idno><idno type="APIS">3756</idno></person><person xml:id="person3773"><persName type="main" xml:lang="bo-Latn-x-wylie">dharmakīrti</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">chos kyi grags pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">chos grags</persName><birth notBefore="0550-01-01">after 550</birth><death notAfter="0660-12-31">before 660</death><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6120</idno><idno type="APIS">3773</idno><note type="comment">The dates 600-660 were proposed in [C7GN3X2Q].&#13;
+The mid-sixth century for his birth date was proposed in [KQVXHPVH].</note></person><person xml:id="person4015"><persName type="main" xml:lang="bo-Latn-x-wylie">thar pa lo tsA ba nyi ma rgyal mtshan</persName><persName xml:lang="bo">ཐར་པ་ལོ་ཙཱ་བ་ཉི་མ་རྒྱལ་མཚན</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">nyi ma rgyal mtshan dpal bzang po</persName><birth notBefore="1200-01-01">after 1200</birth><death notAfter="1299-12-31">before 1299</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P2147</idno><idno type="APIS">4015</idno></person><person xml:id="person5999"><persName type="main" xml:lang="bo-Latn-x-wylie">bu ston rin chen grub</persName><persName xml:lang="bo">བུ་སྟོན་རིན་ཆེན་གྲུབ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">bu ston thams cad mkhyen pa</persName><birth notBefore="1290-01-01" notAfter="1290-12-31">1290</birth><death notBefore="1364-07-01" notAfter="1364-07-01">1364-07-01</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P155</idno><idno type="APIS">5999</idno></person><person xml:id="person7217"><persName type="main" xml:lang="bo-Latn-x-wylie">sangs rgyas 'byung gnas rin chen</persName><persName xml:lang="bo">སངས་རྒྱས་འབྱུང་གནས་རིན་ཆེན</persName><birth notBefore="1200-01-01" notAfter="1290-12-31">after 1200 before 1290</birth><death notBefore="1210-01-01" notAfter="1370-12-31">after 1210 before 1370</death><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">7217</idno><note type="comment">On this figure, see [I58Z22ET]: 561.</note></person><person xml:id="person7220"><persName type="main" xml:lang="bo-Latn-x-wylie">rong pa shes rab seng ge</persName><persName xml:lang="bo">རོང་པ་ཤེས་རབ་སེང་གེ</persName><birth notBefore="1251-01-01" notAfter="1251-12-31">1251</birth><death notBefore="1313-01-01" notAfter="1315-12-31">after 1313 before 1315</death><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">7220</idno><note type="comment">See [I58Z22ET]: 556-559 and n. 181.</note></person></listPerson><listBibl><bibl xml:id="work3755"><title type="main" xml:lang="bo-Latn-x-wylie">abhidharmasamuccaya</title><title type="alt" xml:lang="bo-Latn-x-wylie">chos mngon pa kun las btus pa</title><author ref="person:3756">asaṅga</author><note type="isExtant">True</note><note type="comment">On Tibetan transmission lineages, see [TZC3JQWE].</note><idno type="APIS">3755</idno></bibl><bibl xml:id="work3774"><title type="main" xml:lang="bo-Latn-x-wylie">pramāṇaviniścaya</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma rnam nges</title><date type="composition" notBefore="0560-01-01" notAfter="0660-12-31">after 560 before 660</date><author ref="person:3773">dharmakīrti</author><note type="isExtant">True</note><idno type="APIS">3774</idno></bibl><bibl xml:id="work4758"><title type="main" xml:lang="bo-Latn-x-wylie">chos mngon pa kun las btus pa'i de kho na nyid 'byung ba</title><title xml:lang="bo">ཆོས་མངོན་པ་ཀུན་ལས་བཏུས་པའི་དེ་ཁོ་ན་ཉིད་འབྱུང་བ</title><title type="alt" xml:lang="bo-Latn-x-wylie">mngon pa kun las btus pa'i de kho na nyid 'byung ba</title><textLang mainLang="bo"/><date type="composition" notBefore="1210-01-01" notAfter="1299-12-31">after 1210 before 1299</date><author ref="person:4015">thar pa lo tsA ba nyi ma rgyal mtshan</author><note type="isExtant">True</note><relatedItem type="commentaryOn" target="work:3755"/><idno type="APIS">4758</idno></bibl><bibl xml:id="work5589"><title type="main" xml:lang="bo-Latn-x-wylie">nyāyabindu</title><title type="alt" xml:lang="bo-Latn-x-wylie">rigs pa'i thigs pa zhes bya ba'i rab tu byed pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">rigs thigs</title><title type="alt" xml:lang="bo-Latn-x-wylie">nyāyabindunāmaprakaraṇa</title><date type="composition" notBefore="0560-01-01" notAfter="0660-12-31">after 560 before 660</date><author ref="person:3773">dharmakīrti</author><note type="isExtant">True</note><note type="comment">A heavily annotated 11-folio dbu med manuscript of the Tibetan translation (fols. 1 and 2 missing) appears on pp. 629-648 of [WXWXCPPI]. In view of the signature "phyi zha 36" (on top of the first available folio), it was formerly part of the 'Bras spungs gnas bcu lha khang collection. [8H6M69W4] does not list any item with the signature "phyi zha 36."</note><idno type="APIS">5589</idno></bibl></listBibl><listRelation><relation xml:id="rel5415" name="student-of" active="#person5999" passive="#person4015" type="positive"/><relation xml:id="rel5411" name="student-of" active="#person7220" passive="#person4015" type="positive"/><relation xml:id="rel5403" name="student-of" active="#person7217" passive="#person4015" type="positive"/><relation xml:id="rel5407" name="teaches" active="#person4015" passive="#work5589" type="uncertain"/><relation xml:id="rel5404" name="teaches" active="#person4015" passive="#work3774" type="positive"/><relation xml:id="rel735" name="author-of" active="#person4015" passive="#work4758" type="positive"/></listRelation></standOff><text>
+      <body>
+         <gap reason="omitted"/>
+      </body>
+   </text>
+</TEI>

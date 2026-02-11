@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">'dul ba lung nas btus pa'i bshad sbyar</title>
+            <title xml:lang="bo">འདུལ་བ་ལུང་ནས་བཏུས་པའི་བཤད་སྦྱར</title>
+            <author ref="person:4593">Anonymous</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="Transkribus">1570591</idno>
+            <idno type="TibSchol">2_039_05</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst4747">
+               <msIdentifier>
+                  <idno type="APIS">4747</idno>
+                  <idno type="TibSchol">2_039_05</idno>
+                  <idno type="signature">la/wa 518</idno>
+                  <idno type="drepung">19374</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD89084_3599B5</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD153536_A77C92</idno>
+                  <msName>'dul ba lung nas btus pa'i bshad sbyar</msName>
+                  <msName xml:lang="bo">འདུལ་བ་ལུང་ནས་བཏུས་པའི་བཤད་སྦྱར</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:4748">'dul ba lung nas btus pa'i bshad sbyar</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions unit="cm">
+                              <width>42.5</width>
+                              <height>6.5</height>
+                           </dimensions>
+                        </support>
+                        <extent>50</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>'bras spungs gnas bcu lha khang</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                     <note type="comment">Same manuscript in 3_079_02, 255-354.&#13;
+[8H6M69W4] reports the signature letter "la". The manuscript reads, rather, "wa," as expected for a work of monastic discipline.</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/UJDXNMGD">bKa' gdams gsung 'bum 2</ref>, <biblScope unit="vol">39</biblScope>, <biblScope unit="pp">401-500</biblScope>, <biblScope unit="text">5</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person4593"><persName type="main" xml:lang="bo-Latn-x-wylie">Anonymous</persName><persName xml:lang="bo">ཨཱནོཉམོཨུས</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">4593</idno></person><person xml:id="person6021"><persName type="main" xml:lang="bo-Latn-x-wylie">yon seng</persName><persName xml:lang="bo">ཡོན་སེང</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">shag kya bstun pa yon seng</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">6021</idno><note type="comment">According to [6TNNKSQ3]: 54, this "yon seng" could be Phya pa (ID:3831)'s student gNyal/dMyal ba Yon tan seng ge (ID:6679).</note></person><person xml:id="person6679"><persName type="main" xml:lang="bo-Latn-x-wylie">dmyal pa yon tan seng ge</persName><persName xml:lang="bo">དམྱལ་པ་ཡོན་ཏན་སེང་གེ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">gnyal pa yon tan seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">gnyal ma yon tan seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">gnyal po yon tan seng ge</persName><birth notAfter="1159-12-31">before 1159</birth><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">6679</idno></person><person xml:id="person6690"><persName type="main" xml:lang="bo-Latn-x-wylie">tho yon ye shes don grub bstan pa'i rgyal mtshan</persName><persName xml:lang="bo">ཐོ་ཡོན་ཡེ་ཤེས་དོན་གྲུབ་བསྟན་པའི་རྒྱལ་མཚན</persName><birth notBefore="1792-01-01" notAfter="1792-12-31">1792</birth><death notBefore="1855-01-01" notAfter="1855-12-31">1855</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P280</idno><idno type="APIS">6690</idno></person><person xml:id="person6850"><persName type="main" xml:lang="bo-Latn-x-wylie">dge 'dun dpal bzang</persName><persName xml:lang="bo">དགེ་འདུན་དཔལ་བཟང</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge 'dun dpal bzang zhes bya'i rtog ge pa</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">6850</idno><note type="comment">A 15th-century "dge 'dun bzang po" (ID:5098) is the owner if two manuscript of Ral gri (ID:4006)'s works.</note></person></listPerson><listBibl><bibl xml:id="work4597"><title type="main" xml:lang="bo-Latn-x-wylie">dbu ma la 'jug pa'i bsdus don</title><title xml:lang="bo">དབུ་མ་ལ་འཇུག་པའི་བསྡུས་དོན</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma 'jug pa'i sa bcad</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Topical outline of the Madhyamakāvatāra (ID:3726), with lemmata written as interlinear notes.</note><idno type="APIS">4597</idno></bibl><bibl xml:id="work4601"><title type="main" xml:lang="bo-Latn-x-wylie">dbu ma'i man ngag gi bshad pa</title><title xml:lang="bo">དབུ་མའི་མན་ངག་གི་བཤད་པ</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma'i man ngag gi bshad pa pu to yab sras kyi lugs</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">According to [4W5HW75B]: 22, this short work explains the Madhyamaka special instructions of Po to ba (ID:3829) and Sha ra ba (ID:3869). See ex019042025-11-2716-54-49 .</note><idno type="APIS">4601</idno></bibl><bibl xml:id="work4631"><title type="main" xml:lang="bo-Latn-x-wylie">dbu ma la brten pa'i zhal gdams zla 'od snying</title><title xml:lang="bo">དབུ་མ་ལ་བརྟེན་པའི་ཞལ་གདམས་ཟླ་འོད་སྙིང</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma la brten pa'i zhal gdams zla zer snying po</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Versified work.</note><idno type="APIS">4631</idno></bibl><bibl xml:id="work4645"><title type="main" xml:lang="bo-Latn-x-wylie">dri ma med pa'i 'od</title><title xml:lang="bo">དྲི་མ་མེད་པའི་འོད</title><title type="alt" xml:lang="bo-Latn-x-wylie">dri ma med pa'i 'od</title><title type="alt" xml:lang="bo-Latn-x-wylie">dri ma med pa'i 'od ces bya ba bden gnyis kyi rnam bshad rje lung pa'i gsung bzhin</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Text written as a compendium of the teachings of "rJe lung pa" (ID:3920) ex024012025-12-1015-42-45.</note><idno type="APIS">4645</idno></bibl><bibl xml:id="work4651"><title type="main" xml:lang="bo-Latn-x-wylie">mdo sde'i rgyan rtsa ba'i le'u nyi shu rtsa gcig le phran brgyad bcu gya brgyad rnam par bshad pa</title><title xml:lang="bo">མདོ་སྡེའི་རྒྱན་རྩ་བའི་ལེའུ་ཉི་ཤུ་རྩ་གཅིག་ལེ་ཕྲན་བརྒྱད་བཅུ་གྱ་བརྒྱད་རྣམ་པར་བཤད་པ</title><title type="alt" xml:lang="bo-Latn-x-wylie">theg pa chen po mdo sde rgyan rgyan gyis Tik+ka</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">The colophon only gives a descriptive title for the work but does not name an author ex025032026-11-0608-57-35 .</note><idno type="APIS">4651</idno></bibl><bibl xml:id="work4655"><title type="main" xml:lang="bo-Latn-x-wylie">yon tan rin po che sdud pa tshigs su bcad pa'i don rnam par byed pa</title><title xml:lang="bo">ཡོན་ཏན་རིན་པོ་ཆེ་སྡུད་པ་ཚིགས་སུ་བཅད་པའི་དོན་རྣམ་པར་བྱེད་པ</title><title type="alt" xml:lang="bo-Latn-x-wylie">mdo bsdus pa rnam bshad</title><title type="alt" xml:lang="bo-Latn-x-wylie">mdo sdus pa'i 'grel pa</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">According to the colophon ex026022026-11-1109-58-46, a commentary on the Sañcayagāthā (ID:3693) following Vimuktisena (ID:3708)'s commentary.</note><idno type="APIS">4655</idno></bibl><bibl xml:id="work4657"><title type="main" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyin pa'i gsal byed Tik+ka</title><title xml:lang="bo">ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་གསལ་བྱེད་ཊིཀྐ</title><title type="alt" xml:lang="bo-Latn-x-wylie">shes rab pha rol tu phyin pa'i gsal byed</title><title type="alt" xml:lang="bo-Latn-x-wylie">shes rab pha rol phyin pa'i gsal byed Ti ka</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">The unique manuscript (ID:4656) is incomplete; the text stops before the beginning of the section "tshig don bshad pa." ex026032026-11-1110-15-00&#13;
+The work makes several references to "jo bo" (ID:3745).</note><idno type="APIS">4657</idno></bibl><bibl xml:id="work4731"><title type="main" xml:lang="bo-Latn-x-wylie">sor mdo'i 'grel pa bdud rtsi yang snying tshig don gsal byed TIk+ka zhes bya ba'i dkar gnad</title><title xml:lang="bo">སོར་མདོའི་འགྲེལ་པ་བདུད་རྩི་ཡང་སྙིང་ཚིག་དོན་གསལ་བྱེད་ཊཱིཀྐ་ཞེས་བྱ་བའི་དཀར་གནད</title><title type="alt" xml:lang="bo-Latn-x-wylie">'dul ba so thar gyi rnam bshad</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">From the title, a commentary on Prātimokṣasūtra (ID:3690).</note><idno type="APIS">4731</idno></bibl><bibl xml:id="work4733"><title type="main" xml:lang="bo-Latn-x-wylie">'grel pa 'od dang ldan pa'i don bsdus pa</title><title xml:lang="bo">འགྲེལ་པ་འོད་དང་ལྡན་པའི་དོན་བསྡུས་པ</title><title type="alt" xml:lang="bo-Latn-x-wylie">'dul ba 'od ldan gyi 'grel pa bsdus don</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Topical outline. The lemmata from the Mūlasarvāstivādiśrāmaṇerakārikāvṛtti (ID:3766) are written as interlinar notes in instance (ID:4732).</note><idno type="APIS">4733</idno></bibl><bibl xml:id="work4742"><title type="main" xml:lang="bo-Latn-x-wylie">so thar mdo'i 'grel pa zhes bya ba'i dka' gnad</title><title xml:lang="bo">སོ་ཐར་མདོའི་འགྲེལ་པ་ཞེས་བྱ་བའི་དཀའ་གནད</title><title type="alt" xml:lang="bo-Latn-x-wylie">'dul ba'i rnam bshad ma tshang ba</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">4742</idno></bibl><bibl xml:id="work4744"><title type="main" xml:lang="bo-Latn-x-wylie">rab byung gi cho ga</title><title xml:lang="bo">རབ་བྱུང་གི་ཆོ་ག</title><title type="alt" xml:lang="bo-Latn-x-wylie">dge tshul gyi sdom pa 'bog chog</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Title entry in [8H6M69W4]: dge tshul gyi sdom pa 'bog chog bzhugs so |</note><idno type="APIS">4744</idno></bibl><bibl xml:id="work4746"><title type="main" xml:lang="bo-Latn-x-wylie">las chog gi brda sprod pa'i gdams ngag gi bshad pa bklags pas don 'grub pa</title><title xml:lang="bo">ལས་ཆོག་གི་བརྡ་སྤྲོད་པའི་གདམས་ངག་གི་བཤད་པ་བཀླགས་པས་དོན་འགྲུབ་པ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">4746</idno></bibl><bibl xml:id="work4748"><title type="main" xml:lang="bo-Latn-x-wylie">'dul ba lung nas btus pa'i bshad sbyar</title><title xml:lang="bo">འདུལ་བ་ལུང་ནས་བཏུས་པའི་བཤད་སྦྱར</title><title type="alt" xml:lang="bo-Latn-x-wylie">'dul ba lung las btus pa'i bshad sbyar</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">4748</idno></bibl><bibl xml:id="work5121"><title type="main" xml:lang="bo-Latn-x-wylie">bden gnyis stong thun</title><title xml:lang="bo">བདེན་གཉིས་སྟོང་ཐུན</title><title type="alt" xml:lang="bo-Latn-x-wylie">bden gnyis chos rje'i gsung sgros</title><textLang mainLang="bo"/><author ref="person:6021">yon seng</author><author ref="person:6679">dmyal pa yon tan seng ge</author><note type="isExtant">True</note><note type="comment">Concise work on the two truths reporting the teaching of a yet unidentified "chos rje." &#13;
+&#13;
+The work articulates the presentation around the definition of the two truths and uses the tools of epistemology, also citing the Pramāṇavārttikakārikā (ID:3772).</note><idno type="APIS">5121</idno></bibl><bibl xml:id="work5123"><title type="main" xml:lang="bo-Latn-x-wylie">stong pa nyid kyi don bshad pa</title><title xml:lang="bo">སྟོང་པ་ཉིད་ཀྱི་དོན་བཤད་པ</title><title type="alt" xml:lang="bo-Latn-x-wylie">stong pa nyid kyi don bshad pa</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5123</idno></bibl><bibl xml:id="work5127"><title type="main" xml:lang="bo-Latn-x-wylie">dbu ma la 'jug pa'i 'grel pa la bsdus pa'i don</title><title xml:lang="bo">དབུ་མ་ལ་འཇུག་པའི་འགྲེལ་པ་ལ་བསྡུས་པའི་དོན</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma 'jug pa'i sa bcad</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma la 'jug pa'i bsdus don</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5127</idno></bibl><bibl xml:id="work5129"><title type="main" xml:lang="bo-Latn-x-wylie">rtsa ba'i shes rab bsdus pa'i don</title><title xml:lang="bo">རྩ་བའི་ཤེས་རབ་བསྡུས་པའི་དོན</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma rtsa ba shes rab kyi sa bcad</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma shes rab kyi sa bcad</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Topical outline of Mūlamadhyamakakārikā (ID:3715). Lemmata in interlinear notes in instance (ID:5128).</note><idno type="APIS">5129</idno></bibl><bibl xml:id="work5133"><title type="main" xml:lang="bo-Latn-x-wylie">rten 'brel snying po'i 'grel pa</title><title xml:lang="bo">རྟེན་འབྲེལ་སྙིང་པོའི་འགྲེལ་པ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Commentary following closely the Indian base text. It contains a light analysis of how the elements of the twelve links it together, and its treatment of philosophical matters is also quite light.&#13;
+&#13;
+It does not have a colophon indicating the author and title, concluding instead with a completion statement indicating the text commented upon (slob dpon klu grub kyis mdzad pa'i ¦ rten cing 'brel par 'byung pa'i snyin po'i tshig le'ur byas pa || rdzogs s+h+yo ||)</note><idno type="APIS">5133</idno></bibl><bibl xml:id="work5135"><title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i rnal 'byor spyod pa bzhi brgya pa'i 'grel pa'i bsdus don</title><title xml:lang="bo">བྱང་ཆུབ་སེམས་དཔའི་རྣལ་འབྱོར་སྤྱོད་པ་བཞི་བརྒྱ་པའི་འགྲེལ་པའི་བསྡུས་དོན</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma bzhi rgya pa'i bsdus don</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Topical outline of Candrakīrti's (ID:3725) Bodhisattvayogācāracatuḥśatakaṭīkā (ID:5931), with lemmata indicated in interlinear notes in instance (ID:5134).</note><idno type="APIS">5135</idno></bibl><bibl xml:id="work5143"><title type="main" xml:lang="bo-Latn-x-wylie">spyod 'jug gi bsdus don dang slob dpon zhi ba lha'i lo rgyus</title><title xml:lang="bo">སྤྱོད་འཇུག་གི་བསྡུས་དོན་དང་སློབ་དཔོན་ཞི་བ་ལྷའི་ལོ་རྒྱུས</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">In spite of the title suggested in an annotation on top of the first folio, this is not a topical outline of the Bodhicaryāvatāra (ID:3727). &#13;
+The text starts with announcing a discussion of the 5 "elements for explaining the treatise." The first (the author) covers 3 folios in (ID:5142), dealing with Śāntideva's (ID:3743) life, organized around seven specific deeds he performed and for each of which he received a different name.&#13;
+The second element (the place of composition), the third (the title), the fourth (the purpose), and the fifth (the homage (?)), are all dealt with on the last folio side.</note><idno type="APIS">5143</idno></bibl><bibl xml:id="work5157"><title type="main" xml:lang="bo-Latn-x-wylie">spyod pa la 'jug pa'i bsdus don</title><title xml:lang="bo">སྤྱོད་པ་ལ་འཇུག་པའི་བསྡུས་དོན</title><title type="alt" xml:lang="bo-Latn-x-wylie">slob dpon shin ta de bas mdzad pa'i spyod pa la 'jug pa'i sde mig</title><title type="alt" xml:lang="bo-Latn-x-wylie">spyod 'jug sa bcad</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Topical outline of the Bodhicaryāvatāra (ID:3727) with lemmata in interlinear notes in instance (ID:5156).</note><idno type="APIS">5157</idno></bibl><bibl xml:id="work5159"><title type="main" xml:lang="bo-Latn-x-wylie">spyod bsdus sgron me'i rnam bshad</title><title xml:lang="bo">སྤྱོད་བསྡུས་སྒྲོན་མེའི་རྣམ་བཤད</title><title type="alt" xml:lang="bo-Latn-x-wylie">spyod bsdus sgron me'i rnam bshad</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">The work does not have a colophon.</note><idno type="APIS">5159</idno></bibl><bibl xml:id="work5161"><title type="main" xml:lang="bo-Latn-x-wylie">ched du brjod pa'i tshoms mchan can</title><title xml:lang="bo">ཆེད་དུ་བརྗོད་པའི་ཚོམས་མཆན་ཅན</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Interlinear commentary on the Tibetan text of the Udānavarga (D326).</note><idno type="APIS">5161</idno></bibl><bibl xml:id="work5167"><title type="main" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol du phyin pa sdud pa tshigs su bcad pa'i dka' 'grel gyi bsdus pa</title><title xml:lang="bo">ཤེས་རབ་ཀྱི་ཕ་རོལ་དུ་ཕྱིན་པ་སྡུད་པ་ཚིགས་སུ་བཅད་པའི་དཀའ་འགྲེལ་གྱི་བསྡུས་པ</title><title type="alt" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyind pa sdud pa tshigs su bcad pa'i dka' 'greld gyi bsdus don</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5167</idno></bibl><bibl xml:id="work5173"><title type="main" xml:lang="bo-Latn-x-wylie">sher phyin zin bris</title><title xml:lang="bo">ཤེར་ཕྱིན་ཟིན་བྲིས</title><title type="alt" xml:lang="bo-Latn-x-wylie">sher phyin zin bris zhig</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5173</idno></bibl><bibl xml:id="work5175"><title type="main" xml:lang="bo-Latn-x-wylie">gnyis su med pa'i shes rab kyi pha rol tu phyin pa'i gdams pa don brgyad du bsdus nas rgyas par bshad pa</title><title xml:lang="bo">གཉིས་སུ་མེད་པའི་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་གདམས་པ་དོན་བརྒྱད་དུ་བསྡུས་ནས་རྒྱས་པར་བཤད་པ</title><title type="alt" xml:lang="bo-Latn-x-wylie">jo bo rje'i gdams pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">gnyis med shes rab pha rol du phyin pa zab mo lam gyi gdams pa</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">The title suggests a report of Atiśa's (ID:3745) teaching on the Perfection of wisdom. &#13;
+The text is divided in eight sections. In (ID:5174), the portion explaining the eight topics covers fol. 37a1-61b4, ending with "rdzogs so" and is followed, up to 62b4, by a  summarized explanation (don brgyad du bstan pa'i gdam ngag la spyir bsdus don gyi tshul du rnam par bshad pa) which starts with "da ni" and ends with "jo bo rje'i gdams pa rdzogs s+h+hyo."&#13;
+&#13;
+The contents of the first third of the text is more tied to Madhyamaka than Perfection of wisdom, and includes digressions about the perspectives of the "hearers" (nyan thos), "idealists" (sems tsam), and Madhyamaka (dbu ma) and a refutation of idealism. The author uses tools and vocabulary of epistemology (e.g., gnod pa'i tshad ma, lhan cig mi gnas pa'i 'gal ba), but refutes perception and inference being instances of valid cognition (fol. 42). &#13;
+New sections start with the expression "da ni."&#13;
+&#13;
+The views of other scholars, who are not named, are mentioned about 10 times (often with the expression "kha cig dag di ltar sems ste).&#13;
+The expression "zhe na" is used for questions to provide answers to rather than hypothetical objections.</note><idno type="APIS">5175</idno></bibl><bibl xml:id="work5190"><title type="main" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyin pa'i rgyan 'grel gsal ba nges pa'i don snang</title><title xml:lang="bo">ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་རྒྱན་འགྲེལ་གསལ་བ་ངེས་པའི་དོན་སྣང</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5190</idno></bibl><bibl xml:id="work5215"><title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen pa rgyud bla ma'i bstan bcos gsal byed</title><title xml:lang="bo">ཐེག་པ་ཆེན་པ་རྒྱུད་བླ་མའི་བསྟན་བཅོས་གསལ་བྱེད</title><title type="alt" xml:lang="bo-Latn-x-wylie">theg pa chen po'i rgyud bla ma'i bstan bcos gsal byed</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Text incomplete in (ID:5214), finishing abruptly after the beginning of section 3.</note><idno type="APIS">5215</idno></bibl><bibl xml:id="work5231"><title type="main" xml:lang="bo-Latn-x-wylie">rgyud bla ma'i spyi don</title><title xml:lang="bo">རྒྱུད་བླ་མའི་སྤྱི་དོན</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5231</idno></bibl><bibl xml:id="work5237"><title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i sdom pa'i rnam bshad</title><title xml:lang="bo">བྱང་ཆུབ་སེམས་དཔའི་སྡོམ་པའི་རྣམ་བཤད</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5237</idno></bibl><bibl xml:id="work5253"><title type="main" xml:lang="bo-Latn-x-wylie">tshig le'ur byas pa sum brgyar pa'i don gsal bar byed</title><title xml:lang="bo">ཚིག་ལེའུར་བྱས་པ་སུམ་བརྒྱར་པའི་དོན་གསལ་བར་བྱེད</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshig leʼur byas pa sum brgya pa'i don gsal bkod</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">This commentary is very similar to the dGe tshul gyi tshig le'ur byas pa sum brgya pa'i tshig don rab tu 'byed pa (ID:5524) by Dharma singha (who could be Phya pa Chos kyi seng ge (ID:3831)). This suggests the author could be the same, or the author of the present work might be a student of the author of (ID:5524).</note><idno type="APIS">5253</idno></bibl><bibl xml:id="work5255"><title type="main" xml:lang="bo-Latn-x-wylie">'dul ba'i skor gyi zin bris</title><title xml:lang="bo">འདུལ་བའི་སྐོར་གྱི་ཟིན་བྲིས</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5255</idno></bibl><bibl xml:id="work5258"><title type="main" xml:lang="bo-Latn-x-wylie">'dul ba mdo'i dgos 'brel</title><title xml:lang="bo">འདུལ་བ་མདོའི་དགོས་འབྲེལ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">This untitled and anonymous text (possibly incomplete) essentially discusses the "purpose and connection" (dgos 'brel) of a treatise (hence the editorial title). It is only on fol. 5a in (ID:5275) that it reveals itself to be about monastic discipline, identifying the topic of the treatise as "chos 'di pa dag gi tshul khrims." The treatise under consideration is likely the Vinayasūtra (ID:6821), which has the expression "tshul khrims" in its initial verse. The text makes several references to Dharmamitra, the author of the Vinayasūtraṭīkā (ID:8404).&#13;
+&#13;
+The frequent use of thal...phyir arguments and reference to the Pramāṇavārttika (ID:3772) suggest a date of composition in the 13th c. or beyond.&#13;
+The discussion of dgos 'brel has close parallels to the one found in the Tik chen lung don rnam gzigs (ID:5870) by Chu mig pa Seng ge dpal (ID:4018).</note><idno type="APIS">5258</idno></bibl><bibl xml:id="work5273"><title type="main" xml:lang="bo-Latn-x-wylie">mngon pa kun btus kyi 'grel pa</title><title xml:lang="bo">མངོན་པ་ཀུན་བཏུས་ཀྱི་འགྲེལ་པ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Only an incomplete instance is available.</note><idno type="APIS">5273</idno></bibl><bibl xml:id="work5300"><title type="main" xml:lang="bo-Latn-x-wylie">mngon sum le'u'i 'grel pa slob ma'i yid 'phrog</title><title xml:lang="bo">མངོན་སུམ་ལེའུའི་འགྲེལ་པ་སློབ་མའི་ཡིད་འཕྲོག</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Commentary on the first chapter of the Pramāṇaviniścaya (ID:3774), on perception.&#13;
+The title echoes the ornamental title "mkhas pa'i yid 'phrog" of three works by Zha lu pa Rin chen bsod nams 'phel ba (ID:4129), see (ID:5497), (ID:5499) and (ID:6872).</note><idno type="APIS">5300</idno></bibl><bibl xml:id="work5308"><title type="main" xml:lang="bo-Latn-x-wylie">chos mngon pa'i bsdus don</title><title xml:lang="bo">ཆོས་མངོན་པའི་བསྡུས་དོན</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Topical outline, without references to the base text, which could be the Abhidharmasamuccaya (ID:3755).&#13;
+Author according to [8H6M69W4], No. 19864: slob dpon dbyig gnyen, maybe on account of the post-colophon note in (ID:5307): 'phags pa 'jam dpa la phyag tshal lo || slob dpon dbyig nyen (sic) kyis mdzad pa'i phung po lnga pa'i rab du dbye' ba ...</note><idno type="APIS">5308</idno></bibl><bibl xml:id="work5310"><title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rang rig gi sgrub tshul</title><title xml:lang="bo">ཚད་མ་རང་རིག་གི་སྒྲུབ་ཚུལ</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma sde bdun nang rig tu sgrub tshul</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma sde bdun rang rig tu sgrub tshul</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Commentary on the verses on reflexive awareness in the third chapter of the Pramāṇavārttika (ID:3772) (PV 3.485–510).</note><idno type="APIS">5310</idno></bibl><bibl xml:id="work5326"><title type="main" xml:lang="bo-Latn-x-wylie">rab tu rgyas pa dam pa'i chos kyi tshoms chen po thar pa'i lam po che</title><title xml:lang="bo">རབ་ཏུ་རྒྱས་པ་དམ་པའི་ཆོས་ཀྱི་ཚོམས་ཆེན་པོ་ཐར་པའི་ལམ་པོ་ཆེ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5326</idno></bibl><bibl xml:id="work5328"><title type="main" xml:lang="bo-Latn-x-wylie">snying po'i don gsal ba de kho na nyid</title><title xml:lang="bo">སྙིང་པོའི་དོན་གསལ་བ་དེ་ཁོ་ན་ཉིད</title><title type="alt" xml:lang="bo-Latn-x-wylie">snying po don gsal ba de kho na nyid</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5328</idno></bibl><bibl xml:id="work5335"><title type="main" xml:lang="bo-Latn-x-wylie">dam tshig mdor bsdus pa</title><title xml:lang="bo">དམ་ཚིག་མདོར་བསྡུས་པ</title><title type="alt" xml:lang="bo-Latn-x-wylie">gdams pa dam tshig mdor bsdus pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">slob dpon rin chen bzang pos gsungs pa'i dam tshig mdor bsdus bstan pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">slob dpon rin chen bzang pos gsungs pa'i dam tshig mdor bsdus ba bstan pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">sdom pa dam tshig mdor bsdus pa</title><textLang mainLang="bo"/><date type="composition" notBefore="0968-01-01" notAfter="1055-12-31">after 968 before 1055</date><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">The title "sdom pa dam tshig mdor bsdus pa" is reported in [2PUVZG5F]: 46.&#13;
+A post-colophon addition in (ID:5334) reports that the teaching of that text was requested by "rngos" (whom a gloss in dbu can identifies as "mar ston") from "lca/lba ston jo dga'" (lca/lba ston jo dga' la rngos ‹mar ston› kyis mnyan zhus nan tan bgyis so). Dan Martin (who reads "lba ston") notes "There was a Jo-dga' in the western Tibetan royal lineage whose lifespan could have coincided with Rinchen Zangpo's (Roerich’s Blue Annals, p. 38)" ([F8AC4NRI]). See [R894SIKE]: 63 for the reference to "jo dga'".</note><idno type="APIS">5335</idno></bibl><bibl xml:id="work5339"><title type="main" xml:lang="bo-Latn-x-wylie">lam gyi rim pa</title><title xml:lang="bo">ལམ་གྱི་རིམ་པ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5339</idno></bibl><bibl xml:id="work5372"><title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems sbyong zhes bya ba pha rol tu phyin pa'i lam rim</title><title xml:lang="bo">བྱང་ཆུབ་སེམས་སྦྱོང་ཞེས་བྱ་བ་ཕ་རོལ་ཏུ་ཕྱིན་པའི་ལམ་རིམ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">The author cites Jo bo (ID:3745) and an unidentified "slob dpon".</note><idno type="APIS">5372</idno></bibl><bibl xml:id="work5374"><title type="main" xml:lang="bo-Latn-x-wylie">theg chen blo sbyong sgom pa</title><title xml:lang="bo">ཐེག་ཆེན་བློ་སྦྱོང་སྒོམ་པ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">The first part of this work is nearly identical with work (ID:5379), but after the sentence that concludes (ID:5379), the text continues with what could be another work, or a reworked, extended version of the previous work.</note><idno type="APIS">5374</idno></bibl><bibl xml:id="work5379"><title type="main" xml:lang="bo-Latn-x-wylie">blo sbyong khrid kyi sa bcad</title><title xml:lang="bo">བློ་སྦྱོང་ཁྲིད་ཀྱི་ས་བཅད</title><title type="alt" xml:lang="bo-Latn-x-wylie">blo sbyong 'khrid kyi sa spyad</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Nearly identical with the first part of work (ID:5374).</note><idno type="APIS">5379</idno></bibl><bibl xml:id="work5385"><title type="main" xml:lang="bo-Latn-x-wylie">bka' gdams bstan rim | po ta ba'I gsung sgros</title><title xml:lang="bo">བཀའ་གདམས་བསྟན་རིམ་༑་པོ་ཏ་བའཱི་གསུང་སྒྲོས</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5385</idno></bibl><bibl xml:id="work5387"><title type="main" xml:lang="bo-Latn-x-wylie">byang chub lam gyi sgron ma'i rgya cher 'grel pa</title><title xml:lang="bo">བྱང་ཆུབ་ལམ་གྱི་སྒྲོན་མའི་རྒྱ་ཆེར་འགྲེལ་པ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5387</idno></bibl><bibl xml:id="work5425"><title type="main" xml:lang="bo-Latn-x-wylie">bde ba gshegs pa'i bka' yi dgongs pa la nye ba mkho ba gces gces rnams phyogs gcig tu sdebs pa</title><title xml:lang="bo">བདེ་བ་གཤེགས་པའི་བཀའ་ཡི་དགོངས་པ་ལ་ཉེ་བ་མཁོ་བ་གཅེས་གཅེས་རྣམས་ཕྱོགས་གཅིག་ཏུ་སྡེབས་པ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5425</idno></bibl><bibl xml:id="work5427"><title type="main" xml:lang="bo-Latn-x-wylie">gzhi lam 'bras gsum gyi don rgyas tshig 'dus kyi rtsa ba</title><title xml:lang="bo">གཞི་ལམ་འབྲས་གསུམ་གྱི་དོན་རྒྱས་ཚིག་འདུས་ཀྱི་རྩ་བ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">This appears to be a commentary on an unidentified work of epistemology-cum-madhyamaka, parts of which are cited in the text. The author supports the view of the prāsaṅgika orientation and of the "great Madhyamaka" (dbu ma chen po). The text covers basic notions such as the types of valid cognition, the theory of definition, the two truths. Arguments are frequently presented in the chos can-te-phyir and chos can-thal-phyir format. It includes numerous citations of Indian works.</note><idno type="APIS">5427</idno></bibl><bibl xml:id="work5431"><title type="main" xml:lang="bo-Latn-x-wylie">lung thor bu mang rab</title><title xml:lang="bo">ལུང་ཐོར་བུ་མང་རབ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Words of advice collected from various sources - some Indian sources, and many bKa' gdams pa scholars ('Brom ston and his disciples in particular) - most of which in verses.</note><idno type="APIS">5431</idno></bibl><bibl xml:id="work5433"><title type="main" xml:lang="bo-Latn-x-wylie">skyes pa'i rabs kyi rgyud chen po</title><title xml:lang="bo">སྐྱེས་པའི་རབས་ཀྱི་རྒྱུད་ཆེན་པོ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5433</idno></bibl><bibl xml:id="work5439"><title type="main" xml:lang="bo-Latn-x-wylie">'phags pa lang dkar bshegs pa'i mdo las sangs rgyas thams cad kyi gsung gi snying po zhes bya ba'i le'u rgyar chen 'grel pa</title><title xml:lang="bo">འཕགས་པ་ལང་དཀར་བཤེགས་པའི་མདོ་ལས་སངས་རྒྱས་ཐམས་ཅད་ཀྱི་གསུང་གི་སྙིང་པོ་ཞེས་བྱ་བའི་ལེའུ་རྒྱར་ཆེན་འགྲེལ་པ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5439</idno></bibl><bibl xml:id="work5441"><title type="main" xml:lang="bo-Latn-x-wylie">'dul ba so thar gyi rnam bshad</title><title xml:lang="bo">འདུལ་བ་སོ་ཐར་གྱི་རྣམ་བཤད</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5441</idno></bibl><bibl xml:id="work5458"><title type="main" xml:lang="bo-Latn-x-wylie">lha chos nyams len gyi man ngag thig le chen po'i dbyings su byang chub kyi sems spel ba</title><title xml:lang="bo">ལྷ་ཆོས་ཉམས་ལེན་གྱི་མན་ངག་ཐིག་ལེ་ཆེན་པོའི་དབྱིངས་སུ་བྱང་ཆུབ་ཀྱི་སེམས་སྤེལ་བ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Work on ritual and meditation relating to the bKa' gdams pa, claiming to be derived from earlier sources. It mentions the names of central figures of the early bKa' gdams tradition. The work deals with the bKa' gdams thig le bcu drug, although it does not refer to this text by name.</note><idno type="APIS">5458</idno></bibl><bibl xml:id="work5467"><title type="main" xml:lang="bo-Latn-x-wylie">rin chen phreng ba'i grub mtha' rnam pa dgu yi rim pa</title><title xml:lang="bo">རིན་ཆེན་ཕྲེང་བའི་གྲུབ་མཐའ་རྣམ་པ་དགུ་ཡི་རིམ་པ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">The author claims to follow the tradition of Maitripa, but aside from a couple of mentions of this name, not a lot is found to substantiate this. The work shows strong influences of the Abhisamayālaṅkāra commentarial tradition according to Haribhadra (ID:3712). Unlike other doxographies, this is initially geared towards meditation, but in a philosophically informed way. It gradually gets more scholastic in content and style (using, in particular, the pronoun "khyod" in argumentation). &#13;
+&#13;
+Quotes an unidentified "slob dpon 'gog pa seng ge" (ID:7352).</note><idno type="APIS">5467</idno></bibl><bibl xml:id="work5480"><title type="main" xml:lang="bo-Latn-x-wylie">'gog snyoms kyi mtha' dpyad snying po don gsal ba</title><title xml:lang="bo">འགོག་སྙོམས་ཀྱི་མཐའ་དཔྱད་སྙིང་པོ་དོན་གསལ་བ</title><title type="alt" xml:lang="bo-Latn-x-wylie">gog snyoms kyi mthaʼ dpyod snying po don gsal ba la lags</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">5480</idno></bibl><bibl xml:id="work6170"><title type="main" xml:lang="bo-Latn-x-wylie">(unidentified) tshad ma bsdus pa</title><title xml:lang="bo">༼ཨུནིདེནཏིཕི༹ཨེད༽ ཚད་མ་བསྡུས་པ</title><textLang mainLang="bo"/><date type="composition" notBefore="1150-01-01" notAfter="1368-12-31">after 1150 before 1368</date><author ref="person:4593">Anonymous</author><note type="isExtant">False</note><idno type="APIS">6170</idno></bibl><bibl xml:id="work6259"><title type="main" xml:lang="bo-Latn-x-wylie">mdo sde rgyan gyi don bsdus las btus pa</title><title xml:lang="bo">མདོ་སྡེ་རྒྱན་གྱི་དོན་བསྡུས་ལས་བཏུས་པ</title><textLang mainLang="bo"/><author ref="person:6690">tho yon ye shes don grub bstan pa'i rgyal mtshan</author><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Summary of rNgog Blo ldan shes rab's mDo sde rgyan gyi don bsdus (ID:4437) based on a 58-folio manuscript from Chos sdings (ID:6258) (See annotation: shog gu nga brgyad chos sding gi phyag dpe nas btus so). &#13;
+It is unclear whether this summary is by the compiler, Tho yon ye shes don grub bstan pa'i rgyal mtshan (1792-1855), or an earlier scholar. See &lt;&lt;van der Kuijp 1987 [7FZ3B926]&gt;&gt;: 126, n. 12, &lt;&lt;Kramer 2007 [Q47PVAE6]&gt;&gt;: 110, n. 168.</note><idno type="APIS">6259</idno></bibl><bibl xml:id="work6396"><title type="main" xml:lang="bo-Latn-x-wylie">'dul ba kun las btus pa sdom gsum gyi rgyan ces bya ba'i bstan chos kyi sa bcad</title><title xml:lang="bo">འདུལ་བ་ཀུན་ལས་བཏུས་པ་སྡོམ་གསུམ་གྱི་རྒྱན་ཅེས་བྱ་བའི་བསྟན་ཆོས་ཀྱི་ས་བཅད</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">6396</idno></bibl><bibl xml:id="work6848"><title type="main" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol to phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan gyi 'grel pa gsal ba'i sgron me</title><title xml:lang="bo">ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏོ་ཕྱིན་པའི་མན་ངག་གི་བསྟན་བཅོས་མངོན་པར་རྟོགས་པའི་རྒྱན་གྱི་འགྲེལ་པ་གསལ་བའི་སྒྲོན་མེ</title><title type="alt" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan gyi dgongs 'grel rnam bshad</title><title type="alt" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan gyi dgongs 'grel rnam bshad gsal sgron</title><title type="alt" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan gyi dgongs 'grel rnam bshad gsal sgron</title><title type="alt" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan gyi 'grel pa gsal ba'i sgron me</title><title type="alt" xml:lang="bo-Latn-x-wylie">rnam bshad tshig don gsal ba'i sgron me</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><author ref="person:6850">dge 'dun dpal bzang</author><note type="isExtant">True</note><note type="comment">Incomplete commentary on the Abhisamayālaṃkāra­ (ID:3706). Features abundant use of "chos can...thal/te...phyir" arguments, including also the use of the pronoun "khyod" as a variable.&#13;
+Although the manuscript was grouped with works by rNgog Blo ldan shes rab (ID:3786) in [XCKNA9JH], rNgog Blo ldan shes rab does not appear to have been the author. In particular, the above-mentioned features are not found in other works of rNgog Blo ldan shes rab.&#13;
+Discussed in [DQZ4IIQZ]: 59 (170) and 76-78 (151-153).</note><idno type="APIS">6848</idno></bibl><bibl xml:id="work6854"><title type="main" xml:lang="bo-Latn-x-wylie">dam pa'i chos la zhus dag bya ba'i tshul</title><title xml:lang="bo">དམ་པའི་ཆོས་ལ་ཞུས་དག་བྱ་བའི་ཚུལ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><idno type="APIS">6854</idno></bibl><bibl xml:id="work7087"><title type="main" xml:lang="bo-Latn-x-wylie">rigs thigs kyi brjed byang</title><title xml:lang="bo">རིགས་ཐིགས་ཀྱི་བརྗེད་བྱང</title><title type="alt" xml:lang="bo-Latn-x-wylie">na ya bin dhu'i brjed byang</title><textLang mainLang="bo"/><date type="composition" notBefore="0600-01-01" notAfter="0880-12-31">after 600 before 880</date><author ref="person:4593">Anonymous</author><note type="isExtant">False</note><note type="comment">Unidentified memorandum - "brjed byang" usually indicates a type of mnemonic notes on a text - on the Nyāyabindu (ID:5589) listed in Bu ston's catalogue (No. 2990) and the 'Phang thang ma catalogue. See [H9MPLMTV]: 8-9 and [QY5JQQ77]: 486.</note><idno type="APIS">7087</idno></bibl><bibl xml:id="work7088"><title type="main" xml:lang="bo-Latn-x-wylie">rigs thigs kyi skyab kyi brjed byang</title><title xml:lang="bo">རིགས་ཐིགས་ཀྱི་སྐྱབ་ཀྱི་བརྗེད་བྱང</title><title type="alt" xml:lang="bo-Latn-x-wylie">na ya bin dhu'i skabs kyi brjed byang</title><title type="alt" xml:lang="bo-Latn-x-wylie">brjed byang shu log</title><textLang mainLang="bo"/><date type="composition" notBefore="0600-01-01" notAfter="0880-12-31">after 600 before 880</date><author ref="person:4593">Anonymous</author><note type="isExtant">False</note><note type="comment">Unidentified memorandum - "brjed byang" usually indicates a type of mnemonic notes on a text - on part of the Nyāyabindu (ID:5589), presumably in verse, listed in Bu ston's catalogue (No. 2991) and the 'Phang thang ma catalogue. See [H9MPLMTV]: 8-9 and [QY5JQQ77]: 486.</note><idno type="APIS">7088</idno></bibl><bibl xml:id="work7115"><title type="main" xml:lang="bo-Latn-x-wylie">dpal ldan ze'u 'dul 'dzin chen po'i rnam thar gsal byed yid bzhin nor bu</title><title xml:lang="bo">དཔལ་ལྡན་ཟེའུ་འདུལ་འཛིན་ཆེན་པོའི་རྣམ་ཐར་གསལ་བྱེད་ཡིད་བཞིན་ནོར་བུ</title><textLang mainLang="bo"/><date type="composition" notBefore="1315-01-01">after 1315</date><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">The existence of this work is mentioned in [FZ6N88AU]: 431, n. 91.</note><idno type="APIS">7115</idno></bibl><bibl xml:id="work7687"><title type="main" xml:lang="bo-Latn-x-wylie">rur rmu̱r mbu̱ vwo̱ nnə dźih ye vwo̱ keh tshi nṣao̱ la̱</title><date type="composition" notBefore="1090-01-01" notAfter="1268-12-31">after 1090 before 1268</date><author ref="person:4593">Anonymous</author><note type="isExtant">True</note><note type="comment">Title means "Commentary on the Summary that Explains the Meaning of the Two Truths of the Conventional and Ultimate." A précis of rGya dmar ba's dBu ma de kho na nyid (ID: 4684). Text in Tangut, but might be translated from Tibetan. See [E6DFSL9U]: 265–267.</note><idno type="APIS">7687</idno></bibl><bibl xml:id="work7921"><title type="main" xml:lang="bo-Latn-x-wylie">rgyud bla ma'i Tik+ka</title><title xml:lang="bo">རྒྱུད་བླ་མའི་ཊིཀྐ</title><textLang mainLang="bo"/><author ref="person:4593">Anonymous</author><note type="isExtant">False</note><note type="comment">Listed in A khu ching Shes rab rgya mtsho's Tho yig ([5RXEUKD9]: 523, No. 11339: rgyud bla ma'i btsan lugs kyi tik+ka chen mdzad byang mi gsal ba).&#13;
+See [BAQ9MH4T]: 407.</note><idno type="APIS">7921</idno></bibl></listBibl><listRelation><relation xml:id="rel1074" name="author-of" active="#person4593" passive="#work5326" type="positive"/><relation xml:id="rel6873" name="author-of" active="#person4593" passive="#work7921" type="positive"/><relation xml:id="rel1167" name="author-of" active="#person4593" passive="#work5480" type="positive"/><relation xml:id="rel1143" name="author-of" active="#person4593" passive="#work5441" type="positive"/><relation xml:id="rel7192" name="author-of" active="#person4593" passive="#work5253" type="uncertain"/><relation xml:id="rel4885" name="author-of" active="#person4593" passive="#work7087" type="positive"/><relation xml:id="rel1060" name="author-of" active="#person4593" passive="#work5308" type="positive"/><relation xml:id="rel957" name="author-of" active="#person4593" passive="#work5161" type="positive"/><relation xml:id="rel996" name="author-of" active="#person4593" passive="#work5215" type="positive"/><relation xml:id="rel662" name="author-of" active="#person4593" passive="#work4631" type="positive"/><relation xml:id="rel640" name="author-of" active="#person4593" passive="#work4597" type="positive"/><relation xml:id="rel727" name="author-of" active="#person4593" passive="#work4748" type="positive"/><relation xml:id="rel6936" name="author-of" active="#person4593" passive="#work7687" type="positive"/><relation xml:id="rel1139" name="author-of" active="#person4593" passive="#work5433" type="positive"/><relation xml:id="rel1141" name="author-of" active="#person4593" passive="#work5439" type="positive"/><relation xml:id="rel1082" name="author-of" active="#person4593" passive="#work5339" type="positive"/><relation xml:id="rel952" name="author-of" active="#person4593" passive="#work5157" type="positive"/><relation xml:id="rel1152" name="author-of" active="#person4593" passive="#work5458" type="positive"/><relation xml:id="rel719" name="author-of" active="#person4593" passive="#work4731" type="positive"/><relation xml:id="rel979" name="author-of" active="#person4593" passive="#work5190" type="positive"/><relation xml:id="rel1011" name="author-of" active="#person4593" passive="#work5231" type="positive"/><relation xml:id="rel673" name="author-of" active="#person4593" passive="#work4651" type="positive"/><relation xml:id="rel1136" name="author-of" active="#person4593" passive="#work5427" type="positive"/><relation xml:id="rel937" name="author-of" active="#person4593" passive="#work5135" type="positive"/><relation xml:id="rel643" name="author-of" active="#person4593" passive="#work4601" type="positive"/><relation xml:id="rel966" name="author-of" active="#person4593" passive="#work5173" type="positive"/><relation xml:id="rel1135" name="author-of" active="#person4593" passive="#work5425" type="positive"/><relation xml:id="rel1102" name="author-of" active="#person4593" passive="#work5385" type="positive"/><relation xml:id="rel4959" name="author-of" active="#person4593" passive="#work7115" type="positive"/><relation xml:id="rel1078" name="author-of" active="#person4593" passive="#work5335" type="positive"/><relation xml:id="rel725" name="author-of" active="#person4593" passive="#work4744" type="positive"/><relation xml:id="rel930" name="author-of" active="#person4593" passive="#work5123" type="positive"/><relation xml:id="rel1138" name="author-of" active="#person4593" passive="#work5431" type="positive"/><relation xml:id="rel967" name="author-of" active="#person4593" passive="#work5175" type="positive"/><relation xml:id="rel4257" name="author-of" active="#person4593" passive="#work6848" type="positive"/><relation xml:id="rel670" name="author-of" active="#person4593" passive="#work4645" type="positive"/><relation xml:id="rel1096" name="author-of" active="#person4593" passive="#work5374" type="positive"/><relation xml:id="rel676" name="author-of" active="#person4593" passive="#work4655" type="positive"/><relation xml:id="rel1103" name="author-of" active="#person4593" passive="#work5387" type="positive"/><relation xml:id="rel721" name="author-of" active="#person4593" passive="#work4733" type="positive"/><relation xml:id="rel724" name="author-of" active="#person4593" passive="#work4742" type="positive"/><relation xml:id="rel1055" name="author-of" active="#person4593" passive="#work5300" type="positive"/><relation xml:id="rel955" name="author-of" active="#person4593" passive="#work5159" type="positive"/><relation xml:id="rel1075" name="author-of" active="#person4593" passive="#work5328" type="positive"/><relation xml:id="rel2544" name="author-of" active="#person4593" passive="#work6170" type="positive"/><relation xml:id="rel1098" name="author-of" active="#person4593" passive="#work5379" type="positive"/><relation xml:id="rel4271" name="author-of" active="#person4593" passive="#work6854" type="positive"/><relation xml:id="rel1025" name="author-of" active="#person4593" passive="#work5258" type="positive"/><relation xml:id="rel932" name="author-of" active="#person4593" passive="#work5127" type="positive"/><relation xml:id="rel3789" name="author-of" active="#person4593" passive="#work6259" type="positive"/><relation xml:id="rel1158" name="author-of" active="#person4593" passive="#work5467" type="positive"/><relation xml:id="rel1095" name="author-of" active="#person4593" passive="#work5372" type="positive"/><relation xml:id="rel678" name="author-of" active="#person4593" passive="#work4657" type="positive"/><relation xml:id="rel936" name="author-of" active="#person4593" passive="#work5133" type="positive"/><relation xml:id="rel726" name="author-of" active="#person4593" passive="#work4746" type="positive"/><relation xml:id="rel960" name="author-of" active="#person4593" passive="#work5167" type="positive"/><relation xml:id="rel1061" name="author-of" active="#person4593" passive="#work5310" type="positive"/><relation xml:id="rel1024" name="author-of" active="#person4593" passive="#work5255" type="positive"/><relation xml:id="rel1015" name="author-of" active="#person4593" passive="#work5237" type="positive"/><relation xml:id="rel3016" name="author-of" active="#person4593" passive="#work6396" type="positive"/><relation xml:id="rel933" name="author-of" active="#person4593" passive="#work5129" type="positive"/><relation xml:id="rel1034" name="author-of" active="#person4593" passive="#work5273" type="positive"/><relation xml:id="rel943" name="author-of" active="#person4593" passive="#work5143" type="positive"/><relation xml:id="rel4886" name="author-of" active="#person4593" passive="#work7088" type="positive"/><relation xml:id="rel6234" name="records-the-teaching-of" active="#work5121" passive="#person4593" type="positive"/></listRelation></standOff><text>
+      <body>
+           <gap reason="omitted"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+             </body>
+   </text>
+</TEI>

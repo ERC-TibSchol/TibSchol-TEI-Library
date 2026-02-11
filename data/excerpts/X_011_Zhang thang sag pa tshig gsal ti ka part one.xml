@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">dbu ma tshig gsal gyi ti ka</title>
+            <title xml:lang="bo">དབུ་མ་ཚིག་གསལ་གྱི་ཏི་ཀ</title>
+            <author ref="person:3870">zhang thang sag pa ye shes 'byung gnas</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">X_011</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst5527">
+               <msIdentifier>
+                  <idno type="APIS">5527</idno>
+                  <idno type="TibSchol">X_011</idno>
+                  <msName>dbu ma tshig gsal gyi ti ka</msName>
+                  <msName xml:lang="bo">དབུ་མ་ཚིག་གསལ་གྱི་ཏི་ཀ</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:5528">dbu ma tshig gsal gyi ti ka</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Modern edition in dbu can format, based on a unique manuscript (ID: 7532).</p>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <bibl type="source">
+                        <name>dbu ma tshig gsal gyi ti ka</name>
+                        <idno type="APIS">7532</idno>
+                     </bibl>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                     <note type="comment">[Q5TFQTM8] contains the edition of fols. 1a-26a3 of (ID:7532), on Prasannapadā (ID:3724) ad Mūlamadhyamakakārikā (ID: 3715) 1.1. &#13;
+[N8VI2328] contains the edition of fols. 26a3-40b5 of (ID:7532), on Prasannapadā (ID:3724) ad Mūlamadhyamakakārikā (ID: 3715) 1.1-14.</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/Q5TFQTM8">Zhang thang - tshig gsal ti ka II 2013 ed.</ref>, <date>2013</date>
+                     </bibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/N8VI2328">Zhang thang - tshig gsal ti ka I 2018 ed.</ref>, <date>2018</date>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3725"><persName type="main" xml:lang="bo-Latn-x-wylie">candrakīrti</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon zla ba grags pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zla grags</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P5782</idno><idno type="APIS">3725</idno></person><person xml:id="person3842"><persName type="main" xml:lang="bo-Latn-x-wylie">rma bya byang chub brtson 'grus</persName><persName xml:lang="bo">རྨ་བྱ་བྱང་ཆུབ་བརྩོན་འགྲུས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rma bya rtsod pa'i seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rma bya</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">po tjɨj ˑjɨr</persName><birth notBefore="1085-01-01" notAfter="1130-12-31">after 1085 before 1130</birth><death notBefore="1185-01-01" notAfter="1185-12-31">1185</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P1982</idno><idno type="APIS">3842</idno><note type="comment">rMa bya's name is rendered in Tangut as Po tjɨj ˑjɨr, in which po tjɨj is a phonetic transcription of "bodhi" [=Tib. byang chub], whereas ˑjɨr means "diligence" [=Tib. brtson 'grus].</note></person><person xml:id="person3868"><persName type="main" xml:lang="bo-Latn-x-wylie">pa tshab nyi ma grags</persName><persName xml:lang="bo">པ་ཚབ་ཉི་མ་གྲགས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">pa tshab lo tsA ba nyi ma grags pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zhang pa tshab nyi ma grags</persName><birth notBefore="1055-01-01" notAfter="1055-12-31">1055</birth><death notBefore="1141-01-01">after 1141</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P5651</idno><idno type="APIS">3868</idno><note type="comment">Proposed dates: c. 1070-1145.</note></person><person xml:id="person3870"><persName type="main" xml:lang="bo-Latn-x-wylie">zhang thang sag pa ye shes 'byung gnas</persName><persName xml:lang="bo">ཞང་ཐང་སག་པ་ཡེ་ཤེས་འབྱུང་གནས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zhang 'byung gnas ye shes</persName><birth notBefore="1000-01-01" notAfter="1100-12-31">after 1000 before 1100</birth><death notBefore="1065-01-01" notAfter="1180-12-31">after 1065 before 1180</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P4455</idno><idno type="APIS">3870</idno><note type="comment">Lived between the second half of the eleventh century and the first half of the twelfth century ([CMTPPRKW]: 6)&#13;
+One of the four spiritual sons of Pa tshab (ID:3868), along with gTsang pa Sar spos (ID:3871), rMa bya Byang chub ye shes (ID:6204), and Ngar/Dar Yon tan grags (ID:6211).</note></person><person xml:id="person7538"><persName type="main" xml:lang="bo-Latn-x-wylie">'brom dbang phyug grags</persName><persName xml:lang="bo">འབྲོམ་དབང་ཕྱུག་གྲགས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">stod lung dbang phyug grags</persName><birth notBefore="1000-01-01">after 1000</birth><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P5652</idno><idno type="APIS">7538</idno><note type="comment">Possibly the same person as sTod lungs pa dBang phyug grags ([RCJ46BHM]: 340, n. 78).</note></person></listPerson><listBibl><bibl xml:id="work3724"><title type="main" xml:lang="bo-Latn-x-wylie">prasannapadā</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma rtsa ba'i 'grel pa tshig gsal ba zhes bya ba</title><title type="alt" xml:lang="bo-Latn-x-wylie">mūlamadhyamakavṛttiprasannapadānāma</title><author ref="person:3725">candrakīrti</author><note type="isExtant">True</note><idno type="APIS">3724</idno></bibl><bibl xml:id="work5528"><title type="main" xml:lang="bo-Latn-x-wylie">dbu ma tshig gsal gyi ti ka</title><title xml:lang="bo">དབུ་མ་ཚིག་གསལ་གྱི་ཏི་ཀ</title><textLang mainLang="bo"/><date type="composition" notBefore="1010-01-01" notAfter="1180-12-31">after 1010 before 1180</date><author ref="person:3870">zhang thang sag pa ye shes 'byung gnas</author><note type="isExtant">True</note><note type="comment">The work is presented in [CMTPPRKW] along with the unique manuscript (ID:7532). Commentary on the Prasannapadā (ID:3724), focusing on the first chapter, which takes up almost half of the entire commentary. &#13;
+The author does not apply a systematic nested structure (sa bcad) to the work.&#13;
+Edition of the manuscript in [Q5TFQTM8] (fols. 1a-26a3), [N8VI2328] (fols. 26a3-40b5), and [CMTPPRKW]: 15-28 (fols. 73a9-77a3).</note><relatedItem type="commentaryOn" target="work:3724"/><idno type="APIS">5528</idno></bibl><bibl xml:id="work6589"><title type="main" xml:lang="bo-Latn-x-wylie">bzhi brgya pa'i rnam bshad</title><title xml:lang="bo">བཞི་བརྒྱ་པའི་རྣམ་བཤད</title><textLang mainLang="bo"/><date type="composition" notBefore="1010-01-01" notAfter="1180-12-31">after 1010 before 1180</date><author ref="person:3870">zhang thang sag pa ye shes 'byung gnas</author><note type="isExtant">False</note><note type="comment">Listed in A khu ching Shes rab rgya mtsho's Tho yig ([5RXEUKD9]: 523, No. 11343: zhang thang sag pa ye shes 'byung gnas kyi bzhi brgya pa [...rnams kyi] rnam bshad).&#13;
+Mentioned in [KM47ZZDJ]: 665.</note><idno type="APIS">6589</idno></bibl><bibl xml:id="work6590"><title type="main" xml:lang="bo-Latn-x-wylie">dbu ma 'jug pa'i rnam bshad</title><title xml:lang="bo">དབུ་མ་འཇུག་པའི་རྣམ་བཤད</title><textLang mainLang="bo"/><date type="composition" notBefore="1010-01-01" notAfter="1180-12-31">after 1010 before 1180</date><author ref="person:3870">zhang thang sag pa ye shes 'byung gnas</author><note type="isExtant">False</note><note type="comment">Listed in A khu ching Shes rab rgya mtsho's Tho yig ([5RXEUKD9]: 523, No. 11344: [zhang thang sag pa ye shes 'byung gnas kyi [...] dbu ma 'jug pa [...rnams kyi] rnam bshad).</note><idno type="APIS">6590</idno></bibl><bibl xml:id="work6591"><title type="main" xml:lang="bo-Latn-x-wylie">rin chen phreng ba'i rnam bshad</title><title xml:lang="bo">རིན་ཆེན་ཕྲེང་བའི་རྣམ་བཤད</title><textLang mainLang="bo"/><date type="composition" notBefore="1010-01-01" notAfter="1180-12-31">after 1010 before 1180</date><author ref="person:3870">zhang thang sag pa ye shes 'byung gnas</author><note type="isExtant">False</note><note type="comment">Listed in A khu ching Shes rab rgya mtsho's Tho yig ([5RXEUKD9]: 523, No. 11345: [zhang thang sag pa ye shes 'byung gnas kyi ...] rin chen phreng ba [...rnams kyi] rnam bshad).</note><idno type="APIS">6591</idno></bibl><bibl xml:id="work6592"><title type="main" xml:lang="bo-Latn-x-wylie">rigs pa drug cu pa'i rnam bshad</title><title xml:lang="bo">རིགས་པ་དྲུག་ཅུ་པའི་རྣམ་བཤད</title><textLang mainLang="bo"/><date type="composition" notBefore="1010-01-01" notAfter="1099-12-31">after 1010 before 1099</date><author ref="person:3870">zhang thang sag pa ye shes 'byung gnas</author><note type="isExtant">False</note><note type="comment">Listed in A khu ching Shes rab rgya mtsho's Tho yig ([5RXEUKD9]: 523, No. 11346: [zhang thang sag pa ye shes 'byung gnas kyi...] rigs pa drug cu pa [rnams kyi] rnam bshad).</note><idno type="APIS">6592</idno></bibl></listBibl><listPlace><place xml:id="place4398"><placeName xml:lang="bo-Latn-x-wylie">thang sag dgon</placeName><placeName xml:lang="bo">ཐང་སག་དགོན</placeName><idno type="APIS">4398</idno></place></listPlace><listRelation><relation xml:id="rel6114" name="lineage-predecessor-of" active="#person3870" passive="#person7538" type="positive"/><relation xml:id="rel6113" name="lineage-predecessor-of" active="#person3868" passive="#person3870" type="positive"/><relation xml:id="rel127" name="student-of" active="#person3870" passive="#person3868" type="positive"/><relation xml:id="rel6096" name="student-of" active="#person3842" passive="#person3870" type="positive"/><relation xml:id="rel3509" name="author-of" active="#person3870" passive="#work6591" type="positive"/><relation xml:id="rel1201" name="author-of" active="#person3870" passive="#work5528" type="positive"/><relation xml:id="rel3511" name="author-of" active="#person3870" passive="#work6592" type="positive"/><relation xml:id="rel3508" name="author-of" active="#person3870" passive="#work6590" type="positive"/><relation xml:id="rel3505" name="author-of" active="#person3870" passive="#work6589" type="positive"/><relation xml:id="rel4357" name="active-at" active="#person3870" passive="#place4398" type="positive"/></listRelation></standOff><text>
+      <body>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+      </body>
+      
+   </text>
+</TEI>

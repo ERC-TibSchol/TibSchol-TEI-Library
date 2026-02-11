@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">sher phyin mngon rtogs rgyan gyi 'grel ba'i brjed byang</title>
+            <title xml:lang="bo">ཤེར་ཕྱིན་མངོན་རྟོགས་རྒྱན་གྱི་འགྲེལ་བའི་བརྗེད་བྱང</title>
+            <author ref="person:3919">zhang 'bal tshad ma pa</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:Tr">Transkribus</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="Transkribus">1537793</idno>
+            <idno type="external">TibSchol 1_029_05</idno>
+            <idno type="TibSchol">1_029_05</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst4677">
+               <msIdentifier>
+                  <idno type="APIS">4677</idno>
+                  <idno type="TibSchol">1_029_05</idno>
+                  <idno type="signature">tsha 117</idno>
+                  <idno type="drepung">15989</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD89051_5DF6C9</idno>
+                  <msName>mngon rtogs rgyan gyi rnam par bshad pa</msName>
+                  <msName xml:lang="bo">མངོན་རྟོགས་རྒྱན་གྱི་རྣམ་པར་བཤད་པ</msName>
+                  <msName type="alt" xml:lang="bo">mngon rtogs rgyan gyi rnam bshad (cover page)</msName>
+                  <msName type="alt" xml:lang="bo">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos kyi 'grel pa'i rjes byang bla ma'i zhal rgyud kyi gdaMs pa (colophon)</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:4643">sher phyin mngon rtogs rgyan gyi 'grel ba'i brjed byang</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dpe tshugs.<lb/>Missing folio: fol. 76.<lb/>Number on the last folio: 79.<lb/>In most cases, the decimal of folio numbers is written out, while the digit is written with a numeral.<lb/>Use of abbreviations.<lb/>Many interlinear notes. Actually, it seems that space was left between the lines for this purpose.</p>
+                           <dimensions unit="cm">
+                              <width>66</width>
+                              <height>10</height>
+                           </dimensions>
+                        </support>
+                        <extent>78(/79)</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>'bras spungs gnas bcu lha khang</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                     <note type="comment">This manuscript has annotations that differ from, but overlap with those of (ID:4642).&#13;
+No author reported for No. 15989 in [8H6M69W4].</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/Z5AUD7GQ">bKa' gdams gsung 'bum 1</ref>, <biblScope unit="vol">29</biblScope>, <biblScope unit="pp">337-492</biblScope>, <biblScope unit="text">5</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3712"><persName type="main" xml:lang="bo-Latn-x-wylie">haribhadra</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">seng ge bzang po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">seng+ge bzang po</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P7297</idno><idno type="APIS">3712</idno></person><person xml:id="person3834"><persName type="main" xml:lang="bo-Latn-x-wylie">rgya dmar ba byang chub grags</persName><persName xml:lang="bo">རྒྱ་དམར་བ་བྱང་ཆུབ་གྲགས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">stod lung rgya dmar ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">stod lungs rgya dmar pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dam pa stod lung pa rgya dmar ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">stod rgya</persName><birth notBefore="1054-01-01" notAfter="1075-12-31">after 1054 before 1075</birth><death notBefore="1135-01-01" notAfter="1194-12-31">after 1135 before 1194</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P4749</idno><idno type="APIS">3834</idno><note type="comment">Floruit 1095–1135. [YF8Z2ZGH]: 332 "rGya dmar pa was not only fully learned, but also possessed numerous Tantric secret precepts."</note></person><person xml:id="person3919"><persName type="main" xml:lang="bo-Latn-x-wylie">zhang 'bal tshad ma pa</persName><persName xml:lang="bo">ཞང་འབལ་ཚད་མ་པ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'bal tshad ma</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'bal tshad ma ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'bal thams cad mkhyen pa</persName><birth notBefore="1000-01-01" notAfter="1184-12-31">after 1000 before 1184</birth><death notBefore="1064-01-01" notAfter="1100-12-31">after 1064 before 1100</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P8LS15353</idno><idno type="APIS">3919</idno></person></listPerson><listBibl><bibl xml:id="work3711"><title type="main" xml:lang="bo-Latn-x-wylie">abhisamayālaṃkāravṛtti</title><title type="alt" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan zhes bya ba'i 'grel pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">'grel chung</title><title type="alt" xml:lang="bo-Latn-x-wylie">abhisamayālaṃkāranāmaprajñāpāramitopadeśaśāstravṛtti</title><title type="alt" xml:lang="bo-Latn-x-wylie">sphuṭārthā</title><author ref="person:3712">haribhadra</author><note type="isExtant">True</note><idno type="APIS">3711</idno></bibl><bibl xml:id="work4643"><title type="main" xml:lang="bo-Latn-x-wylie">sher phyin mngon rtogs rgyan gyi 'grel ba'i brjed byang</title><title xml:lang="bo">ཤེར་ཕྱིན་མངོན་རྟོགས་རྒྱན་གྱི་འགྲེལ་བའི་བརྗེད་བྱང</title><title type="alt" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos kyi 'grel pa'i brjed byang bla ma'i zhal rgyun gdams pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">mngon rtogs rgyan gyi rnam par bshad pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">mngon rtogs rgyan gyi rnam bshad</title><textLang mainLang="bo"/><date type="composition" notBefore="1010-01-01" notAfter="1100-12-31">after 1010 before 1100</date><author ref="person:3919">zhang 'bal tshad ma pa</author><note type="isExtant">True</note><relatedItem type="commentaryOn" target="work:3711"/><idno type="APIS">4643</idno></bibl></listBibl><listPlace><place xml:id="place6685"><placeName xml:lang="bo-Latn-x-wylie">skyer sgang</placeName><placeName xml:lang="bo">སྐྱེར་སྒང</placeName><placeName type="alt" xml:lang="bo">rwa skor dgon pa</placeName><location><geo>29.973333 90.766389</geo></location><idno type="APIS">6685</idno></place></listPlace><listRelation><relation xml:id="rel2601" name="student-of" active="#person3919" passive="#person3834" type="positive"/><relation xml:id="rel3776" name="active-at" active="#person3919" passive="#place6685" type="positive"/><relation xml:id="rel668" name="author-of" active="#person3919" passive="#work4643" type="positive"/></listRelation></standOff><text>
+      <body>
+         <div>
+            
+            <gap reason="omitted"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <ab>
+               <gap reason="omitted"/><pb n="156"/><lb n="79b6"/><seg type="excerpt" xml:id="ex029052026-11-0403-04-03" status="reviewed"><rs type="work" ref="work:4643" ana="corpusmd:named_reference">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos kyi 'grel pa'i rjes byang bla ma'i zhal rgyud kyi gdaMs pa</rs> bris pa'o ||</seg><gap reason="omitted"/></ab>
+         </div>
+      </body>
+   </text>
+</TEI>

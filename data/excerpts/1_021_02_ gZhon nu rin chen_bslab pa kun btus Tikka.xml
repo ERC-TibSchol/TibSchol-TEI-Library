@@ -1,0 +1,673 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i bslab pa kun las btus pa'i ti ka mdo sde nyi ma'i snying po</title>
+            <title xml:lang="bo">བྱང་ཆུབ་སེམས་དཔའི་བསླབ་པ་ཀུན་ལས་བཏུས་པའི་ཏི་ཀ་མདོ་སྡེ་ཉི་མའི་སྙིང་པོ</title>
+            <author ref="person:3911">gzhon nu rin chen</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:Transkribus">Transkribus</name>
+               <name ref="corpusmd:SBi">Serena Biondo</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">1_021_02</idno>
+            <idno type="Transkribus">1536030</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst4624">
+               <msIdentifier>
+                  <idno type="APIS">4624</idno>
+                  <idno type="TibSchol">1_021_02</idno>
+                  <idno type="signature">tsa 54</idno>
+                  <idno type="drepung">15506</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD89051_EC9F93</idno>
+                  <msName>byang chub sems dpa'i bslab pa kun las btus pa'i ti ka mdo sde nyi ma'i snying po</msName>
+                  <msName xml:lang="bo">བྱང་ཆུབ་སེམས་དཔའི་བསླབ་པ་ཀུན་ལས་བཏུས་པའི་ཏི་ཀ་མདོ་སྡེ་ཉི་མའི་སྙིང་པོ</msName>
+                  <msName type="alt" xml:lang="bo">bslab pa kun las btus pa'i ti ka (cover page)</msName>
+                  <msName type="alt" xml:lang="bo">byang chub sems dpa'i bslab pa kun las btus pa'i ti ka mdo sde nyi ma'i snying po (incipit)</msName>
+                  <msName type="alt" xml:lang="bo">mdo sde kun las btus pa'i Ti ka mdo'i nyi ma'i snying po (colophon)</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:4625">byang chub sems dpa'i bslab pa kun las btus pa'i ti ka mdo sde nyi ma'i snying po</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: 'bru tsha.<lb/>Proofread once (zhus cig dag par byas so).<lb/>Title in dbu can script on the cover page.</p>
+                           <dimensions unit="cm">
+                              <width>66</width>
+                              <height>9.5</height>
+                           </dimensions>
+                        </support>
+                        <extent>91</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>'bras spungs gnas bcu lha khang</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                     <note type="comment">A second signature is written horizontally on the cover page above the title in dbu can script: phyi tsa 222, and below it the authorship statement: gzhon °°n gyis mdzad pa (the part that is not legible might be an abbreviation for "rin chen").</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/Z5AUD7GQ">bKa' gdams gsung 'bum 1</ref>, <biblScope unit="vol">21</biblScope>, <biblScope unit="pp">329-509</biblScope>, <biblScope unit="text">2</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC project
+               “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol). This project
+               has received funding from the European Research Council (ERC) under the European
+               Union's Horizon 2020 research and innovation programme (grant agreement No.
+               101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix point to
+                  the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix point to
+                  a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+                  point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="inst" matchPattern="^(\d+)$" replacementPattern="#inst$1">
+               <p>Local identifier of a inst record from the APIS export; resolves to the element with xml:id 'inst' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3743"><persName type="main" xml:lang="bo-Latn-x-wylie">śāntideva</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon zhi ba'i lha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rgyal sras zhi ba lha</persName><birth notBefore="0600-01-01">after 600</birth><death notAfter="0800-12-31">before 800</death><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6161</idno><idno type="APIS">3743</idno></person><person xml:id="person3745"><persName type="main" xml:lang="bo-Latn-x-wylie">atiśa dīpaṃkaraśrījñāna</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon chen po dpal mar me mdzad ye shes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">a ti sha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo a ti sha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">atīśa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">atisha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo rje</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo chen po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dpal ldan a ti sha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">paN+Di ta dI paM ka ra</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">ma hA paN+Di ta mar me mdzad ye shes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dpal mar me mdzad dpal ye shes zhabs</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">a d+hi sha</persName><birth notBefore="0972-01-01" notAfter="0982-12-31">after 972 before 982</birth><death notBefore="1054-01-01" notAfter="1055-12-31">after 1054 before 1055</death><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P3379</idno><idno type="APIS">3745</idno></person><person xml:id="person3765"><persName type="main" xml:lang="bo-Latn-x-wylie">śākyaprabha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">mang du thos pa'i slob dpon shAkya 'od</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">shAkya 'od</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">shag kya 'od</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P0AT0383</idno><idno type="APIS">3765</idno></person><person xml:id="person3786"><persName type="main" xml:lang="bo-Latn-x-wylie">rngog blo ldan shes rab</persName><persName xml:lang="bo">རྔོག་བློ་ལྡན་ཤེས་རབ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog lo tsA ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo chen</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge slong blo ldan shes rab</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog lo rtsa ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog dge slong blo ldan shes rab</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">blo ldan bzang po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo tsha ba chen po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo ts+tsha ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo tsha ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo tsa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">blo ldan</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">ma hA</persName><birth notBefore="1059-01-01" notAfter="1059-12-31">1059</birth><death notBefore="1109-01-01" notAfter="1109-12-31">1109</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P2551</idno><idno type="APIS">3786</idno><note type="comment">See [BAQ9MH4T]: 193 for the main events of his life.&#13;
+&#13;
+Three manuscript editions of his writings and translations were deposited respectively in rNgog Blo ldan shes rab's tomb, in the monastery of gSang phu (probably in the main assembly hall), and in Drin las kyi sde (ID:4357) ([7FZ3B926]: 107).</note></person><person xml:id="person3805"><persName type="main" xml:lang="bo-Latn-x-wylie">zhang tshe spong chos kyi bla ma</persName><persName xml:lang="bo">ཞང་ཚེ་སྤོང་ཆོས་ཀྱི་བླ་མ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zhang tshes spong chos kyi bla ma</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">tshes spong ba chos kyi bla ma</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zhang tshe spong pa chos kyi bla ma</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">gnyal pa zhang tshes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dmyal ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">gnyal pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zhang tshes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">ne'u thog pa chos kyi bla ma</persName><birth notBefore="1041-01-01" notAfter="1090-12-31">after 1041 before 1090</birth><death notBefore="1141-01-01" notAfter="1141-12-31">1141</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P4457</idno><idno type="APIS">3805</idno><note type="comment">Third abbot of gSang phu ne'u thog monastery.&#13;
+Author of several commentaries, see [R894SIKE]: 405 (zhang tshe spong ba chos kyi bla mas kyang TI ka 'ga' re brtsams).&#13;
+Part of the group of the four main disciples of rNgog Blo ldan shes rab (ID:3786) exX0032026-09-0202-25-28 .</note></person><person xml:id="person3807"><persName type="main" xml:lang="bo-Latn-x-wylie">'bre shes rab 'bar</persName><persName xml:lang="bo">འབྲེ་ཤེས་རབ་འབར</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'bre chen po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'dre chen po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'dre shes rab 'bar</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'bri shes rab 'bar</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">shes rab bla ma</persName><birth notBefore="1040-01-01" notAfter="1100-12-31">after 1040 before 1100</birth><death notAfter="1200-12-31">before 1200</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P2274</idno><idno type="APIS">3807</idno><note type="comment">Further holy places associated to him are: Ze thang, Grwa thang and rMog po ([647FFPZR]: 545, based on [Q3KCZX7B]: 38).&#13;
+Remembered for thirteen distinguished objects (such as royal insignia and religious articles), which could be objects of his clan ([4LDAV8UH]: 95.).</note></person><person xml:id="person3809"><persName type="main" xml:lang="bo-Latn-x-wylie">khyung rin chen grags</persName><persName xml:lang="bo">ཁྱུང་རིན་ཆེན་གྲགས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo btsun</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo btsun khyung</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slang pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">glang pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">glang pha ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slang pha ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rin chen grags</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">khyung</persName><birth notBefore="1000-01-01" notAfter="1083-12-31">after 1000 before 1083</birth><death notAfter="1170-12-31">before 1170</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P5746</idno><idno type="APIS">3809</idno><note type="comment">His dates can be approximated as 1070-1130.&#13;
+&#13;
+He is possibly the same person as Byang 'chad khyung (ID:6382), as [NA9AMDH6] states that Khyung rin chen grags held Byang 'chad (ID:4416) and taught Sa chen (ID:4205) there ([647FFPZR]: 543). [CJ75QQKN]: 339 (fol. 8a/170a1-3).&#13;
+dMar ston's Zhib mo rdo rje ([RA3FK3BK]: 134 and 137), on the other hand, distinguish the two figures and places Sa chen's studies with Khyung at Nyang stod byang 'chad, and those with Khyung rin chen grags at Nyang stod.&#13;
+&#13;
+On the reference to Khyung as "slang pa/slang pha/slang pha ba" (understood as a regionalism for "glang pa/glang pha ba," see [WL39GVT5]: 940.</note></person><person xml:id="person3816"><persName type="main" xml:lang="bo-Latn-x-wylie">ar byang chub ye shes</persName><persName xml:lang="bo">ཨར་བྱང་ཆུབ་ཡེ་ཤེས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">ar</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">shag kya'i dge slong byang chub ye shes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">shag kya'i dge slong byang ye</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">a ro byang chub ye shes</persName><birth notBefore="1054-01-01" notAfter="1056-12-31">after 1054 before 1056</birth><death notBefore="1134-01-01" notAfter="1194-12-31">after 1134 before 1194</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P2552</idno><idno type="APIS">3816</idno><note type="comment">Dates according to [2V6H2FBU]: 24, n. 70 ("Since Ar was invited as a dge bshes to a monastery in 1076, it is hard to believe that he was not at least 20 years old, which would put his birth-date at least in 1056. The last trace of his existence is in 1144 when he took over the head of rgyal lha khang.").</note></person><person xml:id="person3827"><persName type="main" xml:lang="bo-Latn-x-wylie">'brom ston rgyal ba'i 'byung gnas</persName><persName xml:lang="bo">འབྲོམ་སྟོན་རྒྱལ་བའི་འབྱུང་གནས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge bshes ston pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge bshes ston pa chen po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge' bshes ston pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'brum ston rgyal ba'i 'byung gnas</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'brom</persName><birth notBefore="1004-01-01" notAfter="1005-12-31">after 1004 before 1005</birth><death notBefore="1064-01-01" notAfter="1064-12-31">1064</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P2557</idno><idno type="APIS">3827</idno><note type="comment">Celibate householder from the Byang region, chief disciple of Atiśa (ID: 3745) ([Q922IUFM]: 30). &#13;
+&#13;
+dGe 'dun grub pa (ID:7060) is renowned as his reincarnation and his 'Brom ston-like qualities are described ([BKUHJCNA]: 787-790).</note></person><person xml:id="person3839"><persName type="main" xml:lang="bo-Latn-x-wylie">gtsang nag pa brtson 'grus seng ge</persName><persName xml:lang="bo">གཙང་ནག་པ་བརྩོན་འགྲུས་སེང་གེ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">brtson 'grus seng+ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">gtsang nag pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">gtsang nags brtson 'grus seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">gtsang nags phug pa brtson 'grus seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">brtson 'grus seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rtsang nag</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rtsang</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon gtsang nag pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">mkhas pa rtsang nag pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge slong brtson 'grus seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge' slong brtson 'grus seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">gtsang nags phug pa brtson 'grus seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dbu ma smra ba'i dge' slong bstson 'grus seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">mang du thos pa'i dge slong brtson 'grus seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rigs par smra ba'i dge slong brtson 'grus seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">shag kya'i dge slong brtson 'grus seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon grags pa'i dbang phyug gtsang nag pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">vīryasiṃha</persName><birth notAfter="1150-12-31">before 1150</birth><death notBefore="1195-01-01">after 1195</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P2259</idno><idno type="APIS">3839</idno><note type="comment">Van der Kuijp ([H9MPLMTV]) proposed the dates (?-1185). The terminus ante quem for gTsang nag pa's death was pushed to 1192 by Schwabland ([Q8WU9EDW]: 794, n. 3) on account of the date of Khro pu lo tsA ba (ID:3878)'s studies with gTsang nag pa. This date was corrected to 1195 based on Khro phu lo tsA ba's biography (van der Kuijp, personal communication).</note></person><person xml:id="person3840"><persName type="main" xml:lang="bo-Latn-x-wylie">dan bag pa smra ba'i seng ge</persName><persName xml:lang="bo">དན་བག་པ་སྨྲ་བའི་སེང་གེ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'dan bag pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dan 'bag pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dan</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dan bag</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">smra ba'i seng ge dan 'bag pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">smra ba'i seng+ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">smra seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dar ma bkra shis</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dar ma seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dan 'bag pa dar seng</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dan phag pa dar ma seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dang 'bag smra ba'i seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">smra ba'i seng ge dar 'bag pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rtsang pa dan phag</persName><birth notBefore="1050-01-01" notAfter="1159-12-31">after 1050 before 1159</birth><death notBefore="1140-01-01" notAfter="1230-12-31">after 1140 before 1230</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P4747</idno><idno type="APIS">3840</idno><note type="comment">Part of the group of Phya pa (ID:3831)'s students referred to as the "Eight Mighty Lions."&#13;
+Possibly identical with (ID:6217) ([4LWBNM7B]: 106).&#13;
+Maybe the same person as the "Chos kyi grags pa" mentioned as lineage successor of gTsang nag pa (ID:3839) and predecessor of gNyal zhig (ID:3887) in Bu ston's lineage of the Pramāṇaviniścaya (ID:3774).</note></person><person xml:id="person3876"><persName type="main" xml:lang="bo-Latn-x-wylie">nyang bran pa chos kyi ye shes</persName><persName xml:lang="bo">ཉང་བྲན་པ་ཆོས་ཀྱི་ཡེ་ཤེས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">ye shes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">chos kyi ye shes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">myang bran pa chos ye</persName><birth notBefore="1060-01-01" notAfter="1130-12-31">after 1060 before 1130</birth><death notBefore="1150-01-01" notAfter="1210-12-31">after 1150 before 1210</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P4458</idno><idno type="APIS">3876</idno><note type="comment">Maybe the same person as "Nyang bran chos kyi seng ge" (ID:3844), as suggested in [CCSBSVCA]: 164, n. 416.  However, A khu ching distinguishes the two.&#13;
+Author of manuals on the Śīkṣāsamuccaya (ID:3742) - see (ID: 6558) - and Bodhicaryāvatāra (ID: 3727). See [R894SIKE]: 405 (zhang tshe spong ba chos kyi bla mas kyang TI ka 'ga' re brtsams shing de'i slob ma nyan bran pa chos kyi ye shes kyis ni bslabs pa kun las btus pa dang | byang chub sems dpa'i spyod pa la 'jug pa la sogs pa spyod phyogs kyi yig cha dang |) and [EG6VZ8JK]: 26, translated from [8GL7ZT7Y]: 15b2 (chos kyi ye shes kyis bslab spyod sogs byang chub sems dpa’i sde sogs la bshad nyan yun ring zhing rnam bshad mang po mdzad ).</note></person><person xml:id="person3911"><persName type="main" xml:lang="bo-Latn-x-wylie">gzhon nu rin chen</persName><persName xml:lang="bo">གཞོན་ནུ་རིན་ཆེན</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">chos grags gnyis pa gzhon nu rin chen</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">chos grwa gsar ma gzhon nu rin chen</persName><birth notBefore="1175-01-01" notAfter="1354-12-31">after 1175 before 1354</birth><death notBefore="1265-01-01" notAfter="1375-12-31">after 1265 before 1375</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P4860</idno><idno type="APIS">3911</idno><note type="comment">Fl. late 13th to early 14th c. We assume that the gZhon nu rin chen who was abbot of gSang phu is the same person as the author of the two works by gZhon nu rin chen.&#13;
+The latter is characterized in [8H6M69W4], No. 15506, as the "student of Nyang" (nyang gi slob ma), which, in view of the colophon of (ID:4625), is Nyang bran pa Chos kyi ye shes (ID:3876) rather than Nyang bran pa Chos kyi seng ge (ID:3844).</note></person><person xml:id="person3912"><persName type="main" xml:lang="bo-Latn-x-wylie">tshul khrims skyabs</persName><persName xml:lang="bo">ཚུལ་ཁྲིམས་སྐྱབས</persName><birth notAfter="1365-12-31">before 1365</birth><death notBefore="1185-01-01">after 1185</death><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">3912</idno><note type="comment">Might be the same person as dDang phyug rin chen (2) (ID:6392).</note></person><person xml:id="person4189"><persName type="main" xml:lang="bo-Latn-x-wylie">sgam po pa bsod nams rin chen</persName><persName xml:lang="bo">སྒམ་པོ་པ་བསོད་ནམས་རིན་ཆེན</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dwags po lha rje bsod nams rin chen</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lha rje</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dwags po zla 'od gzhon nu</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lha rje sgam po pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dwags po lha rje</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">mnyam med dwags po lha rje ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dwags po rin po che</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dags po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dwags po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lha rje</persName><birth notBefore="1079-01-01" notAfter="1079-12-31">1079</birth><death notBefore="1153-01-01" notAfter="1153-12-31">1153</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P1844</idno><idno type="APIS">4189</idno></person><person xml:id="person4294"><persName type="main" xml:lang="bo-Latn-x-wylie">khyung po grags se</persName><persName xml:lang="bo">ཁྱུང་པོ་གྲགས་སེ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">khyung po grags seng</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">khyung po</persName><birth notBefore="0874-01-01" notAfter="1050-12-31">after 874 before 1050</birth><death notBefore="0954-01-01" notAfter="1120-12-31">after 954 before 1120</death><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">4294</idno></person><person xml:id="person4593"><persName type="main" xml:lang="bo-Latn-x-wylie">Anonymous</persName><persName xml:lang="bo">ཨཱནོཉམོཨུས</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">4593</idno></person><person xml:id="person5611"><persName type="main" xml:lang="bo-Latn-x-wylie">sthirapāla</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'bum phrag gsum pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rgya gar pan chen</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo 'bum pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'bum</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'bum pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">brtan skyong</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dhirapāla</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">sthirapāla</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">sthirapālaśrībhadra</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">paN+Di ta d+hi ra pA la</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">trilakṣa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">bstan skyong</persName><birth notBefore="1050-01-01">after 1050</birth><death notAfter="1150-12-31">before 1150</death><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P4CZ15638</idno><idno type="APIS">5611</idno><note type="comment">Indian paṇḍita. Not to be confused with three Tibetan scholars with the nickname "'Bum phrag gsum pa": (ID:6415), (ID:6416), (ID:6417). See [2X2E3882]: 252, n. 130.</note></person><person xml:id="person5972"><persName type="main" xml:lang="bo-Latn-x-wylie">zhang ye ba smon lam tshul khrims</persName><persName xml:lang="bo">ཞང་ཡེ་བ་སྨོན་ལམ་ཚུལ་ཁྲིམས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">byang chub 'bum</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zhang g.ye ba smon lam tshul khrims</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zhang ye</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zhang dbye</persName><birth notBefore="1100-01-01" notAfter="1133-12-31">after 1100 before 1133</birth><death notBefore="1085-01-01" notAfter="1213-12-31">after 1085 before 1213</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P4748</idno><idno type="APIS">5972</idno><note type="comment">Likely the same person as Zhang e pa (ID:6660).</note></person><person xml:id="person6062"><persName type="main" xml:lang="bo-Latn-x-wylie">klong chen rab 'byams pa</persName><persName xml:lang="bo">ཀློང་ཆེན་རབ་འབྱམས་པ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'dri med 'od zer</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">tshul khrims blo gros</persName><birth notBefore="1308-01-01" notAfter="1308-12-31">1308</birth><death notBefore="1364-01-01" notAfter="1364-12-31">1364</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P1583</idno><idno type="APIS">6062</idno></person><person xml:id="person6392"><persName type="main" xml:lang="bo-Latn-x-wylie">dbang phyug rin chen</persName><persName xml:lang="bo">དབང་ཕྱུག་རིན་ཆེན</persName><birth notBefore="1200-01-01">after 1200</birth><death notAfter="1400-12-31">before 1400</death><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">6392</idno><note type="comment">Might be the same person as Tshul khrims skyabs (ID:3912).</note></person><person xml:id="person6949"><persName type="main" xml:lang="bo-Latn-x-wylie">jo bo a du la</persName><persName xml:lang="bo">ཇོ་བོ་ཨ་དུ་ལ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo a du</persName><birth notAfter="1194-12-31">before 1194</birth><death notAfter="1274-12-31">before 1274</death><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">6949</idno></person><person xml:id="person6951"><persName type="main" xml:lang="bo-Latn-x-wylie">ku lan ta</persName><sex value="M"/><nationality>Indic</nationality><idno type="APIS">6951</idno></person><person xml:id="person7033"><persName type="main" xml:lang="bo-Latn-x-wylie">stag lo gzhon nu brtson 'grus</persName><persName xml:lang="bo">སྟག་ལོ་གཞོན་ནུ་བརྩོན་འགྲུས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">stag lo</persName><birth notBefore="0900-01-01" notAfter="1000-12-31">after 900 before 1000</birth><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P4064</idno><idno type="APIS">7033</idno></person><person xml:id="person7034"><persName type="main" xml:lang="bo-Latn-x-wylie">gser gyi go cha</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P5654</idno><idno type="APIS">7034</idno><note type="comment">This may be the Indic figure Kanakavarman (P5654) that was a teacher of Pa tshab nyi ma grags (ID:3868), and with whom the latter collaborated with to translate the Madhyamakāvatāra (ID:3726)</note></person><person xml:id="person7349"><persName type="main" xml:lang="bo-Latn-x-wylie">mda' byang chub sems dpa'</persName><persName xml:lang="bo">མདའ་བྱང་ཆུབ་སེམས་དཔའ</persName><birth notAfter="1365-12-31">before 1365</birth><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">7349</idno><note type="comment">[G36YV3ZE]: 142, mentions that he was a  bLa ma from Grum bu lung of gZad.</note></person></listPerson><listBibl><bibl xml:id="work3727"><title type="main" xml:lang="bo-Latn-x-wylie">bodhicaryāvatāra</title><title type="alt" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i spyod pa la 'jug pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">spyod 'jug</title><date type="composition" notBefore="0610-01-01" notAfter="0800-12-31">after 610 before 800</date><author ref="person:3743">śāntideva</author><note type="isExtant">True</note><note type="comment">A fragmentary manuscript of the Tibetan translation (different from the canonical one) from Matho is discussed in [5H5BVSWI].</note><idno type="APIS">3727</idno></bibl><bibl xml:id="work3742"><title type="main" xml:lang="bo-Latn-x-wylie">śikṣāsamuccaya</title><title type="alt" xml:lang="bo-Latn-x-wylie">bslab pa kun las btus pa</title><title type="alt" xml:lang="bo-Latn-x-wylie">bslab btus</title><author ref="person:3743">śāntideva</author><note type="isExtant">True</note><idno type="APIS">3742</idno></bibl><bibl xml:id="work3764"><title type="main" xml:lang="bo-Latn-x-wylie">mūlasarvāstivādiśrāmaṇerakārikā</title><title type="alt" xml:lang="bo-Latn-x-wylie">āryamūlasarvāstivādiśrāmaṇerakārikā</title><title type="alt" xml:lang="bo-Latn-x-wylie">triśata­kārikā</title><title type="alt" xml:lang="bo-Latn-x-wylie">'phags pa gzhi thams cad yod par smra ba'i dge tshul gyi tshig le'ur byas pa</title><author ref="person:3765">śākyaprabha</author><note type="isExtant">True</note><idno type="APIS">3764</idno></bibl><bibl xml:id="work4623"><title type="main" xml:lang="bo-Latn-x-wylie">mngon par rtogs pa'i rgyan gyi 'grel ba bcud kyi thig le</title><title xml:lang="bo">མངོན་པར་རྟོགས་པའི་རྒྱན་གྱི་འགྲེལ་བ་བཅུད་ཀྱི་ཐིག་ལེ</title><title type="alt" xml:lang="bo-Latn-x-wylie">mngon rtogs rgyan gyi 'grel ba bcud kyi thig le</title><textLang mainLang="bo"/><date type="composition" notBefore="1185-01-01" notAfter="1375-12-31">after 1185 before 1375</date><author ref="person:3911">gzhon nu rin chen</author><note type="isExtant">True</note><note type="comment">This commentary suggests the influence of Ar Byang chub ye shes's commentary (ID:4455) in that it refers, in addition to Ar (ID:3816) himself, to the views of the same set of scholars that Ar Byang chub ye shes discusses, some of whom rarely mentioned elsewhere (for instance Jo bo A du la (ID:6949)).</note><idno type="APIS">4623</idno></bibl><bibl xml:id="work4625"><title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i bslab pa kun las btus pa'i ti ka mdo sde nyi ma'i snying po</title><title xml:lang="bo">བྱང་ཆུབ་སེམས་དཔའི་བསླབ་པ་ཀུན་ལས་བཏུས་པའི་ཏི་ཀ་མདོ་སྡེ་ཉི་མའི་སྙིང་པོ</title><title type="alt" xml:lang="bo-Latn-x-wylie">bslab pa kun las btus pa'i Tik+ka</title><title type="alt" xml:lang="bo-Latn-x-wylie">bslab pa kun las btus pa'i ti ka</title><title type="alt" xml:lang="bo-Latn-x-wylie">slab pa kun las btus pa'i ṭikka</title><title type="alt" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i bslab pa kun las btus pa'i ti ka mdo sde nyi ma'i snying po</title><title type="alt" xml:lang="bo-Latn-x-wylie">mdo sde kun las btus pa'i Ti ka mdo'i nyi ma'i snying po</title><title type="alt" xml:lang="bo-Latn-x-wylie">dge slong gzhon nu rin chen gyis mdzad pa'i bslab pa kun las btus pa'i Tik+ka</title><title type="alt" xml:lang="bo-Latn-x-wylie">mdo sde kun las btus pa'i ti ka mdo'i nyi ma'i snying po</title><textLang mainLang="bo"/><date type="composition" notBefore="1185-01-01" notAfter="1375-12-31">after 1185 before 1375</date><author ref="person:3911">gzhon nu rin chen</author><note type="isExtant">True</note><note type="comment">The work description in the closing verses (mdo sde kun las btus pa'i don...) and colophon (mdo sde kun las btus pa'i ti ka) indicates a commentary on the Sūtrasamuccaya (ID:3738), but in terms of its contents, the work is a commentary on the Śikṣāsamuccaya (ID:3742). &#13;
+&#13;
+According to the colophon ex21022023-09-181, gZhon nu rin chen relies on the explanations of "Chos kyi ye shes" - this is Nyang bran Chos kyi ye shes (ID:3876) in view of the reference to "Nyang gi bran" in the conclusive verses - and that of "brTson 'grus seng ge," likely gTsang nag pa (ID:3839), as the latter was a student of Nyang bran.&#13;
+The author refers with name to Atiśa ("jo bo chen po", (ID:3745)), Lo tsha ba=rNgog Blo ldan shes rab (ID:3786), and Nyang bran (ID:3876), and refers anonymously to the views of other Tibetan scholars, some of whom (Zhang tshes (ID:3805), Lo tsha ba (ID:3786), sTag lo (ID:7033), Khyung (ID:3809), etc.) are identified in interlinear glosses in instance (ID:4624); the glosses are concentrated in the first 12 folios then resume at two-thirds of the text on after a long break.&#13;
+&#13;
+The work could correspond to the "bslab btus Tik+ka" listed by A khu ching shes rab rgya mtsho in his Tho yig ([5RXEUKD9]: 514, No. 11073: gzhon nu rin chen gyi bslab btus Tik+ka).</note><relatedItem type="commentaryOn" target="work:3742"/><idno type="APIS">4625</idno></bibl></listBibl><listPlace><place xml:id="place6172"><placeName xml:lang="bo-Latn-x-wylie">gsang phu gling stod</placeName><placeName xml:lang="bo">གསང་ཕུ་གླིང་སྟོད</placeName><location><geo>29.5483 91.0862</geo></location><idno type="APIS">6172</idno></place></listPlace><listRelation><relation xml:id="rel5228" name="quotes-with-name" active="#person3911" passive="#person3816" type="positive"/><relation xml:id="rel4761" name="quotes-with-name" active="#person3911" passive="#person3745" type="positive"><desc>Evidence: <ptr target="#ex212-2025-01-08-423"/></desc></relation><relation xml:id="rel4762" name="quotes-without-name" active="#person3911" passive="#person3745" type="positive"><desc>Evidence: <ptr target="#ex212-2024-10-02-13-42"/></desc></relation><relation xml:id="rel5227" name="quotes-with-name" active="#person3911" passive="#person3807" type="positive"/><relation xml:id="rel5222" name="quotes-with-name" active="#person3911" passive="#person3827" type="positive"/><relation xml:id="rel8001" name="quotes-without-name" active="#person3911" passive="#person3827" type="positive"/><relation xml:id="rel8002" name="quotes-without-name" active="#person3911" passive="#person3840" type="positive"/><relation xml:id="rel3008" name="student-of" active="#person3911" passive="#person6392" type="positive"><desc>Evidence: <ptr target="#ex21022023-09-181"/></desc></relation><relation xml:id="rel4764" name="quotes-with-name" active="#person3911" passive="#person7034" type="positive"><desc>Evidence: <ptr target="#ex21022025-01-085"/></desc></relation><relation xml:id="rel4755" name="quotes-with-name" active="#person3911" passive="#person3839" type="positive"><desc>Evidence: <ptr target="#ex21022025-01-0814-32-313"/></desc></relation><relation xml:id="rel166" name="student-of" active="#person3911" passive="#person3912" type="positive"/><relation xml:id="rel4407" name="student-of" active="#person3911" passive="#person3876" type="positive"/><relation xml:id="rel5229" name="quotes-with-name" active="#person3911" passive="#person4294" type="uncertain"/><relation xml:id="rel4757" name="quotes-without-name" active="#person3911" passive="#person3809" type="positive"><desc>Evidence: <ptr target="#ex212-2024-10-08-15-12"/></desc></relation><relation xml:id="rel8046" name="quotes-without-name" active="#person3911" passive="#person5972" type="positive"/><relation xml:id="rel5224" name="quotes-with-name" active="#person3911" passive="#person4189" type="uncertain"/><relation xml:id="rel2959" name="active-at" active="#person3911" passive="#place6172" type="positive"/><relation xml:id="rel4758" name="quotes-without-name" active="#person3911" passive="#person3805" type="positive"><desc>Evidence: <ptr target="#ex212-2025-01-08429"/><ptr target="#ex212-2024-10-02-13-18"/><ptr target="#ex21022025-01-084"/><ptr target="#ex21022025-01-086"/></desc></relation><relation xml:id="rel5701" name="quotes-with-name" active="#person3911" passive="#person7349" type="positive"/><relation xml:id="rel5221" name="quotes-with-name" active="#person3911" passive="#person6949" type="positive"/><relation xml:id="rel5225" name="quotes-with-name" active="#person3911" passive="#person5611" type="positive"/><relation xml:id="rel4754" name="quotes-with-name" active="#person3911" passive="#person3876" type="positive"><desc>Evidence: <ptr target="#ex21022025-01-0814-32-313"/><ptr target="#ex21022024-10-2514-47-21"/></desc></relation><relation xml:id="rel4763" name="quotes-with-name" active="#person3911" passive="#person3786" type="positive"><desc>Evidence: <ptr target="#ex212-2024-10-02-12-45"/><ptr target="#ex212-2025-01-081"/><ptr target="#ex212-2025-01-08444"/><ptr target="#ex21022025-01-082"/></desc></relation><relation xml:id="rel4760" name="quotes-without-name" active="#person3911" passive="#person7033" type="uncertain"><desc>Evidence: <ptr target="#ex212-2024-10-02-15-33"/></desc></relation><relation xml:id="rel4756" name="quotes-without-name" active="#person3911" passive="#person3786" type="positive"><desc>Evidence: <ptr target="#ex212-2024-10-02-12-45"/><ptr target="#ex212-2025-01-081"/></desc></relation><relation xml:id="rel5702" name="quotes-with-name" active="#person3911" passive="#person6951" type="positive"/><relation xml:id="rel659" name="author-of" active="#person3911" passive="#work4625" type="positive"><desc>Evidence: <ptr target="#ex21022023-09-181"/><ptr target="#ex21022025-01-0814-32-31"/><ptr target="#ex21022025-01-0817-00-56"/></desc></relation><relation xml:id="rel657" name="author-of" active="#person3911" passive="#work4623" type="positive"/><relation xml:id="rel3007" name="student-of" active="#person6062" passive="#person3911" type="positive"/></listRelation></standOff><text>
+      <body>
+         <ab>
+         <ab type="cover_page"><seg type="excerpt" xml:id="ex21022025-01-0814-32-31" status="finalized" part="I" next="ex21022025-01-0814-32-312">
+         <milestone unit="section" n="Cover page (1a)"/>
+        <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> tsha <lb n="1a3"/> 54
+        <note type="gloss">phyi tsa 222 <rs type="person" ana="corpusmd:named_reference" ref="person:3911">gzhon °°n<note type="editorial">probably an expaneviation of "rin chen"</note></rs> gyis mdzad pa</note>
+        <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="work:4625"><rs type="work" ana="corpusmd:named_reference" ref="work:3742">bslab pa kun las btus pa</rs>'i ti ka</rs> lags s+ho || he he || ||</seg></ab>
+        
+        <ab xml:space="preserve" type="incipit"> 
+        <seg type="excerpt" xml:id="ex21022025-01-0814-32-312" status="finalized" part="M" next="ex21022025-01-0814-32-313">
+        <milestone unit="section" n="Incipit (1b1)"/>
+        <milestone unit="section" n="Invocation"/>
+         <pb n="1b"/><lb n="1b1"/> <rs type="work" ana="corpusmd:named_reference" ref="work:4625"><rs type="work" ana="corpusmd:named_reference" ref="work:3742">byang chub sems dpa'i bslab pa kun las btus pa</rs>'i ti ka | mdo sde nyi ma'i snying po</rs> zhes bya ba | sangs rgyas dang byang chub sems dpa' thams cad la phyag 'tshal lo |</seg>
+         
+         <seg type="excerpt" xml:id="ex21022025-01-0814-32-313" status="finalized">
+         <milestone unit="section" n="Introductory verses (1b1-1b2)"/>
+        <lg><l>rgyal sras myu gu byang chub sems ||</l>
+         <l>gzhan don spyod pas legs bsrungs pa'i ||</l>
+         <l>'bras bu rdzogs pa rang gzhan don ||</l>
+        <l><lb n="1b2"/> lhun grub sku la gus pas 'dud ||</l></lg>
+        <lg><l><rs type="work" ana="corpusmd:named_reference" ref="work:4625">mdo sde kun las btus pa'i don</rs> ||</l> 
+        <l><rs type="work" ana="corpusmd:named_reference" ref="work:4625">gsal byed nyi ma'i snying po</rs> 'di ||</l> 
+       <l><rs type="person" ana="corpusmd:named_reference" ref="person:3876"><expan>ye shes</expan></rs> dang ni <rs type="person" ana="corpusmd:named_reference" ref="person:3839">brtson 'grus</rs> kyi ||</l> 
+       <l>mying ×can gsung bzhin legs bshad brtsam ||</l></lg>
+       </seg>
+       
+       <gap reason="omitted"/> 
+      </ab>
+      
+      <ab type="text_body">
+          
+         <gap reason="omitted"/><lb n="1b5"/><seg type="excerpt" xml:id="ex212-2024-10-02-12-45" status="finalized">
+            <milestone n="1. gzhan gyi 'dod pa dgag pa" unit="section"/>
+         dang po ni gang ma thos pa ces pa nas 'dir shog ces pa'i bar te | 'di'i don nges par bya ba yang | gzhan gyi 'dod pa dgag pa dang | rang gi 'dod pa brjod pa'o |
+            <milestone n="1. " unit="section"/>
+            dang po ni <rs type="person" ana="corpusmd:unnamed_reference" ref="person:3786">kha cig</rs> <note type="gloss"><rs type="person" ref="person:3786" ana="corpusmd:named_reference">lo tsha ba</rs></note> na re chos <lb n="1b6"/> nyan pa la spro ba bskyed pa ni || chos nyan pa'i 'bras bu dang | chos <choice><corr>kyi</corr><sic>kya</sic></choice> rang bzhin bzang pa dang | nyan pa po skal ba dang ldan par brjod pa'i sgo nas te | dang po ni 'bras bu mi 'dod pa spong pa dang | 'dod pa sgrub pa'i bdag nyid do ||
+         de'i yang dang po ni <choice><reg>sdug bsngal</reg><orig>sdug ×bsngal</orig></choice> gyi ngo bo dang | de'i rgyu spong pa gnyis kyis te | dang po ni <quote source="work:3742" n="D3a3">gang ma thos pas</quote> ces pa yin la || <lb n="1b7"/> de yang chos ma thos na 'di lta bu'i nyes pa 'byung zhes shes dmigs dngos su brjod pas shugs kyis thos na sdug bsngal spong par bstan ste | des na <quote source="work:3742" n="D3a3">de ni mnyan phyir gus pas skyed <note type="editorial">D (ID:3742): de ni mnyan phyir gus pa shin tu rgya cher bsten</note></quote> ces pa ni skabs kyi don to || 
+gnyis pa ni <quote source="work:3742" n="D3a3">gang thos nas kyang</quote> ces pa yin no || 
+'dod pa sgrub pa ni <quote source="work:3742" n="D3a4">bde ba las ni</quote> ces pa yin la | chos kyi rang bzhin bzung pa ni <quote source="work:3742" n="D3a5">shin tu</quote> <lb n="1b8"/> <quote source="work:3742" n="D3a3">snyed dka'i <note type="editorial">D (ID: 3742): shin tu rnyed dka'i</note></quote> ces pa yin zhing | nyan pa po skal ba dang ldan bar brjod pa ni <quote source="work:3742" n="D3a5">dal thob</quote> ces pa'o || 
+            de ltar gsum gyis nye bar gnas pa'i skye bo dag chos nyan par spos ba bsgrubs nas | nye bar mi gnas pa rjes su bzung pa ni <quote source="work:3742" n="D3a5">khams gsum</quote> ces pa yin no | zhes <expan>zer ro</expan> ||</seg><gap reason="omitted"/></ab>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab>
+            <gap reason="omitted"/><pb n="10"/><lb n="5b1"/><seg type="excerpt" xml:id="ex212-2024-10-08-15-12" status="finalized"> de lta yin dang 'dir <rs type="person" ana="corpusmd:unnamed_reference" ref="person:3809">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="person:3809">jo btsun khyung</rs></note> na re dal ba dang 'byor pa ni tha dad pa ni ma yin te | mi khom pa brgyad las log pa yang de'i rang gi 'byor pa lnga las gzhan ma yin pa'i phyir dang | gnas la dad pa yang bsam pa yin pas lus kyi rten du bsdu bar mi 'thad <lb n="5b2"/> pa'i <expan>phyir ro</expan> ||
+            des na 'dir dal 'byor ni 'grel pa byed pas mi khom pa brgyad spangs te khom ldan zhes bshad pa ltar yin la de nyid lung gzhan gyis phun sum 'tshogs pa ×bcur bshad pa yang yod do zhes <expan>zer ro</expan> ||</seg><gap reason="omitted"/></ab>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab>
+            <gap reason="omitted"/><pb n="9a"/><lb n="9a2"/><seg type="excerpt" xml:id="ex212-2025-01-08-423" status="finalized">'di <expan>gnyis</expan> kyi khyad par ni rim pa ltar <expan>sems can</expan> gyi don du chos sku thob par 'dod pa dang | gzugs kyi sku thob par 'dod par 'ste <rs type="person" ana="corpusmd:named_reference" ref="person:3745">jo bo chen po</rs>'i gsung dang mthun pa <expan>yin no</expan> || </seg><gap reason="omitted"/></ab>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         <ab>
+            <gap reason="omitted"/><pb n="20"/><lb n="10b5"/><seg type="excerpt" xml:id="ex212-2025-01-08429" status="finalized">de ni zhes bya ba la <rs type="person" ana="corpusmd:unnamed_reference" ref="person:3805">kha 1</rs><note type="gloss"><rs type="person" ref="person:3805" ana="corpusmd:named_reference">zhang</rs></note> seMs bskyed pa'i rgyal <lb n="10b6"/> ba'i
+            blo gros lasogs pa mos pa ma rdzogs par ma grub ste mos pa chen po pa yin zhes rtog pa'i lan du sbyar te mos pa chen po pa de ni dkon mchog sprin gyi mdo las | las 'di lta bu'i yon tan <expan>drug gi</expan> chos dang ldan bar gsungs pas ngan song du song pa'i rgyal ba'i blo gros lasogs pa dang <expan>'gal lo</expan> || zhes sbyar bas <expan>'chad do</expan> || </seg><gap reason="omitted"/></ab>
+         
+         <gap reason="omitted"/>
+         
+         <ab>
+            <gap reason="omitted"/><pb n="11b"/><lb n="11b7"/><seg type="excerpt" xml:id="ex212-2025-01-081" status="finalized" part="M" next="ex21022025-10-0216-52-26">yang <rs type="person" ana="corpusmd:unnamed_reference" ref="person:3786">blo gros chen po dag</rs> <note type="gloss"><rs type="person" ref="person:3786" ana="corpusmd:named_reference">lo tsha ba</rs></note> <quote>'di 'gro ba 'dod dang 'gro ba yis<note type="editorial">Not a direct quote from the base text.</note></quote> | ces pa'i tshul gyis 'gro ba'i bya ba la dmigs pa'i blo rnam pa 2 po 'gro ba'i bya ba <choice><reg>nyams su</reg><orig>{°°}→nyams × su</orig></choice> ma myong pa'i dus na yod pa'i dod pa tsam dang | 'gro ba'i bya ba mngon du gyur pa'i dbye ba tha dad pa ltar | byang chub la dmigs pa'i blo 2 kyang smon pa <lb n="11b8"/> ni yul nyaMs su ma myong pa'i dus kyi 'dod pa tsam yin la | 'jug pa ni dmigs yul byang chub nyaMs su myong pa'i dus na yin pas de mthong laM skyes pa na yin te | des na smon pa ni yang dag pa blangs pa brda' las thob pa yin la | 'jug pa ni chos nyid kyis thob pa <expan>yin no</expan> zhes <expan>zer ro</expan> || </seg>
+            
+            <pb n="11b"/><seg type="shared" status="reviewed" xml:id="ex21022025-10-0216-52-26" part="M" next="ex212-2024-10-02-13-18">de slob dpon gyi bsaM pa ma yin te <rs type="work" ana="corpusmd:named_reference" ref="work:3727">dpyod 'jug</rs> nas
+            seMs de yang dag <pb n="12a"/><lb n="12a1"/> blangs 'gyur pa ces 'jug pa blangs pa la ltos pa gsungs pa'i phyir
+            dang | <rs type="work" ana="corpusmd:named_reference" ref="work:3742">bslab btus</rs> su so so'i skye bo rten du bsgrub pa la 2 su phye ba'i <expan>phyir ro</expan> ||</seg>
+
+            <seg type="excerpt" xml:id="ex212-2024-10-02-13-18" status="finalized" part="M" next="ex021022025-10-0216-57-21">yang <rs type="person" ana="corpusmd:unnamed_reference" ref="person:3805">kha 1</rs> <note type="gloss"><rs type="person" ref="person:3805" ana="corpusmd:named_reference">zhang</rs></note> byang chub dang <expan>sems can</expan> la dmigs pa'i bsam pa ni smon pa yin la bsgrub pa dang 'brel laM ma 'brel yang sla ste | des <expan>kun nas</expan> bslang nas rgyu spyod pa nyaMs su len pa'i bsaM pa ni 'jug pa <expan>yin no</expan> zhes <expan>zer ro</expan> || </seg>
+                  
+            <seg type="shared" status="reviewed" xml:id="ex021022025-10-0216-57-21" part="M" next="ex212-2024-10-02-13-42">de 'ang ma <lb n="12a2"/> yin te 'jug pa la spyi'i mtshan nyid ma tshang pa'i <expan>phyir ro</expan> ||
+            des na 'di dag gi khyad par ni <rs type="person" ana="corpusmd:unnamed_reference">slob dpon</rs> gyi gzhung dpang du bzhag na ched du bya ba dang
+            <expan>'bras bu</expan> la dmigs pa'i bsaM pa tsam ni smon pa yin la | bsam pa de nyid dpyod pa sgrub par 'dod pa'i bsam pas zin pa'i ldog pa nas 'jug pa yin zhing | des kun nas bslang nas dpyod pa dngos su nyaMs su len pa ni byang <lb n="12a3"/> chub sems dpa'i bslab pa ste sdom
+            pa'i rang bzhin du bzhed par gsal te | <rs type="person" ana="corpusmd:unnamed_reference">slob dpon</rs> gyi gzhung 2 kyi nyaMs len bsdus pa'i
+            yi dam blang pa'i cho ga <note type="gloss">nas</note> kyang de ltar gsal zhe'o ||</seg>
+
+           <seg type="excerpt" xml:id="ex212-2024-10-02-13-42" status="finalized">yang <rs type="person" ana="corpusmd:unnamed_reference" ref="person:3745">slob dpon
+               kha 1</rs> <note type="gloss"><rs type="person" ref="person:3745" ana="corpusmd:named_reference">jo bo rje</rs></note> na re 'jug pa dang sdom pa ni <expan>thams cad</expan> du du yin ces gsung ste gzhung gi dgongs pa 'ang de nyid yin par <expan>sems so</expan> ||</seg>
+            
+           <gap reason="omitted"/></ab>
+              
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab>
+            <gap reason="omitted"/><pb n="16a"/><lb n="16a7"/><seg type="shared" xml:id="ex21022025-10-0217-23-59" status="reviewed" part="M" next="ex212-2025-01-08444">gzhan yang tshe rabs gzhan du dran pa nyaMs par mi 'gyur ba ni 'og nas
+            dkar po'i chos na la slob <lb n="16a8"/> pa dang | chos kyi sbyin pa skye ba dran par
+            gsungs pa dang | gang mthong pa'i rkyen gyis stong pa dran par 'gyur ba sangs rgyas
+            mthong pa'i rgyu la 'bad pa dang | phyogs <expan>thams cad</expan> du <expan>sems can</expan> <expan>thams cad</expan> byang chub 'dzud pas rmi laM na byang chub kyi sems mi 'dor zhes 'chad par 'gyur ba la bslabs pas so zhes ston pa ni ji ltar zhes bya ba'o ||</seg> 
+
+             <pb n="16a"/><seg type="excerpt" xml:id="ex212-2025-01-08444" status="finalized" part="M" next="ex021022025-10-0217-29-36">'di la <rs type="person" ref="person:3786" ana="corpusmd:named_reference">lo tsha ba</rs> ni tshe rabs gzhan du sdoM brtson gyi 'du shes <pb n="16b"/><lb n="16b1"/> nyaMs pa na 'gal zla spyad kyang sdoM pa mi gtong ste || <rs type="work" ana="corpusmd:unnamed_reference" ref="work:3764">chos 'dul ba</rs> las || <quote source="work:3764" n="63b4"><lg><l>sdoM brtson sdoM brtson nyid du 'du shes na ||</l> <l>dngos gzhi min na ltung pa chung dang ldan ||</l></lg></quote> 
+            zhes gsungs pa <expan>bzhin no</expan> ||
+             bsrung pa'i sems dpa' med pas sdoM pa'i bya ba yang mi byed de || des na thal bas g.yogs pa'i me zhan du gnas so zhes <expan>zer ro</expan> || </seg>
+
+            <seg type="shared" status="reviewed" xml:id="ex021022025-10-0217-29-36" part="M">de ni ma yin te don mi byed na yod pa nyid du rnam <expan>'jog gi</expan> <lb n="16b2"/> rgyu med pa'i phyir dang | 'gal zla spyad pas mi gtong na ha cang thal ba'i <expan>phyir ro</expan> || 
+            lung gi don yang ma yin pa'i phyir te
+            der ni bsam pa rang bzhin du gnas pa nyaMs pas lhung pa chung par bshad pa yin gyi bsaM
+            pa rang bzhin du <choice><reg>gnas na</reg><orig>gnas ‹na›</orig></choice> bsdoM brtson gyi 'du shes med pa tsam gyis <choice><reg>lhung pa chung par</reg><orig>lhung ‹pa chung› par</orig></choice> mi 'gyur te |
+            ji skad du bdag nyid nyaMs pa'o snyam pa la na smad pa'o med do zhes pa dang <lb n="16b3"/> rgan shugs kyis ma nyaMs pa la nyams par bzung nas rang gi khyim thab dang
+            
+            des na <rs type="person" ana="corpusmd:unnamed_reference">slob
+            dpon</rs> gyis bshad pa'i mi brjed pa'i rgyu rnaMs la bslab par bya ba nyid thabs yin te |
+            gal te tshe gzhan du brjed de 'gal zla spyad na gtong pa kho na'o || </seg><gap reason="omitted"/></ab>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab>
+            <gap reason="omitted"/><pb n="68"/><lb n="34b6"/><seg type="excerpt" xml:id="ex212-2025-01-08434" status="finalized">yang <rs type="person" ana="corpusmd:unnamed_reference" ref="person:4593"><rs type="person" ana="corpusmd:named_reference" ref="person:3745">jo bo</rs>'i rjes su 'brang pa kha 1</rs> na re bdag stod gzhan la smod pa 2 dang | <lb n="34b7"/> chos dang nor mi ster ba 2 dang |
+            bzod pa mi len pa dang gzhan 'tshog pa 2 dang | theg chen spong pa dang chos ltar snang
+            pa brjod pa 2 te dngos su bshad pa brgyad dang | don gyis go mnyan thos kyi rtsa ba'i
+            nyes pa na ste bcu 2 <expan>yin no</expan> zhes <expan>zer ro</expan> ||</seg><gap reason="omitted"/>
+  
+            </ab>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab>
+            <gap reason="omitted"/><pb n="107"/><seg type="excerpt" xml:id="ex21022024-10-2514-47-21" status="finalized"><lb n="54a4"/> gzhan yang sa ma thob pa la byas na gzhan la ni
+               <milestone n="a. kha 1" unit="section"/>
+            ma <expan>yin no</expan> zhes bya ba'i gzhan gyi sgra'i don sa thob pa dang pha rol tu phyin pa drug la
+            mi spyod pa la 'gro bas don ma 'brel par 'gyur ba dang | lab ta 'buM mi zhes bya ba'i skad
+            la dgag pa'i tshig med pas sa ma thob par byed pa 'khrul pa kho na'o zhes <rs type="person" ana="corpusmd:unnamed_reference" ref="person:4593">kha 1</rs> 'chad do
+            || 
+            <milestone n="b. nyang bran" unit="section"/>
+            'on kyang 'dir pha rol phyin drug spyod pa zhes bya ba khyad par nye bar <lb n="54a5"/> bzung pa dang | sngar brjod pa'i gzhung gzhan la brten nas kyang 'di ni sa ma thob
+            pa'i dbang du byas pa'o zhes <rs type="person" ana="corpusmd:unnamed_reference">kho bo</rs>s rtogs te | mig dang mi ldan ba'i rtogs pa la su
+            zhig yid rtod par byed zhes <rs type="person" ana="corpusmd:named_reference" ref="person:3876">nyang bran</rs> 'chad do || </seg><gap reason="omitted"/></ab>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab>
+            <gap reason="omitted"/><pb n="120"/><lb n="60b5"/><seg type="excerpt" xml:id="ex21022025-01-082" status="reviewed" part="M" next="ex21022025-01-084"><note type="gloss"><rs type="person" ana="corpusmd:unnamed_reference" ref="person:3786">lo tsha ba</rs></note> 'di la ha cang ma 'brel te | thos pa la brtson 'grus ma brtsaMs na gang zhig chud za bar 'gyur ba'i thos
+            pa nyid med pa'i phyir dang | des na lung yang ma 'brel bar 'gyur ba'i <expan>phyir ro</expan> || des na 'di ni <note type="gloss">'ga' zhig gis °° par zad pas</note> de lta <lb n="60b6"/> thos pa dang ldan pa'i sems sbyang pa'i phyir dgon pa la gnas par bya'o || gzhan du na de'i thos pa chud za bar 'gyur te zhes gong du sbyar na <expan>legs so</expan> zhes <rs type="person" ana="corpusmd:unnamed_reference" ref="person:3786">kha 1</rs> 'chad do || </seg>
+            
+          <pb n="120"/><seg type="excerpt" xml:id="ex21022025-01-084" status="finalized" part="M" next="ex21022025-01-085"><rs type="person" ana="corpusmd:unnamed_reference" ref="person:3805">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="person:3805">gnyal pa zhang tshes</rs></note> ni thos pas mtshon pa'i dge ba gzhan la yang brtson 'grus rtsom ste | gzhan la brtson 'grus ma brtsams na thos pa la brtson 'grus brtsaMs kyang ngan song na thos pas skyob mi nus pas thos ba <lb n="60b7"/> chud za bar 'gyur zhes 'chad do || 
+            de ni ma yin te thos pa la brtson 'grus brtsaMs pa nyid skabs don yin pa'i <expan>phyir ro</expan> || </seg>
+            
+            <pb n="120"/><seg type="excerpt" xml:id="ex21022025-01-085" status="finalized" part="M" next="ex21022025-01-086">
+            yang <rs type="person" ana="corpusmd:unnamed_reference">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="person:7034">gser gyi go cha</rs></note> na re gzhan du na zhes pa ni bzod pa la gnas pa las gzhan yin la | tshul khrims mi srung pas kyang bzod pa la mi gnas pa mtshon pa yin pas lung ma 'brel par yang mi 'gyur ro zhes <expan>zer ro</expan> ||</seg>
+            
+            <pb n="120"/><seg type="excerpt" xml:id="ex21022025-01-086" status="finalized" part="M" next="ex21022025-01-087"> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="person:3805">zhang</rs> na re</note> 
+            'di la yang ma yin te | <quote source="work:3742" n="D106a5">bzod pa la <lb n="60b8"/> gnas nas</quote> zhes pa ni bshad zin pa'i mtshaMs sbyor yin pas gtso bo'i don ma yin pa'i phyir dang | bzod pa la mi gnas ni thos pa nyid mi 'grub pa'i phyir te | de thos pa'i sngon du 'gro bar sngar bshad zin pa'i phyir ro ||</seg>
+            
+            <pb n="120"/><seg type="excerpt" xml:id="ex21022025-01-087" status="reviewed" part="M" next="ex021022025-10-0814-05-28"><rs type="person" ana="corpusmd:unnamed_reference" ref="person:4593">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:unnamed_reference" ref="person:4593">bod</rs></note> na re <note type="gloss">gzad pa dbang dor</note> thos pa'i don bsgom pa la brtson 'grus rtsom ste zhes bya ba yin pas ma 'brel par mi 'gyur ro zhes 'chad do ||</seg>
+            
+            <pb n="120"/><seg type="shared" xml:id="ex021022025-10-0814-05-28" status="reviewed" part="M" next="ex212-2024-10-02-15-33">de ni ye nas ma <lb n="60b9"/> yin te | bzod pa <app><lem wit="">thos</lem><rdg wit="inst:4624">tho×</rdg></app> pa'i sngon du 'gro bar bshad pa'i phyir dang | thos pa ji ltar bya ba'i tshul yang phan yon lasogs pa'i sgo nas de ma thag tu 'chad par 'gyur ba'i phyir dang | thos pa ma byas par yang thos pa'i don bsgom pa la brtson 'grus rtsom pa mi rigs pa'i <expan>phyir ro</expan> ||</seg> 
+
+            <pb n="120"/><seg type="excerpt" xml:id="ex212-2024-10-02-15-33" status="finalized" part="M"> yang <rs type="person" ana="corpusmd:unnamed_reference">kha 1</rs>
+                  <note type="gloss"><rs type="person" ref="person:7033" ana="corpusmd:named_reference">stag lo</rs></note> don dang bcas pa'i <choice><reg>bstan bcos</reg><orig>bstan bcos</orig></choice> lasogs
+  pa thos pa byas pa la brtson 'grus rtsoM <pb n="61a"/><lb n="61a1"/> | ste zhes bya ba'i don yin pas nyes pa <expan>med do</expan> zhes zer ba 
+              yang mi 'thad de || don dang bcas pa'i bstan bcos mnyan par bya'o zhes 'og nas 'chad pa dang zlos par 'gyur ba'i <expan>phyir ro</expan> ||
+            </seg>
+         </ab>
+         
+<gap reason="omitted"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+      <ab xml:space="preserve">
+         <pb n="91a"/><lb n="91a4"/><seg type="excerpt" xml:id="ex21022025-01-0817-00-56" status="finalized"><milestone unit="section" n="Closing verses (91a4-6)"/>
+       <lg><l><rs type="work" ana="corpusmd:named_reference" ref="work:3742">mdo sde kun las btus pa</rs>'i don ||</l> 
+         <l><rs type="place">kha ba can</rs> du <rs type="person" ana="corpusmd:named_reference" ref="person:3876">nyang gi bran</rs> || </l>
+         <l><rs type="person" ana="corpusmd:named_reference" ref="person:3876">chos kyi spyan</rs> gyis legs bshad pa'i || </l>
+         <l><lb n="91a5"/> rjes 'brangs khyad par <rs type="person" ana="corpusmd:named_reference" ref="person:3911">gzhon nu</rs>s bkod ||</l></lg></seg>
+      
+         <gap reason="omitted"/>
+         
+         
+         </ab>
+
+      <ab xml:space="preserve" type="colophon"><pb n="91a"/><lb n="91a6"/><seg type="excerpt" xml:id="ex21022023-09-181" status="finalized" ana="corpusmd:colophon" part="M" next="ex21022025-10-0312-56-34">
+          <milestone unit="section" n="Colophon (91a6-91a8)"/>
+       <rs type="work" ana="corpusmd:named_reference" ref="work:4625"><rs type="work" ana="corpusmd:named_reference" ref="work:3742"><choice><reg>mdo</reg><orig>mdo'/mdos?</orig></choice> sde kun las btus pa</rs>'i ti ka mdo' nyi ma'i snying po</rs> zhes bya ba | thugs kyi me long yongs <lb n="91a7"/> su dag pa la byang chub kyi sems rgya chen po × snang zhing dben pa'i gnas la thugs gzhol ba mtshan nas brjod par dka' ba'i <rs type="person" ana="corpusmd:named_reference" ref="person:6392">slob dpon dbang phyug rin chen</rs> zhes bya ba'i zhabs kyi rdul spyi bos blangs nas | mkhas pa'i skye bo chen po lung dang rigs pa la rtogs pa'i snang pa bsam gyis mi khyab pa dang ldan pa <rs type="person" ana="corpusmd:named_reference" ref="person:3876">chos kyi <expan>ye shes</expan></rs> zhes bya <lb n="91a8"/> ba dang <rs type="person" ana="corpusmd:named_reference" ref="person:3839">brtson 'grus seng ge</rs> zhes bya ba'i legs par bshad pa la sgro skur gnyis dang bral bar smra ba | <rs type="person" ana="corpusmd:named_reference" ref="person:3911">shag kya'i dge slong gzhon nu rin chen</rs> gyis legs par sbyar ba || || rdzogs sh+O || || bkra shis par gyur gcig ||</seg>
+        </ab>
+        <ab xml:space="preserve" type="post_colophon">
+      <pb n="91a"/><seg type="shared" status="reviewed" xml:id="ex21022025-10-0312-56-34" part="F">   <milestone unit="section" n="Post-colophon annotations (91a8)"/>
+         zhu cig dag par <expan>byas so</expan> || dge par gyur cig || OM A huM || ||</seg>
+         </ab>
+      </ab>
+      </body>
+      
+   </text>
+</TEI>

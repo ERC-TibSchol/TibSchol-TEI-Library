@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">dam pa'i chos rgyud bla ma'i 'grel</title>
+            <title xml:lang="bo">དམ་པའི་ཆོས་རྒྱུད་བླ་མའི་འགྲེལ</title>
+            <author ref="person:5243">lho brag dharma seng ge</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="Transkribus">1552896</idno>
+            <idno type="external">TibSchol 3_078_02</idno>
+            <idno type="TibSchol">3_078_02</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst5241">
+               <msIdentifier>
+                  <idno type="APIS">5241</idno>
+                  <idno type="TibSchol">3_078_02</idno>
+                  <idno type="signature">la 351</idno>
+                  <idno type="drepung">18748</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD153536_728740</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW3CN3014_AE0154</idno>
+                  <msName>dam pa'i chos rgyud bla ma'i 'grel</msName>
+                  <msName xml:lang="bo">དམ་པའི་ཆོས་རྒྱུད་བླ་མའི་འགྲེལ</msName>
+                  <msName type="alt" xml:lang="bo">dam pa'i chos rgyud bla ma'i 'grel pa lho brag d+harma seng ges mdzad pa'i tig ka nyi 'od gsal ba (cover page, catalogue)</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:5242">dam pa'i chos rgyud bla ma'i 'grel</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: 'bru tsha.<lb/>Missing folios: from fol. 49.</p>
+                           <dimensions unit="cm">
+                              <width>63.5</width>
+                              <height>10</height>
+                           </dimensions>
+                        </support>
+                        <extent>48(/?)</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>'bras spungs gnas bcu lha khang</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                     <note type="comment">The same incomplete manuscript appears in [KUYBGM7V] and [TKAZRHKZ].</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/KUYBGM7V">bKa' gdams gsung 'bum 3</ref>, <biblScope unit="vol">78</biblScope>, <biblScope unit="pp">213-308</biblScope>, <biblScope unit="text">2</biblScope>
+                     </bibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/TKAZRHKZ">lho brag - rgyud bla 'grel</ref>, <date>2016</date>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3747"><persName type="main" xml:lang="bo-Latn-x-wylie">maitreya</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'phags pa byams pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">byams pa mgon po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">maitreyanātha</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6118</idno><idno type="APIS">3747</idno><note type="comment">Future Buddha held as the author of the works that come to be designated as the "Five Jewels of Maitreya" (ID:6167).</note></person><person xml:id="person3756"><persName type="main" xml:lang="bo-Latn-x-wylie">asaṅga</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon thogs med</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">thogs myed</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6117</idno><idno type="APIS">3756</idno></person><person xml:id="person5243"><persName type="main" xml:lang="bo-Latn-x-wylie">lho brag dharma seng ge</persName><persName xml:lang="bo">ལྷོ་བྲག་དྷརྨ་སེང་གེ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">d+ha r+ma seng ge</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dha rma seng ge</persName><birth notBefore="1150-01-01" notAfter="1250-12-31">after 1150 before 1250</birth><death notBefore="1250-01-01" notAfter="1300-12-31">after 1250 before 1300</death><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">5243</idno><note type="comment">Active in ca. 1250 and likely post-dating the composition of the Rigs gter (ID:5564) - i.e., 1219 - according to [FZ6N88AU]: 405.</note></person></listPerson><listBibl><bibl xml:id="work3749"><title type="main" xml:lang="bo-Latn-x-wylie">ratnagotravibhāga</title><title type="alt" xml:lang="bo-Latn-x-wylie">rātnagotravibhāga mahāyānottaratantraśāstra</title><title type="alt" xml:lang="bo-Latn-x-wylie">uttaratantra</title><title type="alt" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i bstan bcos</title><author ref="person:3747">maitreya</author><author ref="person:3756">asaṅga</author><note type="isExtant">True</note><note type="comment">The authorship of the work comes to be ascribed to the future Buddha Maitreya (ID:3747) in the Indian tradition from the 11th c. onward and in the Tibetan tradition. On earlier witnesses ascribing the authorship to Sāramati or Sthiramati, see [BAQ9MH4T]: 20-27. No attribution of that work to Asaṅga (ID:3756) was located in Indian sources, but the colophon of the Tibetan translation by rNgog Blo ldan shes rab ascribes the verses to Maitreya and the prose commentary to Asaṅga ([BAQ9MH4T]: 27-28).&#13;
+There are six Tibetan translations, only that by rNgog Blo ldan shes rab and Sajjana is currently extant ([BAQ9MH4T]: chap. 6).</note><idno type="APIS">3749</idno></bibl><bibl xml:id="work5242"><title type="main" xml:lang="bo-Latn-x-wylie">dam pa'i chos rgyud bla ma'i 'grel</title><title xml:lang="bo">དམ་པའི་ཆོས་རྒྱུད་བླ་མའི་འགྲེལ</title><title type="alt" xml:lang="bo-Latn-x-wylie">dam pa'i chos rgyud bla ma'i 'grel pa lho brag d+harma seng ges mdzad pa'i tig ka nyi 'od gsal ba</title><textLang mainLang="bo"/><date type="composition" notBefore="1150-01-01" notAfter="1300-12-31">after 1150 before 1300</date><author ref="person:5243">lho brag dharma seng ge</author><note type="isExtant">True</note><note type="comment">Commentary on the Ratnagotravibhāga (ID:3749) of unknown dating, only available as an incomplete manuscript. See [BAQ9MH4T]: 412.&#13;
+The author considers many passages of the base text to be "easy" and does not appear to enter into discussion with the views of his peers.</note><relatedItem type="commentaryOn" target="work:3749"/><idno type="APIS">5242</idno></bibl><bibl xml:id="work5992"><title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i 'grel pa rin po che rigs pa'i rgyan</title><title xml:lang="bo">ཚད་མ་རྣམ་པར་ངེས་པའི་འགྲེལ་པ་རིན་པོ་ཆེ་རིགས་པའི་རྒྱན</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i 'grel pa tsin dha ra tha rin po che rigs pa'i rgyan</title><title type="alt" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i 'grel chung tshigs su bcad pa bdun brgya pa</title><textLang mainLang="bo"/><date type="composition" notBefore="1150-01-01" notAfter="1300-12-31">after 1150 before 1300</date><author ref="person:5243">lho brag dharma seng ge</author><note type="isExtant">True</note><note type="comment">Versified commentary on the Pramāṇaviniścaya (ID:3774).&#13;
+This work could correspond to the "tshad ma rigs pa'i rgyan" taught by sKyi ston (ID:4221) to Dol po pa (ID:4213) ([FZ6N88AU]: 430, n. 78).</note><idno type="APIS">5992</idno></bibl></listBibl><listPlace><place xml:id="place7414"><placeName xml:lang="bo-Latn-x-wylie">lho brag</placeName><placeName xml:lang="bo">ལྷོ་བྲག</placeName><location><geo>28.3893096 90.8587825</geo></location><idno type="APIS">7414</idno></place></listPlace><listRelation><relation xml:id="rel1018" name="author-of" active="#person5243" passive="#work5242" type="positive"/><relation xml:id="rel2280" name="author-of" active="#person5243" passive="#work5992" type="positive"/><relation xml:id="rel5890" name="active-at" active="#person5243" passive="#place7414" type="positive"/></listRelation></standOff><text>
+      <body>
+         <gap reason="omitted"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">dal 'byor rnyed dka' ba bsam pa'i tshul zab mo</title>
+            <title xml:lang="bo">དལ་འབྱོར་རྙེད་དཀའ་བ་བསམ་པའི་ཚུལ་ཟབ་མོ</title>
+            <author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">4_104_05</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst5400">
+               <msIdentifier>
+                  <idno type="APIS">5400</idno>
+                  <idno type="TibSchol">4_104_05</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW4PD3076_42B261</idno>
+                  <msName>dal 'byor rnyed dka' ba bsam pa'i tshul zab mo</msName>
+                  <msName xml:lang="bo">དལ་འབྱོར་རྙེད་དཀའ་བ་བསམ་པའི་ཚུལ་ཟབ་མོ</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:5401">dal 'byor rnyed dka' ba bsam pa'i tshul zab mo</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Volume letter: Ca.<lb/>Double numbering of the folios, from 1 to 24, and from 171 to 193.</p>
+                        </support>
+                        <extent>24</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/5DSBYG9K">bKa' gdams gsung 'bum 4</ref>, <biblScope unit="vol">104</biblScope>, <biblScope unit="pp">351-396</biblScope>, <biblScope unit="text">5</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3745"><persName type="main" xml:lang="bo-Latn-x-wylie">atiśa dīpaṃkaraśrījñāna</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon chen po dpal mar me mdzad ye shes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">a ti sha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo a ti sha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">atīśa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">atisha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo rje</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo chen po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dpal ldan a ti sha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">paN+Di ta dI paM ka ra</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">ma hA paN+Di ta mar me mdzad ye shes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dpal mar me mdzad dpal ye shes zhabs</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">a d+hi sha</persName><birth notBefore="0972-01-01" notAfter="0982-12-31">after 972 before 982</birth><death notBefore="1054-01-01" notAfter="1055-12-31">after 1054 before 1055</death><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P3379</idno><idno type="APIS">3745</idno></person><person xml:id="person4113"><persName type="main" xml:lang="bo-Latn-x-wylie">sems dpa' chen po gzhon nu rgyal mchog</persName><persName xml:lang="bo">སེམས་དཔའ་ཆེན་པོ་གཞོན་ནུ་རྒྱལ་མཆོག</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">spong ba chen po chon nu rgyal mchog</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dkon mchog gsum gyis 'bangs</persName><birth notBefore="1311-01-01" notAfter="1311-12-31">1311</birth><death notBefore="1390-01-01" notAfter="1390-12-31">1390</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P1943</idno><idno type="APIS">4113</idno><note type="comment">Founded Rong Byams chen dgon in 1367 ([D5VJHLSN]: 21). Dates given by Jackson: 1311-1390?.&#13;
+Collated a large volume of Mind Training texts (translated int he Library of Tibetan Classics series).</note></person><person xml:id="person8549"><persName type="main" xml:lang="bo-Latn-x-wylie">'jam dpal chos grags bzang po</persName><persName xml:lang="bo">འཇམ་དཔལ་ཆོས་གྲགས་བཟང་པོ</persName><birth notBefore="1300-01-01" notAfter="1380-12-31">after 1300 before 1380</birth><death notBefore="1321-01-01" notAfter="1460-12-31">after 1321 before 1460</death><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">8549</idno></person></listPerson><listBibl><bibl xml:id="work3744"><title type="main" xml:lang="bo-Latn-x-wylie">bodhipathapradīpa</title><title type="alt" xml:lang="bo-Latn-x-wylie">byang chub lam gyi sgron ma</title><date type="composition" notBefore="1042-01-01" notAfter="1045-12-31">after 1042 before 1045</date><author ref="person:3745">atiśa dīpaṃkaraśrījñāna</author><note type="isExtant">True</note><idno type="APIS">3744</idno></bibl><bibl xml:id="work5393"><title type="main" xml:lang="bo-Latn-x-wylie">rgyal sras bslab pa kun las btus pa'i legs par bshad pa</title><title xml:lang="bo">རྒྱལ་སྲས་བསླབ་པ་ཀུན་ལས་བཏུས་པའི་ལེགས་པར་བཤད་པ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><note type="comment">According to the colophon, notes (zin bris) based on the sayings (gsung sgros) of the monk brTson 'grus seng ge that were composed as a memorandum (brjed byang) on an instruction (man ngag) pertaining to the meaning of the 28 verses of the base text and on the author's own understanding.&#13;
+&#13;
+The author addresses the view of other unidentified scholars.&#13;
+&#13;
+This work appears first (volume ka) in a collection of the author's works. For the second work (volume kha), see (ID:5394), for the third (volume ga) (ID:5398), for the fourth (volume ca) (ID:5400), for the fifth (volume cha) (ID: 5402), for the sixth (volume ja) (ID: 5404). Five more volume appeared in [KUYBGM7V], vol. 105.</note><idno type="APIS">5393</idno></bibl><bibl xml:id="work5395"><title type="main" xml:lang="bo-Latn-x-wylie">sngon 'gro'i chos zab mo nyams su len tshul</title><title xml:lang="bo">སྔོན་འགྲོའི་ཆོས་ཟབ་མོ་ཉམས་སུ་ལེན་ཚུལ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><note type="comment">Work presented as a preliminary to Bodhipaṭhapradīpa (ID:3722). It mainly discusses Atiśa (ID:3745)'s life and the history surrounding him and his teachings in Tibet, providing some interesting historical details.</note><idno type="APIS">5395</idno></bibl><bibl xml:id="work5397"><title type="main" xml:lang="bo-Latn-x-wylie">sngon 'gro'i chos dge ba'i bshes gnyen bsten tshul sogs</title><title xml:lang="bo">སྔོན་འགྲོའི་ཆོས་དགེ་བའི་བཤེས་གཉེན་བསྟེན་ཚུལ་སོགས</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><note type="comment">This text is presented as a prelimanary to the Bodhipaṭhapradīpa (ID:3744). It mainly discusses Atiśa's life and the history surrounding him and his teachings in Tibet.</note><idno type="APIS">5397</idno></bibl><bibl xml:id="work5399"><title type="main" xml:lang="bo-Latn-x-wylie">byang chub lam gyi sgron ma las sangs rgyas kyi bstan pa la 'jug pa'i rim pa dal 'byor rnyed dka' dang mi rtag pa'i chos bsam tshul zab mo</title><title xml:lang="bo">བྱང་ཆུབ་ལམ་གྱི་སྒྲོན་མ་ལས་སངས་རྒྱས་ཀྱི་བསྟན་པ་ལ་འཇུག་པའི་རིམ་པ་དལ་འབྱོར་རྙེད་དཀའ་དང་མི་རྟག་པའི་ཆོས་བསམ་ཚུལ་ཟབ་མོ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><idno type="APIS">5399</idno></bibl><bibl xml:id="work5401"><title type="main" xml:lang="bo-Latn-x-wylie">dal 'byor rnyed dka' ba bsam pa'i tshul zab mo</title><title xml:lang="bo">དལ་འབྱོར་རྙེད་དཀའ་བ་བསམ་པའི་ཚུལ་ཟབ་མོ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><note type="comment">Text in three parts, dealing with the portion of the Bodhipathapradīpa (ID:3744) on the difficulty to attain a human rebirth.&#13;
+Numerous references to the lineages of 'Brom ston (ID:3827), Po to ba (ID:3829) etc., to their works and Indian texts (not for contesting views).</note><relatedItem type="commentaryOn" target="work:3744"/><idno type="APIS">5401</idno></bibl><bibl xml:id="work5403"><title type="main" xml:lang="bo-Latn-x-wylie">mi rtag pa sgom pa'i zur 'debs khyad par du 'phags pa</title><title xml:lang="bo">མི་རྟག་པ་སྒོམ་པའི་ཟུར་འདེབས་ཁྱད་པར་དུ་འཕགས་པ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><note type="comment">Instructions for meditation on impermanence.</note><idno type="APIS">5403</idno></bibl><bibl xml:id="work5405"><title type="main" xml:lang="bo-Latn-x-wylie">las dang 'bras bu sems pa'i tshul zab mo</title><title xml:lang="bo">ལས་དང་འབྲས་བུ་སེམས་པའི་ཚུལ་ཟབ་མོ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><idno type="APIS">5405</idno></bibl><bibl xml:id="work5407"><title type="main" xml:lang="bo-Latn-x-wylie">byang chub lam gyi sgron ma las dkon mchog gsum la skyabs su 'gro ba'i sgo nas de yi bslab bya bslab tshul zab mo</title><title xml:lang="bo">བྱང་ཆུབ་ལམ་གྱི་སྒྲོན་མ་ལས་དཀོན་མཆོག་གསུམ་ལ་སྐྱབས་སུ་འགྲོ་བའི་སྒོ་ནས་དེ་ཡི་བསླབ་བྱ་བསླབ་ཚུལ་ཟབ་མོ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><idno type="APIS">5407</idno></bibl><bibl xml:id="work5409"><title type="main" xml:lang="bo-Latn-x-wylie">dkon mchog gsum la skyabs su 'gro ba'i sgo nas de yi bslab bya</title><title xml:lang="bo">དཀོན་མཆོག་གསུམ་ལ་སྐྱབས་སུ་འགྲོ་བའི་སྒོ་ནས་དེ་ཡི་བསླབ་བྱ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><note type="comment">Explanation of the part of the Bodhipathapradīpa (ID:3744) on the three refuges.</note><idno type="APIS">5409</idno></bibl><bibl xml:id="work5411"><title type="main" xml:lang="bo-Latn-x-wylie">mi dge bcu spangs shing dge ba bcu sgrub pa'i sgo nas las dang 'bras bu spyi dang khyad pa bsam tshul zab mo</title><title xml:lang="bo">མི་དགེ་བཅུ་སྤངས་ཤིང་དགེ་བ་བཅུ་སྒྲུབ་པའི་སྒོ་ནས་ལས་དང་འབྲས་བུ་སྤྱི་དང་ཁྱད་པ་བསམ་ཚུལ་ཟབ་མོ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><note type="comment">Part of a series of explanations of individual portions of the Bodhipathapradīpa (ID:3744). See also (ID:5409), (ID:5413).</note><idno type="APIS">5411</idno></bibl><bibl xml:id="work5413"><title type="main" xml:lang="bo-Latn-x-wylie">skyes bu 'bring gi chos bsam pa'i tshul zab mo</title><title xml:lang="bo">སྐྱེས་བུ་འབྲིང་གི་ཆོས་བསམ་པའི་ཚུལ་ཟབ་མོ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><note type="comment">Part of a series of explanations of individual portions of the Bodhipathapradīpa (ID:3744); see also (ID:5409), (ID:5411).</note><idno type="APIS">5413</idno></bibl><bibl xml:id="work5415"><title type="main" xml:lang="bo-Latn-x-wylie">bsam pa byang chub la slob pa'i tshul</title><title xml:lang="bo">བསམ་པ་བྱང་ཆུབ་ལ་སློབ་པའི་ཚུལ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><idno type="APIS">5415</idno></bibl><bibl xml:id="work5417"><title type="main" xml:lang="bo-Latn-x-wylie">blo sbyang legs bshad kun btus</title><title xml:lang="bo">བློ་སྦྱང་ལེགས་བཤད་ཀུན་བཏུས</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">True</note><idno type="APIS">5417</idno></bibl><bibl xml:id="work6865"><title type="main" xml:lang="bo-Latn-x-wylie">phar phyin spyi don chen mo</title><title xml:lang="bo">ཕར་ཕྱིན་སྤྱི་དོན་ཆེན་མོ</title><textLang mainLang="bo"/><date type="composition" notBefore="1321-01-01" notAfter="1390-12-31">after 1321 before 1390</date><author ref="person:4113">sems dpa' chen po gzhon nu rgyal mchog</author><note type="isExtant">False</note><note type="comment">Listed in A khu ching Shes rab rgya mtsho's Tho yig ([5RXEUKD9], 531, No. 11554: byang sems gzhon nu rgyal mchog gi phar phyin spyi don chen mo).</note><idno type="APIS">6865</idno></bibl></listBibl><listPlace><place xml:id="place5722"><placeName xml:lang="bo-Latn-x-wylie">dpal byams chen gyi gnas</placeName><placeName xml:lang="bo">དཔལ་བྱམས་ཆེན་གྱི་གནས</placeName><idno type="APIS">5722</idno></place></listPlace><listRelation><relation xml:id="rel8135" name="requests" active="#person8549" passive="#person4113" type="positive"/><relation xml:id="rel1125" name="author-of" active="#person4113" passive="#work5413" type="positive"/><relation xml:id="rel1117" name="author-of" active="#person4113" passive="#work5403" type="positive"/><relation xml:id="rel4297" name="author-of" active="#person4113" passive="#work6865" type="positive"/><relation xml:id="rel1109" name="author-of" active="#person4113" passive="#work5395" type="positive"/><relation xml:id="rel1118" name="author-of" active="#person4113" passive="#work5405" type="positive"/><relation xml:id="rel1123" name="author-of" active="#person4113" passive="#work5411" type="positive"/><relation xml:id="rel1107" name="author-of" active="#person4113" passive="#work5393" type="positive"/><relation xml:id="rel1128" name="author-of" active="#person4113" passive="#work5417" type="positive"/><relation xml:id="rel1115" name="author-of" active="#person4113" passive="#work5401" type="positive"/><relation xml:id="rel2214" name="active-at" active="#person4113" passive="#place5722" type="positive"/><relation xml:id="rel1111" name="author-of" active="#person4113" passive="#work5397" type="positive"/><relation xml:id="rel1113" name="author-of" active="#person4113" passive="#work5399" type="positive"/><relation xml:id="rel1121" name="author-of" active="#person4113" passive="#work5409" type="positive"/><relation xml:id="rel1127" name="author-of" active="#person4113" passive="#work5415" type="positive"/><relation xml:id="rel1119" name="author-of" active="#person4113" passive="#work5407" type="positive"/></listRelation></standOff><text>
+      <body>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+      </body>
+      
+   </text>
+</TEI>

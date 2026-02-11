@@ -1,0 +1,721 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i rnam bshad don dam rnam nges bsdus pa'i snying po'i snying po</title>
+            <title xml:lang="bo">ཐེག་པ་ཆེན་པོ་རྒྱུད་བླ་མའི་རྣམ་བཤད་དོན་དམ་རྣམ་ངེས་བསྡུས་པའི་སྙིང་པོའི་སྙིང་པོ</title>
+            <author ref="person:3910">dge 'dun 'od zer</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:BUDA">BUDA OCR UTIE0OPP001829_v066</name>
+               <name ref="corpusmd:SB">Serena Biondo</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">1_020_02</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst4620">
+               <msIdentifier>
+                  <idno type="APIS">4620</idno>
+                  <idno type="TibSchol">1_020_02</idno>
+                  <idno type="signature">tsha 122</idno>
+                  <idno type="drepung">16006</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD89051_79BD69</idno>
+                  <msName>theg pa chen po rgyud bla ma'i rnam bshad don dam rnam nges bsdus pa'i snying po'i snying po</msName>
+                  <msName xml:lang="bo">ཐེག་པ་ཆེན་པོ་རྒྱུད་བླ་མའི་རྣམ་བཤད་དོན་དམ་རྣམ་ངེས་བསྡུས་པའི་སྙིང་པོའི་སྙིང་པོ</msName>
+                  <msName type="alt" xml:lang="bo">theg pa chen po rgyud bla ma'i rnam bshad don dam rnam nges bsdus pa'i snying po'i snying po (incipit, colophon, catalogue)</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:4621">theg pa chen po rgyud bla ma'i rnam bshad don dam rnam nges bsdus pa'i snying po'i snying po</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dpe tshugs.<lb/>Lines per folio: 8.<lb/>A few corrections but no annotations.<lb/>To the right of the signature on the cover page: za (as in (ID:5216)).</p>
+                           <dimensions unit="cm">
+                              <width>48</width>
+                              <height>8.5</height>
+                           </dimensions>
+                        </support>
+                        <extent>57</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>'bras spungs gnas bcu lha khang</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                     <note type="comment">Date of copy: 1 char bcu phrag 4.</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/Z5AUD7GQ">bKa' gdams gsung 'bum 1</ref>, <biblScope unit="vol">20</biblScope>, <biblScope unit="pp">455-568</biblScope>, <biblScope unit="text">2</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="inst" matchPattern="^(\d+)$" replacementPattern="#inst$1">
+               <p>Local identifier of a inst record from the APIS export; resolves to the element with xml:id 'inst' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="place" matchPattern="^(\d+)$" replacementPattern="#place$1">
+               <p>Local identifier of a place record from the APIS export; resolves to the element with xml:id 'place' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3747"><persName type="main" xml:lang="bo-Latn-x-wylie">maitreya</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'phags pa byams pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">byams pa mgon po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">maitreyanātha</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6118</idno><idno type="APIS">3747</idno><note type="comment">Future Buddha held as the author of the works that come to be designated as the "Five Jewels of Maitreya" (ID:6167).</note></person><person xml:id="person3756"><persName type="main" xml:lang="bo-Latn-x-wylie">asaṅga</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon thogs med</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">thogs myed</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6117</idno><idno type="APIS">3756</idno></person><person xml:id="person3786"><persName type="main" xml:lang="bo-Latn-x-wylie">rngog blo ldan shes rab</persName><persName xml:lang="bo">རྔོག་བློ་ལྡན་ཤེས་རབ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog lo tsA ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo chen</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge slong blo ldan shes rab</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog lo rtsa ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog dge slong blo ldan shes rab</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">blo ldan bzang po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo tsha ba chen po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo ts+tsha ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo tsha ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lo tsa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rngog</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">blo ldan</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">ma hA</persName><birth notBefore="1059-01-01" notAfter="1059-12-31">1059</birth><death notBefore="1109-01-01" notAfter="1109-12-31">1109</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P2551</idno><idno type="APIS">3786</idno><note type="comment">See [BAQ9MH4T]: 193 for the main events of his life.&#13;
+&#13;
+Three manuscript editions of his writings and translations were deposited respectively in rNgog Blo ldan shes rab's tomb, in the monastery of gSang phu (probably in the main assembly hall), and in Drin las kyi sde (ID:4357) ([7FZ3B926]: 107).</note></person><person xml:id="person3868"><persName type="main" xml:lang="bo-Latn-x-wylie">pa tshab nyi ma grags</persName><persName xml:lang="bo">པ་ཚབ་ཉི་མ་གྲགས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">pa tshab lo tsA ba nyi ma grags pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zhang pa tshab nyi ma grags</persName><birth notBefore="1055-01-01" notAfter="1055-12-31">1055</birth><death notBefore="1141-01-01">after 1141</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P5651</idno><idno type="APIS">3868</idno><note type="comment">Proposed dates: c. 1070-1145.</note></person><person xml:id="person3910"><persName type="main" xml:lang="bo-Latn-x-wylie">dge 'dun 'od zer</persName><persName xml:lang="bo">དགེ་འདུན་འོད་ཟེར</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lha steng pa dge slong dge 'dun 'od zer</persName><birth notBefore="1400-01-01" notAfter="1500-12-31">after 1400 before 1500</birth><death notBefore="1519-01-01">after 1519</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P2GS1016</idno><idno type="APIS">3910</idno><note type="comment">Author of two works on the Ratnagotravibhāga (ID:3749).</note></person></listPerson><listBibl><bibl xml:id="work3749"><title type="main" xml:lang="bo-Latn-x-wylie">ratnagotravibhāga</title><title type="alt" xml:lang="bo-Latn-x-wylie">rātnagotravibhāga mahāyānottaratantraśāstra</title><title type="alt" xml:lang="bo-Latn-x-wylie">uttaratantra</title><title type="alt" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i bstan bcos</title><author ref="person:3747">maitreya</author><author ref="person:3756">asaṅga</author><note type="isExtant">True</note><note type="comment">The authorship of the work comes to be ascribed to the future Buddha Maitreya (ID:3747) in the Indian tradition from the 11th c. onward and in the Tibetan tradition. On earlier witnesses ascribing the authorship to Sāramati or Sthiramati, see [BAQ9MH4T]: 20-27. No attribution of that work to Asaṅga (ID:3756) was located in Indian sources, but the colophon of the Tibetan translation by rNgog Blo ldan shes rab ascribes the verses to Maitreya and the prose commentary to Asaṅga ([BAQ9MH4T]: 27-28).&#13;
+There are six Tibetan translations, only that by rNgog Blo ldan shes rab and Sajjana is currently extant ([BAQ9MH4T]: chap. 6).</note><idno type="APIS">3749</idno></bibl><bibl xml:id="work4621"><title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i rnam bshad don dam rnam nges bsdus pa'i snying po'i snying po</title><title xml:lang="bo">ཐེག་པ་ཆེན་པོ་རྒྱུད་བླ་མའི་རྣམ་བཤད་དོན་དམ་རྣམ་ངེས་བསྡུས་པའི་སྙིང་པོའི་སྙིང་པོ</title><textLang mainLang="bo"/><date type="composition" notBefore="1450-01-01" notAfter="1600-12-31">after 1450 before 1600</date><author ref="person:3910">dge 'dun 'od zer</author><note type="isExtant">True</note><note type="comment">According to the colophon, composed on "the fifth day of the waxing moon." The name of the year is unclear.</note><relatedItem type="commentaryOn" target="work:3749"/><idno type="APIS">4621</idno></bibl><bibl xml:id="work5217"><title type="main" xml:lang="bo-Latn-x-wylie">rgyud bla ma'i sa bcad mtshungs med legs bshad</title><title xml:lang="bo">རྒྱུད་བླ་མའི་ས་བཅད་མཚུངས་མེད་ལེགས་བཤད</title><title type="alt" xml:lang="bo-Latn-x-wylie">rgyud bla ma'i bsdus don gyi sa bcad sa ma Tig khyad 'phags mtshungs med legs bshad</title><title type="alt" xml:lang="bo-Latn-x-wylie">sa ma Tig</title><textLang mainLang="bo"/><date type="composition" notBefore="1421-01-01" notAfter="1482-12-31">after 1421 before 1482</date><author ref="person:3910">dge 'dun 'od zer</author><note type="isExtant">True</note><note type="comment">Topical outline of the Ratnagotravibhāga (ID:3749), with lemmata in interlinear notes in instance (ID:5216), "composed as a commentary" ((ID:5216), 1b3-4: sa bcad sa ma Tig 'di 'grel bzhin brtsams).&#13;
+Date of composition: An iron ox (?) year, maybe 1421 or 1481.</note><idno type="APIS">5217</idno></bibl></listBibl><listPlace><place xml:id="place5559"><placeName xml:lang="bo-Latn-x-wylie">bod</placeName><placeName xml:lang="bo">བོད</placeName><placeName type="alt" xml:lang="bo">gangs ri'i khrod la kha ba can gyi ljongs</placeName><placeName type="alt" xml:lang="bo">ri bo gangs can</placeName><placeName type="alt" xml:lang="bo">gangs ri'i khrod</placeName><placeName type="alt" xml:lang="bo">gangs can</placeName><idno type="APIS">5559</idno></place><place xml:id="place5652"><placeName xml:lang="bo-Latn-x-wylie">rwa stod bde ba can</placeName><placeName xml:lang="bo">རྭ་སྟོད་བདེ་བ་ཅན</placeName><placeName type="alt" xml:lang="bo">chos gra chen po bde ba can</placeName><placeName type="alt" xml:lang="bo">rwa stod bde ba can</placeName><placeName type="alt" xml:lang="bo">mnyes thang bde ba can</placeName><placeName type="alt" xml:lang="bo">snye thang bde ba can</placeName><placeName type="alt" xml:lang="bo">rwa stod dgon</placeName><location><geo>29.5325 90.914722</geo></location><idno type="APIS">5652</idno></place><place xml:id="place5740"><placeName xml:lang="bo-Latn-x-wylie">rnam dag zhing</placeName><placeName xml:lang="bo">རྣམ་དག་ཞིང</placeName><idno type="APIS">5740</idno></place><place xml:id="place7404"><placeName xml:lang="bo-Latn-x-wylie">lha steng</placeName><placeName xml:lang="bo">ལྷ་སྟེང</placeName><idno type="APIS">7404</idno></place></listPlace><listRelation><relation xml:id="rel655" name="author-of" active="#person3910" passive="#work4621" type="positive"><desc>Evidence: <ptr target="#ex20022023-09-15-130857"/></desc></relation><relation xml:id="rel8222" name="quotes-with-name" active="#person3910" passive="#person3868" type="positive"/><relation xml:id="rel8221" name="quotes-with-name" active="#person3910" passive="#person3786" type="positive"/><relation xml:id="rel2023" name="active-at" active="#person3910" passive="#place5652" type="positive"/><relation xml:id="rel998" name="author-of" active="#person3910" passive="#work5217" type="positive"/><relation xml:id="rel5869" name="active-at" active="#person3910" passive="#place7404" type="positive"/><relation xml:id="rel2032" name="composed-at" active="#work4621" passive="#place5740" type="positive"><desc>Evidence: <ptr target="#ex20022023-09-15-130857"/></desc></relation></listRelation></standOff><text>
+      <body>
+          <gap reason="omitted"/>
+           
+         
+         
+         
+         
+         
+         
+         
+         
+     
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+             
+         
+    
+         
+         
+         
+         
+         
+          
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+
+           <ab xml:space="preserve">
+            <lb edRef="inst:4620" n="57b4"/><seg type="excerpt" xml:id="ex20022023-09-15-130857" status="finalized" ana="corpusmd:colophon">
+               <milestone unit="section" n="Colophon (57b4-57b7)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="work:4621"><rs type="work" ana="corpusmd:named_reference" ref="work:3749">theg pa chen po rgyud bla ma</rs>'i rnam bshad don dam rnam nges bsdus pa'i snying po'i snying po</rs> zhes bya ba  
+        <lg> <l><lb edRef="inst:4620" n="57b5"/> lo <note type="editorial">This syllable is not very clear in the manuscript, only the vowel 'o' is clear. The typed text (ID: 8135) has 'lo'</note> ni <choice><reg>mche</reg><orig>mcha</orig></choice><note type="editorial">Vowel not visible in the manuscript. Typeset: mche.</note> ldan zla ba rgya mtsho dang ||</l> 
+         <l>tshes ni dkar phyogs rdzogs pa dang po la || </l> 
+        <l>gnas ni <rs type="place" ana="corpusmd:named_reference" ref="place:5740">rnam dag zhing</rs> gi ming can du || </l>         
+        <l>ming ni dge slong smra ba'i khyu mchog ste ||</l></lg><note type="editorial">From 'gnas ni', the input is supplied by the printed version of this text (ID:8135). In the manuscript it is illegible.</note>
+         de yang 'di ltar ¦ 
+        <lg> <l>legs par sbyangs pa'i blo gros can || </l>
+         <l>lung rigs snyan dngags kyi dbang phyug || </l> 
+         <l><lb edRef="inst:4620" n="57b6"/> mdo rgyud smra la yang dga' ba || </l>
+        <l>'dzaM gling mdzes par byed pa'i brgyan || </l>
+        <l><rs type="place" ana="corpusmd:named_reference" ref="place:5559">gangs can</rs> gyi ston sgom u dum wa ra'i me tog zhes kyang bya ste ¦ </l> </lg>
+         
+         nges par ni × <note type="editorial">Compare the verse that follows with that at the end of ID:5217</note>
+         <lg>
+            <l><rs type="person" ana="corpusmd:unnamed_reference" ref="person:3910">dge</rs> legs ster byed bshes legs bsten | </l>
+         <l><rs type="person" ana="corpusmd:unnamed_reference" ref="person:3910">'dun</rs> tshul phul byung thub tshul sgrub | </l>
+         <l><rs type="person" ana="corpusmd:unnamed_reference" ref="person:3910">'od</rs> stong yangs 'phro <lb edRef="inst:4620" n="57b7"/> mchog stong mchod |</l>
+         <l><rs type="person" ana="corpusmd:unnamed_reference" ref="person:3910">zer</rs> ngas bden byed<note type="editorial">The typeset adds: des.</note> nges nges sdebs ||</l> </lg> 
+         zhes bya'o | </seg>
+      </ab>
+         <gap reason="omitted"/>
+      </body>
+      
+   </text>
+</TEI>

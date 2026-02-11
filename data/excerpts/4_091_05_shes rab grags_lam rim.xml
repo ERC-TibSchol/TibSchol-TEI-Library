@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">lam gyi rim pa</title>
+            <title xml:lang="bo">ལམ་གྱི་རིམ་པ</title>
+            <author ref="person:4105">shes rab grags pa</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">4_091_05</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst5881">
+               <msIdentifier>
+                  <idno type="APIS">5881</idno>
+                  <idno type="TibSchol">4_091_05</idno>
+                  <idno type="signature">la 387</idno>
+                  <idno type="drepung">18928</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW4PD3076_30D3D3</idno>
+                  <msName>lam gyi rim pa</msName>
+                  <msName xml:lang="bo">ལམ་གྱི་རིམ་པ</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:5882">lam gyi rim pa</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dpe tshugs.<lb/>Number on the last folio: 113.<lb/>Folios 94 and 95 appear on the same folio.</p>
+                           <dimensions unit="cm">
+                              <width>35</width>
+                              <height>10</height>
+                           </dimensions>
+                        </support>
+                        <extent>113</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>'bras spungs gnas bcu lha khang<persName ref="person:5883" role="owner">mkhan po snar thang pa</persName>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                     <note type="comment">The identification with [8H6M69W4], No. 18928, is tentative, as the catalogue reports 121 folios.</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/5DSBYG9K">bKa' gdams gsung 'bum 4</ref>, <biblScope unit="vol">91</biblScope>, <biblScope unit="pp">337-560</biblScope>, <biblScope unit="text">5</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="place" matchPattern="^(\d+)$" replacementPattern="#place$1">
+               <p>Local identifier of a place record from the APIS export; resolves to the element with xml:id 'place' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person4105"><persName type="main" xml:lang="bo-Latn-x-wylie">shes rab grags pa</persName><persName xml:lang="bo">ཤེས་རབ་གྲགས་པ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge bshes shes rab grags pa</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">4105</idno><note type="comment">BUDA identifies him with the 14th-c. scholar by that name (https://purl.bdrc.io/resource/P5907), but the editors of [5DSBYG9K] suggest that the author of the Lam rim work he was a student of Lum pa ba Ye shes byang chub living in the 12th century ([5DSBYG9K]: 335).&#13;
+Possibly the same person as Chu mig pa Shes rab grags (ID:3795) ([NTGHCZA8]: 42, n. 88).</note></person><person xml:id="person4593"><persName type="main" xml:lang="bo-Latn-x-wylie">Anonymous</persName><persName xml:lang="bo">ཨཱནོཉམོཨུས</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">4593</idno></person><person xml:id="person5883"><persName type="main" xml:lang="bo-Latn-x-wylie">mkhan po snar thang pa</persName><persName xml:lang="bo">མཁན་པོ་སྣར་ཐང་པ</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">5883</idno><note type="comment">Maybe sKyo ston (ID:4052)?</note></person></listPerson><listBibl><bibl xml:id="work5882"><title type="main" xml:lang="bo-Latn-x-wylie">lam gyi rim pa</title><title xml:lang="bo">ལམ་གྱི་རིམ་པ</title><textLang mainLang="bo"/><author ref="person:4105">shes rab grags pa</author><note type="isExtant">True</note><idno type="APIS">5882</idno></bibl></listBibl><listPlace><place xml:id="place6853"><placeName xml:lang="bo-Latn-x-wylie">ka ma'i dgon pa</placeName><placeName xml:lang="bo">ཀ་མའི་དགོན་པ</placeName><placeName type="alt" xml:lang="bo">kam dgon pa</placeName><idno type="APIS">6853</idno></place></listPlace><listRelation><relation xml:id="rel1981" name="author-of" active="#person4105" passive="#work5882" type="uncertain"><desc>Evidence: <ptr target="#ex9105_202409182"/></desc></relation></listRelation></standOff><text>
+      <body>
+        
+         
+         <gap reason="omitted"/>
+         
+         
+           <ab>
+           
+           <gap reason="omitted"/>
+              
+            
+            
+            <pb n="113b"/><seg type="excerpt" xml:id="ex9105_202409182" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon "/>
+                <lb n="113b4"/>
+              <l><rs type="place" ana="corpusmd:named_reference" ref="place:6853"><choice><sic>°°°°</sic><corr>ka ma'i dgon pa</corr></choice></rs>r sku bzhugs nas ||</l> 
+              <l><rs type="person" ana="corpusmd:unnamed_reference" ref="person:4593">bla ma rnams</rs> kyis gnang ba'i ||</l> 
+              <l>man × ngag thugs la skyes pa 'di ||</l> 
+              <l>kun gyis <choice><sic>brdzid</sic><corr>brdzi</corr></choice> <expan>med</expan> <choice><sic>gnya</sic><corr>gnya'</corr></choice> na'i mtshan ||</l> 
+              <l>thugs rje'i mnga' bdag <lb n="113b5"/><choice><sic>°°</sic><corr>b+ho de'i</corr></choice> mtshan ||</l> 
+              <l>bdag ci bla ma <choice><sic>'°</sic><corr>'gro</corr></choice> ba'i <choice><sic>'gon</sic><corr>mgon</corr></choice> || </l>
+              <l>sa stengs grags pa nyid la <choice><sic>b°</sic><corr>bshad</corr></choice> ||</l> 
+              <l>de'i <choice><sic>°ms</sic><corr>nyams</corr></choice> myong gdam ngag 'di ||</l> 
+              <l>brjed dor <rs type="person" ana="corpusmd:unnamed_reference" ref="person:4105">bdag</rs><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="person:4105"> dge bshes shes rab grags</rs></note> gis bris pa la ||</l>
+              <l>lhag <lb n="113b6"/> <choice><sic>°</sic><corr>chad</corr></choice> °° b × zod par mdzod × ||</l><note type="editorial">mdzod is written in dbu can</note> 
+              <l><rs type="person" ana="corpusmd:unnamed_reference" ref="person:4105">bdag</rs> gis 'di mnyan bris pa'i ||</l> 
+              <l><expan>bsod naMs</expan> grub pa yin des ||</l> 
+              <l>kun gyis bzang po thob par shog ||</l> <lb n="113b7"/> <rs type="work" ana="corpusmd:named_reference" ref="work:5882">laM gyi rim pa</rs> || <note type="gloss"><rs type="person" ana="corpusmd:unnamed_reference" ref="person:5883">mkhan po snar thang pa</rs>'i phyag dpe las zhus cing dag go ||</note><note type="editorial">Addition written in dbu can</note> rdzogs s+ho ||
+            </seg>
+        </ab>
+        
+        
+         
+      </body>
+      
+      
+   </text>
+</TEI>

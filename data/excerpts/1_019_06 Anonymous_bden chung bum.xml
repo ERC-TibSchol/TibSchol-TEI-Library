@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">bden chung gi 'bum</title>
+            <title xml:lang="bo">བདེན་ཆུང་གི་འབུམ</title>
+            <author ref="person:7172">Anonymous</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:JA">James B. Apple</name>
+               <name ref="corpusmd:JS">Jonathan Samuels</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:JS">Jonathan Samuels</name>
+               <name ref="corpusmd:TD">Tsering Drongshar</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">1_019_06</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst4604">
+               <msIdentifier>
+                  <idno type="APIS">4604</idno>
+                  <idno type="TibSchol">1_019_06</idno>
+                  <idno type="signature">tsa 22</idno>
+                  <idno type="drepung">15401</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD89051_5916F5</idno>
+                  <msName>bden chung gi 'bum</msName>
+                  <msName xml:lang="bo">བདེན་ཆུང་གི་འབུམ</msName>
+                  <msName type="alt" xml:lang="bo">bden chung gi 'bum (colophon)</msName>
+                  <msName type="alt" xml:lang="bo">bden gnyis kyi 'bum (correct cover page)</msName>
+                  <msName type="alt" xml:lang="bo">dbu ma'i man ngag gi 'bum (false cover page)</msName>
+                  <msName type="alt" xml:lang="bo">bden gnyis kyi 'bu zhes pa jo bo'i dbu ma bden gnyis kyi 'grel ba (catalogue)</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:4605">bden chung gi 'bum</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: 'bru tsha.</p>
+                           <dimensions unit="cm">
+                              <width>65</width>
+                              <height>10</height>
+                           </dimensions>
+                        </support>
+                        <extent>16</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <bibl type="isSourceFor">
+                        <name>bden gnyis kyi 'bum</name>
+                        <idno type="APIS">7579</idno>
+                     </bibl>
+                     <bibl type="isSourceFor">
+                        <name>bden gnyis kyi 'bum</name>
+                        <idno type="APIS">7580</idno>
+                     </bibl>
+                  </origin>
+                  <provenance>'bras spungs gnas bcu lha khang</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                     <note type="comment">The cover page of the manuscript (ID:4604) gives the title "dbu ma'i man ngag gi 'bum," but based on the contents, it is likely that it was switched with the cover page of (ID:4602), with the title "bden gnyis kyi 'bum". ([4W5HW75B]: 21-22)&#13;
+&#13;
+The signature for the page with the title "bden gnyis kyi 'bum" ([Z5AUD7GQ]: 335) is hardly readable. [8H6M69W4], reports the signature "phyi tsa 22" for both No. 15400 (in 18 folios) (see (ID:4602)) and No. 15401 (in 16 fols.).&#13;
+&#13;
+Before the false cover page, the recto of another cover page is reproduced in [Z5AUD7GQ]: 370, bearing only the signature "phyi tsa 82" and the letter "ta" in the left margin. In [Z5AUD7GQ]: 86, the signature "phyi tsa 82" is associated with an "dbu ma bden gnyis kyi 'grel ba" and a "dbu ma'i man ngag gi 'grel ba" (referring to (ID:4602) and (ID:4604)?), but it probably belongs to another manuscript.</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/Z5AUD7GQ">bKa' gdams gsung 'bum 1</ref>, <biblScope unit="vol">19</biblScope>, <biblScope unit="pp">371-401</biblScope>, <biblScope unit="text">6</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3745"><persName type="main" xml:lang="bo-Latn-x-wylie">atiśa dīpaṃkaraśrījñāna</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon chen po dpal mar me mdzad ye shes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">a ti sha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo a ti sha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">atīśa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">atisha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo rje</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo chen po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">jo bo</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dpal ldan a ti sha</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">paN+Di ta dI paM ka ra</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">ma hA paN+Di ta mar me mdzad ye shes</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dpal mar me mdzad dpal ye shes zhabs</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">a d+hi sha</persName><birth notBefore="0972-01-01" notAfter="0982-12-31">after 972 before 982</birth><death notBefore="1054-01-01" notAfter="1055-12-31">after 1054 before 1055</death><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P3379</idno><idno type="APIS">3745</idno></person><person xml:id="person3827"><persName type="main" xml:lang="bo-Latn-x-wylie">'brom ston rgyal ba'i 'byung gnas</persName><persName xml:lang="bo">འབྲོམ་སྟོན་རྒྱལ་བའི་འབྱུང་གནས</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge bshes ston pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge bshes ston pa chen po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">dge' bshes ston pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'brum ston rgyal ba'i 'byung gnas</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'brom</persName><birth notBefore="1004-01-01" notAfter="1005-12-31">after 1004 before 1005</birth><death notBefore="1064-01-01" notAfter="1064-12-31">1064</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P2557</idno><idno type="APIS">3827</idno><note type="comment">Celibate householder from the Byang region, chief disciple of Atiśa (ID: 3745) ([Q922IUFM]: 30). &#13;
+&#13;
+dGe 'dun grub pa (ID:7060) is renowned as his reincarnation and his 'Brom ston-like qualities are described ([BKUHJCNA]: 787-790).</note></person><person xml:id="person3829"><persName type="main" xml:lang="bo-Latn-x-wylie">po to ba rin chen gsal</persName><persName xml:lang="bo">པོ་ཏོ་བ་རིན་ཆེན་གསལ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">pu to ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">rin chen gsal</persName><birth notBefore="1027-01-01" notAfter="1027-12-31">1027</birth><death notBefore="1105-01-01" notAfter="1105-12-31">1105</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P3442</idno><idno type="APIS">3829</idno><note type="comment">Part of the group called  the "three brothers" (sku mched gsum), composed of Po to ba (ID:3829), Phu chung ba (ID:7093), Spyan snga ba (ID:3830).</note></person><person xml:id="person4301"><persName type="main" xml:lang="bo-Latn-x-wylie">khu 'dol</persName><persName xml:lang="bo">ཁུ་འདོལ</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">4301</idno></person><person xml:id="person7093"><persName type="main" xml:lang="bo-Latn-x-wylie">phu chung ba gzhon nu rgyal mtshan</persName><persName xml:lang="bo">ཕུ་ཆུང་བ་གཞོན་ནུ་རྒྱལ་མཚན</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">pho chung ba</persName><birth notBefore="1031-01-01" notAfter="1031-12-31">1031</birth><death notBefore="1106-01-01" notAfter="1106-12-31">1106</death><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P405</idno><idno type="APIS">7093</idno><note type="comment">Part of the group called  the "three brothers" (sku mched gsum), composed of Po to ba (ID:3829), Phu chung ba (ID:7093), Spyan snga ba (ID:3830).</note></person><person xml:id="person7172"><persName type="main" xml:lang="bo-Latn-x-wylie">Anonymous</persName><persName xml:lang="bo">ཨཱནོཉམོཨུས</persName><birth notBefore="1050-01-01">after 1050</birth><death notAfter="1160-12-31">before 1160</death><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">7172</idno><note type="comment">Active around 1100 ([53V3UYUL]: 269-271). &#13;
+&#13;
+In work (ID:4605), the author discusses the transmission of Atiśa (ID:3745)'s teaching at the request of "gSang phu ba," i.e., rNgog Legs pa'i shes rab (ID:3788), and the instruction being written down by dGe bshes dgon pa ba (ID:6689) ex19062023-07-2412-53-30 .</note></person></listPerson><listBibl><bibl xml:id="work4605"><title type="main" xml:lang="bo-Latn-x-wylie">bden chung gi 'bum</title><title xml:lang="bo">བདེན་ཆུང་གི་འབུམ</title><title type="alt" xml:lang="bo-Latn-x-wylie">bden chung gi 'bum</title><title type="alt" xml:lang="bo-Latn-x-wylie">bden gnyis kyi 'bum</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma'i man ngag gi 'bum (incorrect title)</title><textLang mainLang="bo"/><author ref="person:7172">Anonymous</author><note type="isExtant">True</note><note type="comment">First identified and translated in [D6HTUYUR]; diplomatically edited in [53V3UYUL].&#13;
+An early commentary on the Satyadvayāvatāra (ID:6040) of Atiśa (ID:3745).</note><relatedItem type="commentaryOn" target="work:6040"/><idno type="APIS">4605</idno></bibl><bibl xml:id="work6040"><title type="main" xml:lang="bo-Latn-x-wylie">satyadvayāvatāra</title><title type="alt" xml:lang="bo-Latn-x-wylie">bden pa gnyis la 'jug pa</title><date type="composition" notBefore="0982-01-01" notAfter="1054-12-31">after 982 before 1054</date><author ref="person:3745">atiśa dīpaṃkaraśrījñāna</author><note type="isExtant">True</note><idno type="APIS">6040</idno></bibl></listBibl><listRelation><relation xml:id="rel5234" name="quotes-with-name" active="#person7172" passive="#person3827" type="positive"/><relation xml:id="rel5232" name="quotes-with-name" active="#person7172" passive="#person3745" type="positive"/><relation xml:id="rel5237" name="quotes-with-name" active="#person7172" passive="#person4301" type="positive"/><relation xml:id="rel5235" name="quotes-with-name" active="#person7172" passive="#person3829" type="positive"/><relation xml:id="rel5230" name="author-of" active="#person7172" passive="#work4605" type="positive"/><relation xml:id="rel5236" name="quotes-with-name" active="#person7172" passive="#person7093" type="positive"/></listRelation></standOff><text>
+      <body>
+           <gap reason="omitted"/>
+        
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+      </body>
+      <gap reason="omitted"/>
+   </text>
+</TEI>

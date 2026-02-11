@@ -1,0 +1,402 @@
+/* TibSchol excerpt pages: layout on top of Pico.css.
+   Colours come from Pico's variables and light-dark(), so light and dark mode both stay readable. */
+
+:root {
+  --tib-doc: var(--pico-primary);
+  --tib-people: var(--pico-ins-color);
+  --tib-data: light-dark(#8a5a00, #e0b060);
+}
+
+/* ---------- Zones ---------- */
+.zone {
+  border-left: 4px solid;
+  border-radius: var(--pico-border-radius);
+  padding: 1rem 1.25rem;
+  background: var(--pico-card-background-color);
+  margin-bottom: 1.5rem;
+}
+.zone-doc    { border-left-color: var(--tib-doc); }
+.zone-people { border-left-color: var(--tib-people); }
+.zone-data   { border-left-color: var(--tib-data); }
+
+.zone-label {
+  margin: 0 0 .5rem;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.zone-doc    .zone-label { color: var(--tib-doc); }
+.zone-people .zone-label { color: var(--tib-people); }
+.zone-data   .zone-label { color: var(--tib-data); }
+
+.zone-doc h1 { margin: 0 0 1rem; font-size: 1.6rem; }
+
+/* ---------- Document metadata ---------- */
+.kv {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: .35rem 1.25rem;
+  margin: 0 0 1rem;
+}
+.kv dt { color: var(--pico-muted-color); }
+.kv dd { margin: 0; }
+.ms-desc { white-space: pre-wrap; font-size: .9rem; color: var(--pico-muted-color); }
+
+/* ---------- Creators and investigators ---------- */
+.person {
+  padding: .6rem .75rem;
+  margin-bottom: .6rem;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--pico-border-radius);
+}
+.person p { margin: 0; }
+.person-role { font-size: .75rem; color: var(--pico-muted-color); text-transform: uppercase; letter-spacing: .05em; }
+.person-name { font-weight: 600; }
+.person-ref  { font-size: .75rem; }
+.zone-sublabel {
+  margin: 1rem 0 .4rem;
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--pico-muted-color);
+}
+.chips { list-style: none; margin: .35rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
+.chip {
+  font-size: .72rem;
+  padding: .1rem .55rem;
+  border-radius: 999px;
+  background: var(--pico-muted-border-color);
+  color: var(--pico-color);
+}
+
+/* ---------- Encoded text ---------- */
+.tib-text {
+  font-family: "Noto Serif Tibetan", "Jomolhari", "Noto Serif", Georgia, serif;
+  font-size: 1.15rem;
+  line-height: 1.9;
+}
+.ab { margin: 1rem 0; }
+.ab.incipit, .ab.post_colophon { color: var(--pico-muted-color); }
+.seg { margin: .6rem 0; }
+.milestone {
+  font-family: system-ui, sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--tib-data);
+  margin: 1.1rem 0 .2rem;
+}
+.lg { margin: .75rem 0; }
+.l  { margin-left: 1.5rem; }
+/* Paragraphs and divisions: blocks with spacing and justified text, as in the local prototype */
+.p   { display: block; margin: .5em 0; text-align: justify; }
+.div { display: block; }
+
+.pb::before {
+  content: "[f. " attr(data-n) "] ";
+  font: .72rem system-ui, sans-serif;
+  color: var(--pico-muted-color);
+}
+.lb::before {
+  content: attr(data-n) " ";
+  font: .62rem system-ui, sans-serif;
+  color: var(--pico-muted-color);
+  vertical-align: super;
+}
+.gap   { color: var(--pico-muted-color); font-style: italic; }
+
+.choice { color: mediumpurple; }
+/* Choice with no reg/corr: both forms shown, dotted underline, tooltip lists them */
+.choice-unresolved { text-decoration: underline dotted var(--tib-data); text-underline-offset: .2em; cursor: help; }
+
+blockquote { margin: .5rem 2rem; }
+/* Citation under a quotation: work title and locator (n) */
+.quote-cite { margin: 0 2rem .6rem; font-size: .8rem; color: var(--pico-muted-color); }
+
+/* Foreign words are italic; unclear readings are bracketed (as in the local prototype) */
+.foreign { font-style: italic; }
+.unclear::before { content: "("; }
+.unclear::after { content: ")"; }
+
+.rs { color: var(--pico-primary); }
+.rs-work {
+  color: blue;
+}
+
+.rs-person {
+  color: maroon;
+}
+
+.rs-place {
+  color: darkolivegreen;
+}
+
+/* Editorial notes: small, inline, expand on click */
+details.note {
+  display: inline;
+  font-family: system-ui, sans-serif;
+  font-size: .78rem;
+}
+details.note > summary {
+  display: inline;
+  cursor: pointer;
+  color: var(--tib-data);
+  list-style: none;
+}
+details.note > summary::before { content: "✎ "; }
+details.note > summary::after { display: none; } /* drop Pico's disclosure arrow */
+details.note[open] > summary { font-weight: 700; }
+.note-body {
+  display: block;
+  margin: .3rem 0;
+  padding: .4rem .6rem;
+  border-left: 3px solid var(--tib-data);
+  background: var(--pico-muted-border-color);
+  color: var(--pico-color);
+  line-height: 1.5;
+}
+
+.page-foot { margin: 1rem 0 2rem; font-size: .95rem; }
+
+/* ---------- Layout: side panel next to the text on wide screens ---------- */
+.split { display: grid; grid-template-columns: 1fr; gap: 0 1.5rem; }
+@media (min-width: 62rem) {
+  .split { grid-template-columns: 19rem minmax(0, 1fr); align-items: start; }
+  .zone-people { position: sticky; top: 1rem; }
+}
+.split > .zone-people { margin-bottom: 1.5rem; }
+
+.ms { margin: .5rem 0 1rem; padding-left: .75rem; border-left: 2px solid var(--pico-muted-border-color); }
+.ms-id { font-weight: 600; margin: 0 0 .25rem; }
+
+/* ---------- Instances: which witness a page or line belongs to ---------- */
+.pb[data-inst]:not([data-inst=""])::before {
+  content: "[f. " attr(data-n) " · " attr(data-inst) "] ";
+  color: var(--tib-data);
+}
+.lb[data-inst]:not([data-inst=""])::before {
+  content: attr(data-inst) ":" attr(data-n) " ";
+  color: var(--tib-data);
+}
+.inst-letter {
+  display: inline-block;
+  min-width: 1.4rem;
+  margin-right: .35rem;
+  padding: 0 .3rem;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--pico-contrast);
+  background: var(--tib-data);
+}
+
+/* ---------- Variant readings ---------- */
+.app .variants { font-family: system-ui, sans-serif; font-size: .72rem; color: var(--pico-muted-color); margin-left: .2rem; }
+.app .rdg + .rdg::before { content: " · "; }
+
+/* ---------- Colophon and project team: understated, at the foot of the page ---------- */
+.colophon {
+  margin: 2.5rem 0 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--pico-muted-border-color);
+  font-size: .8rem;
+  color: var(--pico-muted-color);
+}
+.colophon-line { margin: .2rem 0; }
+.colophon a { color: inherit; }
+.team { margin-top: .6rem; }
+.team > summary { display: inline; cursor: pointer; }
+.team > summary::after { float: none; display: inline-block; vertical-align: middle; margin-inline-start: .35rem; }
+.credit-list {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: .2rem .75rem;
+  margin: .6rem 0 0;
+  font-size: .78rem;
+  line-height: 1.5;
+}
+.credit-list dt { color: var(--pico-muted-color); }
+.credit-list dd { margin: 0; }
+
+/* Tibetan title under the Wylie title */
+.tib-title {
+  font-family: "Noto Serif Tibetan", "Jomolhari", "Tibetan Machine Uni", Georgia, serif;
+  font-size: 1.3rem;
+  margin: -.4rem 0 1rem;
+}
+
+/* Page layout: the colophon sits at the bottom of the window when the text is short,
+   and follows the text when the text is long. */
+body { display: flex; flex-direction: column; min-height: 100vh; margin: 0; }
+body > main { flex: 1 0 auto; display: flex; flex-direction: column; }
+body > main > .colophon { margin-top: auto; }
+
+.ms-bo { font-family: "Noto Serif Tibetan", "Jomolhari", "Tibetan Machine Uni", Georgia, serif; margin-left: .5rem; }
+
+/* Relations: one line per relation, no underlines */
+.zone-rel { padding-bottom: .5rem; }
+.rel { margin: .3rem 0; line-height: 1.6; }
+.rel-name { color: var(--pico-muted-color); font-style: italic; margin: 0 .45rem; }
+.rel-end + .rel-name, .rel-name + .rel-end { margin-left: .45rem; }
+.rel-conf { font-size: .75rem; color: var(--pico-muted-color); margin-left: .3rem; }
+.rel-evidence { font-size: .75rem; text-decoration: none; margin-left: .3rem; }
+
+/* ---------- Page: text in the centre, details in a side column ---------- */
+.page-head { margin: 1.5rem 0 1.25rem; }
+.page-head h1 { font-size: 1.7rem; margin: 0 0 .15rem; }
+.page-head .tib-title { margin: .6rem 0 .75rem; }
+.page-sub { color: var(--pico-muted-color); font-size: .9rem; margin: 0; }
+.page-sub code { font-size: .8rem; }
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 19rem;
+  gap: 2.5rem;
+  align-items: start;
+}
+.text-col { min-width: 0; }
+.layout .zone-data { margin-bottom: 0; }
+/* No inner scroll area: the page scrolls once */
+.side { font-size: .8rem; line-height: 1.5; }
+@media (max-width: 60rem) {
+  .layout { grid-template-columns: 1fr; }
+}
+/* Relations of a panel: collapsed by default, with a count */
+.rels { margin-top: .5rem; }
+.rels > summary { cursor: pointer; color: var(--pico-muted-color); }
+.rels > summary::after { float: none; display: inline-block; vertical-align: middle; margin-inline-start: .3rem; }
+.rels .count { font-variant-numeric: tabular-nums; }
+
+.panel {
+  padding: .9rem 0 .75rem;
+  border-top: 1px solid var(--pico-muted-border-color);
+}
+.panel:first-child { border-top: 0; padding-top: 0; }
+.panel-label {
+  margin: 0 0 .3rem;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--pico-muted-color);
+}
+.panel-title { font-size: .98rem; font-weight: 600; margin: 0; line-height: 1.35; }
+.panel-title-bo {
+  font-family: "Noto Serif Tibetan", "Jomolhari", "Tibetan Machine Uni", Georgia, serif;
+  font-size: .95rem;
+  margin: .15rem 0 .4rem;
+}
+.facts {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: .15rem .6rem;
+  margin: .5rem 0;
+}
+.facts dt { color: var(--pico-muted-color); }
+.facts dd { margin: 0; overflow-wrap: anywhere; }
+.panel .rel { margin: .35rem 0 0; line-height: 1.45; }
+.panel .rel-end { display: inline; }
+/* Long free-text notes in the side panels: collapsed by default */
+.long > summary { cursor: pointer; color: var(--pico-muted-color); }
+.long > summary::after { float: none; display: inline-block; vertical-align: middle; margin-inline-start: .3rem; }
+.long p { margin: .3rem 0 0; }
+.about { margin: .5rem 0 0; }
+.about-text { margin: .5rem 0 0; line-height: 1.55; max-width: 60ch; }
+.about .facts { grid-template-columns: 11rem 1fr; margin: .6rem 0 0; }
+
+/* ---------- Top-bar menu (⋮): About and Credits as overlays ---------- */
+.menu { position: relative; display: inline-block; margin-left: .75rem; }
+.menu > summary { list-style: none; cursor: pointer; font-size: 1.2rem; line-height: 1; padding: 0 .3rem; }
+.menu > summary::-webkit-details-marker { display: none; }
+.menu > summary::after { content: none; }
+.menu-list {
+  position: absolute; right: 0; top: 1.8rem; z-index: 20; min-width: 9rem;
+  display: flex; flex-direction: column; gap: .35rem; padding: .6rem .8rem;
+  background: var(--pico-background-color); border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--pico-border-radius);
+}
+.menu-list a { text-decoration: none; }
+
+/* Overlay: shown when its link is the target (#about or #credits) */
+.overlay { display: none; }
+.overlay:target {
+  display: flex; position: fixed; inset: 0; z-index: 30; overflow-y: auto;
+  justify-content: center; align-items: flex-start;
+  background: rgba(20, 20, 20, .45);
+}
+.overlay-box {
+  position: relative; width: min(42rem, calc(100% - 2rem)); margin: 4rem 0;
+  padding: 1.5rem 1.75rem; background: var(--pico-background-color);
+  border-radius: var(--pico-border-radius); box-shadow: 0 8px 30px rgba(0, 0, 0, .25);
+}
+.overlay-box h2 { margin: 0 0 1rem; font-size: 1.2rem; }
+.overlay-close { position: absolute; top: .6rem; right: .9rem; font-size: 1.4rem; line-height: 1; text-decoration: none; }
+.overlay .facts { grid-template-columns: 10rem 1fr; }
+.overlay .about-text { margin: 0 0 .9rem; line-height: 1.55; }
+.overlay .credit-list { grid-template-columns: 12rem 1fr; font-size: .9rem; }
+
+/* ---------- Top bar: library name on the left, menu on the right ---------- */
+/* Top bar: the same on every page, full width (partials/header.xml, plus the menu on excerpt pages) */
+.topbar {
+  display: flex; align-items: center; gap: 1.25rem; width: 100%; box-sizing: border-box;
+  padding: .9rem 1.5rem;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+}
+.topbar .brand { display: flex; align-items: center; gap: .6rem; flex: none; color: inherit; text-decoration: none; font-weight: 700; }
+.topbar .brand img { display: block; height: 2.75rem; width: auto; }
+.topbar .brand-name { font-size: 1.05rem; white-space: nowrap; }
+button.search-open {
+  margin: 0 0 0 auto; width: auto; min-width: 14rem; padding: .4rem .75rem; font-size: .9rem;
+  display: flex; align-items: center; justify-content: space-between; gap: .75rem;
+  color: var(--pico-muted-color); background: transparent;
+  border: 1px solid var(--pico-muted-border-color); border-radius: var(--pico-border-radius);
+  box-shadow: none;
+}
+button.search-open, button.search-open:hover, button.search-open:focus {
+  color: var(--pico-muted-color) !important; background-color: transparent !important;
+}
+button.search-open kbd { font-size: .75rem; }
+.search-overlay {
+  position: fixed; inset: 0; z-index: 40; display: flex; justify-content: center; align-items: flex-start;
+  padding: 4rem 1rem 1rem; background: rgba(20, 20, 20, .45); overflow-y: auto;
+}
+.search-overlay[hidden] { display: none; }
+.search-dialog {
+  position: relative; width: min(46rem, 100%); padding: 1.25rem 1.5rem 1.5rem; box-sizing: border-box;
+  background: var(--pico-background-color); border-radius: var(--pico-border-radius);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, .25);
+}
+button.search-close { position: absolute; top: .4rem; right: .7rem; margin: 0; padding: 0 .4rem; border: 0; background: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: inherit; }
+.topbar .howto { flex: none; font-size: .9rem; text-decoration: none; }
+/* Menu: no margins, so opening it does not move the bar */
+.menu, .menu[open] { margin: 0; flex: none; }
+.menu > summary, .menu[open] > summary { margin: 0; line-height: 1; }
+.crumb-small { margin: 0 0 .35rem; font-size: .8rem; }
+.crumb-small a { color: var(--pico-muted-color); text-decoration: none; }
+/* Citation of the printed edition: no underline */
+.cite a { text-decoration: none; }
+.alt-title { display: inline-block; }
+.place-name { font-weight: 600; }
+.place-alt, .place-type, .place-geo { color: var(--pico-muted-color); font-size: .9em; }
+
+/* One footer per page, full width: GitHub repository on the left, institute logos centred (IKGA, ACDH, ÖAW) */
+.site-footer {
+  width: 100%; box-sizing: border-box; margin-top: auto; padding: 1rem 1.5rem 1.1rem;
+  border-top: 1px solid var(--pico-muted-border-color); font-size: .85rem;
+}
+.site-footer-bar { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1rem 1.5rem; }
+@media (max-width: 50rem) { .site-footer-bar { grid-template-columns: 1fr; justify-items: center; } }
+.repo-card { display: flex; align-items: center; gap: .6rem; justify-self: start; color: inherit; text-decoration: none; }
+.repo-card:hover .repo-name { text-decoration: underline; }
+.octocat { width: 2rem; height: 2rem; fill: currentColor; flex: none; }
+.repo-text { display: flex; flex-direction: column; line-height: 1.3; }
+.repo-name { font-weight: 600; }
+.repo-stats { color: var(--pico-muted-color); font-size: .8rem; }
+.repo-go { color: var(--pico-primary); font-size: .8rem; }
+.site-footer-middle { margin: 0; text-align: center; font-size: .8rem; color: var(--pico-muted-color); }
+.site-footer-middle a { color: inherit; }
+.site-footer-logos { display: flex; align-items: center; gap: 1.5rem; justify-self: end; }
+.site-footer-logos img { display: block; height: 2.5rem; width: auto; }
+.colophon-line { margin: 0; text-align: center; font-size: .8rem; color: var(--pico-muted-color); }
+.colophon-line a { color: inherit; }

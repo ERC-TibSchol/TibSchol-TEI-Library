@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i dka' gnad kyi mtha' dpyad mun sel</title>
+            <title xml:lang="bo">ཐེག་པ་ཆེན་པོ་རྒྱུད་བླ་མའི་དཀའ་གནད་ཀྱི་མཐའ་དཔྱད་མུན་སེལ</title>
+            <author ref="person:5963">dpal gyi ming 'chang ba</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">4_113_03</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst5477">
+               <msIdentifier>
+                  <idno type="APIS">5477</idno>
+                  <idno type="TibSchol">4_113_03</idno>
+                  <idno type="signature">tsha 113</idno>
+                  <idno type="drepung">15971</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW4PD3076_9B7543</idno>
+                  <msName>theg pa chen po rgyud bla ma'i dka' gnad kyi mtha' dpyad mun sel</msName>
+                  <msName xml:lang="bo">ཐེག་པ་ཆེན་པོ་རྒྱུད་བླ་མའི་དཀའ་གནད་ཀྱི་མཐའ་དཔྱད་མུན་སེལ</msName>
+                  <msName type="alt" xml:lang="bo">theg pa chen po rgyud bla ma'i bka' gnad kyi mtha' dpyad mun sel (cover page)</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:5478">theg pa chen po rgyud bla ma'i dka' gnad kyi mtha' dpyad mun sel</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dpe tshugs.<lb/>25 folios numbered from 1 to 24, with a "2 'og ma" and a "3 gong ma" between fol. 2 and fol. 3.<lb/>On the cover page, dbu can letter "ma" on the right of the signature.</p>
+                           <dimensions unit="cm">
+                              <width>63</width>
+                              <height>8.5</height>
+                           </dimensions>
+                        </support>
+                        <extent>26</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>'bras spungs gnas bcu lha khang</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                     <note type="comment">[8H6M69W4] reports 24 folios (which corresponds to the number on the last folio).</note>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/5DSBYG9K">bKa' gdams gsung 'bum 4</ref>, <biblScope unit="vol">113</biblScope>, <biblScope unit="pp">253-304</biblScope>, <biblScope unit="text">3</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="place" matchPattern="^(\d+)$" replacementPattern="#place$1">
+               <p>Local identifier of a place record from the APIS export; resolves to the element with xml:id 'place' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3747"><persName type="main" xml:lang="bo-Latn-x-wylie">maitreya</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">'phags pa byams pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">byams pa mgon po</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">maitreyanātha</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6118</idno><idno type="APIS">3747</idno><note type="comment">Future Buddha held as the author of the works that come to be designated as the "Five Jewels of Maitreya" (ID:6167).</note></person><person xml:id="person3756"><persName type="main" xml:lang="bo-Latn-x-wylie">asaṅga</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon thogs med</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">thogs myed</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6117</idno><idno type="APIS">3756</idno></person><person xml:id="person5963"><persName type="main" xml:lang="bo-Latn-x-wylie">dpal gyi ming 'chang ba</persName><persName xml:lang="bo">དཔལ་གྱི་མིང་འཆང་བ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">shAkya'i dge sbyong dpal gyi ming 'chang ba</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">lho pa thugs rje dpal</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P3CN19673</idno><idno type="APIS">5963</idno><note type="comment">Maybe the same person who authored a commentary on the Madhyāntavibhāga (ID:3748), two copies of which are listed in [GP444QCS]: 612: dpal gyi ming can (/dge slong dpal) gyis mdzad pa'i chos dang chos nyid rnam par 'bye dpa'i bstan bcos kyi rnam par bshad pa 'thad pa kun ldan&#13;
+&#13;
+Maybe the same person as Lho pa thugs rje dpal (bdr:P3CN19673).</note></person><person xml:id="person6033"><persName type="main" xml:lang="bo-Latn-x-wylie">rgyal sras chos dpal mgon po</persName><persName xml:lang="bo">རྒྱལ་སྲས་ཆོས་དཔལ་མགོན་པོ</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P8LS13230</idno><idno type="APIS">6033</idno></person></listPerson><listBibl><bibl xml:id="work3749"><title type="main" xml:lang="bo-Latn-x-wylie">ratnagotravibhāga</title><title type="alt" xml:lang="bo-Latn-x-wylie">rātnagotravibhāga mahāyānottaratantraśāstra</title><title type="alt" xml:lang="bo-Latn-x-wylie">uttaratantra</title><title type="alt" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i bstan bcos</title><author ref="person:3747">maitreya</author><author ref="person:3756">asaṅga</author><note type="isExtant">True</note><note type="comment">The authorship of the work comes to be ascribed to the future Buddha Maitreya (ID:3747) in the Indian tradition from the 11th c. onward and in the Tibetan tradition. On earlier witnesses ascribing the authorship to Sāramati or Sthiramati, see [BAQ9MH4T]: 20-27. No attribution of that work to Asaṅga (ID:3756) was located in Indian sources, but the colophon of the Tibetan translation by rNgog Blo ldan shes rab ascribes the verses to Maitreya and the prose commentary to Asaṅga ([BAQ9MH4T]: 27-28).&#13;
+There are six Tibetan translations, only that by rNgog Blo ldan shes rab and Sajjana is currently extant ([BAQ9MH4T]: chap. 6).</note><idno type="APIS">3749</idno></bibl><bibl xml:id="work5474"><title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po mdo sde rgyan gyi rnam bshad 'thad pa kun ldan</title><title xml:lang="bo">ཐེག་པ་ཆེན་པོ་མདོ་སྡེ་རྒྱན་གྱི་རྣམ་བཤད་འཐད་པ་ཀུན་ལྡན</title><title type="alt" xml:lang="bo-Latn-x-wylie">theg pa chen po mdo sde rgyan gyi rnam bshad 'thad pa kun ldan</title><textLang mainLang="bo"/><date type="composition" notBefore="1102-01-01">after 1102</date><author ref="person:5963">dpal gyi ming 'chang ba</author><note type="isExtant">True</note><note type="comment">Date of composition: chu mo lug gi lo'i sa kha chen po'i zla ba = 1103, 1163, 1223, 1283, 1343, 1403</note><idno type="APIS">5474</idno></bibl><bibl xml:id="work5478"><title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i dka' gnad kyi mtha' dpyad mun sel</title><title xml:lang="bo">ཐེག་པ་ཆེན་པོ་རྒྱུད་བླ་མའི་དཀའ་གནད་ཀྱི་མཐའ་དཔྱད་མུན་སེལ</title><textLang mainLang="bo"/><author ref="person:5963">dpal gyi ming 'chang ba</author><note type="isExtant">True</note><note type="comment">Date of composition: stag gi* lo'i zla ba gr** pa'i dus</note><relatedItem type="commentaryOn" target="work:3749"/><idno type="APIS">5478</idno></bibl></listBibl><listPlace><place xml:id="place5733"><placeName xml:lang="bo-Latn-x-wylie">sa skya dgon pa</placeName><placeName xml:lang="bo">ས་སྐྱ་དགོན་པ</placeName><placeName type="alt" xml:lang="bo">dpal sa skyaʾi gtsug lag khang</placeName><placeName type="alt" xml:lang="bo">dpal ldan sa skya'i gtsug lag chen po</placeName><placeName type="alt" xml:lang="bo">dpal sa skya'i chos grwa chen po</placeName><placeName type="alt" xml:lang="bo">dpal ldan sa skya'i chos grwa</placeName><placeName type="alt" xml:lang="bo">sa skya dgon chen</placeName><location><geo>28.904203131982346 88.01762829101843</geo></location><idno type="APIS">5733</idno></place></listPlace><listRelation><relation xml:id="rel2231" name="active-at" active="#person5963" passive="#place5733" type="positive"/><relation xml:id="rel2312" name="student-of" active="#person5963" passive="#person6033" type="positive"/><relation xml:id="rel1165" name="author-of" active="#person5963" passive="#work5478" type="positive"><desc>Evidence: <ptr target="#ex113032025-02-2417-16-21"/></desc></relation><relation xml:id="rel1161" name="author-of" active="#person5963" passive="#work5474" type="positive"/><relation xml:id="rel2234" name="composed-at" active="#work5478" passive="#place5733" type="positive"><desc>Evidence: <ptr target="#ex113032025-02-2417-16-21"/></desc></relation></listRelation></standOff><text>
+      <body>
+        <ab>
+         
+          
+     <lb n="24b6"/><seg type="excerpt" xml:id="ex113032025-02-2417-16-21" status="finalized" ana="corpusmd:colophon"> <rs type="person" ana="corpusmd:named_reference" ref="person:5963">btsun pa °°°</rs> gyis <rs type="place" ana="corpusmd:named_reference" ref="place:5733"><expan>chos gra</expan> <expan>chen po</expan> <expan>dpal ldan du</expan> sa skya</rs>r <expan>stag gi</expan> lo'i zla ba bdun pa'i dus sbyar ba'o ||</seg>
+        </ab>
+      </body>
+      
+   </text>
+</TEI>

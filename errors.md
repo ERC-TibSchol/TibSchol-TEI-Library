@@ -1,0 +1,4 @@
+| file                                                                                | problem                                                                      |
+|:------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| 3_064_06_dpe_Anon_jug_bsdus_don_W1PD153536-I1KG13953-1-454 from transkribus dpe.xml | No valid instance data found - ["${ask('enter TibSchol Reference Number')}"] |
+| corpus.xml                                                                          | No valid instance data found - []                                            |

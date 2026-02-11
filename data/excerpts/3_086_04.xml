@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">chos mngon pa mdzod kyi don bsdus te bstan pa</title>
+            <title xml:lang="bo">ཆོས་མངོན་པ་མཛོད་ཀྱི་དོན་བསྡུས་ཏེ་བསྟན་པ</title>
+            <author ref="person:5956">btsun pa dmar ston</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">3_086_04</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst5285">
+               <msIdentifier>
+                  <idno type="APIS">5285</idno>
+                  <idno type="TibSchol">3_086_04</idno>
+                  <idno type="signature">dza 8</idno>
+                  <idno type="drepung">16069</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD153536_7A77F5</idno>
+                  <msName>chos mngon pa mdzod kyi don bsdus te bstan pa</msName>
+                  <msName xml:lang="bo">ཆོས་མངོན་པ་མཛོད་ཀྱི་དོན་བསྡུས་ཏེ་བསྟན་པ</msName>
+                  <msName type="alt" xml:lang="bo">chos mngon pa mdzod kyi don bsdus (catalogue)</msName>
+                  <msName type="alt" xml:lang="bo">chos mngon pa mdzod kyi don bsdus te bstan pa</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:5286">chos mngon pa mdzod kyi don bsdus te bstan pa</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: 'bru tsha.<lb/>Use of abbreviations.<lb/>Some annotations in dbu can.</p>
+                           <dimensions unit="cm">
+                              <width>65</width>
+                              <height>9</height>
+                           </dimensions>
+                        </support>
+                        <extent>23</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>'bras spungs gnas bcu lha khang</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/KUYBGM7V">bKa' gdams gsung 'bum 3</ref>, <biblScope unit="vol">86</biblScope>, <biblScope unit="pp">504-549</biblScope>, <biblScope unit="text">4</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3758"><persName type="main" xml:lang="bo-Latn-x-wylie">vasubandhu</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon dbyig gnyen</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P6119</idno><idno type="APIS">3758</idno></person><person xml:id="person4084"><persName type="main" xml:lang="bo-Latn-x-wylie">bsod nams rin chen</persName><persName xml:lang="bo">བསོད་ནམས་རིན་ཆེན</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">4084</idno></person><person xml:id="person5956"><persName type="main" xml:lang="bo-Latn-x-wylie">btsun pa dmar ston</persName><persName xml:lang="bo">བཙུན་པ་དམར་སྟོན</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">5956</idno><note type="comment">Identical with dMar ston rgya mtsho rin chen? (http://purl.bdrc.io/resource/P3068)</note></person></listPerson><listBibl><bibl xml:id="work3761"><title type="main" xml:lang="bo-Latn-x-wylie">abhidharmakośakārikā</title><title type="alt" xml:lang="bo-Latn-x-wylie">abhidharmakośakārikā</title><title type="alt" xml:lang="bo-Latn-x-wylie">chos mngon pa'i mdzod kyi tshig le'ur byas pa</title><author ref="person:3758">vasubandhu</author><note type="isExtant">True</note><idno type="APIS">3761</idno></bibl><bibl xml:id="work5286"><title type="main" xml:lang="bo-Latn-x-wylie">chos mngon pa mdzod kyi don bsdus te bstan pa</title><title xml:lang="bo">ཆོས་མངོན་པ་མཛོད་ཀྱི་དོན་བསྡུས་ཏེ་བསྟན་པ</title><title type="alt" xml:lang="bo-Latn-x-wylie">chos mngon pa mdzod kyi don bsdus</title><textLang mainLang="bo"/><date type="composition" notBefore="1300-01-01">after 1300</date><author ref="person:5956">btsun pa dmar ston</author><note type="isExtant">True</note><note type="comment">Date of composition: lnga rgya phrag rgyud pa'i nga lnga pa lcags mo glang gi lo ston zla ra ba'i yar ro'i tshes 3&#13;
+The thal-phyir style of the work suggests that it was composed in the 14th century or later.</note><relatedItem type="commentaryOn" target="work:3761"/><respStmt><resp>prompter</resp><name ref="person:4084">bsod nams rin chen</name></respStmt><idno type="APIS">5286</idno></bibl></listBibl><listPlace><place xml:id="place5759"><placeName xml:lang="bo-Latn-x-wylie">mkhas grub rim par byon pa'i gnas mchog tro sa'i chos gra</placeName><placeName xml:lang="bo">མཁས་གྲུབ་རིམ་པར་བྱོན་པའི་གནས་མཆོག་ཏྲོ་སའི་ཆོས་གྲ</placeName><idno type="APIS">5759</idno></place></listPlace><listRelation><relation xml:id="rel4647" name="requests" active="#person4084" passive="#person5956" type="positive"/><relation xml:id="rel4646" name="student-of" active="#person4084" passive="#person5956" type="positive"/><relation xml:id="rel2193" name="active-at" active="#person5956" passive="#place5759" type="positive"/><relation xml:id="rel2190" name="author-of" active="#person5956" passive="#work5286" type="positive"/><relation xml:id="rel2192" name="composed-at" active="#work5286" passive="#place5759" type="positive"/></listRelation></standOff><text>
+      <body>
+          
+      </body>
+      
+   </text>
+</TEI>

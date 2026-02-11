@@ -1,0 +1,562 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">dbu ma 'jug pa'i dka' gnad</title>
+            <title xml:lang="bo">དབུ་མ་འཇུག་པའི་དཀའ་གནད</title>
+            <author ref="person:7585">grags pa seng ge</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:Tr">Transkribus</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>The Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">2_049_04</idno>
+            <idno type="Transkribus">1540832</idno>
+            <date when="2026-11-23">2026-11-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="inst4830">
+               <msIdentifier>
+                  <idno type="APIS">4830</idno>
+                  <idno type="TibSchol">2_049_04</idno>
+                  <idno type="signature">la 518</idno>
+                  <idno type="drepung">19360</idno>
+                  <idno type="BDRC">https://purl.bdrc.io/resource/MW1PD89084_CCB1AE</idno>
+                  <msName>dbu ma 'jug pa'i dka' gnad</msName>
+                  <msName xml:lang="bo">དབུ་མ་འཇུག་པའི་དཀའ་གནད</msName>
+                  <msName type="alt" xml:lang="bo">dbu ma 'jug pa'i dka' gnad grags pa seng ges brjed byang du mdzad pa (cover page)</msName>
+                  <msName type="alt" xml:lang="bo">dbu ma 'jug pa'i dka' ba'i gnas bla ma'i gsung la brten nas rnam par bshad pa (colophon)</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title ref="work:4831">dbu ma 'jug pa'i dka' gnad</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: 'bru tsha.<lb/>Lines per folio: 5.<lb/>On fol. 2b, apart from the first line and the last part of the last line, a smaller script is used, suggesting that annotations from the source manuscript were copied.<lb/>Interlinear notes in dbu med, notably indicating section divisions (sa bcad). Some notes in dbu can.<lb/>Numerous abbreviations.</p>
+                           <dimensions unit="cm">
+                              <width>42.2</width>
+                              <height>6.5</height>
+                           </dimensions>
+                        </support>
+                        <extent>102</extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>'bras spungs gnas bcu lha khang</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>available</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.zotero.org/groups/4394244/tibschol/items/UJDXNMGD">bKa' gdams gsung 'bum 2</ref>, <biblScope unit="vol">49</biblScope>, <biblScope unit="pp">271-473</biblScope>, <biblScope unit="text">4</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+            <prefixDef ident="person" matchPattern="^(\d+)$" replacementPattern="#person$1">
+               <p>Local identifier of a person record from the APIS export; resolves to the element with xml:id 'person' followed by the number.</p>
+            </prefixDef>
+            <prefixDef ident="work" matchPattern="^(\d+)$" replacementPattern="#work$1">
+               <p>Local identifier of a work record from the APIS export; resolves to the element with xml:id 'work' followed by the number.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <standOff><listPerson><person xml:id="person3725"><persName type="main" xml:lang="bo-Latn-x-wylie">candrakīrti</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">slob dpon zla ba grags pa</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">zla grags</persName><sex value="M"/><nationality>Indic</nationality><idno type="BDRC">https://purl.bdrc.io/resource/P5782</idno><idno type="APIS">3725</idno></person><person xml:id="person4593"><persName type="main" xml:lang="bo-Latn-x-wylie">Anonymous</persName><persName xml:lang="bo">ཨཱནོཉམོཨུས</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">4593</idno></person><person xml:id="person7585"><persName type="main" xml:lang="bo-Latn-x-wylie">grags pa seng ge</persName><persName xml:lang="bo">གྲགས་པ་སེང་གེ</persName><persName type="alt" xml:lang="bo-Latn-x-wylie">mkhas pa chen po grags pa seng ge</persName><sex value="M"/><nationality>Tibetan</nationality><idno type="APIS">7585</idno><note type="comment">Possibly sKyel nag Grags pa seng ge (ID:4020).</note></person></listPerson><listBibl><bibl xml:id="work3726"><title type="main" xml:lang="bo-Latn-x-wylie">madhyamakāvatāra</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma la 'jug pa</title><author ref="person:3725">candrakīrti</author><note type="isExtant">True</note><idno type="APIS">3726</idno></bibl><bibl xml:id="work4831"><title type="main" xml:lang="bo-Latn-x-wylie">dbu ma 'jug pa'i dka' gnad</title><title xml:lang="bo">དབུ་མ་འཇུག་པའི་དཀའ་གནད</title><title type="alt" xml:lang="bo-Latn-x-wylie">dbu ma 'jug pa'i dka' gnad grags pa seng ges brjed byang du mdzad pa</title><textLang mainLang="bo"/><date type="composition" notBefore="1210-01-01" notAfter="1355-12-31">after 1210 before 1355</date><author ref="person:7585">grags pa seng ge</author><note type="isExtant">True</note><note type="comment">Commentary on Candrakīrti's (ID:3725) Madhyamakāvatāra (ID:3726) following the structure of the base text, composed as a memorandum (brjed byang). The author "grags pa seng ge" might possibly be sKyel nag Grags pa seng ge (ID:4020). &#13;
+&#13;
+The work mentions a high number of Sanskrit terms. It does not seem to refer to the Svātantrika–Prāsaṅgika distinction and does not distinguish between different types of Madhyamaka schools.</note><relatedItem type="commentaryOn" target="work:3726"/><idno type="APIS">4831</idno></bibl></listBibl><listRelation><relation xml:id="rel777" name="author-of" active="#person7585" passive="#work4831" type="positive"><desc>Evidence: <ptr target="#ex49042025-01-0215-52-17"/></desc></relation></listRelation></standOff><text>
+      <body>
+                
+         <gap reason="omitted"/>
+         
+         
+         
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          <ab xml:space="preserve" type="colophon">
+                 <pb n="101b"/><lb n="102a2"/><seg type="excerpt" xml:id="ex49042025-01-0215-52-17" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (102a2-3)"/> <rs type="work" ana="corpusmd:named_reference" ref="work:4831"><rs type="work" ana="corpusmd:named_reference" ref="work:3726">dbu ma la 'jug pa</rs>'i dka' ba'i gnas <rs type="person" ana="corpusmd:unnamed_reference" ref="person:4593">bla ma</rs>'i gsung la brten nas rnam par bshad pa</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="person:7585">mkhas pa chen po <lb n="102a3"/> grags pa seng ge</rs> zhes bya bas brjed byang du mdzad pa | × rdzogs s+ho || <note type="gloss">1 zhus</note></seg>
+            </ab>
+      </body>
+      
+   </text>
+</TEI>
