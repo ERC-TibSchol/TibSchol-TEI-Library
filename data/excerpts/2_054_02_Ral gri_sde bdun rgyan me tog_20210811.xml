@@ -48,8 +48,7 @@
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
             </availability>
-            <idno type="TibSchol">2_054_02</idno>
-            <date>2023</date>
+            <idno type="TibSchol">2_054_02</idno><idno type="TibSchol">2_054_02_02</idno><idno type="TibSchol">2_054_02_03</idno><date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <p/>
@@ -57,7 +56,9 @@
 Last folio number: 98. &#13;
 The scribe skipped "4" when numbering the folios.&#13;
 Missing folio: 93.&#13;
-Fols. 36 and 37 occur on the same page, so do fols. 41 and 42.</additional></physDesc></sourceDesc>
+Fols. 36 and 37 occur on the same page, so do fols. 41 and 42.&#13;
+Numerous abbreviations.&#13;
+Contrary to (ID:5990), does not seem to include glosses identifying the persons whose views are being cited.</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </principal>
@@ -105,12 +106,23 @@ Fols. 36 and 37 occur on the same page, so do fols. 41 and 42.</additional></phy
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Title"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4944">sde bdun rgyan kyi me tog</rs> bzhug go | <rs type="person" ana="corpusmd:named_reference" ref="db:4006"><abbr>bcom ldan</abbr> ral gris</rs> m</ab>
+      <ab><milestone unit="section" n="Cover page of ID:4943 (1a)"/>
+        <pb edRef="inst:4943" n="1a"/><lb edRef="inst:4943" n="1a1"/> || bla ma dang de la bde mchog 'kho** phyag 'tshal ** de mchag ** <note type="editorial">Writing exercise?</note>
+         <milestone unit="section" n="Signature"/><lb edRef="inst:4943" n="1a2"/> phyi <lb edRef="inst:4943" n="1a3"/> zha <lb edRef="inst:4943" n="1a4"/> 44                 
+        <milestone unit="section" n="Title"/> <lb edRef="inst:4943" n="1a5"/>  || <rs type="work" ana="corpusmd:named_reference" ref="db:4944">sde bdun rgyan kyi me tog</rs> bzhug go | <rs type="person" ana="corpusmd:named_reference" ref="db:4006"><abbr>bcom ldan</abbr> ral gris</rs> m<note type="editorial">Maybe originally read "mdzad"?</note></ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page of ID:5990 (1a)"/>
+        <pb edRef="inst:5990" n="1a"/><note type="editorial">Note: 2(89 pages) on the left; stap on the right</note>   
+          
+         <milestone unit="section" n="Signature"/><lb edRef="inst:5990" n="1a1"/> phyi <lb edRef="inst:5990" n="1a2"/> zha <lb edRef="inst:5990" n="1a3"/> 30                  
+        <milestone unit="section" n="Title"/> <lb edRef="inst:5990" n="1a4"/>  || <rs type="work" ana="corpusmd:named_reference" ref="db:4944">tshad ma'i bstan bcos sde bdun rgyan kyi me tog</rs> ces bya ba <abbr>bzhugs s+ho</abbr> || 
+        </ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Incipit (1b1)"/>
+         <milestone unit="section" n="Incipit"/>
          <milestone unit="section" n="Title"/>
-          <pb n="1b1"/><lb n="1b1"/> || rgya gar skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:4944">shA s+t+ra pra mA na se na sa pa ta a lang ka ra puSH pa</rs> na ma || 
-         bod skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:4944">tshad <lb n="1b2"/> ma'i bstan bcos sde bdun rgyan gyi me tog</rs> ces bya ba ||</ab>
+          <pb edRef="inst:4943" n="1b1"/><lb edRef="inst:4943" n="1b1"/><pb edRef="inst:5990" n="1b1"/><lb edRef="inst:5990" n="1b1"/> || rgya gar skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:4944">shA s+t+ra pra mA na se na sa pa ta a lang ka ra puSH pa</rs> na ma || 
+         bod skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:4944">tshad <lb edRef="inst:4943" n="1b2"/> ma'i bstan bcos sde bdun rgyan gyi me tog</rs> ces bya ba ||</ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (98a5-6)"/>
          <rs type="work" ana="corpusmd:named_reference" ref="db:4944">tshad ma'i bstan bcos sde <choice><corr>bdun</corr><orig>bya</orig></choice> rgyan gyi me tog</rs> ces bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa shag kya'i dge slong <abbr>bcom ldan</abbr> ral gri</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:5680"><rs type="place" ana="corpusmd:named_reference" ref="db:5915">rtsang</rs> <lb n="98a6"/> ru <abbr>lhag gi</abbr> snying po dpal me tog mdangs ldan gyi dgon pa</rs>r sbyar ba legs par rdzogs s+ho || ||

@@ -101,11 +101,10 @@ The phrase "ye dharma..." appearing after the colophon has been reported on the 
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4722">bslab pa'i <app><lem wit="inst:4723">gzhi</lem><rdg wit="inst:4723">gzhi</rdg><rdg wit="inst:4721">‹gzhi›</rdg></app> rin po <app><lem wit="inst:4721">che'i</lem><rdg wit="inst:4721">che'i</rdg><rdg wit="inst:4723">che</rdg></app> phreng bar bsdebs pa ltung ba sde lnga'i kun tu <app><lem wit="inst:4721">spyod</lem><rdg wit="inst:4721">spyod</rdg><rdg wit="inst:4723">spyad</rdg></app> pa | <pb edRef="inst:4723" n="58b"/><lb edRef="inst:4723" n="58b1"/> rin po che'i sgron ma</rs> zhes bya ba | 
+      <ab><pb edRef="inst:4721" n="63a"/><lb edRef="inst:4721" n="63a1"/>  <rs type="work" ana="corpusmd:named_reference" ref="db:4722">bslab pa'i <app><lem wit="inst:4723">gzhi</lem><rdg wit="inst:4723">gzhi</rdg><rdg wit="inst:4721">‹gzhi›</rdg></app> rin po <app><lem wit="inst:4721">che'i</lem><rdg wit="inst:4721">che'i</rdg><rdg wit="inst:4723">che</rdg></app> phreng bar bsdebs pa ltung ba sde lnga'i kun tu <app><lem wit="inst:4721">spyod</lem><rdg wit="inst:4721">spyod</rdg><rdg wit="inst:4723">spyad</rdg></app> pa | <pb edRef="inst:4723" n="58b"/><lb edRef="inst:4723" n="58b1"/> rin po che'i sgron ma</rs> zhes bya ba | 
          <rs type="person" ana="corpusmd:named_reference" ref="db:3933"><app><lem wit="inst:4723">dge slong</lem><rdg wit="inst:4721">dge' slong</rdg><rdg wit="inst:4723">dge slong</rdg></app> byang chub seng ge</rs>s bkod pa <note type="editorial"> The vowels on the syllables "seng ges bkod" are not visible in instance (ID:3721)</note> | rdzogs s+h+yo ||</ab>
       <gap reason="omitted"/>
-      <ab><note type="editorial">Annotation only found in instance (ID:4721)</note>
-         <milestone unit="section" n="Post-colophon annotations (63a2-3)"/>
+      <ab><milestone unit="section" n="Post-colophon annotations (63a2-63a3)"/><note type="editorial">Annotation only found in instance (ID:4721)</note>
          dpe 'di <rs type="person" ana="corpusmd:named_reference" ref="db:6954">shakya'i dge slong <abbr>rin chen</abbr> °° bsod nams</rs><note type="editorial">The reading "rin chen" is uncertain, and the following syllable, before "bsod nams" could not be identified</note> gi yin |</ab>
     </body>
   </text>

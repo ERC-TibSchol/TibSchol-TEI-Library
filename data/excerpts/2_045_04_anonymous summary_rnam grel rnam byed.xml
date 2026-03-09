@@ -145,6 +145,8 @@
                
               <lg> <l>phyi ma <abbr>grags pa'i</abbr> <lb n="107a5"/> <abbr>rjes dpag</abbr> las ||</l> <l>yul gyi dbye ba bstan pa yin ||</l> <l>de ltar shes na grags pa yi ||</l> <l>bsal pa mkhas pa'i dgongs pas 'grub ||</l> </lg></quote>
                <abbr>ces gsung ngo</abbr> |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:named_reference">sngon gyi lo chen</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3809">khyung</rs><note type="editorial">Tentative identification as Khyung rin chen grags (ID:3809)</note> laswo pas ¦ rgol ba'i <abbr>mtshan nyid</abbr> ni | <abbr>sgrub byed</abbr> yang dag rjod pa dang ¦ phyir rgol gyi <abbr>mtshan nyid</abbr> ni ¦ <abbr>sun phyin</abbr> yang dag brjod pa'o || <abbr>zhes gsung pa</abbr> la ¦ <abbr>gzhan dag</abbr> ni de <abbr>mi 'thad de</abbr> ¦</ab>
     </body>
   </text>
 </TEI>

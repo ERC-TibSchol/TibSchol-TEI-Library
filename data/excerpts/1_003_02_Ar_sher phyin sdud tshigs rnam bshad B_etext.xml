@@ -113,13 +113,15 @@ Fading ink. Some syllables have been highlighted (maybe with colored ink), e.g.,
     <body>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Cover page (1a)"/>
-         <pb n="1a"/><lb n="1a1"/><choice><reg>phyi</reg><orig>°y°</orig></choice> <lb n="1a2"/>la <lb n="1a3"/>@@|| <lg><l>ji lta ji rnyed ma lus <abbr>byang chub</abbr> pas ||</l> <l>ye nas grub pa'i chos kyi <note type="gloss">gnas</note> <abbr>lugs</abbr> shes ||</l> <l>kha ba can 'dir sher phyin bstan pa spel ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:3816">byang ye ar</rs> gyi mtshan can rgyal <abbr>gyur zhig</abbr> ||</l></lg>
-         <lb n="1a4"/>209
-         <lb n="1a5"/><rs type="work" ana="corpusmd:named_reference" ref="db:4457">sdud pa <abbr>tshigs</abbr> su bcad pa'i rnaM bshad</rs> |</ab>
+         <pb edRef="inst:4456" n="1a"/><lb edRef="inst:4456" n="1a1"/><choice><reg>phyi</reg><orig>°y°</orig></choice> <lb edRef="inst:4456" n="1a2"/>la <lb edRef="inst:4456" n="1a3"/>@@|| <lg><l>ji lta ji rnyed ma lus <abbr>byang chub</abbr> pas ||</l> <l>ye nas grub pa'i chos kyi <note type="gloss">gnas</note> <abbr>lugs</abbr> shes ||</l> <l>kha ba can 'dir sher phyin bstan pa spel ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:3816">byang ye ar</rs> gyi mtshan can rgyal <abbr>gyur zhig</abbr> ||</l></lg>
+         <lb edRef="inst:4456" n="1a4"/>209
+         <lb edRef="inst:4456" n="1a5"/><rs type="work" ana="corpusmd:named_reference" ref="db:4457">sdud pa <abbr>tshigs</abbr> su bcad pa'i rnaM bshad</rs> |</ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (70b9–71a1)"/><rs type="person" ana="corpusmd:named_reference" ref="db:5830">slob dpon sangs rgyas ye shes</rs> kho na'i rjes su 'brangs nas sbyar ba'i | <rs type="work" ana="corpusmd:named_reference" ref="db:4457">shes rab gyi pha rol du <lb n="71a"/><lb n="71a1"/>phyin pa sdud pa tshigs su bcad pa'i rnam par bshad pa |</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3816">shag kya'i dge slong byang chub ye shes</rs> kyis mdzad pa || rdzogs s+hO || ||</ab>
+      <ab><milestone unit="section" n="Colophon (70b9–71a1)"/>
+         <rs type="person" ana="corpusmd:named_reference" ref="db:5830">slob dpon sangs rgyas ye shes</rs> kho na'i rjes su 'brangs nas sbyar ba'i | <rs type="work" ana="corpusmd:named_reference" ref="db:4457">shes rab gyi pha rol du <lb edRef="inst:4456" n="71a"/><lb edRef="inst:4456" n="71a1"/> phyin pa sdud pa tshigs su bcad pa'i rnam par bshad pa |</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3816">shag kya'i dge slong byang chub ye shes</rs> kyis mdzad pa || rdzogs s+hO || ||</ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4457">shes rab pha rol phyin pa'i || rnam par bshad pa</rs> 'di sbyar gyis ||</ab>
+      <ab><l><rs type="work" ana="corpusmd:named_reference" ref="db:4457">shes rab pha rol phyin pa'i</rs> ||</l> 
+            <l><rs type="work" ana="corpusmd:named_reference" ref="db:4457">rnam par bshad pa</rs> 'di sbyar gyis ||</l></ab>
     </body>
   </text>
 </TEI>

@@ -101,21 +101,26 @@
     <body>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Cover page (p. 48)"/>
-         <pb n="48"/> @@ || <rs type="work" ana="corpusmd:named_reference" ref="db:5515"><rs type="work" ref="db:3775">'brel ba brtag pa</rs> rgyan gyi me tog</rs> ces bya ba bzhugs so ||</ab>
+         <pb n="48"/><lb n="48.1"/> @@ || <rs type="work" ana="corpusmd:named_reference" ref="db:5515"><rs type="work" ref="db:3775">'brel ba brtag pa</rs> rgyan gyi me tog</rs> ces bya ba bzhugs so ||</ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Incipit (1a1–1a2)"/>
+      <ab><milestone unit="section" n="Incipit (1a1–1a2, p. 49)"/>
          <milestone unit="section" n="Title"/>
-            <pb n="1a"/><lb n="1a1"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5558"> rgya gar</rs> skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:5515">saM ban d+ha pa ri k+Sha a laM ka ra puSH+pa</rs> nA ma ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5559">bod</rs> skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:5515"><rs type="work" ana="corpusmd:named_reference" ref="3775">'brel ba brtag pa</rs> rgyan gyi me tog</rs> ces bya ba |</ab>
+            <pb n="1a"/><lb n="1a1"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5558">rgya gar</rs> skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:5515"><rs type="work" ref="db:3775">saM ban d+ha pa ri k+Sha</rs> a laM ka ra puSH+pa</rs> nA ma ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5559">bod</rs> skad du | <rs type="work" ana="corpusmd:named_reference" ref="db:5515"><rs type="work" ana="corpusmd:named_reference" ref="3775">'brel ba brtag pa</rs> rgyan gyi me tog</rs> ces bya ba |</ab>
       <gap reason="omitted"/>
-      <ab><rs type="school">nyan thos sde pa</rs> dang <rs type="school">sems tsam pa</rs> rgyu 'bras kyi 'brel pa 'dod pa 'gog pa ni <quote source="db:4214" n="v. 7">rgyu dang 'bras bu'i </quote>zhes pas <pb n="2a"/><lb n="2a1"/> de gnyis dus mnyam du 'gog la | <quote source="db:4214" n="v. 8">rim gyis <!--SP 8 D: rim las; SPĀ D: rim gyis--></quote> zhes pas snga phyi gnyis gcig la gnas pa'i 'brel ba 'gog ste | 'di ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bod</rs> kyang <lb n="2a2"/> 'dod do ||</ab>
+      <ab><rs type="school">nyan thos sde pa</rs> dang <rs type="school">sems tsam pa</rs> rgyu 'bras kyi 'brel pa 'dod pa 'gog pa ni <quote source="db:4214" n="v. 7">rgyu dang 'bras bu'i</quote> zhes pas <pb n="2a"/><lb n="2a1"/> de gnyis dus mnyam du 'gog la | <quote source="db:4214" n="v. 8">rim gyis <!--SP 8 D: rim las; SPĀ D: rim gyis--></quote> zhes pas snga phyi gnyis gcig la gnas pa'i 'brel ba 'gog ste | 'di ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bod</rs> kyang <lb n="2a2"/> 'dod do ||</ab>
       <gap reason="omitted"/>
       <ab><lb n="4a2"/> pa de dag phal cher ni <rs type="work" ana="corpusmd:named_reference" ref="db:5567">rang 'grel</rs> dang <rs type="person" ana="corpusmd:named_reference" ref="db:5534">slob dpon dul lha</rs>'i <rs type="work" ana="corpusmd:named_reference" ref="db:5568">'grel bshad</rs> bzhin <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">bdag</rs> gis bris so ||</ab>
       <gap reason="omitted"/>
       <ab><rs type="person" ana="corpusmd:named_reference" ref="db:5552">bram ze shaM kar <lb n="4a3"/> nan ta</rs> 
-         <quote source="db:5569" n="D22a5-6">'brel pa bkag pas bdag med gnyis bsgrubs par bshad de 'brel pa med na byed pa po'i bdag dang bzung 'dzin med <lb n="4a4"/> pas chos kyi bdag med bshad</quote><!--not a literal citation of SPA. D reads: de'i phyir 'brel pa med pa na gang zag gi bdag med pa sgrub po//de bzhin du rang gi bdag nyid tsam la gnas pa gzhan gyi dbang nyid dang gzhan dang sbyor ba dang / ltos pa nyid la sogs pa med pa na gzung ba dang 'dzin pa'i dngos po med pa ni chos kyi bdag med pa yin no//--> ces zer ro ||</ab>
+         <quote source="db:5569" n="D22a5-6">'brel pa bkag pas bdag med gnyis bsgrubs par bshad de 'brel pa med na byed pa po'i bdag dang bzung 'dzin med <lb n="4a4"/> pas chos kyi bdag med bshad</quote><note type="editorial">Not a literal citation of SPA. D reads: de'i phyir 'brel pa med pa na gang zag gi bdag med pa sgrub po//de bzhin du rang gi bdag nyid tsam la gnas pa gzhan gyi dbang nyid dang gzhan dang sbyor ba dang | ltos pa nyid la sogs pa med pa na gzung ba dang 'dzin pa'i dngos po med pa ni chos kyi bdag med pa yin no ||</note> ces zer ro ||</ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (4b1–4b2)"/>
-            <pb n="4b"/><lb n="4b1"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5515"><rs type="work" ana="corpusmd:named_reference" ref="db:3775"> 'brel pa brtag pa</rs> rgyan gyi me tog</rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s sbyar ba rdzogs so ||</ab>
+      <ab><milestone unit="section" n="Colophon (4b1)"/>
+            <pb n="4b"/><lb n="4b1"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5515"><rs type="work" ana="corpusmd:named_reference" ref="db:3775"> 'brel pa brtag pa</rs> rgyan gyi me tog</rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s sbyar ba rdzogs so ||
+         <milestone unit="section" n="Auspicious statement (4b1–4b2)"/>
+        bde legs su gyur <lb n="4b2"/> cig || </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Editors' note"/>
+         phyag dpe 'di'i ma phyi 'bras spungs tshogs chen steng gi gnas bcu lha khang mdo'i dpe mdzod nas khams sprul bsod nams don grub kyis g.yar po zhus te glog klad du bcug pas rgyal bstan dar zhing 'gro kun rnam mkhyen thob pa'i rgyur gyur cig ||</ab>
     </body>
   </text>
 </TEI>

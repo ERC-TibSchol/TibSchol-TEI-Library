@@ -6,11 +6,16 @@
             <author ref="apis:3854">spar phu ba blo gros seng ge</author>
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"/>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"/>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Translation(s)</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:KK">Kazuo Kano</name>
             </respStmt>
             <respStmt>
                <resp>Data Modelling</resp>

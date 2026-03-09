@@ -2,16 +2,15 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">deb ther sngon po</title>
-            <author ref="apis:5839">'gos lo tsA ba gzhon nu dpal</author>
+				<title type="main" xml:lang="bo-Latn-x-wylie">rab tu gnas par byed pa don gsal ba</title>
+            <author ref="apis:3784">rin chen bzang po (1)</author>
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:">Sakya Resource Center</name>
-               <name ref="corpusmd:">Tibetan Himalayan Digital Library (THDL)</name>
+               <name ref="corpusmd:PH&gt;">Pascale Hugon</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="corpusmd:TD">Tsering Drongshar</name>
             </respStmt>
             <respStmt>
                <resp>Data Modelling</resp>
@@ -48,13 +47,17 @@
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
             </availability>
-            <idno type="TibSchol">X_0_03</idno>
-            <idno type="Zotero">R894SIKE</idno>
-            <date>2023</date>
+            <idno type="TibSchol">1_001_02</idno>
+             <idno type="TibSchol">1_001_04</idno><date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Modern typeset edition in dbu can.</additional></physDesc></sourceDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">33.5 x 7.5</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+Orthography:&#13;
+- Additional b- prefixes (e.g., brdzogs, bskyongs, bsreg, bston, dge bslong)&#13;
+- Enclitic particles ’ang and ’o appear as separate syllables&#13;
+- Alternative prefix: m- instead of ’a- (e.g., mthor for ’thor)&#13;
+- las stsogs pa for la sogs pa</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </principal>
@@ -102,16 +105,16 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3806">bdag nyid chen po de</rs>'i sku tshe'i mthar <lb n="404,4"/> gtugs pa na | <rs type="person" ana="corpusmd:named_reference" ref="db:3831">slob dpon phywa pa</rs>s 'bad pas gsan nas <rs type="work" ana="corpusmd:named_reference" ref="db:6597"><rs type="work" ana="corpusmd:named_reference" ref="db:3711">'grel chung</rs> gi <lb n="404,5"/> TI ka che ba</rs> zhig mdzad de | de'i rjes su 'brang ba dang bcas pa rnams ni <lb n="404,6"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3816">ar</rs> gyi lugs las tha dad pa yin no ||</ab>
+      <ab><milestone unit="section" n="Cover page (1a)"/><!--Cover page of 1_001_02, id:4223--><pb edRef="inst:4423" n="1a"/><lb edRef="inst:4423" n="1a1"/>
+         phyi <lb edRef="inst:4423" n="1a2"/> ma <lb edRef="inst:4423" n="1a3"/> 721 
+         <lb edRef="inst:4423" n="1a4"/>|| <rs type="work" ana="corpusmd:named_reference" ref="db:4424">rab tu gnas par byed pa don <choice><reg>gsal</reg><orig>°gsal</orig></choice></rs> bzhugs lags ||</ab>
       <gap reason="omitted"/>
-      <ab><rs type="place" ana="corpusmd:named_reference" ref="db:4352">bo dong</rs> <lb n="817,13"/> <rs type="place" ana="corpusmd:named_reference" ref="db:4352"><choice><corr>e</corr><sic>or</sic></choice></rs>r byon | 
-         <rs type="person" ana="corpusmd:named_reference" ref="db:3904">chos rje rin chen rtse mo</rs> la mngon pa gong 'og <rs type="work" ana="corpusmd:named_reference" ref="db:3774">tshad ma rnam</rs> <lb n="817,14"/> <rs type="work" ana="corpusmd:named_reference" ref="db:3774">nges</rs> | <rs type="work" ana="corpusmd:named_reference" ref="db:7338">shes rab 'grel chung</rs> gsan zhing | 'chad rtsod rtsom gsum la <lb n="817,15"/> 'gran zla med pa'i grags pa thob |</ab>
+      <ab><milestone unit="section" n="Colophon (2b2–2b5)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:5624"><lb edRef="inst:4423" n="2b2"/> rab tu gnas <lb edRef="inst:4423" n="2b3"/> pa'i rgyud</rs> <note type="editorial" resp="PH">The identification as the Pratiṣṭhāvidhi is tentative.</note> dang <rs type="person" ref="db:5625" ana="corpusmd:named_reference">slob dpon kun dga' snying po </rs> las stsogs pas mdzad pa'i bstan bcos rnams <app><lem wit="inst:4428">gcig</lem> <rdg wit="inst:4428">gcig</rdg> <rdg wit="inst:4423">cig</rdg></app> na'ang <app><lem wit="inst:4428">ma rdzogs</lem> <rdg wit="inst:4428">ma rdzogs</rdg> <rdg wit="inst:4423">rdzogs</rdg></app> shing <app><lem wit="inst:4428">gzhung</lem> <rdg wit="inst:4428">gzhung</rdg><rdg wit="inst:4423">bzhung</rdg></app> mang du <app><lem wit="inst:4428">'thor</lem> <rdg wit="inst:4423">mthor</rdg> <rdg wit="inst:4428">'thor</rdg></app> ba'i phyir | <lb edRef="inst:4428" n="1b4"/> de dag cig tu lag tu blang pa ma <lb edRef="inst:4423" n="2b4"/> 'ongs pa'i skye bo blo chung pa rnams la phan pa'i phyir | <rs type="person" ref="db:3784" ana="corpusmd:named_reference"><app><lem wit="inst:4423">shag kya'i dge slong</lem> <rdg wit="inst:4423">shag kya'i dge bslong</rdg> <rdg wit="inst:4428">sha°pa'i dge slong</rdg></app> rin chen bzang po</rs>s nye bar sbyar <app><lem wit="inst:4423">ba'o</lem> <rdg wit="inst:4423">ba'o</rdg> <rdg wit="inst:4428">ba</rdg></app> || rdzogs s+h+yo ||
+         </ab>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3887">gnyal zhig</rs> bu dgu'i ya gyal du gyur pa <rs type="person" ana="corpusmd:named_reference" ref="db:3904">bo dong rin po che rin chen rtse mo</rs>s kyang bla ma se mo che ba la dus kyi 'khor lo'i bshad pa dang man ngag thams cad mnos te |</ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3904">bo dong rin po che</rs>'i slob ma <rs type="person" ana="corpusmd:named_reference" ref="db:4127">stag sde ba seng ge rgyal mtshan</rs> ni | pha ri lung du chu pho spre'u la 'khrungs | <rs type="person" ana="corpusmd:named_reference" ref="db:3904">bo dong <pb n="918"/> <lb n="918,"/> rin po ch</rs>e la phar tshad mngon gsum dang | khyad par du dus 'khor dbang bshad pa man ngag dang bcas pa gsan | </ab>
-      <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:6646">shong ston rdo rje rgyal mtshan</rs> gyis <rs type="person" ana="corpusmd:named_reference" ref="db:4127">stag sde ba</rs> la tshad ma la sogs pa'i bstan bcos mang po la slob gnyer mdzad |</ab>
+      <ab><milestone unit="section" n="Post-colophon addition (1) in (ID:4423): Manuscript ownership (2b5)"/>
+         <lb edRef="inst:4423" n="2b5"/> <rs type="person" ref="db:4425" ana="corpusmd:named_reference">dge bar byed pa</rs>'i dpe' lags || zhal gro || dge'o ||</ab>
     </body>
   </text>
 </TEI>

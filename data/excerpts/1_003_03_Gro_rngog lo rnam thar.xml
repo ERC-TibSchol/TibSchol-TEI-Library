@@ -2,11 +2,12 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">blo ldan shes rab kyi rnam thar</title>
+				<title type="main" xml:lang="bo-Latn-x-wylie">'jig rten mig gcig blo ldan shes rab kyi rnam thar</title>
             <author ref="apis:3806">gro lung pa blo gros 'byung gnas</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>
+               <name ref="BDRC">BUDA OCR based on W1KG25249</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
@@ -106,7 +107,7 @@ Orthography:&#13;
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4459"><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog</rs></note><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786"> lo tsha ba chen po</rs>'i rnam thar <abbr>bzhugs so</abbr></rs> ||</ab>
+      <ab><lb n="1a4"/><rs type="work" ana="corpusmd:named_reference" ref="db:4459"><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog</rs></note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">lo tsha ba chen po</rs>'i rnam thar <abbr>bzhugs so</abbr></rs><note type="editorial">Title in dbu can</note> ||</ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (24b3–24b5)] "/> <rs type="work" ana="corpusmd:named_reference" ref="db:4459"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3786">bla ma rje btsun <lb n="24b4"/> dam pa <rs type="place" ana="corpusmd:named_reference" ref="db:4332">gsang phu</rs> lo tsha <anchor xml:id="a51"/> ba chen po</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog blo ldan shes rab</rs></note> la bstod pa'i tshig le'ur <anchor xml:id="a52"/> byas pa'i rnam par bshad pa</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3806">shAkya'i <anchor xml:id="a53"/> dge slong <note type="gloss">gro lung pa chen po</note> blo gros 'byung gnas</rs> kyis sbyar ba <lb n="24b5"/> rdzogs s+ho ||</ab>
       <gap reason="omitted"/>

@@ -54,7 +54,9 @@
          </publicationStmt>
          <sourceDesc>
             <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description"></additional></physDesc></sourceDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+In the margin, left of "gcig" on fol. 1a: ci la.&#13;
+Frequent annotations, including some long ones, e.g., fol. 5a.</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </principal>

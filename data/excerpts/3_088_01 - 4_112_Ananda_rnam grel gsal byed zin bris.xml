@@ -2,15 +2,15 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam 'grel gsal ba byed pa'i zin bris rin chen snying po</title>
+				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam 'grel gsal bar byed pa'i zin bris legs par bshad pa'i rin po che'i snying po</title>
             <author ref="apis:5970">kun dga'</author>
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"/>
+                <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"/>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <respStmt>
                <resp>Data Modelling</resp>
@@ -48,6 +48,7 @@
                </licence>
             </availability>
             <idno type="TibSchol">3_088_01</idno>
+            <idno type="TibSchol">4_112_04</idno>
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>

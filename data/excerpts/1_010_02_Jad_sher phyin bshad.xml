@@ -10,7 +10,7 @@
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"/>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <respStmt>
                <resp>Data Modelling</resp>

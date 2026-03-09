@@ -112,8 +112,21 @@
       <gap reason="omitted"/>
       <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3805">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3805">gnyal</rs></note> nyan rang la chos kyi bdag med rtogs pa yod pas de mi rigs so zhes so ||</ab>
       <gap reason="omitted"/>
+      <ab><abbr>gsum</abbr> las ¦ rtog pas btags pa dgag pa ni dbang du gyur pa thob pa'i sgom pa'o <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3807">'bre</rs></note> zhes pa mi 'thad de nyan rang la rtse mo'i sbyor ba <lb n="25b2"/> yod par thal ba'i phyir ro |</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3820">kha <abbr>cig</abbr></rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3820">'dul</rs></note> skye med gsum bsdus nas dbang du gyur pa thob pa'i sgom pa zhes so | </ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3872">kha <abbr>cig</abbr></rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3872">rtsang 'bre</rs></note> de'i steng du chos sku thob pa'i phyir zhes pa la 'dod pa mi 'thad de | rnaM kun bkag pa des 'di yang khegs pa'i phyir dang | de gsum ka <lb n="25b3"/> ltar na yang tshogs lam na rtse mo yod par thal te| dran pa nyer bzhag la dbang du gyur pa thob pas so || </ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma</rs>s <rs type="person" ana="corpusmd:named_reference" ref="db:3872">rtsang 'bre</rs> skye med gsum bsdus sgom sangs rgyas kyi sar yod par 'dod pa dang gzhan du sbyor ba tsam gyi mtshan nyid du 'dod pa ni 
+            mtshon bya med kyang mtshan nyid srid par thal ba gang <lb n="25b5"/> gis zlog |</ab>
+      <gap reason="omitted"/>
+      <ab><note><rs type="person" ana="corpusmd:named_reference" ref="db:3887">gnyal</rs></note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3887">bla ma dag</rs> rtogs pa sa dang po dang spangs pa sa brgyad par 'dus ces pa mi 'thad de | sgom lam gang yang ma skyes shing sgom spang gi nyon mongs pa chung gsuM yod pa'i phyir ro ||</ab>
+      <gap reason="omitted"/>
+      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:6795">kha <abbr>cig</abbr></rs> <rs type="person" ana="corpusmd:named_reference" ref="db:6795">rgya <abbr>yon tan</abbr> seng ge</rs> snang pa nyid dgag bya yin te nyes pa <abbr>thams cad</abbr> 'di las byung pas so zhes zer ro ||</ab>
+      <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (185a2-185a4)"/>          
-               <rs type="work" ana="corpusmd:named_reference" ref="db:4575"><rs type="work" ana="corpusmd:named_reference" ref="db:3711">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan</rs> ces <lb n="185a3"/> bya ba'i 'grel bshad 'thad pa'i 'od 'bar</rs> zhes bya ba | shes bya'i nam mkha' la blo gros kyi dkyil 'khor rgyas shing | legs smra'i 'od kyis phas rgol mun pa'i smag rum sel bar byed pa <rs type="person" ana="corpusmd:named_reference" ref="db:3884">shAkya'i dge slong rigs par <lb n="185a4"/>smra ba shes rab 'od zer</rs> gyis sbyar ba rdzogs so || × || dag cing snyoms pa <rs type="person" ana="corpusmd:named_reference" ref="db:4576">shes rab 'bum</rs> gyis bris | dge'o || ||</ab>
+               <rs type="work" ana="corpusmd:named_reference" ref="db:4575"><rs type="work" ana="corpusmd:named_reference" ref="db:3711">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan</rs> ces <lb n="185a3"/> bya ba'i 'grel bshad 'thad pa'i 'od 'bar</rs> zhes bya ba | shes bya'i nam mkha' la blo gros kyi dkyil 'khor rgyas shing | legs smra'i 'od kyis phas rgol mun pa'i smag rum sel bar byed pa <rs type="person" ana="corpusmd:named_reference" ref="db:3884">shAkya'i dge slong rigs par <lb n="185a4"/>smra ba shes rab 'od zer</rs> gyis sbyar ba rdzogs so || × || dag cing snyoms pa <rs type="person" ana="corpusmd:named_reference" ref="db:4576">shes rab 'bum</rs> gyis bris | dge'o | || |</ab>
     </body>
   </text>
 </TEI>

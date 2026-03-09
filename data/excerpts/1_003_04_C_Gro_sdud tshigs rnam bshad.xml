@@ -112,7 +112,7 @@ In the left margin on the verso: mdo sdud pa'i 'grel pa.</additional></physDesc>
          <l>chos kyi nyi chen dge legs 'byung gnas myur thob shog ||</l></lg></ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (118b2–118b3)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4462">'phags pa yon tan rin po che sdud pa tshigs su bcad pa <lb n="118b3"/> rnam par bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3806">shAkya'i dge slong blo gros 'byung gnas</rs> kyi brjed byang tsam du bkod pa rdzogs so || ||</ab>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4462">'phags pa yon tan rin po che sdud pa tshigs su bcad pa <lb n="118b3"/> rnam par bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3806">shAkya'i dge slong blo gros 'byung gnas</rs> kyi brjed byang tsam du bkod pa rdzogs so  ||  || </ab>
     </body>
   </text>
 </TEI>
