@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">pramāṇaviniścayaṭīkā (1)</title>
-            <author ref="apis:3780">dharmottara</author>
+            <author ref="db:3780">dharmottara</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

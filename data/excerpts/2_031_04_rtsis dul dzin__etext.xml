@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">las kyi lde mig</title>
-            <author ref="apis:3946">rtsis pa mkhan po gzhon nu seng ge</author>
+            <author ref="db:3946">rtsis pa mkhan po gzhon nu seng ge</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>

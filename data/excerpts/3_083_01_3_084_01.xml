@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">chos mngon pa'i mdzod kyi tshig le'ur byas pa'i 'grel pa mngon pa'i rgyan</title>
-            <author ref="apis:4090">mchims 'jam pa'i dbyangs</author>
+            <author ref="db:4090">mchims 'jam pa'i dbyangs</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:BUDA">BUDA OCR I1KG15595</name>

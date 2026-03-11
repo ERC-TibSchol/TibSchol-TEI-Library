@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">dbu ma bden gnyis kyi don bsdus</title>
-            <author ref="apis:3831">phywa pa chos kyi seng ge</author>
+            <author ref="db:3831">phywa pa chos kyi seng ge</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>

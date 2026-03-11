@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">zab pa'i rgyud dbyes pa'i rdo rje'i don yang dag par bsdus pa</title>
-            <author ref="apis:4006">rigs pa'i ral gri</author>
+            <author ref="db:4006">rigs pa'i ral gri</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:BUDA">BUDA

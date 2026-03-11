@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma'i don bsdus pa</title>
-            <author ref="apis:4094">gnas drug pa blo gros mtshungs med</author>
+            <author ref="db:4094">gnas drug pa blo gros mtshungs med</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Fukuda">https://tibetan-studies.net/ (accessed 03.02.2019)</name>

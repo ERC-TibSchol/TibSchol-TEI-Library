@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen pa'o rgyud bla ma'i bstan bcos gsal byed</title>
-            <author ref="apis:4593">Anonymous</author>
+            <author ref="db:4593">Anonymous</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

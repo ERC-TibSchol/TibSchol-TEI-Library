@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">dkar brgyud gser 'phreng rnam thar 'brug ra lung gdan rabs yan</title>
-            <author ref="apis:7496">rgyal thang pa bden chen rdo rje</author>
+            <author ref="db:7496">rgyal thang pa bden chen rdo rje</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:MI">Michael Ium</name>

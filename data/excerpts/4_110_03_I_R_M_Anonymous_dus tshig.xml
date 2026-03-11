@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">dus tshigs kun mthun</title>
-            <author ref="apis:6031">chos 'dzin</author>
+            <author ref="db:6031">chos 'dzin</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">lha chos nyams len gyi man ngag thig le chen po'i dbyings su byang chub kyi sems spel ba</title>
-            <author ref="apis:4593">Anonymous</author>
+            <author ref="db:4593">Anonymous</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>

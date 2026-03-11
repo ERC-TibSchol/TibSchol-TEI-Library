@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">legs spyad nyi ma'i 'od zer mtshon cha'i rgyal po</title>
-            <author ref="apis:4314">bu ston seng ge 'od (1)</author>
+            <author ref="db:4314">bu ston seng ge 'od (1)</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

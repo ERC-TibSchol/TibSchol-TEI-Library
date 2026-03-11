@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">rab tu gnas par byed pa don gsal ba</title>
-            <author ref="apis:3784">rin chen bzang po (1)</author>
+            <author ref="db:3784">rin chen bzang po (1)</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH&gt;">Pascale Hugon</name>

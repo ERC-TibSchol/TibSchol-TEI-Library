@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
      <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i ti ka chen po legs bshad bstan pa'i 'od zer</title>
-      <author ref="apis:4018">chu mig pa seng ge dpal</author>
+      <author ref="db:4018">chu mig pa seng ge dpal</author>
       <respStmt>
         <resp>Transcribed by</resp>
         <name ref="corpusmd:PH">Pascale Hugon</name>

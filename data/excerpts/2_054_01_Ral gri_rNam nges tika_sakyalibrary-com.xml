@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i 'grel bshad rgyan gyi me tog</title>
-            <author ref="apis:4006">rigs pa'i ral gri</author>
+            <author ref="db:4006">rigs pa'i ral gri</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Sakya Library">Sakya Library</name>

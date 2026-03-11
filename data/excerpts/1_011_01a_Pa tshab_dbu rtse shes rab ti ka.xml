@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">dbu ma rtsa ba'i shes rab kyi ti ka bstan bcos sgron ma gsal bar byed pa</title>
-            <author ref="apis:3868">pa tshab nyi ma grags</author>
+            <author ref="db:3868">pa tshab nyi ma grags</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:BUDA">BUDA OCR UTIE0OPP000810_v001</name>

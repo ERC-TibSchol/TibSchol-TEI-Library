@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">rtog ge rigs pa'i rgyan gyi snying po</title>
-            <author ref="apis:5510">dar ma dkon mchog</author>
+            <author ref="db:5510">dar ma dkon mchog</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>

@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i spyod pa la 'jug pa'i sgrung 'grel</title>
-            <author ref="apis:3930">dbang phyug rin chen (1)</author>
+            <author ref="db:3930">dbang phyug rin chen (1)</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:BUDA">BUDA OCR UTIE0OPP001829_v065</name></respStmt>

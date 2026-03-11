@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i dka' gnad kyi mtha' dpyad mun sel</title>
-            <author ref="apis:5963">dpal gyi ming 'chang ba</author>
+            <author ref="db:5963">dpal gyi ming 'chang ba</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>

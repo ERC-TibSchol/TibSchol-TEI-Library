@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po rgyud bla ma'i bsdus pa'i don</title>
-            <author ref="apis:3831">phywa pa chos kyi seng ge</author>
+            <author ref="db:3831">phywa pa chos kyi seng ge</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:KK">Kazuo Kano</name>

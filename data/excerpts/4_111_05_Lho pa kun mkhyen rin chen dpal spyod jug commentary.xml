@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems pa'i spyod pa la 'jug pa'i zin bris 'jam dpal zhal lung</title>
-            <author ref="apis:5463">lho pa kun mkhyen rin chen dpal</author>
+            <author ref="db:5463">lho pa kun mkhyen rin chen dpal</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:BUDA">BUDA OCR of MW3CN3408_5702FB</name>

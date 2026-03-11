@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po mdo sde rgyan gyi rnam bshad 'thad pa kun ldan</title>
-            <author ref="apis:5963">dpal gyi ming 'chang ba</author>
+            <author ref="db:5963">dpal gyi ming 'chang ba</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Tr">Transkribus</name>

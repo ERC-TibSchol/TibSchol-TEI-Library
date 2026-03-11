@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">sgra'i bstan bcos rig pa bklag pa'i don</title>
-            <author ref="apis:4100">rdo ban chos kyi gzi brjid</author>
+            <author ref="db:4100">rdo ban chos kyi gzi brjid</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">bslab bya'i gnas gtan la 'beb par byed pa'i legs bshad khyad par gsum ldan</title>
-            <author ref="apis:4009">'jam dbyangs shes rab rgya mtsho</author>
+            <author ref="db:4009">'jam dbyangs shes rab rgya mtsho</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

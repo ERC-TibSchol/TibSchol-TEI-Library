@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma'i de kho na nyid bsdus pa</title>
-            <author ref="apis:6062">klong chen rab 'byams pa</author>
+            <author ref="db:6062">klong chen rab 'byams pa</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Fukuda">http://tibetan-studies.net (accessed 03.02.2019)</name>

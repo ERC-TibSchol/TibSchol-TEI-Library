@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i 'grel bshad tshig don rnam par nges pa nyi ma'i snying po</title>
-            <author ref="apis:5518">bo dong ba 'jam pa'i dbyangs sho re pa</author>
+            <author ref="db:5518">bo dong ba 'jam pa'i dbyangs sho re pa</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Fukuda">http://tibetan-studies.net (accessed 03.02.2019)</name>

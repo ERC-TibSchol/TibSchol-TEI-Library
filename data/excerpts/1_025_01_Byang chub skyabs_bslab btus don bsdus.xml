@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems pa'i bslabs pa kun las btus pa'i don bsdus pa</title>
-            <author ref="apis:3864">'jad pa byang chub skyabs</author>
+            <author ref="db:3864">'jad pa byang chub skyabs</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:SB">Serena Biondo</name>

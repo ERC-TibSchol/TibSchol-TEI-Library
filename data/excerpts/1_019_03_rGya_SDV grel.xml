@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">de kho na nyid don gsal bar byed pa</title>
-            <author ref="apis:3834">rgya dmar ba byang chub grags</author>
+            <author ref="db:3834">rgya dmar ba byang chub grags</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:RA">Ritsu Akahane</name>

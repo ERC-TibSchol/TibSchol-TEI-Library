@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">rtsa ba'i lung so sor thar pa'i TIk+ka legs par bkod pa</title>
-            <author ref="apis:3969">rog chos kyi dbang phyug</author>
+            <author ref="db:3969">rog chos kyi dbang phyug</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

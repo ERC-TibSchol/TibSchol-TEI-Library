@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">me tog phreng rgyud kyi TIk+ka legs bshad rgya mtsho</title>
-            <author ref="apis:4005">snar thang bsam gtan bzang po</author>
+            <author ref="db:4005">snar thang bsam gtan bzang po</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:SB">Serena Biondo</name>

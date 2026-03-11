@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">grub mtha' rgya mtsho'i rgyan</title>
-            <author ref="apis:5951">'phags pa</author>
+            <author ref="db:5951">'phags pa</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

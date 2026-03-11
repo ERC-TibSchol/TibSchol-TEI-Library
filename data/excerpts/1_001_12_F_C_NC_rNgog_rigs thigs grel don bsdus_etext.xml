@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">rigs thigs 'grel pa'i don bsdus</title><author ref="apis:3786">rngog blo ldan shes rab</author>
+				<title type="main" xml:lang="bo-Latn-x-wylie">rigs thigs 'grel pa'i don bsdus</title><author ref="db:3786">rngog blo ldan shes rab</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>

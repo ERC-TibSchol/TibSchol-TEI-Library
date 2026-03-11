@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po mdo sde rgyan gyi legs bshad bstan pa'i nyi ma</title>
-            <author ref="apis:3900">'jam dbyangs rin chen grags pa</author>
+            <author ref="db:3900">'jam dbyangs rin chen grags pa</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>
