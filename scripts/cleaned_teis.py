@@ -30,7 +30,7 @@ def process_tei_body(src_body):
                 continue
             if (
                 child.tag.endswith("seg")
-                and child.get("type") == "excerpt"
+                and child.get("type") in ("excerpt", "shared")
                 and child.get("status") in ("finalized", "reviewed", "edited")
             ):
                 yield child
@@ -151,12 +151,12 @@ def process_tei_header(src_header):
     # Helper to remove comments and processing instructions from an element tree
     def _remove_comments_and_pis(elem):
         # remove XML comment nodes
-        for c in elem.xpath('.//comment()'):
+        for c in elem.xpath(".//comment()"):
             parent = c.getparent()
             if parent is not None:
                 parent.remove(c)
         # remove processing instructions
-        for pi in elem.xpath('.//processing-instruction()'):
+        for pi in elem.xpath(".//processing-instruction()"):
             parent = pi.getparent()
             if parent is not None:
                 parent.remove(pi)
@@ -165,9 +165,9 @@ def process_tei_header(src_header):
     cleaned_fileDesc = deepcopy(fileDesc)
     _remove_comments_and_pis(cleaned_fileDesc)
     # Ensure availability is set to public in the cleaned fileDesc
-    avail = cleaned_fileDesc.find('.//tei:availability', namespaces=NS)
+    avail = cleaned_fileDesc.find(".//tei:availability", namespaces=NS)
     if avail is not None:
-        avail.set('status', 'public')
+        avail.set("status", "public")
     cleaned_encodingDesc = deepcopy(encodingDesc) if encodingDesc is not None else None
     if cleaned_encodingDesc is not None:
         _remove_comments_and_pis(cleaned_encodingDesc)

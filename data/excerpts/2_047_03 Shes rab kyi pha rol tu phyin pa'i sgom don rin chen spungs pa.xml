@@ -106,6 +106,11 @@ Proofread twice (2 zhus)</additional></physDesc></sourceDesc>
        <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> la <lb n="1a3"/> 528
          <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4795">sher phyin sgom don</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3977"><abbr>nam mkha'</abbr> grags</rs> kyis mdzad pa</ab>
       <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1b1)"/>
+            <pb n="1b"/><pb n="1a"/><lb n="1a1"/>  
+         <rs type="deity">'jam pa'i byangs</rs> la phyag 'tshal lo × mtshan dpes rab mdzes phan bden ston mdzad pa × srid zhi las grol <rs type="deity">'jam mgon</rs> btud nas klu me <lb n="1b2"/> 
+         <!--input incomplete--></ab>
+      <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (5a5)"/>
          <rs type="work" ana="corpusmd:named_reference" ref="db:4795">shes rab kyi pha rol tu phyin pa'i bsgom don rin chen spungs pa</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3977">shAkya'i dge slong nam mkha' grags</rs> kyis sbyar ba'o || || </ab>
       <gap reason="omitted"/>

@@ -102,6 +102,41 @@ No interlinear annotations.</additional></physDesc></sourceDesc>
 			</profileDesc>
       </teiHeader>
   <text>
-    <body/>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Conclusive verses (140b1–140b3)"/>
+         <milestone unit="section" n="1"/>
+        <lg><l>rtsa ba rang bzhin rgyan mdzes 'grel pa gsal byed rgyan |</l>
+         <l>de ltar <note type="editorial">Read: ji ltar</note> slob dpon mkhas pas tshig don <lb n="140b2"/> rab du brgyan ||</l>
+         <l>de'i ma tshang myed don ti ka rab gsal rgyan ||</l></lg>
+         <note type="translation">(This text) is a clarifier and adornment of the commentary (=Śākyaprabha’s vṛtti), which embellishes and adorns the nature of the root (text) (i.e., Śākyaprabha’s kārikā).
+Just as  the teacher, the scholar (i.e., Śākyaprabha), has adorned the words and the meaning (of the root text),
+(My) commentary (ti ka) on the complete meaning of the latter (i.e., Śākyaprabha’s vṛtti) clarifies and adorns (it). 
+</note>
+         <milestone unit="section" n="2"/>
+         <lg><l>de ltar gyur pa'i bsod nams gang skyes des ||</l>
+         <l>rang gzhan 'gro' bas srid pa'i chu rgyun rab skams nas ||</l>
+         <l>byang chub gter chen mi bzad phan pa'i gzhir gyur cig ||</l></lg>
+         <note type="translation">Thanks to the merits arisen in this way (i.e., by composing this commentary), 
+May beings including myself and others dry up the river of cyclic existences, 
+And then may (this commentary) become a foundation that benefits the inexhausible treasure of awakening.
+</note>
+         <milestone unit="section" n="3"/>
+         <lg><l>mi mchog yon tan ldan pa khyed lta bu'i ||</l>
+         <l>gsung la mos nas tshig don <lb n="140b3"/> (rnam?)* par phye ||</l>
+         <l>thos pas gti mug mun sel sgron me yin ||</l></lg>
+         <note type="translation">This is a lamp that dispels the darkness of delusion, through listening to the
+Analysis of the words and their meaning, having put one’s trust in the teaching of an excellent man endowed with qualities, such as yourself. 
+</note>
+         <milestone unit="section" n="4"/>
+         <lg><l>ya rabs bden tshig srog pas rab du gces ||</l>
+         <l>khyu mchog 'gros 'dra rjes 'brang brtan (read: bsten?) pas nos ||</l>
+         <l>gang rten dpal gyi gnas gyur dge' mtshungs pa ||</l>
+         <l>blang dor mi nus 'jig rten ngo mtshar che ||</l></lg>
+      <note type="translation">Which are accepted because they are followed and relied on by those whose gait is like that of the excellent bull,
+Are the foundation, the source for the auspiciousness, which is equal to wholesomeness.
+What a surprise that worldly people are unable to accept or reject (them)! (or, ironically: What a big wonder for the worldly people who are unable to accept or reject (them)!)
+</note></ab>
+    </body>
   </text>
 </TEI>

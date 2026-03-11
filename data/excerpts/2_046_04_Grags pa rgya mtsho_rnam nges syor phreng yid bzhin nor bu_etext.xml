@@ -105,6 +105,9 @@ Lines per folio: 7; 8 on 6a, 25, 42b, 46b-62a, 63a-88b; 9 on 32 and 89a.</additi
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>
+         <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> zha <lb n="1a3"/> 6</ab>
+      <gap reason="omitted"/>
       <ab><milestone unit="section" n="Incipit (1b1)"/>
         <pb n="1b"/><lb n="1b1"/> <lg><l><abbr>sang rgyas</abbr> kun dngos mkhyen rabs bdag nyid can ||</l> <l>gser gyi mdog can <abbr>gzhon nu</abbr>'i tshul mchang ba ||</l> <l><abbr>shes rab</abbr> ral gri udpala <abbr>glegs</abbr> baM bsnoMs ||</l> <l><rs type="deity">'jaM dbyangs</rs> bla ma'i zhabs la gus pas 'dud ||</l></lg></ab>
       <gap reason="omitted"/>

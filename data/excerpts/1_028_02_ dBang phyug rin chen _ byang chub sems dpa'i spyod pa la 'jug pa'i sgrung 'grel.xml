@@ -131,6 +131,10 @@ Proofread (zhus dag).</additional></physDesc></sourceDesc>
          <l><rs type="person" ana="corpusmd:named_reference" ref="db:6857">dge ba'i bshes gnyen dam pa</rs> ||</l>
         <l><rs type="person" ana="corpusmd:named_reference" ref="db:6857"><abbr>yon tan</abbr> dbang phyug</rs> gis <lb edRef="inst:4664" n="39b8"/> bsam pa bzang ba'i <choice><corr>bsgo</corr><orig>dgo bsgo</orig></choice><note type="editorial">We follow (ID:6858) - which reads "sgo" - in considering "dgo" to be a scribal mistake that was not deleted.</note> nas × bzhengs pa lags || </l> 
             </ab>
+      <gap reason="omitted"/>
+      <ab>
+        <note type="editorial">(ID:6858) only reads "man+ga laM | shu b+haM".</note>
+      </ab>
     </body>
   </text>
 </TEI>

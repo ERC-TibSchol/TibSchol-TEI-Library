@@ -102,6 +102,8 @@
       <gap reason="omitted"/>
       <ab><milestone n="Colophon (86a2)" unit="section"/>
       <rs type="work" ana="corpusmd:named_reference" ref="db:5018">dgyes pa'i rdo rje rgyan gyi me tog</rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:5680">gtsang me tog</rs> <lb n="86a2"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5680">mdangs can gyi dgon pa</rs>r sbyar ba 'di rdzogs so || ||  ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Post-colophon annotation (in smaller script)" unit="section"/>1 zhus |</ab>
     </body>
   </text>
 </TEI>

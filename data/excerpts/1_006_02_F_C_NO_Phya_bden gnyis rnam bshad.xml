@@ -109,6 +109,29 @@ Orthography:&#13;
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>
+         <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> tsa <lb n="1a3"/> 120</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1b1–1b3)"/>
+         <milestone unit="section" n="Invocation"/>
+         <pb n="1a"/><lb n="1b1"/> dkon mchog gsum la phyag 'tshal lo || <rs type="deity">bcom ldan 'das 'jam pa'i dbyangs</rs> la phyag 'tshal lo || <rs type="person">bla ma rnams</rs> la phyag 'tshal lo ||
+
+         <milestone unit="section" n="1"/>
+         <lg><l>ma brtags snang pa dbang po'i gzhu 'dra zhing || </l>
+         <l>dpyad na mkha' ltar spros pa rab zhi ba ||</l>
+         <l>ro gcig nyid du gang gis rtogs gyur pa || </l>
+         <l><lb n="1b2"/> skyes chen dam pa'i mgon la phyag 'tshal lo ||</l></lg>
+         <milestone unit="section" n="2"/>
+         <lg><l>mkhas mchog rnams kyis bskal zhing brtag pa'i || </l>
+         <l>spros pa rgya chen ring nas gsal mdzad kyang ||</l>
+         <l>blo chung rnams kyis bden pa gnyis kyi don || </l>
+         <l>nges phyir skabs kyi don tsam rnam par dbye |¦|</l></lg>
+         <milestone unit="section" n="3"/>
+         <lg><l>thub dbang rnams dang <rs type="deity">'jam dbyangs</rs> dam pa'i mgon || </l>
+         <l>rgyal sras <rs type="person" ana="corpusmd:named_reference" ref="db:3720">klu grub</rs> bla ma <lb n="1b3"/> skyes chen rnams ||</l>
+         <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3831">bdag</rs> la rtser dgongs blo'i mun bsal te || </l>
+         <l>shes rab snang pas <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3831">bdag</rs> blo brgyan par mdzod ||||</l></lg></ab>
+      <gap reason="omitted"/>
       <ab><milestone unit="section" n="Body of the text (1b3–33a8)"/>
          <rs type="person" ana="corpusmd:named_reference" ref="db:3730">slob dpon ye shes snying po</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:3729">bden pa gnyis rnam par 'byed pa</rs> la don lnga ste | mchod par brjod pa dang | rang gi bstan bcos kyi 'bras bu dgos 'brel dang | bden pa gnyis <lb n="1b4"/> gtan la dbab pa dang | dbu ma la blo sbyar bar gdams pa dang | bshad pa'i bsod nams yongs su bsngo ba'o ||</ab>
       <gap reason="omitted"/>

@@ -102,6 +102,10 @@
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>
+        <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> la <lb n="1a3"/> 351 <lb n="1a4"/><rs type="work" ana="corpusmd:named_reference" ref="db:4584">bsngo ba yon bshad kyi stong thun</rs> <note type="editorial">Title in cursive script</note>
+         <lb n="1a5"/> mo lha bzhugs pa'i dbu phyogs <abbr>lags s+ho</abbr> ||<note type="editorial">Annotation by the same hand as the main text</note></ab>
+      <gap reason="omitted"/>
       <ab><milestone unit="section" n=" Colophon (2b6) (p. 654:6)"/>
         <rs type="place" ana="corpusmd:named_reference" ref="db:6173">gsang phu ne'u thog gi gtsug lag khang</rs> du | <rs type="person" ana="corpusmd:named_reference" ref="db:3896">blo gros mtshungs med</rs> kyi sbyar ba'o || dge legs 'phel || dge'o ||</ab>
     </body>

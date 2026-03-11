@@ -108,8 +108,21 @@ Miniatures on fol. 1b and fol. 2a.</additional></physDesc></sourceDesc>
          <l> <lb n="119a3"/> rgyal sras khyed kyis bka' stsal don sgrub phyir ||</l> 
          <l>gzhung 'di btsun pa rin chen dpal gyis phye ||</l></lg></ab>
       <gap reason="omitted"/>
+      <ab><lg> <l>gang las gang gis ji snyed gsungs pa rnams ||</l> 
+            <l>sgrub dang spong ba'i gnas rnams ji bzhin du ||</l> 
+            <l>nges byed gzhung 'dir bdag blo 'khrul na yang ||</l> 
+            <l>dri med chos spyan ldan rnams <lb n="119a4"/> bzod par mdzod ||</l> </lg>
+            <lg><l>kun mkhyen dkyil 'khor brtse ba rab rgyas dpag yas phrin las 'khrigs pa'i 'od ||</l> 
+            <l>phas rgol rtog ge'i sgra gcan las grol bla ma nyin mor byed pa'i gsung ||</l> 
+            <l>gsal bar sbyar las bsod nams dri med zla zer zil gnon legs sgrub  des || </l>
+            <l><lb n="119a5"/> bdud sde dpung bcas re ba bcad nas 'gro kun rdzogs par sangs rgyas 'gyur ||</l></lg></ab>
+      <gap reason="omitted"/>
       <ab><milestone n="Colophon (119a5)" unit="section"/>
             <rs type="work" ana="corpusmd:named_reference" ref="db:5462"><rs type="work" ana="corpusmd:named_reference" ref="db:3727"/>byang chub sems pa'i spyod pa la 'jug pa'i gsal byed</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:5463">btsun pa rin chen dpal</rs> gyis sbyar ba'o || </ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Post-colophon verses (119a5-119a6)" unit="section"/>
+         <lg><l>'di bsgrubs pa las byung pa yi ||</l> <l>dge ba bdag gis gang thob pa ||</l> <l>des ni skye bo thams cad kyi ||</l> <l><lb n="119a6"/> bde gshegs shes rab thob par shog ||</l></lg>
+         <lg><l>'gro ba'i sdug bsngal sman gcig pu ||</l> <l>bde ba thams cad 'byung ba'i gnas ||</l> <l>bstan pa rnyed dang bkur sti dang  ||</l> <l>bcas te yun ring gnas gyur cig |</l></lg> dge'o ||</ab>
     </body>
   </text>
 </TEI>

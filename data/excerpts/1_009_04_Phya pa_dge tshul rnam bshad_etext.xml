@@ -109,8 +109,27 @@ Some annotations (corrections).</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><pb n="1a"/><lb n="1a1"/>
+         <milestone unit="section" n="Signature (1a, top of the folio)"/>
+         <choice><reg>phyi wa 30</reg><orig>(phyi wa 30)</orig></choice>
+         <milestone unit="section" n="Title (1a1, bottom of the folio)"/>
+         dge °u °°°n °u °°°°°°°°°°as<note type="editorial">Possibly dge tshul ...phya pas</note> mdzad pa |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1a1)"/>
+         <milestone unit="section" n="Invocation"/><lb n="1a1"/> <rs type="deity">bcom ldan 'das thugs rje chen po dang ldan pa rnams</rs> la phyag 'tshal lo ||
+         <lg><l>gang zhig spros tshogs ma lus gtan bcom zhing ||</l>
+         <l>shes bya'i don kun yang dag mkhas gzigs te ||</l>
+         <l>thugs rje chen pos de nyid lam ston pa ||</l>
+         <l>ji bzhin don ldan ston pa de la 'dud ||</l></lg></ab>
+      <gap reason="omitted"/>
       <ab><milestone unit="section" n="Body of the text (1a1–33b3)"/>
          <rs type="work" ana="corpusmd:named_reference" ref="db:3764"><abbr>thams cad</abbr> yod par smra ba'i dge tshul rnaMs gyi bslab pa'i rim  <lb n="1a2"/> pa ston pa'i rab tu phyed pa</rs> 'di la don gnyis kyis nges par bya ste | bstan chos kyi 'brel rnaM par gzhag pa dang | skabs su bab pa'i don to ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="212.1 dbye ba (2a4)"/>
+         <lb n="2a4"/> dbye ba ni yul las dang | dpe' las dang | don las dang | zhu ba po las dang | shu lo ka la ste lnga'o ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="212.2 'dogs lugs (2a4)"/>
+         'dogs lugs ni skabs dang sbyar nas shes par bya ste | 'dir ni shu lo ka'i grangs las so ||</ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="212.3 bsgyur ba (2a4–2a5)"/>
          bsgyur ba ni shan sbyar ba las <choice><orig>‹'›thob</orig><reg>'thob</reg></choice> ste | 

@@ -122,6 +122,15 @@ On the color images (bdr:MW14345) one can see some expressions written in red in
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><milestone n="Cove page (1a)" unit="section"/><pb n="1a"/><lb n="1a1"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4559"><rs type="work" ana="corpusmd:named_reference" ref="db:3927">spyod 'jug</rs> yig ××××× sna</rs> bzhugs lags so
+                    <lb n="1a2"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4559"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">gtsang nag pa</rs>'i Tik</rs></ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="V.1" unit="section"/>   
+            <pb n="1b"/><lb n="1b1"/> <lg><l>thabs dang shes rab snying rjes bzod pa dang ||</l> <l>bdag bde' ma chags brton 'drus 'char ba yis ||</l> <l>gzhan gyi don du theg mchog la zhugs pa'i ||</l> <l>byang chub sems dpa' rnams la phyag 'tshal lo ||</l></lg> <note type="translation">I bow to Bodhisattvas who enter the supreme vehicle for others by the means of the appearance of skillful means, wisdom, compassion, forbearance, non-attachment to one's pleasure, and diligence.  </note>
+            <milestone n="V.2" unit="section"/><lg><l>gcig tu gzhan la phan blos sbyar pa'i |</l> <l>rgyal sras spyod pa'i gzhung 'di gsal mod kyi ||</l> <l>kye'o <lb n="1b2"/> blo chug mang pos bskul bas 'dir ||</l> <l>gang zhig gzhung don nges pa tsam zhig bya ||</l></lg>||<note type="translation">Although the meaning of this text, composed by the intelligence that wished for the benefit of others and was concerned about the behavior of the Conqueror's child, is clear,
+Oh! Here, [I will explain] only the ascertained meaning of the text since many people of little intelligence urged. 
+</note></ab>
+      <gap reason="omitted"/>
       <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3805">kha cig</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3876">chos ye</rs> sogs</note><note type="editorial">Reading of the gloss uncertain; could also read "tshe spong sogs", referring to (ID:3805)</note> dal ba dang 'byor pa so so ma yin te mi khom pa brgyad dang bral ba dang rang gi 'byor pa lnga la don khyad <lb n="5a3"/> par med pa'i phyir ro || des na mi khom pa dang bral ba nyid <choice><reg>la</reg><orig>‹la›</orig></choice> khom pa dang 'byor pa ces bya'o zhes zer te 
          mi rigs | bral ba skyon med dgag <note type="gloss">dgag ldog</note> dang 'byor pa yon tan ma yin dgag <note type="gloss">sgrub ldog</note> ldog pa tha dad pa'i phyir ro ||</ab>
       <gap reason="omitted"/>
@@ -132,6 +141,8 @@ On the color images (bdr:MW14345) one can see some expressions written in red in
         dang po la so so'i mtshan nyid ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3834">kha cig</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3834">stod lung rgya mar</rs></note> na re <note type="gloss">kun rdzob</note> shes bya dang <note type="gloss">don daM</note> shes bya las 'das pa'o zhes zer ro ||</ab>
       <gap reason="omitted"/>
       <ab><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">rtsang pa</rs><note type="editorial">Tentative identification as the author, gTsang nag pa, whose own answer is also provided in the next paragraph.</note> ni</note> de lta na dngos po <note type="gloss">chos can bum pa lta bu 1 la</note> la shes byas khyab pa mngon sum gyis grub pa na don dam pa'i bden pa tsam khegs pa na snang pa la don dam pa 'gegs pa'i rjes dpag <note type="gloss">gis dgag</note> mi dgos par thal | <note type="gloss">bum pa de</note> don dam pa'i dngos por rtogs pas <note type="gloss">bum pa de</note> shes bya ma yin pa'i dngos por <lb n="36a5"/> rtogs par thal ba <note type="gloss">ci'i phyir... mngon sum snang pa'i phyir ro</note> dang ¦  don dam zhes pa'i mtshon bya las <note type="gloss">buM pa de...lasogs pa</note> don ldog gzhan du 'gyur ba 'ang yin no ||</ab>
+      <gap reason="omitted"/>
+      <ab><note type="gloss">rang gi lan btags</note> ma dpyad pa tha snyad pa'i shes ngor <note type="gloss">kun rdzob</note> rnyed pa dang ¦ mthar thug rigs pa'i shes ngor <note type="gloss">don daM</note> rnyed pa ste ¦ <rs type="person" ana="corpusmd:named_reference">slob dpon zla ba grags pa</rs>s | <quote><lg><l>dngos kun yang dag brdzun pa'i mthong pa yis ||</l> <l>dngos rnyed ngo bo nyid ni 'dzin par 'gyur ||</l> <l>yang dag mthong yul gang yin de nyid <lb n="36a6"/> te ||</l> <l>mthong pa 'khrul pa'i kun rdzob bden par brjod ||</l></lg></quote> ces gsungs pa bzhin no ||</ab>
       <gap reason="omitted"/>
       <ab><milestone n="Conclusive verses (47a5-47a6)" unit="section"/>
          <milestone n="V.1" unit="section"/>   
@@ -144,6 +155,15 @@ May wish that [those] entering the path of the supreme vehicle encounter this te
       <ab><milestone n="Colophon (47a6)" unit="section"/>
             <rs type="work" ana="corpusmd:named_reference" ref="db:4559"><rs type="work" ana="corpusmd:named_reference" ref="db:3927">byang chub sems dpa'i spyod pa' la 'jug pa</rs>'i 'grel pa legs par bshad pa bsdus pa</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3839">shag kya'i dge' slong brtson 'grus seng ge</rs>s sbyar pa | rdzogs s+h+yo |||| 
          </ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Post-colophon verses (47a6-47a7)" unit="section"/>sa stengs nyi zla bzhin <lb n="47a7"/> du rgyas par shog || ||
+            <lg><l>yi ge legs par mi <choice><corr>gda'</corr><sic>rta</sic></choice> ste ||</l> <l>rgas pas de las ma byung lags ||</l> <l>gzhon nas rab tu gshegs pa'i ||</l> <l>ston pa de la dgyes par zhu ||</l></lg> <l>'di'i brjod bya thugs su bzhen ||</l> <l>'di ji bzhin du spyad par zhu ||</l> zhes gdams s+h+yo |<note type="translation">May wish that [this text] spreads like the sun and the moon on the ground.
+[1]
+The letters are not displayed nicely; being old, I cannot understand. My teacher, who has been gone since I was young, would be delighted about it. 
+[2]
+Having etched this [text]'s contents into your mind, please practice exactly how it says [in the text].
+This is the advice [from me]. (Alternatively: Although I am unable to well understand the letters [on the text] and I, the old man, can hardly leave this [world], [my] teacher who completely left [from this world when even] he was young may be delighted about this [text, sPyod 'jug gi rnam bshad].)
+</note></ab>
     </body>
   </text>
 </TEI>

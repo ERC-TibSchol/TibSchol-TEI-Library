@@ -101,6 +101,8 @@
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5526">rigs pa'i mtshon cha</rs> las 'bras bu tshad ma bshad pa ste le'u nyi shu lnga pa'o | ||  ||</ab>
+      <gap reason="omitted"/>
       <ab>
         <lg><l>'gro ba'i bla ma <lb n="197b6"/> rgyal dang rgyal sras <rs type="person" ana="corpusmd:named_reference" ref="db:3720">byams mgon klu sgrub</rs>  rjes 'brang bcas ||</l>
          <l><rs type="person" ana="corpusmd:named_reference" ref="db:3756">thogs med</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3758">dbyig gnyen</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3771">phyogs kyi glang po</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3773">chos kyi grags pa</rs> bzhed pa'i gzhung ||</l>
@@ -109,6 +111,9 @@
       </ab>
       <gap reason="omitted"/>
       <ab><lb n="198a5"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5526">tshad ma'i bstan bcos gzhan phyogs zil gnon rigs pa'i mtshon cha</rs> zhes bya ba | ming gzhan <rs type="work" ana="corpusmd:named_reference" ref="db:5526">grub mtha' sna tshogs bshad pa bde bar gshegs pa'i bstan pa'i sgron me</rs> 'di ni sngon gyi <rs type="person" ana="corpusmd:unnamed_reference" ref="4593">slob dpon</rs> <lb n="198a6"/> dag gi gzhung lugs du ma mthong zhing thos te de dag gsal la ma 'dres par rigs pa dang grol bar smra ba'i spobs pa can <rs type="person" ana="corpusmd:named_reference" ref="db:4006">yul dbus kyi btsun pa rigs pa'i ral gri</rs>s bkod do ||</ab>
+      <gap reason="omitted"/>
+      <ab><pb n="198b"/><lb n="198b1"/> sel bar gyur cig | sa ma pa ta | 
+         bstan bcos 'di la mdo sde nyi shu rtsa gsum <!--23--> bstan bcos brgyad cu rtsa lnga <!--85--> ste mdo bstan bcos mi gcig pa brgya rtsa brgyad <!--108--> kyi lung rigs bzhugs so || mu stegs kyi gzhung rnams khong <lb n="198b2"/> nyid bstan bcos du yod mi shes par snang ngo || lung tshig mi mthun pa rnams ni 'gyur du ma yod do || dge'o ||</ab>
     </body>
   </text>
 </TEI>

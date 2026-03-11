@@ -108,6 +108,9 @@ Lemmata written as interlinear notes.</additional></physDesc></sourceDesc>
             <pb n="1a"/><!--527"/-->
         <lb n="1a1"/> phyi <lb n="1a2"/> ma <lb n="1a3"/> 599 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4949"><rs type="work" ana="corpusmd:named_reference" ref="db:3777">rtsod pa'i <abbr>rigs</abbr> pa</rs>'i bsdus don</rs> <abbr>bzhugs</abbr> ||</ab>
       <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1b1)"/>
+         <pb n="1b"/><lb n="1b1"/> || 'jam pa'i dbyangs la phyag 'tshal lo ||</ab>
+      <gap reason="omitted"/>
       <ab><milestone unit="section" n="Body of the text (1b1–6b2)"/>
          <rs type="work" ana="corpusmd:named_reference" ref="db:4949">rtsod pa'i rigs pa</rs> la don gsum te ||
          [1] <note type="gloss"> rtsod pa don </note> rab tu byed pa la 'jug pa'i slad kyi <lb n="1b2"/> don dang ¦ [2] rab tu byed pa'i lus kyi don dang ¦ [3] mthar phyin pa'i don to |</ab>
