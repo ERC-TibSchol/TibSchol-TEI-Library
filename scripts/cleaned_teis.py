@@ -116,7 +116,7 @@ def process_tei_header(src_header):
     title.find("tei:title", namespaces=NS).text = instance_data.get("work_name")
     author = title.find("tei:author", namespaces=NS)
     author.text = instance_data.get("author_name")
-    author.set("ref", f"apis:{instance_data.get('author_id')}")
+    author.set("ref", f"db:{instance_data.get('author_id')}")
     principal = title.find("tei:principal", namespaces=NS)
     funder = title.find("tei:funder", namespaces=NS)
     if principal is not None:
