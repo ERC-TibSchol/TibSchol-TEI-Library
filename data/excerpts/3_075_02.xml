@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">don pha rol du phyin pa'i myams len snying po rab gsal</title>
-            <author ref="apis:4077">bsod nams dpal bzang</author>
+            <author ref="db:4077">bsod nams dpal bzang</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:SBi">Serena Biondo</name>

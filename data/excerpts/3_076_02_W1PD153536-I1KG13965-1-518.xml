@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan 'grel pa dang bcas pa'i dka' gnad kyi don sbyor skal bzang kha 'byed la</title>
-            <author ref="apis:5868">rin chen byang chub</author>
+            <author ref="db:5868">rin chen byang chub</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

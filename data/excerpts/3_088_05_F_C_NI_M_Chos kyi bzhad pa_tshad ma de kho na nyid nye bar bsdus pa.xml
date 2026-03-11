@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma'i de kho nyid bsdus pa nye bar bsdus pa ye shes rdo rje rin chen</title>
-            <author ref="apis:4099">chos kyi bzhad pa</author>
+            <author ref="db:4099">chos kyi bzhad pa</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Fukuda">https://tibetan-studies.net/ (Accessed 2010)</name>

@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">phag mo gru pa'i rnam thar gzi brjid 'bar ba'i sgron ma</title>
-            <author ref="apis:7137">dpal chen chos kyi ye shes</author>
+            <author ref="db:7137">dpal chen chos kyi ye shes</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:AS">Alexander Schiller</name>

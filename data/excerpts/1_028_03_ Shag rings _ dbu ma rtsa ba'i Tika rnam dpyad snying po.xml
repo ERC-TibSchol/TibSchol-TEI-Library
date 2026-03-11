@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">dbu ma rtsa ba'i Tika rnam dpyad snying po</title>
-            <author ref="apis:3931">shag rings</author>
+            <author ref="db:3931">shag rings</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:SBi">Serena Biondo</name>

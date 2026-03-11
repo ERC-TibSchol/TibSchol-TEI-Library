@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">ti ka 'thad ldan gyi 'grel pa rin chen rgyan 'bum</title>
-            <author ref="apis:3959">rin chen skyabs</author>
+            <author ref="db:3959">rin chen skyabs</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Transkribus">Transkribus</name>

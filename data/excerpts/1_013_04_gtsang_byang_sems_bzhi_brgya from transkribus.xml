@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i rnal 'byor spyod pa bzhi' brgya pa'i dka' ba'i gnad bshad pa</title>
-            <author ref="apis:3839">gtsang nag pa brtson 'grus seng ge</author>
+            <author ref="db:3839">gtsang nag pa brtson 'grus seng ge</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Transkribus">Transkribus 1512067</name>

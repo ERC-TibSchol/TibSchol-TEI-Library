@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">sher snying gi 'grel pa</title>
-            <author ref="apis:4079">gnas drug pa</author>
+            <author ref="db:4079">gnas drug pa</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Transkribus">Transkribus</name>

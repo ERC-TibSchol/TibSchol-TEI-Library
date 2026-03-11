@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma'i bstan bcos sde bdun rgyan gyi me tog</title>
-            <author ref="apis:4006">rigs pa'i ral gri</author>
+            <author ref="db:4006">rigs pa'i ral gri</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Fukuda">https://tibetan-studies.net/ (Accessed 1.1.2018)</name>

@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam nges kyi legs par bshad pa 'grel bshad kun las btus pa'i snying po nyi ma'i 'od zer gyi snang ba</title>
-            <author ref="apis:5954">rin chen tshul khrims (1)</author>
+            <author ref="db:5954">rin chen tshul khrims (1)</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>

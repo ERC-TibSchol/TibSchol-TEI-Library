@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">dbu ma rigs pa'i tshogs kyi rgyan de kho na nyid snang ba'i rtsa ba</title>
-            <author ref="apis:3842">rma bya byang chub brtson 'grus</author>
+            <author ref="db:3842">rma bya byang chub brtson 'grus</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:An">Anonymous</name>

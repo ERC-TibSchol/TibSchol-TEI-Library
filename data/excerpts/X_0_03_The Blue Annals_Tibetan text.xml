@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">deb ther sngon po</title>
-            <author ref="apis:5839">'gos lo tsA ba gzhon nu dpal</author>
+            <author ref="db:5839">'gos lo tsA ba gzhon nu dpal</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:">Sakya Resource Center</name>

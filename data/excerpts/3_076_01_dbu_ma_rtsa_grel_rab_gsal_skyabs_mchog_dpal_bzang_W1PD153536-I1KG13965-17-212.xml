@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">dbu ma rtsa ba shes rab kyi 'grel pa tshig don rab gsal</title>
-            <author ref="apis:4080">skyabs mchog dpal bzang po</author>
+            <author ref="db:4080">skyabs mchog dpal bzang po</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Tr">Transkribus</name>

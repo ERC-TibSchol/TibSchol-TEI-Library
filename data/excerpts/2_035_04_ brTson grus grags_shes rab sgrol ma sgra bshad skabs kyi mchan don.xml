@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">shes rab sgron ma'i sgra bshad skabs kyi mchan don</title>
-            <author ref="apis:3978">brtson 'grus grags</author>
+            <author ref="db:3978">brtson 'grus grags</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Tr"/>

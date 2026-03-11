@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">chos mngon kun las btus pa'i tikka</title>
-            <author ref="apis:7170">Anonymous (14)</author>
+            <author ref="db:7170">Anonymous (14)</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

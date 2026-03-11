@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma rnam par nges pa'i dka' gnas rnam par bshad pa</title>
-            <author ref="apis:3786">rngog blo ldan shes rab</author>
+            <author ref="db:3786">rngog blo ldan shes rab</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Auto">Automatized transliteration</name>

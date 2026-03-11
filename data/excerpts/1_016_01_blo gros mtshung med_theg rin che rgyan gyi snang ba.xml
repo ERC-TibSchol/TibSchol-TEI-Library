@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">theg pa rin po che'i gsal byed rin chen rgyan gyi snang ba</title>
-            <author ref="apis:3896">gsang phu ba blo gros mtshungs med</author>
+            <author ref="db:3896">gsang phu ba blo gros mtshungs med</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>

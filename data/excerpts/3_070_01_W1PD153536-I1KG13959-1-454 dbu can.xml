@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">shes rab kyi pha rol du phyin pa sdud pa tshigs su bcad pa'i dka' 'grel gyi bsdus pa</title>
-            <author ref="apis:4593">Anonymous</author>
+            <author ref="db:4593">Anonymous</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Transkribus">Transkribus</name>

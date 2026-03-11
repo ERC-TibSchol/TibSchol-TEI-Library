@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">shAkya'i bstan la rang gis bstan bcos ji sam brtsams pa'i tshul</title>
-            <author ref="apis:4006">rigs pa'i ral gri</author>
+            <author ref="db:4006">rigs pa'i ral gri</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:BUDA">BUDA OCR (UTIE0OPID194E73E_I00EGS1017428_bo-x-ewts,sa-x-iast,zh-latn-pinyin vol 1)</name>

@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">byang chub sems dpa'i bslab pa kun las btus pa'i ti ka mdo sde nyi ma'i snying po</title>
-            <author ref="apis:3911">gzhon nu rin chen</author>
+            <author ref="db:3911">gzhon nu rin chen</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Transkribus">Transkribus</name>

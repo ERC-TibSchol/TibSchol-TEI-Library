@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">byang chub tu sems bskyed pa'i spyi don</title>
-            <author ref="apis:3839">gtsang nag pa brtson 'grus seng ge</author>
+            <author ref="db:3839">gtsang nag pa brtson 'grus seng ge</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:KC">Kyeongjin Choi</name>

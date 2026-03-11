@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">bslabs btus dang spyod 'jug gi khrid</title>
-            <author ref="apis:6836">lha btsun pa</author>
+            <author ref="db:6836">lha btsun pa</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>

@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
 				<title type="main" xml:lang="bo-Latn-x-wylie">bden chung gi 'bum</title>
-            <author ref="apis:7172">Anonymous (16)</author>
+            <author ref="db:7172">Anonymous (16)</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:JA">James B. Apple</name>

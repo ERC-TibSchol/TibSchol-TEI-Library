@@ -3,7 +3,7 @@
   <teiHeader><fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">sum brgya ba'i TIk+ka</title>
-            <author ref="apis:3962">'dar tshul khrims rgyal po</author>
+            <author ref="db:3962">'dar tshul khrims rgyal po</author>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>
