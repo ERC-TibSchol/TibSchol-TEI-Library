@@ -104,6 +104,11 @@ One additional note on fol. 3a seems to contest one division (sa bcad); it reads
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><milestone n="Cover page (1a)" unit="section"/><pb n="1a"/>
+                          <lb n="1a1"/> phyi
+               <lb n="1a2"/> tsa
+               <lb n="1a3"/> 7</ab>
+      <gap reason="omitted"/>
       <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3725">slob dpon zla ba grags pa</rs>'i zhal snga nas mdzad pa <rs type="work" ana="corpusmd:named_reference" ref="db:5931"><choice><orig>4</orig><reg>bzhi</reg></choice> brgya pa'i 'grel pa</rs> la bsdus pa'i don gsum te | rtsom ba dgod pa dang | gzhung gi don bshad pa dang | de bas byung ba'i <note type="gloss">rtog ge'i</note> bsod nams bsngo ba'o || </ab>
       <gap reason="omitted"/>
       <ab><milestone n="Colophon (5b7)" unit="section"/>

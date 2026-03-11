@@ -118,6 +118,23 @@ A da-drag is used in an annotation on fol. 4b8 ('phrind).</additional></physDesc
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><milestone n="Cover page (1a)" unit="section"/>
+            <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> la <lb n="1a3"/> 510</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Incipit (1b1-1b2)" unit="section"/>
+            <milestone n="Title" unit="section"/>
+            <pb n="1b"/><lb n="1b1"/>
+        || <rs type="work" ana="corpusmd:named_reference" ref="db:4561"><rs type="work" ana="corpusmd:named_reference" ref="db:3759">byang chub sems dpa'i sdom pa nyi shu ba</rs>'i 'grel pa</rs> || 
+        <milestone n="Verse of invocation" unit="section"/>
+        <lg><l>gang gis <choice><reg>rdzogs</reg><orig>rtzog‹s›</orig></choice> pa'i byang chub du ||</l> <l>thugs bskyed bslab pa'i mthar phyin ste ||</l> <l>brtse bas nyid zhugs lam ston pa ||</l> <l>skyob pa mchog la phyag 'tshal lo || ||</l></lg> <note type="translation">I bow down to the supreme protector, who generated the exalted mind toward the complete enlightenment and accomplished the discipline and indicates the path that [he] entered [to it] by means of mercy itself.</note>
+        <milestone n="Introductory verse" unit="section"/>
+        <lg><l>zab cing rgya che rigs dang ldan pas kyang ||</l> 
+        <l><choice><reg/><orig>{kya}</orig></choice> snyed <choice><reg>dka'</reg><orig>rka</orig></choice> yon tan kun gyi gter gyur pa ||</l> 
+        <l><rs type="work" ana="corpusmd:unnamed_reference" ref="db:3759">rgyal sras sdom pa'i tshig le'ur bcas pa</rs> ni <choice><reg>||</reg><orig>‹||›</orig></choice></l> 
+        <l>don rdzog lung <lb n="1b2"/> rigs ldan par rnam bshad bya ||</l></lg><note type="translation">The verses on the vow of the Conqueror’s sons are a treasure of all merits, which is difficult to be obtained even by those endowed with a profound and extensive reasoning.
+These verses are to be explained in their entire meaning, together with reason and scriptures. (Alternatively: Concerning these verses, an explanation of their full meaning will be done, endowed with reason as well as scriptures. {This second option takes "rnam bshad" as a noun; this is supported by author’s description of his work as a “rnam bshad” in the closing section})
+</note> </ab>
+      <gap reason="omitted"/>
       <ab><milestone unit="section" n="1. bstan bcos bshad pa la 'jug pa"/>
        de la spyir bstan bcos bshad pa la 'jug pas gang zhig gang gis ji ltar bshad pa'i las dang byed po bya ba 3 ngos gzung bar bya ba las ¦
       <milestone unit="section" n="11. bshad bya las du bya ba"/>
@@ -125,6 +142,8 @@ A da-drag is used in an annotation on fol. 4b8 ('phrind).</additional></physDesc
       <gap reason="omitted"/>
       <ab><mentioned>rgyu bsam pa yang <lb n="2a7"/> sdom pa de <choice><reg/><orig>{dag}</orig></choice> rgyu gang gis skye ba dang 'jug par 'gyur zhe na | </mentioned>
          <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs> byang chub sems dpa'i sdoM pa'i rten du so sor thar ba dgos pa yin te ¦ phan 'dogs pa la gnod pa spong bas khyab pa'i phyir dang ¦ <abbr>so sor</abbr> thar pa rigs bdun gyi <choice><reg>||</reg><orig>‹||›</orig></choice> <quote><lg><l>rtag du sdoM pa ldan pa la ||</l> <l>skal ba yod kyi gzhan du min ||</l></lg></quote> zhes gsungs pa'i <abbr>phyir ro</abbr> zhes <abbr>zer ro</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n="2b7"/> gzhung gi don tsam yin te ¦ ji ltar blang ba'i rim pa dang ¦ bla ma <abbr>med</abbr> par yang blang ba'i thabs ni logs su shes par bya'o ||¦</ab>
       <gap reason="omitted"/>
       <ab><note type="gloss">par bya</note> zhe na ¦            
          de la phyogs dang po <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3786">rngog</rs> la sogs pa mtshan nyid pa rnaMs 'dod pa</note> ni ma yin te ¦ spyi'i gzhung las nyaMs bdun nges pa lngas mi thob ces 'byung pa las 'dir khyad par bshad pa med la ¦ <rs type="work"><note type="gloss">smad bla'i</note> mdo</rs> <lb n="2b8"/> las <quote>rigs kyi nu 'am rigs kyi bu mos lo 1 gam zla ba 3 du byang chub seMs dpa'i bslab pa bzung ste</quote> zhes gsungs pa de yang rim kyis de ltar slob par gsungs kyi ¦ de sdom pa nyid du bshad pa <abbr>med</abbr> pas bar ma nyid du rung ba'i <abbr>phyir ro</abbr> || 
@@ -148,6 +167,15 @@ A da-drag is used in an annotation on fol. 4b8 ('phrind).</additional></physDesc
          mi rigs te ¦ de lta na <lb n="5a3"/> gzhung de dag phan tshun kha skong du 'chad par rigs kyi gzhung so so la grangs nges par 'chad par mi rigs te ¦ gdul bya la 'dzol btsugs nas rtsa ba'i ltung bar skyur ba'i phyir ro || </ab>
       <gap reason="omitted"/>
       <ab><abbr>yin no</abbr> <choice><reg>zhes</reg><orig>zhe‹s›</orig></choice> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dam pa kha 1</rs> <note type="gloss">khag sor ba</note> <abbr>gsung ngo</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><lb n="5a4"/>3 pa de lta na yang sdom pa shor na pham pa nyid ma yin nam ¦ 'dra ba'i don ci yin ce na ¦ 
+            <abbr>so sor</abbr> thar pa las bshad pa'i ta la mgong bcad pa ltar phyis skal ba myed pa ma yin gyi ¦ 'gyod cing len 'dod na yang blang du yod pas so || ¦</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Closing verses (7a6-7a7)" unit="section"/>
+            <milestone n="V.1" unit="section"/>
+            <lg><l>sngon chad <choice><corr>su</corr><orig>gzhu su</orig></choice> yis gzhung 'dir<note type="editorial">Emend to 'di?</note> ma bshad pa |</l>  <l>rgyal sras rnams kyi tshul khrims bslab pa'i gnas ||</l> 
+            <l>byang chub sems dpa'i sde snod man ngag <lb n="7a7"/> gis ||</l> 
+            <l><rs type="work" ana="corpusmd:named_reference" ref="db:4561">tshig don gsal ba'i rnam bshad</rs> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3839">bdag</rs> gis byas ||</l> </lg><note type="translation">[Although] no one previously has explained this text {this might refer to the absence of a previous commentary of this base text (gzhung 'di), or to the fact that nobody explained the base text in the way he does in this text (gzhung 'dir)}, using the Boddhisattva’s Collections and instructions, I have made an explanation that clarifies the meaning of the words of what constitutes the training in moral conduct of the Conqueror’s sons [the Bodhisattvasaṃvaraviṃśaka].</note></ab>
       <gap reason="omitted"/>
       <ab><milestone n="V.2" unit="section"/>
             <lg><l>dge ba 'di yis tsha rabs kun tu <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3839">bdag</rs> ||</l> <l>byang chub sems dang mthu yis dpa' rnams kyi ||</l> <l>zab yangs ngo mtshar rmad kyi spyod pa la ||</l> <l>mi 'jigs <rs type="person" ana="corpusmd:named_reference" ref="db:3839">brtson 'grus seng ge</rs>'i stobs ldan shog || ||</l></lg> <note type="translation">Thanks to the virtue [of composing] this [commentary], in all [my future] lives, may I have fearlessness, diligence, and the lion’s strength {Alternatively: may I have the strength of a fearless diligent lion}, towards profound, extensive, wonderful, and marvelous practice of heroes, by means of the mind and the power of Bodhi.</note></ab>

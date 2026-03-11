@@ -161,6 +161,15 @@ Note "3(40)" on the left of the cover page.</additional></physDesc></sourceDesc>
  </quote>
  zhes pa'o ||</ab>
       <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Conclusive verses (40a3–40a4)"/>
+ <milestone unit="section" n="1"/>
+ <lg><l><rs type="work" ana="corpusmd:named_reference" ref="db:4474">thub pa'i bstan la rims kyis 'jug pa'i tshul</rs> ||</l> <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma</rs>'i gsungs dang lung la bstan nas bris ||</l> <l>de las byung ba'i dge ba gang thob des ||</l> <l>'gro rnams log pa'i lam du mi 'gro zhing ||</l> <l>yang dag laM zhugs sku <lb n="40a4"/> gsum thob par shog ||</l></lg></ab>
+      <gap reason="omitted"/>
+      <ab>
+        <milestone unit="section" n="2"/>
+        <lg><l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3806">bdag</rs> kyang <rs type="deity">thub pa</rs>'i bstan pa rgyas byed cing ||</l> <l>yang dag lam zhugs sku gsum thob nas kyang ||</l> <l>lhun grub rgyun chad med pa'i 'phrin las kyis ||</l> <l>nam mkha' mnyam pa'i 'gro ba sgrol bar shog ||</l></lg>
+      </ab>
+      <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (40a4–40a6)"/>
  <rs type="work" ana="corpusmd:named_reference" ref="db:4474">sangs rgyas kyi bstan pa la rims kyis 'jug pa'i tshul</rs> <lb n="40a5"/> lam <rs type="work" ana="corpusmd:named_reference" ref="db:4474">blo sbyong</rs> 'am <rs type="work" ana="corpusmd:named_reference" ref="db:4474">lam rim</rs> zhes bya ba ni <rs type="person" ana="corpusmd:named_reference" ref="db:3806">gro lung pa blo gros 'byung gnas</rs> <choice><corr>kyis</corr><sic>kyi</sic></choice> <rs type="place" ana="corpusmd:named_reference" ref="db:4332">gsang phu</rs>r sbyar ba'o ||</ab>
     </body>

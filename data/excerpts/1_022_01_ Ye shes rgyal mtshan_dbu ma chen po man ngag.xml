@@ -100,6 +100,10 @@ Contains annotations that were copied along with the main text as well as additi
 			</profileDesc>
       </teiHeader>
   <text>
-    <body/>
+    <body>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon annotations (91a8)"/>
+        1 zhus ||</ab>
+    </body>
   </text>
 </TEI>

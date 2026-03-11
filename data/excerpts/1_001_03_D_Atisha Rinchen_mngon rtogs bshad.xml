@@ -109,7 +109,27 @@ Some interlinear additions/corrections (1b1, 1b3, 2b2, 4a3…) in smaller script
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Cover page (1a)"/>
+         <pb n="1a"/><lb n="1a1"/>
+         phyi<lb n="1a2"/> kha<lb n="1a3"/> 77<lb n="1a4"/> 
+         <seg type="excerpt" xml:id="ex1032023-04-241203" status="finalized"/>
+         </ab>
+      <gap reason="omitted"/>
       <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4427"><rs type="work" ana="corpusmd:named_reference" ref="db:3697">dpal mngon par <abbr>rtogs</abbr> pa</rs>'i dka' ba'i gnas bshad pa</rs> <rs type="person" ref="db:3784" ana="corpusmd:named_reference">lo tsA ba <abbr>rin chen</abbr> bzang po</rs>s mdzad pa <abbr>bzhugs s+ho</abbr> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1b1–1b3)"/>
+         <milestone n="Invocation" unit="section"/>
+         <pb n="1b"/><lb n="1b1"/> || <rs type="deity">dpal rdo rje chos</rs> la <abbr>phyags 'tshal lo</abbr> || <rs type="deity">thams cad<anchor xml:id="a1"/></rs> <rs type="deity">mkhyen pa</rs> la phyag <abbr>'tshal lo</abbr> ||
+         <milestone n="1" unit="section"/>
+      <lg>   <l>gang zhig 'gro ba'i bsam pa dang sbyar nas ||</l>
+         <l>'dod chags zhe sdang lhar <choice><reg>bcas</reg><orig>‹bcas›</orig></choice> skur ston kyang ||</l>
+         <l>de yi <lb n="1b2"/> dri mas ma gos pad ma bzhin ||</l>
+         <l>thugs rje thabs mkhas khyod la <abbr>phyag 'tshal lo</abbr> ||</l></lg>
+        
+         <milestone n="2" unit="section"/>
+        <seg type="excerpt" xml:id="ex1032023-04-24.12.10" status="finalized"> 
+        </seg>
+        </ab>
       <gap reason="omitted"/>
       <ab>
         <lg><l><rs type="deity">sgrol ma</rs>'i zhabs kyi rdul la reg pa yi ||</l>         
@@ -117,6 +137,441 @@ Some interlinear additions/corrections (1b1, 1b3, 2b2, 4a3…) in smaller script
          <l>gus pas <abbr>phyag 'tshal</abbr> <rs type="person" ref="db:3745" ana="corpusmd:unnamed_reference">de </rs>yis bshad pa <lb n="1b3"/> yi ||</l>
         <l> <abbr>gdams ngag</abbr> 'di ni <rs type="person" ref="db:3784" ana="corpusmd:unnamed_reference">bdag</rs> gis bri bar bya ||</l></lg>
       </ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Body of the text (1b3–13b2)"/>
+         <milestone unit="section" n="1 "/>
+        de la <abbr>rnal sbyor gyi dbang phyug <!--CA yogeśvareṇa--></abbr> ces bya ba ni dpal <abbr>'khor lo</abbr> sdom pa'i dal du tshul bzhin du dbang bskur zhing <abbr>dam tshig</abbr> dang sdoM pa dang ldan pa dbyings <choice><reg>dang</reg><orig>‹dang›</orig></choice> <abbr>ye shes</abbr> <abbr>gnyis</abbr> su med par smos <lb n="1b4"/> pa'o || 
+        <quote xml:id="d2e143">dang po kho nar <!--CA prathaman tāvad--></quote> zhes bya ba ni mngon par rtogs pa'i rim pa 'di ji lta ba bzhin du bsgom par bya'o zhes bya ba'i don to || bsgom pa'i gnas ni <rs type="work" ana="corpusmd:unnamed_reference" ref="db:5627">rgyud</rs> las
+         <quote><lg>
+            <l xml:space="preserve">ri'i phug dang chu'i ngogs dang chu mdo dang ||</l>
+            <l xml:space="preserve"><lb n="1b5"/> rgya mtsho'i ngos dang nyaMs dga' dang || </l>
+            <l xml:space="preserve">shing <abbr>gcig</abbr> drung dang dur khrod dang || </l>
+            <l xml:space="preserve">seMs bral khang pa stong pa ru || </l>
+            <l xml:space="preserve">dpa' bo'i gtso bo bsgom par bya || </l>
+            <l xml:space="preserve">bstan<anchor xml:id="a4"/> pa 'di ni gnas dag gam || </l>
+            <l xml:space="preserve">yang na yid ni dga' <abbr>bar ro</abbr> ||</l>
+         </lg></quote><!--Cf. Indrabodhi, <mentioned>Śrīcakrasaṃvaratantrarājaśambarasamuccaya-nāma-vṛtti</mentioned>, D 1413, 26a6-7: ri yi rtse dang ri sul dang || chu bo'i ngogs dang tshal gling dang || rgya mtsho'i 'gram dang bas mtha' dang || shing gcig dang ni dur khrod sogs || dbugs bral bden pa dag du ni || dpa' bo'i gtso bo bsgom par bya || brtan pa yi ni gnas dag gam || yang na yid ni dga' bar ro || zhes pa ..-->
+         <abbr>zhes gsungs</abbr> so || 
+         <lb n="1b6"/> <quote xml:id="d2e191">tshangs pa'i gnas bzhi <!--CA caturbrahmavihāriṇā--></quote> ni byams pa <abbr>la sogs</abbr> pa tshad med pa <abbr>bzhi</abbr>'o ||
+         <quote xml:id="d2e201">bsgom par bya'o <!--CA bhāvyam --></quote> zhes pa ni <abbr>sems can</abbr> <abbr>thams cad</abbr> mchog tu bde ba dang ldan par gyur <abbr>cig</abbr> ces pa dang | gang dag <abbr>sdug bsngal</abbr> ba la <abbr>dmigs</abbr> <?oxy_comment_start comment="**"?><?oxy_comment_end?>nas <abbr>sdug bsngal</abbr> ba <abbr>thams cad <lb n="1b7"/> sdug bsngal</abbr> ba dang bral bar gyur <abbr>cig</abbr> pa dang 'khor ba ji srid pa'i bar du ji skad bshad pa'i bde ba dang mi 'bral ba'i rnam pa can gyi dga' ba dang mi dge ba'i phyogs <abbr>thams cad</abbr> zad par bya ba'i phyir <abbr>'jig rten</abbr> dang <abbr>'jig rten</abbr> <pb n="2a"/><lb n="2a1"/> las 'das pa'i dge ba'i <abbr>phyogs</abbr> <abbr>thams cad</abbr> la dgod pa'i rnam pa can gyi btang snyoMs bsgoM par bya'o || 
+         de ni rnal sbyor bsrung ba ste | gnod sems dang rnam par 'tsho ba la stsogs pa dang theg pa dman <lb n="2a2"/> pa la<anchor xml:id="a5"/> 'dod pa las bsrung ba'i phyir dge ba'i rtsa ba thams cad spel ba'i phyir ro ||
+         
+         <milestone unit="section" n="2 "/>
+         <quote xml:id="d2e265">de nas phung po lnga'i nga rgyal bskyed par bya ste | <!--Cf. Vibhaṅga, D 186b1: gnas ni dur khrod la sogs pa'o ||--></quote> zhes pa ni bdag bsrung ba ste | rang gi tha mal pa'i phung po las stsogs pa'i rnam par rtog pa ni 'khor <lb n="2a3"/> ba'i rgyu yin pa'i phyir te | tha mal pa'i rnam par rtog pa bzlog nas rang dang 'dod<anchor xml:id="a6"/> pa'i lha dbyer med pa'i yid ches pa khyad par can du 'gyur ba'i phyir ro || 
+         de ni<?oxy_comment_start comment="[bold face in source document]"?> gzugs kyi phung po la <?oxy_comment_end?>o las <quote xml:id="d2e281">rnam par snang mdzad</quote> dkar po | <quote xml:id="d2e284">tshor ba'i </quote> <lb n="2a4"/><quote xml:id="d2e287">phung po la </quote>a las<anchor xml:id="a7"/> <quote xml:id="d2e296">rdo rje nyi ma</quote> ser po | <quote xml:id="d2e299">'du shes kyi phung po la </quote>hi las<?oxy_comment_start comment="[bold face in source document]"?> pad ma gar gyi dbang phyug <?oxy_comment_end?>dmar po |<?oxy_comment_start comment="[bold face in source document]"?> 'du byed kyi phung po la <?oxy_comment_end?>ho las<?oxy_comment_start comment="[bold face in source document]"?> rdo rje rgyal po <?oxy_comment_end?>ljang khu |<?oxy_comment_start comment="[bold face in source document]"?> rnam par shes pa'i phung po la <?oxy_comment_end?>hū las<?oxy_comment_start comment="[bold face in source document]"?> rdo rje sems dpa' <?oxy_comment_end?>dkar po | <lb n="2a5"/> de bzhin gshegs pa thams cad kyi bdag nyid du gyur pa hrīḥ las<?oxy_comment_start comment="[bold face in source document]"?> dpal he ru ka <?oxy_comment_end?>nag po || <!--Skt. rūpaskandhe Vairocanaḥ | vedanāskandhe Vajrasūryaḥ | saṃjñāskandhe Padmanarteśvaraḥ | saṃskāraskandhe Vajrarājaḥ | vijñānaskandhe Vajrasattvaḥ | sarvatathāgatatve śrī-Herukavajraḥ | Cf. Vibhaṅga, D 187a2-4-->
+         <lg>
+            <l xml:space="preserve"><abbr>sna tshogs</abbr> padma zla ba dang ||</l>
+            <l xml:space="preserve">nyi gzugs dbus kyi gdan bzhugs shing ||</l>
+            <l xml:space="preserve">seng nge glang po rta dag dang || </l>
+            <l xml:space="preserve">rma bya nam mkha' sding gi steng || </l>
+            <l xml:space="preserve">ro<anchor xml:id="a8"/> steng de dag rim <lb n="2a6"/> bzhin du ||</l>
+            <l xml:space="preserve">rigs drug gtso bo bsgom par bya ||</l>
+            <l xml:space="preserve">snying po rdo rje sa gnon gyur ||</l>
+            <l xml:space="preserve">gzhan rnams go rim bzhin du ni ||</l>
+            <l xml:space="preserve">phyag g.yas 'khor lo rin chen dang ||</l>
+            <l xml:space="preserve">pad ma sna tshogs rdo rje'o ||</l>
+            <l xml:space="preserve">g.yon du dril bu dkur brten te ||</l>
+            <l xml:space="preserve">thams cad du <lb n="2a7"/> ni spyan gsum nyid || </l>
+         </lg><!--Bodhivajra, <mentioned>Śambarākalita</mentioned>. D 1463, 24a5-6: sna tshogs padma zla ba dang || nyi gzugs dbus kyi gdan bzhugs shing || seng ge glang po rta dag dang || rma bya nam mkha' lding gi steng || ro'i steng de dag rim bzhin du || rigs drug gtso bo bsgom par bya || snying po rdo rje sa gnon gyur || gzhan rnams go rims bzhin du ni || phyag g.yas 'khor lo rin chen dang || padma sna tshogs rdo rje'o || g.yon na dril bu dkur byas te || thams cad dag ni spyan gsum nyid ||-->
+         
+         <quote xml:id="d2e368">mig gnyis su</quote> sbru las <quote xml:id="d2e371">gti mug rdo rje</quote> dkar po | <quote xml:id="d2e374">rna ba gnyis su</quote> hū las <quote xml:id="d2e377">zhe sdang<anchor xml:id="a9"/> rdo rje</quote> nag po | <quote xml:id="d2e384">sna la</quote> kha las <quote xml:id="d2e387">ser sna rdo rje</quote> ser po | <quote xml:id="d2e391">kha la</quote> a<anchor xml:id="a10"/> las <quote xml:id="d2e402">'dod chags rdo rje </quote>dmar po | <quote xml:id="d2e405">lus la <!--CA sparśe (Tib. reg la)--></quote> hra<anchor xml:id="a11"/> las <quote xml:id="d2e416">phrag dog <pb n="2b"/><lb n="2b1"/> rdo rje</quote> ljang khu | <quote xml:id="d2e420">skye mched thams cad la</quote> o las <quote xml:id="d2e423">dbang phyug rdo rje</quote> dkar po | phyag mtshan ni rigs drug gi de bzhin gshegs pa dang 'dra'o || <quote xml:id="d2e426"><!--CA: cakṣuṣor Mohavajraḥ | śrotrayor Dveṣavajraḥ | ghrāṇayor Īrṣyāvajraḥ | vaktre Rāgavajraḥ | sparśe Mātsaryavajraḥ | sarvāyataneṣv Aiśvaryavajraḥ | Cf. Vibhaṅga, D 187b1-2--></quote>
+         <quote xml:id="d2e429">sa'i khams la </quote>ba<anchor xml:id="a12"/> las <quote xml:id="d2e437">lhung byed ma</quote> ser mo | <quote xml:id="d2e440">chu'i khams la </quote>la<anchor xml:id="a13"/> las <quote xml:id="d2e448">gsod byed ma</quote> nag mo | <quote xml:id="d2e452">me'i khams</quote> <lb n="2b2"/> <quote xml:id="d2e458">la</quote> ra<anchor xml:id="a14"/> las <quote xml:id="d2e466">'gugs byed ma</quote> <choice><reg>gser</reg><orig>‹g›ser</orig></choice> ltar ser ba | <quote xml:id="d2e469">rlung gi khams la </quote>ya las <quote xml:id="d2e473">padma <choice><reg>gar gyi</reg><orig>‹gar gyi›</orig></choice> dbang phyug ma </quote>dmar mo | <quote xml:id="d2e476">nam mkha'i khams la</quote> kha las <quote xml:id="d2e479">padma dra ba can</quote> nam mkha' ltar sngo ba ste | <!--CA: pṛthivīdhātuḥ Pātanī | abdhātu (read abdhātur) Māraṇī | tejodhātur Akarṣaṇī | vāyudhātur Narteśvarī | ākāśadhātuḥ Padmajvālinī (or Padmajālinī) || Cf. Vibhaṅga, D 187b2-4--> de dag tu rang rang gi dkyil 'khor la bzhugs <lb n="2b3"/> shing | zhal gcig pa la phyag bzhi pa ste |
+         <lg>
+            <l xml:space="preserve">phyag g.yas 'khor lo rdo rje dang ||</l>
+            <l xml:space="preserve">padma ral gri gri gug dang || </l>
+            <l xml:space="preserve">pad snod g.yon pa dag la ni ||</l>
+            <l xml:space="preserve">kha ṭāṃ ka dang zla ba'o ||</l>
+            <l xml:space="preserve">pad ma dra ba can nyid kyang ||</l>
+            <l xml:space="preserve">zhal gsum pa la phyag drug pa ||</l>
+            <l xml:space="preserve"><lb n="2b4"/> 'di yi phyag g.yas pad snod dang ||</l>
+            <l xml:space="preserve">de <choice><reg>nas</reg><orig>na‹s›</orig></choice> kha ṭoṃ ka zhags pa ||</l>
+            <l xml:space="preserve">lcags kyu nyid dang tshangs pa'i mgo ||</l>
+            <l xml:space="preserve">gri gug dag ni bsgom par bya ||</l>
+         </lg><!--D 1463, 24b2-3: phyag g.yas 'khor lo rdo rje dang || padma ral gri gri gug dang || pad snod g.yon pa dag la ni || kha ṭvāṃ ga dang zla ba'o || padma'i dra ba can nyid kyang || zhal gsum pa la phyag drug (24b3) pa || 'di yi phyag la pad snod dang || de nas kha ṭvāṃ ga zhags pa || lcags kyu nyid dang tshangs pa'i mgo || gri gug dag ni bsgom par bya ||-->
+         <quote xml:id="d2e512">de ltar phung po dang | skye mched dang | khams dag <!--CA evaṃ skandhadhātvāyataneṣu--> </quote>ni<?oxy_comment_start comment="[bold face in source document]"?> <?oxy_comment_end?>rnal 'byor tha mal pa'i dbang <lb n="2b5"/> gis o pra kri ti pa ri shu ddha sarba ddharmā pra kri ti pa ri shuddho haṃ<anchor xml:id="a15"/> zhes pas rnam par dag par bya ba'o || de nas dbang po tha mas ni | phung po las sogs pa rnam par snang mdzad skur bsgom mo ||<!--Cf.<mentioned>Vibhaṅga</mentioned>, D 187b6-7-->
+         dbang po 'bring gis ni o las sogs <lb n="2b6"/> pa'i yig ge bsgom mo || dbang po rab kyis ni rnam par snang mdzad las sogs par mos pa bya ste | de rnams kyi gnas su phung po las sogs pa la dmigs nas | rnam par snang mdzad las sogs pa rang gi lus la me long gi gzugs brnyan bzhin du thams cad <lb n="2b7"/> cig car bsgom par bya'o ||
+
+         <milestone unit="section" n="3 "/>
+         <milestone unit="section" n="(a) "/>
+         <quote xml:id="d2e542">de nas rdo rje dra ba bsam par bya ste | <!--CA tato vajrapañjaraṃ vicintayet (Tib. de nas rdo rje gur bsam par bya ste). Cf. Vibhaṅga, D 187b6: de nas rdo rje'i ra ba bsam par bya ste--></quote> zhes bya ba las sogs pa ni bgegs bsrung ba ste | de la rang gi snying kar nyi ma'i dal bsams la | de'i steng du hū las 'od zer 'phros te slar 'dus pa <choice><reg>las</reg><orig>la‹s›</orig></choice> <pb n="3a"/><lb n="3a1"/> khams gsum rnam par rgyal ba'i khro bor bsams la | <quote xml:id="d2e548">o sumbha <!--CA O Sumbha Nisumbha Hū Hū Phaṭ ... O ānaya Ho bhagavāṃ (read bhagavan) vajra Hū Hū Phaṭ--> </quote>las sogs pa'i sngags brjod pas bgegs kun rgya mtsho'i mthar btugs pa'i bar du bskrad par bya'o ||<!-- Cf. <mentioned>Vibhaṅga</mentioned>, D 187b6-188a1: de nas rdo rje'i ra ba bsam par bya ste zhes bya ba la sogs pa la | bdag gi snying gar nyi ma la gnas pa'i Hū 'od zer gyi phreng ba 'phro bar bsams la | de las 'od zer sna tshogs 'phros pas ... tshur 'dus pas bdag khams gsum rnam rgyal du bsam pa ste ... de yang O sumbha la sogs pa'i sngags bzhi phyogs bzhir bsam ...--> 
+         <quote xml:id="d2e555">shar las sogs par bzhag<anchor xml:id="a16"/> par bya'o ||</quote><!--CA <quote xml:id="d2e564">pūrvādidikṣu niveśayet-->  <lb n="3a2"/> 
+         <quote xml:id="d2e570">sumbha ni <!--CA O Sumbha Nisumbha Hū Hū Phaṭ--> la sogs</quote> pa ni shar du'o || 
+         <quote xml:id="d2e575">o grïna<anchor xml:id="a17"/> <!--CA O gṛhṇa 2 Hū Hū Phaṭ -->la sogs</quote> pa ni byang du'o || 
+         <quote xml:id="d2e585">grïhna<anchor xml:id="a18"/> pa ya </quote><!--CA O gṛhṇāpaya 2 Hū Hū Phaṭ--> las sogs pa ni nub tu'o || 
+         <quote xml:id="d2e598">o a na ya ho <!--CA O ānaya Ho bhagavāṃ vajra Hū Hū Phaṭ--> la sogs</quote> pa ni lho ru ste | de dag yongs su gyur pa las rdo rje dra ba bsam par bya'o ||
+
+         <milestone unit="section" n="(b)-(c) "/>
+         <lb n="3a3"/> de nas yang bgegs mi 'jug par bya ba'i phyir | <quote xml:id="d2e607">sa gzhi ni yig ge hū las sna tshogs rdo rje rang bzhin <!--CA Hū-kāreṇa viśvavajramayīṃ bhūmiṃ--> </quote>zhes bya ba las sogs pa smos pa yin no || de la sngags kyi bsrung ba ni ¦ o sumbha las sogs pa'o || 
+         mtshon cha'i bsrung ba ni <lb n="3a4"/> khro bo phur bu'o || 
+         byams pa'i bsrung ba ni phur bus btab pas bgegs thams cad gnod sems spangs pas byams pa'i sems dang ldan pa'o || 
+         ye shes <choice><reg>kyi</reg><orig>‹kyi›</orig></choice> bsrung ba ni phur bu nyid ye shes kyi rang bzhin du bsams te | de'i 'od zer 'bar bas <lb n="3a5"/> bgegs rnams bsregs pa'o || 
+         don dam pa'i bsrung ba ni bgegs rnams snang la rang bzhin med par bsam pa'o || 
+         mi 'jug pa'i bsrung ba ni rdo rje rwa ba las sogs pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 188a2-4-->
+
+         <milestone unit="section" n="4 "/>
+         de nas bsod nams kyi tshogs bsag pa'i phyir | <lb n="3a6"/> <quote xml:id="d2e635">rang gi snying kar <!--CA svahṛdaya--></quote> zhes bya ba las sogs pa smos so || 
+         de la <quote xml:id="d2e640">rang gi </quote>zhes bya ba ni skad cig ma'i ting nge 'dzin gyis rang gi lha'i rnal 'byor bsam pa'o || 
+         <quote xml:id="d2e644">de'i snang ba mngon du <!--CA tasyāvabhāsataḥ purato--></quote> zhes bya ba ni<anchor xml:id="a19"/> yig ge hū gi 'od zer gyis sangs rgyas dang bla ma bskul nas mdun du<anchor xml:id="a20"/> spyan drangs pa'am | yang na <choice><reg>sngon</reg><orig>sngo‹n›</orig></choice> na bzhugs pa 'od zer gyis gsal bar byas pa'am | yang sngar <pb n="3b"/><lb n="3b1"/> rang gi bla mas snying kar bcug pa'i ye shes sems dpa' 'od zer gyis bskul nas mdun du<anchor xml:id="a21"/> bsam par bya'o || 
+         <quote xml:id="d2e675">yang dag par rdzogs pa'i sangs rgyas <!--CA saṃbuddha°--></quote> zhes bya ba ni phyogs bcu'i sangs rgyas dang dkyil 'khor pa'i ye shes sems dpa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 188b7-->
+         <quote xml:id="d2e682">bla ma <!--CA guru°--></quote> <lb n="3b2"/> zhes bya ba ni dbang bskur ba'i bla ma'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 188b7: bla ma ni der dbang bzhi bskur ba'o ||-->
+         <quote xml:id="d2e692">stsogs pa <!--CA ādīn°--></quote> zhes bya ba ni dbang bskur ba'i bla ma gzhan yod na yang bsdu bar bya'o || bla ma thams cad dam de'i nang nas mchog tu gyur pa bsam mo ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 188b7-189a1-->
+         <quote xml:id="d2e699">phyag bya ba <!--CA saṃpūjya--></quote> ni <lb n="3b3"/> o sarba ta thā gata pa dha bandha ni ka ro mi<anchor xml:id="a22"/> zhes bya ba'i sngags dang | lus ngag yid gsum gyis phyag bya'o || 
+         <quote xml:id="d2e711">mchod par bya'o <!--CA kṣamāpayet"--></quote> zhes bya ba ni | de nas snying ka'i sa bon gyi 'od zer las mkha' 'gro ma las sogs pa'i yum bzhi'am | lha mo <lb n="3b4"/> bcu gnyis <!--Cf. <mentioned>Vibhaṅga</mentioned> (D 196a3-5)--> bdud rtsi lnga char lag na thogs nas mchod pa byed pa ni nang gi mchod pa'o ||<!--<mentioned>Vibhaṅga</mentioned>, 196a7-->
+         yum bzhi phag <choice><reg>mo</reg><orig>‹mo›</orig></choice> la bsdoms nas gnyis su med pa'i <choice><reg>mchod pa ni gsang ba'i mchod</reg><orig>mchod ‹pa ni gsang ba'i mchod›</orig></choice> ||<!--<mentioned> Vibhaṅga</mentioned>, 196a7-->
+         snying ka'i yig ge hū gi 'od zer las gdug pa ma las sogs pa phyung <lb n="3b5"/> nas mchod pa ni phyi'i mchod pa'o ||<!--<mentioned>Vibhaṅga</mentioned>, 196a3-6-->
+         <quote xml:id="d2e737">de nas dkon mchog gsum la skyabs su 'gro bar bya'o <!--CA tato ratnatrayaśaraṇaṃ gacchet--></quote> zhes bya ba ni mtshon pa ste |
+         <lg>
+            <l xml:space="preserve">dkon mchog gsum la skyabs su mchi || </l>
+            <l xml:space="preserve">sdig pa thams cad so sor bshags || </l>
+         </lg><!--<mentioned>Vajrapañjara</mentioned> XII; D 419, 50b3: dkon mchog gsum la bdag skyabs mchi || sdig pa thams cad so sor bshags-->
+         zhes bya ba las sogs pa'i tshigs su <lb n="3b6"/> bcad pas bla na med pa'i mchod pa mdun du<anchor xml:id="a23"/> bya'o zhes bya ba'i don to || de nas mchod pa'i lha mo rnams slar snying kar bsdus la sangs rgyas dang bla ma slar gshegs su gsol bar bya'o ||
+
+         <milestone unit="section" n="5"/>
+         de nas ye shes kyi <lb n="3b7"/> tshogs bsag<anchor xml:id="a24"/> par bya ba'i phyir |<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 189a2: de ltar bsod nams kyi tshogs dang ldan pa la ye shes kyi tshogs skye bas--> 
+         <quote xml:id="d2e781">o swa bhā wa <!--CA O svabhāvaśuddhāḥ sarvadharmāḥ svabhāvaśuddho 'haṃ--></quote> zhes bya ba las sogs pa smos te | snying ka'i sa bon gyi yig ge las 'od zer 'phros pas rang gi lus mi snang ste | zla ba dang yig ge hū lus par bsam mo || 
+         de nas <choice><reg>zla ba</reg><orig>zla ‹ba›</orig></choice> zhu nas hū <pb n="4a"/><lb n="4a1"/> 'ba' zhig lus so || 
+         de nas hū zhu nas thig le 'od zer dang bcas<anchor xml:id="a25"/> pa 'ba' zhig lus so || de yang rim gyis je phrar gyur nas thig le yang mi snang ste 'od 'ba' zhig tsam mo || de yang mi snang nas phyi nang gi <lb n="4a2"/> chos thams cad stong pa nyid du bsgom mo || de brtan par bya ba'i phyir sngags kyang brjod par bya'o || de'i rjes la de'i don dran pa'i sgo nas stong pa nyid bsgom par bya ba'i phyir <quote xml:id="d2e801">yang stong pa nyid du bsam par bya zhing <!--CA punaḥ śūnyatāṃ vicintayet--></quote> zhes smos pa yin no ||
+         <lb n="4a3"/> ji ltar sgom par bya ba ni <quote xml:id="d2e808">byang chub tshogs <!--CA bodhisaṃbhāra°--> </quote>shes bya ba <choice><reg>la sogs pa</reg><orig>‹las sogs pa›</orig></choice> smos pa yin te | gcig dang du ma<anchor xml:id="a26"/> dang bral ba las sogs pa'i gtan tshigs kyis chos thams cad stong pa nyid du bsgom pa ni byang chub kyi tshogs bsgom pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 189a5-->
+         <lb n="4a4"/> <quote xml:id="d2e833">sems tsam nyid la gnas <!--CA cittamātran tu vai tiṣṭhet--></quote> shes bya ba ni bzung ba dang 'dzin pa dang bral ba'i sems kyis rang bzhin ma grub par bsgom pa'o ||
+         <quote xml:id="d2e837">mig yor tsam gyi ye shes <!--CA pratibhāsamātraṃ jñānaṃ--></quote> zhes bya ba ni stong pa nyid kyi ting nge 'dzin bsgoms pa'i rjes la <lb n="4a5"/> don dam par chos thams cad ma skyes pa yin pa la | kun rdzob tu ni sgyu ma las sogs pa lta bu yin no zhes bsam pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 189a5-6--> stong pa nyid kyi rang bzhin gyi ye shes ni bdag nyid yin no zhes nga rgyal ba'i phyir dang | stong pa nyid <lb n="4a6"/> kyi ting nge 'dzin brtan par bya ba'i phyir | <quote xml:id="d2e851">o shuṇya ta</quote> <quote xml:id="d2e854"><!--CA O śūnyatājñānavajrasvabhāvātmako 'ham --> </quote>zhes bya ba las sogs pa'i sngags brjod par bya'o || sngags brjod pas ni sngags kyi mthus dbang po brtul pos ni stong pa nyid du rtogs nus pa dang | stong pa nyid brjod pa'i <lb n="4a7"/> dran pa gso ba dang | dbang po rnon pos stong pa nyid la gnas pa brtan pa dang | ye shes kyi tshogs rdzogs par 'gyur ba dang | 'bring gis<anchor xml:id="a27"/> tha mal pa'i lus dang ngag <choice><reg>dang</reg><orig>‹dang›</orig></choice> yid spong bar 'gyur ba dang | rten dang brten pa'i dal thams cad stong <pb n="4b"/><lb n="4b1"/> pa'i rnam par 'phrul pa'i byin gyis brlabs 'byung ba'i phyir ro ||<!--Cf.<mentioned> Vibhaṅga</mentioned>, D 189b1-2: de ltar sngags rnam pa gnyis len gsum du brjod pa ni stong pa nyid rtogs nus pa dang | stong pa nyid kyi dran pa gso ba dang | gnas pa brtan pa dang | ye shes kyi tshogs rdzogs pa dang | tha mal pa'i lus ngag yid gsum spong ba dang | rten dang brten pa thams cad stong pa nyid kyi rnam 'phrul du rtogs pa'i phyir ro ||-->
+
+         <milestone unit="section" n="6"/>
+         <milestone unit="section" n="(a)"/>
+         <quote xml:id="d2e878">de las langs la</quote> <!--CA tato vibhuddhya (read vibudhya-->zhes bya ba ni stong pa nyid kyi ting nge 'dzin las ldang ba ste | bdag nyid kun rdzob byang chub kyi seMs<anchor xml:id="a28"/> thig le dkar po yungs 'bru'i tshad tsam du bsam par bya'o ||
+         <lb n="4b2"/> de nas phyi'i 'jig rten sbyang ba'i phyir <quote xml:id="d2e895">be ram pa</quote> <!--CA ādhārādheyamaṇḍalaṃ bhairambhādisaṃsthitaṃ vicintya (Tib. paṃ las 'byung ba'i sna tshogs padma ...--> zhes bya ba las sogs pa smos so || 
+          ya las sogs pa'i yig ge las rlung las ri rab kyi steng du bskyed<anchor xml:id="a29"/> pa'i ye shes kyi<anchor xml:id="a30"/> rang bzhin <choice><reg>du</reg><orig>‹du›</orig></choice> bstan pa'i phyir ro || 
+         <quote xml:id="d2e918">de'i steng du <!--CA tasyopari--></quote> zhes bya ba ni ri rab <lb n="4b3"/> kyi steng du'o || 
+         <quote xml:id="d2e925">yig ge pa</quote> <quote xml:id="d2e928">las sna tshogs padma</quote> <quote xml:id="d2e931">'dab ma brgyad pa lte ba dang</quote> <quote xml:id="d2e934">ge sar du bcas pa <!--CA Paṃ-kārapariṇataṃ viśvapadmam aṣṭadalaṃ karṇikākeśarānvitam--></quote> zhes bya ba<anchor xml:id="a31"/> ni bsam gtan bzhi pa ltar bsdus te skye ba'i rim pa yin pa'i phyir brten pa'i dal dang dus gcig tu bsam par bya'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 189b2-->
+
+         <milestone unit="section" n="(b)-7"/>
+         <milestone unit="section" n="(a) "/>
+         de <lb n="4b4"/> nas nang gi 'jig rten sbyangs pa'i phyir | de'i phyir<quote xml:id="d2e966"> de'i steng du a li ka li sbyor ba</quote> <!--CA tanmadhye ālikāliyogam (Tib. de'i dbus su ā li kā li'i sbyor ba'o)--> zhes bya ba las sogs pa smos so || 
+         de yang mngon par byang chub lnga <!--Cf. <mentioned>Vibhaṅga</mentioned>, D 189b5-6: zla ba la me long lta bu'i ye shes dang | nyi ma la mnyam pa nyid kyi ye shes dang | Hū 'od zer gyi phreng ba 'phro ba so sor rtog pa'i ye shes dang | 'od zer gyis gzhan don byas pa bya ba grub pa'i ye shes dang | rdzogs pa chos kyi dbyings rnam par dag pa'i ye shes las byang chub pa'o ||--> las | gtso bo shes rab dang bcas pa skyed pa dang dus gcig tu yig ge <lb n="4b5"/> hū aḥ o las 'khor lo gsum bskyed par bya'o || lha mo bcu gnyis gtso bo'i yig ge hū las bskyed pa'i phyir logs shig tu ma smos te | gtso bo'i shes rab yin pa'i phyir ||
+         <quote xml:id="d2e982">dur khrod brgyad kyis brgyan <!--CA °śmaśānāṣṭakamaṇḍitam--></quote> zhes bya ba ni | 
+         <lg>
+            <l xml:space="preserve"><lb n="4b6"/> gtum drag dang ni tshang tshing dang ||</l>
+            <l xml:space="preserve">'bar bas khyab pa<anchor xml:id="a32"/> keng rus can ||</l>
+            <l xml:space="preserve">'jigs rung dag ni <choice><reg>shar</reg><orig>‹shar›</orig></choice> phyogs kyi ||</l>
+            <l xml:space="preserve">g.yon skor du ni yang dag gnas ||</l>
+            <l xml:space="preserve">dbang ldan la ni ha har rgod ||</l>
+            <l xml:space="preserve">me mtshams su ni dpal 'dzin te || </l>
+            <l xml:space="preserve"><lb n="4b7"/> bden bral du ni mun chen dang ||</l>
+            <l xml:space="preserve">rlung du ca co sgregs pa'o ||</l></lg>
+          <!--CA verses 2-3 = Saṃvarodaya XVII, 36-37-->
+         dur khrod ni chos thams cad stong pa nyid yin pa'i phyir zhes bstan pa'i phyir ro ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 190b2-->
+
+         <milestone unit="section" n="(b)"/>
+         zhing skyong brgyad ni shar las sogs par khwa dang | lce spyangs dang | 'ug pa dang | stag rnams <pb n="5a"/><lb n="5a1"/> kyi gdong can ser po dang dkar po dang dmar po dang ljang khu g.yon skor du'o || shar las sogs pa'i mtshams su g.yas skor du khyi dang | bya rgod dang | phag dang | sha za'i mgo can ser po dang sngon po<lb n="5a2"/> dang gser dang ser po ste rim pa bzhin du sbyar ro || de dag kun mi'i gzugs can ro stod phyung zhing shing brgyad la gnas pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 190b2-4: zhing skyong brgyad ni | seng ge'i gdong can ser po dang | ce spyang gi gdong can dkar po dang | khyi'i gdong can dmar po dang | stag gi gdong can ljang gu dang | khra'i gdong can ser po dang | kyung ka'i gdong can sngon po dang | khyu mchog gi gdong can ser po dang | ug shud kyi gdong can ser po'o || de dag mi'i gzugs can shing las ro stod phyung ba'o ||-->
+         de la zhing skyong brgyad ni | de bzhin gshegs pa rnam par gzigs dang | gtsug gtor can dang | thams cad skyob dang | log pa <lb n="5a3"/> dang sel dang | 'od bsrung dang | shāk thub dang | gser thub dang | byams pa ste brgyad dang rims bzhin du sbyar ro || gdong tha dad par bstan pa ni gdul bya'i phyir ro ||<!--Cf.<mentioned> Vibhaṅga</mentioned>, D 190b4: de la zhing skyong brgyad ni | sangs rgyas rabs bdun dang byams pa ste brgyad do || gdul bya la gdong tha dad par bstan pa'o ||-->
+        'dir dus gsum gyi sangs rgyas bzhugs pa ni dus gsum gyi sangs rgyas thams cad kyis <lb n="5a4"/> chos thams cad stong pa nyid du rtogs pa'i thabs 'dis sangs rgyas par<anchor xml:id="a33"/> bstan pa'i phyir ro || 
+        'khor rnams ni nyan thos las sogs pas chos thams cad bdag med par ma rtogs par bstan pa'i phyir ro<anchor xml:id="a34"/> || 
+        de la shing brgyad ni byang chub kyi shing ngo ||
+        klu <lb n="5a5"/> brgyad ni nyong mongs pa rnams so || 
+        sprin brgyad ni gnyen po ye shes so || 
+        'jig rten skyong ba brgyad ni thugs rje chen po'o ||<!--Cf.<mentioned> Vibhaṅga</mentioned>, D 190b4-5: byang chub kyi shing brgyad dang | klu brgyad dang | nyon smongs pa brgyad dang | sprin brgyad dang | ye shes brgyad dang | 'jig rten skyong ba brgyad thugs rje chen po'o ||-->
+        dur khrod dben par gnas pa ni stong pa nyid sangs rgyas las gzhan gyis mi rtogs par bstan pa'i phyir ro ||<!--Cf.<mentioned> Vibhaṅga</mentioned>, D 190b5: de la rnal 'byor pa dur khrod brgyad kyis dben par gnas pa ni | nges 'byung gi yan lag mi rtag pa dang | sdug bsngal rtogs par byed pa dang | 'jig rten gyi chos la chags pa spong ba'i phyir ro ||-->
+        
+         dur <lb n="5a6"/> khrod gzhal yas khang gi rgyab du gnas pa ni pha rol tu phyin pa'i theg pas bskal pa grangs <choice><reg>med</reg><orig>‹med›</orig></choice> pa gsum du<anchor xml:id="a35"/> sangs rgya par bstan pa dang | <rs type="deity">dpal he ru ka</rs>'i dal du gnas pa ni sngags kyi theg <choice><reg>par</reg><orig>pa‹r›</orig></choice> dus nges pa med par myur bar sangs rgya bar bstan <lb n="5a7"/> pa'i phyir ro ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 190b5-6: de la brten nas nges 'byung gi lam skye med rtogs pa'i phyir dpal he ru ka'i dkyil 'khor nang du gnas pa'o ||-->
+
+      <milestone unit="section" n="(c) "/>
+         <quote xml:id="d2e1110">zhal bzhi <!--CA caturmukhaṃ--></quote> ni rnam par thar pa bzhi'o || 
+         <quote xml:id="d2e1114">spyan gsum <!--CA trinetraṃ--></quote> ni dus gsum mkhyen pa'o || 
+         <quote xml:id="d2e1118">phyag bcu gnyis <!--CA dvādaśabhujam--> </quote>ni pha rol tu <choice><reg>phyin pa</reg><orig>phyin ‹pa›</orig></choice> bcu gnyis dang | rten cing 'brel par 'byung ba bcu gnyis rnam par dag pa'o ||
+         <quote xml:id="d2e1122">skugo<anchor xml:id="a36"/> mthing nag</quote> ni chos nyid <pb n="5b"/><lb n="5b1"/>mi 'gyur ba dang byams pa'i thugs so || 
+         <quote xml:id="d2e1133">zhabs g.yas brkyang ba <!--CA ālīḍāsanasaṃsthitaṃ (Tib. g.yas rkyang bas bzhugs pas)--></quote> ni srid pa dang 'khor ba rnam par dag pa'o || 
+         <quote xml:id="d2e1137">'jigs byed dang dus mtshan zhabs kyis mnan pa <!--CA Mahābhairava-Kālarātryākrāntamānam (Tib. 'jigs byed chen po dang dus mtshan dag zhabs kyis mnan pa)--></quote> ni 'dod chags dang zhe sdang dag pas<anchor xml:id="a37"/> 'khor ba dang mya ngan las 'das par mi <lb n="5b2"/> gnas pa'o || 
+         <quote xml:id="d2e1149">phyag gnyis kyis rdo rje dang dril bu bsnams pa <!--CA ālīṅganabhujadvayena vajraghaṇṭādharam--></quote> ni thabs dang shes rab dbyer med pa'o || 
+         <quote xml:id="d2e1153">glang po che'i lpags pa <!--CA gajacarma°--></quote> ni 'khor ba spangs pa'o ||
+         <quote xml:id="d2e1157">ḍa ma ru <!--CA ḍamalukam--></quote> ni mi shes pa spangs pa'o || 
+         <quote xml:id="d2e1161">dgra sta <!--CA paraśuḥ--></quote> ni dngos po ma lus par gcod <lb n="5b3"/> pa'o || 
+         <quote xml:id="d2e1168">gri gug <!--CA kartriḥ--></quote> ni rnam par rtog pa gcod pa'o || 
+         <quote xml:id="d2e1173">rtse gsum <!--CA triśūlam--></quote> ni dug gsum 'joms pa dang bzod pa gsum ldan pa'o || 
+         <quote xml:id="d2e1177">kha ṭāṃ ka <!--CA khaṭvāṅgaṃ--></quote> ni dbyings dang ye shes dbyer med pa dang sku gsungs thugs rnam par dag pa'o || 
+         <quote xml:id="d2e1181">khrag gis bkang <lb n="5b4"/> pa'i thod pa <!--CA asṛkpūrṇakapālam--></quote> ni 'khor ba bsad pa'i khrag gis bkang ba dang bdud bzhi bcom pa'o || <quote xml:id="d2e1188">thod pa <!--CA °kapālaṃ--></quote> ni bdag med pa'o || 
+         <quote xml:id="d2e1192">zhugs pa <!--CA vajrapāśam--></quote> ni thugs rje chen pos 'gro ba rnams bzung ba dang gdug pa can thams cad dbang du bsdud pa'o || 
+         <quote xml:id="d2e1196">tshangs</quote> <lb n="5b5"/> <quote xml:id="d2e1202">pa'i mgo bo <!--CA brahmaśiraḥ--></quote> ni khams gsum thams cad dbang du mdzad pa dang log par rtog pa thams cad rtsa<anchor xml:id="a38"/> nas gcod pa'o || 
+         <quote xml:id="d2e1211">ral pa <!--CA jaṭā°--></quote> ni 'dod chags la dga' ba rnams chos kyi dbyings la 'dzud pa'o || 
+         <quote xml:id="d2e1215">thor gtsugs<anchor xml:id="a39"/> <!--CA °mukuṭa°--></quote> ni bdud dang drag <lb n="5b6"/> po drug ldan las sogs pas mi thub pa'o || 
+         <quote xml:id="d2e1228">thod pa'i phreng ba'i cod pan <!--CA °śekharam--></quote> ni sangs rgyas lnga'i rang bzhin las ma 'das pa'o ||
+         <quote xml:id="d2e1232">zla ba phyed pa <!--CA ardhacandra°--></quote> ni stong pa nyid rtogs pa dang bde ba chen po'i 'khor lo'i byang chub kyi sems mtshon pa'o || 
+         <lb n="5b7"/> <quote xml:id="d2e1239">sna tshogs rdo rjes mtshan pa <!--CA viśvavajrākrānta--></quote> ni phrin las sna tshogs kyis<anchor xml:id="a40"/> sems can gyi don mdzad pa dang rigs kun gyi bdag po yin pa'i phyir ro ||
+         <quote xml:id="d2e1249">zhal rnam par 'gyur ba <!--CA vikṛtānanam--></quote> ni bdud las sogs pa ma rungs pa rnams skrag par mdzad pa'o ||
+         <quote xml:id="d2e1253">mche ba</quote> <pb n="6a"/><lb n="6a1"/> <quote xml:id="d2e1259">gtsigs pa <!--CA daṃṣṭrotkaṭa°--></quote> ni ma rungs pa thams cad zos pa dang | nyon mongs pa thams cad bcom pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 190b7-191b2: zhal bzhi ni rnam par thar pa'i sgo bzhi'o || ... ma rung pa dang nyon mongs pa 'joms pas mche ba gtsigs pa'o ||-->
+         <quote xml:id="d2e1266">sgeg pa las sogs pa'i nyams dang ldan pa <!--CA śṛṅgārādirasa°--></quote> zhes bya ba ni phyag gnyis kyi 'gying bag dang bcas te shes rab la <lb n="6a2"/> mkhyud pa ste dbyings dang ye shes la dga' ba'o || dpa' bo ni g.yas brkyang ba ste bdud drag po las sogs pa las rgyal ba dang nyong mongs pa dang shes bya'i sgrib pa dang nyan thos dang rang rgyal ba'i mnya ngan las 'das pa las rgyal <lb n="6a3"/> ba'i phyir ro || 
+         mi sdug pa ni ngo tsha ba med pa'i 'dug stangs kyis rang bzhin mi sdug pa ste log lta thams cad la ma rangs pa'o || 
+         rgod pa ni rgyal <choice><reg>po'i</reg><orig>po‹'i›</orig></choice> 'dug stangs kyis gsung rab yan lag bcu gnyis bstan pas 'gro ba 'dul <lb n="6a4"/> ba'o || 
+         khro bo ni smin ma bsnyer ba dang mche ba gtsigs pa las sogs pas <abbr>bdud dang</abbr> sgrib<anchor xml:id="a41"/> pa las sogs skrag par mdzad pa'o || 
+         'jigs su rung ba ni mig mi sdug pa dang ma rung pa'i thod pa'i phreng ba dang stag gi <lb n="6a5"/> lpags pa las sogs pa'o ||
+         de ni shes rab kyis dngos po thams cad 'jig par mdzad pa'o<anchor xml:id="a42"/> phyir ro ||
+         snying rje ni 'jigs byed dang dus mtshan zhabs kyis mnan yang ma shi ba'o || 
+         rngam pa ni ngo mtshar te | 'dod chags kyis shes rab la <lb n="6a6"/> mkhyud pa zhe sdang<anchor xml:id="a43"/> gi mtshon cha yang bsnams pas 'gal ba'i chos 'chang ba ste sangs rgyas kyi chos dang 'gal ba ltar snang ba la mi 'gal ba'o || 
+         zhi ba ni sku drang por bzhag ste sku drang ba dang sku snum pa<anchor xml:id="a44"/> dang brtags <lb n="6a7"/> na zhi ba ste spros pa'i mtha' brgyad dang bral ba'o ||<!--Cf. Rin chen bzang po, <mentioned>dPal 'khor lo bde mchog lū i pa'i bstod pa yid bzhin nor bu</mentioned>, verse 4: dpa' bo'i stangs stabs khro bo 'jigs su rung || sgeg pa'i nyams can snogs rgyan gyis spras || rgod dang mi sdug snying rjes shi ba mdzad || 'gal ba'i chos 'chang bde mchog phyag 'tshal lo ||-->
+         <quote xml:id="d2e1337">stag gi lpags pa <!--CA vyāghracarma°--></quote> ni rnam par rtog pa bcom pa'o || <quote xml:id="d2e1341">mi mgo rlon pa'i phreng ba <!--CA sārdranaraśiromālā°--></quote> ni 'khor ba dang 'du byed lnga bcu rtsa gcig bcom pa'o || 
+         <quote xml:id="d2e1345">rna cha <!--CA kaṇṭhakā°--></quote> ni bzod pa'o ||
+         <pb n="6b"/><lb n="6b1"/> <quote xml:id="d2e1352">gdub bu <!--CA °rucika°--></quote> ni tshul khrims so || 
+         <quote xml:id="d2e1356">mgul brgyan <!--CA °kuṇḍala°--></quote> ni brtson 'grus so ||
+         <quote xml:id="d2e1360">spyi gtsug gi nor bu <!--CA °śiromaṇi°--></quote> ni sbyin pa'o || 
+         <quote xml:id="d2e1364">mchod sbyin thogs pa <!--CA yajñopavītaṃ (Tib. mchod phyir thogs pa 'chang ba)--></quote> ni bsam gtan no || 
+         <quote xml:id="d2e1368">thal ba <!--CA bhasmā--></quote> ni shes rab kyi pha rol tu phyin pa'o || 
+         gcer bu ni thabs dang shes rab gnyis su <lb n="6b2"/> med pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 191b6-7: rnam rtog bcom pas stag gi pags pa'o || ... gcer bu thabs shes rab gnyis med de sgrib pa la sogs pa dang lhan cig mi gnas pa'o ||-->
+         
+         <milestone unit="section" n="(d)"/>
+         <quote xml:id="d2e1385">yum sku mdog dmar mo <!--CA bhagavatī raktavarṇā--></quote> ni stong pa nyid la ye shes skyer 'jug pa'o ||
+         <quote xml:id="d2e1390">zhal gcig pa <!--CA ekamukhī--></quote> ni thams cad kyang chos kyi dbyings su ro gcig pa'o ||
+         <quote xml:id="d2e1394">phyag gnyis pa <!--CA dvibhujā--></quote> ni shes rab kyis<anchor xml:id="a45"/> thabs dbang du byas pa'o || 
+         <quote xml:id="d2e1406">skra grol ba <!--CA muktakeśī--></quote> ni chos kyi <lb n="6b3"/> dbyings las ye shes skyer 'jug pa'o || 
+         <quote xml:id="d2e1413">dum bu'i ska rags <!--CA khaṇḍamaṇḍitamekhalā--></quote> ni gsung rabs yan lag bcu gnyis kyi chos ston pa'o || <quote xml:id="d2e1417">sdigs 'dzub <!--CA °tarjana°. Vibhaṅga (D 192a2): sdigs mdzub--></quote> ni spros pa thams cad sdigs pa'o || 
+         <quote xml:id="d2e1421">gri gug <!--CA vajrikā (rdo rje). Vibhaṅga (D 192a2): gri gug--></quote> ni spros pa thams cad gcod pa'o || 
+         <quote xml:id="d2e1425">bskal pa'i me lta bu'i</quote> <lb n="6b4"/> <quote xml:id="d2e1431">gzi brjid chen po dang ldan pa <!--CA kalpāgnivadmahātejā--></quote> ni stong pa nyid kyi mes dngos po thams cad bsreg pa'o || 
+         <quote xml:id="d2e1435">khrag la dgyes pa dang khrag 'dzag pa <!--CA sravantī rudhirapriyā--></quote> ni 'khor ba bcom zhing spangs ba'o || 
+         <quote xml:id="d2e1439">byin pa gnyis mkhyud pa <!--CA jaṅgadvayena saṃveṣṭā (Tib. byin pa gnyis kyis 'khyug pa)--></quote> ni thabs dang shes rab gnyis mnyam <lb n="6b5"/> pa'i bsam gtan dang ldan pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned> D 191b7-192a3: stong pa nyid la ye shes skyer 'jug pas sku mdog dmar po'o || ... thabs shes rab mnyam pa'i bsam gtan dang ldan pas byin pa gnyis 'khyud pas bde ba chen po'o ||-->
+         rdo rje phag mo'i nges tshig ni byi ba dang chos mthun te rdzas 'phrog par byed pa bzhin du <rs type="deity">he ru ka</rs>'i zhe sdang 'phrog par byed pas na phag mo'o || 
+         he ru kas phag mo'i 'dod chags <lb n="6b6"/> 'phrog par byed pa ste | de'i phyir 'dod chags dang zhe sdang dang 'gal ba'i chos dang ldan par bstan pa ni de dag spang bar bya ba'i phyir ro || 
+         phag ni rnam par rtog pa med pa bzhin du chos kyi dbyings kyang rtog pa med pa'o || 
+
+         <milestone unit="section" n="(e)"/>
+         <milestone unit="section" n="(verse 11)"/>
+         <lb n="6b7"/> <quote xml:id="d2e1468">mtshams rnams su byang chub kyis bkang ba'i snod bzhi <!--CA (verse 11ab) vidikṣu catvāro bodhicittādibhāṇḍakāḥ--> </quote>zhes bya ba ni mtshams bzhir bum pa bzhi'i steng du thod pa bzhi bdud rtsi lngas bkang bar bsam mo || de yang bum pa ni gzhal yas khang ste chos kyi dbyings yin la thod pa ni <pb n="7a"/><lb n="7a1"/> snying rje chen po'o || 
+
+         <milestone unit="section" n="(f)-(h)"/>
+         <quote xml:id="d2e1477">dang po thugs kyi 'khor lo <!--CA prathamañ cittacakram--></quote> zhes bya ba las sogs pa smos te | de yang gnas nyi shu rtsa bzhi na gnas pa'i 'jig rten gyi mkha' 'gro ma rnams gdul ba'i phyir ro || de rnams dang mthun par bya <lb n="7a2"/> ba'i phyir thod pa'i dum bu dang rab tu gtum ma las sogs par ming du btags kyi nges pa'i tshig med do<anchor xml:id="a46"/>||
+        
+         <milestone unit="section" n="(i)"/>
+         <quote xml:id="d2e1496">sgo rnams su <!--CA °dvāreṣu--></quote> zhes bya ba ni <quote xml:id="d2e1499">kha gdong ma <!--CA Kākāsyā--></quote> ni bya rog gis rgyang ring mo mthong ba ltar | dus gsum mkhyen pa'i phyir ro || 
+         <quote xml:id="d2e1503">'ug</quote> <lb n="7a3"/> <quote xml:id="d2e1509">gdong ma <!--CA Ulūkāsyā--></quote> ni nyin mo mi mthong ba la mtshan mo mthong ba dang 'dra bar gzung 'dzin du mi mthong bar gnyis su med par mthong ba'i phyir ro || 
+         <quote xml:id="d2e1513">khyi gdong ma <!--CA Śvānāsyā--></quote> ni zan za ba la ma yengs par blta ba bzhin du de bzhin nyid la lhun <choice><reg>gyis</reg><orig>gyi‹s›</orig></choice> <lb n="7a4"/> grub par dmigs pa'i phyir ro || 
+         <quote xml:id="d2e1520">phag gdong ma <!--CA Sūkarāsyā--></quote> ni gtsang ma med par za ba bzhin du chos kyi dbyings la rtog<anchor xml:id="a47"/> pa med par blta ba'i phyir ro || 
+         <quote xml:id="d2e1530">mtshams rnams na gnas pa'i lha mo ni yid 'phrog pa'i gzugs gnyis ste <!--CA (verse 17cd): vidhiśisthās (sic for vidiśi°) tathā devyau dvau hi rūpau manoharau; Tib. (D 189b1-2) mtshams na bzhugs pa'i lha mo rnams ni yid 'phrog pa'i gzugs gnyis pa ste--></quote> <lb n="7a5"/> zhes pa ni 'gro ba rnams 'khor ba las 'dren par mdzad pa dang | mya ngan las 'das par 'jog par mdzad pa'i phyir gzugs gnyis su bstan no ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 192a4-5: 'khor ba dang mya ngan las das pa'i gzugs gnyis dang | thabs dang shes rab kyi rang bzhin yin pas gzugs gnyis so ||-->
+         <quote xml:id="d2e1540">de la gshin rje bsreg ma <!--CA Yamadāṭī--> </quote>ni 'chi ba bsreg pa'o || 
+         <quote xml:id="d2e1544">gshin rje pho nya ma <!--CA Yamadūtī--></quote> ni <lb n="7a6"/> 'chi ba mi gter ba'o || 
+         <quote xml:id="d2e1554">gshin rje mche ba ma <!--CA Yamadaṃṣṭriṇī--></quote> ni 'chi ba zos pa'o || 
+         <quote xml:id="d2e1558">gshin rje 'joms ma <!--CA Yamamathanī--></quote> ni 'chi ba brlag pa ste gtan bcom pa'o ||
+ 
+         <milestone unit="section" n="(verse 18)"/>
+         <quote xml:id="d2e1564">thams cad kyang yi<anchor xml:id="a48"/> dags kyi gdan la bzhugs shing <!--CA (verse 18ab) pretāsanā mohā ghorāḥ sattvārthakaruṇōdyatāḥ (Tib. thams cad yi dags kyi gdan la bzhugs shing sems can gyi don mdzad pa la brtson pa'o)--></quote> zhes pa ni lha thams cad kyang mi <lb n="7a7"/> ro'i gdan la bzhugs pa ste | de ni chos thams cad bdag med par bstan pa'i phyir dang | lha de nyid kyang chos nyid dang ye shes dbyer med pa'i ngo bor bstan pa'i phyir dang | chos thams cad kyang sdig pa yin no zhes bstan pa'i phyir dang | rnal 'byor pa <pb n="7b"/><lb n="7b1"/> rnams skyo ba med pas bsgom pa la brtson 'grus skye ba'i phyir ro || 
+         <quote xml:id="d2e1578">dpral bar rdo rje phreng ba <!--CA (verse 18d) lalāṭe vajramālā--></quote> ni rigs dran pa'i phyir dang | gnyis su med pa'i ye shes kyi rang bzhin yin par bstan pa'i phyir ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 192a5-6: gnyis su med pa'i ye shes dang | rigs dran pa'i phyir dpral bar rdo rje'i phreng ba'o ||-->
+
+         <milestone unit="section" n="8"/>
+         <quote xml:id="d2e1587">de nas byang chub kyi phyogs kyi chos gsum bcu rtsa bdun</quote> <lb n="7b2"/> <quote xml:id="d2e1593">lha'i sbyor bas sbyar bar bya ste <!--CA ataḥ paraṃ saptatriṃśadbodhipākṣikā dharmā devatāyogena yuñjanīyāḥ--></quote> zhes pa ni rnam par dag pa dran par bya ba ni bsgom pa'i yan lag yin pa'i phyir te | de ni dpal he ru ka las sogs pa'i dal kyi lha thams cad chos sku'i rang bzhin du bstan pa yin pas | lha'i sku'i dngos po <lb n="7b3"/> la mngon par zhen pa bzlog par bya ba'i phyir ro ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 192a6-7: de nas byang chub kyi phyogs kyi chos sum cu rtsa bdun lha dang sbyar ba ni | dpal he ru ka'i lha rnams chos kyi sku'i rang bzhin du bstan pa dang | der zhen pa bzlog pa dang | sgyu ma dang stong pa nyid med mtshon pa dang | cig car lam du byas pas theg pa'i khyad par ro ||-->
+        yang dag par spong ba bzhi phyis bshad pa ni spong ba mthar thug pa rdzogs pa'i phyir ro || 
+
+         <milestone unit="section" n="9"/>
+         <milestone unit="section" n="(a) "/>
+         <milestone unit="section" n="(verse 19)"/>
+         de nas rang gi lus la dal bsgom par bya ba'i phyir | <quote xml:id="d2e1612">de nas lus kyi dal mchog</quote> <lb n="7b4"/> <quote xml:id="d2e1618"><!--CA (verse 19) athātaḥ saṃpravakṣyāmi kāyamaṇḍalam uttamam | pīṭhādikramayogena daśabhūmiviśuddhitaḥ || (Tib. de nas gnas yang sku'i dkyil 'khor mchog gi rim pa'i sbyor bas sa bcu yongs su dag pas gnas la sogs pa yang dag par bshad pa bya ste |)--> </quote>ces bya ba las sogs pa smos so ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 192b5-6-->
+
+         <milestone unit="section" n="(c) "/>
+         lus gnas su byas nas lhar bsgom pa ni | phyi'i <quote xml:id="d2e1628">pu li ra ya</quote> las sogs pa ni gnas nyi shu rtsa bzhi thabs dang shes rab kyi lha thod pa'i dum bu dang gtum mo <quote xml:id="d2e1631"><!--CA [7-f] Khāṇḍakapālina-Pracaṇḍā--></quote> las sogs pa gdul ba'i don du yul <lb n="7b5"/> de nyid na gnas so ||<quote xml:id="d2e1637"><!--CA Pullīramalaye śirasi Pracaṇḍā (Tib. pū zhes bya ba ni pūlliramalaya ste | mgo bor ni rab gtum ma'o)--></quote> 
+         yul de rnams dngos grub 'grub pa'i gnas yod kyi gnas de rnams su bgrod dka' bas phal che bas de rnams su 'gro mi nus pa'i phyir | lus kyi gnas nyid phyi rol gyi gnas dang 'dra bar dngos grub 'grub<lb n="7b6"/> par 'gyur ro || zhes bstan pa dang | gnas la zhen pa'i rnam par rtog pa spang bar bya ba'i phyir dang | sangs rgyas rnams kyis byin gyis brlabs pa'i phyir dang | rang dang dal gyi lha tha dad pa'i rtog pa dgag pa'i phyir ro ||
+         <quote xml:id="d2e1646">'di dag ni thugs kyi <lb n="7b7"/> 'khor lo ste | mkha' la rgyu ba <!--CA cittacakrasya khecarī (Tib. 'di dag ni thugs kyi 'khor lo ste | nam mkha' la spyod pa'o)--> </quote>zhes bya ba ni sems la brten med pa'i phyir ro ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 192b7: sems la rten med pas nam mkha' la rgyu ba'o ||-->
+ 
+         <milestone unit="section" n="(d) "/>
+         <quote xml:id="d2e1655">'di dag ni gsung gi 'khor lo ste<anchor xml:id="a49"/> | sa steng la spyod pa'o <!--CA vākcakrasya bhūcarī (Tib. 'di dag ni gsung gi 'khor lo ste | sa la spyod pa'o)--></quote> zhes bya ba ni tshogs pa'i dngos po la brten pa'i phyir ro ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 192b7: tshogs pa'i dngos grub la brten pas sa la spyod pa'o ||-->
+        
+        <milestone unit="section" n="(e) "/>
+        <quote xml:id="d2e1669">'di dag ni sku'i 'khor lo ste | sa 'og na</quote> <pb n="8a"/><lb n="8a1"/> <quote xml:id="d2e1675">gnas pa'o <!--CA kāyacakrasya pātālavāsinī (Tib. 'di dag ni sku'i 'khor lo ste | sa 'og na gnas so)--></quote>zhes bya ba ni 'og ste | sprul pa'i 'khor lo la gnas pa'i phyir ro ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 192b7: sprul pa'i 'khor lo la brten pas sa 'og na gnas pa'o ||-->
+  
+        <milestone unit="section" n="10 "/>
+         <milestone unit="section" n="(verse 20)"/>
+         <quote xml:id="d2e1689">skad cig gis ni sku gcig 'gyur ||<!--CA (verse 20d) ekamūrtir bhavet kṣaṇāt (Tib. skad cig gcig gis sku gcig 'gyur)--></quote> zhes pa ni stong pa nyid la rten dang brten pa'i dal thams cad gcig car 'grub pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 193a6: skad cig gis ni sku gcig 'gyur ni | stong pa nyid sngon du song ba'i byang chub pa lnga las rten dang brten pa'i lha dus gcig la grub pa'o ||-->
+
+         <milestone unit="section" n="(verse 21)"/>
+         <quote xml:id="d2e1698">skad cig</quote> <lb n="8a2"/> <quote xml:id="d2e1704">gis ni rnal 'byor bdag ||<!--CA (verse 21a) jhaṭitākārayogātmā (Tib. skad cig tsam gyi (sic for gyis) rnal 'byor bdag)--></quote> ces bya ba ni bdag nyid lha'i rnal 'byor du grub pa'o || 
+         <quote xml:id="d2e1708">skad cig gis ni sku 'chang zhing ||<!--CA (verse 21b) jhaṭitākāramudravat (Tib. skad cig gis ni phyag rgya can)--></quote> zhes pa ni ye shes sems dpa' grub pa'o || 
+         <quote xml:id="d2e1712">kun nas kun tu skad cig gi ||<!--CA (verse 21c) jhaṭitā sarvasarveṇa (Tib. kun nas kun du skad cig ste)--></quote> ces pa ni | ting nge 'dzin sems dpa' grub pa'o || 
+         <quote xml:id="d2e1716">skad cig gis ni gsang sngags</quote> <lb n="8a3"/> <quote xml:id="d2e1722">'don ||<!--CA (verse 21d) jhaṭitā mantram uccaret (Tib. skad cig gis ni gsang sngags 'don)--> </quote>zhes pa ni yig ge gsum skad cig gis 'grub pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 193a7-b1: skad cig gis ni gsang sngags 'don pa ni sku gsung thugs la gnas pa'i yi ge gsum skad cig la grub pa'o ||-->
+         de la mgo bo la o dkar po | lkog ma la aḥ<anchor xml:id="a50"/> dmar po | snying kar hū sngon po |<!--Cf.<mentioned> Vibhaṅga</mentioned>, D 193b1: mgo bo dang | lgog ma dang | snying gar o dkar po dang | āḥ dmar po dang | hū sngon po'o ||-->
+         snying ka'i gong du ye shes sems dpa' ting nge 'dzin sems dpa' dang bcas pa bsam par bya'o || 
+         <lb n="8a4"/> de nas yig ge bzhi las 'od zer 'phros pas phyogs bcu'i de bzhin gshegs pa thams cad kyi sku gsung thugs dang ye shes sems dpa' yang dag par bskul te yig ge bzhi la so sor thim par bsam par bya'o ||<!--Cf.<mentioned> Vibhaṅga</mentioned>, D 193b1: de nas yi ge bzhi'i 'od kyis sku gsung thugs dang ye shes sems dpa' spyan drangs te so so la thim par bsams te |-->
+         de nas sku gsung thugs dang sa bon gyi yig ge dang | <lb n="8a5"/> sarba yo ga las sogs pa'i sngags kyis nga rgyal bstan<anchor xml:id="a51"/> par bya'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 193b1-2: sngags kyis de'i nga rgyal brtan par bya'o |-->
+         gtso mo la ye shes sems dpa' dang sku gsungs thugs dang phung po las sogs pa byin gyis brlab kyi 'khor rnams la ni mi dgos so || dam tshig sems dpa' bskyed<anchor xml:id="a52"/> <lb n="8a6"/> pa ni tha mal pa'i rnam par rtog pa spang ba dang | bsod nams dang ye shes kyi tshogs bsags pa dang | bag med pa'i gnas las bzlog pa dang | gong nas gong du zab mo'i don rtogs par bya ba'i phyir ro ||<!--Cf.<mentioned> Vibhaṅga</mentioned>, D 193b3-7: de ni dam tshig sems dpa' bskyed pa zhes bya ste | ... de'i phyir tha mal pa'i rtog pa spong ba dang | tshogs gnyis rdzogs pa dang | bar chad med pa dang | bag med pa'i gnas las ldog pa dang | gong nas gong du zab pa'i don rtogs par bya ba'i phyir ro ||-->
+         sku gsung <lb n="8a7"/> thugs kyi byin brlabs ni | de bzhin gshegs pa thams cad kyi sku gsung thugs byin gyis brlab pa dang | rang gi lus ngag yid gsum dag par bya ba'i phyir ro || 
+     
+         <milestone unit="section" n="11-12"/>
+         <milestone unit="section" n="(verse 22)"/>
+         <quote xml:id="d2e1790">de <choice><reg>nas</reg><orig>na‹s›</orig></choice> go cha<anchor xml:id="a53"/> gnyis shes nas ||<!--CA (verse 22a) tataḥ kavacadvayaṃ jñātvā (Tib. de nas go cha gnyis shes nas)--></quote> zhes bya ba ni sku gsung thugs las sogs pa <pb n="8b"/><lb n="8b1"/> byin gyis brlabs pa'i rjes la bgegs mi 'jug par bya ba'i phyir | thabs dang shes rab kyi go cha gnyis bsam mo zhes bya ba'i don to || 
+         de la go cha ni yig ge bsam mo ||
+         go cha chen po ni sku nyid du bsam mo || 
+         rang bzhin <lb n="8b2"/> gyi go cha ni sngags yongs su gyur pa las bgegs kyis mi tshugs pa'i go cha sngags kyi kha dog lta bur gyur par bsam ste | de gsum las gang yang rung ba bsam par bya'o || 
+         <quote xml:id="d2e1808">ye shes 'khor lo rnam par bsgom ||</quote> <quote xml:id="d2e1811">sngags dang phyag</quote> <lb n="8b3"/> <quote xml:id="d2e1817">rgya'i sbyor shes pas || dam tshig 'khor lo la myur gzhugs ||<!--CA (verse 22cd) jñānacakraṃ vibhāvayet | samayacakre praveśya samudrāmantreṇa yoginaḥ--></quote> <choice><reg>ces pa ni</reg><orig>‹ces pa ni›</orig></choice> phyogs bcu na bzhugs pa'i de bzhin gshegs pa rnams °° 'dzub mo 'du byas shes bya ba las sogs pa'i phyag rgya dang sngags kyis spyan drangs la snying po'i phyag rgya bstan <lb n="8b4"/> te | dzaḥ hū ba hoḥ zhes bya ba'i sngags kyis dgug pa dang gzhug pa dang 'ching ba dbang du byas te dam tshig sems dpa' dang gnyis su med par byas nas<!--Cf.<mentioned> Vibhaṅga</mentioned>, D 194a4-5: snying po'i phyag rgya bstan la | dzaḥ hū ba hoḥ zhes pas dgug pa dang gzhug pa dang bcing ba dang dbang du byas te | gnyis su med par bsres la ...-->
+         <quote xml:id="d2e1827">o yo ga shudho <!--CA ([12]-a) O yogaśūddhāḥ sarvadharmāḥ yogaśuddho 'ham--></quote> zhes bya ba'i sngags kyis lha'i nga rgyal brtan par bya'o || de yang <lb n="8b5"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5628">ye shes sgron ma'i rgyud</rs> las |
+         <quote><lg>
+            <l xml:space="preserve">rgyal ba'i ye shes 'khor lo ni ||</l>
+            <l xml:space="preserve">dam tshig 'khor lo myur du gzhug ||</l>
+            <l xml:space="preserve">sangs rgyas byang chub sems dpa' nyid ||</l>
+            <l xml:space="preserve">thob par 'gyur gyi gzhan du min ||</l>
+         </lg></quote>
+         zhes gsungs so || ye shes sems dpa' dang bsre ba ni lha'i nga <lb n="8b6"/> rgyal brtan pa dang | bdag dang lha tha dad par rtog pa dgag pa dang | lhas byin gyis brlabs par 'gyur ro ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 194b1: de ltar na tha dad kyi rtog pa 'gag pa dang | nga rgyal brtan pa dang | byin gyis rlob pa'o ||-->
+
+         <milestone unit="section" n="14"/>
+         de nas dbang bskur bar bya ste | snying ka'i sa bon gyi yig ge las 'od zer phyogs bcur byung ste | bskul la phyogs<lb n="8b7"/> bcu'i sangs rgyas dang byang chub sems dpa' rnams bkug ste | mdun gyi nam mkha' la bzhugs par bsam mo || 
+         de nas mchod pa rnams kyis mchod la dbang bskur bar gsol ba'i tshigs su bcad pas gsol ba gdab bo || 
+         <pb n="9a"/><lb n="9a1"/> de nas sangs rgyas thams cad kyis dbang sbyin pa'i tshigs su bcad pa gsungs nas | de nas de bzhin gshegs pa lha mo'i phyag gi ° bum pa'i ye shes kyi bdud rtsis bdag gi spyi bo nas |<quote xml:id="d2e1865"> ji ltar bltam pa <choice><reg>tsam</reg><orig>‹tsam›</orig></choice> gyis <lb n="9a2"/> ni ||<!--CA (verse 27) yathā jātamātreṇa snāpitāḥ sarvatathāgatāḥ | tathāhaṃ snāpayiṣyāmi śuddhaṃ divyena vāriṇā ||--> </quote>zhes bya ba las sogs pa'i tshigs su bcad pa dang | sngags <quote xml:id="d2e1868"><!--CA [14]: O sarvatathāgatābhiṣekasamayaśriye Hū--></quote> kyis dbang bskur bar bsam mo || 
+  
+         <milestone unit="section" n="kalaśābhiṣeka"/>
+         de nas phyir mi zlog pa'i dbang bsgrub par bya ba'i phyir rigs lnga'i bum pa sngon po dang dkar po dang ljang khus dbang bskur bas <lb n="9a3"/>spyi bor lha'i sa bon gyi yig ge su dkar po | smin msthams su lha ma yin gyi sa bon yig ge a nag skya | snying kar mi'i sa bon yig ge ṇi<anchor xml:id="a54"/> ljang khu | lte bar dud 'gro'i sa bon yig ge ta dkar po | pus mo la <lb n="9a4"/> yi dags kyi sa bon pre nag skya | rkang 'thil du dmyal ba'i sa bon yig ge (ngu ngur|d?) kha bsam mo || 'gro ba rigs drug gi bag chags sbyang ba'i phyir ye shes kyi chu rgyun tshangs pa'i bu ga nas zhugs te a wa dhu ti nas <lb n="9a5"/> byung nas yig ge gsum dang 'dres pas de las 'od zer byung bas yig ge su las sogs pa rim par sregs te ye shes kyi chu rgyun gyis sbyangs nas sgrib pa dag par bsam mo || khro bo rnams kyis<anchor xml:id="a55"/> sumbha'i sngags brjod pas bgegs <lb n="9a6"/> bkrad pa dang | byang chub sems dpa' rnams kyis bkra shis 'don pa dang | lha mo rnams kyis gur kum dang me tog gi char 'bebs pa dang | bstod pa byed pa la | 
+         <lg>
+            <l xml:space="preserve">mche ba rnam par gtsigs pa ste || </l>
+            <l xml:space="preserve">sgyu ma dag gis rnam par brgyan || </l>
+            <l xml:space="preserve"><lb n="9a7"/> sha chen rab tu gsol mdzad pa || <anchor xml:id="a56"/></l>
+            <l xml:space="preserve">he ru ka dpal phyag 'tshal lo ||</l>
+            <l xml:space="preserve">dga' ba lhan gcig skyes ngo bo ||</l>
+            <l xml:space="preserve">srid pa gsum na dga' mdzes nyid ||</l>
+            <l xml:space="preserve">tha dad tha dad min spangs pa ||</l>
+            <l xml:space="preserve">dgyes pa he ru ka la bstod ||</l>
+         </lg>
+         yum<anchor xml:id="a57"/> la bstod pa | 
+         <lg>
+            <l xml:space="preserve"><pb n="9b"/><lb n="9b1"/> a ā zhes pa'i gsungs chen gyis ||</l>
+            <l xml:space="preserve">gang rgyangs chen pos snod dbang bskur ||</l>
+            <l xml:space="preserve">rgyu 'thun 'bras bu smin pa yi ||</l>
+            <l xml:space="preserve">gsung chen chos sku la phyag 'tshal ||</l>
+            <l xml:space="preserve">i ī zhes pa gdug pa 'dul ||</l>
+            <l xml:space="preserve">nyon mongs dug gsum 'phro <lb n="9b2"/> bar mdzad ||</l>
+            <l xml:space="preserve">zab pa gsum gyi sgra sgrogs pa ||</l>
+            <l xml:space="preserve">gdug pa 'dul la phyag 'tshal lo ||</l>
+            <l xml:space="preserve">u ū zhes pa ngo mtsha che ||</l>
+            <l xml:space="preserve">nyid kyi zhal nas rmad byung ba ||</l>
+            <l xml:space="preserve">rgyal ba bla ma rmad du byung ||</l>
+            <l xml:space="preserve">chos kyi phyag rgya <abbr>che‹n po›</abbr> la'o ||</l>
+            <l xml:space="preserve">e<lb n="9b3"/> ai zhes pa ci dang ci ||</l>
+            <l xml:space="preserve">zer yang mgo ba myur ba'i bka' ||</l>
+            <l xml:space="preserve">gsal bar rab tu gsal bar mdzad ||</l>
+            <l xml:space="preserve">phag mo'i zhabs la phyag 'tshal lo ||</l>
+            <l xml:space="preserve">o au zhes pa'i gsung chen gyis ||</l>
+            <l xml:space="preserve">bde'o zhes pa'i 'bod sgrogs pa || </l>
+            <l xml:space="preserve"><lb n="9b4"/>'khor ba'i 'dam nas 'gro ba 'don ||</l>
+            <l xml:space="preserve">yangs pa'i gsung la phyag 'tshal lo ||</l>
+            <l xml:space="preserve">a aḥ zhes pa'i grags pa dang ||</l>
+            <l xml:space="preserve">nga rgyal chen po'i gsung bdag mo ||</l>
+            <l xml:space="preserve">rdo rje dbyings kyi dbang mo ste ||</l>
+            <l xml:space="preserve">rigs kyi yum la phyag 'tshal lo ||</l>
+         </lg>
+  
+         <milestone unit="section" n="guhyābhiṣeka"/>
+         de nas gsang <lb n="9b5"/> ba'i dbang bskur ba ni | sangs rgyas byang chub sems dpa'i byang chub kyi sems thod pa'i nang du myang par bsam mo ||
+
+         <milestone unit="section" n="prajñājñānābhiṣeka"/>
+         shes rab ye shes kyi dbang ni<anchor xml:id="a58"/> de dag gis bdag la rig ma gtad pa'o || 
+
+         <milestone unit="section" n="caturthābhiṣeka"/>
+         dbang bzhi pa ni rig<anchor xml:id="a59"/> ma dang bde ba chen po rang rig pas <lb n="9b6"/> nyams su myong ba'i dus su man ngag bstan par bsam mo ||
+         dbang bskur ba'i 'og tu dbang bzhi po rdzogs pa'i byang chub kyi sems phab pa de slar dbugs kyis rngubs nas bde ba chen po'i 'khor lo la bstim mo || 
+         'og nas yig ge <lb n="9b7"/> kṣa gis dgag | tshangs pa'i bu ga'i nang du steng nas yig ge ram gyis dgag go || 
+         de nas bslab pa dang bslab pa'i sbyor bas rtsa thams cad nas rang gi byang chub kyi sems pad ma'i nang du phyung nas lha mo'i rtsa sbubs thams cad khyab ste | <pb n="10a"/><lb n="10a1"/> ba spu'i bu ga thams cad nas mchod pa'i lha mo grangs med pa phyung ste bdag nyid mchod pa thams cad kyis mchod do || 
+         de nas rang gi dbugs kyis rngubs pas lha mo thams cad phag mo'i rtsa sbubs su zhugs <choice><reg>nas</reg><orig>na‹s›</orig></choice> <lb n="10a2"/> byang chub kyi sems su gyur te padma nas rdo rjes rngubs te slar byang chub kyi sems su gyur te rtsa sbubs su zhugs par bsam mo || de la dbang bskur bas ni sgrib pa thams cad dang | bgegs dang theg pa dman pa bsal ba'i phyir dang | bzlas <lb n="10a3"/> pa dang bsgom pa'i snod du rung ba dang | lus su bya ba'i 'bras bu la mthu yod pa dang | byang chub kyi sems mi nyams pa dang | dam tshig dang sdom pa nyams pa bskang ba dang | ma 'ongs pa na sangs rgyas kyis dbang bskur bar 'gyur ba'i <lb n="10a4"/> phyir ro ||<!--Cf.<mentioned> Vibhaṅga</mentioned>, D 191b6-7: rnam rtog bcom pas stag gi pags pa'o || ... gcer bu thabs shes rab gnyis med de sgrib pa la sogs pa dang lhan cig mi gnas pa'o ||-->
+         de nas gtso bo'i dbu la mi bskyod pa | mkha' 'gro ma las sogs pa'i dbu la rnam par snang mdzad las sogs pa rim pa bzhin no || 
+         thugs kyi 'khor lo la mi bskyod pa'o || 
+         gsung gi 'khor lo la snang ba mtha' yas <lb n="10a5"/> so || sku'i 'khor lo la rnam par snang mdzad do || kha gdong ma las sogs pa la rim bzhin rnam par snang mdzad las sogs pa'o ||
+         gshin rjes bsreg ma las sogs pa la rim par rnam par snang mdzad las sogs bsam mo || 
+         de yang <rs type="work" ana="corpusmd:unnamed_reference" ref="db:5627">rgyud</rs> las | 
+    <quote>     <lg>
+            <l xml:space="preserve"><lb n="10a6"/> phyag rgya btab pas lha mo nyid ||</l>
+            <l xml:space="preserve">rigs rnams yongs su shes bya'i phyir ||</l>
+            <l xml:space="preserve">rigs mchog byas pa'i las kyis ni ||</l>
+            <l xml:space="preserve">dngos grub 'grub par mi 'gyur ro ||</l>
+         </lg></quote>
+         zhes gsungs pa'i phyir ro || rigs kyi bdag po dbu la bzhugs <lb n="10a7"/> pa ni rigs kyi ngo bo nyid shes par bya ba'i phyir | rang dbang med par mi dge ba dang lta ba ngan pa la mi 'jug pa dang | rang gi rigs bsgrub pa la 'dod pa bskyed pa dang | du ba'i rtog pa spang ba'i phyir ro || 
+         de nas dbang <pb n="10b"/><lb n="10b1"/> bskur bar byed pa rnams gshegs su gsol bar bya'o || 
+  
+         <milestone unit="section" n="15"/>
+        yang na sangs rgyas dang byang chub sems dpa' rnams ye shes kyi bdud rtsir gyur nas | dal gyi lha thams cad kyi<anchor xml:id="a60"/> spyi bo nas lus thams cad la khyab pas sdig pa'i dri ma rnam par dag <lb n="10b2"/> par bsam mo ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 197b5: de nas dbang bskur ba'i lha rnams bdag la zhugs par bsams la so sor rgyas gdab ste |-->
+       de nas bdud rtsi myang bar bya ste | yig ge ya las rlung | ra las me | a las thod pa bsams la | de'i nang du | go ku da ha na<anchor xml:id="a61"/> sha lnga bsam | 
+       bdud rtsi lnga la 
+       bi mu ra shu ma'i yig ge dgod | 
+       rigs lnga'i <lb n="10b3"/> sa bon gyi yig ge yang bsam |
+       a las zla ba'i dal gyi thod pa dgab ||
+        de'i nang du yig ge o āḥ hū dgod ||
+         de las 'od 'phros pas de bzhin gshegs pa thams cad kyi thugs bskul te | ye shes bkug nas slar yig ge <lb n="10b4"/> gsum la bstim mo || 
+         de nas sor bzhi tsam gyi steng du hū nag po las rdo rje rtse dgu pa khyu gang nas sor bzhi'i bar du 'greng ba bsams la | rlung gis sbar | mes cher bskol te rdo rjes dkrugs nas bdud rtsi sha dang zla ba <lb n="10b5"/> dang yig ge gsum zhu ste | tha mar rdo rje yang zhu nas hū gis sbyangs | as<anchor xml:id="a62"/> dag par byas | o gyis spel la yig ge bzla'o || 
+         'thung ba'i sngags ni | o a mrī ta sa twa na swa bha wa atma ko haṃ zhes bzla'o ||
+         de nas <lb n="10b6"/> yig ge rgya pad ma'i rtse mor bsam | yig ge bya ling ga'i steng bar bkod la | o badzra kā mi<anchor xml:id="a63"/> ni sarwa badzra bhakṣa sho dha ya gu hyaṃ<anchor xml:id="a64"/> badzri ni hū | zhes pas dga' ba brtsam par bya'o ||<!--Cf.<mentioned> Vibhaṅga</mentioned>, D 197b6-198a2: de nas bdud rtsi myang ste | yaṃ raṃ las me rlung a las thod pa de'i snang du | go ku da ha na rnams las sha lnga dang | bi mu shu ma ra rnams las bdud rtsi lnga'o || de rnams kyi steng du hūṃ oṃ hrāṃ hrī a ste rigs lnga'o || a las byung ba'i zla ba'i dkyil 'khor gyis kha dgab par bya'o || de'i steng du oṃ āḥ hūṃ gsum ste rigs gsum mo || de'i steng du zla ba la gnas pa'i rdo rje rtse dgu pa hūṃ 'od kyi phreng ba can gyis mtshan pa ni gsang ba chen po drug pa'o || de nas yi ge bzhi las 'od 'phros pas de bzhin gshegs pa thams cad kyi sku gsung thugs ye shes kyi bdud rtsi bkug pa so so la thim par bsam mo || de nas rlung mes bkol rdo rjes dkrugs pas sha la sogs pa dang zla ba dang yi ge dang rdo rje rnams bzhu ste hūṃ gis sbyangs | āḥs [= āḥ yis] dag par byas | oṃ gyis spel te btung bar bya'o || oṃ amri ta swa da na swa bhā ba ātmako 'haṃ | zhes nga rgyal bskyed par bya'o || de nas snga ma ltar rdo rje dang padma byin gyis brlab pa dang | 'khor lo bzhi dang gnyis la yi ge'i 'khor lo bkod de dga' ba bzhi myong bar bsams la nga rgyal bskyed par bya ste | oṃ badzra kā mi ni sarbba badzra bhakṣa sho dha ya guhyaṃ badzri ṇi hūṃ | zhes brjod do ||-->
+         de nas phyi nang gi mchod pa <lb n="10b7"/>rnams kyis mchod de | de nas bstod pa bya'o || 
+  
+         <milestone unit="section" n="anubheda"/>
+        de ltar dal ci nus kyis bsgom par bya'o || 
+        bsgom pas skyo na snying ka'i yig ge las 'od zer 'phros pas khams gsum thams cad lhar gyur nas dal la bsdu | ye shes sems dpa' ting nge 'dzin sems dpa' <pb n="11a"/><lb n="11a1"/> la bsdu | de hū la | hū zhabs kyu la | zhabs kyu 'a la | 'a ha la | ha zla tshes la | zla tshes thig le la | thig le na da la bsdu | na da yang mi dmigs par gyur nas stong pa nyid du bsam mo || 
+        <lb n="11a2"/> de la yun ring du dmigs nas | yang na da las lha'i 'khor lo'i bar du bskyed nas de kho na ltar yang dang yang du bsam par bya'o || 
+
+         <milestone unit="section" n="jāpa"/>
+        de nas bzlas pa bya ba'i phyir | <quote xml:id="d2e2172">o shrī badzra he he ru ru kaṃ hū hū phaṭ ḍā ki ni dzwa la</quote> <lb n="11a3"/> saṃ bha ra swahā ||<!--CA [13]: O śrīvajra He He Ru Ru Kaṃ Hū Hū phaṭ ḍākiṇījālasaṃvaraṃ Svāhā }"/> zhes pas lha thams cad kyi sngags smos so ||-->
+        de nas snying ka'i steng du zla ba'i dal bsams la | ting nge 'dzin sems dpa' las zlas<anchor xml:id="a65"/> pa'i sngags thams cad 'byung ba'i ¦ a li ka li byung nas bzlas pa'i sngags thams cad btus par bsam mo || 
+        <lb n="11a4"/> de la rma bya'i 'jug tshogs lta bu'i yig ge de las 'od zer sna lngar 'phros shing 'dus par bsam mo ||
+        thabs shes ni thabs ni sngags la shes rab ni stong par shes par bya'o || 
+        dkar nag ° sgril ba ni thabs dang shes rab kyi sngags gnyis<anchor xml:id="a66"/> (b)sgril <lb n="11a5"/> ba'o || 
+        mu tig gi phreng ba ni yig ge dkar po ma 'khyugs pa'o || 
+        zo chun lta bu ni yig ge'i phreng ba bar ma chad pa 'khor lo 'khor ba'i tshul du bzlas pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 195a7: zo chun ltar ni 'khor |-->
+         de nas bzlas pa'i mthar ting nge 'dzin sems dpa' bsdu'o || 
+         <lb n="11a6"/> rang bzhin gyi bzlas pa ni snying kar a las byung ba'i zla ba'i dal bsams la | de'i steng du ting nge 'dzin sems dpa' mdun du o | g.yas su hū | g.yon du āḥ bsams la | ting nge 'dzin sems dpa' las 'od zer sna lnga byung te yig ge gsum la thim <lb n="11a7"/> de las 'od zer byung ste ting nge 'dzin sems dpa' la bstim mo || 
+         ye shes kyi bzlas pa ni 'byin pa'i dbugs ni me long lta bu'i ye shes ‹|› rngub pa'i dbugs ni chos nyid rnam par dag pa'i ye shes | gnas pa'i dbugs ni so sor kun tu rtog pa'i <pb n="11b"/><lb n="11b1"/> ye shes so || 
+         yang na he ru ka hū du bsams la | u ring po bya ba nan tan gyi ye shes | ha mnyam pa nyid kyi ye shes | mgo bo chos nyid rnam par dag pa'i ye shes | zla tshes so sor kun tu rtog pa'i ye shes | thig le me long lta <lb n="11b2"/> bu'i ye shes so ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 196b4-7-->
+         khro bo'i bzlas pa ni drag tu bzlas pa'o ||
+         ngag gi bzlas pa ni shib bu'o || 
+         lha mo'i bzlas pa ni 'khor lo bzhi'i yig ge la dmigs pa'o || 
+         'pho ba'i bzlas pa ni thabs gang yang rung bas byang chub kyi sems bde <lb n="11b3"/> ba chen po'i 'khor lo las yungs kar tsam phab te | a wa dhū ti'i nang na mar byung nas lte ba'i zla ba'i dal la a gnas pa can du phab nas thim ste | de nas thig le<anchor xml:id="a67"/> yar byung nas nyi ma'i dal ha gnas <lb n="11b4"/> pa can du thim mo || 
+         yang snga ma bzhin du yang nas yang ci nus su byas la mthar ha gi bin du la bstim mo || 
+         bzlas pa'i dgos pa ni rnam par rtog pa gzhan gyis bar ma chod pa dang | lha bsgom pa la <lb n="11b5"/> dmigs pa brtan par 'gyur ba dang | tshogs bsogs pa dang | dngos grub myur du thob par 'gyur ro || bzlas pas skyo na snying ka'i ting nge 'dzin sems dpa' la dal rnams bsdu ba'o || 
+         las dang po pa ma 'gro ba dang ldang ba'i rnam par <lb n="11b6"/> rtog pa yod pa'i phyir | thun bzhi pa'i tha ma la gshegs su gsol bar bya'o ||
+         sngags kyi 'od zer zhes pa ni ting nge 'dzin las ldang ba'i dus su lha'i rnal 'byor dang mi 'bral ba'o ||
+
+         <milestone unit="section" n="(verse 33)"/>
+         <quote xml:id="d2e2274">shin tu bsrung <!--CA(verse 33b) surakṣitaṃ--></quote> zhes bya ba ni | de'i dus su go cha'i <lb n="11b7"/> sngags dang gnod mdzes kyi sngags kyis bsrung ba'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 199a3: go cha'i sngags dang hūṃ bzhi pos bsrung bar bya'o || ...-->
+        <quote xml:id="d2e2284">tshangs par spyod pa gnas gyur na ||<!--CA (verse 33c) brahmacaryaṃ sadā bhūtvā --></quote> zhes pa ni sdom pa dang dam tshig la gnas nas byang chub kyi bde ba chen po 'pho ba med pa la gnas pa'o ||<!-- Cf. <mentioned>Vibhaṅga</mentioned>, D 199a4-6-->
+        <quote xml:id="d2e2291">rkang pa brgyad</quote> <pb n="12a"/><lb n="12a1"/> <quote xml:id="d2e2297">kyi</quote> <quote xml:id="d2e2300">sngags kyis mchod ||<!--CA (verse 33d) mantraṃ vai aṣṭapadārcitam--> </quote>ces bya ba ni gdug pa las sogs pa | o na mo bha ga wa te | bi re shwa ya zhes pa las sogs pa'i sngags kyis mchod par bya'o || 
+
+         <milestone unit="section" n="(verse 34)"/>
+        <quote xml:id="d2e2306">'jigs pa thams cad rnam par</quote> <lb n="12a2"/> <quote xml:id="d2e2312">spangs te ||<!--CA(verse 34b) sarvasantrāsavarjitaḥ--></quote> zhes bya ba ni bgegs las sogs pas mi tshugs par bsam pa dang | phyi'i mtshan ma kun la mi brtag pa'o ||<!-- Cf. <mentioned>Vibhaṅga</mentioned>, D 199a6-7-->
+
+         <milestone unit="section" n="(verse 35)"/>
+         <quote xml:id="d2e2321">rigs lnga dag tu kun spyod pa || rigs gcig tu ni rnam par brtag ||<!--CA (verse 35ab) pañcavarṇasamācāra ekavarṇan tu kalpitam--></quote> ces pa nas bram ze las sogs <lb n="12a3"/> pa'i rigs <choice><reg>bzhi</reg><orig>‹bzhi›</orig></choice> dang gdol pa dang lnga la tha dad par mi 'dzin pa dang | de bzhin gshegs pa'i rigs lnga yang tha dad par mi 'dzin pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 199b1-2-->
+         <quote xml:id="d2e2331">rnam par mi rtog bdag nyid sems ||<!--CA(verse 35c) nirvikalpakacittātmā --></quote> zhes pa ni chos thams cad stong pa nyid du bsam <lb n="12a4"/> pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 199b2-5-->
+         <quote xml:id="d2e2342">'dod pa'i yon tan lnga la spyod ||<!--CA (verse 35d) bhuñjadhvaṃ kāmapañcakam --></quote> ces pa ni gzugs las sogs pa'i yon tan lnga lha'i rang bzhin du bsam pa'o || 
+         <quote xml:id="d2e2346">dogs pa thams cad rnam spangs te || <!--CA(verse 35f) sarvaśaṅkāvivarjitaḥ--></quote> zhes pa ni bdag gis 'grub mi 'grub snyam pa'i the tshom <lb n="12a5"/>med pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 199b5-6-->
+ 
+         <milestone unit="section" n="18"/>
+         <milestone unit="section" n="(verse 36-37)"/>
+        de nas rdzogs pa'i rim pa bstan pa'i phyir | <quote xml:id="d2e2361">a li ka li mdun bsams nas || rnal 'byor chen po ngal bso<anchor xml:id="a68"/> ste ||<!--CA (verse 36ab) ālikālipurodhyātvā (read ālikāliṃ puro dhyātvā) mahāyogena viśramet --> </quote>zhes bya ba la | rnal 'byor pa bskyed pa'i rim pa la brtan pa thob pas sems du ba las sogs <lb n="12a6"/> pa'i rim pa bstan pa'i phyir <!--Cf. <mentioned>Vibhaṅga</mentioned>, D 200a1-3-->| <quote xml:id="d2e2374">zla ba'i dal rdzogs pa ni ||<!--CA(verse 36d) sampūraṇañ candramaṇḍalam--></quote> zhes bya ba las sogs pa smos so ||
+        de yang rnam pa gsum ste | pho nya la yang dag par dga' ba ni | phyi'i rig ma la bsten nas rtog pa med pa'i sems <lb n="12a7"/> rdo rje rtse mo'i tshigs su byang chub kyi sems kyi<anchor xml:id="a69"/> thig le bsgom pa'o || 
+        rnal 'byor la mngon par dga' ba ni ye shes kyi phyag rgya'i tsaṇḍa li sbar nas sprul pa'i 'khor lo'i pad ma'i ge sar la byang chub kyi sems kyi thig le bsgom pa'o ||
+        <pb n="12b"/><lb n="12b1"/>yang dag pa'i phyin ci ma log pa la mngon par dga' ba ni snying ka'i pad ma'i ge sar la hū dkar dmar gnyis rol bas dkar po dmar po la thim ste | de las 'od zer a wa dhū ti las byung nas bde ba chen po'i <lb n="12b2"/> 'khor lo la phog pas byang chub sems kyi thig le snying ka'i hū gi gnas su bsgom mo ||
+        de la ye shes kyi thig le ni dbyings dang ye shes dbyer med par shes pa'o || 
+        gsang ba'i thig le ni rang rig pa nyid du gnas pa'o || 
+        bsam <lb n="12b3"/> gtan gyi thig le ni chos nyid las ma g.yos par sems rtse gcig pa'o ||
+        dran pa'i thig le ni de nyid ma brjed pa'o || 
+        lte ba'i rtsa ba ni rdo rje rtse mo'i <choice><reg>tshigs</reg><orig>tshig‹s›</orig></choice> dang | sprul pa'i 'khor lo'i dang | chos kyi 'khor lo'i lte <lb n="12b4"/> ba nyid la bya'o || 
+        zla ba'i dal dang yig ge dang lha'i sku ni thig le nyid la bya'o ||
+        de nas zab mo'i rdzogs pa'i rim pa bstan pa'i phyir | <quote xml:id="d2e2412">de'i lus ni 'das gyur kyang ||<!--CA(verse 37c) piṇḍātītaṃ bhavet tasya --></quote> zhes bya ba las sogs pa smos te | lus <lb n="12b5"/> 'das pa ni gcig dang du ma las sogs pa'i gtan tshigs rnams kyis phyi'i yul ma grub pa'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 200a3-->
+        <mentioned>yul rnams med na ji ltar snang ce na | </mentioned>
+        <quote xml:id="d2e2425">sems nyid 'byung bar mi 'gyur min<anchor xml:id="a70"/> ||<!--CA (verse 37d) na bhavec cittam eva; Vibhaṅga, D 200a4: dngos po med pa'i sems nyid yin--></quote> zhes pa ste | phyi'i yul <lb n="12b6"/> las sogs pa med kyang kun rdzob tu sems nyid yul las sogs pa'i rnam par mi 'byung ba ma yin zhes bya ba'i tha tshig go || 
+
+         <milestone unit="section" n="(verse 38)"/>
+        de yang <quote xml:id="d2e2441">bsam gyis mi khyab</quote> ces pa ni sems de yang gcig dang du ma dang bral bas <lb n="12b7"/> rang bzhin med pa'o ||<!-- Cf. <mentioned>Vibhaṅga</mentioned>, D 200a4-->
+        <quote xml:id="d2e2451">sems nyid brtag par mi bya'o ||<!--CA(verse 38ab) acintyañ cintayet so 'pi cittañ caiva na lakṣitam. Cf. Vibhaṅga, D 200a4: sems nyid brtags pa mi bya'o--></quote> zhes bya ba ni | rnal 'byor spyod pa'i sems kyang yang dag par mi bya ste | gnod pa can gyi tshad ma yod pa'i phyir ro zhes pa'i tha tshig go ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 200a4-b1-->
+        <quote xml:id="d2e2458">bsam gyi mi</quote> <pb n="13a"/><lb n="13a1"/> <quote xml:id="d2e2464">khyab de bsam na || <!--CA (verse 38c) cintayet so 'py acintyaṃ vai--></quote> zhes bya ba ni chos <abbr>thams cad</abbr> stong pa nyid de bsgom pa'o || <!--Cf. <mentioned>Vibhaṅga</mentioned>, D 200b2-3-->
+        stong pa nyid bsgoms<anchor xml:id="a71"/> pa'i phan yon ni <quote xml:id="d2e2482">de nas 'dzin pa thob par 'gyur ||<!--CA (verse 38d) tataḥ prāpsyati dhāraṇīṃ--></quote> zhes pa ste 'dzin <lb n="13a2"/> pa ni rnam par mi rtog pa'i <abbr>ye shes so</abbr> ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 200b2-->
+
+        <milestone unit="section" n="19"/>
+         <milestone unit="section" n="(verse 39)"/>
+         <quote xml:id="d2e2500">khaṭāM ka ni lha'i sku || shes rab ḍā ma ru yi sgra ||<!--CA (verse 39ab) khatvāṅgadevatāmūrtiḥ prajñāḍamarukadhvaniḥ--></quote> zhes pa ni <abbr>rnal 'byor</abbr> pas ldang ba'i dus su he ru ka phyag <abbr>gnyis</abbr> par bsams la g.yas kyi khaṭāM ka la thabs kyi lha <lb n="13a3"/> thams cad dang g.yon gyi dā<anchor xml:id="a72"/> ma ru la shes rab kyi lha <abbr>thams cad</abbr> thim par bya'o || 
+         sku de <abbr>gnyis</abbr> kyang yang dag pa'i <abbr>gzugs</abbr> <choice><reg>min</reg><orig>mi‹n›</orig></choice> par bstan pa'i phyir ¦ <quote xml:id="d2e2530">nyin mo bcom ldan 'das rdo rje can ||<!--CA(verse 39cd) dinas tu bhagavān vīro yoginī rātrir ucyate--></quote> zhes bya ba <abbr>la sogs</abbr> pa smos te ; snying rje ni <lb n="13a4"/> rang rig pa'i ngo bo yin pas gsal ba ste nyin mor bshad la shes rab ni stong pa ste shes pa'i rang <abbr>bzhin</abbr> dang bral bas mi bsal ba ste mtshan mor bshad do ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 200b3-->
+
+         <milestone unit="section" n="(verse 40)"/>
+         sprul pa ni <rs type="deity">he ru ka</rs> dang <abbr>rdo rje</abbr> phag mor <lb n="13a5"/> bstan pa'i phyir <quote xml:id="d2e2559">dag pa'i chos kyi sprul pa ni || phag mo'i gzugs su bstan pa yin ||<!--CA (verse 40cd) śuddhadharmasya nirmāṇaṃ Vārāhīrūpadarśitam --></quote> ces pa ste | dag pa'i chos shes rab ste stong pa'o || 
+         snying rje'i sprul pa ni <rs type="deity">dpal he ru ka</rs> te de ni shugs <lb n="13a6"/> kyis bstan to || 
+         de ltar dbyings dang <abbr>ye shes</abbr> dbyer med pa'i chos nyid kyi sku las gdul bya rnams la <abbr>gzugs</abbr> sku <abbr>gnyis</abbr> bstan pa <abbr>yin no</abbr> || 
+         <quote xml:id="d2e2585">yan lag drug bcu seMs kyis sprul ||<!--CA (verse 40b) ṣaṣṭhamañ cittanirmitam --></quote> zhes pa ni thabs dang shes rab <lb n="13a7"/> kyi sku drug bcu ni <rs type="deity">dpal he ru ka</rs>'i <abbr>yon tan</abbr> gyi chos rnams te gdul bya la de ltar snang ba yin gyi yang dag pa'i sku ni ma <abbr>yin no</abbr> ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 200b4: yan lag ni drug cu ste thabs shes rab kyi lha drug cu rtsa gnyis so || ...-->
+
+         <milestone unit="section" n="(verse 41)"/>
+         <quote xml:id="d2e2606">shrī ni gnyis med ye shes te ||<!--CA (verse 41a) śrīkāram advayajñānaṃ --> </quote>zhes pa ni chos kyi sku'o || 
+         <quote xml:id="d2e2611">he ni</quote> <pb n="13b"/><lb n="13b1"/> <quote xml:id="d2e2617">rgyu sogs rnam par spangs ||<!--CA (verse 41b) heti hetvādiśūnyatā --></quote> zhes pa ni ngo bo nyid kyi sku'o || 
+         <quote xml:id="d2e2621">ru ni bkod pa dang bral nyid ||<!--CA(verse 41c) rukārāpagataṃ vyūhan --></quote> ces pa ni <abbr>longs spyod</abbr> rdzogs pa'i sku'o ||<quote xml:id="d2e2627"> </quote>
+         <quote xml:id="d2e2630">ka ni gang du'ang mi gnas pa || <!--CA(verse 41d) ka iti na kvacit sthitam --></quote> zhes pa ni sprul pa'i sku'o ||<!--Cf. <mentioned>Vibhaṅga</mentioned>, D 200b5-7; D 187a5-6. Cf. Rin chen bzang po, <mentioned>dPal 'khor lo bde mchog lū i pa'i bstod pa yid bzhin nor bu</mentioned>, verse 7: dag pa chos sku'i sprul pa ni || dmigs pa med pa'i thugs rje yis gzugs sku sgyu ma ltar ston pa || rdo rje phag mo phyag 'tshal lo ||-->
+
+         <milestone unit="section" n="20"/>
+         de nas <lb n="13b2"/>phan yon bstan pa'i phyir || <quote xml:id="d2e2646">seMs la gnas pa'i rnal 'byor pa ||<!--CA (verse 42a) cittaṃ viśrāmyate yogī ≈ Vibhaṅga D 200b7: sems la rnam gnas rnal 'byor pa --></quote> zhes bya ba las sogs pas bstan te go sla'o ||<!-- Cf. <mentioned>Vibhaṅga</mentioned>, D 200b7: da ni ting nge 'dzin de'i phan yon bstan pa'i phyir | ...-->
+         <seg type="excerpt" xml:id="ex1032023-05-241450" status="finalized">
+         </seg>
+   </ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n="Conclusive verse (13b2–3)"/>         
          <lg><l><rs type="person" ref="db:3784" ana="corpusmd:unnamed_reference">bdag</rs> ni blo dman brjed par 'gyur ba yi ||</l>

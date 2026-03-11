@@ -104,6 +104,13 @@ Change of hand on fol. 30b.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Title page (1a)"/>
+        <pb n="1a"/> <lb n="1a1"/> phyi <lb n="1a2"/> tsa <lb n="1a3"/> 7 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4667"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i TI ka rnam dpyad snying po</rs> <abbr>bzhugs so</abbr> |</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Conclusive verses" unit="section"/> 
+      <lg><l>   de ltar rgyas 'bring bsdus pa mdo'i don ||</l> <l>bden gnyis nyi zla'i 'od kyis gsal ba'i gzhung ||</l> <l>chan tig ngag don gsum tshan re re dang ||</l> <l>don bzhin ston pa mdo'i lung dang sbyar ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:3720">dpal ldan klu sgrub</rs> grags pa'i gzhung lugs la ||</l> <l>rab sbyangs
+      <pb n="57b"/><lb n="57b1"/> blo mig ldan pa mang mod kyang ||</l> <l>sbyangs pa'i stobs kyis gzung don nges gyur pa ||</l> <l><rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs can</rs> 'di na ston pa <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3931">kho bo</rs> tsam ||</l> <l>gzhung 'di brjod tshogs snying por ma byas shing ||</l> <l>de dag tshig gsal gzhung don rab gsal ba'i ||</l> <l>rnam dpyad snying po blo'i nor ldan pa ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:3931">shag kya'i dog blo khag rings ston pa</rs>s sbyar ||</l> <l>'di sbyar sbyor ba bsam pa sngon btang dang ||</l> <l>dngos gzhi dge ba <lb n="60b2"/> rang bzhin med dge dang ||</l> <l>de rjes dga' ba'i bsod nams mthu yis kyang ||</l> <l>'gro rnams kun mkhyen go 'phang thob par shog ||</l></lg> || </ab>
+      <gap reason="omitted"/>
       <ab><milestone unit="section" n="Colophon (57b2-57b3)"/>
            <rs type="work" ana="corpusmd:named_reference" ref="db:4667"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i tig ka rnam dpyad snying po</rs> zhes bya ba | yul byang phyogs kyi rgyud du byung ba | bdag dang gzhan gyi grub pa'i mtha' rgya mtsho'i pha rol du son pa | rtog ge ngan pa'i rgol ba tshar gcod par byed pa | <rs type="person" ana="corpusmd:named_reference" ref="db:3931">dbu ma <lb n="60b3"/> smra ba'i dge slong shag rings</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5660">thang po che'i gtsug lag khang<anchor xml:id="a1"/></rs> du sbyar ba | rdzogs s+ho ||  ||  
            <milestone unit="section" n="Post-colophon (57b3)"/>

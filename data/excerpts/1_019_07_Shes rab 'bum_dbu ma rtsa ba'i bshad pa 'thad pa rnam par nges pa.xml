@@ -106,6 +106,9 @@ Annotations in dbu med (glosses) and dbu can (corrections).</additional></physDe
       <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3868">kha cig</rs><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3868">pa tshab</rs></note> na re <note type="gloss">dgongs pa nges 'grel</note> 'du byed khaMs dang don daM mtshan nyid ni | <pb n="7a"/><lb n="7a1"/> cig dang tha dad bral pa'i mtshan nyid la ces pa ltar | cig dang tha dad las grol ba de nyid dang gzhan du brjod du med pa'o zhes smra'o || de ni ye nas ma yin te |</ab>
       <gap reason="omitted"/>
       <ab><milestone unit="section" n=" Colophon (58a4-58a5)"/><rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon 'phags pa klu sgrub</rs> kyis <lb n="58a5"/> mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4607"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i bshad pa 'thad pa rnam par nges pa</rs> zhes bya ba ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4608">lung dang rigs par smra ba'i dge slong shes rab 'buM</rs> gyis rnam grangs kyi bshad pa rnaMs re shig bzhag ste | <rs type="person" ana="corpusmd:named_reference" ref="db:3725">slob dpon zla ba</rs>'i gzhung bzhin du || <rs type="place" ana="corpusmd:named_reference" ref="db:5572">dpal brag ram gyi gtsug lag khang</rs> du sbyar ba 'di re shig rdzogs s+ho || ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Post-colophon annotations (58a5) in dbu med (same handwriting than the annotations)"/>
+         zhus te dag go |</ab>
     </body>
   </text>
 </TEI>

@@ -109,6 +109,14 @@ One folio with numbers 35 and 36 between fol. 34 and fol. 37.</additional></phys
          <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> dza <lb n="1a3"/> 30 <lb n="1a4"/>
             <rs type="work" ana="corpusmd:named_reference" ref="db:4760"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod</rs> kyi sbyor tik</rs> bzhugs s+ho || dge'o ||<note type="editorial">In dbu can</note></ab>
       <gap reason="omitted"/>
+      <ab><milestone unit="section" n="Incipit (1b1)"/>
+         <pb n="1b"/><lb n="1b1"/>|| bla ma dang 'jam pa'i dbyangs la phyag 'tshal lo || 
+         <lg><l>zas gtsang sras su gyur nas lhar bcas kyi ||</l> <l>sdug bsngal ma lus bsal nas gdul bya rnams ||</l>  <l>thar pa'i <lb n="1b2"/> lam la 'god mdzad rkang 2 gtso ||</l> <l>thub dbang zhabs la gus pas legs par 'dud ||</l></lg> 
+         <lg><l>rgyal phas lung bstan sangs rgyas 2 par grags || </l>
+           <l>gsung rab kun la mkhyen pa mtha' yas pas ||</l>
+            <l><lb n="1b3"/>thugs rjes bdag sogs gdul bya mtha' dag la ||</l> 
+            <l>chos mngon legs gsung <rs type="person" ana="corpusmd:named_reference" ref="db:3758">dbyig gnyen</rs> zhabs la 'dud ||</l></lg> </ab>
+      <gap reason="omitted"/>
       <ab><lg><l><rs type="person" ana="corpusmd:named_reference" ref="db:4028">blo brtan</rs> nas bzung <rs type="person" ana="corpusmd:named_reference" ref="db:3977">nam mkha</rs>'i mtshan can dang ||</l> 
             <l>blo gros shes bya kun la dpag <lb n="1b4"/> med rgyas ||</l> 
             <l><rs type="person" ana="corpusmd:named_reference" ref="db:4007">bzang po</rs>'i mtshan can <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4016">kho'o</rs>'i yongs 'dzin dang ||</l> 

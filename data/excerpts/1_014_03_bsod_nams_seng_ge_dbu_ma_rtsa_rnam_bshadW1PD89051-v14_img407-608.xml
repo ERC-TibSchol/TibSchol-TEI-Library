@@ -106,6 +106,71 @@ Some parts appear faded an others blurred on the reproduction; they could have b
   <text>
     <body>
       <gap reason="omitted"/>
+      <ab><pb n="1a"/>
+               <lb n="1a1"/>phyi
+               <lb n="1a2"/>tsa
+               <lb n="1a3"/>35
+               <lb n="1a4"/><rs type="work" ana="corpusmd:named_reference" ref="db:4587"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i rnaM bshad srog 'khor</rs> ||</ab>
+      <gap reason="omitted"/>
+      <ab><milestone n="Conclusive verses (98b1-99a3)" unit="section"/>
+                  <lg><l>de ltar <rs type="person" ana="corpusmd:unnamed_reference" ref="db:7546">bdag</rs> gis rten 'brel stong ma dbu' ma'i lam ||</l> 
+               <l>rtsa ba'i tshig don rnam par phye bas 'jig rten 'dis ||</l>
+               <l><lb n="98b2"/> chos la mig thob thabs kyi rkang pas rab bskyod te || </l>
+               <l>'tsho ba kun bral thar pa'i grong du phyin par shog || </l></lg>
+               
+              <lg> <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:7546">bdag</rs> kyang tshe 'dir skyes bu dam pas mi dpyas shing || </l>
+               <l>rang nyid dmus 'byung las kyi mtha' las log gyur te || </l>
+               <l>nad med tshe yis tshangs par spyod pa mthar phyung nas || </l>
+               <l>'gyod pa med cing dga' bas nying 'thsams sbyor bar shog || </l></lg>
+               
+               <lg><l>'di nas 'phos te gzhan gyis bar du <lb n="98b3"/>ma chod par || </l>
+               <l>dal 'byor rten gyis gzhon gyur rab du byung gyur nas || </l>
+               <l>dri med tshul ldan skyes bu dam pas 'dzin pa dang || </l>
+               <l>ston pa'i bstan pa ji lta de ltar rtogs pa dang || </l>
+               <l>ji lta de ltar sgrub la bar chad med pa yis || </l>
+              <l> tshogs gnyis rdzogs te chos kyi rgyal por gyur nas kyang || </l>
+               <l>'gro ba srid pa'i rgya mtsho chen por bying pa rnams ||</l>
+               <l><lb n="98b4"/> sna tshogs thabs kyis lus pa med par sgrol bar shog ||</l> </lg>
+               
+               <lg><l>don med ngal ba'i spyod pa mi 'dod pas || </l>
+               <l>phyogs gzhan brtag pa'i 'bad pa 'dir ma byas || </l>
+               <l>phan pas 'dod pa'i don tsam brjod pa 'di || </l>
+               <l>kha brgyud gtam gyi rjes su ma 'brangs par || </l>
+               
+               <l>tsham tshom sangs te <rs type="person" ana="corpusmd:named_reference" ref="db:3725">zla grags</rs> gzhung bzhin bshad || </l>
+              <l> 'khrul yang 'khrul pa'i nyes pa <rs type="person" ana="corpusmd:unnamed_reference" ref="db:7546">bdag</rs> la med ||</l>
+               <l><lb n="98b5"/> ji ltar sangs rgyas gsung la mi slu bas || </l>
+              <l> yid ches tshad ma <rs type="person" ana="corpusmd:named_reference" ref="db:3720">klu sgrub</rs> yin pa ltar ||</l></lg>
+              
+              <lg><l><rs type="person" ana="corpusmd:named_reference" ref="db:3720">klu sgrub</rs> gzhung la yid ches mi slu ba'i || </l>
+               <l>tshad ma'ang <rs type="person" ana="corpusmd:named_reference" ref="db:3725">zla ba grags pa</rs> yin pa'i phyir || </l>
+              <l> du bas me ltar de rjes bshad pa 'di || </l>
+               <l><rs type="person" ana="corpusmd:named_reference" ref="db:3720">klu sgrub</rs> gzhung la 'khrul ces <rs type="person" ana="corpusmd:unnamed_reference" ref="db:7546">bdag</rs> mi sems || </l></lg>
+              
+              <lg> <l> gang 'dir <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> yang dag skye ba mi 'dod kyang ||</l>
+              <l> <lb n="98b6"/> ming du gzhan skye tshad mas grub par 'dod pa la || </l>
+               <l>rang med gzhan ni tha snyad du yang mi srid pas || </l>
+               <l>gzhan ltar rang yang tha snyad don la grub par 'gyur || </l></lg>
+               
+               <lg><l>tha snyad don la bdag dang gzhan nyid yod na yang || </l>
+               <l>rten 'byung min pas rang bzhin yod pa nyid du 'gyur ||</l>
+              <l> nam mkha' bzhin du rang bzhin 'gyur ba mi srid pas ||</l>
+               <l><lb n="98b7"/> mya ngan nyams thag sgom pa'i thang las thar mi 'gyur || </l></lg>
+
+               <lg><l><rs type="person" ana="corpusmd:named_reference" ref="db:3720">klu sgrub</rs> rgya mtsho zla ba'i 'od kyis bsal ba'i chu || </l>
+               <l>stong nyid bdud rtsi rtog ge'i rnyog mas ma scags pa || </l>
+               <l>som nyi med par dad pas 'thung ba'i skal ldan dag || </l>
+               <l>mya ngan nyams thag skyom pa'i thang las myur du thar || </l></lg>
+               
+               <lg><l>gang zhig bcad pas spros pa'i dra ba kun || </l>
+               <l><pb n="99a"/><lb n="99a1"/> gcod pa'i 'khor la rten nas 'byung pa'i don || </l>
+                <l>spro bas <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma</rs>'i lung bzhin bshad pa 'di ||</l> 
+                <l>sngon chad gzhan la gtam du grags pa med ||</l> </lg>
+               <lg> <l>de phyir lca chan tshogs kyis ske phran ltar ||</l> 
+                <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma</rs>'i man ngag snyan khung brgyud pa 'di ||</l> 
+                <l>kha brgyud rtog ge kun gyis mi 'dod kyang ||</l> 
+                <l>rnal 'byor skal <lb n="99a2"/>ldan rna brgyud can gyis blang ||</l> </lg></ab>
+      <gap reason="omitted"/>
       <ab><lg><l>cung zad tshig gis don gyi gnad rnams nges gyur pa ||</l> 
                 <l><rs type="work" ana="corpusmd:named_reference" ref="db:4578">'grel pa don chen rtsa ba'i srog gi 'khor lo</rs> 'di ||</l> 
                 <l><rs type="person" ana="corpusmd:named_reference" ref="db:7546">thos pa 'dzin pa'i dge slong bsod nams seng ge</rs> yis ||</l> 
