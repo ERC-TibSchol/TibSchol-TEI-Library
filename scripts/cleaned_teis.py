@@ -54,10 +54,12 @@ def process_tei_body(src_body):
             gap = etree.Element(f"{{{NS['tei']}}}gap")
             gap.set("reason", "omitted")
             body.append(gap)
-        # Create new ab element and copy content of seg into it
+        # Create new ab element and copy the seg element (preserve seg and comments)
         ab = etree.Element(f"{{{NS['tei']}}}ab")
-        # Move all children of seg to ab
-        ab.extend(seg)
+        # Append a deepcopy of the seg so the seg node (and any XML comments
+        # or processing instructions inside it) are preserved intact inside
+        # the new ab element.
+        ab.append(deepcopy(seg))
         body.append(ab)
 
     return text
