@@ -104,19 +104,23 @@ Lemmata written as interlinear notes.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/>
+      <ab><seg type="excerpt" xml:id="ex55022024-09-2010-35-12" status="finalized" part="I" next="ex55022025-09-2214-04-50"><milestone unit="section" n="Cover page (1a)"/>
             <pb n="1a"/><!--527"/-->
-        <lb n="1a1"/> phyi <lb n="1a2"/> ma <lb n="1a3"/> 599 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4949"><rs type="work" ana="corpusmd:named_reference" ref="db:3777">rtsod pa'i <abbr>rigs</abbr> pa</rs>'i bsdus don</rs> <abbr>bzhugs</abbr> ||</ab>
+        <lb n="1a1"/> phyi <lb n="1a2"/> ma <lb n="1a3"/> 599 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4949"><rs type="work" ana="corpusmd:named_reference" ref="db:3777">rtsod pa'i <abbr>rigs</abbr> pa</rs>'i bsdus don</rs> <abbr>bzhugs</abbr> ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Incipit (1b1)"/>
-         <pb n="1b"/><lb n="1b1"/> || 'jam pa'i dbyangs la phyag 'tshal lo ||</ab>
+      <ab><seg type="shared" xml:id="ex55022025-09-2214-04-50" part="M" next="ex55022024-09-2010-35-122" status="reviewed"><milestone unit="section" n="Incipit (1b1)"/>
+         <pb n="1b"/><lb n="1b1"/> || 'jam pa'i dbyangs la phyag 'tshal lo ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Body of the text (1b1–6b2)"/>
+      <ab><seg type="excerpt" xml:id="ex55022024-09-2010-35-122" status="finalized" part="M"><milestone unit="section" n="Body of the text (1b1–6b2)"/>
          <rs type="work" ana="corpusmd:named_reference" ref="db:4949">rtsod pa'i rigs pa</rs> la don gsum te ||
-         [1] <note type="gloss"> rtsod pa don </note> rab tu byed pa la 'jug pa'i slad kyi <lb n="1b2"/> don dang ¦ [2] rab tu byed pa'i lus kyi don dang ¦ [3] mthar phyin pa'i don to |</ab>
+         [1] <note type="gloss"> rtsod pa don </note> rab tu byed pa la 'jug pa'i slad kyi <lb n="1b2"/> don dang ¦ [2] rab tu byed pa'i lus kyi don dang ¦ [3] mthar phyin pa'i don to |</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (6b1–6b2)"/>
-            <lg><l><rs type="work" ana="corpusmd:named_reference" ref="db:4949"><rs type="work" ana="corpusmd:named_reference" ref="db:4949">rtsod pa'i rigs pa dam pa</rs>'i bsdus don</rs> ni ||</l> <l>smra ba rnams <choice><reg>kyi</reg><orig>ky(i)</orig></choice> dam pa bla ma la ||</l> <l>thos nas dam pa <lb n="6b2"/> <abbr>sangs rgyas</abbr> thob bya'i phyir ||</l> <l>dam pa'i rtsod pa la mkhas <rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral gri</rs>s bkod ||</l></lg></ab>
+      <ab><seg type="excerpt" xml:id="ex55022023-10-251" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (6b1–6b2)"/>
+            <lg><l><rs type="work" ana="corpusmd:named_reference" ref="db:4949"><rs type="work" ana="corpusmd:named_reference" ref="db:4949">rtsod pa'i rigs pa dam pa</rs>'i bsdus don</rs> ni ||</l> <l>smra ba rnams <choice><reg>kyi</reg><orig>ky(i)</orig></choice> dam pa bla ma la ||</l> <l>thos nas dam pa <lb n="6b2"/> <abbr>sangs rgyas</abbr> thob bya'i phyir ||</l> <l>dam pa'i rtsod pa la mkhas <rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral gri</rs>s bkod ||</l></lg></seg>
+         </ab>
     </body>
   </text>
 </TEI>

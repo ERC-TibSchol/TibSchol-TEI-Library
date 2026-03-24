@@ -109,15 +109,20 @@ Volume letter: Ga</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Signature (on top of fol. 34a)"/>
-         phyi¶ tsa¶ 120¶</ab>
+      <ab><seg type="shared" part="I" next="ex006032025-10-0721-07-51" status="reviewed"><milestone unit="section" n="Signature (on top of fol. 34a)"/>
+         phyi¶ tsa¶ 120¶</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Incipit (34a1)"/>
-         <pb n="34a"/><lb n="34a1"/> <rs type="deity">'jam dpal gzhon nur gyur pa</rs> la phyag 'tshal lo ||</ab>
+      <ab><seg type="shared" xml:id="ex006032025-10-0721-07-51" part="M" next="ex603_11102023-05-062" status="reviewed"><milestone unit="section" n="Incipit (34a1)"/>
+         <pb n="34a"/><lb n="34a1"/> <rs type="deity">'jam dpal gzhon nur gyur pa</rs> la phyag 'tshal lo ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Body of the text (34a1–37a4)"/><rs type="person" ref="db:3730" ana="corpusmd:named_reference">slob dpon ye shes snying po</rs>s mdzad pa'i <rs type="work" ref="db:3729" ana="corpusmd:named_reference">dbu ma bden pa gnyis rnam par 'byed pa</rs> la don lnga ste |</ab>
+      <ab><seg type="excerpt" xml:id="ex603_11102023-05-062" status="finalized" part="M" next="ex006032025-10-1410-26-00"><milestone unit="section" n="Body of the text (34a1–37a4)"/><rs type="person" ref="db:3730" ana="corpusmd:named_reference">slob dpon ye shes snying po</rs>s mdzad pa'i <rs type="work" ref="db:3729" ana="corpusmd:named_reference">dbu ma bden pa gnyis rnam par 'byed pa</rs> la don lnga ste |</seg>
+         
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (37a4)"/><lb n="37a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4480"><rs type="work" ana="corpusmd:named_reference" ref="db:3729">dbu ma bden pa gnyis</rs> kyi don bsdus pa</rs> <rs type="person" ref="db:3831" ana="corpusmd:named_reference">rigs par smra ba'i dge slong chos kyi seng ge</rs>s sbyar pa || || rdzogs s+hO || || <lb n="37a5"/> || || || ||</ab>
+      <ab><seg type="excerpt" xml:id="ex603_11332023-05-06" status="finalized" ana="corpusmd:colophon" part="F"><milestone unit="section" n="Colophon (37a4)"/><lb n="37a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4480"><rs type="work" ana="corpusmd:named_reference" ref="db:3729">dbu ma bden pa gnyis</rs> kyi don bsdus pa</rs> <rs type="person" ref="db:3831" ana="corpusmd:named_reference">rigs par smra ba'i dge slong chos kyi seng ge</rs>s sbyar pa || || rdzogs s+hO || || <lb n="37a5"/> || || || ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

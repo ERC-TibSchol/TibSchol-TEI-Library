@@ -101,7 +101,9 @@ No size reported in [8H6M69W4].</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab/>
+      <ab>
+        <seg type="excerpt" xml:id="ex112012025-02-2417-42-55" status="reviewed">mang du thos pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4123">btsun pa shes rab seng ge</rs><note type="editorial">Tentative identification of btsun pa shes rab seng ge with rGyud smad shes rab seng ge</note>s | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">chen po dag</rs> gis bkas bskul ba bzhin | <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dpal snar thang gi gtsug lag khang</rs> du sbyar ba dge'o || sid d+hi ra stu || ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

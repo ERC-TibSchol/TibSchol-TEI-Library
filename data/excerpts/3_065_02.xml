@@ -103,11 +103,16 @@ Words indicating the beginning of ections (dang po, etc.) appear blurred in the 
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Body of the text (1b7-)"/>
-         theg pa chen po'i lam tshang la ma nor ba ston pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa</rs> la 'jug pa 'di la don gnyis ste ¦ mtshan dang <lb n="1b8"/> gzhung gi don no ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex065022025-11-1115-38-39" status="reviewed"><milestone n="Body of the text (1b7-)"/>
+         theg pa chen po'i lam tshang la ma nor ba ston pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa</rs> la 'jug pa 'di la don gnyis ste ¦ mtshan dang <lb n="1b8"/> gzhung gi don no ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (63a7)"/>
-   <rs type="work" ana="corpusmd:named_reference" ref="db:5139"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa</rs> la 'jug pa'i 'grel pa <abbr>legs</abbr> par bshad pa rgya mtsho</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4066">lung <abbr>rigs</abbr> smra ba thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:4352">dpal e gtsug lag khang</rs> du sbyar ba'o ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex65022025-02-2418-13-48" status="reviewed"> 
+   <milestone unit="section" n="Colophon (63a7)"/>
+   <rs type="work" ana="corpusmd:named_reference" ref="db:5139"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa</rs> la 'jug pa'i 'grel pa <abbr>legs</abbr> par bshad pa rgya mtsho</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4066">lung <abbr>rigs</abbr> smra ba thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:4352">dpal e gtsug lag khang</rs> du sbyar ba'o ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

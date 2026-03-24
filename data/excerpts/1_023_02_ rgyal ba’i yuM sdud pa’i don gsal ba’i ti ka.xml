@@ -103,12 +103,14 @@ The lemmata cited in the main text are written in dbu can. The closing verse and
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (28a11-12)"/>
+      <ab>
+        <seg type="excerpt" status="finalized" xml:id="ex23022023-09-112" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (28a11-12)"/>
      <lg> <l>  <rs type="work" ana="corpusmd:named_reference" ref="db:5847"><rs type="work" ana="corpusmd:named_reference" ref="db:3693">rgyal ba'i yuM sdud pa</rs>'i don gsal ba'i ti ka</rs> zhes bya ba |</l> 
       <l>chos 'di la <lb n="28b12"/> nan tan du byas pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:5849">dmyal sde jo sras</rs> kyis |</l>
       <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">rab rga slob ma</rs>'i don du nye bar sbyar ba |</l> 
       <l>de'i rjes su 'jug pa <rs type="person" ana="corpusmd:named_reference" ref="db:5779">chab <choice><reg>shul</reg><orig>°°</orig></choice> gyi rgyal</rs><note type="editorial">Reading uncertain</note> × kyis bris pa ||</l> 
-            <l>rgyal po °° <note type="editorial">Possibly 3</note> bkyis byis <note type="editorial">Reading uncertain</note> | pa yin non × rdzogs s+h+yo ||</l></lg>||||</ab>
+            <l>rgyal po °° <note type="editorial">Possibly 3</note> bkyis byis <note type="editorial">Reading uncertain</note> | pa yin non × rdzogs s+h+yo ||</l></lg>||||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

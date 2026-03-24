@@ -102,9 +102,11 @@ Post-colophon note in smaller script.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon" unit="section"/>
+      <ab><seg type="excerpt" xml:id="ex53032024-10-2515-58-57" status="finalized" ana="corpusmd:colophon"> <milestone n="Colophon" unit="section"/>
                chos mngon shes bya kun mkhyen ni || thob par 'dod nas <rs type="work" ana="corpusmd:named_reference" ref="db:5913"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon</rs> <lb n="5a3"/> gyi || 
-               bsdus don</rs> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dpal ldan thang chen</rs> du || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s bkod pa yin | sa mA ptaḥ</ab>
+               bsdus don</rs> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dpal ldan thang chen</rs> du || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s bkod pa yin | sa mA ptaḥ</seg>
+            
+        </ab>
     </body>
   </text>
 </TEI>

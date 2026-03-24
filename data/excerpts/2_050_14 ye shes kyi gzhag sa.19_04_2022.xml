@@ -101,9 +101,11 @@ Volume: Nya</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon 1st annotation (nya 5b5, p. 304), in smaller script"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4052">bla ma snar thang pa brgyad pa byon pa</rs> des <rs type="person" ana="corpusmd:named_reference" ref="db:6458"> btsun pa chos kyi rgyal mtshan</rs> la gnang ste yi ger bris pa'o || zhus dag par <abbr>byas so</abbr> || 
+      <ab>
+        <seg type="excerpt" xml:id="ex50142023-09-0816-07-29" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Post-colophon 1st annotation (nya 5b5, p. 304), in smaller script"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4052">bla ma snar thang pa brgyad pa byon pa</rs> des <rs type="person" ana="corpusmd:named_reference" ref="db:6458"> btsun pa chos kyi rgyal mtshan</rs> la gnang ste yi ger bris pa'o || zhus dag par <abbr>byas so</abbr> || 
          <milestone unit="section" n="Post-colophon 2nd annotation (nya 5b5, p. 304), in smaller script"/>
-         <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pas bsngags pa'i gnas mchog snar thang</rs> du bris shing <abbr>zhus so</abbr> || ||</ab>
+         <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pas bsngags pa'i gnas mchog snar thang</rs> du bris shing <abbr>zhus so</abbr> || ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

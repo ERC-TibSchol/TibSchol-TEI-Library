@@ -101,7 +101,8 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Annotation at the bottom of the folio (3b6), in smaller script"/>zhus dag par <abbr>byas so</abbr> || <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dam pas bsngags pa'i dben gnas snar thang</rs> du bris shing <abbr>zhus so</abbr> || I thI ||</ab>
+      <ab><seg type="excerpt" xml:id="ex50162023-09-1109-06-00" status="finalized" part="F"> <milestone unit="section" n="Annotation at the bottom of the folio (3b6), in smaller script"/>zhus dag par <abbr>byas so</abbr> || <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dam pas bsngags pa'i dben gnas snar thang</rs> du bris shing <abbr>zhus so</abbr> || I thI ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

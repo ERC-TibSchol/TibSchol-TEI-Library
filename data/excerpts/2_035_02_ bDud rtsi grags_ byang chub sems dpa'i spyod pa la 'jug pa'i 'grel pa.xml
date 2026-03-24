@@ -101,10 +101,13 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><pb n="1a"/>
-           <milestone unit="section" n="Cover page (1a)"/><lb n="1a1"/>  phyi <lb n="1a2"/> tsa <lb n="1a3"/> 79 <lb n="1a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3880">gro ston bdud rtsi grags</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3880"><rs type="place" ana="corpusmd:named_reference" ref="db:4411">snar thang</rs> mkhan po</rs></note> mdzad pa'i <lb n="1a5"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4712"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">spyod <abbr>'jug</abbr></rs> <abbr>gi</abbr> 'grel pa</rs>'o || <note type="gloss">snyiMs yas pa <note type="editorial">yas is unclear</note></note> <rs type="person" ana="corpusmd:named_reference" ref="db:5891">bdag suNya</rs>'i dpe'o || <note type="editorial">The title is written in the middle of a flower drawn on the front page.</note></ab>
+      <ab><seg type="excerpt" xml:id="ex35022023-08-0308-59-37" status="finalized"><pb n="1a"/>
+           <milestone unit="section" n="Cover page (1a)"/><lb n="1a1"/>  phyi <lb n="1a2"/> tsa <lb n="1a3"/> 79 <lb n="1a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3880">gro ston bdud rtsi grags</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3880"><rs type="place" ana="corpusmd:named_reference" ref="db:4411">snar thang</rs> mkhan po</rs></note> mdzad pa'i <lb n="1a5"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4712"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">spyod <abbr>'jug</abbr></rs> <abbr>gi</abbr> 'grel pa</rs>'o || <note type="gloss">snyiMs yas pa <note type="editorial">yas is unclear</note></note> <rs type="person" ana="corpusmd:named_reference" ref="db:5891">bdag suNya</rs>'i dpe'o || <note type="editorial">The title is written in the middle of a flower drawn on the front page.</note></seg> </ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4712"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub seMs dpa'i spyod pa 'jug pa</rs>'i <abbr>tshig gi</abbr> don zhib du rnam par 'byed pa dga' ba rgya mtsho</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3880">shag kya'i dge slong <lb n="74a8"/> a rmi ta kir ti</rs>s bkrol zin to || dge par gyur cig <note type="editorial">The final line "dge par..." is written without tsheg or space between the syllables</note> |</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex35022023-08-0308-50-15" status="finalized" ana="corpusmd:colophon">
+           <rs type="work" ana="corpusmd:named_reference" ref="db:4712"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub seMs dpa'i spyod pa 'jug pa</rs>'i <abbr>tshig gi</abbr> don zhib du rnam par 'byed pa dga' ba rgya mtsho</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3880">shag kya'i dge slong <lb n="74a8"/> a rmi ta kir ti</rs>s bkrol zin to || dge par gyur cig <note type="editorial">The final line "dge par..." is written without tsheg or space between the syllables</note> |</seg>
+      </ab>
     </body>
   </text>
 </TEI>

@@ -104,8 +104,9 @@ Missing folios: 6 and 7.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (100a2-100a3)"/>
-           <rs type="work" ana="corpusmd:named_reference" ref="db:5271">'grel bshad kun las btus pa'i snying po nyi ma'i 'od zer gyi snang ba</rs> zhes bya ba 'di ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5954">shAkya'i btsun pa gzhung brgya smra ba rin chen tshul <lb n="100a3"/> khrims</rs> kyis ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:6173">mkhas grub du ma'i 'byung gnas ne'u thog gi chos <choice><orig>sgra</orig><reg>grwa</reg></choice> chen po</rs>r sbyar ba'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex81022023-09-28-159" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (100a2-100a3)"/>
+           <rs type="work" ana="corpusmd:named_reference" ref="db:5271">'grel bshad kun las btus pa'i snying po nyi ma'i 'od zer gyi snang ba</rs> zhes bya ba 'di ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5954">shAkya'i btsun pa gzhung brgya smra ba rin chen tshul <lb n="100a3"/> khrims</rs> kyis ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:6173">mkhas grub du ma'i 'byung gnas ne'u thog gi chos <choice><orig>sgra</orig><reg>grwa</reg></choice> chen po</rs>r sbyar ba'o ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

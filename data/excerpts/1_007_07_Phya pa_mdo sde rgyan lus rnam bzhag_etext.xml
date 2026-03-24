@@ -105,7 +105,9 @@ A few glosses below the lines, and at the bottom of fol. 2a.</additional></physD
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (16b5)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4497"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo' <choice><orig>s°</orig><reg>sde</reg></choice> rgyan</rs> gyi lus rnam gzhag</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge slong chos kyi seng ge</rs>s sbyar ba || rdzogs s+ho ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex7072024-10-0912-02-41" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (16b5)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4497"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo' <choice><orig>s°</orig><reg>sde</reg></choice> rgyan</rs> gyi lus rnam gzhag</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge slong chos kyi seng ge</rs>s sbyar ba || rdzogs s+ho ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

@@ -105,7 +105,7 @@ Volume (indicated in the left margin): ga.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Closing verses (45b4)"/>
+      <ab><seg type="excerpt" xml:id="ex019032025-11-1014-03-33" status="reviewed" part="M" next="ex019032025-11-1013-30-57"><milestone unit="section" n="Closing verses (45b4)"/>
         <lg><l><lb n="45b4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:3729">bden gnyis rnam bshad</rs> <rs type="work" ana="corpusmd:named_reference" ref="db:6193">ti ka dag</rs> dang bcas ||</l> 
          <l>dam pa'i legs gsungs rang gi rtogs pa rnams || </l>
          <l>don rnam mang phyir gsal bar rjod pa'i phyir || </l>
@@ -114,10 +114,11 @@ Volume (indicated in the left margin): ga.</additional></physDesc></sourceDesc>
          <l>nus pa med kyang 'bad pas <rs type="work">gzhung</rs> 'di' sbyar ||<anchor xml:id="a82"/> </l>
          <l>de' ni 'gro rnams las 'dir myur zhags te || </l>
          <l>bla med byang chub grags pa<note type="editorial">Hidden signature "Byang chub grags," like in the closing verses of his dBu ma'i de kho na nyid gtan la dbab pa (ID:4686). This echoes the hidden signature "ye shes snying po"=Jñānagarbha (ID:3730) in the last verse of the Satyadvayavibhaṅgavṛtti (ID:3729).</note> skyed par shog ||</l></lg>
-         <note type="editorial">The last two lines echo the closing verse of his commentary on the Bodhicaryāvatāra, work (ID:4478). See (ID:4477), fol. 83b3-83b4: bdag gis brjod par ma nus ste || slob ma dag [gis?] bskul phyir sbyar</note></ab>
+         <note type="editorial">The last two lines echo the closing verse of his commentary on the Bodhicaryāvatāra, work (ID:4478). See (ID:4477), fol. 83b3-83b4: bdag gis brjod par ma nus ste || slob ma dag [gis?] bskul phyir sbyar</note></seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (45b5)"/>
-        <rs type="work" ana="corpusmd:named_reference" ref="db:4599"><lb n="45b5"/> de kho na nyid kyi don gsal bar byed pa'o</rs> || rdzogs s+ho ||</ab>
+      <ab><seg type="excerpt" xml:id="ex019032025-11-1013-30-57" status="reviewed" part="F"><milestone unit="section" n="Colophon (45b5)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:4599"><lb n="45b5"/> de kho na nyid kyi don gsal bar byed pa'o</rs> || rdzogs s+ho ||</seg> </ab>
     </body>
   </text>
 </TEI>

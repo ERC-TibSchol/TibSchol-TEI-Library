@@ -99,24 +99,26 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Closing verses" unit="section"/><lg><l>'di na mkhas pa'i rnam gzhag ma mthong bar ||</l> 
+      <ab><seg type="excerpt" xml:id="exX282024-10-1811-51-06" status="finalized" ana="corpusmd:colophon" part="I" next="exX282024-10-1811-51-05"> 
+ <milestone n="Closing verses" unit="section"/><lg><l>'di na mkhas pa'i rnam gzhag ma mthong bar ||</l> 
  <l>shes bya'i gnas la mkhas par gang smra ba ||</l> 
  <l>des kyang bdag gi blo gros legs sbyangs pa'i ||</l> 
  <l>mkhas pa'i gzhung brgya'i ming yang thos re skan || </l></lg>
 <lg> <l>shAkya'i bstan la shin tu mkhas rnams dang || </l>
  <l>rtsod ldan mkhas par rlom par 'dod pa rnams ||</l> 
  <l>bstan pa rgyan gyis dag par bya ba'i phyir ||</l>
- <l><rs type="person" ana="corpusmd:named_reference" ref="db:4006">dpal ldan rigs pa'i ral gri</rs>s bkod pa yin || </l></lg></ab>
+ <l><rs type="person" ana="corpusmd:named_reference" ref="db:4006">dpal ldan rigs pa'i ral gri</rs>s bkod pa yin || </l></lg></seg>
+</ab>
       <gap reason="omitted"/>
-      <ab>
-        <lg> <l>de ltar bde bar gshegs kyi bstan pa yi ||</l> 
+      <ab><seg type="shared" xml:id="exX0282025-11-2415-09-17" part="M" next="exX282024-10-1811-51-05" status="reviewed"><lg> <l>de ltar bde bar gshegs kyi bstan pa yi ||</l> 
  <l>rgyan gyi me tog rnam par phye ba las ||</l> 
  <l>byung ba'i me tog nyi ma'i zer 'dra yis ||</l> 
- <l>'gro ba'i ma rig mun pa sel bar shog |</l></lg>
-      </ab>
+ <l>'gro ba'i ma rig mun pa sel bar shog |</l></lg></seg>
+</ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon" unit="section"/>
- <rs type="work" ana="corpusmd:named_reference" ref="db:6044">bstan pa rgyan gyi me tog</rs> ces bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i btsun pa ral gri</rs>s bkod pa rdzogs so ||</ab>
+      <ab><seg type="excerpt" xml:id="exX282024-10-1811-51-05" status="finalized" ana="corpusmd:colophon">
+ <milestone n="Colophon" unit="section"/>
+ <rs type="work" ana="corpusmd:named_reference" ref="db:6044">bstan pa rgyan gyi me tog</rs> ces bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i btsun pa ral gri</rs>s bkod pa rdzogs so ||</seg> ||</ab>
     </body>
   </text>
 </TEI>

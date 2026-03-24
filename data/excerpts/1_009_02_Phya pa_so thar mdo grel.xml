@@ -53,8 +53,7 @@
          </publicationStmt>
          <sourceDesc>
             <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">70 x 11.5</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
-Some interlinear annotations.</additional></physDesc></sourceDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">70 x 11.5</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </principal>

@@ -112,8 +112,10 @@ Some interlinear and marginal notes.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (43b2)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4484"><rs type="work" ana="corpusmd:named_reference" ref="db:3733">dbu ma brgyan gyi 'grel pa</rs> rgya cher bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">rigs par smra ba'i dge slong chos kyi seng ge</rs>s sbyar pa || || rdzogs s+hO ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex60520240828_1" ana="corpusmd:colophon" status="finalized"><milestone unit="section" n="Colophon (43b2)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4484"><rs type="work" ana="corpusmd:named_reference" ref="db:3733">dbu ma brgyan gyi 'grel pa</rs> rgya cher bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">rigs par smra ba'i dge slong chos kyi seng ge</rs>s sbyar pa || || rdzogs s+hO ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

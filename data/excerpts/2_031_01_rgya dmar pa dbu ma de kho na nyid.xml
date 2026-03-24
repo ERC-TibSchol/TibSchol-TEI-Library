@@ -105,11 +105,16 @@ Numerous marginal and interlinear notes.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/><rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4686">dbu ma'i de kho na nyid gtan la dbab pa</rs> bzhugs</ab>
+      <ab><seg type="excerpt" xml:id="ex3101_2024-05-16_3" status="finalized"><milestone unit="section" n="Cover page (1a)"/><rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:4686">dbu ma'i de kho na nyid gtan la dbab pa</rs> bzhugs</seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs></note> byang chub grags pa thob par shog ||</ab>
+      <ab><seg type="excerpt" xml:id="ex3101_2024-05-16_2" status="finalized">de ltar rnam bsams 'bad pas gzhung 'di sbyar || 
+         des ni 'jig rten log lta'i rgyun phyogs rnams || 
+         yang dag lta ldan dge bcu legs spyad nas ||
+        bla med <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs></note> byang chub grags pa thob par shog ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4686">dbu ma de kho na nyid rnam par spyod pa</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs>s <note type="gloss">mdzad pa</note> rdzogs s+ho ||</ab>
+      <ab><seg type="excerpt" xml:id="ex3101_2024-05-16" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:4686">dbu ma de kho na nyid rnam par spyod pa</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:3834">rgya dmar ba</rs>s <note type="gloss">mdzad pa</note> rdzogs s+ho ||</seg> </ab>
     </body>
   </text>
 </TEI>

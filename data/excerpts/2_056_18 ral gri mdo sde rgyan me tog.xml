@@ -104,13 +104,16 @@ Proofread several times (zhig zhus; yang zhus).</additional></physDesc></sourceD
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Cover page" unit="section"/>
+      <ab><seg type="shared" xml:id="ex56182025-10-0717-12-24" part="I" status="reviewed"><milestone n="Cover page" unit="section"/>
 <pb n="1a"/><lb n="1a1"/>phyi <lb n="1a1"/>la <lb n="1a1"/>501 <lb n="1a1"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5012"><rs type="work" ana="corpusmd:named_reference" ref="db:3738">mdo sde</rs> brgyan gyi me tog</rs> ces bya ba bzhugs so ||
 <milestone n="Incipit" unit="section"/>
-<pb n="1b"/><lb n="1b1"/> rgya gar skad du ¦ <rs type="work" ana="corpusmd:named_reference" ref="db:5012"><rs type="work" ana="corpusmd:named_reference" ref="db:3738">su tra</rs> a la ka ra puSH pa</rs> nA ma | bod skad du ¦ <rs type="work" ana="corpusmd:named_reference" ref="db:5012"><rs type="work" ana="corpusmd:named_reference" ref="db:3738">mdo sde</rs>rgyan gyi me tog</rs> ces bya ba ¦</ab>
+<pb n="1b"/><lb n="1b1"/> rgya gar skad du ¦ <rs type="work" ana="corpusmd:named_reference" ref="db:5012"><rs type="work" ana="corpusmd:named_reference" ref="db:3738">su tra</rs> a la ka ra puSH pa</rs> nA ma | bod skad du ¦ <rs type="work" ana="corpusmd:named_reference" ref="db:5012"><rs type="work" ana="corpusmd:named_reference" ref="db:3738">mdo sde</rs>rgyan gyi me tog</rs> ces bya ba ¦</seg>
+</ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon" unit="section"/>
-<rs type="work" ana="corpusmd:named_reference" ref="db:5012"><rs type="work" ana="corpusmd:named_reference" ref="db:3738">mdo sde kun las btus pa</rs> rgyan gyi me tog</rs> ces bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:5680">rtsang me tog mdangs can gyi dgon <lb n="72b2"/> pa</rs>r bris pa rdzogs so || <note type="gloss">1 zhus pa mang zhus</note> dge'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex56182024-10-1812-45-11" status="finalized" ana="corpusmd:colophon" part="F"><milestone n="Colophon (72b1-72b2)" unit="section"/>
+<rs type="work" ana="corpusmd:named_reference" ref="db:5012"><rs type="work" ana="corpusmd:named_reference" ref="db:3738">mdo sde kun las btus pa</rs> rgyan gyi me tog</rs> ces bya ba || <rs type="person" ana="corpusmd:named_reference" ref="db:4006">mang du thos pa'i dge slong bcom ldan ral gri</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:5680"><rs type="place" ana="corpusmd:named_reference" ref="db:5915">rtsang</rs> me tog mdangs can gyi dgon <lb n="72b2"/> pa</rs>r bris pa rdzogs so || 
+<note type="gloss">1 zhus pa mang zhus</note> dge'o ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

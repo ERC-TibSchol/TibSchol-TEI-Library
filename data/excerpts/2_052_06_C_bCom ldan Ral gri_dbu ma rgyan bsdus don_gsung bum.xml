@@ -103,9 +103,11 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><!--proofread-->
+      <ab>
+        <seg type="excerpt" xml:id="ex52062023-10-251" status="reviewed"><!--proofread-->
          <milestone unit="section" n="Colophon (1a5–1b1)"/>
-        <rs type="work" ana="corpusmd:named_reference" ref="db:4918"><rs type="work" ana="corpusmd:named_reference" ref="db:7351">dbu ma rgyan</rs> gyi bsdus don</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom <pb n="1b"/><lb n="1b1"/> ldan ral gri</rs>s bkod do ||</ab>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:4918"><rs type="work" ana="corpusmd:named_reference" ref="db:7351">dbu ma rgyan</rs> gyi bsdus don</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom <pb n="1b"/><lb n="1b1"/> ldan ral gri</rs>s bkod do ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

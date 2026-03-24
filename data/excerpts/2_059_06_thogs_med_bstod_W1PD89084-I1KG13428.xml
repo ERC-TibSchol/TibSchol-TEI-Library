@@ -100,8 +100,11 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><lb n="8a6"/> mchog tu gyur pa la dad pa dang gus pa lhur len pa'i | <rs type="person" ana="corpusmd:named_reference">dge ba'i bshes gnyen mi nyag blo ldan dpal</rs> zhes bya ba || <note type="gloss"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">chos kyi rje dpal ldan bla ma dam pa</rs> la bstod pa gsol 'debs dang dang bcas pa 1 gyis zhes bskul ba'i rjes su <rs type="person" ana="corpusmd:named_reference" ref="db:5066"><abbr>slob dpon</abbr> dpal ldan <abbr>ye shes</abbr></rs> kyis kyang bskul ba'i ngor ||</note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">chos kyi rje dpal ldan bla ma dam pa</rs> de nyid kyi bka' 'bangs su gyur pa | ma Ni ba <rs type="person" ana="corpusmd:named_reference" ref="db:4066">thogs med</rs> kyis | <rs type="place" ana="corpusmd:named_reference" ref="db:5692">dngul chu'i chos rdzong</rs> du 
-            <lb n="8a7"/> bkod pa'i <abbr>yi ge</abbr> pa'ang <rs type="person" ana="corpusmd:named_reference" ref="db:5066">slob dpon dpal ldan <abbr>ye shes</abbr></rs> kyis <abbr>bgyis so</abbr> || | shub+haM || | </ab>
+      <ab><seg type="excerpt" xml:id="ex59062024-12-1912-58-48" status="finalized" ana="corpusmd:colophon">'di ni | yul
+				<lb n="8a6"/> mchog tu gyur pa la dad pa dang gus pa lhur len pa'i | <rs type="person" ana="corpusmd:named_reference">dge ba'i bshes gnyen mi nyag blo ldan dpal</rs> zhes bya ba || <note type="gloss"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">chos kyi rje dpal ldan bla ma dam pa</rs> la bstod pa gsol 'debs dang dang bcas pa 1 gyis zhes bskul ba'i rjes su <rs type="person" ana="corpusmd:named_reference" ref="db:5066"><abbr>slob dpon</abbr> dpal ldan <abbr>ye shes</abbr></rs> kyis kyang bskul ba'i ngor ||</note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">chos kyi rje dpal ldan bla ma dam pa</rs> de nyid kyi bka' 'bangs su gyur pa | ma Ni ba <rs type="person" ana="corpusmd:named_reference" ref="db:4066">thogs med</rs> kyis | <rs type="place" ana="corpusmd:named_reference" ref="db:5692">dngul chu'i chos rdzong</rs> du 
+            <lb n="8a7"/> bkod pa'i <abbr>yi ge</abbr> pa'ang <rs type="person" ana="corpusmd:named_reference" ref="db:5066">slob dpon dpal ldan <abbr>ye shes</abbr></rs> kyis <abbr>bgyis so</abbr> || | shub+haM || | </seg>
+			
+         </ab>
     </body>
   </text>
 </TEI>

@@ -100,11 +100,15 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Body of the text (1b1–)"/>
-         <rs type="person" ana="corpusmd:named_reference" ref="db:3758">slob dpon chen po <abbr>dbyig gnyen</abbr></rs> <lb n="1b2"/> gyis mzdad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod kyi tshig le 'ur byas pa</rs> la bsdus pa'i don gsum ste ¦ rtsom 'brel yan <lb n="1b3"/> lag gi don dang ¦ gzhung don m(ngon) pa'i yul dang ¦ bstan bcos yongs su rdzogs pa mjug gi bya ba'o ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex49032024-11-137-03-09" status="finalized"><milestone unit="section" n="Body of the text (1b1–)"/>
+         <rs type="person" ana="corpusmd:named_reference" ref="db:3758">slob dpon chen po <abbr>dbyig gnyen</abbr></rs> <lb n="1b2"/> gyis mzdad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod kyi tshig le 'ur byas pa</rs> la bsdus pa'i don gsum ste ¦ rtsom 'brel yan <lb n="1b3"/> lag gi don dang ¦ gzhung don m(ngon) pa'i yul dang ¦ bstan bcos yongs su rdzogs pa mjug gi bya ba'o ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Conclusive verse | Colophon (32b1-32b3)"/>mkhas pa'i bsdus don gzhugn la rab 'jug phyir || <lb n="32b2"/> blo dman bdag 'dras bslad par mi 'os kyang || shin du mang na sgra don mi gnas pas || cung zad bsdus nas <rs type="person" ana="corpusmd:named_reference" ref="db:3977">nam mkha' <abbr>grags</abbr></rs> kyis sbyar ||
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4829"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod</rs> <lb n="32b3"/> kyi don yang dag par bsdus pa</rs> <abbr>rdzogs</abbr> so ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex49032024-11-137-03-092" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Conclusive verse | Colophon (32b1-32b3)"/>mkhas pa'i bsdus don gzhugn la rab 'jug phyir || <lb n="32b2"/> blo dman bdag 'dras bslad par mi 'os kyang || shin du mang na sgra don mi gnas pas || cung zad bsdus nas <rs type="person" ana="corpusmd:named_reference" ref="db:3977">nam mkha' <abbr>grags</abbr></rs> kyis sbyar ||
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4829"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod</rs> <lb n="32b3"/> kyi don yang dag par bsdus pa</rs> <abbr>rdzogs</abbr> so ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

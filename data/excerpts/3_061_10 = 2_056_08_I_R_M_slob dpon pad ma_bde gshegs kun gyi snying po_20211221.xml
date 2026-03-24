@@ -101,8 +101,9 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (1b2-1b3)"/>
-        <rs type="person" ana="corpusmd:named_reference" ref="db:4052"><abbr>slob dpon</abbr> pad <lb n="1b3"/> mA</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:5097">tshe bsgrub</rs> rdzogs s+ho || <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s bris dge'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex61102023-09-131" status="finalized" ana="corpusmd:colophon">  <milestone unit="section" n="Colophon (1b2-1b3)"/>
+        <rs type="person" ana="corpusmd:named_reference" ref="db:4052"><abbr>slob dpon</abbr> pad <lb n="1b3"/> mA</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:5097">tshe bsgrub</rs> rdzogs s+ho || <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s bris dge'o ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

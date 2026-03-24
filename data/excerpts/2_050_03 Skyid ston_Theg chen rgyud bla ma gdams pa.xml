@@ -103,14 +103,15 @@ Proofread.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3800">de</rs>s <rs type="person" ana="corpusmd:named_reference" ref="db:4143">gzu rga ba <abbr>rdo rje</abbr></rs> <note type="gloss"><rs type="place" ana="corpusmd:named_reference" ref="db:5616">'i grong khyer dpe med</rs> du <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsha ba</rs></note> la bshad || 
+      <ab><seg type="excerpt" xml:id="ex50032023-05-26011" status="reviewed"> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3800">de</rs>s <rs type="person" ana="corpusmd:named_reference" ref="db:4143">gzu rga ba <abbr>rdo rje</abbr></rs> <note type="gloss"><rs type="place" ana="corpusmd:named_reference" ref="db:5616">'i grong khyer dpe med</rs> du <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsha ba</rs></note> la bshad || 
          <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4143">de</rs>s <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4141"><rs type="place" ana="corpusmd:named_reference" ref="db:5614">spu rangs</rs> <lb n="5a7"/> <rs type="place" ana="corpusmd:named_reference" ref="db:5615">tho ling gser khang</rs> gyi dge tshul dri med shes rab</rs><!--btsan kha bo che--> kyis sngar nas 'di mkhyen par mdzod <abbr>cig</abbr> byas nas <abbr>zhus so</abbr> || 
             <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4141">dge tshul de</rs>s <rs type="person" ref="db:4593"><rs type="place" ana="corpusmd:named_reference" ref="db:5612">la stod lho</rs> pa gcig</rs> la gnang | 
             <rs type="person" ref="db:4593">de</rs>s <rs type="person" ana="corpusmd:named_reference" ref="db:5613">do pa snyan</rs> la gnang |
             <rs type="person" ana="corpusmd:unnamed_reference" ref="db:5613">de</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4052">bla ma snar pa</rs> <note type="gloss">brgyad par byon pa</note><!--sKyo ston--> la <lb n="5b"/><lb n="5b1"/>gnang | 
-                de <rs type="person" ana="corpusmd:unnamed_reference" ref="db:6458">btsun pa chos kyi rgyal mtshan</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs></note> la gnang pa'o || ithī ||</ab>
+                de <rs type="person" ana="corpusmd:unnamed_reference" ref="db:6458">btsun pa chos kyi rgyal mtshan</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs></note> la gnang pa'o || ithī ||</seg> </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (5b1)"/>phyag dpe las bris te <abbr>dge'o</abbr> || <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dben gnas snar thang</rs> du zhus shing bris ste zhus dag par <abbr>byas so</abbr> ||</ab>
+      <ab><seg type="excerpt" xml:id="ex50032023-05-2608-58-01" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (5b1)"/>phyag dpe las bris te <abbr>dge'o</abbr> || <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dben gnas snar thang</rs> du zhus shing bris ste zhus dag par <abbr>byas so</abbr> ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

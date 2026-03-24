@@ -102,13 +102,15 @@ Extensive use of abbreviations.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><pb n="75a"/>
+      <ab>
+        <seg type="excerpt" xml:id="ex045032025-05-2014-56-26" status="reviewed"><pb n="75a"/>
    
            <lb n="75a1"/> phyi
            <lb n="75a2"/> zha
-           <lb n="75a3"/> 21</ab>
+           <lb n="75a3"/> 21</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5564"><abbr>rigs</abbr> gter</rs> las kyang brjod bya brjod byed <abbr>re re</abbr> la 2 2 dang brda' sbyor tshul dang don go tshul sngar ltar <abbr>bshad do</abbr> ¦ 
+      <ab><seg type="excerpt" xml:id="ex045032025-05-2015-12-06" status="finalized"><rs type="work" ana="corpusmd:named_reference" ref="db:5564"><abbr>rigs</abbr> gter</rs> las kyang brjod bya brjod byed <abbr>re re</abbr> la 2 2 dang brda' sbyor tshul dang don go tshul sngar ltar <abbr>bshad do</abbr> ¦ 
             de las ¦
          <quote source="db:5564" n="IV.1"><lg>
             <l xml:space="preserve">dbye bas 2 2 rnaM pa 4</l>
@@ -118,7 +120,10 @@ Extensive use of abbreviations.</additional></physDesc></sourceDesc>
          <lg>
             <l xml:space="preserve">brda yi dus na sres nas <lb n="80b9"/> sbyar ||</l>
             <l xml:space="preserve"><abbr>tha snyad</abbr> dus na'ang de ltar go</l>
-         </lg></quote> zhes 'byung <abbr>ba'i phyir ro</abbr> ||</ab>
+         </lg></quote> zhes 'byung <abbr>ba'i phyir ro</abbr> ||</seg>
+           
+           zhen pa'i brjod bya dang des zlas drangs pa'i dngos kyi brjod bya mi 'gal te 
+            kyis gzhal ban sdong grjogs pi sgru'i bjod bya 2 ga yir | dog rang 'dzin pi rtog pi zhul dang rdul 2 ga yid | zhen pi mjos bya ra na gyas zhien pa rw yi sogspa rtog pas khrul du byas nas sgras brjod pas khyon pi brjod bya'i sgkra 'byad pir rtog pa</ab>
     </body>
   </text>
 </TEI>

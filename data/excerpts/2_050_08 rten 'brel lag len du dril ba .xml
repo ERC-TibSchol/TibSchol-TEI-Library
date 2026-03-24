@@ -100,9 +100,11 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon annotations (21b8)"/>
+      <ab><seg type="excerpt" xml:id="ex50082023-09-131" status="finalized" ana="corpusmd:colophon">
+         <milestone unit="section" n="Post-colophon annotations (21b8)"/>
         <rs type="person" ana="corpusmd:named_reference" ref="db:4052">bla ma snar thang pa brgyad par byon pa</rs> des <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa chos kyi rgyal mtshan</rs> la <abbr>gnang ngo</abbr> || 
-         <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pa bsngags pa'i snar thang gi dben gnas</rs> <abbr>su</abbr> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s phyag dpe las bris shing zhus <abbr>dag go</abbr> || ||</ab>
+         <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pa bsngags pa'i snar thang gi dben gnas</rs> <abbr>su</abbr> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s phyag dpe las bris shing zhus <abbr>dag go</abbr> || ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

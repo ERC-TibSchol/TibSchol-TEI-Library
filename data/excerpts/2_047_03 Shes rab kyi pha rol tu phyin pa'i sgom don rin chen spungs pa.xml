@@ -102,23 +102,31 @@ Proofread twice (2 zhus)</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/>
+      <ab><seg type="excerpt" xml:id="ex47032023-10-111" status="finalized" part="I" next="ex047032025-11-1011-34-19">
+         <milestone unit="section" n="Cover page (1a)"/>
        <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> la <lb n="1a3"/> 528
-         <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4795">sher phyin sgom don</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3977"><abbr>nam mkha'</abbr> grags</rs> kyis mdzad pa</ab>
+         <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4795">sher phyin sgom don</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3977"><abbr>nam mkha'</abbr> grags</rs> kyis mdzad pa</seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Incipit (1b1)"/>
+      <ab><seg type="shared" xml:id="ex047032025-11-1011-34-19" status="reviewed" part="M"><milestone unit="section" n="Incipit (1b1)"/>
             <pb n="1b"/><pb n="1a"/><lb n="1a1"/>  
          <rs type="deity">'jam pa'i byangs</rs> la phyag 'tshal lo × mtshan dpes rab mdzes phan bden ston mdzad pa × srid zhi las grol <rs type="deity">'jam mgon</rs> btud nas klu me <lb n="1b2"/> 
-         <!--input incomplete--></ab>
+         <!--input incomplete--></seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (5a5)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4795">shes rab kyi pha rol tu phyin pa'i bsgom don rin chen spungs pa</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3977">shAkya'i dge slong nam mkha' grags</rs> kyis sbyar ba'o || || </ab>
+      <ab>
+        <seg type="excerpt" status="edited" xml:id="ex47032023-09-121" ana="corpusmd:colophon" part="M" next="ex047032025-11-1011-17-00">
+         <milestone unit="section" n="Colophon (5a5)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4795">shes rab kyi pha rol tu phyin pa'i bsgom don rin chen spungs pa</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3977">shAkya'i dge slong nam mkha' grags</rs> kyis sbyar ba'o || || </seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Scribe colophon (5b1-5b2)"/>
+      <ab><seg type="excerpt" status="reviewed" xml:id="ex047032025-11-1011-17-00" ana="corpusmd:post_colophon">
+         <milestone unit="section" n="Scribe colophon (5b1-5b2)"/>
              <pb n="5b"/><lb n="5b1"/> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dam pas bsngags pa'i gnas dpal snar thang gi dben gnas</rs> su <rs type="person" ana="corpusmd:named_reference" ref="db:3977">bla ma dge ba'i bshes gnyen snar thang pa bdun par byon pa</rs>'i phyag dpe las <rs type="person" ana="corpusmd:named_reference" ref="db:5788">btsun pa grags pa rgyal mtshan</rs> <lb n="5b2"/> gyis 'brug gi lo ma rgyu'i zla ba'i yar tshes bcu<note type="editorial">Date of writing: In the year of the dragon, on the tenth day of the ? moon</note> la bris so || 
              <abbr>bdag gzhan</abbr> <abbr>thams cad</abbr> smin cing grol bar byin gyis brlab tu gsol || bkra shis |
              <note type="gloss">2 zhus</note>
-             </ab>
+             </seg> 
+         </ab>
     </body>
   </text>
 </TEI>

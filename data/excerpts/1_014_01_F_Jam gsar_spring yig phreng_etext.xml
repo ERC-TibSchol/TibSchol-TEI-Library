@@ -101,7 +101,9 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (4b3)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4573">spring yig <lb n="4b3"/> baiDUrya'i phreng ba</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3884">lung rigs smra ba 'jam gsar</rs> gyis <rs type="place" ana="corpusmd:named_reference" ref="db:6956">mdol chung</rs> dang | <rs type="place" ana="corpusmd:named_reference" ref="db:6049">rkyang 'dur</rs> gyis mgo byas pa'i chos gzhi yon bdag dang | gra pa bu slob rnams la spring ba rdzogs so ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex14032024-10-0416-35-30" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (4b3)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4573">spring yig <lb n="4b3"/> baiDUrya'i phreng ba</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3884">lung rigs smra ba 'jam gsar</rs> gyis <rs type="place" ana="corpusmd:named_reference" ref="db:6956">mdol chung</rs> dang | <rs type="place" ana="corpusmd:named_reference" ref="db:6049">rkyang 'dur</rs> gyis mgo byas pa'i chos gzhi yon bdag dang | gra pa bu slob rnams la spring ba rdzogs so ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

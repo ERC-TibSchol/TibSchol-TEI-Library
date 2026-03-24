@@ -104,15 +104,21 @@ In the left margin on the verso: mdo sdud pa'i 'grel pa.</additional></physDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Statement of intention (1b4–2a1)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:3693">yon tan rin po che sdud pa tshigs su bcad pa</rs>'i don rnams gtsor rgyal ba'i yul gsum gyi mdo <pb n="2a"/><lb n="2a1"/> nyid las mdor bsdus te bshad par bya'o ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex3042025-01-1012-48-50" status="finalized"><milestone unit="section" n="Statement of intention (1b4–2a1)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:3693">yon tan rin po che sdud pa tshigs su bcad pa</rs>'i don rnams gtsor rgyal ba'i yul gsum gyi mdo <pb n="2a"/><lb n="2a1"/> nyid las mdor bsdus te bshad par bya'o ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Conclusive verses (118a6–118b2)"/><milestone unit="section" n="[2]"/> <lg><l>de las bsod nams thob des blo gros mchog ldan pa'i ||</l>
+      <ab><seg type="excerpt" xml:id="ex3042025-01-102" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Conclusive verses (118a6–118b2)"/><milestone unit="section" n="[2]"/> <lg><l>de las bsod nams thob des blo gros mchog ldan pa'i ||</l>
          <l>bshes gnyen dam <lb n="118b2"/> pa'i mgon gyis rgyun du rjes bzung ste ||</l>
          <l>'gro ba kun kyi ma rig 'thibs po dpyis 'byin pa'i ||</l>
-         <l>chos kyi nyi chen dge legs 'byung gnas myur thob shog ||</l></lg></ab>
+         <l>chos kyi nyi chen dge legs 'byung gnas myur thob shog ||</l></lg></seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (118b2–118b3)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4462">'phags pa yon tan rin po che sdud pa tshigs su bcad pa <lb n="118b3"/> rnam par bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3806">shAkya'i dge slong blo gros 'byung gnas</rs> kyi brjed byang tsam du bkod pa rdzogs so  ||  || </ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex3042023-11-241" status="finalized" ana="corpusmd:colophon"> 
+         <milestone unit="section" n="Colophon (118b2–118b3)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4462">'phags pa yon tan rin po che sdud pa tshigs su bcad pa <lb n="118b3"/> rnam par bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3806">shAkya'i dge slong blo gros 'byung gnas</rs> kyi brjed byang tsam du bkod pa rdzogs so  ||  || </seg>
+      </ab>
     </body>
   </text>
 </TEI>

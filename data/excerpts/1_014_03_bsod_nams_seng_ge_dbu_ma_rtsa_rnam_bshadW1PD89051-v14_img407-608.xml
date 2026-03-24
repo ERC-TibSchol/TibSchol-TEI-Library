@@ -106,13 +106,16 @@ Some parts appear faded an others blurred on the reproduction; they could have b
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><pb n="1a"/>
+      <ab>
+        <seg type="shared" xml:id="ex014032025-11-2716-24-57" status="reviewed"><pb n="1a"/>
                <lb n="1a1"/>phyi
                <lb n="1a2"/>tsa
                <lb n="1a3"/>35
-               <lb n="1a4"/><rs type="work" ana="corpusmd:named_reference" ref="db:4587"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i rnaM bshad srog 'khor</rs> ||</ab>
+               <lb n="1a4"/><rs type="work" ana="corpusmd:named_reference" ref="db:4587"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i rnaM bshad srog 'khor</rs> ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Conclusive verses (98b1-99a3)" unit="section"/>
+      <ab><seg type="shared" xml:id="ex014032025-11-2715-32-50" status="reviewed" part="I" next="ex014032025-11-2715-09-47">
+                     <milestone n="Conclusive verses (98b1-99a3)" unit="section"/>
                   <lg><l>de ltar <rs type="person" ana="corpusmd:unnamed_reference" ref="db:7546">bdag</rs> gis rten 'brel stong ma dbu' ma'i lam ||</l> 
                <l>rtsa ba'i tshig don rnam par phye bas 'jig rten 'dis ||</l>
                <l><lb n="98b2"/> chos la mig thob thabs kyi rkang pas rab bskyod te || </l>
@@ -169,15 +172,20 @@ Some parts appear faded an others blurred on the reproduction; they could have b
                <lg> <l>de phyir lca chan tshogs kyis ske phran ltar ||</l> 
                 <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma</rs>'i man ngag snyan khung brgyud pa 'di ||</l> 
                 <l>kha brgyud rtog ge kun gyis mi 'dod kyang ||</l> 
-                <l>rnal 'byor skal <lb n="99a2"/>ldan rna brgyud can gyis blang ||</l> </lg></ab>
+                <l>rnal 'byor skal <lb n="99a2"/>ldan rna brgyud can gyis blang ||</l> </lg></seg>
+                
+                </ab>
       <gap reason="omitted"/>
-      <ab><lg><l>cung zad tshig gis don gyi gnad rnams nges gyur pa ||</l> 
+      <ab><seg type="excerpt" xml:id="ex014032025-11-2715-09-47" status="reviewed" part="M" next="ex014032025-11-2715-09-37"><lg><l>cung zad tshig gis don gyi gnad rnams nges gyur pa ||</l> 
                 <l><rs type="work" ana="corpusmd:named_reference" ref="db:4578">'grel pa don chen rtsa ba'i srog gi 'khor lo</rs> 'di ||</l> 
                 <l><rs type="person" ana="corpusmd:named_reference" ref="db:7546">thos pa 'dzin pa'i dge slong bsod nams seng ge</rs> yis ||</l> 
-                <l>dga' bas goms phyir <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma</rs>'i gsung bzhin bkod pa yin ||||</l></lg> </ab>
+                <l>dga' bas goms phyir <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">bla ma</rs>'i gsung bzhin bkod pa yin ||||</l></lg> </seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon (99a3)" unit="section"/>
-               <lb n="99a3"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4587"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i rnam par bshad pa srog gi 'khor lo</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:7546">thos pa'i don yongs su 'dzin pa'i dge slong bsod nams seng ge</rs>s sbyar ba | rdzogs s+hO || dge'o ||||</ab>
+      <ab><seg type="excerpt" xml:id="ex014032025-11-2715-09-37" status="reviewed" ana="corpusmd:colophon" part="F">
+               <milestone n="Colophon (99a3)" unit="section"/>
+               <lb n="99a3"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4587"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba</rs>'i rnam par bshad pa srog gi 'khor lo</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:7546">thos pa'i don yongs su 'dzin pa'i dge slong bsod nams seng ge</rs>s sbyar ba | rdzogs s+hO || dge'o ||||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

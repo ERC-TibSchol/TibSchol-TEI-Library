@@ -109,7 +109,7 @@ Orthography:&#13;
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (197a3)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4501"><rs type="work" ana="corpusmd:named_reference" ref="db3774">tshad ma rnam par nges pa</rs>'i 'grel bshad yi ge dang rigs pa'i gnad la 'jug pa'i shes rab kyi 'od zer</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="id:3831">rigs par smra ba'i dge' slong chos kyi seng ge</rs>s sbyar ba || rdzogs s+h+yo ||</ab>
+      <ab><seg type="excerpt" xml:id="ex80220240828_1" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (197a3)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4501"><rs type="work" ana="corpusmd:named_reference" ref="db3774">tshad ma rnam par nges pa</rs>'i 'grel bshad yi ge dang rigs pa'i gnad la 'jug pa'i shes rab kyi 'od zer</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="id:3831">rigs par smra ba'i dge' slong chos kyi seng ge</rs>s sbyar ba || rdzogs s+h+yo ||</seg> ||||||||</ab>
     </body>
   </text>
 </TEI>

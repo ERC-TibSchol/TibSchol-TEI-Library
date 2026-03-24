@@ -54,12 +54,7 @@
          </publicationStmt>
          <sourceDesc>
             <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">67 x 10.5</dimensions></support></supportDesc></objectDesc><additional n="Item description">The signature is illegible (phyi **).&#13;
-Faded or damaged in several places on fol. 1 to 3.&#13;
-Rare interlinear annotations (e.g., fol. 45b6).&#13;
-No title visible on the cover page.&#13;
-Script: 'bru tsha.&#13;
-Palatalization of m before -i (e.g., myi), but not systematic.</additional></physDesc></sourceDesc>
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description"></additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </principal>
@@ -107,8 +102,9 @@ Palatalization of m before -i (e.g., myi), but not systematic.</additional></phy
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon (47b3)" unit="section"/>
-               <rs type="work" ana="corpusmd:named_reference" ref="db:5460"><rs type="work" ana="corpusmd:named_reference" ref="db:3757">phung po lnga</rs>'i 'grel bshad</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:4122">mkhas pa chen pa chos kyi brtson 'grus</rs> kyis mdzad pa || rdzogs s+ho ||</ab>
+      <ab><seg type="excerpt" xml:id="ex111042026-03-0909-24-31" status="reviewed" ana="corpusmd:colophon"> <milestone n="Colophon (47b3)" unit="section"/>
+               <rs type="work" ana="corpusmd:named_reference" ref="db:5460"><rs type="work" ana="corpusmd:named_reference" ref="db:3757">phung po lnga</rs>'i 'grel bshad</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:4122">mkhas pa chen pa chos kyi brtson 'grus</rs> kyis mdzad pa || rdzogs s+ho ||</seg>
+            </ab>
     </body>
   </text>
 </TEI>

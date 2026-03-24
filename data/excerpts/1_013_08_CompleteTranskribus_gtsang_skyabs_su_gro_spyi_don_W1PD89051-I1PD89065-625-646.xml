@@ -110,32 +110,41 @@ On fols. 3a and 3b, some numerals above portions of the text.</additional></phys
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Cover page (1a)" unit="section"/>
-            <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> ma <lb n="1a3"/> 1025 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4563">skyabs 'gro'i spyi don</rs> <abbr>bzhugs so</abbr> ||</ab>
+      <ab><seg type="shared" xml:id="ex013082025-11-2613-38-17" status="reviewed" part="I" next="ex013082025-11-2613-39-14">
+            <milestone n="Cover page (1a)" unit="section"/>
+            <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> ma <lb n="1a3"/> 1025 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4563">skyabs 'gro'i spyi don</rs> <abbr>bzhugs so</abbr> ||</seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Incipit (1b1-1b2)" unit="section"/>
+      <ab><seg type="shared" xml:id="ex013082025-11-2613-39-14" status="reviewed" part="M" next="ex013082025-11-2613-45-09"><milestone n="Incipit (1b1-1b2)" unit="section"/>
                   <pb n="1b"/><lb n="1b1"/> <lg><l>'jigs me rtag cing thabs kyi mthu mnga' ba  ||</l> <l>'gro ba ngan song srid dang zhi mtha' las ||</l> 
                   <l>skyob pa rin <lb n="1b2"/> chen gsum la phyag 'chal te ||</l> <l>bde legs yon tan rgya mtsho'i <abbr>gzhir</abbr> gyur pa  ||</l> 
                <l>ston pa'i bstan la 'jug pa'i thabs dang po ||</l> 
 <l><lb n="1b3"/> skyabs su 'gro ba'i spyi don bshad par bya ||</l>
                </lg>               
-               </ab>
+               </seg>
+          </ab>
       <gap reason="omitted"/>
-      <ab><abbr>bzhin</abbr> <pb n="2a"/><lb n="2a1"/> nges par bya ba dang | nges pa'i don rjes su sgrub pa'o || </ab>
+      <ab><seg type="shared" xml:id="ex013082025-11-2613-45-09" status="reviewed" part="F">de yang gsum gyi nges par bya ste || skyabs 'gro bya dgos pa nyid dang ¦ dgos pa de'i rang <abbr>bzhin</abbr> <pb n="2a"/><lb n="2a1"/> nges par bya ba dang | nges pa'i don rjes su sgrub pa'o || </seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><mentioned>'o na theg pa chen po bas 'bras <lb n="5b2"/> bu sangs rgyas 'dod pa de gzhan gyi ched du ma yin naM de smon pa'i sems bskyed las <abbr>khyar par</abbr> ci spyod ce na | </mentioned>
+      <ab><seg type="excerpt" xml:id="ex013082025-11-2616-12-29" status="reviewed"><mentioned>'o na theg pa chen po bas 'bras <lb n="5b2"/> bu sangs rgyas 'dod pa de gzhan gyi ched du ma yin naM de smon pa'i sems bskyed las <abbr>khyar par</abbr> ci spyod ce na | </mentioned>
          <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsa ba</rs> na re</note>beMs pa'i ngo bo la khyad med kyang seMs bskyed <note type="gloss">beMs pa ni °° dang</note> cho gas daM bcas pa yin la ¦ 'bras <lb n="5b3"/> bu'i skyabs 'gro rkyang pa la cho gas khas blangs med pa'i phyir dang ¦ 
-         <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3876">chos yes</rs></note><note type="editorial">Tentative identification as Nyang bran pa Chos kyi ye shes (ID:3876), gTsang nag pa's teacher</note> rgyu'i <note type="gloss">skyabs 'gro 'bras bu rkyang pa med kyi</note> dang tshogs na khyad yod pa'i phyir dang | <note type="gloss">rnaM pa 1 tu na theg chen pas</note> 'bras bu'i thob byar <abbr>dkon mchog</abbr> gsum char 'dod pa'i yang phyir ste ¦</ab>
+         <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3876">chos yes</rs></note><note type="editorial">Tentative identification as Nyang bran pa Chos kyi ye shes (ID:3876), gTsang nag pa's teacher</note> rgyu'i <note type="gloss">skyabs 'gro 'bras bu rkyang pa med kyi</note> dang tshogs na khyad yod pa'i phyir dang | <note type="gloss">rnaM pa 1 tu na theg chen pas</note> 'bras bu'i thob byar <abbr>dkon mchog</abbr> gsum char 'dod pa'i yang phyir ste ¦</seg> 
+         ji skad </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Conclusive verses (11a1-11a3)" unit="section"/>
+      <ab><seg type="shared" xml:id="ex013082025-11-2613-49-51" status="reviewed" part="I" next="ex13082025-11-2613-46-51">
+         <milestone n="Conclusive verses (11a1-11a3)" unit="section"/>
            <lg> <l>skye bo lam tshul kun la zhugs pas kyang ||</l> 
 <l>bslab pa kun gzhi skyabs don mi shes pas | </l>
 <l><lb n="11a2"/> brtso bas don tshang <rs type="work" ana="corpusmd:unnamed_reference" ref="db:4565">bsdus pa'i don</rs> 'di bkod ||</l>
 <l>bsod nams 'di yi yun ring sdug bsngal ba'i ||</l> 
 <l>'gro rnams gsum la <abbr>skyabs su</abbr> legs song nas || </l>
-<l>srid pa'i sdug bsngal kun las thar <lb n="11a3"/> gyur cig |</l></lg></ab>
+<l>srid pa'i sdug bsngal kun las thar <lb n="11a3"/> gyur cig |</l></lg></seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon (11a3)" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4565">skyabs su 'gro ba'i spyi don</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">mang du thos pa'i dge slong brtson 'grus seng ge</rs>s bkod pa | i thi ||||</ab>
+      <ab><seg type="excerpt" xml:id="ex13082025-11-2613-46-51" status="reviewed" ana="corpusmd:colophon" part="F"> 
+                  <milestone n="Colophon (11a3)" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4565">skyabs su 'gro ba'i spyi don</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">mang du thos pa'i dge slong brtson 'grus seng ge</rs>s bkod pa | i thi ||||</seg>
+          </ab>
     </body>
   </text>
 </TEI>

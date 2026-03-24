@@ -101,16 +101,22 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><lg>
+      <ab><seg type="excerpt" xml:id="ex115-2023-06-2712-54" status="finalized">
+            <lg>
          <l>bdag 'dzin 'dul ba'i gdams ngag zhus ||</l>
          <l>da ni shi yang mi 'gyong ngo ||</l>
          </lg>
-        zhes <rs type="person" ana="corpusmd:named_reference" ref="db:3874">rnal 'byor dbang phyug 'chad kha ba</rs>s gsungs so ||</ab>
+        zhes <rs type="person" ana="corpusmd:named_reference" ref="db:3874">rnal 'byor dbang phyug 'chad kha ba</rs>s gsungs so ||</seg>||@|</ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5635">smon lam thams cad kyi don bsdus pa</rs> 'di |<rs type="person" ref="db:5636" ana="corpusmd:named_reference">shar tsong kha pa</rs>s mdzad pa'o ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex1152023-06-271-25" status="finalized"><rs type="work" ana="corpusmd:named_reference" ref="db:5635">smon lam thams cad kyi don bsdus pa</rs> 'di |<rs type="person" ref="db:5636" ana="corpusmd:named_reference">shar tsong kha pa</rs>s mdzad pa'o ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Carver's colophon (1b6–1b7)"/>
-         <rs type="person" ref="db:4593" ana="corpusmd:unnamed_reference">brkos mkhan mkhas pa <rs type="place" ana="corpusmd:named_reference" ref="db:5638">chu shul</rs> gyi || gnas pa dpal 'phel</rs> zhes <lb n="1b7"/> bya bas || dad pa'i sems kyis kun blangs te || spar du brkos nas phul pa yi || dge bas 'gro ba ma lus pa || byang chub sems gnyis stobs rgyas nas || kun mkhyen rgyal ba'i sku thob ste || 'gro kun srid mtsho las sgrol shog ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex11052023-09-15-111356" status="finalized" ana="corpusmd:colophon"> 
+         <milestone unit="section" n="Carver's colophon (1b6–1b7)"/>
+         <rs type="person" ref="db:4593" ana="corpusmd:unnamed_reference">brkos mkhan mkhas pa <rs type="place" ana="corpusmd:named_reference" ref="db:5638">chu shul</rs> gyi || gnas pa dpal 'phel</rs> zhes <lb n="1b7"/> bya bas || dad pa'i sems kyis kun blangs te || spar du brkos nas phul pa yi || dge bas 'gro ba ma lus pa || byang chub sems gnyis stobs rgyas nas || kun mkhyen rgyal ba'i sku thob ste || 'gro kun srid mtsho las sgrol shog ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

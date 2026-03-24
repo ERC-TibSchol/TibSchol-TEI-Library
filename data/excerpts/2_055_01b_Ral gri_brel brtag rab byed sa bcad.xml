@@ -103,10 +103,13 @@ Proofread.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><note type="editorial"> This text follows that of ID: 5901 on the same manuscript, starting on f. 4b2.</note> <rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel pa brtag pa</rs> la don brgyad ste ¦ </ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex5501b2023-01-2321-59-19" status="finalized"> <note type="editorial"> This text follows that of ID: 5901 on the same manuscript, starting on f. 4b2.</note> <rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel pa brtag pa</rs> la don brgyad ste ¦ </seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (4b5)"/>
-                            <rs type="work" ref="db:4947" ana="corpusmd:named_reference"><rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel <choice><orig>‹pa›</orig><reg>pa</reg></choice> brtag pa</rs>'i don <abbr>legs par</abbr> bsdus pa</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcoM ldan ral gri</rs>s bkod pa <abbr>rdzogs</abbr> s+ho |</ab>
+      <ab><seg type="excerpt" xml:id="ex5501b2023-01-2322-00-25" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (4b5)"/>
+                            <rs type="work" ref="db:4947" ana="corpusmd:named_reference"><rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel <choice><orig>‹pa›</orig><reg>pa</reg></choice> brtag pa</rs>'i don <abbr>legs par</abbr> bsdus pa</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcoM ldan ral gri</rs>s bkod pa <abbr>rdzogs</abbr> s+ho |</seg>
+         </ab>
     </body>
   </text>
 </TEI>

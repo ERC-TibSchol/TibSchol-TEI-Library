@@ -109,7 +109,7 @@ Lemmas of the base text as sublinear notes.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="[5]"/>
+      <ab><seg type="shared" xml:id="ex007022025-11-2816-21-53" status="reviewed" part="M" next="ex7022024-12-1718-47-32"> <milestone unit="section" n="[5]"/>
           'bras bu mngon par grub pa la lnga ste | 
           [51] thabs dang | 
           [52] gzhan don du bsngo ba dang | 
@@ -143,10 +143,14 @@ Lemmas of the base text as sublinear notes.</additional></physDesc></sourceDesc>
           bsaM pa dang | spyor ba dang | 'byung rkyen tshang ba dang | 'gal rkyen myed pa bzhis [521.321.2] yang dag pa'i laM la 'jug pa dang 
            <lb n="7a4"/> 'tshe ba yun ring pa dang | snod gyi 'jig rten dag pa dang | bcud rnam par dag pa dang | dge ba yod pa dang | 'byor pa'i * byed phun suM 'tshogs pa dang | gnod pa'i zhi ba drug gis [521.321.3]'byor ba bde bar 'byor pa'o |: | 
          <milestone unit="section" n="[522]"/>
-          'jig rten las 'das pa'i don du bsngo ba la gsum ste | byang chub sems dpa' dang | sangs rgyas dang | nyan thos dang rang rgyal ba'i don du bsngo ba'o ||||</ab>
+          'jig rten las 'das pa'i don du bsngo ba la gsum ste | byang chub sems dpa' dang | sangs rgyas dang | nyan thos dang rang rgyal ba'i don du bsngo ba'o ||||</seg>
+
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (7a4–7a5)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4488"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug <lb n="7a5"/> pa</rs>'i don bsdus pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge slong chos kyi seng ge</rs>s nye bar sbyar pa rdzogs s+h+yo ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex7022024-12-1718-47-32" ana="corpusmd:colophon" status="finalized" part="F"><milestone unit="section" n="Colophon (7a4–7a5)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4488"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug <lb n="7a5"/> pa</rs>'i don bsdus pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge slong chos kyi seng ge</rs>s nye bar sbyar pa rdzogs s+h+yo ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

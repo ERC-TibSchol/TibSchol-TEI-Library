@@ -118,11 +118,15 @@ The glosses are only found in some sections.</additional></physDesc></sourceDesc
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (201b5)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4649"><rs type="work" ana="corpusmd:named_reference" ref="db:3742"><abbr>byang chub</abbr> <abbr>sems dpa'</abbr> yi bslabs pa kun las btus pa</rs>'i 'grel bshad</rs> ces bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3864">shag kya'i dge slong byang chub skyabs</rs> kyis sbyar ba'o || × || rdzogs s+ho ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex025022025-10-1014-58-04" status="reviewed" ana="corpusmd:colophon" part="M" next="ex025022025-10-1014-58-05"><milestone unit="section" n="Colophon (201b5)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4649"><rs type="work" ana="corpusmd:named_reference" ref="db:3742"><abbr>byang chub</abbr> <abbr>sems dpa'</abbr> yi bslabs pa kun las btus pa</rs>'i 'grel bshad</rs> ces bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:3864">shag kya'i dge slong byang chub skyabs</rs> kyis sbyar ba'o || × || rdzogs s+ho ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon Annotation: scribe (201b5)"/>
-         ces pa <rs type="person" ana="corpusmd:named_reference">sa 'byed pa don grub</rs> kyis ming can gyi bris <abbr>lags so</abbr> | </ab>
+      <ab><seg type="excerpt" xml:id="ex025022025-10-1014-58-05" status="reviewed" ana="corpusmd:post_colophon"><milestone unit="section" n="Post-colophon Annotation: scribe (201b5)"/>
+         ces pa <rs type="person" ana="corpusmd:named_reference">sa 'byed pa don grub</rs> kyis ming can gyi bris <abbr>lags so</abbr> | </seg>
+            
+         </ab>
     </body>
   </text>
 </TEI>

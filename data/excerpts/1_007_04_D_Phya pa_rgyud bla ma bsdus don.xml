@@ -112,10 +112,15 @@ Seemingly unrelated note (only partly legible) on the cover page and note "sgron
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs> la don bzhi ste |
-          <lg><l>[1] spyi'i don lus rnam par gzhag pa dang |</l> <l>[2] 'bras bu dkon mchog gi don dang |</l> <l>[3] de sgrub par byed pa'i rigs kyi don dang |</l> <l>[4] bstan bcos yongs su rdzogs pa'i bya ba'o ||</l></lg></ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex70426-04-202313.33" status="finalized">
+         <rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs> la don bzhi ste |
+          <lg><l>[1] spyi'i don lus rnam par gzhag pa dang |</l> <l>[2] 'bras bu dkon mchog gi don dang |</l> <l>[3] de sgrub par byed pa'i rigs kyi don dang |</l> <l>[4] bstan bcos yongs su rdzogs pa'i bya ba'o ||</l></lg></seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4490"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs>'i bsdus pa'i don</rs> <rs type="person" ref="db:3831" ana="corpusmd:named_reference">dge slong chos kyi seng ge</rs>s nye bar sbyar ba'o || || rdzogs s+h+yo || || || || <note type="translation">Topical oultine of the Mahāyānottaratantra (Ratnagotravibhāga), composed by the monk Chos kyi seng ge. It is completed.</note></ab>
+      <ab><seg type="excerpt" xml:id="ex70426-04-202313.40" status="finalized" ana="corpusmd:colophon">
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4490"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma</rs>'i bsdus pa'i don</rs> <rs type="person" ref="db:3831" ana="corpusmd:named_reference">dge slong chos kyi seng ge</rs>s nye bar sbyar ba'o || || rdzogs s+h+yo || || || || <note type="translation">Topical oultine of the Mahāyānottaratantra (Ratnagotravibhāga), composed by the monk Chos kyi seng ge. It is completed.</note></seg>
+      </ab>
     </body>
   </text>
 </TEI>

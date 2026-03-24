@@ -101,6 +101,17 @@ Missing folios:  2-4 and 36-38, and image of 39b. These are noted as missing in 
 			</profileDesc>
       </teiHeader>
   <text>
-    <body/>
+    <body>
+      <gap reason="omitted"/>
+      <ab><seg type="excerpt" xml:id="exX0232026-03-2015-33-20" status="reviewed">dang po ni gzhan lugs dgod pa dang | de dgag pa'o || 
+               dang po la gnyis te | <rs type="person" ana="corpusmd:named_reference" ref="db:3780">slob dpon chos
+               <lb n="1b7"/> mchog</rs> gi lugs rnam par gzhag pa dang | <note type="gloss">bdag cag gi</note> <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsha ba</rs>'i lugs rnam par gzhag pa'o || </seg>
+               dang po la gnyis ste rang lugs </ab>
+      <gap reason="omitted"/>
+      <ab><seg type="excerpt" xml:id="exX0232026-03-2015-33-21" status="reviewed"><note type="editorial"><rs type="person" ana="corpusmd:named_reference" ref="db:3809">jo btsun</rs> gyis lan 'debs pa</note> ma yin  te 3 grang ba dang bkres pa bsal nas 
+                  <lb n="5a3&gt;"/> °°°°° dgos pa'i dgos pa ma yin gyi brjod bya rtogs pa las 'di dang phyi ma'i gnod pa bsal nas mngon par mtho ba dang nges par legs pa thob pa ni dgos pa'i dgos pa yin la | des na ba lang rdzi la sgra'i dgos pa log pa bzhin du dgos pa'i dgos pa'ang log pas dgos pa'i dgos par ma grub pa'i skyon myed do ||</seg>
+
+                  </ab>
+    </body>
   </text>
 </TEI>

@@ -102,11 +102,13 @@ Lines per folio: 9; 10 on fol. 45b, 11 on fol. 46a.</additional></physDesc></sou
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3831">rigs <abbr>pa'i</abbr> dbang phyug chos kyi <abbr>seng ge</abbr></rs>s ¦ ri bong <abbr>can gyi</abbr> don spyi dang ¦ zla <abbr>ba'i</abbr> sgras brjod rung gi <abbr>tshogs</abbr> pa de ¦ ri bong can gyi don spyi zla <abbr>ba'i</abbr> sgras brjod rung gi <abbr>tshogs</abbr> pa 1du <abbr>rtogs</abbr> pa'i <abbr>rjes dpag</abbr> gi snang yul dang ¦ 'jug yul 2 ka yin <abbr>zhes gsung</abbr> ¦  </ab>
+      <ab><seg type="excerpt" xml:id="ex046022025-05-2811-35-36" status="finalized"> <rs type="person" ana="corpusmd:named_reference" ref="db:3831">rigs <abbr>pa'i</abbr> dbang phyug chos kyi <abbr>seng ge</abbr></rs>s ¦ ri bong <abbr>can gyi</abbr> don spyi dang ¦ zla <abbr>ba'i</abbr> sgras brjod rung gi <abbr>tshogs</abbr> pa de ¦ ri bong can gyi don spyi zla <abbr>ba'i</abbr> sgras brjod rung gi <abbr>tshogs</abbr> pa 1du <abbr>rtogs</abbr> pa'i <abbr>rjes dpag</abbr> gi snang yul dang ¦ 'jug yul 2 ka yin <abbr>zhes gsung</abbr> ¦  </seg>
+            </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon 46a10-11" unit="section"/>                
+      <ab><seg type="excerpt" xml:id="ex46022023-09-19-102726" status="finalized" ana="corpusmd:colophon"><milestone n="Colophon 46a10-11" unit="section"/>                
            <rs type="work" ana="corpusmd:named_reference" ref="db:4781">rigs pa dang mi rigs pa'i de kho na nyid <abbr>rnam par</abbr> 'byed pa <abbr>legs</abbr> par bshad pa'i gter mdzod ¦ blo gsal gyi yid la dga' ba  gter ba</rs> zhes bya ba 'di ni ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs ri</rs>'i <lb n="46a11"/> khrod kyi <abbr>rigs</abbr> pa smra ba rnaMs kyi gtsug rgyan daM par gyur pa ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5256">rigs pa smra ba'i btsun pa sangs rgyas bzang po</rs>s ¦ sbrang rtsi 'dzin pa'i dkar <abbr>phyogs</abbr> la ¦ mkhas grub <note type="gloss">°°i°i°</note> du ma nye bar rten pa'i dben gnas ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5667">broM pa rgyang gi gtsug lag bkhang<!--sic--> <abbr>chen por</abbr></rs> nye bar sbyar ba'o ||
-         <note type="translation">.... good sayings that distinguish the essence/reality of what is correct and incorrect” was composed in the the great monastery/temple (/assembly hall) of Brom pa rgyang <!--(s)Grom pa rgyang in gTsang?-->, which is a hermitage where many accomplished scholars reside, in the first part of the month of “the bee” (?), by the venerable logician Sangs rgyas bzang po, who is the excellent crown jewel of the logicians of the range of the snowy mountains.</note></ab>
+         <note type="translation">.... good sayings that distinguish the essence/reality of what is correct and incorrect” was composed in the the great monastery/temple (/assembly hall) of Brom pa rgyang <!--(s)Grom pa rgyang in gTsang?-->, which is a hermitage where many accomplished scholars reside, in the first part of the month of “the bee” (?), by the venerable logician Sangs rgyas bzang po, who is the excellent crown jewel of the logicians of the range of the snowy mountains.</note></seg>
+         </ab>
     </body>
   </text>
 </TEI>

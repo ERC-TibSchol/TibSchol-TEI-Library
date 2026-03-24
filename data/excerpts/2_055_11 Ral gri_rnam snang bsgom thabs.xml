@@ -100,9 +100,12 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon"/>
+      <ab><seg type="excerpt" xml:id="ex55112024-09-3016-41-55" status="finalized" ana="corpusmd:colophon" part="F">
+      <milestone unit="section" n="Colophon"/>
         <rs type="work" ana="corpusmd:named_reference" ref="db:4967">rnam par snang mdzad mngon par byang chub pa'i sku 3 gyi dkyil <lb n="1b7"/> 'khor</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s bkod pa'o || 
-        <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">de nyid</rs> kyi phyag dpe' la<!--read: las--> <rs type="person" ana="corpusmd:named_reference" ref="db:4065">ze'u grags shes</rs> bris || dge'o ||</ab>
+        <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">de nyid</rs> kyi phyag dpe' la<!--read: las--> <rs type="person" ana="corpusmd:named_reference" ref="db:4065">ze'u grags shes</rs> bris || dge'o ||</seg>
+                 
+      </ab>
     </body>
   </text>
 </TEI>

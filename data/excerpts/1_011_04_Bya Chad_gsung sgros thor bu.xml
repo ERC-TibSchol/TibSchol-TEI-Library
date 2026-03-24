@@ -100,11 +100,13 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/>
-       <pb n="1a"/><lb n="1a"/>@@ || <rs type="person" ana="corpusmd:named_reference" ref="db:3874">'chad kha ba</rs>'i <rs type="work" ana="corpusmd:named_reference" ref="db:4526">gsung sgros thor bu ba</rs> <abbr>bzhugs s+ho</abbr> ||</ab>
+      <ab><seg type="shared" xml:id="ex011042025-11-2614-57-47" status="reviewed"> <milestone unit="section" n="Cover page (1a)"/>
+       <pb n="1a"/><lb n="1a"/>@@ || <rs type="person" ana="corpusmd:named_reference" ref="db:3874">'chad kha ba</rs>'i <rs type="work" ana="corpusmd:named_reference" ref="db:4526">gsung sgros thor bu ba</rs> <abbr>bzhugs s+ho</abbr> ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (9a6)"/>
-        <rs type="person" ana="corpusmd:named_reference" ref="db:3874">rnal 'byor gyi dbang phyug <abbr>rdzogs</abbr><note type="editorial">Reading uncertain</note> ston mchad kha ba <abbr>chen po</abbr> <abbr>ye shes</abbr> <abbr>rdo rje</abbr>'i</rs> <rs type="work" ana="corpusmd:named_reference" ref="db:4526">gsung gros thor phu ba</rs> lags so || dge'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex011042025-11-2614-54-24" ana="corpusmd:colophon" status="reviewed"><milestone unit="section" n="Colophon (9a6)"/>
+        <rs type="person" ana="corpusmd:named_reference" ref="db:3874">rnal 'byor gyi dbang phyug <abbr>rdzogs</abbr><note type="editorial">Reading uncertain</note> ston mchad kha ba <abbr>chen po</abbr> <abbr>ye shes</abbr> <abbr>rdo rje</abbr>'i</rs> <rs type="work" ana="corpusmd:named_reference" ref="db:4526">gsung gros thor phu ba</rs> lags so || dge'o ||</seg>
+   </ab>
     </body>
   </text>
 </TEI>

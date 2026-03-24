@@ -101,7 +101,7 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon"/><rs type="person" ana="corpusmd:named_reference" ref="db:3933">shag kya'i dge slong byang chub seng ge</rs>s <rs type="work" ana="corpusmd:named_reference" ref="db:4726">dge slong gyi kun tu spyod pa'i cho ga bsdus pa</rs> || rdzogs s+ho ||</ab>
+      <ab><seg type="excerpt" xml:id="ex36052024-10-0710-23-05" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon"/><rs type="person" ana="corpusmd:named_reference" ref="db:3933">shag kya'i dge slong byang chub seng ge</rs>s <rs type="work" ana="corpusmd:named_reference" ref="db:4726">dge slong gyi kun tu spyod pa'i cho ga bsdus pa</rs> || rdzogs s+ho ||</seg> @@@ || ||thams cad mkhyen pa la phyag 'tshal lo|| gang gi gsung gi 'od zer gyis|| </ab>
     </body>
   </text>
 </TEI>

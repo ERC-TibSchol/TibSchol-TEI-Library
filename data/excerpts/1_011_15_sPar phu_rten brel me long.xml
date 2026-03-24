@@ -101,12 +101,12 @@ Title in dbu can on the cover page.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (26a7–26b2)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4544">rten cing 'brel par 'byung <abbr>ba'i</abbr> rab tu byed pa | 
+      <ab><seg type="excerpt" xml:id="ex11152024-09-0412-06-12" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (26a7–26b2)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4544">rten cing 'brel par 'byung <abbr>ba'i</abbr> rab tu byed pa | 
             'khor 'das kyi chos <abbr>thams cad</abbr> blta' ba'i me long</rs> zhes bya ba 'di ni | 
             lung rigs <lb n="26a8"/> kyi gzhung 'grel mang du thos shing legs par sbyangs pas tshul <abbr>bzhin</abbr> du rtogs shing | 
             <rs type="person" ana="corpusmd:named_reference" ref="db:3854">rigs par smra ba'i btsun pa blo gros seng ghe</rs>s | 
             <rs type="person" ana="corpusmd:named_reference" ref="db:6812">dge ba'i bshes gnyen bsod <pb n="16b"/><lb n="26b1"/> nams 'bum</rs> gyi don du | 
-            nye bar sbyar pas 'di re shig yongs su rdzogs s+ho || <note type="gloss"><abbr>zhus so</abbr></note></ab>
+            nye bar sbyar pas 'di re shig yongs su rdzogs s+ho || <note type="gloss"><abbr>zhus so</abbr></note></seg> </ab>
     </body>
   </text>
 </TEI>

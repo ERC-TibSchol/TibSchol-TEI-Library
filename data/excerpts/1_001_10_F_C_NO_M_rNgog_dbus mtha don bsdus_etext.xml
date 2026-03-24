@@ -107,9 +107,13 @@ A few interlinear corrections and some glosses (e.g., fol. 4b9), in two differen
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4439"><rs type="work" ana="corpusmd:named_reference" ref="db:5585"><choice><corr>dbus</corr><sic>dbu</sic></choice> mtha</rs>'i don bsdu</rs> <abbr>bzhugs s+ho</abbr> ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex1102023-26-04-149" status="finalized"><milestone unit="section" n="Cover page (1a)"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4439"><rs type="work" ana="corpusmd:named_reference" ref="db:5585"><choice><corr>dbus</corr><sic>dbu</sic></choice> mtha</rs>'i don bsdu</rs> <abbr>bzhugs s+ho</abbr> ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (13a7)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4439"><rs type="work" ana="corpusmd:named_reference" ref="db:5585">dbus dang mtha' <abbr>rnam par</abbr> 'byed <abbr>pa</abbr></rs><abbr>'i</abbr> don bsdus pa</rs> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">dge slong blo ldan</rs> kyis sbyar ba'o ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex1102023-02-06-15-50-11" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (13a7)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4439"><rs type="work" ana="corpusmd:named_reference" ref="db:5585">dbus dang mtha' <abbr>rnam par</abbr> 'byed <abbr>pa</abbr></rs><abbr>'i</abbr> don bsdus pa</rs> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">dge slong blo ldan</rs> kyis sbyar ba'o ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

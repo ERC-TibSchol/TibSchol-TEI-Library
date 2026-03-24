@@ -102,7 +102,9 @@ Double numbering of folios, from 1 to 137 and from 229 to 366 (hundreds written 
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5497">dam pa'i chos <lb n="137a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:3761">mngon pa mdzod</rs> kyi sbyor ba'i TI ka mkhas pa'i yid 'phrog</rs> ces bya ba 'di ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4129">rin chen bsod nams 'phel</rs> zhes bya bas chu mo glang gi zla ba dang po'i tshes brgyad<note type="editorial">Date: In the year of the female water ox, on the eighth day of the first Tibetan month, i.e., 1433</note> la rdzogs par grub pa 'dis bstan <lb n="137a5"/> pa dang sems can la phan pa rgya chen po 'grub par gyur cig ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex119022024-11-2217-48-49" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:5497">dam pa'i chos <lb n="137a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:3761">mngon pa mdzod</rs> kyi sbyor ba'i TI ka mkhas pa'i yid 'phrog</rs> ces bya ba 'di ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4129">rin chen bsod nams 'phel</rs> zhes bya bas chu mo glang gi zla ba dang po'i tshes brgyad<note type="editorial">Date: In the year of the female water ox, on the eighth day of the first Tibetan month, i.e., 1433</note> la rdzogs par grub pa 'dis bstan <lb n="137a5"/> pa dang sems can la phan pa rgya chen po 'grub par gyur cig ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

@@ -105,7 +105,9 @@ Lemmas of the base text as sublinear notes.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Body of the text 7a6–7b9"/><rs type="work" ref="db:6554"><rs type="work" ana="corpusmd:named_reference" ref="db:3742">bslab pa kun las btus pa</rs>'i don bsdus pa</rs> ni rnaM pa gsuM te | rtsoM pa dang 'brel pa'i don dang | skabs kyi don dang | mthar phyin pa'i bya ba'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex703_12352023-06-06" status="finalized" part="M" next="ex007032025-10-1411-25-32"><milestone unit="section" n="Body of the text 7a6–7b9"/><rs type="work" ref="db:6554"><rs type="work" ana="corpusmd:named_reference" ref="db:3742">bslab pa kun las btus pa</rs>'i don bsdus pa</rs> ni rnaM pa gsuM te | rtsoM pa dang 'brel pa'i don dang | skabs kyi don dang | mthar phyin pa'i bya ba'o ||</seg>
+
+         </ab>
     </body>
   </text>
 </TEI>

@@ -102,8 +102,10 @@ Contains annotations that were copied along with the main text as well as additi
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon annotations (91a8)"/>
-        1 zhus ||</ab>
+      <ab>
+        <seg type="shared" xml:id="ex022012025-12-0407-52-43" status="reviewed"><milestone unit="section" n="Post-colophon annotations (91a8)"/>
+        1 zhus ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

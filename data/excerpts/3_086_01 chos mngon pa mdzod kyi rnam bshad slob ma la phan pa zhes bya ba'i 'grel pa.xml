@@ -104,11 +104,13 @@ On the cover page, the number 342 is written above the title to the left of the 
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (121b1-4) (p. 245)"/>
+      <ab><seg type="excerpt" xml:id="ex8601_2023-10-044" status="finalized" ana="corpusmd:colophon">
+         <milestone unit="section" n="Colophon (121b1-121b4)"/>
         <rs type="work" ana="corpusmd:named_reference" ref="db:5281"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa'i mdzod</rs> kyi <abbr>rnaM par</abbr> bshad pa slob ma la phan pa</rs> zhes bya ba 'di | mdo'i  dang <choice><reg>rgyud</reg><orig>rgyu</orig></choice> sde mtha' dag la <lb n="121b2"/> dbang 'byor pas daM pa'i chos 'chad pa dang rtsod pa dang rtsoM pa'i tshul la spobs pa dge' btsan ¦ mi <abbr>'phrogs</abbr> pa'i mkhyen rab dang <abbr>thugs rje</abbr> rmad du byung ba mnga' ba <rs type="person" ana="corpusmd:named_reference" ref="db:4131"><abbr>ye shes</abbr> <abbr>rdo rje</abbr> dpal bzang po</rs> zhes bya ba'i bka' drin las lung dang rigs pa'i de kho na nyid khong du chud pa mang du thos pa <rs type="person" ana="corpusmd:named_reference" ref="db:4130">shakya'i <abbr>dge slong</abbr> <lb n="121b3"/> <abbr>blo gros</abbr> grags pa</rs> zhes bgyi bas ||
         <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dge' ba'i <abbr>bshes gnyen</abbr> mang po</rs>s nan <abbr>chen pos</abbr> <note type="editorial">This could also be an abbreviation of "chen po nas" </note> yang dang yang du bskul ba'i ngor du ||
-        <hi rendition="#Time">shing pho spre'u 'i chu stod gyi zla ba'i tshe 1<anchor xml:id="a3"/></hi> la || <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhas pa'i skye bo</rs> du ma'i bsti gnas dam pa <rs type="place" ana="corpusmd:named_reference" ref="db:5950">ra ti dga' ldan gyi chos grags  chen po</rs>r<anchor xml:id="a4"/> nye bar sbyar ba 'di re shig <lb n="121b4"/> rdzogs s+ho || 
-        'dis 'khor ba <abbr>sdug bsngal</abbr> gyi rgya mtsho chen po myur du skeMs par gyur 1 || dge'o || ||</ab>
+        <hi rendition="#Time">shing pho spre'u 'i chu stod gyi zla ba'i tshe 1<anchor xml:id="a3"/></hi> la || <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhas pa'i skye bo</rs> du ma'i bsti gnas dam pa <rs type="place" ana="corpusmd:named_reference" ref="db:5950">ra ti dga' ldan gyi chos grags  chen po</rs>r nye bar sbyar ba 'di re shig <lb n="121b4"/> rdzogs s+ho || 
+        'dis 'khor ba <abbr>sdug bsngal</abbr> gyi rgya mtsho chen po myur du skeMs par gyur 1 || dge'o || ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

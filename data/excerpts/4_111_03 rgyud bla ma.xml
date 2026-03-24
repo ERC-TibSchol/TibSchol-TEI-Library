@@ -101,9 +101,11 @@ Volume letter: nga.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon (26a2-26a3)" unit="section"/>
+      <ab><seg type="excerpt" xml:id="ex111032025-02-2416-26-57" status="finalized" ana="corpusmd:colophon">
+         <milestone n="Colophon (26a2-26a3)" unit="section"/>
          <rs type="work" ana="corpusmd:named_reference" ref="db:5457">skal ldan gdul bya'i gling gsal stong <abbr>thig ge</abbr>'i rgya mtsho rang 'brel med du gnas pa gsal bar byed pa'i tshig grag stong <note type="gloss">zur</note> 'jug nyi zla'i thig le</rs> zhes bya ba | <rs type="place" ana="corpusmd:named_reference" ref="db:4411">dpal ldan snar thang bstan pa rin po che'i nam mkha</rs>r bkod pa'o ||
-        <lb n="26a3"/> 'dis skal <choice><reg>pa</reg><orig>‹pa›</orig></choice> can du ma'i don byed par gyur cig || || oM oM mag+hala ku ru oM oM ||</ab>
+        <lb n="26a3"/> 'dis skal <choice><reg>pa</reg><orig>‹pa›</orig></choice> can du ma'i don byed par gyur cig || || oM oM mag+hala ku ru oM oM ||</seg> 
+        </ab>
     </body>
   </text>
 </TEI>

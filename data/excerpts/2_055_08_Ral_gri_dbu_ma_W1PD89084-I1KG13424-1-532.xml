@@ -102,8 +102,10 @@ Lines per folio: 5; 4 on fol. 1b.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4960"><rs type="work" ana="corpusmd:named_reference" ref="db:5884">ye shes snying po kun las bsdus pa</rs> rgyan gyi me tog</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">shAkya'i dge slong bcom ldan
-				<lb n="16a5"/>ral gri</rs>s sbyar ba <abbr>rdzogs so</abbr> || <note type="gloss">2 zhus pa</note> <note type="gloss">yang zhus pa</note></ab>
+      <ab><seg type="excerpt" xml:id="ex055082025-12-1513-11-39" status="reviewed" ana="corpusmd:colophon">
+            <rs type="work" ana="corpusmd:named_reference" ref="db:4960"><rs type="work" ana="corpusmd:named_reference" ref="db:5884">ye shes snying po kun las bsdus pa</rs> rgyan gyi me tog</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">shAkya'i dge slong bcom ldan
+				<lb n="16a5"/>ral gri</rs>s sbyar ba <abbr>rdzogs so</abbr> || <note type="gloss">2 zhus pa</note> <note type="gloss">yang zhus pa</note></seg>
+			</ab>
     </body>
   </text>
 </TEI>

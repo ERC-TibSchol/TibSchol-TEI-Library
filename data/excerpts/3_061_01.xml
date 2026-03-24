@@ -100,8 +100,9 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon annotation (ku_14b2 p. 34)"/>
-         <rs type="person" ana="corpusmd:named_reference" ref="db:4140">shAkya'i btsun pa rtsed pa bsod nams blo gros</rs> kyi dpe'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex61012023-09-09-11.44" status="reviewed" ana="corpusmd:colophon">  <milestone unit="section" n="Post-colophon annotation (ku_14b2 p. 34)"/>
+         <rs type="person" ana="corpusmd:named_reference" ref="db:4140">shAkya'i btsun pa rtsed pa bsod nams blo gros</rs> kyi dpe'o ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

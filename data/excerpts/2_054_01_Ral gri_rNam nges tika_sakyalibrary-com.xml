@@ -101,9 +101,12 @@ Proofread (zhes dag dge'o)</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4942"><rs type="work" ana="corpusmd:named_reference" ref="db:3774">tshad ma rnam par nges pa</rs>'i 'grel bshad rgyan gyi me tog</rs> ces bya ba <rs type="place" ana="corpusmd:named_reference" ref="db:7347">shar phyogs dzA ga ta la</rs>'i <rs type="person" ana="corpusmd:named_reference" ref="db:6032">paN Di ta chen po dA na shi la</rs>'i man ngag brgyud pa la brten te dben par gnas shing sangs rgyas kyi bstan <lb edRef="inst:4941" n="158a6"/> pa 'byed pa la brtson pa zab pa dang rgya che ba gang yin pa de la mos pa thob pa shakya'i bstan pa la mang du thos pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4006">btsun pa rigs pa'i ral gri</rs>s sbyar ba 'di legs par rdzogs s+ho || ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex54012024-09-1216-56-432" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:4942"><rs type="work" ana="corpusmd:named_reference" ref="db:3774">tshad ma rnam par nges pa</rs>'i 'grel bshad rgyan gyi me tog</rs> ces bya ba <rs type="place" ana="corpusmd:named_reference" ref="db:7347">shar phyogs dzA ga ta la</rs>'i <rs type="person" ana="corpusmd:named_reference" ref="db:6032">paN Di ta chen po dA na shi la</rs>'i man ngag brgyud pa la brten te dben par gnas shing sangs rgyas kyi bstan <lb edRef="inst:4941" n="158a6"/> pa 'byed pa la brtson pa zab pa dang rgya che ba gang yin pa de la mos pa thob pa shakya'i bstan pa la mang du thos pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4006">btsun pa rigs pa'i ral gri</rs>s sbyar ba 'di legs par rdzogs s+ho || ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><lb edRef="inst:5108" n="152a9"/> <rs type="person" ana="corpusmd:named_reference" ref="db:5797">shakya'i btsun pa dbang bkras</rs> kyis bris pa e ma to ||</ab>
+      <ab><seg type="excerpt" xml:id="ex54012024-09-1216-56-43" status="finalized" ana="corpusmd:colophon"><lb edRef="inst:5108" n="152a9"/> <rs type="person" ana="corpusmd:named_reference" ref="db:5797">shakya'i btsun pa dbang bkras</rs> kyis bris pa e ma to ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

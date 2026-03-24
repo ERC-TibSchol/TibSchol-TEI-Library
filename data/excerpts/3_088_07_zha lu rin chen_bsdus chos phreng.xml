@@ -104,8 +104,9 @@ Only the vowels are legible on the reproduction for the first verse on fol. 1b1 
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (10b5-6)"/>
-            bsdus <lb n="10b6"/> <rs type="work" ana="corpusmd:named_reference" ref="d:5306">chos nor bu'i phreng ba</rs> ces bya ba 'di ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5959">dge ba'i <abbr>bshes gnyen</abbr> daM pa <abbr>dpal ldan</abbr> chos 'byor</rs> gyis bskul ba'i ngor <choice><reg>rin chen bsod nams 'phel</reg><orig>°ie °o° °M °e°</orig></choice> gyis ¦ sa pho spre'u'i lo ¦ nag pa'i zla ba'i gnaM gang la ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5719">'de re lung gi brag phug</rs> du sbyar ba rdzogs s+ho | <lb n="10b7"/> 'dis kyang gzhan la phan <abbr>thogs</abbr> par gyur cig |</ab>
+      <ab><seg type="excerpt" xml:id="ex88072025-05-2614-58-29" status="finalized" ana="corpusmd:colophon"> <milestone unit="section" n="Colophon (10b5-6)"/>
+            bsdus <lb n="10b6"/> <rs type="work" ana="corpusmd:named_reference" ref="d:5306">chos nor bu'i phreng ba</rs> ces bya ba 'di ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5959">dge ba'i <abbr>bshes gnyen</abbr> daM pa <abbr>dpal ldan</abbr> chos 'byor</rs> gyis bskul ba'i ngor <choice><reg>rin chen bsod nams 'phel</reg><orig>°ie °o° °M °e°</orig></choice> gyis ¦ sa pho spre'u'i lo ¦ nag pa'i zla ba'i gnaM gang la ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5719">'de re lung gi brag phug</rs> du sbyar ba rdzogs s+ho | <lb n="10b7"/> 'dis kyang gzhan la phan <abbr>thogs</abbr> par gyur cig |</seg>
+         </ab>
     </body>
   </text>
 </TEI>

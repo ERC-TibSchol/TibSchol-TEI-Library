@@ -102,13 +102,14 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Cover page (1a)" unit="section"/>
+      <ab><seg type="excerpt" xml:id="ex047022025-12-1016-57-45" status="reviewed"> <milestone n="Cover page (1a)" unit="section"/>
                <pb n="1a"/>
             
                <lb n="1a1"/> phyi
                <lb n="1a2"/> tsa
                <lb n="1a3"/> 117
-               <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4793">dbu ma'i khrid</rs> bzhugs <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3977">naM <choice><reg>mkha</reg><orig>(mkha)</orig></choice> <abbr>grags</abbr></rs></note></ab>
+               <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4793">dbu ma'i khrid</rs> bzhugs <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3977">naM <choice><reg>mkha</reg><orig>(mkha)</orig></choice> <abbr>grags</abbr></rs></note></seg>
+            </ab>
     </body>
   </text>
 </TEI>

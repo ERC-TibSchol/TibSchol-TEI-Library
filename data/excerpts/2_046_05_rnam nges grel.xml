@@ -105,14 +105,21 @@ Abundant use of abbreviations.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo ts+tsha ba chen po</rs> ni rtags kyi 'brel pa'i rtsa ba °°<note type="editorial">Abbreviation "shyoesi" unclear</note> gshis la rten pa dang khas blangs la rten pa dang po <note type="editorial">Reading "dang po" tentative</note> dngos stobs don sgrub du gyur pa dang tha snyad du bsgrub pa <pb n="22a"/><lb n="22a1"/> 2 phyi ma <abbr>grags</abbr> rtags yin la khas blangs la rten pa ni yid ches su bzhed do </ab>
+      <ab><seg type="excerpt" xml:id="ex46052024-09-1216-47-23" status="finalized" part="M" next="ex046052025-11-1011-09-10"><rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo ts+tsha ba chen po</rs> ni rtags kyi 'brel pa'i rtsa ba °°<note type="editorial">Abbreviation "shyoesi" unclear</note> gshis la rten pa dang khas blangs la rten pa dang po <note type="editorial">Reading "dang po" tentative</note> dngos stobs don sgrub du gyur pa dang tha snyad du bsgrub pa <pb n="22a"/><lb n="22a1"/> 2 phyi ma <abbr>grags</abbr> rtags yin la khas blangs la rten pa ni yid ches su bzhed do </seg>
+                
+      </ab>
       <gap reason="omitted"/>
-      <ab><abbr>gzhan nas</abbr> yin te bar ma rang tshig smra ba'i rgol ba bdag dang gzhan bstan bcos <lb n="22a2"/> mkhan <abbr>chen nas</abbr> tshad mar khas len pas te yid ches su bzung bya yin te khyod bstan bya'i don gyi dngos po ji lta ba bzhin du mthong ba'i sgo nas ngag 'jug par 'dod  pa yin pa'i phyir de'i tshig nas yin no bar la de 2 kyis smras pa'i tshig chos can rang tshad mar khas len pa pos bstan bya'i don gyi 'bras bur 'dod te bstan <lb n="22a3"/> </ab>
+      <ab><seg type="shared" xml:id="ex046052025-11-1011-09-10" status="reviewed">          gzhung gi tshig 'chad pa la gnyis thun mong gi mtshan nyid dang po'i lugs rnam par bzhag pa'i dang po ni bdag gaM <abbr>gzhan nas</abbr> yin te bar ma rang tshig smra ba'i rgol ba bdag dang gzhan bstan bcos <lb n="22a2"/> mkhan <abbr>chen nas</abbr> tshad mar khas len pas te yid ches su bzung bya yin te khyod bstan bya'i don gyi dngos po ji lta ba bzhin du mthong ba'i sgo nas ngag 'jug par 'dod  pa yin pa'i phyir de'i tshig nas yin no bar la de 2 kyis smras pa'i tshig chos can rang tshad mar khas len pa pos bstan bya'i don gyi 'bras bur 'dod te bstan <lb n="22a3"/> </seg>
+                
+                bya'i don gyi dngos po phan 'degs byed du med na mi 'jug par khas blangs pa'i phyainr rang gi 'pas bu nasng bod de bang la de chon rang 'gal dam bca'i don la shegs byed yin te rang gis bstan pa'i don la mi 'khrul bar khas blangs pa'i tshig yin pa'i dhying skabs 'dir </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon (64a6) - Owner"/> <lb n="64a7"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4789">dge ba'i bshes gnyen tshad ma rab bsal</rs> gyi phyag dpe' |
-          <note type="translation">This is the book of the Spiritual friend Tshad ma rab bsal</note></ab>
+      <ab><seg type="excerpt" xml:id="ex46052023-09-12-091" status="finalized"><milestone unit="section" n="Post-colophon (64a6) - Owner"/> <lb n="64a7"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4789">dge ba'i bshes gnyen tshad ma rab bsal</rs> gyi phyag dpe' |
+          <note type="translation">This is the book of the Spiritual friend Tshad ma rab bsal</note></seg>
+         
+          </ab>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:4788">dkon mchog nor bu</rs>s bris pa dge'o ||<note type="translation">Written by the best scribe, dKon mchog nor bu. May it be virtuous!</note></ab>
+      <ab><seg type="excerpt" status="finalized" xml:id="ex46052023-09-12-092">bris pa'i mchog gyur <rs type="person" ana="corpusmd:named_reference" ref="db:4788">dkon mchog nor bu</rs>s bris pa dge'o ||<note type="translation">Written by the best scribe, dKon mchog nor bu. May it be virtuous!</note></seg>
+      </ab>
     </body>
   </text>
 </TEI>

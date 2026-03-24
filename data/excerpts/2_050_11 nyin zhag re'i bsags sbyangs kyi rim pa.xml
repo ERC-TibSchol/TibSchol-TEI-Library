@@ -100,8 +100,10 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (2a4-2a5)"/>
-        sde snod kun gyi bcud bsdus man ngag rnams kyi snying po | <rs type="person" ana="corpusmd:named_reference" ref="db:7318">yi ge pa grags pa seng ge</rs>s bskul ba'i ngor | <rs type="person" ana="corpusmd:named_reference" ref="db:4052">shAkya'i btsun pa smon lam tshul <lb n="2a5"/> khrims</rs> kyis cung zad bris pa'o || i thï × dge'o</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex50112025-03-2814-13-40" status="finalized"><milestone unit="section" n="Colophon (2a4-2a5)"/>
+        sde snod kun gyi bcud bsdus man ngag rnams kyi snying po | <rs type="person" ana="corpusmd:named_reference" ref="db:7318">yi ge pa grags pa seng ge</rs>s bskul ba'i ngor | <rs type="person" ana="corpusmd:named_reference" ref="db:4052">shAkya'i btsun pa smon lam tshul <lb n="2a5"/> khrims</rs> kyis cung zad bris pa'o || i thï × dge'o</seg>
+      </ab>
     </body>
   </text>
 </TEI>

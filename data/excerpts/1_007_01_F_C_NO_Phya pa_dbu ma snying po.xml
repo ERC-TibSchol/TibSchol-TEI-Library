@@ -110,7 +110,9 @@ Rare marginal and interlinear annotation (corrections)</additional></physDesc></
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (57a4)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4486">dbu ma de kho na nyid kyi snying po</rs> zhes bya ba | blo gsal zhing rigs par smra bas rtog ge ngan pa'i tshogs 'jig par byed pa | brtul zhugs mchog la gnas pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge slong chos kyi seng ge</rs>s sbyar ba || rdzogs s+ho ||</ab>
+      <ab>
+        <seg type="excerpt" ana="corpusmd:colophon" xml:id="ex7012024-08-2814-21-46" status="finalized"><milestone unit="section" n="Colophon (57a4)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4486">dbu ma de kho na nyid kyi snying po</rs> zhes bya ba | blo gsal zhing rigs par smra bas rtog ge ngan pa'i tshogs 'jig par byed pa | brtul zhugs mchog la gnas pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:3831">dge slong chos kyi seng ge</rs>s sbyar ba || rdzogs s+ho ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

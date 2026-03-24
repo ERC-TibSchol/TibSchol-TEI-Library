@@ -67,9 +67,9 @@ Orthography:&#13;
             </respStmt></fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
-            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
-            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="i" scheme="css">font-style:italics¦</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline¦</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold¦</rendition>
          </tagsDecl>
          <projectDesc>
             <p>This document was created and is made available in the framework of the ERC
@@ -105,19 +105,72 @@ Orthography:&#13;
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/><!--Cover page of 1_001_02, id:4223--><pb edRef="inst:4423" n="1a"/><lb edRef="inst:4423" n="1a1"/>
+      <ab><seg type="excerpt" xml:id="ex1022023-03-271212" status="finalized">
+         <milestone unit="section" n="Cover page of ID:4223 (1a)"/><!--Cover page of 1_001_02, id:4223--><pb edRef="inst:4423" n="1a"/><lb edRef="inst:4423" n="1a1"/>
          phyi <lb edRef="inst:4423" n="1a2"/> ma <lb edRef="inst:4423" n="1a3"/> 721 
-         <lb edRef="inst:4423" n="1a4"/>|| <rs type="work" ana="corpusmd:named_reference" ref="db:4424">rab tu gnas par byed pa don <choice><reg>gsal</reg><orig>°gsal</orig></choice></rs> bzhugs lags ||</ab>
-      <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Incipit (1b1)"/> 
-         <pb edRef="inst:4423" n="1b"/><lb edRef="inst:4423" n="1b1"/> || <rs type="deity">byang chub sems dpa' sems pa chen po gsung gi mnga' bdag 'jam dpal ye shes sems pa</rs> la phyag 'tshal lo ||</ab>
-      <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (2b2–2b5)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:5624"><lb edRef="inst:4423" n="2b2"/> rab tu gnas <lb edRef="inst:4423" n="2b3"/> pa'i rgyud</rs> <note type="editorial" resp="PH">The identification as the Pratiṣṭhāvidhi is tentative.</note> dang <rs type="person" ref="db:5625" ana="corpusmd:named_reference">slob dpon kun dga' snying po </rs> las stsogs pas mdzad pa'i bstan bcos rnams <app><lem wit="inst:4428">gcig</lem> <rdg wit="inst:4428">gcig</rdg> <rdg wit="inst:4423">cig</rdg></app> na'ang <app><lem wit="inst:4428">ma rdzogs</lem> <rdg wit="inst:4428">ma rdzogs</rdg> <rdg wit="inst:4423">rdzogs</rdg></app> shing <app><lem wit="inst:4428">gzhung</lem> <rdg wit="inst:4428">gzhung</rdg><rdg wit="inst:4423">bzhung</rdg></app> mang du <app><lem wit="inst:4428">'thor</lem> <rdg wit="inst:4423">mthor</rdg> <rdg wit="inst:4428">'thor</rdg></app> ba'i phyir | <lb edRef="inst:4428" n="1b4"/> de dag cig tu lag tu blang pa ma <lb edRef="inst:4423" n="2b4"/> 'ongs pa'i skye bo blo chung pa rnams la phan pa'i phyir | <rs type="person" ref="db:3784" ana="corpusmd:named_reference"><app><lem wit="inst:4423">shag kya'i dge slong</lem> <rdg wit="inst:4423">shag kya'i dge bslong</rdg> <rdg wit="inst:4428">sha°pa'i dge slong</rdg></app> rin chen bzang po</rs>s nye bar sbyar <app><lem wit="inst:4423">ba'o</lem> <rdg wit="inst:4423">ba'o</rdg> <rdg wit="inst:4428">ba</rdg></app> || rdzogs s+h+yo ||
+         <lb edRef="inst:4423" n="1a4"/>|| <rs type="work" ana="corpusmd:named_reference" ref="db:4424">rab tu gnas par byed pa don <choice><reg>gsal</reg><orig>°gsal</orig></choice></rs> bzhugs lags ||</seg>
          </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon addition (1) in (ID:4423): Manuscript ownership (2b5)"/>
-         <lb edRef="inst:4423" n="2b5"/> <rs type="person" ref="db:4425" ana="corpusmd:named_reference">dge bar byed pa</rs>'i dpe' lags || zhal gro || dge'o ||</ab>
+      <ab><seg type="shared" xml:id="ex001022026-02-1316-14-14" status="reviewed">
+         <milestone unit="section" n="Incipit (1a1/1b1)"/> 
+         <pb edRef="inst:4423" n="1b"/><lb edRef="inst:4423" n="1b1"/> || <rs type="deity">byang chub sems dpa' sems pa chen po gsung gi mnga' bdag 'jam dpal ye shes sems pa</rs> la phyag 'tshal lo ||</seg>
+         </ab>
+      <gap reason="omitted"/>
+      <ab><seg type="shared" xml:id="ex001022026-03-0916-40-55" status="reviewed"><milestone unit="section" n="Body of the text (1a1-2b3/1b1–2b2)"/>
+         <milestone unit="section" n="1."/>
+         <lg><l><note type="gloss">dkon mchog gsum gyi¶ so so ngo shes pa'am¶ sku 3 gyi (na?)</note>rten gyi bya ba<note type="gloss">Top part of these characters cropped, the vowels <mentioned>e</mentioned> and <mentioned>i</mentioned> are not visible, nor is the top line of <mentioned>ba</mentioned>.</note> || <lb edRef="inst:4423" n="1b2"/> <note type="gloss">gzungs gzhugs pa laswogs pa bzo' bos</note> yongs brdzogs nas ||</l> 
+         <l>slob <lb edRef="inst:4428" n="1a2"/>dpon <note type="gloss">dkon mchog gsum gyi</note> mtshan nyid gnas <note type="gloss">rdo rje slob dpon du dbang thob cing kho na nyid bcu ye (?) shes pa laswos |</note> dang dus<note type="gloss">gza' skar mdzom pa</note> ||</l>
+         <l>yo byad<note type="gloss">ji ltar dgos pa'i</note> yongs su tshang nas ni ||</l> 
+         <l>cho ga dag la<note type="gloss"> sbyor ba dngos bzhi rjes </note> 'jug par bya ||</l></lg>
+      
+         <milestone unit="section" n="2."/>
+         <lg><l><lb edRef="inst:4423" n="1b3"/> <note type="gloss">cho ga mthong pas ma tshang pa med par</note>legs bsham ¦ bdag bskyed bum<note type="gloss">las thams cad pa dang tri ma khrus buM</note> pa<note type="gloss">rdo rje sems pa 'byung pa las swogs pa</note> bzlas<note type="gloss">lha'i</note> ||</l> 
+         <l>rten sbyang <note type="gloss">bgyegs dang sdig ba sbyang</note>bskru<note type="editorial">Kawasaki, following 1_001_04, corrects to: <mentioned>bkru</mentioned></note>‹sngar bzlas pa'i bum pas bkrashis tshigs bcad brjod› zhing ¦ phyi <lb edRef="inst:4428" n="1a3"/> ba dang<note type="gloss">ras gtsang¶mas</note> ||</l>
+         <l>rten bskyed<note type="gloss">rten du rigs byed pas</note>¦ ye shes spyan drangs<note type="gloss">phyags bcu yi de bzhin gsheg pa thams cad</note> la ||</l>
+         <l><note type="gloss">khro bo'i sngags kyi</note> bgegs<note type="gloss">ye shes sems pa'i phyi nas 'byung ba'i</note> bskrad0¦ mchod la<note type="gloss">spyan drangs la ci 'byor pas</note> <pb edRef="inst:4423" n="2a"/><lb edRef="inst:4423" n="2a1"/> dgug <note type="gloss">spyan drangs pa der dang ma yin pa'i bhu ddha (ma)? gyi mi khyab pa</note>gzhug bya ||</l></lg>
+
+         <milestone unit="section" n="3."/>
+        <lg><l> <note type="gloss">rigs 3 gyi phyag rgya aM phyag rgya 4 laswos pa</note>rgyas gdab <note type="gloss">ji ltar 'grub pas</note>mchod <note type="gloss">¦</note> <note type="gloss">rgyas sdus gang rung</note>bstod ¦ gtor ma<note type="gloss">yid dam dang cha gsum gyi</note> gtang ||</l> 
+        <l>snyan gsan<note type="gloss">re shig gshegs nas yang nang par byon par zhu</note> dbab cing¦ <note type="gloss">rgyas srus gang rung 1 bya</note>mchod bstod bya ||</l>
+         <l><lb edRef="inst:4428" n="1a4"/> bzod par gsol<note type="gloss">cho ga lhag chad</note> zhing¦ gsheg<note type="editorial">Kawasaki, following 1_001_04, corrects to: <mentioned>gshegs</mentioned></note> su gsol<note type="gloss">phag rgya dgrol zhing bdz(r)a mus¶ nam khar</note> ||</l> 
+         <l><lb edRef="inst:4423" n="2a2"/> rten dga'<note type="gloss">ras ser pos</note> <note type="gloss">sa las kyi sems pa 4'am yi ge 3 gyi'o</note>bdag bsrung¦ sta gon no ||</l></lg>
+
+         <milestone unit="section" n="4."/>
+         <lg><l>tho rangs<note type="gloss">seMs pa 'byung pa laswos pas</note> bdag <note type="gloss">kyi da la gsal btab pa</note>bskyed¦ mdun bskyed<note type="gloss">ci 'byor gyis</note> ¦ mchod ||</l> <l><note type="gloss">sta gon bzhin</note>rten sbyang bkru zhing phyi ba dang ||</l>
+         <l><note type="gloss">snga ma bzhugs na</note>ring bsrel bzhugs shing<note type="gloss">gang 'di zhes bya ba laswos pas</note>¦ <lb edRef="inst:4428" n="1a5"/> gsol <lb edRef="inst:4423" n="2a3"/> ba gdab ||</l> 
+         <l><note type="gloss">sngar bzhin</note>rten bskyed¦ <note type="gloss">sta gon ltar</note>spyan drang<note type="editorial">Kawasaki, following 1_001_04, corrects to: <mentioned>drangs</mentioned></note> ¦ <note type="gloss">sngar bzh[i]n</note>dgug rgyas <note type="gloss">(s)ta gon ltar</note>gdab ||</l></lg>
+         
+         <milestone unit="section" n="5."/>
+         <lg><l>dbang bskur<note type="gloss">rgyus sde bzhi gang yagn rung pa'i lugs kyi</note>¦ mchod bstod<note type="gloss">ci 'byor gyis</note>¦ <note type="gloss">gser gyi thur ma 1 sngags kyi</note> spyan dbye bya ||</l> 
+         <l>gsol gdab<note type="gloss">sangs rgyas nas chos skyong gi rab la</note>¦ <note type="gloss">'og nas 'byung pa ltar 1 yis</note>mnga' dbul rgyas par bya ||</l>
+         <l><note type="gloss">gang zhe na</note>de 'ang ¦ <note type="gloss">mnga' dbul ba rgyas pas</note>mchod¦ <lb edRef="inst:4423" n="2a4"/> <note type="gloss">rgyas pas mnga' dbul ba</note>bstod ¦ bye brag dang <note type="gloss">nye bar 'kho bas mnga' dbul ba</note>||</l> 
+         <l><pb edRef="inst:4428" n="1b"/><lb edRef="inst:4428" n="1b1"/> sbyin bsreg<note type="gloss">tsa ru yi bza bas mnga' dbul ba</note> ¦ sngags te <note type="gloss">rab gnas kyi</note>¦ dngos bzhi<note type="editorial">Kawasaki corrects to: <mentioned>gzhi</mentioned></note> 'o<note type="editorial">Kawasaki, following 1_001_04, notes: <mentioned>'ong</mentioned></note> <note type="gloss">bkra shis pa dang me¶ tog gi char dbab¶cing mnga' dbul ba'o ||</note>||</l></lg>
+
+         <milestone unit="section" n="6."/>
+         <lg><l><note type="gloss">yi dam dang chos skyong mgon po dang cha 3</note>gtor ma byin dang ¦<note type="gloss"> rten 'di mchod cing bsrung ba gyis 1 das</note>chos bskyong bsgo ||</l> 
+         <l><note type="gloss">ci 'byor gyis</note>dkyil 'khor mchod de ¦ <note type="gloss">bdag la 'jig rten dang 'das pa'i</note>dngos grub bslangs<note type="editorial">No tsheg before the shad. Kawasaki corrects to slang.</note> ||</l>
+        <l> <pb edRef="inst:4423" n="2b"/><lb edRef="inst:4423" n="2b1"/> bzod par<note type="gloss">nyes pa thams cad</note> gsol zhing ¦ <note type="gloss">rten la ma bcug pa'i sangs rgyasd dang byang chub sems dpa rnams</note>gshegs su gsol ||</l> 
+        <l><lb edRef="inst:4428" n="1b2"/> yon bdag bsgo <note type="gloss">la rten gtad la mchod par</note>zhing ¦ shis pa <note type="gloss">bkra shis rgyas pa</note>brjod ||</l></lg>
+
+         <milestone unit="section" n="7."/>
+         <lg><l><note type="gloss">ci 'byor gyis</note>rten mchod ¦ <note type="gloss">dge ba thams cad</note>bsod rnams<anchor xml:id="a8"/> yongs su bsngo ||</l> 
+         <l><lb edRef="inst:4423" n="2b2"/> <note type="gloss">(slob)?</note>slob dpon <note type="gloss">la yon rgya chen po dbul</note>mchod de ¦ dga' <note type="gloss">dge 'dun laswos pa thams cad la</note>bston bya ||</l>
+         <l><note type="gloss">bkra shis gang grub bya</note>slar yang shis pa rgyas par brjod ||</l> 
+         <l>rjes bsdu<note type="gloss">las kyi ma mngon par</note> ¦ <note type="gloss">zhi ba'i</note>sbyin bsreg ¦ <note type="gloss">nam yi ge brgya pa mang du bzlas so ||</note>
+         mjug <lb edRef="inst:4428" n="1b3"/> don no ||</l></lg></seg>
+         </ab>
+      <gap reason="omitted"/>
+      <ab>
+        <seg type="excerpt" xml:id="ex10221-02-20231350" status="finalized" ana="corpusmd:colophon" part="M" next="ex1022023-27-03-1236">
+         <milestone unit="section" n="Colophon (1b3-1b4/2b2–2b5)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:5624"><lb edRef="inst:4423" n="2b2"/> rab tu gnas <lb edRef="inst:4423" n="2b3"/> pa'i rgyud</rs> <note type="editorial" resp="PH">The identification as the Pratiṣṭhāvidhi is tentative.</note> dang <rs type="person" ref="db:5625" ana="corpusmd:named_reference">slob dpon kun dga' snying po </rs> las stsogs pas mdzad pa'i bstan bcos rnams <app><lem wit="inst:4428">gcig</lem> <rdg wit="inst:4428">gcig</rdg> <rdg wit="inst:4423">cig</rdg></app> na'ang <app><lem wit="inst:4428">ma rdzogs</lem> <rdg wit="inst:4428">ma rdzogs</rdg> <rdg wit="inst:4423">rdzogs</rdg></app> shing <app><lem wit="inst:4428">gzhung</lem> <rdg wit="inst:4428">gzhung</rdg><rdg wit="inst:4423">bzhung</rdg></app> mang du <app><lem wit="inst:4428">'thor</lem> <rdg wit="inst:4423">mthor</rdg> <rdg wit="inst:4428">'thor</rdg></app> ba'i phyir | <lb edRef="inst:4428" n="1b4"/> de dag cig tu lag tu blang pa ma <lb edRef="inst:4423" n="2b4"/> 'ongs pa'i skye bo blo chung pa rnams la phan pa'i phyir | <rs type="person" ref="db:3784" ana="corpusmd:named_reference"><app><lem wit="inst:4423">shag kya'i dge slong</lem> <rdg wit="inst:4423">shag kya'i dge bslong</rdg> <rdg wit="inst:4428">sha°pa'i dge slong</rdg></app> rin chen bzang po</rs>s nye bar sbyar <app><lem wit="inst:4423">ba'o</lem> <rdg wit="inst:4423">ba'o</rdg> <rdg wit="inst:4428">ba</rdg></app> || rdzogs s+h+yo ||
+         </seg>
+      </ab>
+      <gap reason="omitted"/>
+      <ab><seg type="excerpt" xml:id="ex1022023-27-03-1236" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Post-colophon addition (1) in (ID:4423): Manuscript ownership (2b5)"/>
+         <lb edRef="inst:4423" n="2b5"/> <rs type="person" ref="db:4425" ana="corpusmd:named_reference">dge bar byed pa</rs>'i dpe' lags || zhal gro || dge'o ||</seg>
+        
+         </ab>
     </body>
   </text>
 </TEI>

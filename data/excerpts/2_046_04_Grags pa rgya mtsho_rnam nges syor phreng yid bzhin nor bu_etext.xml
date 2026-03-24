@@ -105,18 +105,27 @@ Lines per folio: 7; 8 on 6a, 25, 42b, 46b-62a, 63a-88b; 9 on 32 and 89a.</additi
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/>
-         <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> zha <lb n="1a3"/> 6</ab>
+      <ab>
+        <seg type="shared" status="reviewed" part="I" next="ex046042025-05-2811-57-30"><milestone unit="section" n="Cover page (1a)"/>
+         <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> zha <lb n="1a3"/> 6</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Incipit (1b1)"/>
-        <pb n="1b"/><lb n="1b1"/> <lg><l><abbr>sang rgyas</abbr> kun dngos mkhyen rabs bdag nyid can ||</l> <l>gser gyi mdog can <abbr>gzhon nu</abbr>'i tshul mchang ba ||</l> <l><abbr>shes rab</abbr> ral gri udpala <abbr>glegs</abbr> baM bsnoMs ||</l> <l><rs type="deity">'jaM dbyangs</rs> bla ma'i zhabs la gus pas 'dud ||</l></lg></ab>
+      <ab><seg type="excerpt" xml:id="ex046042025-05-2811-57-30" status="reviewed">
+       <milestone unit="section" n="Incipit (1b1)"/>
+        <pb n="1b"/><lb n="1b1"/> <lg><l><abbr>sang rgyas</abbr> kun dngos mkhyen rabs bdag nyid can ||</l> <l>gser gyi mdog can <abbr>gzhon nu</abbr>'i tshul mchang ba ||</l> <l><abbr>shes rab</abbr> ral gri udpala <abbr>glegs</abbr> baM bsnoMs ||</l> <l><rs type="deity">'jaM dbyangs</rs> bla ma'i zhabs la gus pas 'dud ||</l></lg></seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Body of the text (1b1–)"/>
-         <rs type="person" ana="corpusmd:named_reference" ref="db:3773">bdag nyid chen po chos kyi <abbr>grags</abbr> pa</rs>s <abbr>rigs</abbr> pa'i bstan bcos tshad ma sde bdun mdzad pa'i lus kyi <abbr>bstan bcos</abbr> bar pa <rs type="work" ana="corpusmd:named_reference" ref="db:3774">tshad ma <abbr>rnaM par</abbr> <lb n="1b1"/> <choice><reg>nges</reg><orig>ngas</orig></choice> pa</rs> la 3 te ||</ab>
+      <ab><seg type="excerpt" xml:id="ex46042024-09-1214-47-22" status="finalized">
+         <milestone unit="section" n="Body of the text (1b1–)"/>
+         <rs type="person" ana="corpusmd:named_reference" ref="db:3773">bdag nyid chen po chos kyi <abbr>grags</abbr> pa</rs>s <abbr>rigs</abbr> pa'i bstan bcos tshad ma sde bdun mdzad pa'i lus kyi <abbr>bstan bcos</abbr> bar pa <rs type="work" ana="corpusmd:named_reference" ref="db:3774">tshad ma <abbr>rnaM par</abbr> <lb n="1b1"/> <choice><reg>nges</reg><orig>ngas</orig></choice> pa</rs> la 3 te ||</seg>
+         'gyur brtsoM pa'i yan lag slad kyi don : rtsoM par bya ba gzhung gi don : mthar phyin pa 'jug gi </ab>
       <gap reason="omitted"/>
-      <ab><lb n="2b6"/> ni | <rs type="person" ana="corpusmd:named_reference" ref="db:6418">kha che pan chen</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5552">braM ze <abbr>chen po</abbr></rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3892">sa pan</rs> rnaMs ¦ dang por dbang mngon skad 1 ma 1 skyed ¦ der rjes dbang mngon rgyun 'jug pa de srid du dbang mngon skad 1 re dang yid mngon skad 1 re dus mnyaM du skye zhing ¦ yid mngon <abbr>skad gcig</abbr> phyi ma rnaMs dbang mngon skad 1 snga mas de thag rkyen byas nas skye'i kho rang gi rigs 'dra snga ma las mi skye bas <lb n="2b7"/> yid sngon la rgyun med cing ¦ dbang mngon rnaMs rang gi <abbr>rigs</abbr> 'dra snga la <note type="gloss">swo</note> las skye bas rgyun dang bcas pa'o ¦ dbang mngon skad 1 2 pa dang yid mngon rdzas 1 la ¦ <abbr>de dag</abbr> kyang kha phyir ltas la don rig gi 'gros 2 yin la ¦ nang du myong ba'i <abbr>ngo bor</abbr> thad med pas rang gi 'gros 1 <abbr>yin te</abbr> 'gros gsuM pa'o ces bzhed ¦</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex46042025-05-2812-35-14" status="finalized"> 2 pa <lb n="2b6"/> ni | <rs type="person" ana="corpusmd:named_reference" ref="db:6418">kha che pan chen</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5552">braM ze <abbr>chen po</abbr></rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3892">sa pan</rs> rnaMs ¦ dang por dbang mngon skad 1 ma 1 skyed ¦ der rjes dbang mngon rgyun 'jug pa de srid du dbang mngon skad 1 re dang yid mngon skad 1 re dus mnyaM du skye zhing ¦ yid mngon <abbr>skad gcig</abbr> phyi ma rnaMs dbang mngon skad 1 snga mas de thag rkyen byas nas skye'i kho rang gi rigs 'dra snga ma las mi skye bas <lb n="2b7"/> yid sngon la rgyun med cing ¦ dbang mngon rnaMs rang gi <abbr>rigs</abbr> 'dra snga la <note type="gloss">swo</note> las skye bas rgyun dang bcas pa'o ¦ dbang mngon skad 1 2 pa dang yid mngon rdzas 1 la ¦ <abbr>de dag</abbr> kyang kha phyir ltas la don rig gi 'gros 2 yin la ¦ nang du myong ba'i <abbr>ngo bor</abbr> thad med pas rang gi 'gros 1 <abbr>yin te</abbr> 'gros gsuM pa'o ces bzhed ¦</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ref="db:5564"><abbr>rigs</abbr> <choice><reg>gter</reg><orig>ter</orig></choice></rs> las ¦
+      <ab><seg type="excerpt" xml:id="ex046042025-05-2812-28-38" status="finalized">    
+        <rs type="work" ref="db:5564"><abbr>rigs</abbr> <choice><reg>gter</reg><orig>ter</orig></choice></rs> las ¦
          <quote source="db:5564" n="RT IX.8ab"><lg>
             <l xml:space="preserve">spel ma dang ni <pb n="3a"/><lb n="3a1"/> rgyun gyi mtha' ¦</l>
             <l>2 ka la yang gnod byed yod ¦</l></lg></quote>
@@ -126,16 +135,20 @@ Lines per folio: 7; 8 on 6a, 25, 42b, 46b-62a, 63a-88b; 9 on 32 and 89a.</additi
             <l xml:space="preserve">rang rig yin phyir rgyud gzhan min ¦ </l>
             <l xml:space="preserve">des na <abbr>mngon du</abbr> 'gros gsuM pa</l>
          </lg></quote>
-                  <abbr>ces so</abbr> ¦</ab>
+                  <abbr>ces so</abbr> ¦</seg>
+               </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="221.24 rnal 'byor mngon sum"/>
-         2 pa ni | <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsh+tsa ba chen po</rs> ni ¦ sbyor lam nas yod par bzhed yang | mthong nas <abbr>lam mtha'</abbr> bzung <abbr>dgos so</abbr> ¦</ab>
+      <ab><seg type="excerpt" xml:id="ex046042025-05-2812-52-42" status="finalized"><milestone unit="section" n="221.24 rnal 'byor mngon sum"/>
+         2 pa ni | <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsh+tsa ba chen po</rs> ni ¦ sbyor lam nas yod par bzhed yang | mthong nas <abbr>lam mtha'</abbr> bzung <abbr>dgos so</abbr> ¦</seg> </ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5564"><abbr>rigs</abbr> <choice><reg>gter</reg><orig>ster</orig></choice></rs> las | 
+      <ab><seg type="excerpt" xml:id="ex046042025-05-2812-44-45" status="finalized"> <rs type="work" ana="corpusmd:named_reference" ref="db:5564"><abbr>rigs</abbr> <choice><reg>gter</reg><orig>ster</orig></choice></rs> las | 
                <quote source="db:5564" n="RT IX.2cd"><lg><l><abbr>mngon sum</abbr> 4 po <abbr>mdo sde'i</abbr> <abbr>lugs</abbr> ¦</l> <l><abbr>bye brag</abbr> smra 3 rnaM <abbr>rig gnyis</abbr> ¦</l></lg></quote> ces
-               <lb n="3b4"/> rnaM rig pa la don med pas dbang yid <abbr>mngon sum</abbr> 2 med ¦</ab>
+               <lb n="3b4"/> rnaM rig pa la don med pas dbang yid <abbr>mngon sum</abbr> 2 med ¦</seg>
+
+</ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ref="db:5564"><abbr>rigs</abbr> gter</rs> las ¦ 
+      <ab><seg type="excerpt" xml:id="ex046042025-05-2812-30-41" status="finalized">  
+            <rs type="work" ref="db:5564"><abbr>rigs</abbr> gter</rs> las ¦ 
       <quote source="db:5564" n="RT VIII.64ab">   <lg>
             <l xml:space="preserve">don rig 2 dang rang gi dang ¦ </l>
             <l xml:space="preserve"><abbr>rjes su</abbr> dpag pa rang las nges ¦</l>
@@ -145,14 +158,16 @@ Lines per folio: 7; 8 on 6a, 25, 42b, 46b-62a, 63a-88b; 9 on 32 and 89a.</additi
             <l xml:space="preserve">don byed pa dang goMs pa can ¦</l>
             <l xml:space="preserve"><abbr>rjes su</abbr> dpag pas nges par byed</l>
          </lg></quote>
-        <abbr>ces so</abbr> ¦</ab>
+        <abbr>ces so</abbr> ¦</seg>       
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (89a8)"/>
+      <ab><seg type="excerpt" xml:id="ex4604_2023-09-19-11" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (89a8)"/>
             <l>rgyal ba'i myu gu <rs type="person" ana="corpusmd:named_reference" ref="db:4024">grags pa <abbr>rgya mtsho</abbr></rs>'am || </l>
             <l><rs type="person" ana="corpusmd:named_reference" ref="db:4024">legs pa'i <choice><reg>mtshan ldan</reg><orig>‹mtshan ldan›</orig></choice> bde legs 'byung gnas</rs> kyis || </l>
          <l>gtan gnas srog shing <rs type="place" ana="corpusmd:named_reference" ref="db:5559">bod</rs> kyi <abbr>rdo rje</abbr> gdan || </l>
          <rs type="place" ana="corpusmd:named_reference" ref="db:5658">gur thang rtsug lag <lb n="89a9"/> x khang chen</rs> x 'di sbyar x rdzogs ||
-         x maMghala bha rwa tu || x shubhaM ||</ab>
+         x maMghala bha rwa tu || x shubhaM ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

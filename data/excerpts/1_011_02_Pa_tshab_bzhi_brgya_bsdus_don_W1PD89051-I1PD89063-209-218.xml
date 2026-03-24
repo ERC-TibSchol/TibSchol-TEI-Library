@@ -104,15 +104,20 @@ One additional note on fol. 3a seems to contest one division (sa bcad); it reads
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Cover page (1a)" unit="section"/><pb n="1a"/>
+      <ab><seg type="shared" xml:id="ex011022025-10-1011-41-45" status="reviewed" part="I" next="ex11022024-10-1014-36-36"> <milestone n="Cover page (1a)" unit="section"/><pb n="1a"/>
                           <lb n="1a1"/> phyi
                <lb n="1a2"/> tsa
-               <lb n="1a3"/> 7</ab>
+               <lb n="1a3"/> 7</seg>
+            </ab>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3725">slob dpon zla ba grags pa</rs>'i zhal snga nas mdzad pa <rs type="work" ana="corpusmd:named_reference" ref="db:5931"><choice><orig>4</orig><reg>bzhi</reg></choice> brgya pa'i 'grel pa</rs> la bsdus pa'i don gsum te | rtsom ba dgod pa dang | gzhung gi don bshad pa dang | de bas byung ba'i <note type="gloss">rtog ge'i</note> bsod nams bsngo ba'o || </ab>
+      <ab><seg type="excerpt" xml:id="ex11022024-10-1014-36-36" status="finalized" part="M" next="ex11022024-10-1014-43-37"><rs type="person" ana="corpusmd:named_reference" ref="db:3725">slob dpon zla ba grags pa</rs>'i zhal snga nas mdzad pa <rs type="work" ana="corpusmd:named_reference" ref="db:5931"><choice><orig>4</orig><reg>bzhi</reg></choice> brgya pa'i 'grel pa</rs> la bsdus pa'i don gsum te | rtsom ba dgod pa dang | gzhung gi don bshad pa dang | de bas byung ba'i <note type="gloss">rtog ge'i</note> bsod nams bsngo ba'o || </seg>
+               
+                </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon (5b7)" unit="section"/>
-                  <rs type="work" ana="corpusmd:named_reference" ref="db:4522"><rs type="work" ana="corpusmd:named_reference" ref="db:5931"><choice><reg>bzhi brgya</reg><orig>4 gya</orig></choice> pa'i rgya cher bshad pa</rs>'i bsdus pa'i don</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:3868">lo tsa ba <abbr>chen po</abbr> shAkya'i <abbr>dge slong</abbr> zhang pa tsab nyi ma grags</rs> kyi legs par sbyar pa'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex11022024-10-1014-43-37" ana="corpusmd:colophon" status="finalized" part="F">
+                  <milestone n="Colophon (5b7)" unit="section"/>
+                  <rs type="work" ana="corpusmd:named_reference" ref="db:4522"><rs type="work" ana="corpusmd:named_reference" ref="db:5931"><choice><reg>bzhi brgya</reg><orig>4 gya</orig></choice> pa'i rgya cher bshad pa</rs>'i bsdus pa'i don</rs> || <rs type="person" ana="corpusmd:named_reference" ref="db:3868">lo tsa ba <abbr>chen po</abbr> shAkya'i <abbr>dge slong</abbr> zhang pa tsab nyi ma grags</rs> kyi legs par sbyar pa'o ||</seg>
+            </ab>
     </body>
   </text>
 </TEI>

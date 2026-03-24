@@ -109,10 +109,12 @@ Orthography:&#13;
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/>
-         <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> tsa <lb n="1a3"/> 120</ab>
+      <ab>
+        <seg type="shared" status="reviewed" part="I" next="ex006022025-10-0720-18-19"><milestone unit="section" n="Cover page (1a)"/>
+         <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> tsa <lb n="1a3"/> 120</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Incipit (1b1–1b3)"/>
+      <ab><seg type="shared" status="finalized" xml:id="ex006022025-10-0720-18-19" part="M" next="ex006022025-09-2612-16-35"><milestone unit="section" n="Incipit (1b1–1b3)"/>
          <milestone unit="section" n="Invocation"/>
          <pb n="1a"/><lb n="1b1"/> dkon mchog gsum la phyag 'tshal lo || <rs type="deity">bcom ldan 'das 'jam pa'i dbyangs</rs> la phyag 'tshal lo || <rs type="person">bla ma rnams</rs> la phyag 'tshal lo ||
 
@@ -130,13 +132,18 @@ Orthography:&#13;
          <lg><l>thub dbang rnams dang <rs type="deity">'jam dbyangs</rs> dam pa'i mgon || </l>
          <l>rgyal sras <rs type="person" ana="corpusmd:named_reference" ref="db:3720">klu grub</rs> bla ma <lb n="1b3"/> skyes chen rnams ||</l>
          <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3831">bdag</rs> la rtser dgongs blo'i mun bsal te || </l>
-         <l>shes rab snang pas <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3831">bdag</rs> blo brgyan par mdzod ||||</l></lg></ab>
+         <l>shes rab snang pas <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3831">bdag</rs> blo brgyan par mdzod ||||</l></lg></seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Body of the text (1b3–33a8)"/>
-         <rs type="person" ana="corpusmd:named_reference" ref="db:3730">slob dpon ye shes snying po</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:3729">bden pa gnyis rnam par 'byed pa</rs> la don lnga ste | mchod par brjod pa dang | rang gi bstan bcos kyi 'bras bu dgos 'brel dang | bden pa gnyis <lb n="1b4"/> gtan la dbab pa dang | dbu ma la blo sbyar bar gdams pa dang | bshad pa'i bsod nams yongs su bsngo ba'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex006022025-09-2612-16-35" status="finalized" part="M"><milestone unit="section" n="Body of the text (1b3–33a8)"/>
+         <rs type="person" ana="corpusmd:named_reference" ref="db:3730">slob dpon ye shes snying po</rs>s mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:3729">bden pa gnyis rnam par 'byed pa</rs> la don lnga ste | mchod par brjod pa dang | rang gi bstan bcos kyi 'bras bu dgos 'brel dang | bden pa gnyis <lb n="1b4"/> gtan la dbab pa dang | dbu ma la blo sbyar bar gdams pa dang | bshad pa'i bsod nams yongs su bsngo ba'o ||</seg>
+      
+         
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (33b3)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:5874"><rs type="work" ana="corpusmd:named_reference" ref="db:3729">dbu ma bden pa gnyis</rs> rnam par bshad pa yi ge nyung ngus gzhung gsal bar byed pa</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3831">rigs par smra ba'i dge slong chos kyi seng ge</rs>s sbyar pa || rdzogs s+hO ||</ab>
+      <ab><seg type="excerpt" xml:id="ex006022025-09-2612-25-01" status="finalized" ana="corpusmd:colophon" part="F"><milestone unit="section" n="Colophon (33b3)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:5874"><rs type="work" ana="corpusmd:named_reference" ref="db:3729">dbu ma bden pa gnyis</rs> rnam par bshad pa yi ge nyung ngus gzhung gsal bar byed pa</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3831">rigs par smra ba'i dge slong chos kyi seng ge</rs>s sbyar pa || rdzogs s+hO ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

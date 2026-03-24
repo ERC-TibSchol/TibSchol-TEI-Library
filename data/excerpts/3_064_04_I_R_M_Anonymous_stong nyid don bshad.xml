@@ -102,8 +102,9 @@ Following the title on the cover page: sbyar byang med pa.</additional></physDes
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><pb n="1b"/><lb n="1b1"/> ji ltar bshad pa bzhin du bsgoms pas thugs su chud pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4108">lce sgom</rs><note type="editorial">Tentative identification as lCe sgom rdzong pa Shes rab rdo rje</note> gyi zhal nas | 
-         de la dang po kun rdzob bden pa la |  blo sbyong dus kyi thog ma'i lta <lb n="1b2"/> ba ni | kun gzhi dbyings chen phyogs mtha' bral ba la | ma rig rkyen gyis rnam shes drug tu shar |</ab>
+      <ab><seg type="excerpt" xml:id="ex64042025-03-2111-07-07" status="reviewed"><pb n="1b"/><lb n="1b1"/> ji ltar bshad pa bzhin du bsgoms pas thugs su chud pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4108">lce sgom</rs><note type="editorial">Tentative identification as lCe sgom rdzong pa Shes rab rdo rje</note> gyi zhal nas | 
+         de la dang po kun rdzob bden pa la |  blo sbyong dus kyi thog ma'i lta <lb n="1b2"/> ba ni | kun gzhi dbyings chen phyogs mtha' bral ba la | ma rig rkyen gyis rnam shes drug tu shar |</seg> sgo lnga rtog med ye shes zang thal la | yid kyi kun brtags
+               </ab>
     </body>
   </text>
 </TEI>

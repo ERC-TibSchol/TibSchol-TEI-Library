@@ -55,7 +55,8 @@
          </publicationStmt>
          <sourceDesc>
             <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Last folio number: 97.&#13;
+         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Cover page title: bod snga rabs pa'i tshad ma'i spyi don&#13;
+Last folio number: 97.&#13;
 Folios 88 and 89 occur on a single page.</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -104,10 +105,13 @@ Folios 88 and 89 occur on a single page.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (97a5-97a6)"/>
-        <rs type="work" ana="corpusmd:named_reference" ref="db:5509">rtog ge rigs pa'i brgyan gyi snying po</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:5510">shag kya'i dge' slong d+ha rma rad na</rs> zhes bya <lb n="97a6"/> bas sbyar ba || rdzogs s+h+yo ||</ab>
+      <ab><seg type="excerpt" xml:id="exX0032023-09-13-15" status="finalized" ana="corpusmd:colophon"> <milestone unit="section" n="Colophon (97a5-97a6)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:5509">rtog ge rigs pa'i brgyan gyi snying po</rs> zhes bya ba | <rs type="person" ana="corpusmd:named_reference" ref="db:5510">shag kya'i dge' slong d+ha rma rad na</rs> zhes bya <lb n="97a6"/> bas sbyar ba || rdzogs s+h+yo ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon note"/><rs type="work" ana="corpusmd:named_reference" ref="db:5509">rtog ge rigs pa'i snying po</rs> 'di || <rs type="person" ana="corpusmd:named_reference" ref="db:5866">kho bo zhang</rs> gis gzabs nas bris || bshes gnyen se'i thugs mdzod ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="exX0032023-09-13-152" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Post-colophon note"/><rs type="work" ana="corpusmd:named_reference" ref="db:5509">rtog ge rigs pa'i snying po</rs> 'di || <rs type="person" ana="corpusmd:named_reference" ref="db:5866">kho bo zhang</rs> gis gzabs nas bris || bshes gnyen se'i thugs mdzod ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

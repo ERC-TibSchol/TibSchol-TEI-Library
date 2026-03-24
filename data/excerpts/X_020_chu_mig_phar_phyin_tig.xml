@@ -104,11 +104,10 @@ Proofread.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab>
-        <lg><l><pb n="1a"/><lb n="1a1"/> Pa <note type="editorial">Volume</note></l>
+      <ab><seg type="excerpt" xml:id="exX202024-09-1811-03-222" status="finalized" ana="corpusmd:colophon">  <lg><l><pb n="1a"/><lb n="1a1"/> Pa <note type="editorial">Volume</note></l>
                <l><lb n="1a2"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5870">phar phyin chu tik</rs> bzhugs | <rs type="person" ana="corpusmd:named_reference" ref="db:6036">thang bla brang pa</rs>'i dpe' ||</l>
-               <l><lb n="1a3"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5870">Tik chen lung don rnaM gzigs</rs> zhes pa <rs type="person" ana="corpusmd:named_reference" ref="db:4018">gtsang chu mig pa <abbr>seng ge</abbr> dpal</rs> gyis mdzad pa <abbr>bzhugs so</abbr> ||<note type="editorial">This third line is by a different hand.</note></l></lg>
-      </ab>
+               <l><lb n="1a3"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5870">Tik chen lung don rnaM gzigs</rs> zhes pa <rs type="person" ana="corpusmd:named_reference" ref="db:4018">gtsang chu mig pa <abbr>seng ge</abbr> dpal</rs> gyis mdzad pa <abbr>bzhugs so</abbr> ||<note type="editorial">This third line is by a different hand.</note></l></lg></seg>
+            </ab>
     </body>
   </text>
 </TEI>

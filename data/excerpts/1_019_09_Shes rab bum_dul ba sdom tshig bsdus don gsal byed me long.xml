@@ -101,10 +101,13 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (8a4-8) (p. 609:4-8)"/>
-           <rs type="work" ana="corpusmd:named_reference" ref="db:4612">sdom tshig gsal byed don gsal</rs> 'di || <rs type="person" ana="corpusmd:named_reference" ref="db:6859">blo gsal don grub bkra shis</rs> kyis <choice><reg>bskul</reg><orig>bkul</orig></choice> nas || <rs type="person" ana="corpusmd:named_reference" ref="db:4608">shakya'i dge slong shes <lb n="8a5"/> rab 'bum</rs> gyis sbyar ba'o || </ab>
+      <ab><seg type="excerpt" xml:id="ex19092024-09-2415-23-12" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (8a4-8) (p. 609:4-8)"/>
+           <rs type="work" ana="corpusmd:named_reference" ref="db:4612">sdom tshig gsal byed don gsal</rs> 'di || <rs type="person" ana="corpusmd:named_reference" ref="db:6859">blo gsal don grub bkra shis</rs> kyis <choice><reg>bskul</reg><orig>bkul</orig></choice> nas || <rs type="person" ana="corpusmd:named_reference" ref="db:4608">shakya'i dge slong shes <lb n="8a5"/> rab 'bum</rs> gyis sbyar ba'o || </seg>
+            </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon annotations (8a8) (p. 609a8)"/> dge'o ¦ <choice><reg>bkra shis</reg><orig>bkrashis</orig></choice> par gyur cig || <rs type="person" ana="corpusmd:named_reference" ref="db:6042">sangs brgyas bzang po</rs>'i slab bya go bder bris pa yin</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex19092024-09-2415-26-29" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Post-colophon annotations (8a8) (p. 609a8)"/> dge'o ¦ <choice><reg>bkra shis</reg><orig>bkrashis</orig></choice> par gyur cig || <rs type="person" ana="corpusmd:named_reference" ref="db:6042">sangs brgyas bzang po</rs>'i slab bya go bder bris pa yin</seg>
+      </ab>
     </body>
   </text>
 </TEI>

@@ -102,9 +102,11 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="place" ana="corpusmd:named_reference" ref="db:5657">gtsang dge'i 'byung
+      <ab><seg type="excerpt" xml:id="ex23012023-09-18-102" status="finalized" ana="corpusmd:colophon">
+               <rs type="place" ana="corpusmd:named_reference" ref="db:5657">gtsang dge'i 'byung
                   gnas pa tshab <choice><orig>sgon</orig><reg>dgon</reg></choice> pa</rs> ru || <rs type="person" ana="corpusmd:named_reference" ref="db:3918">shes rab <choice><reg>mtha'</reg><orig>mtha</orig></choice> can dge sbyong bdag</rs> gis bsdus || de zer ma 'brel stong phrag rmig rjes chu || <lb n="188b7"/> khyad par gsum ldan legs rgya mtsho bzhin || zhe sdang phrag dog khengs pa kun spongs la || tshul bzhin seMs pa'i yid kyis dpyad par gyis || ma rtogs rang dga' <choice><reg>ba'i</reg><orig>'i</orig></choice> 'dod pas nyes bshad rnaMs | yang dag thugs su chud rnaMs bzod pa mdzod || de stem la 'byung dge ba gang thob des || <note type="editorial">Reading of 'thob' uncertain</note> <rs type="person" ana="corpusmd:named_reference" ref="db:3918">bdag sogs</rs> 'gro
-               mgon sa thob gyi bar | </ab>
+               mgon sa thob gyi bar | </seg>
+         </ab>
     </body>
   </text>
 </TEI>

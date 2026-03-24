@@ -102,7 +102,7 @@ Proofread (zhus dag byas nas dag par 'dog |)</additional></physDesc></sourceDesc
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="colophon"/><rs type="work" ana="corpusmd:named_reference" ref="db:4590"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po <abbr>mdo sde'i</abbr> rgyan</rs> gyi legs bshad bstan pa'i nyi ma</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3900">lung dang rig pa smra ba'i <abbr>dge slong</abbr> 'jam rin</rs> gyis chos gra chen <lb n="160a4"/> po <rs type="place" ana="corpusmd:named_reference" ref="db:5652">bde ba can</rs> du sbyar ba 'di yongs su <abbr>rdzogs s+ho</abbr> ||</ab>
+      <ab><seg type="excerpt" xml:id="ex18012024-09-1009-01-21" ana="corpusmd:colophon" status="finalized"><milestone unit="section" n="colophon"/><rs type="work" ana="corpusmd:named_reference" ref="db:4590"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po <abbr>mdo sde'i</abbr> rgyan</rs> gyi legs bshad bstan pa'i nyi ma</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3900">lung dang rig pa smra ba'i <abbr>dge slong</abbr> 'jam rin</rs> gyis chos gra chen <lb n="160a4"/> po <rs type="place" ana="corpusmd:named_reference" ref="db:5652">bde ba can</rs> du sbyar ba 'di yongs su <abbr>rdzogs s+ho</abbr> ||</seg>  dge'o || </ab>
     </body>
   </text>
 </TEI>

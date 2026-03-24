@@ -102,7 +102,9 @@ Indication of volume in the margin: na.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (4b3)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4546">bla ma mnyes par byed pa'i bsgrub pa</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3854">dge slong <abbr>blo gros seng ge</abbr>s sbyar</rs> ba'o ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex11162024-09-0411-33-27" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (4b3)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4546">bla ma mnyes par byed pa'i bsgrub pa</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3854">dge slong <abbr>blo gros seng ge</abbr>s sbyar</rs> ba'o ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

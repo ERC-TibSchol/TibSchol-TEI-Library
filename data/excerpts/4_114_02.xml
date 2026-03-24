@@ -102,9 +102,12 @@ Proofread.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><note type="editorial">Located at top of the folio.</note> dam pa'i chos la zhus dag bya ba'i tshul <rs type="person" ana="corpusmd:named_reference" ref="db:4097">dpang lo</rs>'i gsung las byung ba <abbr>bzhugs so</abbr> || <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6856">rgyal sras <abbr>'jigs</abbr> med</rs> kyi dpe'o ||</note></ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex114022024-11-2212-13-20" status="finalized"> chos 31 <note type="editorial">Located at top of the folio.</note> dam pa'i chos la zhus dag bya ba'i tshul <rs type="person" ana="corpusmd:named_reference" ref="db:4097">dpang lo</rs>'i gsung las byung ba <abbr>bzhugs so</abbr> || <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6856">rgyal sras <abbr>'jigs</abbr> med</rs> kyi dpe'o ||</note></seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:4097">dpang lo</rs>'i gsung bzhin bkod || shu b+haM || ra dza <note type="editorial">"ra dza" is written in dbu can.</note> <note type="gloss">1 zhus</note> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6856">rgyal sras <abbr>'jigs</abbr> med</rs> kyi dpe'o |</note></ab>
+      <ab><seg type="excerpt" xml:id="ex114022024-11-2212-06-00" status="finalized" ana="corpusmd:post_colophon">mchan yig 'bebs tshul | zhus dag gi byed tshul | mchan yig 'dri tshul rnams <rs type="person" ana="corpusmd:named_reference" ref="db:4097">dpang lo</rs>'i gsung bzhin bkod || shu b+haM || ra dza <note type="editorial">"ra dza" is written in dbu can.</note> <note type="gloss">1 zhus</note> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6856">rgyal sras <abbr>'jigs</abbr> med</rs> kyi dpe'o |</note></seg>
+           </ab>
     </body>
   </text>
 </TEI>

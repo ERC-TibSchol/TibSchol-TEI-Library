@@ -101,8 +101,9 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (65a3-4)"/>
-           <rs type="work" ana="corpusmd:named_reference" ref="db:4720"><rs type="work" ana="corpusmd:named_reference" ref="db:3766">'grel pa 'od dang ldan ba</rs>'i tshig dang don ma lus pa blo'i me long la gsal bar byed pa ||</rs> <choice><reg/><orig>dam</orig></choice><note type="editorial">"dam" was probably written by mistake, and not deleted</note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">nye ba 'khor lta bu'i bla ma rnams</rs> kyi zhabs kyi rdul spyi bos nod pa || <rs type="person" ana="corpusmd:named_reference" ref="db:3967">shag kya'i dge slong brtson 'grus dbang phyug</rs> gis bkod pa'o ||  || rdzogs s+h+yo ||  ||</ab>
+      <ab><seg type="excerpt" xml:id="ex36022025-03-3112-23-082" ana="corpusmd:colophon" status="finalized"> <milestone unit="section" n="Colophon (65a3-4)"/>
+           <rs type="work" ana="corpusmd:named_reference" ref="db:4720"><rs type="work" ana="corpusmd:named_reference" ref="db:3766">'grel pa 'od dang ldan ba</rs>'i tshig dang don ma lus pa blo'i me long la gsal bar byed pa ||</rs> <choice><reg/><orig>dam</orig></choice><note type="editorial">"dam" was probably written by mistake, and not deleted</note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">nye ba 'khor lta bu'i bla ma rnams</rs> kyi zhabs kyi rdul spyi bos nod pa || <rs type="person" ana="corpusmd:named_reference" ref="db:3967">shag kya'i dge slong brtson 'grus dbang phyug</rs> gis bkod pa'o ||  || rdzogs s+h+yo ||  ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

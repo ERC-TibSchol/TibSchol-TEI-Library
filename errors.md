@@ -1,5 +1,4 @@
-| file                                                                                | problem                                                                                                                                                  |
-|:------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2_047_01_gTsang drug rdo rje_gsal byed sgron ma_20210607.xml                        | Opening and ending tag mismatch: note line 1259 and seg, line 1263, column 151 (2_047_01_gTsang drug rdo rje_gsal byed sgron ma_20210607.xml, line 1263) |
-| 3_064_06_dpe_Anon_jug_bsdus_don_W1PD153536-I1KG13953-1-454 from transkribus dpe.xml | No valid instance data found - ["${ask('enter TibSchol Reference Number')}"]                                                                             |
-| corpus.xml                                                                          | No valid instance data found - []                                                                                                                        |
+| file                                                                                | problem                                                                      |
+|:------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| 3_064_06_dpe_Anon_jug_bsdus_don_W1PD153536-I1KG13953-1-454 from transkribus dpe.xml | No valid instance data found - ["${ask('enter TibSchol Reference Number')}"] |
+| corpus.xml                                                                          | No valid instance data found - []                                            |

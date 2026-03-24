@@ -104,10 +104,88 @@ Post-colophon notes after the colophon on 2b8 up to 3a4, probably mantras.</addi
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:4431">bde ba can gyi smon lam</rs> bzhugs s+ho ||</ab>
+      <ab><seg type="excerpt" xml:id="ex1052023-04-241305" status="finalized">
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4431">bde ba can gyi smon lam</rs> bzhugs s+ho ||</seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (2b8)"/>
-         <lb n="2b8"/> <rs type="person" ref="db:3784" ana="corpusmd:named_reference">lo ts+tsha ba <abbr>rin chen</abbr> bzang po</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:6216">thon mthing gi gtsug lag khang</rs> du sbyar ba dge'o ||</ab>
+      <ab><seg type="shared" xml:id="ex001052026-03-0917-03-13" status="reviewed"><milestone unit="section" n="Body of the text (1b1–2b7)"/>
+         <l><pb n="1b"/><lb n="1b1"/> <rs type="deity">bcom ldan shAkya'i rgyal pa</rs>'i zhing 'di nas ||</l><note type="editorial">In the Ms. the end of each pāda line is indicated by a space of about one syllable following the <mentioned>tsheg</mentioned>. The double <mentioned>shad</mentioned> in the transcription is editorial.</note>
+         <l>nub phyogs gang ga klung gi bye ma rnyed ||</l>
+         <l>rdzogs sangs rgyas kyi zhing khams bye ba phrag ||</l>
+         <l>khri phrag <lb n="1b2"/> khrag khrig 'das pa'i pha rol na ||</l>
+         <l>zhing khams skyon med yon tan phun tshogs mchog ||</l>
+
+         <l>ma phyogs thams cad rin chen ngang bzhin ri ||</l>
+         <l>lag mthil ldang <lb n="1b3"/>°i °ong °ng med pa'i gnas ||</l>
+         <l>mi rog smo'i tshoGS °s ° brgyan  ri ||</l>
+         <l>blta bas maM ngoms mdzis shing ° du 'ong ||</l>
+
+         <l>zhing <lb n="1b4"/> mchog de na lha mi'i ston pa ni ||</l>
+         <l>sku tshe dpag tu med pa'i spyas bzhu<abbr>gs</abbr> ||</l>
+         <l>rgon mongs yangs shing rmon lam dag pa'i <lb n="1b5"/> gnas ||</l>
+         <l>bdag dang gro drug ° ° bar shog ||</l>
+
+         <l>ngag bzang ° ba'i zhing khaMs <rs type="place">bde ba can</rs> ||</l>
+         <l>° ba'i ° 'phrul °n <lb n="1b6"/> pa'i sgra 'byin °ing ||</l>
+         <l>'tsho ba'i ° byad ji ltar bsaMs pa bzhin ||</l>
+         <l>'bad brtso° med par leGS par °yung ba'i °° gzhi <lb n="1b7"/>zhing mchog ||</l>
+
+         <l>de na seMs can ngan song dang ||</l>
+         <l>lha ma yin dang gshin °aM ° yang med ||</l>
+         <l>de na phal ‹°°› bud med yod ma yin ||</l>
+
+         <l><lb n="1b8"/>°° na gnas pa yid sa ma yin de ||</l>
+         <l><abbr>rin chen</abbr> rnaMs ° me rog ° las ||</l>
+         <l>brgyus re skye ba'i rang bzhan sha drag °e ||</l>
+         <l><pb n="2a"/><lb n="2a1"/> mi dge spangs shing sm°n dag pa'i gnas ||</l>
+         
+         <l>bdag dang 'khri °° dag 'od ldan zhing khaMs <rs type="place">bde ba can</rs> ||</l>
+         <l><lb n="2a2"/> zhing 'dir °° ni seMs can <abbr>thams cad</abbr> la ||</l>
+         <l>na chi la soGS sdug bsngal brtan mi 'byung ||</l>
+         <l>zhing 'dir skyes nas ngan <lb n="2a3"/> song ltung mi 'gyur ||</l>
+         <l>mi ° <abbr>gnas su</abbr> skye ba mi srid do ||</l>
+
+         <l>zhing 'dir skyes pa ni byang chub seMs dpa' rnaMs ||</l>
+         <l>chi °o <lb n="2a4"/> dpag tu med par  rgyun gzhuGS nas ||</l>
+         <l>skye ba du mar byang chub sems par gnas te ||</l>
+         <l>spyor pa brgyabs chen mdzas pa <lb n="2a5"/> la °GS pa ||</l>
+         <l>skye ba gcig rjes rdzoGS spras 'gyur zhing ||</l>
+   
+         <l>choGS gzhis rab rdzoGS sm°n dag pa'i gnas bdag dang <lb n="2a6"/></l>
+         <l> 'gro °b pas ‹b›°GS pa'i zhing (khaMs) <rs type="place">bde ba can</rs> ||</l>
+         <l>° chan gyi <abbr>rin chen</abbr> pho brang na ||</l>
+         <l>° dpag ° mgon<lb n="2a7"/>g.yas na <rs type="deity">spyan ras <abbr>gzigs</abbr></rs> ||</l>
+
+         <lg><l>byam‹s› dang °GS rjes 'gro ba kun la g°GS ||</l>
+         <l>mngon pa'i g.yon na byang pa'i °°°<pb n="2b"/><lb n="2b1"/> ° ° ||</l>
+         <l>dri med b°n pa rgyas pa'i 'ph°° mdzad ||</l>
+         <l>mi shes ° rgas ° gyi ‹s› mi khyab <abbr>gzhugs</abbr> ||</l></lg>
+
+         <lg><l>bdag ni <lb n="2b2"/> nam zhig 'chi ba'i ° ° ||</l>
+         <l>lha mchog ° kyi ° mthong ° bsu nas ||</l>
+         <l>gnas ngan rnams su nam <lb n="2b3"/> yang mi ° bar ||</l>
+         <l><rs type="place">bde ba can</rs> gyi zhing der skyi bar shog ||</l></lg>
+
+<lg>         <l>° las 'khyungs dam chos ° pa dang ||</l>
+         <l>rgyal ba'i lung brtan <lb n="2b4"/> mngon shes rgyu 'phrul °on ||</l>
+         <l>sems can <abbr>thams cad</abbr> zhing mchog °° der ||</l>
+         <l><abbr>bdag gis</abbr> 'drin pa'i rten 'brel sgrig par <lb n="2b5"/> shog ||</l></lg>
+
+         <lg><l>'di ba ltar <abbr>bdag gi</abbr> smon °° 'di ||</l>
+         <l>° ma mchog dang mgon <rs type="deity">spyan ras gziGS</rs> ||</l>
+         <l>'kh° pa la soGS rgyal <lb n="2b6"/> dang rgyal ba yi ||</l>
+         <l>sras mchog rnaMs °° kyis gran sar mdzad du gsol ||</l></lg>
+
+         <lg><l>° yi mthar yang rgyal ba 'od dpag med ||</l>
+         <l><lb n="2b7"/>'° dang gnas pa mthong zhing de ma thag ||</l>
+         <l>bu bu <rs type="place">bde ba can</rs> du tshur shog ces ||</l>
+         <l> 'drin pa'i gsung gis ° 'byin thon par shig ces ||</l></lg></seg>
+         </ab>
+      <gap reason="omitted"/>
+      <ab><seg type="excerpt" xml:id="ex1052023-04-241330" status="finalized" ana="corpusmd:colophon">
+         <milestone unit="section" n="Colophon (2b8)"/>
+         <lb n="2b8"/> <rs type="person" ref="db:3784" ana="corpusmd:named_reference">lo ts+tsha ba <abbr>rin chen</abbr> bzang po</rs>s <rs type="place" ana="corpusmd:named_reference" ref="db:6216">thon mthing gi gtsug lag khang</rs> du sbyar ba dge'o ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

@@ -103,17 +103,21 @@ The text starts on fol. 1a (no cover page).</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Closing verses (85a5–85a6)"/>
+      <ab>
+        <seg type="excerpt" xml:id="ex066032025-12-1917-23-04" status="reviewed"><milestone unit="section" n="Closing verses (85a5–85a6)"/>
                <lg><l><rs type="person" ana="corpusmd:named_reference" ref="db:3831">rig pa 'i dbang phyug chos kyi seng ge</rs>'i ||</l>
                <l>snyan cing mdzes pa'i gsung <lb n="85a6"/> dpyad pa la brten nas ||</l>
                <l>rgyal sras spyod pa dbu ma'i lam 'jug pa ||</l>
                 <l>byang chub sems mchog yid bzhin nor bu'i sgrom ||</l>
                 <l>byings pa'i rgyud pa ma lus sel byed pa ||</l>
                <l>rnam par phye nas blo ldan skye bo la ||</l>
-                <l>ldug par <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3864">bdag</rs> gis phyogs su rgyas byed shog ||||</l></lg></ab>
+                <l>ldug par <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3864">bdag</rs> gis phyogs su rgyas byed shog ||||</l></lg></seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (85a7)"/>
-           <lb n="85a7"/>|| <rs type="work" ana="corpusmd:named_reference" ref="db:5147"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug pa</rs>'i rnam par bshad pa</rs> | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4583">bla ma rnams</rs> kyi gsung la brten nas | <rs type="person" ana="corpusmd:named_reference" ref="db:3864">shag kya'i dge slong <choice><reg>byang chub</reg><orig>(byang chub)</orig></choice> skyabs</rs> kyis sbyar ba || <note type="gloss">gzhung gi don</note> rdzogs s+ho || ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex066032025-12-1917-07-29" ana="corpusmd:colophon" status="reviewed"> <milestone unit="section" n="Colophon (85a7)"/>
+           <lb n="85a7"/>|| <rs type="work" ana="corpusmd:named_reference" ref="db:5147"><rs type="work" ana="corpusmd:named_reference" ref="db:3727">byang chub sems dpa'i spyod pa la 'jug pa</rs>'i rnam par bshad pa</rs> | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4583">bla ma rnams</rs> kyi gsung la brten nas | <rs type="person" ana="corpusmd:named_reference" ref="db:3864">shag kya'i dge slong <choice><reg>byang chub</reg><orig>(byang chub)</orig></choice> skyabs</rs> kyis sbyar ba || <note type="gloss">gzhung gi don</note> rdzogs s+ho || ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

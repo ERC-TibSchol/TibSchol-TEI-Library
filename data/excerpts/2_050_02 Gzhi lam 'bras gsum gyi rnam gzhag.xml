@@ -104,14 +104,17 @@ Missing folios: 5-15.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/><pb n="1a"/><lb n="1a1"/><rs type="work" ana="corpusmd:named_reference" ref="db:4835">gzhi laM 'bras gsuM gyi <abbr>rnam gzhag</abbr> </rs>
+      <ab>
+        <seg type="excerpt" xml:id="ex50022023-10-131" status="finalized"><milestone unit="section" n="Cover page (1a)"/><pb n="1a"/><lb n="1a1"/><rs type="work" ana="corpusmd:named_reference" ref="db:4835">gzhi laM 'bras gsuM gyi <abbr>rnam gzhag</abbr> </rs>
          <lb n="1a2"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4052">smon laM tshul khrims</rs> gyis 
-		 <lb n="1a3"/> mdzad pa bzhugs</ab>
+		 <lb n="1a3"/> mdzad pa bzhugs</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (69a8-69b1)"/>
+      <ab><seg type="excerpt" status="finalized" xml:id="ex50022023-09-125" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (69a8-69b1)"/>
 		 <rs type="work" ana="corpusmd:named_reference" ref="db:4835"><rs type="work" ana="corpusmd:named_reference" ref="db:3711"><rs type="work" ana="corpusmd:named_reference" ref="db:3706">shes rab kyi pha rol <lb n="69a9"/> tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan</rs> gyi 'grel pa</rs> legs par bshad pa skyes bu'i don <choice><reg>grub</reg><orig>(grub)</orig></choice></rs> ces bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:4052">mang du thos pa shakya'i dge slong <choice><reg>smon</reg><orig>(smon)</orig></choice> lam tshul khrims</rs> kyis | bla ma dam pa mang pos byin gyis brlabs shing | <rs type="place" ana="corpusmd:named_reference" ref="db:4411">mkhas btsun gyi 'du sa phan bde'i 'byung gnas dpal snar thang gi gtsug lag khang</rs> du <pb n="69b"/><lb n="69b1"/> <choice><reg>pa 'di</reg><orig>(ba 'di)</orig></choice><note type="editorial">Possibly a syllable missing at the end of fol. 69a or beginning of fol. 69b</note> yongs su rdzogs s+ho || ×
 		 × rten 'brel <choice><reg>bzang</reg><orig>(bzang)</orig></choice> po <abbr>yin no</abbr> | × <rs type="person" ana="corpusmd:named_reference" ref="4836">glan ston bdag</rs> gis bris |
-		 </ab>
+		 </seg>
+		</ab>
     </body>
   </text>
 </TEI>

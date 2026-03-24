@@ -108,21 +108,28 @@ Cover page: ex44032023-07-2514-44-07</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page"/><pb n="1a"/><lb n="1a1"/>phyi<lb n="1a2"/>zha<lb n="1a3"/>45{1}  <note type="editorial">Reported as "phyi zha 45" in 'Bras spungs dkar chag.</note>
-         <lb n="1a4"/>|| <rs type="work" ana="corpusmd:named_reference" ref="db:4765">tshad ma'i spyi skad cung zad bsdus pa</rs> gzhugs pa <abbr>lags so</abbr> dbang hE <note type="editorial">Could also read "hre"</note> ||</ab>
+      <ab><seg type="excerpt" xml:id="ex44032023-07-2514-44-07" status="reviewed"> <milestone unit="section" n="Cover page"/><pb n="1a"/><lb n="1a1"/>phyi<lb n="1a2"/>zha<lb n="1a3"/>45{1}  <note type="editorial">Reported as "phyi zha 45" in 'Bras spungs dkar chag.</note>
+         <lb n="1a4"/>|| <rs type="work" ana="corpusmd:named_reference" ref="db:4765">tshad ma'i spyi skad cung zad bsdus pa</rs> gzhugs pa <abbr>lags so</abbr> dbang hE <note type="editorial">Could also read "hre"</note> ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593"><abbr>deng sang</abbr> dus kyi rtog ge ba rnams</rs> <lb n="3a9"/> tshad ma ma yin pa'i blo lnga zhes grags ste | tshad ma ma yin pa'i blo lnga ces <rs type="work" ana="corpusmd:unnamed_reference">gzhung</rs> nas gsungs pa'i grangs nges pa'ang <abbr>med</abbr> la ||</ab>
+      <ab><seg type="excerpt" xml:id="ex2442025-02-0414-36-25" status="reviewed">de la gcad bya sgro 'dogs kyi blo la <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593"><abbr>deng sang</abbr> dus kyi rtog ge ba rnams</rs> <lb n="3a9"/> tshad ma ma yin pa'i blo lnga zhes grags ste | tshad ma ma yin pa'i blo lnga ces <rs type="work" ana="corpusmd:unnamed_reference">gzhung</rs> nas gsungs pa'i grangs nges pa'ang <abbr>med</abbr> la ||</seg> </ab>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:3745">ati sha</rs>'i zhal nas | <quote source="db:6040" n="Satyadvayāvatāra 13b–d"><lg><l>mngon suM rjes dpag dgos pa <abbr>med</abbr> ||</l><l>mu stegs rgol ba bzlog pa'i phyir ||</l><l> <lb n="8b4"/> mkhas pa rnams kyis byas pa yin ¦</l></lg></quote> zhes gsungs so || ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex44032023-07-2514-44-08" status="finalized"><rs type="person" ana="corpusmd:named_reference" ref="db:3745">ati sha</rs>'i zhal nas | <quote source="db:6040" n="Satyadvayāvatāra 13b–d"><lg><l>mngon suM rjes dpag dgos pa <abbr>med</abbr> ||</l><l>mu stegs rgol ba bzlog pa'i phyir ||</l><l> <lb n="8b4"/> mkhas pa rnams kyis byas pa yin ¦</l></lg></quote> zhes gsungs so || ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Conclusive verses" unit="section"/>
-               <lg><l><rs type="work" ana="corpusmd:named_reference" ref="db:4765">tshad <choice><reg>ma'i</reg><orig>ma‹'i›</orig></choice> spyi'i skad cung zad bsdus pa</rs> 'di ||</l> <l>rigs pa'i tshul la mos pa'i blo yod kyang ||</l> <l><lb n="8b5"/> gzhung la mi 'jug rtsol ba zhan rnaMs la ||</l> <l>yig chung bde blag bris pa 'di la gzigs ||</l></lg></ab>
+      <ab><seg type="excerpt" xml:id="ex44032023-07-2514-44-09" status="finalized">
+               <milestone n="Conclusive verses" unit="section"/>
+               <lg><l><rs type="work" ana="corpusmd:named_reference" ref="db:4765">tshad <choice><reg>ma'i</reg><orig>ma‹'i›</orig></choice> spyi'i skad cung zad bsdus pa</rs> 'di ||</l> <l>rigs pa'i tshul la mos pa'i blo yod kyang ||</l> <l><lb n="8b5"/> gzhung la mi 'jug rtsol ba zhan rnaMs la ||</l> <l>yig chung bde blag bris pa 'di la gzigs ||</l></lg></seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon (8b5)" unit="section"/><rs type="person" ana="corpusmd:named_reference" ref="db:5833">gnyag</rs> gis bkod pa || I thI: ||</ab>
+      <ab><seg type="excerpt" xml:id="ex44032023-07-2514-44-10" status="finalized" ana="corpusmd:colophon"><milestone n="Colophon (8b5)" unit="section"/><rs type="person" ana="corpusmd:named_reference" ref="db:5833">gnyag</rs> gis bkod pa || I thI: ||</seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="The seven treatises" unit="section"/>
+      <ab><seg type="excerpt" xml:id="ex044032025-05-2118-15-36" status="reviewed"><milestone n="The seven treatises" unit="section"/>
    <lb n="8b6"/> *<note type="editorial">Reference sign linkin this note to "sde bdun" on fol. 8b2</note> rtso bo lus lta bu'i bstan bcos ni | <rs type="work" ana="corpusmd:named_reference" ref="db:3772">rnam 'grel |</rs> <rs type="work" ana="corpusmd:named_reference" ref="db:3774">rnaM nges</rs> | <rs type="work" ana="corpusmd:named_reference" ref="db:5589">rigs thigs</rs> te rgyas 'bri bsdus pa 3ba'o || 
-   yan lag gi bstan bcos ni | rang don <choice><reg>gi</reg><orig>°i</orig></choice> rtan tshigs kyi <abbr>mtshan nyid</abbr> la log <choice><reg>rtog</reg><orig>°°</orig></choice> bsal <lb n="8b7"/> ba'i phyir <rs type="work" ana="corpusmd:named_reference" ref="db:5831">rtan<anchor xml:id="a17"/> tshigs thigs pa</rs> | rang bzhin 'brel pa la log rtog dgag pa'i phyir <rs type="work" ana="corpusmd:named_reference" ref="db:3775">'brel pa brtag pa</rs> | gzhan don phyir rgol la ston pas ¦ gzhan gyi blo <choice><reg>tsam</reg><orig>tsa°</orig></choice><note type="editorial">Tentative reconstruction</note> ston pa'i phyir <rs type="work" ana="corpusmd:named_reference" ref="db:7068">rgyud gzhan sgrub pa |</rs> <lb n="8b8"/> rgol phyir <choice><reg>rgol yang</reg><orig>rgol {°} yang</orig></choice>  dag dang tshar gcad pa'i gnas la log rtogs bsal ba'i phyir dang brtsod pa dag par bya ba'i phyir <rs type="work" ana="corpusmd:named_reference" ref="db:3777">brtsod pa'i rigs pa</rs> mdzad do ||||</ab>
+   yan lag gi bstan bcos ni | rang don <choice><reg>gi</reg><orig>°i</orig></choice> rtan tshigs kyi <abbr>mtshan nyid</abbr> la log <choice><reg>rtog</reg><orig>°°</orig></choice> bsal <lb n="8b7"/> ba'i phyir <rs type="work" ana="corpusmd:named_reference" ref="db:5831">rtan<anchor xml:id="a17"/> tshigs thigs pa</rs> | rang bzhin 'brel pa la log rtog dgag pa'i phyir <rs type="work" ana="corpusmd:named_reference" ref="db:3775">'brel pa brtag pa</rs> | gzhan don phyir rgol la ston pas ¦ gzhan gyi blo <choice><reg>tsam</reg><orig>tsa°</orig></choice><note type="editorial">Tentative reconstruction</note> ston pa'i phyir <rs type="work" ana="corpusmd:named_reference" ref="db:7068">rgyud gzhan sgrub pa |</rs> <lb n="8b8"/> rgol phyir <choice><reg>rgol yang</reg><orig>rgol {°} yang</orig></choice>  dag dang tshar gcad pa'i gnas la log rtogs bsal ba'i phyir dang brtsod pa dag par bya ba'i phyir <rs type="work" ana="corpusmd:named_reference" ref="db:3777">brtsod pa'i rigs pa</rs> mdzad do ||||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

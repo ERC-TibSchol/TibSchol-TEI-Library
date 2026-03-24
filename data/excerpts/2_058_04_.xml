@@ -100,23 +100,30 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:5045">blo sbyong brgyud pa'i gsol 'debs</rs> 'di | <rs type="person" ana="corpusmd:named_reference" ref="db:4066">chos smra ba'i btsun pa thogs pa med</rs> kyis sbyar ba'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex58042024-12-0515-50-412" status="finalized" ana="corpusmd:colophon">ces pa <rs type="work" ana="corpusmd:named_reference" ref="db:5045">blo sbyong brgyud pa'i gsol 'debs</rs> 'di | <rs type="person" ana="corpusmd:named_reference" ref="db:4066">chos smra ba'i btsun pa thogs pa med</rs> kyis sbyar ba'o ||</seg>
+</ab>
       <gap reason="omitted"/>
-      <ab><lb n="15a4"/> zhes <abbr>gsungs so</abbr> ||
+      <ab><seg type="shared" status="reviewed" part="M" next="ex58042024-12-0515-50-413"><lb n="15a4"/> zhes <abbr>gsungs so</abbr> ||
 sngon sbyangs las kyi 'phro pad pas | rang gi mos pa mar ba'i rgyus || babbr
  gtam ngan khyad bsad nas ||
          bdag 'dzin 'dul ba'i gdam ga zhus ||
-         da ni shi yang mi <abbr>'gyod do</abbr> || ces pa ni <abbr>rnal 'byor</abbr> kyi dam phyug chen po <rs type="person" ana="corpusmd:named_reference" ref="db:3874">'chad kha ba</rs>s <abbr>thugs</abbr>  <lb n="15a5"/> <abbr>legs</abbr> par sbyangs pas | bdag pas gzhan gces kyi thugs rang 'dod kyis khri ba gtan nas med pa skyes pa'i gden thob pa'i gsung yin no ||</ab>
+         da ni shi yang mi <abbr>'gyod do</abbr> || ces pa ni <abbr>rnal 'byor</abbr> kyi dam phyug chen po <rs type="person" ana="corpusmd:named_reference" ref="db:3874">'chad kha ba</rs>s <abbr>thugs</abbr>  <lb n="15a5"/> <abbr>legs</abbr> par sbyangs pas | bdag pas gzhan gces kyi thugs rang 'dod kyis khri ba gtan nas med pa skyes pa'i gden thob pa'i gsung yin no ||</seg>
+
+    </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Closing verses" unit="section"/>
+      <ab><seg type="excerpt" xml:id="ex58042024-12-0515-50-413" status="finalized" part="M" next="ex58042024-12-0515-50-41"><milestone n="Closing verses" unit="section"/>
          <lg><l><rs type="person" ana="corpusmd:named_reference" ref="db:7022"><abbr>grags</abbr> pa'i mtshan can <note type="gloss">mkhan chen bsod naMs ra sa brag phug pa'i bsgoM chen po</note><note type="editorial">Reading "ra sa brag phug" tentative.</note> chos rje</rs>'i bka' drin las |</l>
          <l><abbr>legs</abbr> par rnyed pa'i snyan rgyud <abbr>rin chen</abbr> gter ||</l>
         <l> dad ldan <lb n="15a6"/> slob mas bskul nas phye ba'i mthus ||</l> 
-         <l>'gro kun <abbr>byang chub</abbr> <abbr>thugs</abbr> 2 'byongs par shog ||</l></lg></ab>
+         <l>'gro kun <abbr>byang chub</abbr> <abbr>thugs</abbr> 2 'byongs par shog ||</l></lg></seg>
+         
+        </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="colophon" unit="section"/> 
+      <ab><seg type="excerpt" xml:id="ex58042024-12-0515-50-41" status="finalized" ana="corpusmd:colophon" part="M" next="ex058042025-11-1012-45-40"><milestone n="colophon" unit="section"/> 
        blo sbyong don bdun ma'i snyan brgyud tshig rnams | <abbr>yi ge</abbr> nyung du'i sgo nas dkrol ba 'di ||
-         <rs type="person" ana="corpusmd:named_reference" ref="db:7021">theg pa <abbr>mchog gi</abbr> <abbr>rnal 'byor</abbr> pa <abbr>grags</abbr> pa rgyal mtshan</rs> gyis yang dag yang du bskul nas <rs type="person" ana="corpusmd:named_reference" ref="db:4066">btsun <lb n="15a7"/> pa thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5692">chos <abbr>rdzongs</abbr></rs> <abbr>su</abbr> sbyar ba'o || shub+haM ||</ab>
+         <rs type="person" ana="corpusmd:named_reference" ref="db:7021">theg pa <abbr>mchog gi</abbr> <abbr>rnal 'byor</abbr> pa <abbr>grags</abbr> pa rgyal mtshan</rs> gyis yang dag yang du bskul nas <rs type="person" ana="corpusmd:named_reference" ref="db:4066">btsun <lb n="15a7"/> pa thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5692">chos <abbr>rdzongs</abbr></rs> <abbr>su</abbr> sbyar ba'o || shub+haM ||</seg>
+
+         </ab>
     </body>
   </text>
 </TEI>

@@ -107,8 +107,10 @@ Note in dbu med on top of fol. 27a.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Addition 1 (81a5): Ownership"/>
+      <ab>
+        <seg type="excerpt" xml:id="ex66042023-09-091209" status="finalized" ana="corpusmd:post_colophon"><milestone unit="section" n="Addition 1 (81a5): Ownership"/>
               <rs type="person" ana="corpusmd:named_reference" ref="db:5835"><abbr>chos skyong</abbr> dpal ldan</rs> gyi dpe'o
+      </seg>
       </ab>
     </body>
   </text>

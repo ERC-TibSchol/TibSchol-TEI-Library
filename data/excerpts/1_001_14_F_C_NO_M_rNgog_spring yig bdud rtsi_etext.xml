@@ -110,40 +110,60 @@ Insertions by two different hands, in dbu med (1b4, 2a7) and dbu can (2a1).</add
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page in (ID:4446) (1a)"/>
+      <ab><seg type="excerpt" xml:id="ex1142023-05-24.18.06" status="finalized">
+         <milestone unit="section" n="Cover page in (ID:4446) (1a)"/>
          <pb edRef="inst:4446" n="1a"/><lb edRef="inst:4446" n="1a1"/>
-    phyi <lb edRef="inst:4446" n="1a2"/> la <lb edRef="inst:4446" n="1a3"/> 281 <lb edRef="inst:4446" n="1a4"/> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">rngog lo chen po blo ldan shes rab</rs> kyi <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring yig <abbr>bdud rtsi</abbr>'i <abbr>thig le</abbr></rs> <choice><reg>zhugs so</reg><orig>(°°°o)</orig></choice></ab>
+    phyi <lb edRef="inst:4446" n="1a2"/> la <lb edRef="inst:4446" n="1a3"/> 281 <lb edRef="inst:4446" n="1a4"/> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">rngog lo chen po blo ldan shes rab</rs> kyi <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring yig <abbr>bdud rtsi</abbr>'i <abbr>thig le</abbr></rs> <choice><reg>zhugs so</reg><orig>(°°°o)</orig></choice></seg>
+   </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page in (ID:6273) (1a)"/><pb edRef="inst:6273" n="1a"/><lb edRef="inst:6273" n="1a1"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring yig bdud rtsi'i thigs pa</rs> <abbr>bzhugs so</abbr> ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex001142025-07-1710-57-23" status="finalized"><milestone unit="section" n="Cover page in (ID:6273) (1a)"/><pb edRef="inst:6273" n="1a"/><lb edRef="inst:6273" n="1a1"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring yig bdud rtsi'i thigs pa</rs> <abbr>bzhugs so</abbr> ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Incipit in (ID:6273)" unit="section"/>
-<lb edRef="inst:6273" n="1b1"/> rgya gar skad du || <rs type="work" ana="corpusmd:named_reference" ref="db:4447">le kha a mrï ta ti la ka nA ma kA ri ka</rs> || bod skad du || <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring yig bdud rtsi'i thigs pa</rs> zhes bya ba || 'jig rten dbang phyug la phyag 'tshal lo ||</ab>
+      <ab><seg type="excerpt" xml:id="ex001142025-07-1710-52-15" status="finalized"><milestone n="Incipit in (ID:6273)" unit="section"/>
+<lb edRef="inst:6273" n="1b1"/> rgya gar skad du || <rs type="work" ana="corpusmd:named_reference" ref="db:4447">le kha a mrï ta ti la ka nA ma kA ri ka</rs> || bod skad du || <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring yig bdud rtsi'i thigs pa</rs> zhes bya ba || 'jig rten dbang phyug la phyag 'tshal lo ||</seg>
+   </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="10"/>
+      <ab><seg type="excerpt" xml:id="ex1142023-05-25.09.22" status="finalized">
+         <milestone unit="section" n="10"/>
         <lg> <l>chos rnaMs rang <abbr>bzhin</abbr> stong pa'i tshul la 'jug pa'i sgo || </l>
 <l> yang dag <rs type="work" ana="corpusmd:named_reference" ref="db:5632">rigs <abbr>tshogs</abbr></rs> <rs type="person" ref="db:3720" ana="corpusmd:named_reference">klu grub</rs> zhal nas gsungs pa de ||</l>
          <l><rs type="person" ref="db:3773" ana="corpusmd:unnamed_reference">rigs pa'i dbang <lb n="1b8"/> phyug <rs type="work" ana="corpusmd:named_reference" ref="db:3772">rnaM 'grel</rs> mdzad pa</rs>'i gzhung mdzes las ||</l></lg>
-      </ab>
+      </seg>
+      
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="27"/>
+      <ab><seg type="excerpt" xml:id="ex1142023-07-1812-11-35" status="finalized">
+         <milestone unit="section" n="27"/>
         <lg> <l>
             <abbr>sangs rgyas</abbr> sprul pa'i sku <abbr>tshogs</abbr> ni ||</l> 
             <l>gzhan gyi rnaM rig snang pa<anchor xml:id="a21"/> ste ||</l> 
             <l>brgya byin <abbr>gzugs</abbr> brnyan <abbr>la sogs</abbr> dpe' ||</l> 
-            <l><rs type="work" ana="corpusmd:unnamed_reference" ref="db:5633">mdo</rs> nas ji skad gsung de <abbr>bzhin</abbr> ||</l></lg></ab>
+            <l><rs type="work" ana="corpusmd:unnamed_reference" ref="db:5633">mdo</rs> nas ji skad gsung de <abbr>bzhin</abbr> ||</l></lg></seg>
+         
+
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon in instance (ID:4446) (2b1)"/>
-         <rs type="person" ref="db:3786" ana="corpusmd:named_reference">dge slong blo ldan shes rab</rs> kyis || <rs type="person" ana="corpusmd:named_reference" ref="db:5630">rga ston shes rab grags laswo pa</rs> <rs type="place" ana="corpusmd:named_reference" ref="db:5631">gtsong kha ru gsuM</rs> gyi dge 'dun la <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring pa'i <abbr>yi ge</abbr> bdud rtsi thig le</rs> zhes bya ba <abbr>rdzogs s+ho</abbr> ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex1114_3442023_05_08" status="edited" ana="corpusmd:colophon">
+         <milestone unit="section" n="Colophon in instance (ID:4446) (2b1)"/>
+         <rs type="person" ref="db:3786" ana="corpusmd:named_reference">dge slong blo ldan shes rab</rs> kyis || <rs type="person" ana="corpusmd:named_reference" ref="db:5630">rga ston shes rab grags laswo pa</rs> <rs type="place" ana="corpusmd:named_reference" ref="db:5631">gtsong kha ru gsuM</rs> gyi dge 'dun la <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring pa'i <abbr>yi ge</abbr> bdud rtsi thig le</rs> zhes bya ba <abbr>rdzogs s+ho</abbr> ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon in instance (ID:6273) (2b4-2b5)"/>
-   <rs type="person" ref="db:3786" ana="corpusmd:named_reference">lo tsa ba chen po shAkya'i dge slong blo ldan shes rab</rs> kyis || <rs type="person" ana="corpusmd:named_reference" ref="db:5630">dga' <lb edRef="6273" n="2b5"/> ston shes rab grags</rs> la sogs pa <rs type="place" ana="corpusmd:named_reference" ref="db:5631">tsong ka ru gsum</rs> gyi dge 'dun la <rs type="work" ana="corpusmd:named_reference" ref="db:4447">springs pa'i yi ge bdud rtsi'i thig le</rs> zhes bya ba rdzogs so || || </ab>
+      <ab><seg type="excerpt" xml:id="ex001142025-07-1711-14-01" status="edited" ana="corpusmd:colophon">
+   <milestone unit="section" n="Colophon in instance (ID:6273) (2b4-2b5)"/>
+   <rs type="person" ref="db:3786" ana="corpusmd:named_reference">lo tsa ba chen po shAkya'i dge slong blo ldan shes rab</rs> kyis || <rs type="person" ana="corpusmd:named_reference" ref="db:5630">dga' <lb edRef="6273" n="2b5"/> ston shes rab grags</rs> la sogs pa <rs type="place" ana="corpusmd:named_reference" ref="db:5631">tsong ka ru gsum</rs> gyi dge 'dun la <rs type="work" ana="corpusmd:named_reference" ref="db:4447">springs pa'i yi ge bdud rtsi'i thig le</rs> zhes bya ba rdzogs so || || </seg>
+</ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Carving Colophon in (ID:6273) only (2b-5)"/>
+      <ab>
+        <seg type="excerpt" xml:id="ex001142025-07-1711-14-02" status="reviewed">
+   <milestone unit="section" n="Carving Colophon in (ID:6273) only (2b-5)"/>
 <lg><l>stong nyid 'chi med bdud rtsi'i bcud || </l>
 <l>thugs skyed dpag bsam 'dod 'jor ni || </l>
 <l>gang drangs rkos byed dga' bde'i dpal ||</l> 
 <l>bris pa <rs type="person" ana="corpusmd:named_reference" ref="db:6275">shes rab bzang po</rs> yin | </l></lg>
-shubhaM ||</ab>
+shubhaM ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

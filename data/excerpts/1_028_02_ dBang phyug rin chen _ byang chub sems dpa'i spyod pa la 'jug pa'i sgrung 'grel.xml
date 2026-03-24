@@ -100,19 +100,23 @@ Proofread (zhus dag).</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Title page (1a)"/>
-         <lb n="1a1"/> phyi <lb n="1a2"/> tsa <lb n="1a3"/> 79 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4665"><rs type="work" ana="corpusmd:named_reference" ref="db:3772">byang chub sems pa'i spyod pa la 'jug pa</rs>'i sgrung 'grel</rs> bzhugs so ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex28022025-07-1710-30-10" status="reviewed">
+         <milestone unit="section" n="Title page (1a)"/>
+         <lb n="1a1"/> phyi <lb n="1a2"/> tsa <lb n="1a3"/> 79 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4665"><rs type="work" ana="corpusmd:named_reference" ref="db:3772">byang chub sems pa'i spyod pa la 'jug pa</rs>'i sgrung 'grel</rs> bzhugs so ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Incipit (1b1-1b3)"/>
+      <ab><seg type="excerpt" xml:id="ex28022025-07-1710-30-09" status="reviewed"> <milestone unit="section" n="Incipit (1b1-1b3)"/>
         <lb n="1b1"/> || || o swa stisidd+haM || <rs type="work" ana="corpusmd:named_reference" ref="db:4665"><rs type="work" ana="corpusmd:named_reference" ref="db:3772">byang chub sems dpa'i spyod pa la 'jug pa</rs>'i sgrungs 'grel</rs> las 'bras gsal ba'i me long zhes bya ba ¦ sangs rgyas dang byang chub sems dpa' <abbr>thams cad</abbr> la phyag <abbr>'tshal lo</abbr> ||
       
          
             <lg><l>thub dbang <lb n="1b2"/> zhabs rdul mgos mchod nas ||</l> 
             <l>spyod phyogs <rs type="place">gling bzhi</rs> bshad do zhes ||</l>
          <l>de gsung <rs type="person" ana="corpusmd:named_reference" ref="db:5570">smra ti</rs><!--smriti-->'i lugs bzhin bri ||</l> 
-            <l>dge bsam yid bzhin 'grub gyur cig |</l></lg> </ab>
+            <l>dge bsam yid bzhin 'grub gyur cig |</l></lg> </seg> 
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Closing verses (39b5-39b7)"/>
+      <ab><seg type="excerpt" xml:id="ex28022024-09-2015-39-312" status="finalized" ana="corpusmd:colophon" part="M" next="ex28022024-09-2015-39-31"><milestone unit="section" n="Closing verses (39b5-39b7)"/>
          <lg><l>thub pa'i gsung dang de'i dgongs <lb edRef="inst:4664" n="39b6"/> 'grel <lb edRef="inst:6858" n="529.4"/> rnams ||</l> 
             <l>spang <app><lem wit="inst:4664">spang</lem><rdg wit="inst:4664">spang</rdg><rdg wit="inst:6858">dpang</rdg></app> du byas <app><lem wit="inst:4664">ste</lem><rdg wit="inst:4664">ste</rdg><rdg wit="inst:6858">te</rdg></app> legs par bshad mod na'ang ¦</l> 
             <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:6857">bdag</rs> blo byis pa'i dbang gyur <lb edRef="inst:6858" n="529.5"/> 'gal 'khrul rnams ||</l> 
@@ -124,16 +128,20 @@ Proofread (zhus dag).</additional></physDesc></sourceDesc>
            <l> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:6857">bdag</rs> kyang <lb edRef="inst:6858" n="529.8"/> <rs type="deity">'jam pa'i dbyangs</rs> kyis rjes bzung ste ||</l> 
             <l>thos bsaM sgom pa'i dpal 'byor gyis <lb edRef="inst:6858" n="529.9"/> phyug cing ||</l> 
             <l><abbr>'bras bu</abbr> sku 4'i dngos grub myur thob nas ||</l> 
-            <l><rs type="deity">kun tu bzang po</rs>'i dpal la <lb edRef="inst:6858" n="529.10"/> spyod par shog ||</l> </lg></ab>
+            <l><rs type="deity">kun tu bzang po</rs>'i dpal la <lb edRef="inst:6858" n="529.10"/> spyod par shog ||</l> </lg></seg>
+      
+            </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon"/><note type="editorial">(ID:6858) does not consider the double shad-s up to "lags". The first two lines are metrical (6 syllables), but not the last portion.</note>
+      <ab><seg type="excerpt" xml:id="ex28022024-09-2015-39-31" status="finalized" ana="corpusmd:colophon" part="M" next="ex028022025-10-1315-25-30">
+      <milestone unit="section" n="Colophon"/><note type="editorial">(ID:6858) does not consider the double shad-s up to "lags". The first two lines are metrical (6 syllables), but not the last portion.</note>
          <l><choice><reg>dpe'</reg><orig>dpe‹'›</orig></choice> legs la dag pa 'di ||</l>
          <l><rs type="person" ana="corpusmd:named_reference" ref="db:6857">dge ba'i bshes gnyen dam pa</rs> ||</l>
         <l><rs type="person" ana="corpusmd:named_reference" ref="db:6857"><abbr>yon tan</abbr> dbang phyug</rs> gis <lb edRef="inst:4664" n="39b8"/> bsam pa bzang ba'i <choice><corr>bsgo</corr><orig>dgo bsgo</orig></choice><note type="editorial">We follow (ID:6858) - which reads "sgo" - in considering "dgo" to be a scribal mistake that was not deleted.</note> nas × bzhengs pa lags || </l> 
-            </ab>
+            </seg>
+
+      </ab>
       <gap reason="omitted"/>
-      <ab>
-        <note type="editorial">(ID:6858) only reads "man+ga laM | shu b+haM".</note>
+      <ab><seg type="shared" xml:id="ex028022025-10-1315-25-30" status="reviewed" part="F">maMgalaMb+hawatu: shub+haM: zhus dag | dge |<note type="editorial">(ID:6858) only reads "man+ga laM | shu b+haM".</note></seg>
       </ab>
     </body>
   </text>

@@ -104,10 +104,13 @@ Some corrections, but no annotations.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:named_reference" ref="db:7022">grags pa'i mtshan can chos rje</rs>'i bka' drin las | legs par rnyed pa'i snyan rgyud <abbr>rin chen</abbr> gter || dad ldan slob mas bskul <lb n="20b3"/> nas phye ba'i mthus || 'gro kun byang chub sems 2 'byongs par shog || </ab>
+      <ab><seg type="excerpt" xml:id="ex58062024-12-0515-50-413" status="finalized"><rs type="person" ana="corpusmd:named_reference" ref="db:7022">grags pa'i mtshan can chos rje</rs>'i bka' drin las | legs par rnyed pa'i snyan rgyud <abbr>rin chen</abbr> gter || dad ldan slob mas bskul <lb n="20b3"/> nas phye ba'i mthus || 'gro kun byang chub sems 2 'byongs par shog || </seg>
+               
+               </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="colophon" unit="section"/>blo sbyong don bdun ma'i snyan rgyud kyi tshig rnams <abbr>yi ge</abbr> nyung ngu'i sgo
-               <lb n="20b4"/> nas bkrol ba 'di | <rs type="person" ana="corpusmd:named_reference" ref="db:7021">theg pa mchog gi rnor pa grags pa rgyal mtshan</rs> kyis yang yang du bskul nas | <rs type="person" ana="corpusmd:named_reference" ref="db:4066">btsun pa thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5692">chos <lb n="20b5"/> rdzong</rs> du sbyar ba'o || 'dis 'gro ba dpag tu med pa la phan pa rgya chen po bsgrub nus par gyur 1 ||</ab>
+      <ab><seg type="excerpt" xml:id="ex58062024-12-0515-50-41" status="finalized" ana="corpusmd:colophon"><milestone n="colophon" unit="section"/>blo sbyong don bdun ma'i snyan rgyud kyi tshig rnams <abbr>yi ge</abbr> nyung ngu'i sgo
+               <lb n="20b4"/> nas bkrol ba 'di | <rs type="person" ana="corpusmd:named_reference" ref="db:7021">theg pa mchog gi rnor pa grags pa rgyal mtshan</rs> kyis yang yang du bskul nas | <rs type="person" ana="corpusmd:named_reference" ref="db:4066">btsun pa thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5692">chos <lb n="20b5"/> rdzong</rs> du sbyar ba'o || 'dis 'gro ba dpag tu med pa la phan pa rgya chen po bsgrub nus par gyur 1 ||</seg>
+               </ab>
     </body>
   </text>
 </TEI>

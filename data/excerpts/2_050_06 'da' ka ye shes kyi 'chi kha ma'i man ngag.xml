@@ -101,11 +101,17 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Annotations top page (1a)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4848">'da' ka <abbr>ye shes</abbr> kyi 'chi kha ma'i man ngag</rs> <abbr>bzhugs so</abbr> || × <l>phyi</l> <l>la</l> <l>550</l></ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex50062024-07-1216-01-36" status="finalized" part="I"><milestone unit="section" n="Annotations top page (1a)"/><rs type="work" ana="corpusmd:named_reference" ref="db:4848">'da' ka <abbr>ye shes</abbr> kyi 'chi kha ma'i man ngag</rs> <abbr>bzhugs so</abbr> || × <l>phyi</l> <l>la</l> <l>550</l></seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (2b4)"/><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4052">bla ma snar thang pa</rs>'i phyag dpe las <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa ze'u</rs>s bris shing zhus te dag par <abbr>byas so</abbr> ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex50062023-09-12-09" ana="corpusmd:colophon" status="finalized" part="M" next="ex50062023-09-19-13"><milestone unit="section" n="Colophon (2b4)"/><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4052">bla ma snar thang pa</rs>'i phyag dpe las <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa ze'u</rs>s bris shing zhus te dag par <abbr>byas so</abbr> ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon annotation (2b4)"/> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pas bsngags pa'i gnas snar thang</rs> du bris pa'o ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex50062023-09-19-13" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Post-colophon annotation (2b4)"/> <rs type="place" ana="corpusmd:named_reference" ref="db:4411">daM pas bsngags pa'i gnas snar thang</rs> du bris pa'o ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

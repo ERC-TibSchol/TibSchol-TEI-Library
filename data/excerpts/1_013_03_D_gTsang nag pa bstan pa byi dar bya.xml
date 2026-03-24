@@ -114,8 +114,8 @@ Orthography:&#13;
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab>
-        <lg><l>de ltar sangs rgyas bstan pa'i don chen sgran ||</l>
+      <ab><seg type="excerpt" xml:id="ex13032023-09-0715-44-14" status="finalized" part="M" next="ex13032023-07-2512-47-06">
+<lg><l>de ltar sangs rgyas bstan pa'i don chen sgran ||</l>
 <l>chos 'jig <lb n="5a2"/> ces ltar snang ba mang po yis ||</l>
 <l>zhing 'dir ring por mi thogs <choice><reg>zhub</reg><orig>'dub/zhub (?)</orig></choice> 'gyur bas ||</l>
 <l>skyes bu spyad ldan rnaMs kyi <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3839">brtson 'grus</rs> <lb n="5a3"/> gyis ||</l>
@@ -126,12 +126,14 @@ Orthography:&#13;
 <l>bstan pa'i gzhi dang rgyas dbye' bsgrub pa la |</l> 
 <l><lb n="5a5"/> yang dag yang dag ma yin rnam dbye' dang ||</l>
 <l><note type="gloss">cha</note> rang gyi kun spyod gtam pa rnaM lnga 'di ||</l>
-<l>shag kya'i bstan la rnaM <lb n="5a6"/> dag byi dor yin ||</l></lg>
-      </ab>
+<l>shag kya'i bstan la rnaM <lb n="5a6"/> dag byi dor yin ||</l></lg></seg>
+</ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (5a6-5a7)"/>
+      <ab><seg type="excerpt" xml:id="ex13032023-07-2512-47-06" status="finalized" ana="corpusmd:colophon"> 
+      <milestone unit="section" n="Colophon (5a6-5a7)"/>
      <rs type="work" ana="corpusmd:named_reference" ref="db:4555">bston pa'i bstan pa la byi dor bya ba'i tshigs su gcad pa lnga bcu pa</rs> || 
-         <lb n="5a7"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">shag kya'i dge slong <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">gtsang nag pa</rs></note> brtson 'grus seng ge</rs>s sbyar ba || || Ïti ||<note type="translation">The Fifty Verses Cleansing the Teacher's Teaching, composed by the Shakya monk brTson 'grus seng ge.</note></ab>
+         <lb n="5a7"/> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">shag kya'i dge slong <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3839">gtsang nag pa</rs></note> brtson 'grus seng ge</rs>s sbyar ba || || Ïti ||<note type="translation">The Fifty Verses Cleansing the Teacher's Teaching, composed by the Shakya monk brTson 'grus seng ge.</note></seg>
+      </ab>
     </body>
   </text>
 </TEI>

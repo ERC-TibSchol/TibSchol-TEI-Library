@@ -118,10 +118,13 @@ The bottom part of the last line on fol. 4a, 5a, and 6a has been cut off in the 
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><pb n="1a"/><lb n="1a1"/><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">slob dpon 'phags pa</rs> rnaMs la phyag 'tshal lo || 
-               <rs type="person" ana="corpusmd:named_reference" ref="db:3701">slob dpon 'phags pa</rs>s mdzad pa'i bstan chos <rs type="work" ana="corpusmd:named_reference" ref="db:3721">bzhis brgya pa bshad pa</rs> la 'jug par bya'o || </ab>
+      <ab><seg type="shared" status="reviewed" xml:id="ex013042025-10-1012-25-52" part="I" next="ex013042025-10-1012-25-00"><pb n="1a"/><lb n="1a1"/><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">slob dpon 'phags pa</rs> rnaMs la phyag 'tshal lo || 
+               <rs type="person" ana="corpusmd:named_reference" ref="db:3701">slob dpon 'phags pa</rs>s mdzad pa'i bstan chos <rs type="work" ana="corpusmd:named_reference" ref="db:3721">bzhis brgya pa bshad pa</rs> la 'jug par bya'o || </seg>
+
+               </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon (6b4-6b5)" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4557"><rs type="work" ana="corpusmd:named_reference" ref="db:3721">byang chub seMs pa'i rnal 'byor spyod pa bzhi' <lb n="6b5"/> <choice><reg>brgya</reg><orig>°</orig></choice> pa</rs>'i dka' ba'i gnas bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">dbu ma smra ba'i dge' slong brtson 'grus seng nge</rs>s sbyar ba || Ithi ||<note type="translation">An explanation of difficult points of the Boddhisattvayogācāracatuḥśataka. Composed by the Mādhyamika monk brtson 'grus seng ge. The end.</note></ab>
+      <ab><seg type="excerpt" xml:id="ex13042024-10-2411-43-47" status="finalized" ana="corpusmd:colophon"><milestone n="Colophon (6b4-6b5)" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4557"><rs type="work" ana="corpusmd:named_reference" ref="db:3721">byang chub seMs pa'i rnal 'byor spyod pa bzhi' <lb n="6b5"/> <choice><reg>brgya</reg><orig>°</orig></choice> pa</rs>'i dka' ba'i gnas bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3839">dbu ma smra ba'i dge' slong brtson 'grus seng nge</rs>s sbyar ba || Ithi ||<note type="translation">An explanation of difficult points of the Boddhisattvayogācāracatuḥśataka. Composed by the Mādhyamika monk brtson 'grus seng ge. The end.</note></seg>
+               </ab>
     </body>
   </text>
 </TEI>

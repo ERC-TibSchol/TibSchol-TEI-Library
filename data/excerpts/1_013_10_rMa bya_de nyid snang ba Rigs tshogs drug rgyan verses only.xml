@@ -101,8 +101,9 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="colophon" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4569">dbu ma de kho na nyid snang ba'i rtsa ba</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3842">shAkya'i dge slong byang chub brtson 'grus</rs> kyis sbyar ba'o ||
-         SHu lo ka lnga bcu rtsa brgyad yod do || dge'o || bkra shis par gyur cig ||| <note type="gloss">zhus dag go |</note></ab>
+      <ab><seg type="excerpt" xml:id="ex1310_2024-09-131" status="edited" ana="corpusmd:colophon"><milestone n="colophon" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4569">dbu ma de kho na nyid snang ba'i rtsa ba</rs> | <rs type="person" ana="corpusmd:named_reference" ref="db:3842">shAkya'i dge slong byang chub brtson 'grus</rs> kyis sbyar ba'o ||
+         SHu lo ka lnga bcu rtsa brgyad yod do || dge'o || bkra shis par gyur cig ||| <note type="gloss">zhus dag go |</note></seg>
+         </ab>
     </body>
   </text>
 </TEI>

@@ -55,8 +55,7 @@
             <p/>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">50 x 7.8</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
 Missing folio: 1.&#13;
-The signature is written on top of fol. 2a.&#13;
-No interlinear annotations.</additional></physDesc></sourceDesc>
+The signature is written on top of fol. 2a.</additional></physDesc></sourceDesc>
       <respStmt><principal>
                <name ref="corpusmd:PH">Pascale Hugon</name>
             </principal>
@@ -104,7 +103,7 @@ No interlinear annotations.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Conclusive verses (140b1–140b3)"/>
+      <ab><seg type="shared" xml:id="ex009032026-03-0211-02-14" status="reviewed">  <milestone unit="section" n="Conclusive verses (140b1–140b3)"/>
          <milestone unit="section" n="1"/>
         <lg><l>rtsa ba rang bzhin rgyan mdzes 'grel pa gsal byed rgyan |</l>
          <l>de ltar <note type="editorial">Read: ji ltar</note> slob dpon mkhas pas tshig don <lb n="140b2"/> rab du brgyan ||</l>
@@ -136,7 +135,8 @@ Analysis of the words and their meaning, having put one’s trust in the teachin
       <note type="translation">Which are accepted because they are followed and relied on by those whose gait is like that of the excellent bull,
 Are the foundation, the source for the auspiciousness, which is equal to wholesomeness.
 What a surprise that worldly people are unable to accept or reject (them)! (or, ironically: What a big wonder for the worldly people who are unable to accept or reject (them)!)
-</note></ab>
+</note></seg>
+      </ab>
     </body>
   </text>
 </TEI>

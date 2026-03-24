@@ -101,8 +101,10 @@ Proofread once (zhus dag lan cig byas_so).</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (202a3-4)"/>
-        <rs type="work" ana="corpusmd:named_reference" ref="db:4618"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud <lb n="202a4"/> bla ma</rs>'i 'grel pa mdo dang sbyar ba nges pa'i don gyi snang ba</rs> zhes bya ba ¦ theg pa chen po la mos pa cung zad thob pa <rs type="person" ana="corpusmd:named_reference" ref="db:4619">rin chen ye shes</rs> zhes bya bas <note type="gloss">sbyar ba</note> re shig rdzogs so ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex020012025-05-2215-49-11" status="finalized" ana="corpusmd:colophon">   <milestone unit="section" n="Colophon (202a3-4)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:4618"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud <lb n="202a4"/> bla ma</rs>'i 'grel pa mdo dang sbyar ba nges pa'i don gyi snang ba</rs> zhes bya ba ¦ theg pa chen po la mos pa cung zad thob pa <rs type="person" ana="corpusmd:named_reference" ref="db:4619">rin chen ye shes</rs> zhes bya bas <note type="gloss">sbyar ba</note> re shig rdzogs so ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

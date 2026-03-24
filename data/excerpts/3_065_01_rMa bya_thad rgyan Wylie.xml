@@ -101,7 +101,7 @@ Miniatures on the left and right of fol. 1b.</additional></physDesc></sourceDesc
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Conclusive verses" unit="section"/>
+      <ab><seg type="shared" xml:id="ex065012025-11-1115-56-27" status="reviewed" part="M" next="ex65012025-04-2211-29-06"> <milestone n="Conclusive verses" unit="section"/>
         <lg> <l>thub pa'i dbang pos lung bstan rgyal sras 'phags pa yi ||</l> 
         <l> <rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma'i bstan 'chos shes rab rtsa ba</rs> rdo rje'i ngag | </l>
          <l>lung rigs mkhas rnams rim par brgyad pa'i man ngag dang ||</l>
@@ -109,10 +109,14 @@ Miniatures on the left and right of fol. 1b.</additional></physDesc></sourceDesc
         <lg><l> blo gsal don gnyer skye bos bskul zhing phan blo yis ||</l>
          <l>gzhung 'di legs par bkod pa'i bsod <lb n="155a3"/> nams 'di yis ni ||</l>
          <l>'gro kun yang dag rigs tshogs lam 'dir zhugs gyur nas ||</l>
-         <l>ma rig spros kun zhi ba'i go 'phang mchog thob shog ||</l></lg></ab>
+         <l>ma rig spros kun zhi ba'i go 'phang mchog thob shog ||</l></lg></seg>
+
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon (155a3-155a5)" unit="section"/>
-         shes rab kyi pha rol tu phyin pa'i tshul phyin ci ma log par gsal bar byed pa | <rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon bdag nyid chen po 'phags pa klu sgrub</rs> kyis mdzad pa <rs type="work" ana="corpusmd:named_reference" ref="db:5137"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba'i <lb n="155a4"/> bstan 'chos</rs> kyi 'grel pa 'thad pa'i rgyan</rs> ces bya ba | <rs type="deity">bde bar gshegs pa</rs>'i bstan pa lnga brgya bdun pa la <rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs ri'i khrod</rs> du byung ba | rang dang gzhan gyi grub pa'i mtha' rgya mtsho'i pha rol tu son pa | lung dang rigs pas phyug cing zab pa dang rgya che ba'i don la ma rmongs pa <rs type="person" ana="corpusmd:named_reference" ref="db:3842">shAkya'i dge slong dbu ma smra ba byang <lb n="155a5"/> chub brtson 'grus</rs> kyis legs par sbyar ba rdzogs so ||</ab>
+      <ab><seg type="excerpt" xml:id="ex65012025-04-2211-29-06" status="finalized" part="M">
+         <milestone n="Colophon (155a3-155a5)" unit="section"/>
+         shes rab kyi pha rol tu phyin pa'i tshul phyin ci ma log par gsal bar byed pa | <rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon bdag nyid chen po 'phags pa klu sgrub</rs> kyis mdzad pa <rs type="work" ana="corpusmd:named_reference" ref="db:5137"><rs type="work" ana="corpusmd:named_reference" ref="db:3715">dbu ma rtsa ba'i <lb n="155a4"/> bstan 'chos</rs> kyi 'grel pa 'thad pa'i rgyan</rs> ces bya ba | <rs type="deity">bde bar gshegs pa</rs>'i bstan pa lnga brgya bdun pa la <rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs ri'i khrod</rs> du byung ba | rang dang gzhan gyi grub pa'i mtha' rgya mtsho'i pha rol tu son pa | lung dang rigs pas phyug cing zab pa dang rgya che ba'i don la ma rmongs pa <rs type="person" ana="corpusmd:named_reference" ref="db:3842">shAkya'i dge slong dbu ma smra ba byang <lb n="155a5"/> chub brtson 'grus</rs> kyis legs par sbyar ba rdzogs so ||</seg>
+         </ab>
     </body>
   </text>
 </TEI>

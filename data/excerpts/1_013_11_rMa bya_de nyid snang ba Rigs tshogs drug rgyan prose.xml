@@ -102,9 +102,12 @@ Numerous glosses identifying the Tibetan proponents of the views referred to in 
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Cover page (1a)" unit="section"/> <pb n="1a"/><lb n="1a1"/>phyi <lb n="2"/> tsa <lb n="1a3"/> 84 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4571"><rs type="work" ana="corpusmd:named_reference" ref="db:5632">dbu ma <abbr>rigs</abbr> <abbr>tshogs</abbr></rs> kyi rgyan de nyid snang ba</rs> bzhugs so ||</ab>
+      <ab><seg type="shared" status="reviewed" xml:id="ex13112025-10-0208-24-04" part="I" next="ex13112025-10-0208-24-44">
+           <milestone n="Cover page (1a)" unit="section"/> <pb n="1a"/><lb n="1a1"/>phyi <lb n="2"/> tsa <lb n="1a3"/> 84 <lb n="1a4"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4571"><rs type="work" ana="corpusmd:named_reference" ref="db:5632">dbu ma <abbr>rigs</abbr> <abbr>tshogs</abbr></rs> kyi rgyan de nyid snang ba</rs> bzhugs so ||</seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Incipit (1b)" unit="section"/>
+      <ab><seg type="shared" status="reviewed" xml:id="ex13112025-10-0208-24-44" part="M">
+         <milestone n="Incipit (1b)" unit="section"/>
         <milestone n="Title" unit="section"/> <pb n="1b"/><lb n="1b1"/>
         <rs type="work" ana="corpusmd:named_reference" ref="db:4571">dbu ma rigs pa'i tshogs kyi rgyan de kho na nyid snang ba</rs> zhes bya ba | 
         <milestone n="Invocation" unit="section"/>
@@ -128,11 +131,15 @@ Numerous glosses identifying the Tibetan proponents of the views referred to in 
         <lg><l><lb n="1b3"/> de ltar don 'di shin du gsal mod kyang ||</l>
         <l>skye bo phal cher chags sdang rmongs pa yis ||</l>
         <l>legs bshad nyes bshad rnam par mi phyed pas ||</l> 
-        <l>dbu ma'i de nyid ji bzhin bstan phyir brtsam ||</l></lg></ab>
+        <l>dbu ma'i de nyid ji bzhin bstan phyir brtsam ||</l></lg></seg>
+        </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (34a7-34a9)"/>
+      <ab>
+        <seg type="excerpt" xml:id="ex1310-13112023-09-15-112027" status="edited" ana="corpusmd:colophon">
+         <milestone unit="section" n="Colophon (34a7-34a9)"/>
             <rs type="person">bde bar gshegs pa</rs>'i bka' rab 'byam gyi don gsal bar byed pa <rs type="person" ref="db:3720" ana="corpusmd:named_reference">slob dpon bdag nyid chen po 'phags pa klu grub</rs> kyi <rs type="work" ref="db:4569" ana="corpusmd:named_reference"><rs type="work" ana="corpusmd:named_reference" ref="db:5632">dbu ma rigs pa'i tshogs</rs> kyi rgyan de kho na nyid snang ba</rs> zhes bya ba <lb n="34a8"/> snyigs ma'i dus na bde bar gshegs pa <app><lem wit="">'i bstan pa</lem><!--cf. id:5136, 155a4--><rdg wit="inst:4570">°°°°</rdg></app>
-            lnga brgya bdun pa la <rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs ri'i khrod la kha ba can gyi ljongs</rs> su 'khrungs pa | brtul zhugs kyi khur 'dzin cing bka' dang bstan bcos kyi gzhung rab 'byam la rtogs pa'i snang ba thob pa'i mkhas pa'i skye bo dam pa du ma bsten pa yis bstan pa'i khur 'dzin cing zab mo'i don la rigs pa'i dbang phyug du gyur pa lta ba ngan pa'i rgol ba <lb n="34a9"/> ma lus par 'joms par mdzad pa | <rs type="person" ref="db:3842" ana="corpusmd:named_reference">shag kya'i dge slong byang chub brtson 'grus </rs> kyis sbyar ba || rdzogs s+ho || || dge'o || bde legs su gyur cig |||</ab>
+            lnga brgya bdun pa la <rs type="place" ana="corpusmd:named_reference" ref="db:5559">gangs ri'i khrod la kha ba can gyi ljongs</rs> su 'khrungs pa | brtul zhugs kyi khur 'dzin cing bka' dang bstan bcos kyi gzhung rab 'byam la rtogs pa'i snang ba thob pa'i mkhas pa'i skye bo dam pa du ma bsten pa yis bstan pa'i khur 'dzin cing zab mo'i don la rigs pa'i dbang phyug du gyur pa lta ba ngan pa'i rgol ba <lb n="34a9"/> ma lus par 'joms par mdzad pa | <rs type="person" ref="db:3842" ana="corpusmd:named_reference">shag kya'i dge slong byang chub brtson 'grus </rs> kyis sbyar ba || rdzogs s+ho || || dge'o || bde legs su gyur cig |||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

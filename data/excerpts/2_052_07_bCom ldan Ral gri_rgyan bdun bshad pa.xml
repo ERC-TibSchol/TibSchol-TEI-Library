@@ -100,8 +100,9 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon (4a4)" unit="section"/>
-       <rs type="work" ana="corpusmd:named_reference" ref="db:4920">rgyan bdun bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s sbyar ba <abbr>rdzog so</abbr> || dge <abbr>legs</abbr> su gyur cig ||</ab>
+      <ab><seg type="excerpt" xml:id="ex52072025-09-0816-09-07" status="finalized" part="F"><milestone n="Colophon (4a4)" unit="section"/>
+       <rs type="work" ana="corpusmd:named_reference" ref="db:4920">rgyan bdun bshad pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs>s sbyar ba <abbr>rdzog so</abbr> || dge <abbr>legs</abbr> su gyur cig ||</seg> ||
+</ab>
     </body>
   </text>
 </TEI>

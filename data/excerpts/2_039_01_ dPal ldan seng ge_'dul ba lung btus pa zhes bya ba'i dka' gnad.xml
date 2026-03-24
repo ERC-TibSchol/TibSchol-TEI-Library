@@ -100,7 +100,9 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (30a4-8) (pp. 69:4-8)"/><lb n="30a7"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5844">dam pa'i chos 'dul ba lung kun las btus pa rin po che snang pa</rs> zhes bya ba ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4010">mang du thos pa'i btsun pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4010">ba ri pa</rs></note> dpal ldan seng ge</rs>s ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5661">bar ri'i dgon pa</rs>r bris pa'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex39012024-09-0915-27-122" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (30a4-8) (pp. 69:4-8)"/><lb n="30a7"/> <rs type="work" ana="corpusmd:named_reference" ref="db:5844">dam pa'i chos 'dul ba lung kun las btus pa rin po che snang pa</rs> zhes bya ba ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4010">mang du thos pa'i btsun pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4010">ba ri pa</rs></note> dpal ldan seng ge</rs>s ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5661">bar ri'i dgon pa</rs>r bris pa'o ||</seg> 
+         
+         || || </ab>
     </body>
   </text>
 </TEI>

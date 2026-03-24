@@ -101,7 +101,8 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="Post-colophon note (in slightly smaller script)" unit="section"/><rs type="person" ana="corpusmd:named_reference" ref="db:5354">kyi ston <abbr>dpal ldan</abbr> rdor rje</rs>'i phyag dper ||</ab>
+      <ab><seg type="excerpt" xml:id="ex94032023-09-09-12.28" status="reviewed" ana="corpusmd:colophon"><milestone n="Post-colophon note (in slightly smaller script)" unit="section"/><rs type="person" ana="corpusmd:named_reference" ref="db:5354">kyi ston <abbr>dpal ldan</abbr> rdor rje</rs>'i phyag dper ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

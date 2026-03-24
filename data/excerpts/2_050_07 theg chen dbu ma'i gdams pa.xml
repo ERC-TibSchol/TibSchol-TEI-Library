@@ -104,9 +104,13 @@ Some corrections and explanatory glosses.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (3b3-3b4)"/>|| I thI || <rs type="person" ana="corpusmd:named_reference" ref="db:4593">slob dpon chen po</rs>'i phyag dpe <choice><orig>la</orig><reg>las</reg></choice> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa chos rgyal</rs> <lb n="3b4"/> gyis bris shing zhus pa'o ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex50072023-10-13-092545" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (3b3-3b4)"/>|| I thI || <rs type="person" ana="corpusmd:named_reference" ref="db:4593">slob dpon chen po</rs>'i phyag dpe <choice><orig>la</orig><reg>las</reg></choice> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa chos rgyal</rs> <lb n="3b4"/> gyis bris shing zhus pa'o ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon annotations (3b4)"/>zhus <abbr>dag go</abbr> || <rs type="place" ana="corpusmd:named_reference" ref="db:4411">snar thang</rs> du <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s <abbr>bris so</abbr> ||</ab>
+      <ab>
+        <seg type="excerpt" status="finalized" xml:id="ex50072023-09-12-094632" ana="corpusmd:post_colophon"><milestone unit="section" n="Post-colophon annotations (3b4)"/>zhus <abbr>dag go</abbr> || <rs type="place" ana="corpusmd:named_reference" ref="db:4411">snar thang</rs> du <rs type="person" ana="corpusmd:named_reference" ref="db:6458">ze'u</rs>s <abbr>bris so</abbr> ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

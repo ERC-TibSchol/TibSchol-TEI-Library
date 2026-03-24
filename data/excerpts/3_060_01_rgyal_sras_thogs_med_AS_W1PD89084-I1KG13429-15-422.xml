@@ -100,8 +100,9 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone n="colophon" unit="section"/>
-				  <rs type="work" ana="corpusmd:named_reference" ref="db:5077"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo sde'i rgyan</rs> gyi 'grel pa rin po che'i phreng ba</rs> zhes bya ba <lb n="204a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4066">chos smra ba thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:4352">dpal e'i gtsug lag khang</rs> du sbyar ba rdzogs s+ho || phyogs <abbr>thams cad</abbr> du 'gro ba'i don byed par gyur cig || <rs type="person" ana="corpusmd:named_reference" ref="db:5795">bud d+ha rad na</rs>s dag cing <choice><reg>blta</reg><orig>‹b›lta</orig></choice> ba bde ba'i yig ris kyis gus pa'i yid kyi bris so dge'o ¦</ab>
+      <ab><seg type="excerpt" xml:id="ex60012024-10-1408-13-01" status="finalized" ana="corpusmd:colophon"><milestone n="colophon" unit="section"/>
+				  <rs type="work" ana="corpusmd:named_reference" ref="db:5077"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po mdo sde'i rgyan</rs> gyi 'grel pa rin po che'i phreng ba</rs> zhes bya ba <lb n="204a4"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4066">chos smra ba thogs med</rs> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:4352">dpal e'i gtsug lag khang</rs> du sbyar ba rdzogs s+ho || phyogs <abbr>thams cad</abbr> du 'gro ba'i don byed par gyur cig || <rs type="person" ana="corpusmd:named_reference" ref="db:5795">bud d+ha rad na</rs>s dag cing <choice><reg>blta</reg><orig>‹b›lta</orig></choice> ba bde ba'i yig ris kyis gus pa'i yid kyi bris so dge'o ¦</seg>
+		</ab>
     </body>
   </text>
 </TEI>

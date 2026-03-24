@@ -103,10 +103,12 @@ Proofread (zhus dag go)</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4583">bla ma chos rje</rs>'i gsung yin ||</ab>
+      <ab><seg type="excerpt" xml:id="ex064032025-12-1715-53-30" status="reviewed"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4583">bla ma chos rje</rs>'i gsung yin ||</seg> ||@|| 
+               </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Annotation" unit="section"/>
-               <lg><l>shog gu dkar 'jam mdangs ldan la ||</l> <l>bden gnyis <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4583">chos rje</rs>'i gsung sgros bkod ||</l> <l>'di bzhengs dge ba gang yin des ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:6021">shag kya'i btsun pa yon seng</rs> gis ||</l> <l>sangs rgyas bstan pa 'dzin pa dang ||</l> <l><lb n="3a5"/>kun mkhyen rgyal po myur thob shog ||</l></lg> zhus so dag go |</ab>
+      <ab><seg type="excerpt" xml:id="ex064032025-12-1715-53-29" status="reviewed" ana="corpusmd:post_colophon"><milestone n="Annotation" unit="section"/>
+               <lg><l>shog gu dkar 'jam mdangs ldan la ||</l> <l>bden gnyis <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4583">chos rje</rs>'i gsung sgros bkod ||</l> <l>'di bzhengs dge ba gang yin des ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:6021">shag kya'i btsun pa yon seng</rs> gis ||</l> <l>sangs rgyas bstan pa 'dzin pa dang ||</l> <l><lb n="3a5"/>kun mkhyen rgyal po myur thob shog ||</l></lg> zhus so dag go |</seg>
+            </ab>
     </body>
   </text>
 </TEI>

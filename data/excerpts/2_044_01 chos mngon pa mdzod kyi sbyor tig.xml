@@ -105,19 +105,22 @@ One folio with numbers 35 and 36 between fol. 34 and fol. 37.</additional></phys
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/>
+      <ab><seg type="excerpt" xml:id="ex44012023-10-11" status="reviewed" part="I" next="ex044012025-11-0716-26-57"><milestone unit="section" n="Cover page (1a)"/>
          <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/> dza <lb n="1a3"/> 30 <lb n="1a4"/>
-            <rs type="work" ana="corpusmd:named_reference" ref="db:4760"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod</rs> kyi sbyor tik</rs> bzhugs s+ho || dge'o ||<note type="editorial">In dbu can</note></ab>
+            <rs type="work" ana="corpusmd:named_reference" ref="db:4760"><rs type="work" ana="corpusmd:named_reference" ref="db:3761">chos mngon pa mdzod</rs> kyi sbyor tik</rs> bzhugs s+ho || dge'o ||<note type="editorial">In dbu can</note></seg> 
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Incipit (1b1)"/>
+      <ab><seg type="shared" xml:id="ex044012025-11-0716-26-57" status="reviewed" part="M" next="ex44012024-1114"><milestone unit="section" n="Incipit (1b1)"/>
          <pb n="1b"/><lb n="1b1"/>|| bla ma dang 'jam pa'i dbyangs la phyag 'tshal lo || 
          <lg><l>zas gtsang sras su gyur nas lhar bcas kyi ||</l> <l>sdug bsngal ma lus bsal nas gdul bya rnams ||</l>  <l>thar pa'i <lb n="1b2"/> lam la 'god mdzad rkang 2 gtso ||</l> <l>thub dbang zhabs la gus pas legs par 'dud ||</l></lg> 
          <lg><l>rgyal phas lung bstan sangs rgyas 2 par grags || </l>
            <l>gsung rab kun la mkhyen pa mtha' yas pas ||</l>
             <l><lb n="1b3"/>thugs rjes bdag sogs gdul bya mtha' dag la ||</l> 
-            <l>chos mngon legs gsung <rs type="person" ana="corpusmd:named_reference" ref="db:3758">dbyig gnyen</rs> zhabs la 'dud ||</l></lg> </ab>
+            <l>chos mngon legs gsung <rs type="person" ana="corpusmd:named_reference" ref="db:3758">dbyig gnyen</rs> zhabs la 'dud ||</l></lg> </seg>
+            
+            </ab>
       <gap reason="omitted"/>
-      <ab><lg><l><rs type="person" ana="corpusmd:named_reference" ref="db:4028">blo brtan</rs> nas bzung <rs type="person" ana="corpusmd:named_reference" ref="db:3977">nam mkha</rs>'i mtshan can dang ||</l> 
+      <ab><seg type="excerpt" status="finalized" xml:id="ex44012024-1114" part="F"><lg><l><rs type="person" ana="corpusmd:named_reference" ref="db:4028">blo brtan</rs> nas bzung <rs type="person" ana="corpusmd:named_reference" ref="db:3977">nam mkha</rs>'i mtshan can dang ||</l> 
             <l>blo gros shes bya kun la dpag <lb n="1b4"/> med rgyas ||</l> 
             <l><rs type="person" ana="corpusmd:named_reference" ref="db:4007">bzang po</rs>'i mtshan can <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4016">kho'o</rs>'i yongs 'dzin dang ||</l> 
             <l>brgyud pa'i bla ma rnams la phyag 'tshal nas ||</l>
@@ -127,12 +130,15 @@ One folio with numbers 35 and 36 between fol. 34 and fol. 37.</additional></phys
             <l>gsung las byon cing TI kar ma thebs rnams ||</l> 
             <l>legs par bshad kyi blo gros ldan pa dag ||</l> 
             <l>rnam dpyod byed cing ngo gdong bshad 'di ltos ¦</l> </lg>
-            <lb n="1b6"/> sbyor ba dang ¦ rtsod spong dang ¦ lung 'dren rnaMs mangs na <abbr>yi ge</abbr> mangs pas 'jigs pas ¦ cung zad bsdus te bshad par bya'o || </ab>
+            <lb n="1b6"/> sbyor ba dang ¦ rtsod spong dang ¦ lung 'dren rnaMs mangs na <abbr>yi ge</abbr> mangs pas 'jigs pas ¦ cung zad bsdus te bshad par bya'o || </seg>
+            </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (38a3-6)"/>
-            <rs type="person" ana="corpusmd:named_reference" ref="db:4593">grub pa brnyes pa</rs> dang <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhas btsun</rs> stong phrag du ma byon cing bzhugs pa'i gnas mchog <rs type="place" ana="corpusmd:named_reference" ref="db:4411">chos <lb n="38a4"/> grwa chen po dpal snar thang gi gtsug lag khang</rs> gi 'khris na yod pa'i <rs type="place" ana="corpusmd:named_reference" ref="db:5663">mthong smon dgu gling</rs> gi bzhi thog du | <rs type="person" ana="corpusmd:named_reference" ref="db:4007">mchims sku mched</rs> <anchor xml:id="a3"/>kyi zhabs kyi pad mo la spyi bos gtugs pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4016">shAkya'i btsun pa bsod nams <lb n="38a5"/> ye shes</rs> kyis legs par sbyar pa'o || ||
+      <ab>
+        <seg type="excerpt" status="finalized" xml:id="ex44012023-09-12" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (38a3-6)"/>
+            <rs type="person" ana="corpusmd:named_reference" ref="db:4593">grub pa brnyes pa</rs> dang <rs type="person" ana="corpusmd:named_reference" ref="db:4593">mkhas btsun</rs> stong phrag du ma byon cing bzhugs pa'i gnas mchog <rs type="place" ana="corpusmd:named_reference" ref="db:4411">chos <lb n="38a4"/> grwa chen po dpal snar thang gi gtsug lag khang</rs> gi 'khris na yod pa'i <rs type="place" ana="corpusmd:named_reference" ref="db:4382">mthong smon dgu gling</rs> gi bzhi thog du | <rs type="person" ana="corpusmd:named_reference" ref="db:4007">mchims sku mched</rs> <anchor xml:id="a3"/>kyi zhabs kyi pad mo la spyi bos gtugs pa'i <rs type="person" ana="corpusmd:named_reference" ref="db:4016">shAkya'i btsun pa bsod nams <lb n="38a5"/> ye shes</rs> kyis legs par sbyar pa'o || ||
             <milestone unit="section" n="Post-colophon verse"/>'dis kyang sangs rgyas kyi bstan pa dang | 'gro ba mang po la phan par gyur cig | || 
-            <milestone unit="section" n="Scribe colophon"/> <lb n="38a6"/> <abbr>yi ge</abbr> pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:5770">rin chen bzang po</rs>'o || dge'o || bkra shis par gyur cig | ||</ab>
+            <milestone unit="section" n="Scribe colophon"/> <lb n="38a6"/> <abbr>yi ge</abbr> pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:5770">rin chen bzang po</rs>'o || dge'o || bkra shis par gyur cig | ||</seg>
+      </ab>
     </body>
   </text>
 </TEI>

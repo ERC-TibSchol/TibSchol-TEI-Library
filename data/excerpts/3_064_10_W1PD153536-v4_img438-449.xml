@@ -101,8 +101,9 @@ No annotations.</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><pb n="1b"/>
-            <lb n="1b1"/>| <rs type="work" ana="corpusmd:named_reference" ref="db:5931"><rs type="work" ana="corpusmd:named_reference" ref="db:3721">byang chub sems dpa'i rnal 'byor spyod pa bzhi brgya pa</rs>'i 'grel pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3725">zla ba grags pa</rs>s sbyar ba 'di la bsdus pa'i don gsum ste | 'chad par gleng bslang ba dang | rtsa ba'i don dgrol ba dang | bsags pa'i dge ba bsgno ba'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex064102025-11-1116-39-02" status="reviewed"><pb n="1b"/>
+            <lb n="1b1"/>| <rs type="work" ana="corpusmd:named_reference" ref="db:5931"><rs type="work" ana="corpusmd:named_reference" ref="db:3721">byang chub sems dpa'i rnal 'byor spyod pa bzhi brgya pa</rs>'i 'grel pa</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:3725">zla ba grags pa</rs>s sbyar ba 'di la bsdus pa'i don gsum ste | 'chad par gleng bslang ba dang | rtsa ba'i don dgrol ba dang | bsags pa'i dge ba bsgno ba'o ||</seg>
+            dang po la gsum | rtsa ba'i bsdus pa'i don bstan bstan pas rang gi bstan bcos </ab>
     </body>
   </text>
 </TEI>

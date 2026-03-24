@@ -6,11 +6,11 @@
             <author ref="db:6025">chos gshes</author>
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:"/>
+               <name ref="corpusmd:Transkribus">Transkribus</name>
             </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
-               <name ref="corpusmd:"/>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
             </respStmt>
             <respStmt>
                <resp>Data Modelling</resp>

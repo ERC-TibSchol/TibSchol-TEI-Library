@@ -102,21 +102,29 @@ In the incipit, a dot is written under the main syllables from the title - formi
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1.1-1.3)"/>
-            <pb n="1"/><lg><l><lb n="1.1"/>°°°°</l><l><lb n="1.2"/><choice><reg>mahāyānottaratantraśāstra</reg><orig>***mahayana ḍa ?*na‹nama***</orig></choice>  <note type="editorial">Title in lantsha script</note> </l><l><lb n="1.3"/>@@| <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma'i bstan bcos</rs> kyi nges don gsal bar byed pa rin po che'i sgron me</rs> bzhugs s+hO |</l></lg></ab>
-      <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Incipit (2.1-2.5) "/>
-         <pb n="2"/><lb n="2.1"/> OM swasti sidhaM × <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa <abbr>chen po</abbr> rgyud <abbr>bla ma'i</abbr> bstan bcos</rs> kyi nges pa'i don gsal bar byed pa <abbr>rin po che'i</abbr> sgron me</rs> <lb n="2.22"/> zhes bya ba |</ab>
-      <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (681.3-681.6)"/>
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg <lb n="681.4"/> pa <abbr>chen po</abbr> rgyud <abbr>bla ma'i</abbr> bstan bcos</rs> kyi nges pa'i don gsal byed pa <abbr>rin po che'i</abbr> sgron me</rs> zhes bya ba <rs type="place" ref="db:6650" ana="corpusmd:named_reference">yul dbus</rs> kyi <lb n="681.5"/> <note type="editorial">Modern addition by Khenpo Appey in instance (ID:7377): g.yo ru gra'i cha stod grong zhes par sku 'khrungs</note> char byung pa × <rs type="person" ana="corpusmd:named_reference" ref="db:3896">rigs par smra ba <abbr>blo gros</abbr> mtshungs med</rs> kyis × skyes bu mkhas pa'i <abbr>tshogs</abbr> kyis brten pa'i bsti <lb n="681.6"/> gnas <rs type="place" ana="corpusmd:named_reference" ref="db:6173">dpal gsang phu ne'u thog gi chos gra <abbr>chen po</abbr></rs>r sbyar ba'o ||
+      <ab><seg type="excerpt" xml:id="ex17012023-07-2411-54-04" status="reviewed">
+            <milestone unit="section" n="Cover page (1.1-1.3)"/>
+            <pb n="1"/><lg><l><lb n="1.1"/>°°°°</l><l><lb n="1.2"/><choice><reg>mahāyānottaratantraśāstra</reg><orig>***mahayana ḍa ?*na‹nama***</orig></choice>  <note type="editorial">Title in lantsha script</note> </l><l><lb n="1.3"/>@@| <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa chen po rgyud bla ma'i bstan bcos</rs> kyi nges don gsal bar byed pa rin po che'i sgron me</rs> bzhugs s+hO |</l></lg></seg>
          </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Post-colophon annotations"/> <!--Note in smaller cursive script on p. 681-->
-         sar+ba ma+ga laM | <abbr>bkra shis</abbr> par sho | dge'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex17012023-07-2411-54-05" status="reviewed">   <milestone unit="section" n="Incipit (2.1-2.5) "/>
+         <pb n="2"/><lb n="2.1"/> OM swasti sidhaM × <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg pa <abbr>chen po</abbr> rgyud <abbr>bla ma'i</abbr> bstan bcos</rs> kyi nges pa'i don gsal bar byed pa <abbr>rin po che'i</abbr> sgron me</rs> <lb n="2.22"/> zhes bya ba |</seg>
+        'phags pa mi phaM la phyag 'tshal_lo | 
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Post-colophon note" unit="section"/>
-               <pb n="682"/><lb n="682.1"/>'bris pa po <rs type="person" ana="corpusmd:named_reference" ref="db:5898">'jam dpal rgyal mtshan</rs> nas | len cig zhus pa'i dag |</ab>
+      <ab><seg type="excerpt" xml:id="ex17012023-07-2411-54-06" status="finalized" ana="corpusmd:colophon"> <milestone unit="section" n="Colophon (681.3-681.6)"/>
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4588"><rs type="work" ana="corpusmd:named_reference" ref="db:3749">theg <lb n="681.4"/> pa <abbr>chen po</abbr> rgyud <abbr>bla ma'i</abbr> bstan bcos</rs> kyi nges pa'i don gsal byed pa <abbr>rin po che'i</abbr> sgron me</rs> zhes bya ba <rs type="place" ref="db:6650" ana="corpusmd:named_reference">yul dbus</rs> kyi <lb n="681.5"/> <note type="editorial">Modern addition by Khenpo Appey in instance (ID:7377): g.yo ru gra'i cha stod grong zhes par sku 'khrungs</note> char byung pa × <rs type="person" ana="corpusmd:named_reference" ref="db:3896">rigs par smra ba <abbr>blo gros</abbr> mtshungs med</rs> kyis × skyes bu mkhas pa'i <abbr>tshogs</abbr> kyis brten pa'i bsti <lb n="681.6"/> gnas <rs type="place" ana="corpusmd:named_reference" ref="db:6173">dpal gsang phu ne'u thog gi chos gra <abbr>chen po</abbr></rs>r sbyar ba'o ||
+         </seg>
+      </ab>
+      <gap reason="omitted"/>
+      <ab><seg type="excerpt" xml:id="ex17012025-05-1515-16-03" status="reviewed"><milestone unit="section" n="Post-colophon annotations"/> <!--Note in smaller cursive script on p. 681-->
+         sar+ba ma+ga laM | <abbr>bkra shis</abbr> par sho | dge'o ||</seg>
+         </ab>
+      <gap reason="omitted"/>
+      <ab><seg type="excerpt" xml:id="ex17012023-09-15-120548" status="finalized">
+               <milestone n="Post-colophon note" unit="section"/>
+               <pb n="682"/><lb n="682.1"/>'bris pa po <rs type="person" ana="corpusmd:named_reference" ref="db:5898">'jam dpal rgyal mtshan</rs> nas | len cig zhus pa'i dag |</seg>
+         </ab>
     </body>
   </text>
 </TEI>

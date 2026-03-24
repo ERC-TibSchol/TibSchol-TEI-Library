@@ -101,16 +101,25 @@
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/><lb n="1a2"/> <rs type="work" ref="db:4947" ana="corpusmd:named_reference"><rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel <choice><orig>‹pa›</orig><reg>pa</reg></choice> brtag pa</rs>'i rab tu byed pa</rs> <abbr>bzhugs</abbr> so ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex55012023-01-2321-20-21" status="finalized"><milestone unit="section" n="Cover page (1a)"/><lb n="1a2"/> <rs type="work" ref="db:4947" ana="corpusmd:named_reference"><rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel <choice><orig>‹pa›</orig><reg>pa</reg></choice> brtag pa</rs>'i rab tu byed pa</rs> <abbr>bzhugs</abbr> so ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><rs type="place" ref="db:5558">rgya gar</rs> skad du ¦ <rs type="work" ref="db:3775" ana="corpusmd:named_reference">saM ban+d+ha pa ri k+Sha pra ka ra Na</rs> ¦ <rs type="place" ref="db:5559">bod</rs> skad du ¦ <rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel pa brtag pa'i rab tu <lb n="1b2"/> byed pa</rs> |</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex5501a2023-01-2321-21-06" status="finalized">
+            <rs type="place" ref="db:5558">rgya gar</rs> skad du ¦ <rs type="work" ref="db:3775" ana="corpusmd:named_reference">saM ban+d+ha pa ri k+Sha pra ka ra Na</rs> ¦ <rs type="place" ref="db:5559">bod</rs> skad du ¦ <rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel pa brtag pa'i rab tu <lb n="1b2"/> byed pa</rs> |</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ref="db:4947"><rs type="work" ref="db:3775">'brel pa brtag pa</rs>'i chan bu</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">dpal ldan ral <choice><sic>bri</sic><corr>gri</corr></choice></rs>s bkod ||</ab>
+      <ab>
+        <seg type="excerpt" xml:id="ex25501a2023-01-2321-21-42" status="finalized">
+          <rs type="work" ref="db:4947"><rs type="work" ref="db:3775">'brel pa brtag pa</rs>'i chan bu</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4006">dpal ldan ral <choice><sic>bri</sic><corr>gri</corr></choice></rs>s bkod ||</seg>
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="SP's Colophon (4a4–4b1)"/>
+      <ab><seg type="excerpt" xml:id="ex25501a2023-01-2316-16-43" status="finalized" ana="corpusmd:colophon"> <milestone unit="section" n="SP's Colophon (4a4–4b1)"/>
                <rs type="work" ref="db:3775" ana="corpusmd:named_reference">'brel pa brtag pa'i rab tu byed pa</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3773">slob dpon mkhas pa chen po chos kyi <abbr>grags</abbr> pa</rs>s mdzad pa rdzogs s+ho ||
                <rs type="person" ana="corpusmd:named_reference" ref="db:3730"><rs type="place" ref="db:5558">rgya gar</rs> gyi mkhan <pb n="4b"/><lb n="4b1"/> po dz+nyA na gar+b+ha</rs> dang ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5561">lo tsa ba ban+de nam mkha</rs>s bsgyur ||
-            <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:5563"><rs type="place" ref="db:5558">rgya gar</rs> gyi mkhan po dpal rab 'byor zhi ba</rs>'i zhal bzhus dang ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5562">zhu chen gyi lo tsa ba dge slong ting 'dzin bzang po</rs>s zhu chen bgyis te gtan la phab zer | </note></ab>
+            <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:5563"><rs type="place" ref="db:5558">rgya gar</rs> gyi mkhan po dpal rab 'byor zhi ba</rs>'i zhal bzhus dang ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:5562">zhu chen gyi lo tsa ba dge slong ting 'dzin bzang po</rs>s zhu chen bgyis te gtan la phab zer | </note></seg>
+         </ab>
     </body>
   </text>
 </TEI>

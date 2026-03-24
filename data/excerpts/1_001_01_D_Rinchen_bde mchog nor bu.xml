@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader><fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">dpal 'khor lo bde mchog lU i pa'i bstod pa yid bzhin nor bu</title>
+            <title type="main" xml:lang="bo-Latn-x-wylie">dpal 'khor lo bde mchog lU i pa'i bstod pa yid bzhin nor bu</title>
             <author ref="db:3784">rin chen bzang po (1)</author>
             <respStmt>
                <resp>Transcribed by</resp>
@@ -51,7 +51,7 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p/>
+            <p>               </p>
          <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">48 x 8</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.&#13;
 Orthography:&#13;
 - Abundant use of abbreviations (e.g., ye shes, phyag ’tshal lo, gzugs, final –gs, etc.)&#13;
@@ -100,78 +100,289 @@ Interlinear insertions in smaller script on f. 1b6, f. 2a2 and f. 2a3 (titles fo
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
-			</profileDesc>
+         </profileDesc>
       </teiHeader>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Cover page (1a)"/>
-         <pb n="1a"/><lb n="1a1"/>        
-          || <rs type="work" ref="db:4422" ana="corpusmd:named_reference">dpal 'khor lo bde mchog lU i pa'i bstod pa yid bzhin nor bu</rs> <abbr>bzhugs s+ho</abbr> ||</ab>
+      <ab><seg type="excerpt" xml:id="ex1012023-01-2014-17-31" part="I" next="ex001012025-09-1509-01-56" status="finalized">
+                  <milestone unit="section" n="Cover page (1a)"/>
+                  <pb n="1a"/>
+                  <lb n="1a1"/>
+        
+          ||  <rs type="work" ref="db:4422" ana="corpusmd:named_reference">dpal 'khor lo bde mchog lU i pa'i bstod pa yid bzhin nor bu</rs>
+                  <abbr>bzhugs s+ho</abbr> ||
+               </seg>
+            </ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Body of the text (1b1–2a5)"/>
-         <milestone unit="section" n="1"/>
-         <pb n="1b"/><lb n="1b1"/> <lg><l>gang gis 'khor ba'i nyaMs thag ni ||</l> <l>dran pa bal gyis 'joMs mdzad cing ||</l> <l>bla med <abbr>byang chub</abbr> thob mdzad pa ||</l> <l>bla ma'i zhabs la <abbr>phyag 'tshal lo</abbr> ||</l></lg>
+      <ab><seg type="shared" part="M" xml:id="ex001012025-09-1509-01-56" next="ex1012023-01-2014-22-39" status="reviewed">
+                  <milestone unit="section" n="Body of the text (1b1–2a5)"/>
+                  <milestone unit="section" n="1"/>
+                  <pb n="1b"/>
+                  <lb n="1b1"/>
+                  <lg>
+                     <l>gang gis 'khor ba'i nyaMs thag ni ||</l>
+                     <l>dran pa bal gyis 'joMs mdzad cing ||</l>
+                     <l>bla med <abbr>byang chub</abbr> thob mdzad pa ||</l>
+                     <l>bla ma'i zhabs la <abbr>phyag 'tshal lo</abbr> ||
+                     </l>
+                  </lg>
 
-         <milestone unit="section" n="2"/>
-         <lg><l>skye med ngang mas thugs rje <abbr>chen po</abbr> yis ||</l> <l>keng rus<anchor xml:id="a1"/> <lb n="1b2"/> <abbr>'jigs</abbr> su rung pa'i gdan stengs su<anchor xml:id="a2"/> ||</l> <l>bdud 'dul hUM las <abbr>khro bo</abbr>'i sku sprul ba ||</l> <l><rs type="deity">bcom ldan bde ba'i mchog</rs> la <abbr>phyag 'tshal lo</abbr> ||</l></lg>
+                  <milestone unit="section" n="2"/>
+                  <lg>
+                     <l>skye med ngang mas thugs rje <abbr>chen po</abbr> yis ||</l>
+                     <l>keng rus <note type="editorial">Kawasaki 2007 reads: <mentioned>keng</mentioned>
+      <mentioned/>
+      <mentioned>sdus</mentioned> and corrects to: <mentioned>keng</mentioned>
+      <mentioned> rus</mentioned></note>
+                     <lb n="1b2"/>
+                     <abbr>'jigs</abbr> su rung pa'i gdan stengs su<note type="editorial"><mentioned>su</mentioned> is followed by a <mentioned>tsheg</mentioned> before the double <mentioned>shad</mentioned></note> ||</l>
+                  <l>bdud 'dul hUM las <abbr>khro bo</abbr>'i sku sprul ba ||</l>
+                  <l>
+                     <rs type="deity">bcom ldan bde ba'i mchog</rs> la <abbr>phyag 'tshal lo</abbr> ||
+                  </l>
+               </lg>
 
-         <milestone unit="section" n="3"/>
-        <lg> <l>chos dbyings rnaM dag 'gyur med <abbr>nam mkha'</abbr> la ||</l> 
-         <l>mtshon pa'i skur bstan dpa' bo'i rgyan gyis spras ||</l> 
-         <l><lb n="1b3"/> thabs dang <abbr>shes rab</abbr> <abbr>gnyis</abbr> med rol ba mdzad ||</l> 
-         <l><rs type="deity">bcom ldan bde ba'i mchog</rs> la <abbr>phyag 'tshal lo</abbr> ||</l></lg>
+               <milestone unit="section" n="3"/>
+               <lg>
+                  <l>chos dbyings rnaM dag 'gyur med <abbr>nam mkha'</abbr> la ||</l>
+                  <l>mtshon pa'i skur bstan dpa' bo'i rgyan gyis spras ||</l>
+                  <l>
+                     <lb n="1b3"/>
+ thabs dang <abbr>shes rab</abbr>
+                     <abbr>gnyis</abbr> med rol ba mdzad ||</l>
+                  <l>
+                     <rs type="deity">bcom ldan bde ba'i mchog</rs> la <abbr>phyag 'tshal lo</abbr> ||
+                  </l>
+               </lg>
 
-         <milestone unit="section" n="4"/>
-         <lg><l>dpa' bo'i stang<anchor xml:id="a3"/> stabs khro bo 'jigs su rung ||</l> <l>sgeg pa'i nyaMs can <abbr>snogs</abbr> rgyan gyis spras ||</l> <l><abbr>rgod dang</abbr> mi sdug snying rjes zhi ba mdzad ||</l> <l><lb n="1b4"/> 'gal ba'i chos 'chang <rs type="deity">bde mchog</rs> <abbr>phyag 'tshal lo</abbr> ||</l></lg>
+               <milestone unit="section" n="4"/>
+               <lg>
+                  <l>dpa' bo'i stang<note type="editorial">Kawasaki 2007 corrects to: <mentioned>stangs</mentioned></note> stabs khro bo 'jigs su rung ||</l>
+                  <l>sgeg pa'i nyaMs can <abbr>snogs</abbr> rgyan gyis spras ||</l>
+                  <l>
+                     <abbr>rgod dang</abbr> mi sdug snying rjes zhi ba mdzad ||</l>
+                  <l>
+                     <lb n="1b4"/>
+ 'gal ba'i chos 'chang <rs type="deity">bde mchog</rs>
+                     <abbr>phyag 'tshal lo</abbr> ||
+                  </l>
+               </lg>
 
-         <milestone unit="section" n="5"/>
-        <lg> <l>gang la <abbr>chags</abbr> dang sdang ba mi mnga' yang ||</l> <l>gang gis 'dul ba <choice><reg>de dang</reg><orig>‹de dang›</orig></choice> de'i sras ||</l> <l><abbr>chags</abbr> sogs <abbr>nyon mongs</abbr> kun tu zhi mdzad pa'i ||</l> <l><rs type="deity">bcom ldan bde ba'i mchog</rs> la <abbr>phyag 'tshal lo</abbr> ||</l></lg>
+               <milestone unit="section" n="5"/>
+               <lg>
+                  <l>gang la <abbr>chags</abbr> dang sdang ba mi mnga' yang ||</l>
+                  <l>gang gis 'dul ba <choice>
+                     <reg>de dang</reg>
+                     <orig>‹de dang›</orig>
+                  </choice> de'i sras ||</l>
+               <l>
+                  <abbr>chags</abbr> sogs <abbr>nyon mongs</abbr> kun tu zhi mdzad pa'i ||</l>
+               <l>
+                  <rs type="deity">bcom ldan bde ba'i mchog</rs> la <abbr>phyag 'tshal lo</abbr> ||
+               </l>
+            </lg>
 
-         <milestone unit="section" n="6"/>
-        <lg><l>sgrib <abbr>gnyis</abbr> <lb n="1b5"/> nyes pa'i rgyu <abbr>tshogs</abbr> <abbr>rnaM par</abbr> spang‹s›<anchor xml:id="a4"/> ||</l> <l><abbr>sdug bsngal</abbr> <abbr>'bras bu'i<anchor xml:id="a5"/></abbr> <abbr>tshogs</abbr> dang bral ba nyid ||</l> <l>'khor dang <abbr>mya ngan</abbr> 'da'<anchor xml:id="a6"/> la mi gnas pa'i ||</l> <l><abbr>gnyis</abbr> med <abbr>ye shes</abbr> <rs type="deity">bde mchog</rs> la <abbr>phyag 'tshal</abbr> ||</l></lg> 
+            <milestone unit="section" n="6"/>
+            <lg>
+               <l>sgrib <abbr>gnyis</abbr>
+                  <lb n="1b5"/>
+ nyes pa'i rgyu <abbr>tshogs</abbr>
+                  <abbr>rnaM par</abbr> <choice><reg>spangs</reg><orig>spang‹s›</orig></choice><note type="editorial">Kawasaki 2007 reads: <mentioned>sprangs</mentioned></note> ||</l>
+               <l>
+                  <abbr>sdug bsngal</abbr>
+                  <abbr>'bras bu'i</abbr><note type="editorial">Kawasaki 2007 reads: <mentioned>'bras bu</mentioned></note>                  
+                  <abbr>tshogs</abbr> dang bral ba nyid ||</l>
+               <l>'khor dang <abbr>mya ngan</abbr> 'da'<note type="editorial">Kawasaki 2007 corrects to: <mentioned>'das</mentioned></note> la mi gnas pa'i ||</l>
+               <l>
+                  <abbr>gnyis</abbr> med <abbr>ye shes</abbr>
+                  <rs type="deity">bde mchog</rs> la <abbr>phyag 'tshal</abbr> ||
+               </l>
+            </lg>
 
-        <milestone unit="section" n="7"/>
-   <lg>     <l>dag pa chos sku'i sprul pa ni ||</l> <l><abbr>dmigs</abbr> pa med pa'i <lb n="1b6"/> <abbr>thugs rje</abbr> yis ||</l> <l><abbr>gzugs</abbr> sku sgyu ma ltar ston pa ||</l> <l><rs type="deity">rdo rje phag mo <!--=Vajravārāhī--></rs> <abbr>phyag 'tshal lo</abbr> ||</l></lg>
+            <milestone unit="section" n="7"/>
+            <lg>
+               <l>dag pa chos sku'i sprul pa ni ||</l>
+               <l>
+                  <abbr>dmigs</abbr> pa med pa'i <lb n="1b6"/>
+               <abbr>thugs rje</abbr> yis ||</l>
+            <l>
+               <abbr>gzugs</abbr> sku sgyu ma ltar ston pa ||</l>
+            <l>
+               <rs type="deity">rdo rje phag mo                   <!--=Vajravārāhī--></rs>
+               <abbr>phyag 'tshal lo</abbr> ||
+            </l>
+         </lg>
 
          <milestone unit="section" n="8"/>
-       <lg> <l><abbr>ye shes</abbr> <abbr>bzhi</abbr>'i ngo bo yi ||</l> <l><rs type="deity">mkha' 'gro <!--=Ḍākinī--> la ma <!--=Lāmā--> dum skyes ma <!--=Khaṇḍarohā--></rs> ||</l> <l><rs type="deity">gzugs can ma <!--="=Rūpiṇī--></rs> dang thod pa <abbr>bzhi</abbr> ||</l> <l><rs type="deity">bde chen 'khor lo</rs> phyag 'tshal lo ||</l></lg>
-        <note type="gloss">'khor lo gsum gyi *** rnaMs la bstod pa ni ||</note>
+         <lg>
+            <l>
+               <abbr>ye shes</abbr>
+               <abbr>bzhi</abbr>'i ngo bo yi ||</l>
+            <l>
+               <rs type="deity">mkha' 'gro                   <!--=Ḍākinī--> la ma                   <!--=Lāmā--> dum skyes ma                   <!--=Khaṇḍarohā--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">gzugs can ma                   <!--="=Rūpiṇī--></rs> dang thod pa <abbr>bzhi</abbr> ||
+            </l>
+            <l>
+               <rs type="deity">bde chen 'khor lo</rs> phyag 'tshal lo ||</l>
+         </lg>
+         <note type="gloss">'khor lo gsum gyi *** rnaMs la bstod pa ni ||</note>
 
          <milestone unit="section" n="9"/>
-       <lg> <l> <rs type="deity">rab tu gtum<anchor xml:id="a7"/> mo <!--=Pracaṇḍā--></rs> <rs type="deity">gtuM mig <lb n="1b7"/> ma <!--=Caṇḍākṣī--></rs> ||</l> <l><rs type="deity">'od ldan sna tshogs<anchor xml:id="a8"/> <!--=Mahānāsā--></rs> <rs type="deity">brtan pa'i blo <!--=Vīramatī--></rs> ||</l> 
-         <l><rs type="deity">mi thung <!--="Kharvarī--></rs> <rs type="deity">lang ka'i dbang phyug ma <!--="Laṅkeśvarī--></rs> ||</l> <l><rs type="deity">shing grib ma <!--=Drumacchāyā--></rs> la <abbr>phyag 'tshal lo</abbr> ||</l></lg>
+         <lg>
+            <l>
+               <rs type="deity">rab tu gtum<note type="editorial">Kawasaki 2007 reads: <mentioned>stum</mentioned></note>
+ mo                <!--=Pracaṇḍā--></rs>
+               <rs type="deity">gtuM mig <lb n="1b7"/>
+ ma                <!--=Caṇḍākṣī--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">'od ldan sna tshogs<note type="editorial">Kawasaki 2007 corrects to: <mentioned>sna chen</mentioned></note><!--=Mahānāsā--></rs>
+               <rs type="deity">brtan pa'i blo                   <!--=Vīramatī--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">mi thung                   <!--="Kharvarī--></rs>
+               <rs type="deity">lang ka'i dbang phyug ma                   <!--="Laṅkeśvarī--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">shing grib ma                   <!--=Drumacchāyā--></rs> la <abbr>phyag 'tshal lo</abbr> ||
+            </l>
+         </lg>
 
          <milestone unit="section" n="10"/>
-  <lg>      <l><rs type="deity">sa bsrungs ma <!--=Airāvatī--></rs> dang <rs type="deity">'jigs byed che <!--=Mahābhairavī--></rs> ||</l> 
-   <l><rs type="deity">rlung shugs <!--=Vāyuvegā--></rs> <rs type="deity">chang 'thung <!--=Surābhakṣī--></rs> <rs type="deity">ljang lha mo <!--=Śyāmadevī--></rs> ||</l> 
-   <l><pb n="2a"/><lb n="2a1"/> <rs type="deity">shin tu bzang mo <!--=Subhadrā--></rs> <rs type="deity">rta sna mo <!--=Hayakarṇā--></rs> ||</l> 
-   <l><rs type="deity">bya gdong ma <!--=Khagānanā--></rs> la <abbr>phyag 'tshal</abbr> lo ||</l></lg>
+         <lg>
+            <l>
+               <rs type="deity">sa bsrungs ma                   <!--=Airāvatī--></rs> dang <rs type="deity">'jigs byed che                <!--=Mahābhairavī--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">rlung shugs                   <!--=Vāyuvegā--></rs>
+               <rs type="deity">chang 'thung                   <!--=Surābhakṣī--></rs>
+               <rs type="deity">ljang lha mo                   <!--=Śyāmadevī--></rs> ||
+            </l>
+            <l>
+               <pb n="2a"/>
+               <lb n="2a1"/>
+               <rs type="deity">shin tu bzang mo                   <!--=Subhadrā--></rs>
+               <rs type="deity">rta sna mo                   <!--=Hayakarṇā--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">bya gdong ma                   <!--=Khagānanā--></rs> la <abbr>phyag 'tshal</abbr> lo ||</l>
+         </lg>
 
          <milestone unit="section" n="11"/>
-     <lg>    <l><rs type="deity">'khor shug<anchor xml:id="a9"/> <!--=Cakravegā--></rs> <rs type="deity">kha NDa ro ha <!--=Khaṇḍarohā--></rs> dang ||</l> <l><rs type="deity">chang 'thung <!--=Śauṇḍinī--></rs> <rs type="deity">go cha <!--=Cakravarmiṇī--> rab dpa' mo <!--=Suvīrā--></rs> ||</l> <l><rs type="deity">stobs chen <!--=Mahābalā--> 'khor lo bsgyur ma <!--=Cakravartinī--></rs> dang ||</l> <l><rs type="deity">brtson chen ma <!--=Mahāvīryā--></rs> la <abbr>phyag 'tshal</abbr> lo ||</l></lg>
+         <lg>
+            <l>
+               <rs type="deity">'khor shug<note type="editorial">Kawasaki 2007 corrects to: <mentioned>shugs</mentioned></note>
+               <!--=Cakravegā--></rs>
+               <rs type="deity">kha NDa ro ha                   <!--=Khaṇḍarohā--></rs> dang ||</l>
+            <l>
+               <rs type="deity">chang 'thung                   <!--=Śauṇḍinī--></rs>
+               <rs type="deity">go cha                   <!--=Cakravarmiṇī--> rab dpa' mo                   <!--=Suvīrā--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">stobs chen                   <!--=Mahābalā--> 'khor lo bsgyur ma                   <!--=Cakravartinī--></rs> dang ||</l>
+            <l>
+               <rs type="deity">brtson chen ma                   <!--=Mahāvīryā--></rs> la <abbr>phyag 'tshal</abbr> lo ||</l>
+         </lg>
          <note type="gloss">dpa' ba rnaMs la bstod pa ni ||</note>
 
          <milestone unit="section" n="12"/>
-<lg>       <l><rs type="deity">thod pa'i <lb n="2a2"/> dum bu <!--=Khaṇḍakapālina--></rs> <rs type="deity">keng rus<anchor xml:id="a10"/> che <!--=Mahākaṅkāla--></rs> ||</l> <l><rs type="deity">keng rus<anchor xml:id="a11"/> <!--=Kaṅkāla--></rs> <rs type="deity">mche rtsigs <!--=Vikaṭadaṃṣṭriṇa--> lha'i sgra <!--=Surāvairiṇa--></rs> ||</l> <l><rs type="deity">'od dpag med <!--=Amitābha--> dang</rs> <rs type="deity">rdo rje'i 'od <!--=Vajraprabha--></rs> ||</l> <l><rs type="deity">rdo rje sku <!--=Vajradeha--></rs> la <abbr>phyag 'tshal</abbr> bstod ||</l></lg>
+         <lg>
+            <l>
+               <rs type="deity">thod pa'i <lb n="2a2"/>
+ dum bu                <!--=Khaṇḍakapālina--></rs>
+               <rs type="deity">keng rus<note type="editorial">Kawasaki 2007 reads: <mentioned>sdus</mentioned></note>
+ che                <!--=Mahākaṅkāla--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">keng rus<note type="editorial">Kawasaki 2007 reads: <mentioned>sdus</mentioned></note>
+               <!--=Kaṅkāla--></rs>
+               <rs type="deity">mche rtsigs                   <!--=Vikaṭadaṃṣṭriṇa--> lha'i sgra                   <!--=Surāvairiṇa--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">'od dpag med                   <!--=Amitābha--> dang</rs>
+               <rs type="deity">rdo rje'i 'od                   <!--=Vajraprabha--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">rdo rje sku                   <!--=Vajradeha--></rs> la <abbr>phyag 'tshal</abbr> bstod ||</l>
+         </lg>
 
          <milestone unit="section" n="13"/>
-        <lg> <l><rs type="deity">myu gu can <!--=Aṅkurika--></rs> dang <rs type="deity">ral pa can <!--=Jaṭila--></rs> ||</l> <l><rs type="deity">dpa' chen <!--=Mahāvīra--></rs> <rs type="deity">hUM mdzad <!--=Hūṃkāra--></rs> <rs type="deity">rab tu bzang<anchor xml:id="a12"/> <!--=Subhadra--></rs> ||</l> <l><rs type="deity">rdo rje bzang <!--=Vajrabhadra--></rs> dang <lb n="2a3"/> <rs type="deity">'jigs byed che <!--=Mahābhairava--></rs> ||</l> <l><rs type="deity">mig mi bzang <!--=Virūpākṣa--></rs> la <abbr>phyag 'tshal lo</abbr> ||</l></lg>
+         <lg>
+            <l>
+               <rs type="deity">myu gu can                   <!--=Aṅkurika--></rs> dang <rs type="deity">ral pa can                <!--=Jaṭila--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">dpa' chen                   <!--=Mahāvīra--></rs>
+               <rs type="deity">hUM mdzad                   <!--=Hūṃkāra--></rs>
+               <rs type="deity">rab tu bzang<note type="editorial">Misprint in Kawasaki 2007: <mentioned>bṇang</mentioned></note>
+               <!--=Subhadra--></rs> ||
+            </l>
+            <l>
+               <rs type="deity">rdo rje bzang                   <!--=Vajrabhadra--></rs> dang <lb n="2a3"/>
+            <rs type="deity">'jigs byed che                <!--=Mahābhairava--></rs> ||
+         </l>
+         <l>
+            <rs type="deity">mig mi bzang                <!--=Virūpākṣa--></rs> la <abbr>phyag 'tshal lo</abbr> ||
+         </l>
+      </lg>
 
-         <milestone unit="section" n="14"/>
-       <lg><l><rs type="deity">stobs chen <!--=Mahābala--> rin chen rdo rje <!--=Ratnavajra--></rs> dang ||</l> <l><rs type="deity">rta mgrin <!--=Hayagrīva--> mkha' snying <!--=Ākāśagarbha--> he ru ka <!--=Heruka--></rs> ||</l> <l><rs type="deity">padma gar dbang <!--=Padmanarteśvara--> rnaM snang <!--=Vairocana--></rs> dang ||</l> <l><rs type="deity">rdo rje seMs <!--=Vajrasattva--></rs> la <abbr>phyag 'tshal lo</abbr> ||</l></lg>
-       <note type="gloss">sgo 'tshams ma brgyad la bstod pa ni ||</note>
+      <milestone unit="section" n="14"/>
+      <lg>
+         <l>
+            <rs type="deity">stobs chen                <!--=Mahābala--> rin chen rdo rje                <!--=Ratnavajra--></rs> dang ||</l>
+         <l>
+            <rs type="deity">rta mgrin                <!--=Hayagrīva--> mkha' snying                <!--=Ākāśagarbha--> he ru ka                <!--=Heruka--></rs> ||
+         </l>
+         <l>
+            <rs type="deity">padma gar dbang                <!--=Padmanarteśvara--> rnaM snang                <!--=Vairocana--></rs> dang ||</l>
+         <l>
+            <rs type="deity">rdo rje seMs                <!--=Vajrasattva--></rs> la <abbr>phyag 'tshal lo</abbr> ||
+         </l>
+      </lg>
+      <note type="gloss">sgo 'tshams ma brgyad la bstod pa ni ||</note>
 
-         <milestone unit="section" n="15"/>
-       <lg> <l>phyogs <abbr>bzhi</abbr>'i sgo rnaMs skyong mdzad <lb n="2a4"/> pa ||</l> <l><rs type="deity">khwa gdong ma <!--=Kākāsyā--></rs> dang <rs type="deity">'ug gdong ma <!--=Ulūkāsyā--></rs> ||</l> <l>de <abbr>bzhin</abbr> <rs type="deity">khyi'i gdong ma <!--=Śvānāsyā--></rs> dang ||</l> <l><rs type="deity">phag gdong<anchor xml:id="a13"/> ma <!--=Śūkarāsyā--></rs> la <abbr>phyag 'tshal lo</abbr> ||</l></lg>
+      <milestone unit="section" n="15"/>
+      <lg>
+         <l>phyogs <abbr>bzhi</abbr>'i sgo rnaMs skyong mdzad <lb n="2a4"/>
+ pa ||</l>
+         <l>
+            <rs type="deity">khwa gdong ma                <!--=Kākāsyā--></rs> dang <rs type="deity">'ug gdong ma             <!--=Ulūkāsyā--></rs> ||
+         </l>
+         <l>de <abbr>bzhin</abbr>
+            <rs type="deity">khyi'i gdong ma                <!--=Śvānāsyā--></rs> dang ||</l>
+         <l>
+            <rs type="deity">phag gdong<note type="editorial">Kawasaki 2007 reads: <mentioned>phag dong</mentioned></note>
+ ma             <!--=Śūkarāsyā--></rs> la <abbr>phyag 'tshal lo</abbr> ||
+         </l>
+      </lg>
 
-         <milestone unit="section" n="16"/>
-        <lg><l><abbr>gzugs</abbr> <abbr>gnyis</abbr> kyis ni yid 'phrog ma ||</l> <l><rs type="deity">brtan pa mo <!--=Ḍāḍhī--></rs> dang <rs type="deity">pho nya mo <!--=Dūtī--></rs> ||</l> <l><rs type="deity">mche brtsigs ma <!--=Daṃṣṭriṇī--></rs> dang <rs type="deity">'joMs ma <!--=Mathanī--></rs> dang ||</l> <l><rs type="deity">gshin rje <lb n="2a5"/> bzhi <!--=Yama--></rs> la <abbr>phyag 'tshal lo</abbr> ||</l></lg>
-      </ab>
+      <milestone unit="section" n="16"/>
+      <lg>
+         <l>
+            <abbr>gzugs</abbr>
+            <abbr>gnyis</abbr> kyis ni yid 'phrog ma ||</l>
+         <l>
+            <rs type="deity">brtan pa mo                <!--=Ḍāḍhī--></rs> dang <rs type="deity">pho nya mo             <!--=Dūtī--></rs> ||
+         </l>
+         <l>
+            <rs type="deity">mche brtsigs ma                <!--=Daṃṣṭriṇī--></rs> dang <rs type="deity">'joMs ma             <!--=Mathanī--></rs> dang ||</l>
+         <l>
+            <rs type="deity">gshin rje <lb n="2a5"/>
+ bzhi             <!--=Yama--></rs> la <abbr>phyag 'tshal lo</abbr> ||
+         </l>
+      </lg>
+   </seg>
+</ab>
       <gap reason="omitted"/>
-      <ab><milestone unit="section" n="Colophon (2a5)"/>
-            <rs type="person" ana="corpusmd:named_reference" ref="db:3784">lots+tsha ba <abbr>rin chen</abbr> bzang po</rs>s <rs type="work" ref="db:4422" ana="corpusmd:named_reference">bstod pa</rs> <abbr>rdzogs</abbr> s+ho ||
-            || dge'o ||</ab>
+      <ab><seg type="excerpt" xml:id="ex1012023-01-2014-22-39" part="F" status="finalized" ana="corpusmd:colophon">
+      <milestone unit="section" n="Colophon (2a5)"/>
+      <rs type="person" ana="corpusmd:named_reference" ref="db:3784">lots+tsha ba <abbr>rin chen</abbr> bzang po</rs>s <rs type="work" ref="db:4422" ana="corpusmd:named_reference">bstod pa</rs>
+      <abbr>rdzogs</abbr> s+ho ||
+            || dge'o ||</seg>
+</ab>
     </body>
   </text>
 </TEI>

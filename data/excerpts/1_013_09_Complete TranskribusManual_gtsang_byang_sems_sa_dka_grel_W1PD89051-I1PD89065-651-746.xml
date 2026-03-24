@@ -113,20 +113,24 @@ Proofread (1 zhus dag par byas so).</additional></physDesc></sourceDesc>
   <text>
     <body>
       <gap reason="omitted"/>
-      <ab><pb n="1a"/>
+      <ab><seg type="shared" xml:id="ex013092025-11-2614-09-36" status="reviewed" part="I" next="ex013092025-11-2614-19-46"><pb n="1a"/>
          <milestone n="Signature (top margin of 1a)" unit="section"/>
-         phyi¶ la¶ 423¶</ab>
+         phyi¶ la¶ 423¶</seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><rs type="work" ana="corpusmd:named_reference" ref="db:3752">rnal 'byor spyod pa'i sa las byang chub spyod pa'i sa</rs> zhes pa theg pa chen po'i mdo sde brgya mtsho lta bu rnams las byang chub sems dpa'i bslab pa'i gnas mchog du gces pa ma lus par bsdus pa | rin pa che'i bang mdzod chen po lta bu lam dang 'bras bu 'i cha <abbr>thams cad</abbr> ma tshang pa med par ston pa sde snod kyi ma lta bur gyur pa 'di bshad <choice><reg>pa'i</reg><orig>pa‹'›i</orig></choice> <lb n="1a3"/> tshul la ¦ <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kho bo'i bla ma kha cig</rs> gleng gzhi bstan pa dang ¦ dgos pa brjod pa dang× don gyis khog dbub pa dang ¦ dkyus kyis sa gcad pa dang ¦ tshig gi 'bru gnan pa lngas bshad par bya'o zhes gsung pa 'am | 
+      <ab><seg type="shared" xml:id="ex013092025-11-2614-19-46" status="reviewed" part="F"><rs type="work" ana="corpusmd:named_reference" ref="db:3752">rnal 'byor spyod pa'i sa las byang chub spyod pa'i sa</rs> zhes pa theg pa chen po'i mdo sde brgya mtsho lta bu rnams las byang chub sems dpa'i bslab pa'i gnas mchog du gces pa ma lus par bsdus pa | rin pa che'i bang mdzod chen po lta bu lam dang 'bras bu 'i cha <abbr>thams cad</abbr> ma tshang pa med par ston pa sde snod kyi ma lta bur gyur pa 'di bshad <choice><reg>pa'i</reg><orig>pa‹'›i</orig></choice> <lb n="1a3"/> tshul la ¦ <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kho bo'i bla ma kha cig</rs> gleng gzhi bstan pa dang ¦ dgos pa brjod pa dang× don gyis khog dbub pa dang ¦ dkyus kyis sa gcad pa dang ¦ tshig gi 'bru gnan pa lngas bshad par bya'o zhes gsung pa 'am | 
                
-            yang na mkhas pa'i <abbr>shes rab</abbr> dang ¦ brtse ba'i bsam pa dang ¦ sbyor ba'i bzod pa dang ldan pa <abbr>gsum</abbr> gyis 'chad <choice><reg>pa'i</reg><orig>pa‹'›i</orig></choice> chos dang | don bstan pa dang ¦ tshig bshad pa dang ¦ brgal lan gyis nges par bya bas bshad <lb n="1a4"/> thabs kyi yan lag dang | chos dang ¦ gdul bya dang ¦ 'jug pa'i dbang gis ji ltar bshad pas bshad pa'i tshul dang <abbr>gsum</abbr> gyis bshad par bya'o zhes gsung pa <abbr>bzhin</abbr> du shes par bya'o ||</ab>
+            yang na mkhas pa'i <abbr>shes rab</abbr> dang ¦ brtse ba'i bsam pa dang ¦ sbyor ba'i bzod pa dang ldan pa <abbr>gsum</abbr> gyis 'chad <choice><reg>pa'i</reg><orig>pa‹'›i</orig></choice> chos dang | don bstan pa dang ¦ tshig bshad pa dang ¦ brgal lan gyis nges par bya bas bshad <lb n="1a4"/> thabs kyi yan lag dang | chos dang ¦ gdul bya dang ¦ 'jug pa'i dbang gis ji ltar bshad pas bshad pa'i tshul dang <abbr>gsum</abbr> gyis bshad par bya'o zhes gsung pa <abbr>bzhin</abbr> du shes par bya'o ||</seg> </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Annotation (by a different hand)" unit="section"/>  
-         1 zhus dag par <abbr>byas so</abbr> | dag par byung ngo ||</ab>
+      <ab><seg type="shared" xml:id="ex013092025-11-2614-27-46" status="reviewed" part="I" next="ex013092025-11-2614-28-06"> <milestone n="Annotation (by a different hand)" unit="section"/>  
+         1 zhus dag par <abbr>byas so</abbr> | dag par byung ngo ||</seg> 
+      </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Colophon (48b2-48b3)" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4567"><rs type="work" ana="corpusmd:named_reference" ref="db:3752">byang chub <abbr>seMs dpa'i</abbr> sa</rs>'i dka' 'grel</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3839">mkhas pa rtsang nag pa</rs>s mdzad pa | rtsom <lb n="48b3"/> stan phyag ris la bris pa <abbr>lugs so</abbr> <note type="editorial">"copied from the author's original manuscript"</note> || </ab>
+      <ab><seg type="excerpt" xml:id="ex013092025-11-2614-28-06" status="reviewed" ana="corpusmd:colophon" part="M" next="ex013092025-11-2614-30-46"><milestone n="Colophon (48b2-48b3)" unit="section"/><rs type="work" ana="corpusmd:named_reference" ref="db:4567"><rs type="work" ana="corpusmd:named_reference" ref="db:3752">byang chub <abbr>seMs dpa'i</abbr> sa</rs>'i dka' 'grel</rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:3839">mkhas pa rtsang nag pa</rs>s mdzad pa | rtsom <lb n="48b3"/> stan phyag ris la bris pa <abbr>lugs so</abbr> <note type="editorial">"copied from the author's original manuscript"</note> || </seg>
+         </ab>
       <gap reason="omitted"/>
-      <ab><milestone n="Post-colophon (48b3)" unit="section"/><l>'phro cung zad cig yod pa 'dra ste ¦</l> phyi mo la de ka las mi gda'o || <abbr>sems can</abbr> <abbr>thams cad</abbr> byang chub seMs dpa'i bslab pa mthar phyin par gyur cig || || </ab>
+      <ab><seg type="shared" xml:id="ex013092025-11-2614-30-46" status="reviewed"> <milestone n="Post-colophon (48b3)" unit="section"/><l>'phro cung zad cig yod pa 'dra ste ¦</l> phyi mo la de ka las mi gda'o || <abbr>sems can</abbr> <abbr>thams cad</abbr> byang chub seMs dpa'i bslab pa mthar phyin par gyur cig || || </seg>
+         </ab>
     </body>
   </text>
 </TEI>
