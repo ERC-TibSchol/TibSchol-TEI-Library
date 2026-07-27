@@ -35,9 +35,10 @@ def fetch_data(endpoint, params=None):
 def fetch_list_data(endpoint):
     """Fetch paginated list data from the given API endpoint."""
     all_data = []
+    PARAMS = {"limit": 100}  # Adjust the limit as needed
     while True:
         logging.debug("Fetching page from %s", endpoint)
-        data = fetch_data(endpoint)
+        data = fetch_data(endpoint, params=PARAMS)
         if data is None or "results" not in data or not data["results"]:
             break
         all_data.extend(data["results"])
