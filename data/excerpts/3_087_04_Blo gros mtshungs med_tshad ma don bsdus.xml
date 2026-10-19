@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader><fileDesc>
+   <teiHeader>
+      <fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">tshad ma'i don bsdus pa</title>
+            <title type="main" xml:lang="bo-Latn-x-wylie">tshad ma'i don bsdus pa</title>
             <author ref="db:4094">gnas drug pa blo gros mtshungs med</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:Fukuda">https://tibetan-studies.net/ (accessed 03.02.2019)</name>
@@ -24,10 +31,10 @@
             </respStmt>
             <respStmt>
                <resp>APIS named entitites database implementation</resp>
-               <name ref="corpusmd:SR">Stephan Resch</name>
+               <name ref="corpusmd:SR">Stefan Resch</name>
             </respStmt>
             <respStmt>
-               <resp>XML editor cumstomization</resp>
+               <resp>XML editor customization</resp>
                <name ref="corpus.:DStx">Daniel Stoxreiter</name>
             </respStmt>
             <respStmt>
@@ -38,13 +45,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            </titleStmt>
+         </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="public">
+            <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -53,16 +60,27 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">61 x 8.7</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.&#13;
-Proofread.</additional></physDesc></sourceDesc>
-      <respStmt><principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            </respStmt><respStmt><funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
-            </respStmt></fileDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">3_087_04</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dpe tshugs.&#13;
+Proofread.</p>
+                           <dimensions unit="cm">
+                              <width>61</width>
+                              <height>8.7</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
@@ -97,39 +115,1707 @@ Proofread.</additional></physDesc></sourceDesc>
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
-      <profileDesc>
-			</profileDesc>
-      </teiHeader>
-  <text>
-    <body>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex87042023-10-041" status="reviewed" part="I" next="ex87042023-10-042">
+      <profileDesc/>
+   </teiHeader>
+   <text>
+      <body>
+       <ab xml:space="preserve" type="cover_page">       
+         <seg type="excerpt" xml:id="ex87042023-10-041" status="reviewed" part="I" next="ex87042023-10-042">
          <milestone unit="section" n="Cover page (1a)"/>
-        <pb n="1a"/><lb n="1a1"/> phyi <lb n="1a2"/>zha <lb n="1a3"/>6 <lb n="1a4"/>@@ || <rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> zhes bya ba bzhugs pa lags s+h+yo °°° || </seg>
+        <pb edRef="inst:5293" n="1a"/><lb edRef="inst:5293" n="1a1"/> phyi <lb edRef="inst:5293" n="1a2"/>zha <lb edRef="inst:5293" n="1a3"/>6 <lb edRef="inst:5293" n="1a4"/>࿓࿓ || <rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> zhes bya ba bzhugs pa lags s+h+yo °°° || </seg>
       </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex87042023-10-042" status="reviewed">        
+
+      <ab xml:space="preserve" type="incipit">
+         <seg type="excerpt" xml:id="ex87042023-10-042" status="reviewed">        
          <milestone unit="section" n="Incipit (1b1)"/>
          <milestone unit="section" n="Title"/>
-         <pb n="1b"/><lb n="1b1"/> || rgya gar skad tu || <rs type="work" ana="corpusmd:named_reference" ref="db:5294">pra mA Na pin dAr tha</rs> nama || bod skad du || <rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> zhes bya ba | </seg>
+         <pb edRef="inst:5293" n="1b"/><lb edRef="inst:5293" n="1b1"/> || rgya gar skad tu || <rs type="work" ana="corpusmd:named_reference" ref="db:5294">pra mA Na pin dAr tha</rs> nama || bod skad du || <rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> zhes bya ba | </seg>
+         
+         <gap reason="omitted"/>
+        
+
          </ab>
+         
+         <ab xml:space="preserve" type="text_body">
+         
       <gap reason="omitted"/>
-      <ab>
-        <seg type="excerpt" xml:id="ex87042024-09-1215-44-53" status="finalized"><milestone unit="section" n="(b) Phya pa"/> yang <rs type="person" ana="corpusmd:named_reference" ref="db:3831"><abbr>slob dpon</abbr> cha pa</rs> na re ¦ rdzas yod chos 3 tshang ba de rdzas su yod pa rigs mi 'thun gyi spyi <abbr>dang dngos su</abbr> 'gal ba ¦ <abbr>mtshan gzhi</abbr> la grub pa ni <abbr>mtshan nyid</abbr> yang <abbr>dag gi</abbr> <abbr>mtshan nyid</abbr> du 'dod pa la ¦ </seg>
-      </ab>
-      <gap reason="omitted"/>
-      <ab>
-        <seg type="excerpt" xml:id="ex87042024-09-1215-46-31" status="finalized"><milestone unit="section" n="(c) Chu mig pa"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig <pb n="2b"/><lb n="2b1"/> pa</rs>s <abbr>mtshan nyid</abbr> kyi rigs mi 'thun gyi spyi dang dngos 'gal la byed na ¦ mi rtag pa'i <abbr>mtshan nyid</abbr> du bkod pa'i rgyu bskyed <abbr>mtshan nyid</abbr> du thal te | chos gsum po de tshang pa'i phyir gsung pa mi rigs te ¦ mi rtag pa'i <abbr>mtshan nyid</abbr> du bkod pa'i rgyu bskyed <abbr>chos can</abbr> | <abbr>mtshan nyid</abbr> kyi ldog par thal <abbr>mtshan nyid</abbr> kyi rigs mi 'thun gyi spyi dang dngos 'gal yin pa'i phyir || khyab pa dang rtags <lb n="2b2"/> khas blangs des na bzlog mi <abbr>nus so</abbr> || </seg>
-      </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex87042024-09-1215-46-312" status="finalized"><milestone unit="section" n="(b) chu mig pa"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs> kho nyid <abbr>mtshan nyid</abbr> du bkod pa <choice><orig>‹la›</orig><reg>la</reg></choice> ltos te <abbr>mtshan gzhi</abbr> yin par thal te ¦ </seg> </ab>
-      <gap reason="omitted"/>
-      <ab>
-        <seg type="excerpt" xml:id="ex87042024-09-1215-46-3123" status="finalized"> yang <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs>s bum pa rgyus bskyed du mtshon pa la <lb n="13a2"/> skad 1 ma <abbr>mtshan nyid</abbr> du bkod pa <abbr>mtshan nyid</abbr> skyon med du 'dod pa mi <abbr>'thad de</abbr> ¦ <abbr>mtshon bya</abbr> yang skyon med du 'gyur na rang ldog tha snyad du <abbr>ma grub</abbr> pa yin pa'i <abbr>phyir ro</abbr> || khyab pa khas kyang blangs de gang rung skyon can yin na 3 ga skyon can du 'gyur bas khyab pa'i <abbr>phyir ro</abbr> || </seg>
-      </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex87042023-10-04-135" status="finalized" ana="corpusmd:colophon"><rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> zhes bya ba'i bstan <choice><orig>bcas</orig><reg>bcos</reg></choice> 'di ni <lb n="61b4"/> lung dang <choice><orig>°igs</orig><reg>rigs</reg></choice> pa man ngag gyi tshul la dbang 'byor pa | mkhas <choice><orig>pa</orig><reg>pa'i</reg></choice> <abbr>gtsug gi</abbr> rgyan du gyur pa <note type="editorial">On f. 60a7: mkhas pa'i tsug rgyan phyogs kyi glang po </note> | phyogs ma lus par snyan pa rab tu <abbr>grags</abbr> pa can ¦ 'gran zla dang bral ba'i mkhas pa chen po <rs type="person" ana="corpusmd:named_reference" ref="db:4095">dbang phyug dpal</rs> <note type="editorial">There is a Sakya scholar of the 13th c. by this name (P3696)</note> gyi bka' drin pas rab tu byed pa <rs type="work" ana="corpusmd:unnamed_reference" ref="db:5633">sde bdun mdo</rs> dang bcas °°°° <note type="editorial"> Could be pa'i legs but unclear</note> par sbyor bas <choice><orig>rnams</orig><reg>rnam</reg></choice> spyod <lb n="61b5"/> °°°° rtog rig pa'i tshul khong du chud pa ¦ gzhung <abbr>lugs</abbr> la <rs type="person" ana="corpusmd:named_reference" ref="db:4094"><abbr>chen po</abbr> blo gros mtshungs med</rs> la don du gnyer ba'i slob ma blo gsal zhing yid gzhungs pa du mas yang dang yang du bskul zhing <rs type="person" ana="corpusmd:named_reference" ref="db:5957"><rs type="place" ana="corpusmd:named_reference" ref="db:5949">mnga' ris</rs> pa dge'i ba'i bshes | gnyen 'od zer seng ge</rs>s shog gu yang phul nas snar °°°°°°°° <lb n="61b6"/> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5733">dpal sa skya'i gtsug lag khang</rs> du legs par sbyar ba rdzogs s+ho || </seg>
+      
+        
+         
+         
+             
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><lb edRef="inst:5293" n="2a7"/><seg type="excerpt" xml:id="ex87042024-09-1215-44-53" status="finalized"><milestone unit="section" n="(b) Phya pa"/> yang <rs type="person" ana="corpusmd:named_reference" ref="db:3831"><expan>slob dpon</expan> cha pa</rs> na re ¦ rdzas yod chos 3 tshang ba de rdzas su yod pa rigs mi 'thun gyi spyi <expan>dang dngos su</expan> 'gal ba ¦ <expan>mtshan gzhi</expan> la grub pa ni <expan>mtshan nyid</expan> yang <expan>dag gi</expan> <expan>mtshan nyid</expan> du 'dod pa la ¦ </seg></ab>
+         
+         <ab xml:space="preserve">
+         <lb edRef="inst:5293" n="2a7"/><seg type="excerpt" xml:id="ex87042024-09-1215-46-31" status="finalized"><milestone unit="section" n="(c) Chu mig pa"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig <pb edRef="inst:5293" n="2b"/><lb edRef="inst:5293" n="2b1"/> pa</rs>s <expan>mtshan nyid</expan> kyi rigs mi 'thun gyi spyi dang dngos 'gal la byed na ¦ mi rtag pa'i <expan>mtshan nyid</expan> du bkod pa'i rgyu bskyed <expan>mtshan nyid</expan> du thal te | chos gsum po de tshang pa'i phyir gsung pa mi rigs te ¦ mi rtag pa'i <expan>mtshan nyid</expan> du bkod pa'i rgyu bskyed <expan>chos can</expan> | <expan>mtshan nyid</expan> kyi ldog par thal <expan>mtshan nyid</expan> kyi rigs mi 'thun gyi spyi dang dngos 'gal yin pa'i phyir || khyab pa dang rtags <lb edRef="inst:5293" n="2b2"/> khas blangs des na bzlog mi <expan>nus so</expan> || </seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><lb edRef="inst:5293" n="6b2"/><seg type="excerpt" xml:id="ex87042024-09-1215-46-312" status="finalized"><milestone unit="section" n="(b) chu mig pa"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs> kho nyid <expan>mtshan nyid</expan> du bkod pa <choice><orig>‹la›</orig><reg>la</reg></choice> ltos te <expan>mtshan gzhi</expan> yin par thal te ¦ </seg> </ab>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+
+         <ab xml:space="preserve"><lb edRef="inst:5293" n="13a1"/><seg type="excerpt" xml:id="ex87042024-09-1215-46-3123" status="finalized"> yang <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs>s bum pa rgyus bskyed du mtshon pa la <lb edRef="inst:5293" n="13a2"/> skad 1 ma <expan>mtshan nyid</expan> du bkod pa <expan>mtshan nyid</expan> skyon med du 'dod pa mi <expan>'thad de</expan> ¦ <expan>mtshon bya</expan> yang skyon med du 'gyur na rang ldog tha snyad du <expan>ma grub</expan> pa yin pa'i <expan>phyir ro</expan> || khyab pa khas kyang blangs de gang rung skyon can yin na 3 ga skyon can du 'gyur bas khyab pa'i <expan>phyir ro</expan> || </seg></ab>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+   
+         
+         
+         
+         
+         
+         
+         
+
+         
+
+         
+         
+         
+         
+         
+         
+         
+         
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve">
+         <lb edRef="inst:5293" n="28b3"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-48" status="finalized"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs> <expan>phyogs chos</expan> grub cing bsgrub bya'i chos sgras <choice><sic>khyar</sic><corr>khyad</corr></choice> par du byas pa dang rjes su 'gro ldog nges pa zhes 'dod pa la | sgra mi rtag bsgrub kyi ltos <expan>dag gi</expan> rtags thams cad der thal | bsgrub bya'i chos sgras khyad par du byas pa dang rjes su ldog nges pa'i phyir te |</seg></ab>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="30a4"/><seg type="excerpt" xml:id="ex087042026-02-2316-46-33" status="finalized"><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral gri</rs> <expan>la sogs</expan> ‹pa› dag dgag pa la dngos med kyis khyab par 'dod pa dang || <expan>med</expan> dgag la dngos <expan>med</expan> kyis khyab par 'dod pa la | ri bong rwa <expan>med</expan> dang bum <expan>med</expan> dngos <expan>med</expan> du thal med dgag pa yin <choice><sic>pa'a</sic><corr>pa'ang</corr></choice> phyir ro ||</seg>
+          </ab>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="30b2"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-49" status="finalized">'dis <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs> tshogs don <expan>thams cad</expan> la sgrub <lb edRef="inst:5293" n="30b3"/> pas khyab ces smra ba'ang bsal pa <expan>yin no</expan> || </seg>
          </ab>
-    </body>
-  </text>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="33a7"/><seg type="excerpt" xml:id="ex087042026-02-2316-46-34" status="finalized"><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral gri</rs> dus mnyam rgyu <expan>'bras su</expan> 'dod pa dang brgyud rgyus rgyu'i go mi chod par 'dod pa ni | <rs type="person" ana="corpusmd:named_reference" ref="db:3773">chos grags</rs> kyi gzhung rnam × s dang 'gal ba yin no ||</seg></ab>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve">
+         <lb edRef="inst:5293" n="33b6"/><seg type="excerpt" xml:id="ex087042026-02-2315-44-51" status="finalized"><rs type="person" ana="corpusmd:named_reference" ref="db:7785">dz+nya na shri mi tri</rs> na re |
+         <rs type="work" ana="corpusmd:named_reference" ref="db:7786">rgyu dang 'bras bu'i <expan>dngos po</expan></rs> ni || 
+        
+         <quote><lg> <l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha <lb edRef="inst:5293" n="33b7"/> 1</rs> rnam pa lnga yis smra || </l><l><expan>mngon sum</expan> dang ni mi dmigs pa'i ||</l>
+         <l>dbye ba 3 gyis yang dag 'grub ||</l></lg></quote>
+         ces phrugs 3 du bzhed de |
+         <rs type="person" ana="corpusmd:unnamed_reference" ref="db:7785">khong</rs> gis mdzad pa'i <rs type="work" ana="corpusmd:named_reference" ref="db:7786">rgyu dang <expan>'bras bu'i</expan> <expan>dngos po</expan> grub po</rs> las ||
+         <quote><lg><l>gal te snga ma'i mi <expan>dmigs</expan> pas ||</l>
+         <l>gzhan dang 'brel ba <expan>la sogs</expan> pa ||</l>
+         <l>gcod pa med na de ci zhig</l> |
+         <l><expan>gcad de</expan> na phyi mas ci zhig <lb edRef="inst:5293" n="34a1"/> bya</l></lg></quote> zhes bshad de || <rs type="person" ana="corpusmd:named_reference" ref="db:3892">chos rje sa skya pa</rs> yang de'i lugs dang mthun par phrugs 3 du bzhed do ||</seg>
+      </ab>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="34a6"/><seg type="excerpt" xml:id="ex087042026-02-2317-05-14" status="finalized"><rs type="work" ana="corpusmd:named_reference" ref="db:5564">rig pa'i gter</rs> du 'gal 'brel gzhi' mthun pa mi srid cing dngos po tha dad phan gnod byed na 'gal 'brel dang | de lta ma yin mi 'gal ma 'brel ba'i tha dad tsam du bzhed pa ltar na <note type="editorial">This corresponds to Chu mig pa's definitions in the rNam rgyal</note> | gnod byed tsha reg gis <lb edRef="inst:5293" n="34a7"/> nus chung du byas pa'i gnod bya grang reg nus chung <expan>chos can</expan> ¦ gnod byed tsha reg dang ma 'brel par thal 'gal ba'i phyir ro ||</seg></ab>
+         <gap reason="omitted"/>
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="36b5"/><seg type="excerpt" xml:id="ex087042026-02-2315-48-02" status="finalized"><rs type="work" ana="corpusmd:named_reference" ref="db:5564">rigs gter</rs> las khyab byed 'gal <expan>dmigs</expan> su bshad pa ni ltos pa'i khyab byed ma nges pa dang dngos 'gal nges pa <expan>dmigs</expan> pa'i sgo nas dang || nges pa'i khyab byed mi ltos pa dang dngos 'gal ltos <lb edRef="inst:5293" n="36b6"/> pa <expan>dmigs</expan> pa'i sgo nas yin mod | 'on kyang 'gal khyab <expan>dmigs</expan> pa 'dir sdud pa rnam pa gsal ba <expan>yin no</expan> ||</seg>
+      </ab>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="37b4"/><seg type="excerpt" xml:id="ex087042026-02-2316-22-22" status="finalized">rtags de dag 'gal ba la brten pas | 'gal pa bshad na 'gal ba'i mtshan nyid | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs> chos gang zhig gang gis dben pa zhes zer la | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">gzhan</rs> ni <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo <lb edRef="inst:5293" n="37b5"/> tsha ba chen po</rs>'i rjes su 'breng nas phan tshun tha dad pa zhes pa dang | gang zhig gang yin par grub pa zhes kyang <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">la la</rs> smra'o || dang po ltar na dgag pa'i tha snyad byar rung <expan>chos can</expan> ¦ byar mi rung ‹dang› mi 'gal bar thal | sgrub pa yin pas byar mi rung gis mi dben pa'i phyir || <expan>rtags</expan> ma grub na ‹de› byar mi rung du mtshon pa'i <expan>mtshan nyid</expan> <lb edRef="inst:5293" n="37b6"/> mi rung par thal bar 'gyur na de'ang khyod 'dod pa ma <expan>yin no</expan> ||</seg>
+
+          <seg type="excerpt" xml:id="ex087042026-02-2409-14-42" status="finalized">de'i phyir <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs> dang <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">de'i <expan>rjes su</expan> 'breng pa</rs> rnams la 'di brjod na mi smra ba'i dka' thun blangs pa <expan>bzhin</expan> du 'gyur ro ||</seg><gap reason="omitted"/></ab>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        
+         
+         
+         
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/>
+            
+         <lb n="47a5"/><seg type="excerpt" xml:id="ex087042026-02-2316-46-35" status="finalized"><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral</rs></note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">kha cig</rs> ngag gang zhig pha rol la tshul 3 dngos shugs la ston par byed pa zhes pa la ni tshul 3 zhes pha rol la brjod pa'i tshig de'ang gzhan don <expan>rjes dpag</expan> tu thal ba'i <expan>phyir ro</expan> ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         <ab xml:space="preserve">
+
+         <lb edRef="inst:5293" n="47b1"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-50" status="finalized">de'i phyir <rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu mig pa</rs>s gzhan don <lb edRef="inst:5293" n="47b2"/> <expan>rjes dpag</expan> lngar phye ba ni mi rigs te | 3 las tshul gang rung pa nyid || ma tshang ma bstan yin par brjod ces pa <expan>ltar ro</expan> ||</seg></ab>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve">
+         <lb edRef="inst:5293" n="50a4"/><seg type="excerpt" xml:id="ex087042026-02-2316-03-16" status="finalized">sel byed la'ang nges pa blo'i ¦ brjod pa'i sgra'i ¦ brjod bya don gyi bsal ba ste 3 yod pa la ¦ <lb edRef="inst:5293" n="50a5"/>  dang po ni sgra mi rtag rtogs kyi <expan>rjes dpag</expan> lta bu ¦ 2 pa ni sgra mi rtag ces pa'i tshig ¦ 3 pa ni de <expan>dag gi</expan> yul sgra mi rtag pa'o || de la <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3846">'u yug</rs></note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:3846">kha 1</rs> ni snga ma 1 <expan>mtshan nyid</expan> pa phyi ma 2 btags pa bar 'dod la | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:6828">gzhan dag</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:6828">byams</rs></note> ni phyi ma 1 <expan>mtshan nyid</expan> par 'dod do ||</seg>
+      </ab>
+         <ab xml:space="preserve">
+         <seg type="excerpt" xml:id="ex087042026-02-2316-03-17" status="finalized">bsal ba tsam gyis <expan>mtshan nyid</expan> ¦ dam bcas pa'i gzhi la dam bca' dang <lb edRef="inst:5293" n="50a6"/> tshad mas gnod pa'i 'gal ba blos grub pa'o zhes <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4018">kha 1</rs><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> 'dod la | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">gzhan</rs> ni dam bcas pa gang zhig tshad mar 'dod pa'i blos gnod pa'o zhes <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral</rs></note> smra'o ||</seg>
+         </ab>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve">
+         <lb edRef="inst:5293" n="50b5"/><seg type="excerpt" xml:id="ex087042026-02-2316-10-18" status="finalized">de la 2 las ¦ <expan>mngon sum</expan> bsal ba'i <expan>mtshan nyid</expan> ¦ dam bcas pa'i gzhi la dam bca' dang tshad mas gnod pa'i 'gal ba rtog bral ma 'khrul ba'o blos grub pa zhes <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4018">kha cig</rs> gi'o || <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">gzhan</rs> ni dam bcas pa gang zhig <expan>mngon sum</expan> tshad mas gnod pa ces <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral</rs></note> smra'o ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="51a1"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-51" status="finalized">de la <rs type="work" ana="corpusmd:named_reference" ref="db:8071">rigs pa'i sgo</rs>r <expan>bzhir</expan> che yang 'dir <rs type="work" ana="corpusmd:named_reference" ref="db:3770">kun las btus</rs> <expan>bzhin</expan> du phye na 3 ste ¦ dngos po stobs zhugs <expan>rjes dpag gi</expan> bsal ba'i <expan>mtshan nyid</expan> ¦ dam bcas pa'i gzhi la dam bca' dang tshad mas gnod pa'i <lb edRef="inst:5293" n="51a2"/> 'gal ba tshul 3 pa'i <expan>rtags</expan> la <expan>brten nas</expan> bsgrub bya dag pa ba rtogs pa'i blos grub ste | dag pa ni sgras khyad par du ma byas pa zhes zer ba <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> sgra mi rtag rtogs kyi <expan>rjes dpag</expan>  la ma khyab pa <expan>yin no</expan> || <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral</rs></note> dam bcas pa gang zhig <expan>rjes dpag gis</expan> gnod pa zhes smra ba ni bsal bya la'ang khyab ches pa <expan>yin no</expan> ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="51a3"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-52" status="finalized">grags bsal gyi <expan>mtshan nyid</expan> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> dam bcas pa'i gzhi la dam bca' dang tshad mas gnod pa'i 'gal ba tshul 3 pa'i <expan>rtags</expan> la <expan>rten nas</expan> sgrub bya ltos pa ba rtogs pa'i blos grub pa 'am <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4018">'gal zhig</rs> na re | dam bcas pa gang zhig grags pa'i <expan>rjes dpag gis</expan> bsal ba yin par thal te ¦ <lb edRef="inst:5293" n="51a4"/> grags bsal yin pa'i <expan>phyir ro</expan> ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="51a7"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-54" status="finalized"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4018">kha 1</rs> yid ches kyi bsal ba'i <expan>mtshan nyid</expan> ¦  <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> dam bcas pa'i gzhi la dam bca' dang tshad mas gnod pa'i 'gal ba blos grub cing dam bca' la gegs byed pa zhes pa rang <expan>gzhan ni</expan> dam bcas gang zhig yid ches pa'i tshig las <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral</rs></note> dpog pa'i blos bsal ba zhes <expan>zer ro</expan> ||</seg></ab>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="51b3"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-55" status="finalized">de la 2 las khas blangs bsal ba ni ¦ dam bcas pa'i gzhi la ngag med phyi 'gal stobs kyis dam bca' la gegs byed pa zhes <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> zer la ¦ <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">kha cig</rs> yid ches pa'i lung dang 'gal ba <expan>zer ro</expan> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral</rs></note> ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="51b5"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-56" status="finalized">rang tshig bsal ba'i <expan>mtshan nyid</expan> ¦ dam <lb edRef="inst:5293" n="51b6"/> bcas pa'i gzhi la dam bca' dang tshad mas gnod pa'i 'gal ba blos grub cing ngag dngos shugs 'gal stobs kyis dam bca' la gegs byed pa zhes <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> zer la ¦ de'ang dngos su <expan>rjes dpag</expan> tshad min du dam bcas pa'i tshe shugs la de ltar brjod pa'i ngag de de bsgrub kyi <expan>rtags</expan> yang dag du dam bcas shing de la brten pa'i blo <expan>rjes dpag</expan> tshad mar dam bcas te ngag 1 po de nyid <lb edRef="inst:5293" n="51b7"/> kyis 2 ga yin pa'i phung 3 dam <expan>bcas so</expan> ||</seg>  </ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="52b4"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-57" status="finalized"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4018">kha 1</rs> bsgrub pa'i ngag du bkod pa gang zhig brjod bya <expan>rtags</expan> mi ston pa'o <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> <expan>zer ro</expan> ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="52b7"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-58" status="finalized">de la 3 las <expan>ma grub</expan> pa'i <expan>rtags</expan> kyi <expan>mtshan nyid</expan> ¦ <pb edRef="inst:5293" n="53a"/><lb edRef="inst:5293" n="53a1"/> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4018">kha cig</rs> <expan>rtags</expan> bsgrub bya'i chos can la ji ltar bkod pa ltar <expan>ma grub</expan> pa zhes smra ba ni <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> ¦ sgra rtag bsgrub kyi 'gal <expan>rtags</expan> <expan>chos can</expan> ¦ sgra rtag bsgrub la <expan>phyogs chos</expan> <expan>ma grub</expan> par thal ¦ sgra rtag bsgrub kyi bsgrub bya'i <expan>chos can</expan> la 'god tshul la <expan>ma grub</expan> pa'i <expan>phyir ro</expan> ||</seg>
+
+            </ab>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="53b5"/><seg type="excerpt" xml:id="ex087042026-02-2316-46-50" status="finalized">2 pa ma nges pa la <expan>mtshan nyid</expan> ni ¦ <expan>phyogs chos</expan> grub cing phyogs 2 las ldog par <expan>ma grub</expan>  pa zhes <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral</rs></note> <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">kha 1</rs> zer la || <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">gzhan dag</rs> ni chos <expan>phyogs</expan> grub khyab pa la the tshom za ba'i <expan>rtags</expan> po zhes <expan>zer ro</expan> ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve">
+         
+         <lb edRef="inst:5293" n="55b4"/><seg type="excerpt" xml:id="ex087042026-02-2316-14-59" status="finalized"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4018">kha 1</rs> chos kyi ngo bo 'gog pa'i 'gal ba'i <expan>mtshan nyid</expan> <expan>phyogs</expan> chos su grub cing chos kyi ngo bo dang <expan>rjes su</expan> 'gro ldog phyin ci log tu nges pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> zhes <expan>zer ro</expan> ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="55b5"/><seg type="excerpt" xml:id="ex087042026-02-2316-15" status="finalized">chos kyi <expan>khyad par</expan> 'gog pa'i 'gal ba'i <expan>mtshan nyid</expan> ¦ <lb edRef="inst:5293" n="55b6"/> <expan>phyogs chos</expan> grub chos kyi khyad par dang <expan>rjes su</expan> 'gro ldog phyin ci log du nges pa zhes smra ba la <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> ¦ <expan>chos can</expan> gyi khyad par 'gog pa'i 'gal ba min par thal | chos kyi khyad par mi 'gog pa'i <expan>phyir ro</expan> ||</seg></ab>
+         <gap reason="omitted"/> 
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve">
+
+         <lb edRef="inst:5293" n="56a6"/><seg type="excerpt" xml:id="ex087042026-02-2316-15-11" status="finalized">'dir ni <expan>phyogs chos</expan> bstan pa ni || gnas yin lhag ma'i tshul 2 ni || dpe yis rab tu ston par byed ces bshad pa'i don bshad pa la ¦ 'thun dpe'i <lb edRef="inst:5293" n="56a7"/> <expan>mtshan nyid</expan> ¦ go bya go byed 2 dang ldan zhing rjes 'gro'i khyab pa nges pa'i ltos gzhir gyur pa <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> zhes zer la ¦ <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">kha 1</rs> <note type="gloss"><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">ral</rs></note> chos rtags 2 dang ldan par tshad mas nges pa zhes smra'o ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         <ab xml:space="preserve"><gap reason="omitted"/><lb edRef="inst:5293" n="56b2"/><seg type="excerpt" xml:id="ex087042026-02-2316-15-12" status="finalized"><expan>mi mthun</expan> dpe'i <expan>mtshan nyid</expan> ¦ go bya go byed 2 dang mi ldan zhing ldog pa'i khyab pa nges pa'i ltos <expan>bzhir</expan> gyur pa zhes pa <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4018">kha cig</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4018">chu</rs></note> gi yin la | ‹rang› <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4006">gzhan</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:4006">ral</rs></note> ni chos <expan>rtags</expan> 2 kyis stong bar tshad mas nges pa zhes smra'o ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab xml:space="preserve">
+
+         <lb edRef="inst:5293" n="59b3"/><seg type="excerpt" xml:id="ex087042026-02-2316-58-53" status="finalized"><rs type="work" ana="corpusmd:named_reference" ref="db:5564">rigs gter</rs> gyi gzhung <lb edRef="inst:5293" n="59b4"/>
+         <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs> las rang rigs 'phen pa 4 dang ¦ gzhan rigs 'phen pa bcu <expan>bzhir</expan> bshad la ¦ <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha 1</rs> las rang rigs 'phen pa lnga gzhan rigs 'phen pa <expan>bcu drug</expan> tu bshad pa'i don <rs type="person" ana="corpusmd:named_reference" ref="db:6828"><expan>slob dpon</expan> phyogs glang gsar ma byaMs pa mgon po</rs>s bshad pa ltar na ¦
+   <lg>  <l>me dang ba mo spu long dang ||</l>
+         <l>ba mo'i spu long ltos bcas kyis ||</l>
+         <l>grang reg tsan me du ba dang ¦||</l>
+         <l>tsan du nges pa <lb edRef="inst:5293" n="59b5"/> rim pa <expan>bzhin</expan> ||</l>
+         <l>'gog pa'i rang rigs 'phen pa lnga ||</l>
+         <l>'di yang dpyad par bya ba yin |</l></lg> lnga po de la ba mo'i spu long gis <expan>tsan dan</expan> gyi du ba 'gog pa mi 'thad la ¦ ltos pas nges pa 'gog pa'ang bcu 2 po'i nang du 'dus pa'i phyir ¦ 3 mam phan tshun 2 ka rtsis na drug <expan>yin no</expan> ||
+       <lg>  <l>yang gzhan rigs 'phen pa'ang ¦</l>
+         <l>me dang du bas ma reg <lb edRef="inst:5293" n="59b6"/> dang ||</l>
+         <l>me dang grang bas spu long dud ||</l>
+         <l>shing dang me med shab du med ||</l>
+         <l>spu long bye brag yod me med ||</l>
+         <l>sha ba shing du thal ba ste ||</l></lg>
+         bzlog pas <expan>bcu drug</expan> gzhan rigs 'phen zhes bya ste | de la dang po me ba reg dang ¦ du bas ma reg 'gog pa 2 rung la | mes spu long 'gog <choice><sic>pang</sic><corr>pa'ang</corr></choice> grang pas dud pa 'gog pa 2 gnad 1 pas gang rung 1 mi <lb edRef="inst:5293" n="59b7"/>'thad cing | shing med pas shab med 'phen pa dang bzhi ¦ sha pas shing du thal ba 'phen pa dang lnga du ba yod pas me yod par thal ba dang drug | me <expan>med</expan>  pas du med du thal ba 'phen pa dang bdun po phan tshun bzlog pas bcu <expan>bzhir</expan> 'gyur gyi spu long gi bye <expan>brag gis</expan> me 'gog pa'ang mi rig te | sngar rang rgyud kyi <expan>rtags</expan> kyi grangs nges bstan pa des shes par nus pa <pb edRef="inst:5293" n="60a"/><lb edRef="inst:5293" n="60a1"/> <expan>yin no</expan> ||</seg></ab>
+
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+          </ab>
+
+         <ab xml:space="preserve" type="colophon">
+            <lb edRef="inst:5293" n="61b3"/><seg type="excerpt" xml:id="ex87042023-10-04-135" status="finalized" ana="corpusmd:colophon">
+         <milestone n="Colophon (61b3-61b6)" unit="section"/>
+               <rs type="work" ana="corpusmd:named_reference" ref="db:5294">tshad ma'i don bsdus pa</rs> zhes bya ba'i bstan <choice><orig>bcas</orig><reg>bcos</reg></choice> 'di ni <lb edRef="inst:5293" n="61b4"/> lung dang <choice><orig>°igs</orig><reg>rigs</reg></choice> pa man ngag gyi tshul la dbang 'byor pa | mkhas <choice><orig>pa</orig><reg>pa'i</reg></choice> <expan>gtsug gi</expan> rgyan du gyur pa <note type="editorial">On f. 60a7: mkhas pa'i tsug rgyan phyogs kyi glang po </note> | phyogs ma lus par snyan pa rab tu <expan>grags</expan> pa can ¦ 'gran zla dang bral ba'i mkhas pa chen po <rs type="person" ana="corpusmd:named_reference" ref="db:4095">dbang phyug dpal</rs> <note type="editorial">There is a Sakya scholar of the 13th c. by this name (P3696)</note> gyi bka' drin pas rab tu byed pa <rs type="work" ana="corpusmd:unnamed_reference" ref="db:5633">sde bdun mdo</rs> dang bcas °°°° <note type="editorial"> Could be pa'i legs but unclear</note> par sbyor bas <choice><orig>rnams</orig><reg>rnam</reg></choice> spyod <lb edRef="inst:5293" n="61b5"/> °°°° rtog rig pa'i tshul khong du chud pa ¦ gzhung <expan>lugs</expan> la <rs type="person" ana="corpusmd:named_reference" ref="db:4094"><expan>chen po</expan> blo gros mtshungs med</rs> la don du gnyer ba'i slob ma blo gsal zhing yid gzhungs pa du mas yang dang yang du bskul zhing <rs type="person" ana="corpusmd:named_reference" ref="db:5957"><rs type="place" ana="corpusmd:named_reference" ref="db:5949">mnga' ris</rs> pa dge'i ba'i bshes | gnyen 'od zer seng ge</rs>s shog gu yang phul nas snar °°°°°°°° <lb edRef="inst:5293" n="61b6"/> kyis <rs type="place" ana="corpusmd:named_reference" ref="db:5733">dpal sa skya'i gtsug lag khang</rs> du legs par sbyar ba rdzogs s+ho || </seg>
+         </ab>
+         <gap reason="omitted"/>
+         
+         
+         
+      
+      
+      </body>
+      <gap reason="omitted"/>
+   </text>
 </TEI>

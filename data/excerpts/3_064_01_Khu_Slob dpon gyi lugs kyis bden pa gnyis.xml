@@ -1,12 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader><fileDesc>
+   <teiHeader>
+      <fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">slob dpon gyi lugs kyis bden gnyis 'chad pa</title>
+            <title type="main" xml:lang="bo-Latn-x-wylie">slob dpon gyi lugs kyis bden gnyis 'chad pa</title>
             <author ref="db:3873">khu mdo sde 'bar</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
             <respStmt>
                <resp>Transcribed by</resp>
-               <name ref="corpusmd:PH">Pascale Hugon</name></respStmt>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
             <respStmt>
                <resp>TEI Markup by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -21,10 +29,10 @@
             </respStmt>
             <respStmt>
                <resp>APIS named entitites database implementation</resp>
-               <name ref="corpusmd:SR">Stephan Resch</name>
+               <name ref="corpusmd:SR">Stefan Resch</name>
             </respStmt>
             <respStmt>
-               <resp>XML editor cumstomization</resp>
+               <resp>XML editor customization</resp>
                <name ref="corpus.:DStx">Daniel Stoxreiter</name>
             </respStmt>
             <respStmt>
@@ -35,13 +43,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            </titleStmt>
+         </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="public">
+            <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -50,18 +58,25 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">3_064_01</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: 'bru tsha.&#13;
 Lines per folio: 10.&#13;
 Handwritten folio numbering in Arabic numbers (probably modern) mixing up the proper order of the folios. &#13;
-Archaic orthographic characteristics, old prefix alternation, and unusual spellings (see [WL39GVT5]: 937-938).</additional></physDesc></sourceDesc>
-      <respStmt><principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            </respStmt><respStmt><funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
-            </respStmt></fileDesc>
+Archaic orthographic characteristics, old prefix alternation, and unusual spellings (see [WL39GVT5]: 937-938).</p>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
@@ -96,10 +111,30 @@ Archaic orthographic characteristics, old prefix alternation, and unusual spelli
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
-      <profileDesc>
-			</profileDesc>
-      </teiHeader>
-  <text>
-    <body/>
-  </text>
+      <profileDesc/>
+   </teiHeader>
+   <text>
+   
+      <body>
+      <gap reason="omitted"/>
+
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+      
+      </body>
+      <gap reason="omitted"/>
+   </text>
 </TEI>

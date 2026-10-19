@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader><fileDesc>
+   <teiHeader>
+      <fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">bden gnyis kyi rnam par bshad pa</title>
+            <title type="main" xml:lang="bo-Latn-x-wylie">bden gnyis kyi rnam par bshad pa</title>
             <author ref="db:3913">rnal 'byor pa shes rab rdo rje</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:SB">Serena Biondo</name>
@@ -23,10 +30,10 @@
             </respStmt>
             <respStmt>
                <resp>APIS named entitites database implementation</resp>
-               <name ref="corpusmd:SR">Stephan Resch</name>
+               <name ref="corpusmd:SR">Stefan Resch</name>
             </respStmt>
             <respStmt>
-               <resp>XML editor cumstomization</resp>
+               <resp>XML editor customization</resp>
                <name ref="corpus.:DStx">Daniel Stoxreiter</name>
             </respStmt>
             <respStmt>
@@ -37,13 +44,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            </titleStmt>
+         </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="public">
+            <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -53,15 +60,26 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">42 x 10</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.</additional></physDesc></sourceDesc>
-      <respStmt><principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            </respStmt><respStmt><funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
-            </respStmt></fileDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">1_021_03</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: 'bru tsha.</p>
+                           <dimensions unit="cm">
+                              <width>42</width>
+                              <height>10</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
@@ -96,23 +114,255 @@
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
-      <profileDesc>
-			</profileDesc>
-      </teiHeader>
-  <text>
-    <body>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex21032024-09-0412-46-26" status="finalized" ana="corpusmd:colophon">
+      <profileDesc/>
+   </teiHeader>
+   <text>
+      <body>
+       <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <ab>
+       <gap reason="omitted"/><pb n="60"/><lb n="31b4"/><seg type="excerpt" xml:id="ex021032025-12-0316-33-34" status="finalized">de la <rs type="person" ana="corpusmd:named_reference" ref="db:3829">dge bshes pu to ba</rs> na re |
+       <lb n="31b5"/> zab pa ni don dam pa yin te rtogs par dka' bas so || 
+       rgya che ba ni kun rdzob yin te | chos can mang bas so || 
+       yangs pa ni don dam pa yin te | ngos gzung med pas so || 
+       dog pa ni kun rdzob yin te | chos can so so rta <expan>la sogs</expan> pa
+       <lb n="31b6"/> pa bsgyur du mi btub pas gsung ngo || </seg>
+       
+       <gap reason="omitted"/>
+
+       </ab>
+    
+    <gap reason="omitted"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <ab>
+       <gap reason="omitted"/>
+
+              <ab xml:space="preserve" type="colophon"> <pb n="55a"/><lb n="55a5"/><seg type="excerpt" xml:id="ex21032024-09-0412-46-26" status="finalized" ana="corpusmd:colophon">
     <rs type="work" ana="corpusmd:named_reference" ref="db:4627">bden pa gnyis kyi rnam par bshad pa</rs>| <rs type="person" ana="corpusmd:named_reference" ref="db:3720">slob dpon klu sgrub</rs> kyi lugs su <lb n="55a6"/> sbyar ba || × rdzogs s+h+yo ||</seg>
          </ab>
-      <gap reason="omitted"/>
-      <ab>
-        <seg type="excerpt" xml:id="ex21032024-09-0412-46-27" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (55a5-55a7)"/>
+
+         <ab xml:space="preserve" type="colophon"><gap reason="omitted"/><pb n="55a"/><seg type="excerpt" xml:id="ex21032024-09-0412-46-27" status="finalized" ana="corpusmd:colophon"><milestone unit="section" n="Colophon (55a5-55a7)"/>
          <lg><l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:3913">bdag</rs> <note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3913">shag kya'i dge slong prad nya badz+ra</rs></note><note type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3829">dge ba'i bshes pu to ba</rs>'i slob ma <rs type="person" ana="corpusmd:named_reference" ref="db:3913">rnal 'byor pa shes rab rdo rje</rs>s mdzad pa yin naM</note> gis <note type="gloss">ti ka</note> de bsdebs <note type="gloss">ba las byung ba'i</note> dge ba gang <note type="gloss">zhig</note> thob <note type="gloss">pa</note> des ||</l>
          <l>phyin chad skyes bu <note type="gloss">bdag gzhan gyi don dang tshig don gyi rtogs pa</note> don <note type="gloss">du</note> gnyer <note type="gloss">bar</note> 'dod pa yis ||</l>
         <l> <lb n="55a7"/> bden pa gnyis ston <note type="gloss">pa'i</note>tshig dang <note type="gloss">des bstan pa'i</note> don rtogs <note type="gloss">par gyur</note> nas ||</l>
-        <l><note type="gloss">thabs dang shes rab du su 'jug pa ||</note> dbu ma'i lam gyis nges <note type="gloss">pa ste gdon mi za bar</note> par <note type="gloss">chos kyi</note> sku thob <note type="gloss">par</note> shog <note type="gloss">1</note>||</l></lg> dge'o ||</seg>
-      </ab>
-    </body>
-  </text>
+        <l><note type="gloss">thabs dang shes rab du su 'jug pa ||</note> dbu ma'i lam gyis nges <note type="gloss">pa ste gdon mi za bar</note> par <note type="gloss">chos kyi</note> sku thob <note type="gloss">par</note> shog <note type="gloss">1</note>||</l></lg> dge'o ||</seg></ab>
+    </ab> 
+      </body>
+      
+   </text>
 </TEI>

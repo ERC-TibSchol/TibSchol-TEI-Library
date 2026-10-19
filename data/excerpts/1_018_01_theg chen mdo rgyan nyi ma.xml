@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader><fileDesc>
+   <teiHeader>
+      <fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po mdo sde rgyan gyi legs bshad bstan pa'i nyi ma</title>
+            <title type="main" xml:lang="bo-Latn-x-wylie">theg pa chen po mdo sde rgyan gyi legs bshad bstan pa'i nyi ma</title>
             <author ref="db:3900">'jam dbyangs rin chen grags pa</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -22,10 +29,10 @@
             </respStmt>
             <respStmt>
                <resp>APIS named entitites database implementation</resp>
-               <name ref="corpusmd:SR">Stephan Resch</name>
+               <name ref="corpusmd:SR">Stefan Resch</name>
             </respStmt>
             <respStmt>
-               <resp>XML editor cumstomization</resp>
+               <resp>XML editor customization</resp>
                <name ref="corpus.:DStx">Daniel Stoxreiter</name>
             </respStmt>
             <respStmt>
@@ -36,13 +43,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            </titleStmt>
+         </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="public">
+            <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -51,17 +58,28 @@
             <date>2024</date>
          </publicationStmt>
          <sourceDesc>
-            <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">47 x 8.2</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs&#13;
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">1_018_01</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dpe tshugs&#13;
 Some corrections in dbu can.&#13;
-Proofread (zhus dag byas nas dag par 'dog |)</additional></physDesc></sourceDesc>
-      <respStmt><principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            </respStmt><respStmt><funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
-            </respStmt></fileDesc>
+Proofread (zhus dag byas nas dag par 'dog |)</p>
+                           <dimensions unit="cm">
+                              <width>47</width>
+                              <height>8.2</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
@@ -96,13 +114,17 @@ Proofread (zhus dag byas nas dag par 'dog |)</additional></physDesc></sourceDesc
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
-      <profileDesc>
-			</profileDesc>
-      </teiHeader>
-  <text>
-    <body>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex18012024-09-1009-01-21" ana="corpusmd:colophon" status="finalized"><milestone unit="section" n="colophon"/><rs type="work" ana="corpusmd:named_reference" ref="db:4590"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po <abbr>mdo sde'i</abbr> rgyan</rs> gyi legs bshad bstan pa'i nyi ma</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3900">lung dang rig pa smra ba'i <abbr>dge slong</abbr> 'jam rin</rs> gyis chos gra chen <lb n="160a4"/> po <rs type="place" ana="corpusmd:named_reference" ref="db:5652">bde ba can</rs> du sbyar ba 'di yongs su <abbr>rdzogs s+ho</abbr> ||</seg>  dge'o || </ab>
-    </body>
-  </text>
+      <profileDesc/>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            
+            <gap reason="omitted"/>
+            
+            
+<pb n="160a"/><lb n="160a3"/><seg type="excerpt" xml:id="ex18012024-09-1009-01-21" ana="corpusmd:colophon" status="finalized"><milestone unit="section" n="colophon"/><rs type="work" ana="corpusmd:named_reference" ref="db:4590"><rs type="work" ana="corpusmd:named_reference" ref="db:3746">theg pa chen po <expan>mdo sde'i</expan> rgyan</rs> gyi legs bshad bstan pa'i nyi ma</rs> zhes bya ba <rs type="person" ana="corpusmd:named_reference" ref="db:3900">lung dang rig pa smra ba'i <expan>dge slong</expan> 'jam rin</rs> gyis chos gra chen <lb n="160a4"/> po <rs type="place" ana="corpusmd:named_reference" ref="db:5652">bde ba can</rs> du sbyar ba 'di yongs su <expan>rdzogs s+ho</expan> ||</seg><gap reason="omitted"/></ab>
+      </body>
+      
+   </text>
 </TEI>

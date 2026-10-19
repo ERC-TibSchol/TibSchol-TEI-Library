@@ -1,0 +1,866 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">chos mngon pa kun las btus pa'i rnam par bshad pa gsal ba'i rgyan</title>
+            <author ref="db:4011">bzad pa ring mo dar ma tshul khrims</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:Tr">Transkribus</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">2_041_01</idno>
+            <date>2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">2_041_01</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dpe tshugs.</p>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <p>
+            <gap reason="omitted"/><pb n="3b"/><lb n="3b8"/><seg type="excerpt" xml:id="ex41012024-09-1014-28-24" status="finalized">yang <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsha ba</rs> na re rtso pa'i skabs mngon du byas nas gzhung mdzes par 'gyur ba tsaM ngag 'di'i <expan>'bras bu</expan> yin la | de yang rang <expan>bzhin</expan> kyi mdzes pa ngag 'di'i <expan>'bras bur</expan> mi 'dod kyi bcos mas ba shes pa ngag gis <expan>'bras bur</expan> 'dod pas gzhung 'buM pa <expan>la sogs</expan> pa rang <expan>bzhin</expan> gyi mdzes pa yod kyang dgos 'brel gyi ngag <expan>med</expan> pas bcos mas mdzes pa <expan>med</expan> do zhes zer pa yang ma yin te | </seg><gap reason="omitted"/>
+                     </p>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         <p>
+            <gap reason="omitted"/><pb n="5b"/><lb n="5b3"/><seg type="excerpt" xml:id="ex41012025-05-0612-52-43" status="finalized"><milestone n="1. gzhan lugs dgag pa" unit="section"/>
+		dang po ni <rs type="person" ana="corpusmd:named_reference" ref="db:3786">lo tsha ba</rs> na re brjod bya bden pa yod par bstan pas bden rtogs kyi dgos pa <expan>med</expan> pa'i log rtogs khyegs la | <expan>de dgos</expan> pa bstan pas sgrub mi nus pa'i
+				<lb n="5b4"/> log rtogs khyegs so zhes zer ba ni ma yin te | brjod bya bden pa yod par bstan pas de nyid <expan>med</expan> pa'i log rtogs khegs kyang de rtogs dgos pa <expan>med</expan> pa'i log rtogs mi khegs te | brjod bya bden pa yod pa la de rtogs pas ma khyab pa'i phyir shing yod par bstan pas sha pa <expan>med</expan> pa'i log rtogs mi khegs pa'i <expan>bzhin no</expan> ||
+				 yang dgos pa bstan pas de nyid <expan>med</expan> pa'i log rtogs khegs kyang sgrub mi nus pa'i <lb n="5b5"/> log rtogs mi khyegs te | dgos pa yod pa la sgrub nus pas ma khyab pa'i phyir 'jog po'i nor bu <expan> bzhin no</expan> || </seg>
+				<gap reason="omitted"/></p>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <p>
+            <gap reason="omitted"/><pb n="18b"/><lb n="18b3"/><seg type="excerpt" xml:id="ex41012025-05-0612-57-09" status="finalized">dang po ni gal te rig tshogs pas ldog pa'i ched du phung po lnga bstan nas | chags sdang <expan>la sogs</expan> pa'i don du phung po lnga mi ston pa la rgyu mtshan ci yod zhe na || 'di la <rs type="person" ana="corpusmd:named_reference" ref="db:4291">brang ti</rs> na re nyong pa <expan>thms cad</expan> kyi rgyu 'jig
+				<lb n="18b4"/> tshogs la lta ba yin la des de nyes che bas de bzlog pa'i don du phung po lnga bstan zhes zer ba ni ma yin te | </seg><gap reason="omitted"/><pb n="18b"/><lb n="18b6"/><seg type="shared" xml:id="ex41012025-11-0516-06-05" part="M" next="ex41012025-05-0612-55-06" status="reviewed">des na rang lan ni bdag lta'i gnyen por phung po bstan te gnyen po'i ngo skal du che ba'i phyir ro ||
+				gzhan gyi ni ma yin te ngo skad du mi che ba'i phyir dang | rgyu bdag lta log na <expan>'bras bu</expan> sdug 3 mi ldog pa mi srid te ba ni bas de'i lci klan glan chad pa <expan>bzhin no</expan> || </seg>
+				
+				<pb n="18b"/><lb n="18b6"/><seg type="excerpt" xml:id="ex41012025-05-0612-55-06" status="finalized" part="M" next="ex41012025-11-0516-06-10">yang gal te bdag lta'i gnyen por de bas <lb n="18b7"/> ngo skal du che ba'i gang zag la bdag <expan>med</expan> par bsgoM pa zhes pa gzhan yod pa'i phyir ro zhe na | 
+				'di la <rs type="person" ana="corpusmd:named_reference" ref="db:4242">rog</rs> na re de ni <expan>nyon mong</expan> rnam sbyong °°° sa bon °°° spong pa'i gnyen po yin la | 'di ni spyod pa rnam sbyong de mngon 'gyur spong pa'i gnyen por bstan pa yin <expan>pas so</expan> zhes pa zhal 'tsham yang  sa bdun pa			
+				<note type="gloss"><note type="editorial">Reading of the note tentative.</note>de lta bu °°° dbye °°°°°° zhugs pa'i phyir dang | 'di °°°°°° brjod pas bdag 1 su med par °°°°°° bstan °°°°°° || yang gal te °°°°°° log rtogs mi skye pa'i phyir de bstan pa don med do zhe °° | 'di la 'phags pa rnaMs log rtogs skye ba'i phyis pa rnaMs skye bo zhes zhal °°° yang</note>
+				man chad du de skye par bshad de | byaMs pas <lb n="18b8"/> 
+				<quote><lg><l>mtshan la rgyu dang phung po dang ||</l> <l>khaMs dang skye mched dag dang ni ||</l> <l>khaMs 3 pa la gnas dang chags</l></lg></quote> zhes gsung pa'i phyir ro ||</seg>
+				
+				<pb n="18b"/><seg type="shared" xml:id="ex41012025-11-0516-06-10" part="M" status="reviewed">des na tsa zhig bzlog pa don du rung po bye brag <expan>med</expan> par smos so || 
+				
+				2 pa ni phung po lnga bar la bdag du lta na de'i 'grel pa dang bye bshad las | 'jig rten na phal cher rnam par shes pas la ni bdag
+	         <pb n="19a"/> <lb n="19a1"/> du 'dzin la ¦ lhag ma rnams la ni bdag gir 'dzin to zhes gsungs pa dang 'gal lo zhe na | </seg><gap reason="omitted"/></p>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <p>
+            <gap reason="omitted"/>
+			<pb n="180b"/><lb n="180b2"/><seg type="excerpt" xml:id="ex41012024-09-1014-31-26" ana="corpusmd:colophon" status="finalized"><rs type="person" ana="corpusmd:named_reference" ref="db:4011">mang du thos pa shag kya'i sras || lung rigs 'dzin pa gsad pa ring mo</rs> gyis || <rs type="place" ana="corpusmd:named_reference" ref="db:5662">gnyes thang brag sna</rs> zhes bya bar || gzhan gyi don du brtson pas byar || || 
+			<rs type="work" ana="corpusmd:named_reference" ref="db:4752"><rs type="work" ana="corpusmd:named_reference" ref="db:3755">chos mngon po kun las btus pa</rs>'i rnams par bshad pa gsal ba blo'i rgyan</rs> zhes bya ba <lb n="180b3"/><note type="editorial">There's possibly a lost portion of the line.</note> chos dang gang zag po || || <note type="gloss">dag go |</note> bkra shis par gyur gcig | he he | </seg>
+			</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">slob dpon zhi ba lha nas brgyud pa'i byang chub kyi sems sbyong ba</title>
+            <author ref="db:4052">skyo ston smon lam tshul khrims</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:"/>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:TD">Tsering Dronshar</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">2_050_05</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">2_050_05</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Volume: Ba</p>
+                           <dimensions unit="cm">
+                              <width>35</width>
+                              <height>6</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <gap reason="omitted"/>
+         
+         
+
+         <ab xml:space="preserve" type="colophon"><lb edRef="inst:4844" n="6b4"/><seg type="excerpt" status="finalized" xml:id="ex50052023-09-123" ana="corpusmd:colophon" next="ex50052023-09-194"> 
+         <milestone unit="section" n="Colophon (6b4-5)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:4845">lag khrid</rs> <expan>rdzogs so</expan> || I thI || 
+        <lb edRef="inst:4844" n="6b5"/> <rs type="person" ana="corpusmd:named_reference" ref="db:4052">bla ma <rs type="place" ana="corpusmd:named_reference" ref="db:4411">snar thang</rs> pa brgyad par byon pa</rs> des <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa chos kyi rgyal mtshan</rs> la gnang ste yi ger bris pa'o ||</seg></ab>
+
+        <ab xml:space="preserve" type="post_colophon">
+         <seg type="excerpt" xml:id="ex50052023-09-194" status="finalized" ana="corpusmd:colophon">
+        <milestone unit="section" n="Post-colophon annotations (6b5-6b6), in smaller characters"/>
+        <lg><l><rs type="place" ana="corpusmd:named_reference" ref="db:4411">dben gnas snar thang <choice><sic>rtsug</sic><corr>gtsug</corr></choice> lag khang mchog</rs> tu ||</l> <l><rs type="person" ana="corpusmd:named_reference" ref="db:4052">mnyaM med bla ma sangs rgyas skyo ston</rs> la || ||</l> <l><lb edRef="inst:4844" n="6b6"/> <rs type="person" ana="corpusmd:named_reference" ref="db:6458">btsun pa ze ston chos <choice><orig>‹kyi›</orig><reg>kyi</reg></choice> rgyal mtshan</rs> gyis ||</l> <l>dad nas zhus shing phyag dpe dngos la <expan>bris so</expan> ||</l></lg> <note type="editorial">We understand that bTsun pa Ze ston requested the teaching from sKyo ston and made a copy, based on a "master copy" that could well have been owned by sKyo ston.</note></seg>
+         </ab>
+      </body>
+      
+   </text>
+</TEI>

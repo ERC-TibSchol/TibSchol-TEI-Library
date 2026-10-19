@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader><fileDesc>
+   <teiHeader>
+      <fileDesc>
          <titleStmt>
             <title type="main" xml:lang="bo-Latn-x-wylie">'grel pa 'od dang ldan pa'i tshig dang don ma lus pa blo'i me long la gsal bar byed pa</title>
             <author ref="db:3967">sbal ti jo sras brtson 'grus dbang phyug</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>
@@ -22,10 +29,10 @@
             </respStmt>
             <respStmt>
                <resp>APIS named entitites database implementation</resp>
-               <name ref="corpusmd:SR">Stephan Resch</name>
+               <name ref="corpusmd:SR">Stefan Resch</name>
             </respStmt>
             <respStmt>
-               <resp>XML editor cumstomization</resp>
+               <resp>XML editor customization</resp>
                <name ref="corpus.:DStx">Daniel Stoxreiter</name>
             </respStmt>
             <respStmt>
@@ -36,13 +43,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            </titleStmt>
+         </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="public">
+            <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies
                      to this document.</p>
@@ -52,15 +59,26 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">65 x 11</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.</additional></physDesc></sourceDesc>
-      <respStmt><principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            </respStmt><respStmt><funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
-            </respStmt></fileDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">2_036_01</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: 'bru tsha.</p>
+                           <dimensions unit="cm">
+                              <width>65</width>
+                              <height>11</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
@@ -95,18 +113,288 @@
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
-      <profileDesc>
-         </profileDesc>
-      </teiHeader>
-  <text>
-    <body>
-      <gap reason="omitted"/>
-      <ab>
-        <seg type="excerpt" xml:id="ex36012025-03-3112-23-08" ana="corpusmd:colophon" status="finalized">
-         <milestone unit="section" n="Colophon (65a7-8)"/>
-            <rs type="work" ana="corpusmd:named_reference" ref="db:4720"><rs type="work" ana="corpusmd:named_reference" ref="db:3766">'grel pa 'od dang ldan pa</rs>'i tshig dang don ma lus pa blo'i me long la gsal bar byed pa</rs> || <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">nye ba 'khor lta bu'i bla ma rnams</rs> kyi zhabs kyi rdul spyi bos nod pa || <lb n="65a8"/>
-            <rs type="person" ana="corpusmd:named_reference" ref="db:3967">shag kya'i dge slong brtson 'grus dbang phyug</rs> gis bkod pa'o || || rdzogs s+ho ||  ||</seg>
-      </ab>
-    </body>
-  </text>
+      <profileDesc/>
+   </teiHeader>
+   <text>
+      <body>
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab>
+            <gap reason="omitted"/><lb edRef="inst:7313" n="5a5"/><seg type="excerpt" xml:id="ex036012026-04-1301-16-04" status="reviewed">sgyur lugs ni 
+            <foreign xml:lang="sa-Latn-x-wylie"><note type="gloss">rgya</note> a rgya</foreign> zhes pa na 'phags pa'o || 
+            <foreign xml:lang="sa-Latn-x-wylie">mu la</foreign> na gzhi' 'o ||
+            sa r+ba na thaMd do || 
+            <lb edRef="inst:7313" n="5a6"/> <foreign xml:lang="sa-Latn-x-wylie">a ti</foreign><note type="gloss">For the Sanskrit asti</note> na yod par ro || 
+            <foreign xml:lang="sa-Latn-x-wylie">bad</foreign><note type="gloss">For the Sanskrit vāda (in the title: vādi)</note> na smra ba'o || 
+            <note type="gloss">rgya</note> <foreign xml:lang="sa-Latn-x-wylie">sh+ra ma ne ra</foreign> na dge' tshul lo || 
+            <foreign xml:lang="sa-Latn-x-wylie">ka ri ka</foreign> na tshig le 'ur byas pa'o || 
+            <foreign xml:lang="sa-Latn-x-wylie">'bri ti</foreign> na 'grel pa'o || 
+            <foreign xml:lang="sa-Latn-x-wylie">pra ba ba ti</foreign> na 'od ldan no ||</seg><gap reason="omitted"/></ab>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <ab type="colophon">
+         <lb edRef="inst:7313" n="65a7"/><seg type="excerpt" xml:id="ex36012025-03-3112-23-08" ana="corpusmd:colophon" status="finalized">
+         <milestone unit="section" n="Colophon (65a7-65a8)"/>
+            <rs type="work" ana="corpusmd:named_reference" ref="db:4720"><rs type="work" ana="corpusmd:named_reference" ref="db:3766">'grel pa 'od dang ldan pa</rs>'i tshig dang don ma lus pa blo'i me long la gsal bar byed pa</rs> || <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">nye ba 'khor lta bu'i bla ma rnams</rs> kyi zhabs kyi rdul spyi bos nod pa || <lb edRef="inst:7313" n="65a8"/>
+            <rs type="person" ana="corpusmd:named_reference" ref="db:3967">shag kya'i dge slong brtson 'grus dbang phyug</rs> gis bkod pa'o || || rdzogs s+ho ||  ||</seg></ab>
+      </body>
+      
+   </text>
 </TEI>

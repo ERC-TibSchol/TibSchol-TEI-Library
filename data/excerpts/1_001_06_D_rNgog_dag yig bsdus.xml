@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader><fileDesc>
+   <teiHeader>
+      <fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">dag yig nyer mkho bsdus pa</title>
+            <title type="main" xml:lang="bo-Latn-x-wylie">dag yig nyer mkho bsdus pa</title>
             <author ref="db:3786">rngog blo ldan shes rab</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:PH">Pascale Hugon</name>
@@ -23,10 +30,10 @@
             </respStmt>
             <respStmt>
                <resp>APIS named entitites database implementation</resp>
-               <name ref="corpusmd:SR">Stephan Resch</name>
+               <name ref="corpusmd:SR">Stefan Resch</name>
             </respStmt>
             <respStmt>
-               <resp>XML editor cumstomization</resp>
+               <resp>XML editor customization</resp>
                <name ref="corpus.:DStx">Daniel Stoxreiter</name>
             </respStmt>
             <respStmt>
@@ -37,13 +44,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            </titleStmt>
+         </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="public">
+            <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -52,22 +59,29 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height"></dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dbu can.&#13;
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">1_001_06</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dbu can.&#13;
 Lines per folio: 6; 7 on fol. 86, 5 on fol. 9a.&#13;
 Orthography:&#13;
 - Occasional abbreviations (e.g., for so sor, 'phul lo, gnyis su, las kyi)&#13;
 - Bindu used a few times for final –m&#13;
 A few short insertions (corrections). Long insertion of a missing passage in the bottom margin on fol. 5a.&#13;
 Proofread once.&#13;
-Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sourceDesc>
-      <respStmt><principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            </respStmt><respStmt><funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
-            </respStmt></fileDesc>
+Indigenous catalogue marking: 3(9?)8 on cover page.</p>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
@@ -102,40 +116,39 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
-      <profileDesc>
-			</profileDesc>
-      </teiHeader>
-  <text>
-    <body>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex1062023-05-241645" status="finalized"><milestone unit="section" n="Cover page (1a)"/><pb n="1a"/><lb n="1a1"/><unclear>368</unclear> <lb n="1a2"/> || 
-         <rs type="work" ana="corpusmd:named_reference" ref="db:4433">dag yig nye mkho bsdus <choice><corr>pa</corr><sic>pe</sic></choice><note type="editorial">A vowel <mentioned>e</mentioned> was mistakenly added to <mentioned>pa</mentioned>, no deletion is visible.</note></rs> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">shAkya'i dge slong blo ldan shes rab</rs> kyis mdzad pa <abbr>bzhugs so</abbr> ||</seg>
+      <profileDesc/>
+   </teiHeader>
+   <text>
+      <body>
+         <ab xml:space="preserve" type="cover_page">
+         <seg type="excerpt" xml:id="ex1062023-05-241645" status="finalized"><milestone unit="section" n="Cover page (1a)"/><pb n="1a"/><lb n="1a1"/><unclear>368</unclear> <lb n="1a2"/> || 
+         <rs type="work" ana="corpusmd:named_reference" ref="db:4433">dag yig nye mkho bsdus <choice><corr>pa</corr><sic>pe</sic></choice><note type="editorial">A vowel <mentioned>e</mentioned> was mistakenly added to <mentioned>pa</mentioned>, no deletion is visible.</note></rs> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">shAkya'i dge slong blo ldan shes rab</rs> kyis mdzad pa <expan>bzhugs so</expan> ||</seg>
          </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex1062023-05-241649" status="finalized">
+         
+         <ab xml:space="preserve" type="incipit">
+         <seg type="excerpt" xml:id="ex1062023-05-241649" status="finalized">
          <milestone unit="section" n="Incipit (1b1–1b2)"/>
-         <pb n="1b"/><lb n="1b1"/> na mo <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">gu ru</rs> | <rs type="work" ana="corpusmd:named_reference" ref="db:4433">dag yig nyer mkho bsdus pa</rs> <abbr>bzhugs</abbr> zhes bya ba |
+         <pb n="1b"/><lb n="1b1"/> na mo <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">gu ru</rs> | <rs type="work" ana="corpusmd:named_reference" ref="db:4433">dag yig nyer mkho bsdus pa</rs> <expan>bzhugs</expan> zhes bya ba |
          <rs type="deity">'jam pa'i dbyangs</rs> la phyag 'tshal lo ||</seg>
          
-         </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex1062023-05-241653" status="finalized">'dir nye bar mkho ba'i yi <choice><reg>ge</reg><orig>ga</orig></choice> 'di'i ming 'di zhes bya zhing | 
+         <seg type="excerpt" xml:id="ex1062023-05-241653" status="finalized">'dir nye bar mkho ba'i yi <choice><reg>ge</reg><orig>ga</orig></choice> 'di'i ming 'di zhes bya zhing | 
          don 'di brjod pa la tshig 'di <lb n="1b2"/> dang 'di 'jug go zhes bde blag tu rtog par bya ba'i phyir <rs type="work" ana="corpusmd:unnamed_reference" ref="db:4433">bstan bcos 'di</rs> rtsom mo</seg>
          </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="shared" xml:id="ex001062025-09-2516-03-15" status="finalized">
+         
+         <ab type="text_body">
+         <seg type="shared" xml:id="ex001062025-09-2516-03-15" status="finalized">
          <milestone unit="section" n="Body of the text (1b2–9a2)"/></seg>
 
-         </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="shared" xml:id="ex1062023-05-241654" status="finalized">
+         <ab>
+         <seg type="shared" xml:id="ex1062023-05-241654" status="finalized">
          <milestone unit="section" n="Programmatory verse (1b2–1b3)"/> 
          de la 
          <lg><l><rs type="work" ana="corpusmd:unnamed_reference" ref="db:4433">bstan bcos 'di</rs>'i sdom tshig ni |</l> <l>spyir bstan grangs nges tshig phrad dang |</l> <l>'phul dang brten pa'i spang blang dang |</l> <l>dmigs gsal <lb n="1b3"/> so sor dbye ba ste ||</l> <l>rnam pa lnga yis bsdus pa yin ||</l> </lg>
          zhes bya'o ||</seg>
          </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="shared" xml:id="ex1062026-03-0917-08-43" status="reviewed"><milestone unit="section" n="1. spyir bstan (1b3–1b5)"/>
+         
+         <ab>
+         <seg type="shared" xml:id="ex1062026-03-0917-08-43" status="reviewed"><milestone unit="section" n="1. spyir bstan (1b3–1b5)"/>
          de la dang po ni |
          <lg><l>yi ge sum bcu bu ni bzhi ||</l><l> ya btags bdun ‹dang› ra btags bcu ||</l>
          <l>de bzhin 'og tu la btags drug || </l><l>wa btags <lb n="1b4"/> rnam pa bcu gnyis dang ||</l>
@@ -144,8 +157,8 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
          <l>steng 'og yi ge mu bzhi ste || </l><l><lb n="1b5"/> 'phul dang brten la mu gsum yin |</l></lg>
          zhes pa ni | bstan bcos 'di'i brjod bya gtso che ba spyir bstan pa'o ||</seg>
          </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="shared" xml:id="ex1062026-03-0917-08-44" status="reviewed"><milestone unit="section" n="2. grangs nges (1b5–3a4) "/>
+
+         <ab><seg type="shared" xml:id="ex1062026-03-0917-08-44" status="reviewed"><milestone unit="section" n="2. grangs nges (1b5–3a4) "/>
          da ni spyir bstan pa de dag rim pa bzhin du grangs nges pa'i tshul 'di dag yin no || zhes bshad par <lb n="1b6"/> bya ste |
     <lg>     <l>yi ge sum bcu dper brjod ni | a pha kho ni ja chang sha ||</l>
          <l>gcig pu za 'dzu de la he || </l><l>nya wa tsho yi ti ka re ||</l>
@@ -160,7 +173,7 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
          <l>bkra shis 'khrigs pa'i grwa sa 'dir || </l><l><lb n="2a3"/> dra sgos spras pa'i 'phred sgo can ||</l>
          <l>pho brang nang na smra mkhan bya || </l><l>ske ba bsring nas hrig ge blta ||</l>
          <l>la btags drug gi dper brjod ni | </l>
-         <l> kla klo klan pa slun po rnams || </l><l>zla bo brlag go <?oxy_comment_start comment="*"?><?oxy_comment_end?> bya ba slob ||</l>
+         <l> kla klo klan pa slun po rnams || </l><l>zla bo brlag go bya ba slob ||</l>
          <l><lb n="2a4"/> wa btags bcu gnyis de yang dper | </l></lg>
 
          <lg><l> kwa yi khwa mkhon grwa pa 'di ||</l><l>lan grangs bcwa brgyad rtswa khu 'byugs ||</l>
@@ -183,7 +196,8 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
          <l>ga yis 'phul ba bcu gcig dper | </l></lg>
 
          <lg><l> gtad du gdan sar <lb n="2b3"/> gnas pa'i tshe | </l><l>lan grangs gcig dang gnyis min par |</l>
-         <l>gtsug lag gzhung rnams blo la bzungs | g.yel m[e]d bde gshegs gsung rab bltas | </l>
+         <l>gtsug lag gzhung rnams blo la bzungs |</l>
+         <l>g.yel m[e]d bde gshegs gsung rab bltas | </l>
          <l> da yis 'phul ba drug gis dper | </l></lg>
 
          <lg><l> dkar po dge ba'i dngos <lb n="2b4"/> grub tu | </l><l>dpal 'byor dbang phyug mi dman thob |</l>
@@ -213,8 +227,8 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
          <l>ka dang ga dang nga bzhin no ||</l>
          zhes pa ni grangs nges rgyas par bstan pa'o ||||</seg>
          </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="shared" xml:id="ex1062026-03-0917-08-45" status="reviewed"><milestone unit="section" n="3. tshig phrad (3a4–5a4)"/>
+         
+         <ab><seg type="shared" xml:id="ex1062026-03-0917-08-45" status="reviewed"><milestone unit="section" n="3. tshig phrad (3a4–5a4)"/>
          da ni yi ge snga ma'i shugs kyis de'i rjes 'jug tu tshig 'di dang <lb n="3a5"/> 'di 'jug go zhes ji ltar thob tshul rim pa bzhin bshad pa ni | ¦
          <l>da ba sa kyi ga nga gi |</l> <l> na ma ra la gyi ste dper |</l>
          <l>khyod kyi rkyab kyi ngos kyi cha |</l> <l> bdag gi ga dong gi ngos na mchis |</l>
@@ -234,7 +248,7 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
          <l>skabs <lb n="3b4"/> 'gar na'i rjes su'ang kyang |</l> <l> bdag kyang 'bad kyang 'brel med pa'i |</l>
          <l>bya ba thob kyang des kyang ci |</l> <l> 'on kyang 'phral gyi 'tsho ba 'byung |</l>
          <l>nga 'a na ma ra la yang |</l> <l> yang yang skyes bu 'ga' yang ni |</l>
-         <l>byon yang <lb n="3b5"/> nam yang ma <?oxy_comment_start comment="*"?><?oxy_comment_end?>phrad de |</l> <l> slar yang mjal yang sbyan ma drangs |</l>
+         <l>byon yang <lb n="3b5"/> nam yang maphrad de |</l> <l> slar yang mjal yang sbyan ma drangs |</l>
          <l>'dogs can rkyang mthar phal cher 'ang |</l> <l> tshig rkang ma tshang yang ste dper |</l>
          <l>ci yang yong pa'i phug po yang |</l> <l> de 'dra bdag la 'byung ngu 'ang re |</l>
          <l><lb n="3b6"/> ga da ba cing sa mthar shing |</l> <l> phyug cing blun pa rgud cing 'gro |</l>
@@ -247,24 +261,18 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
          <l>gda' zhes 'di lta yin zhes pa 'am |</l> <l> 'di tsam zhes pa 'gyur zhes par |</l>
          <l>'khrul zhes ston pas legs gsungs zhes |</l> <l> mi mkhas pa zhes smra <lb n="4a3"/> zhes bshad |</l></seg>
          
-            </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex1062023-05-241655" status="finalized"><l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> sa mthar shes zhes zer |</l> <l> mi 'thad par mthong <rs type="person" ref="db:3786" ana="corpusmd:unnamed_reference"><choice><sic>kho ba</sic><corr>kho bo</corr></choice></rs>s 'dor |</l></seg>
+            <seg type="excerpt" xml:id="ex1062023-05-241655" status="finalized"><l><rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> sa mthar shes zhes zer |</l> <l> mi 'thad par mthong <rs type="person" ref="db:3786" ana="corpusmd:unnamed_reference"><choice><sic>kho ba</sic><corr>kho bo</corr></choice></rs>s 'dor |</l></seg>
          
-         </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex1062023-05-241656" status="finalized"><l>ga da ba cig sa mthar shig |</l> <l> rkyang pa'i rjes su 'ang yin te dper |</l> <l> shog cig sod cig rgyob cig ces |</l> <l> gyis shig <lb n="4a4"/> ces ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> smra |</l></seg>
-         </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="shared" xml:id="ex001062026-03-0917-13-50" status="reviewed"><l>nga 'a na ma ra la dagn |</l> <l> 'dogs can rnams kyi mthar zhig dper | </l>
+         <seg type="excerpt" xml:id="ex1062023-05-241656" status="finalized"><l>ga da ba cig sa mthar shig |</l> <l> rkyang pa'i rjes su 'ang yin te dper |</l> <l> shog cig sod cig rgyob cig ces |</l> <l> gyis shig <lb n="4a4"/> ces ni <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">kha cig</rs> smra |</l></seg>
+         <seg type="shared" xml:id="ex001062026-03-0917-13-50" status="reviewed"><l>nga 'a na ma ra la dagn |</l> <l> 'dogs can rnams kyi mthar zhig dper | </l>
          <l>cung zhig sdod la 'ga' zhig la |</l> <l> phrin zhig nam zhig bskur zhig ces |</l>
          <l>ngal zhig gsos la mdo zhig smros |</l> <l> <lb n="4a5"/> na ra la gsum rjes su ni |</l>
          <l>sgra bsgyur snga mas da drag bzhed |</l> <l> de tshe cing ces cig ‹'›thob kyang |</l>
-         <l>phyi ma rnams kyis da drag <?oxy_comment_start comment="*"?><?oxy_comment_end?>dor | 'on kyang na ra la gsum gyi |</l>
+         <l>phyi ma rnams kyis da dragdor | 'on kyang na ra la gsum gyi |</l>
          <l>rjes su zhing zhes zhig yin na'ang |</l> <l> <lb n="4a6"/> da drag nges par thob pa der | </l>
          <l>da drag sbyor ram mi sbyor yang |</l> <l> cing ces cig ces zhes ste dper |</l>
          <l>mkhas par mkhyen cing yon tan gyis |</l> <l> brgyan ces thob kyi ston cig ces |</l>
-         <l>zer cing mthong nas <pb n="4b"/><lb n="4b1"/> mtshar ces te |</l> <l> bdag kyang 'di 'drar <?oxy_comment_start comment="*"?><?oxy_comment_end?>gyur cig ces |</l>
+         <l>zer cing mthong nas <pb n="4b"/><lb n="4b1"/> mtshar ces te |</l> <l> bdag kyang 'di 'drargyur cig ces |</l>
          <l>smon lam btsal cing slob par ni | 'tshal ces zer gyis myur rtsol cig |</l>
          <l>ga da ba mthar ce na dang |</l> <l> sa mthar she na sbyar te dper |</l>
          <l>su 'dug ce na bla ma bzhugs |</l> <l> <lb n="4b2"/> ci 'chad ce na gdams pa ste |</l>
@@ -290,7 +298,7 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
          <l>rang la na ro sbyor te dper | </l>
          <l>khyod ni phyug po gshis bzang ngo ||</l> <l>gtong yang phod do ches grub bo || </l>
          <l>'khor yang 'dzom <lb n="5a2"/> mo bzhugs gda'o ||</l> <l> thugs kyang dal lo zhes thos so || </l>
-         <l>na ra gnyis la na ro dang |</l> <l> to zhes rnam<?oxy_comment_start comment="s"?><?oxy_comment_end?> <abbr>gnyis su</abbr> 'gyur dper | </l>
+         <l>na ra gnyis la na ro dang |</l> <l> to zhes rnam <expan>gnyis su</expan> 'gyur dper | </l>
          <l>bzhin ni zhes ni ra<anchor xml:id="a4"/> bstan to ||</l> <l> 
             ngo mtshar ro zhes gzhan zer to || </l>
          <l>rkyang pa 'dogs can <lb n="5a3"/> 'o ste dper |</l>
@@ -300,8 +308,8 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
          <l>ga yi rjes su tshig shad dang | <lb n="5a4"/> shad gang phal cher phyi tsheg spang | </l>
          zhes pa ni tshig phrad rgyas par bshad pa'o || || </seg>
          </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="shared" xml:id="ex001062026-03-0917-13-49" status="reviewed"><milestone unit="section" n="4. 'phul dang brten pa'i spang blang (5a4–5b3)"/>
+         
+         <ab><seg type="shared" xml:id="ex001062026-03-0917-13-49" status="reviewed"><milestone unit="section" n="4. 'phul dang brten pa'i spang blang (5a4–5b3)"/>
          da ni phul yig dang mtha' rten sbyar du rung ‹ba› dang | mi rung ba rnam par dbye ba bstan pa'i phyir smras pa |
          <l>tshogs pas chos gsum <lb n="5a5"/> byon pa ni |</l> <l> phal pa'i chang gis bzi ba yi |</l>
          <l>phun tshogs phrin las rim gro pa |</l> <l> sku khams khros dang khro ba dang |</l>
@@ -321,8 +329,12 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
          <l>phyi ma'i tshig gis shugs dag gis |</l> <l> <lb n="5b3"/> cung zad phan pas nges par sbyor | </l>
          zhes pa ni 'phul yig dang mtha' brten rnam par phye nas bstan pa'o ||</seg>
          </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="shared" xml:id="ex001062026-03-0917-05-33" status="reviewed"><milestone unit="section" n="Conclusion (9a2–9a4)"/>
+         
+         <gap reason="omitted"/>
+         </ab>
+
+         <ab>
+         <pb n="9a"/><lb n="9a2"/><seg type="shared" xml:id="ex001062026-03-0917-05-33" status="reviewed"><milestone unit="section" n="Conclusion (9a2–9a4)"/>
           <milestone unit="section" n="1"/>
          <lg><l>'di ni sngon gyi sgra bsgyur rnams | </l>
          <l>sbyor tshul 'thun pa'i brda la ni | </l>
@@ -341,10 +353,13 @@ Indigenous catalogue marking: 3(9?)8 on cover page.</additional></physDesc></sou
          <l>rnam dpyod blo gros goms<anchor xml:id="a11"/> pa yis | </l>
          <l>tshig gi<anchor xml:id="a12"/> sdeb sbyor legs par byas | </l></lg></seg>
          </ab>
-      <gap reason="omitted"/>
-      <ab><seg type="excerpt" xml:id="ex1062023-05-24.16.57" status="finalized" ana="corpusmd:colophon">
-         <milestone unit="section" n="Colophon (9a4–9a5)"/><rs type="work" ana="corpusmd:named_reference" ref="4433">dag yig nye mkho bsdus pa</rs> <pb n="9a"/><lb n="9a5"/> zhes bya ba | <rs type="person" ref="db:3786" ana="corpusmd:named_reference">shAkya'i dge slong blo ldan shes rab</rs> kyis phyogs gcig tu sdebs pa'o || || sarba mang+ga laM || <note type="gloss">1 <abbr>zhus so</abbr> <note type="editorial">Addition in dbu med.</note> ||</note></seg>
+      
+         <ab xml:space="preserve" type="colophon">
+         <pb n="9a"/><seg type="excerpt" xml:id="ex1062023-05-24.16.57" status="finalized" ana="corpusmd:colophon">
+         <milestone unit="section" n="Colophon (9a4–9a5)"/><rs type="work" ana="corpusmd:named_reference" ref="4433">dag yig nye mkho bsdus pa</rs> <pb n="9a"/><lb n="9a5"/> zhes bya ba | <rs type="person" ref="db:3786" ana="corpusmd:named_reference">shAkya'i dge slong blo ldan shes rab</rs> kyis phyogs gcig tu sdebs pa'o || || sarba mang+ga laM || <note type="gloss">1 <expan>zhus so</expan> <note type="editorial">Addition in dbu med.</note> ||</note></seg>
          </ab>
-    </body>
-  </text>
+
+      </body>
+      <gap reason="omitted"/>
+   </text>
 </TEI>

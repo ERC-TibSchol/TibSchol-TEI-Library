@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie">spring yig bdud rtsi'i thig pa</title>
+            <author ref="db:3786">rngog blo ldan shes rab</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:TD">Tsering Drongshar</name>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stefan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor customization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">1_001_14</idno>
+            <idno type="TibSchol">1_001_14b</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">1_001_14</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dpe tshugs.&#13;
+Lines per folio: 9 on fols. 1b and 2a; 1 on fol. 2b.&#13;
+No folio numbers.&#13;
+Orthography:&#13;
+- Abbreviations (e.g., for theg chen, bdud rtsi, phyogs su, 'bras bu, sdug bsngal, etc.)&#13;
+Bindu for m&#13;
+- Numerals used for numbers and for phonetic value (e.g., 4+n for bzhin)&#13;
+- Particle pa/ba occasionally takes the form pa after final –ng (phreng pa, snang pa)&#13;
+- Superabundant 'a rjes ’jug (e.g., dpe')&#13;
+- laswo for la sogs&#13;
+Insertions by two different hands, in dbu med (1b4, 2a7) and dbu can (2a1).</p>
+                           <dimensions unit="cm">
+                              <width>60.5</width>
+                              <height>9.5</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis" matchPattern="^(.+)$" replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per" matchPattern="^(.+)$" replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot" matchPattern="^(.+)$" replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd" matchPattern="^(.+)$" replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc/>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+        <ab type="variant">
+         
+         <ab>
+            <seg type="excerpt" xml:id="ex1142023-05-24.18.06" status="finalized">
+         <milestone unit="section" n="Cover page in (ID:4446) (1a)"/>
+         <pb edRef="inst:4446" n="1a"/><lb edRef="inst:4446" n="1a1"/>
+    phyi <lb edRef="inst:4446" n="1a2"/> la <lb edRef="inst:4446" n="1a3"/> 281 <lb edRef="inst:4446" n="1a4"/> <rs type="person" ref="db:3786" ana="corpusmd:named_reference">rngog lo chen po blo ldan shes rab</rs> kyi <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring yig <expan>bdud rtsi</expan>'i <expan>thig le</expan></rs> <choice><reg>zhugs so</reg><orig>(°°°o)</orig></choice></seg>
+   </ab>
+    
+    <ab>
+      <seg type="excerpt" xml:id="ex001142025-07-1710-57-23" status="finalized"><milestone unit="section" n="Cover page in (ID:6273) (1a)"/><pb edRef="inst:6273" n="1a"/><lb edRef="inst:6273" n="1a1"/> <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring yig bdud rtsi'i thigs pa</rs> <expan>bzhugs so</expan> ||</seg></ab>
+      </ab>
+
+         <ab type="variant">
+   <ab>
+      <seg type="excerpt" xml:id="ex001142025-07-1710-52-15" status="finalized"><milestone n="Incipit in (ID:6273)" unit="section"/>
+<lb edRef="inst:6273" n="1b1"/> rgya gar skad du || <rs type="work" ana="corpusmd:named_reference" ref="db:4447">le kha a mrï ta ti la ka nA ma kA ri ka</rs> || bod skad du || <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring yig bdud rtsi'i thigs pa</rs> zhes bya ba || 'jig rten dbang phyug la phyag 'tshal lo ||</seg>
+   </ab>
+</ab>
+
+         
+         
+ <gap reason="omitted"/>
+         
+         
+         
+         
+         
+         
+         
+        
+         
+       
+         
+       
+         
+         
+         
+        
+         
+         <lb n="1b7"/><seg type="excerpt" xml:id="ex1142023-05-25.09.22" status="finalized">
+         <milestone unit="section" n="10"/>
+        <lg> <l>chos rnaMs rang <expan>bzhin</expan> stong pa'i tshul la 'jug pa'i sgo || </l>
+<l> yang dag <rs type="work" ana="corpusmd:named_reference" ref="db:5632">rigs <expan>tshogs</expan></rs> <rs type="person" ref="db:3720" ana="corpusmd:named_reference">klu grub</rs> zhal nas gsungs pa de ||</l>
+         <l><rs type="person" ref="db:3773" ana="corpusmd:unnamed_reference">rigs pa'i dbang <lb n="1b8"/> phyug <rs type="work" ana="corpusmd:named_reference" ref="db:3772">rnaM 'grel</rs> mdzad pa</rs>'i gzhung mdzes las ||</l></lg>
+      </seg>
+      
+         <gap reason="omitted"/>
+         
+         
+         
+         
+         
+        
+         
+        
+         
+         
+         
+        
+         
+        
+         
+     
+         
+        
+         
+       
+         
+        
+         
+       
+         
+   
+         
+      
+         
+
+         
+      
+         
+         
+         
+         <pb n="2a"/><lb n="2a8"/><seg type="excerpt" xml:id="ex1142023-07-1812-11-35" status="finalized">
+         <milestone unit="section" n="27"/>
+        <lg> <l>
+            <expan>sangs rgyas</expan> sprul pa'i sku <expan>tshogs</expan> ni ||</l> 
+            <l>gzhan gyi rnaM rig snang pa<anchor xml:id="a21"/> ste ||</l> 
+            <l>brgya byin <expan>gzugs</expan> brnyan <expan>la sogs</expan> dpe' ||</l> 
+            <l><rs type="work" ana="corpusmd:unnamed_reference" ref="db:5633">mdo</rs> nas ji skad gsung de <expan>bzhin</expan> ||</l></lg></seg>
+         
+
+         
+         
+         <gap reason="omitted"/>
+         
+      
+
+         <ab xml:space="preserve" type="colophon">
+            <ab type="variant">
+               <ab>
+         <pb edRef="4446" n="2b"/><lb edRef="4446" n="2b1"/><seg type="excerpt" xml:id="ex1114_3442023_05_08" status="finalized" ana="corpusmd:colophon">
+         <milestone unit="section" n="Colophon in instance (ID:4446) (2b1)"/>
+         <rs type="person" ref="db:3786" ana="corpusmd:named_reference">dge slong blo ldan shes rab</rs> kyis || <rs type="person" ana="corpusmd:named_reference" ref="db:5630">rga ston shes rab grags laswo pa</rs> <rs type="place" ana="corpusmd:named_reference" ref="db:5631">gtsong kha ru gsuM</rs> gyi dge 'dun la <rs type="work" ana="corpusmd:named_reference" ref="db:4447">spring pa'i <expan>yi ge</expan> bdud rtsi thig le</rs> zhes bya ba <expan>rdzogs s+ho</expan> ||</seg></ab>
+<ab>
+   <seg type="excerpt" xml:id="ex001142025-07-1711-14-01" status="edited" ana="corpusmd:colophon">
+   <milestone unit="section" n="Colophon in instance (ID:6273) (2b4-2b5)"/>
+   <rs type="person" ref="db:3786" ana="corpusmd:named_reference">lo tsa ba chen po shAkya'i dge slong blo ldan shes rab</rs> kyis || <rs type="person" ana="corpusmd:named_reference" ref="db:5630">dga' <lb edRef="6273" n="2b5"/> ston shes rab grags</rs> la sogs pa <rs type="place" ana="corpusmd:named_reference" ref="db:5631">tsong ka ru gsum</rs> gyi dge 'dun la <rs type="work" ana="corpusmd:named_reference" ref="db:4447">springs pa'i yi ge bdud rtsi'i thig le</rs> zhes bya ba rdzogs so || || </seg>
+</ab>
+
+      </ab>
+         </ab>
+<ab type="variant"><ab><seg type="excerpt" xml:id="ex001142025-07-1711-14-02" status="reviewed">
+   <milestone unit="section" n="Carving Colophon in (ID:6273) only (2b-5)"/>
+<lg><l>stong nyid 'chi med bdud rtsi'i bcud || </l>
+<l>thugs skyed dpag bsam 'dod 'jor ni || </l>
+<l>gang drangs rkos byed dga' bde'i dpal ||</l> 
+<l>bris pa <rs type="person" ana="corpusmd:named_reference" ref="db:6275">shes rab bzang po</rs> yin | </l></lg>
+shubhaM ||</seg></ab></ab>
+
+</ab>
+              </body>
+      <gap reason="omitted"/>
+   </text>
+</TEI>

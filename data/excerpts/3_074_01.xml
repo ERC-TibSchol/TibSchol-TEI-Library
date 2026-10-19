@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader><fileDesc>
+   <teiHeader>
+      <fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">mngon par rtogs pa'i rgyan gyi rnam bshad legs par bshad pa rin po che'i snang ba</title>
+            <title type="main" xml:lang="bo-Latn-x-wylie">mngon par rtogs pa'i rgyan gyi rnam bshad legs par bshad pa rin po che'i snang ba</title>
             <author ref="db:3929">dge ba'i bshes gnyen kun dga' rgyal mtshan</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>
@@ -22,10 +29,10 @@
             </respStmt>
             <respStmt>
                <resp>APIS named entitites database implementation</resp>
-               <name ref="corpusmd:SR">Stephan Resch</name>
+               <name ref="corpusmd:SR">Stefan Resch</name>
             </respStmt>
             <respStmt>
-               <resp>XML editor cumstomization</resp>
+               <resp>XML editor customization</resp>
                <name ref="corpus.:DStx">Daniel Stoxreiter</name>
             </respStmt>
             <respStmt>
@@ -36,13 +43,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            </titleStmt>
+         </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="public">
+            <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -52,18 +59,29 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">47 x 7</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: 'bru tsha.&#13;
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">1_028_01</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: 'bru tsha.&#13;
 Number on the last folio: 199.&#13;
 Folio 162 is doubled into 162 and 162 'og.&#13;
-Annotation in dbu can at the end of the last folio: dang sdeb sbyor.</additional></physDesc></sourceDesc>
-      <respStmt><principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            </respStmt><respStmt><funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
-            </respStmt></fileDesc>
+Annotation in dbu can at the end of the last folio: dang sdeb sbyor.</p>
+                           <dimensions unit="cm">
+                              <width>47</width>
+                              <height>7</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
@@ -98,10 +116,25 @@ Annotation in dbu can at the end of the last folio: dang sdeb sbyor.</additional
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
-      <profileDesc>
-			</profileDesc>
-      </teiHeader>
-  <text>
-    <body/>
-  </text>
+      <profileDesc/>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <gap reason="omitted"/>
+         
+         
+         
+         
+          <ab xml:space="preserve" type="colophon"> 
+        <lb n="199b6"/><seg type="excerpt" xml:id="ex074012025-11-2510-59-48" status="reviewed" ana="corpusmd:colophon"> <milestone unit="section" n="Colophon (199b5-199b8)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:4663"><rs type="work" ana="corpusmd:named_reference" ref="db:3706">shes rab kyi pha rol tu phyin pa'i man ngag gi <expan>bstan bcos</expan> mngon par rtogs pa'i rgyan</rs> gyi rnam bshad legs par bshad pa rin po che'i snang ba</rs> zhes bya ba | 
+        <rs type="person" ana="corpusmd:named_reference" ref="db:6409">'gro ba'i mgon <lb n="199b7"/> po zhang rin po che</rs>'i bu chen ¦ 
+      <rs type="person" ana="corpusmd:named_reference" ref="db:8391">bla ma grub thob ti shri ras pa</rs>'i dbon po sngags mtshan nyid kyi yon tan du ma dang ldan pa <rs type="person" ana="corpusmd:named_reference" ref="db:3929">dge ba'i <expan>bshes gnyen</expan> kun dga' rgyal mtshan</rs> zhes bya bas snyim pa me tog dang bcas nas yang dang yang du gsol <lb n="199b8"/> ba btab pa'i ngor | <rs type="person" ana="corpusmd:unnamed_reference" ref="db:4593">dpal ldan bla ma dam pa rnams</rs> kyi thugs dgongs rdzogs pa'i phyir ¦ 
+      yongs 'dzin gyi dge ba'i bshes gnyen dka' 4 'dzin pa la stod<rs type="person" ana="corpusmd:named_reference" ref="db:4075"> pa rgyal ba bzang po</rs>s kyang dang dngos cher × byas nas bskul byed <note type="gloss">dang sdeb sbyor </note> kyi rkyen sbyar te ° bde <note type="translation">At the request of the spiritual friend Kun dga' rgyal mtshan, who possesses numerous qualities of mantra and philosophical learning, a nephew of the accomplished master Ti Shri Res pa and a close disciple of the protector of beings Zhang Rin po che, who repeatedly made requests with palms joined together with flowers directly [to me]; for the sake of fulfilling the intentions of the glorious and holy masters; the tutor and spiritual friend praised as an upholder of the four [treatises], called rGyal ba bzang po, encouraged, checked, and provided the [material] conditions for this work... </note> </seg></ab>
+         
+         
+      </body>
+      
+   </text>
 </TEI>

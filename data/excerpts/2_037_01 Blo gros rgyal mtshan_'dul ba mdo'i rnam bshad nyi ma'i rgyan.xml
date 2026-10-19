@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader><fileDesc>
+   <teiHeader>
+      <fileDesc>
          <titleStmt>
-				<title type="main" xml:lang="bo-Latn-x-wylie">'dul ba mdo'i rnam bshad mdo nyi ma'i rgyan</title>
+            <title type="main" xml:lang="bo-Latn-x-wylie">'dul ba mdo'i rnam bshad mdo nyi ma'i rgyan</title>
             <author ref="db:7232">blo gros rgyal mtshan (2)</author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
             <respStmt>
                <resp>Transcribed by</resp>
                <name ref="corpusmd:"/>
@@ -22,10 +29,10 @@
             </respStmt>
             <respStmt>
                <resp>APIS named entitites database implementation</resp>
-               <name ref="corpusmd:SR">Stephan Resch</name>
+               <name ref="corpusmd:SR">Stefan Resch</name>
             </respStmt>
             <respStmt>
-               <resp>XML editor cumstomization</resp>
+               <resp>XML editor customization</resp>
                <name ref="corpus.:DStx">Daniel Stoxreiter</name>
             </respStmt>
             <respStmt>
@@ -36,13 +43,13 @@
                <resp>Technical Supervision</resp>
                <name ref="corpusmd:DS">Daniel Schopper</name>
             </respStmt>
-            </titleStmt>
+         </titleStmt>
          <editionStmt>
             <edition>Digital Edition in Wylie with TEI Markup</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Academy of Sciences</publisher>
-            <availability status="public">
+            <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
                </licence>
@@ -51,15 +58,26 @@
             <date>2023</date>
          </publicationStmt>
          <sourceDesc>
-            <p/>
-         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" scope="width x height">57 x 9.2</dimensions></support></supportDesc></objectDesc><additional n="Item description">Script: dpe tshugs.</additional></physDesc></sourceDesc>
-      <respStmt><principal>
-               <name ref="corpusmd:PH">Pascale Hugon</name>
-            </principal>
-            </respStmt><respStmt><funder>
-               <name ref="https://ror.org/0472cxd90">European Research Council</name>
-            </funder>
-            </respStmt></fileDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="TibSchol">2_037_01</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Script: dpe tshugs.</p>
+                           <dimensions unit="cm">
+                              <width>57</width>
+                              <height>9.2</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
       <encodingDesc>
          <tagsDecl partial="true">
             <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
@@ -94,10 +112,22 @@
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
-      <profileDesc>
-			</profileDesc>
-      </teiHeader>
-  <text>
-    <body/>
-  </text>
+      <profileDesc/>
+   </teiHeader>
+   <text>
+      <body>
+                  
+         <gap reason="omitted"/>
+         
+         
+         
+          
+         <ab xml:space="preserve">
+            
+         <lb n="225a2"/><seg type="excerpt" status="finalized" xml:id="ex37012023-09-11-145230" ana="corpusmd:colophon">
+         <milestone unit="section" n="Colophon (225a2-225a7)"/>
+        <rs type="work" ana="corpusmd:named_reference" ref="db:4728">'dul ba'i mdo'i rnam bshad mdo'i nyi ma'i rgyan</rs> zhes <lb n="225a3"/> bya ba 'di ni ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4311">'dul ba 'dzin pa stan 1 pa <expan>nam mkha'</expan> <expan>rin chen</expan></rs> dang | <rs type="person" ana="corpusmd:named_reference" ref="db:4593">lung <expan>rigs</expan> smra ba grub pa <expan>seng ge</expan></rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4593">dka' bcu 'dzin pa <expan>dpal ldan</expan> <expan>seng ge</expan></rs> ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4593">'dul ba 'dzin pa <expan>byang chub</expan> dpal</rs> <expan>la sogs</expan> pa don du gnyer <expan>ba'i</expan> <rs type="person" ana="corpusmd:named_reference" ref="db:4593">slob ma rnams</rs> kyi bskul <expan>ba'i</expan> ngor ¦ mkhyen rabs <lb n="225a4"/> dang <expan>thugs rje'i</expan> mnga' bdag lhar bcas 'gro ba <expan>kun gyi</expan> <expan>gtsug gi</expan> <expan>nor bu</expan> <expan>mkhan chen</expan> <expan>rin po che'i</expan> <expan>byin gyis</expan> brlabs shing 'dul ba 'buM sde'i mnga' bdag <rs type="person" ana="corpusmd:named_reference" ref="db:4003">'dul ba 'dzin pa dmar ston <expan>dpal ldan</expan> <expan>rin chen</expan></rs> dang ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4004">'dul ba 'dzin pa <expan>nam mkha'</expan> <expan>rgyal mtshan</expan></rs> gyi sku drin la <choice><orig><expan>rten nas</expan></orig><reg>brten nas</reg></choice> ¦ <rs type="work" ana="corpusmd:named_reference" ref="db:6821">'dul <lb n="225a5"/> ba mdo rtsa <expan>ba</expan></rs><expan>'i</expan> tshig don la <expan>blo gros kyi</expan> snang ba <expan>cung zad</expan> 'ched pa <rs type="person" ana="corpusmd:named_reference" ref="db:4002"><expan>dge slong</expan> <expan>blo gros</expan> <expan>rgyal mtshan</expan></rs> gyis ¦ <rs type="person" ana="corpusmd:named_reference" ref="db:4593"><expan>dpal ldan</expan> bla ma</rs>s <expan>byin gyis</expan> brlabs <expan>pa'i</expan> gdan sa ¦ <rs type="place" ana="corpusmd:named_reference" ref="db:5748">yol <expan>rin chen</expan> gling <expan>gi gtsug</expan> lag khang</rs> du <hi rendition="#Time">lnga brgya phrag brgyad pa'i drug bcu re 3 pa ¦ sa mo bya ¦ zhi <expan>ba'i</expan> lo <note type="editorial">This is a translation of the Sanskrit “saumya”. An epithet of the 43rd year in a rang byung cycle, the sa mo bya lo “Female Earth Bird Year”. From: mkhan rgyud rnam gsum byon tshul gyi rnam thar, f. 24a; Heimbel, “The Jo gdan tshogs sde bzhi: An Investigation into the History of the Four Monastic Communities in Śākyaśrībhadra's Vinaya Tradition” Nepalica-Tibetica: Festgabe for Christoph Cüppers.</note> <lb n="225a6"/> dbyar zla ra <expan>ba<anchor xml:id="a3"/>'i</expan> yar ngo'i tshes 3<anchor xml:id="a4"/></hi> la zin <expan>bris su</expan> bkod pa'o || <expan>mkhan chen</expan> <expan>rin po che nas</expan> 'dis pha mas gtso byas <expan>pa'i</expan> <expan>sems can</expan> <expan>thams cad</expan> kyis <expan>thams cad</expan> mkhyen <expan>pa'i</expan> go 'phang myur du thob par gyur cig | <expan>yi ge</expan> pa ni <rs type="person" ana="corpusmd:named_reference" ref="db:4729">shAkya'i <expan>dge slong</expan> <expan>blo gros</expan> <expan>seng ge</expan></rs>'o || <expan>phyogs</expan> dus gnas <lb n="225a7"/> skabs <expan>thams cad</expan> du <expan>bkra shis</expan> par <choice><orig>gyu</orig><reg>gyur</reg></choice> cig | × dge'o || <note type="editorial">There are a few lines of Lantsa before the 'dge'o'</note></seg></ab>
+      </body>
+      <gap reason="omitted"/>
+   </text>
 </TEI>
